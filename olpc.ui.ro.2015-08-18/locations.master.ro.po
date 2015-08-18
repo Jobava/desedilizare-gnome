@@ -9389,7 +9389,7 @@ msgid "Palikir"
 msgstr "Palikir"
 
 #. The capital of Moldova
-msgid "Chişinău"
+msgid "Chișinău"
 msgstr "Chișinău"
 
 #. The capital of Monaco
@@ -10181,7 +10181,7 @@ msgstr "Baia Mare"
 
 #. The capital of Romania.
 #. "Bucharest" is the traditional English name.
-#. The local name in Romanian is "Bucureşti".
+#. The local name in Romanian is "București".
 #.
 msgid "Bucharest"
 msgstr "București"
@@ -10195,7 +10195,7 @@ msgid "Craiova"
 msgstr "Craiova"
 
 #. A city in Romania
-msgid "Iaşi"
+msgid "Iași"
 msgstr "Iași"
 
 #. A city in Romania
@@ -10219,7 +10219,7 @@ msgid "Suceava"
 msgstr "Suceava"
 
 #. A city in Romania
-msgid "Timişoara"
+msgid "Timișoara"
 msgstr "Timișoara"
 
 #. A city in Romania
@@ -10227,7 +10227,7 @@ msgid "Tulcea"
 msgstr "Tulcea"
 
 #. A city in Romania
-msgid "Târgu-Mureş"
+msgid "Târgu-Mureș"
 msgstr "Târgu-Mureș"
 
 #. A city in Russia.
@@ -11753,7 +11753,7 @@ msgstr "Erzurum"
 
 #. A city in Turkey
 msgid "Eskisehir"
-msgstr "Eskişehir"
+msgstr "Eskișehir"
 
 #. A city in Turkey
 msgid "Gaziantep"

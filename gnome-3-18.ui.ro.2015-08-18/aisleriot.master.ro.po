@@ -75,7 +75,7 @@ msgid ""
 "Select whether to drag the cards or to click on the source then the "
 "destination."
 msgstr ""
-"Selectați ori să trageți cărți sau să faceţi click pe sursă iar dupa pe "
+"Selectați ori să trageți cărți sau să faceți click pe sursă iar dupa pe "
 "destinație."
 
 #: ../src/aisleriot.schemas.in.h:7
@@ -305,7 +305,7 @@ msgstr "%s în rezervă"
 #, c-format
 msgctxt "slot hint"
 msgid "%s on foundation"
-msgstr "%s în fundaţie"
+msgstr "%s în fundație"
 
 #. Translators: %s is the name of the card; "reserve" is the name of a type of card slot
 #: ../src/game.c:1482
@@ -3626,7 +3626,7 @@ msgid ""
 "Aim to place the suits in the order which fits the current layout most "
 "naturally."
 msgstr ""
-"Țintește pentru a plasa perechile în ordinea în care fiecare se potriveşte "
+"Țintește pentru a plasa perechile în ordinea în care fiecare se potrivește "
 "cu aspectul actual cel mai natural."
 
 #: ../games/napoleons-tomb.scm:357
@@ -3818,7 +3818,7 @@ msgstr "Mută o adunare de cărți pe un tablou conector gol"
 #~ msgstr "Dezactivați conexiunea la sesiunea administrator"
 
 #~ msgid "Specify file containing saved configuration"
-#~ msgstr "Specificaţi fișierul care conține configurarea salvată"
+#~ msgstr "Specificați fișierul care conține configurarea salvată"
 
 #~ msgid "FILE"
 #~ msgstr "FIȘIER"

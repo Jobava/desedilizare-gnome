@@ -4775,7 +4775,7 @@ msgstr "Fișiere"
 
 #: ../plugins/file-wizard/anjuta-file-wizard.plugin.in.h:1
 msgid "File Assistant"
-msgstr "Asistent fişiere"
+msgstr "Asistent fișiere"
 
 #: ../plugins/file-wizard/anjuta-file-wizard.plugin.in.h:2
 msgid "Anjuta File Assistant Plugin"

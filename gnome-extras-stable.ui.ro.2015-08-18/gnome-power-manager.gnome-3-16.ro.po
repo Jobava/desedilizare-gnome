@@ -55,7 +55,7 @@ msgstr "Timpul maxim afișat în istoric"
 #: ../data/org.gnome.power-manager.gschema.xml.h:8
 msgid ""
 "The maximum duration of time displayed on the x-axis of the history graph."
-msgstr "Durata maximă de timp afişată pe axa-x a graficului istoricului."
+msgstr "Durata maximă de timp afișată pe axa-x a graficului istoricului."
 
 #: ../data/org.gnome.power-manager.gschema.xml.h:9
 msgid "Whether we should show the stats data points"

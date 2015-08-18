@@ -678,7 +678,7 @@ msgstr "Stare"
 #~ msgstr "Re&testează..."
 
 #~ msgid "Delete"
-#~ msgstr "Şterge"
+#~ msgstr "Șterge"
 
 #, fuzzy
 #~ msgid "Send To..."

@@ -3781,7 +3781,7 @@ msgstr "Nuexistă conturi online configurate"
 
 #: ../panels/online-accounts/online-accounts.ui.h:3
 msgid "Remove Account"
-msgstr "Şterge cont"
+msgstr "Șterge cont"
 
 #: ../panels/online-accounts/online-accounts.ui.h:4
 msgid "Add an online account"

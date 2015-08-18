@@ -310,7 +310,7 @@ msgstr "Deselecteaza toate fisierele"
 #, fuzzy
 #| msgid "Stop the current action"
 msgid "Clear the current selection"
-msgstr "Opreşte acţiunea curentă"
+msgstr "Oprește acțiunea curentă"
 
 #: ../src/bar.c:214
 #, fuzzy
@@ -569,7 +569,7 @@ msgstr "Redenumeste directorul..."
 #, fuzzy
 #| msgid "Rename the directory"
 msgid "Rename directory"
-msgstr "Redenumeşte directorul"
+msgstr "Redenumește directorul"
 
 #: ../src/bar.c:269
 msgid "Reload Directory"
@@ -590,7 +590,7 @@ msgstr "Navighează directorul cu ..."
 #, fuzzy
 #| msgid "Rename the directory"
 msgid "Run a command on the directory"
-msgstr "Redenumeşte directorul"
+msgstr "Redenumește directorul"
 
 #: ../src/bar.c:276
 msgid "_Collapse Tree"
@@ -600,7 +600,7 @@ msgstr "_Pliaza arborele"
 #, fuzzy
 #| msgid "Use directory name"
 msgid "Collapse directory tree"
-msgstr "Foloseşte numele de director"
+msgstr "Folosește numele de director"
 
 #: ../src/bar.c:278
 #, fuzzy
@@ -651,7 +651,7 @@ msgstr "Încarca numele de fisiere din TXT..."
 #, fuzzy
 #| msgid "Load the filenames from a TXT file"
 msgid "Load filenames from a text file"
-msgstr "Încarcă numele de fişier dintr-un fişier TXT"
+msgstr "Încarcă numele de fișier dintr-un fișier TXT"
 
 #: ../src/bar.c:294
 #, fuzzy
@@ -686,7 +686,7 @@ msgstr "_Preferinte..."
 #: ../src/bar.c:303 ../src/prefs.c:110
 #, fuzzy
 msgid "Preferences"
-msgstr "Preferinţe..."
+msgstr "Preferințe..."
 
 #: ../src/bar.c:305
 msgid "_View"
@@ -721,7 +721,7 @@ msgstr "Despre"
 #.
 #: ../src/bar.c:320
 msgid "Stop the current action"
-msgstr "Opreşte acţiunea curentă"
+msgstr "Oprește acțiunea curentă"
 
 #.
 #. * Popup menu's Actions
@@ -789,13 +789,13 @@ msgstr "Examinator"
 #, fuzzy
 #| msgid "File Browser"
 msgid "Tree Browser"
-msgstr "Navigator de fişiere"
+msgstr "Navigator de fișiere"
 
 #: ../src/bar.c:356
 #, fuzzy
 #| msgid "Use directory name"
 msgid "View by directory tree"
-msgstr "Foloseşte numele de director"
+msgstr "Folosește numele de director"
 
 #: ../src/bar.c:358
 #, fuzzy
@@ -836,7 +836,7 @@ msgstr "_Prelucreaza cimpurile"
 
 #: ../src/bar.c:370 ../src/scan_dialog.c:184
 msgid "Process Fields"
-msgstr "Prelucrează fişierele"
+msgstr "Prelucrează fișierele"
 
 #: ../src/bar.c:428
 #, c-format
@@ -850,18 +850,18 @@ msgstr "Gata să pornesc..."
 
 #: ../src/browser.c:376
 msgid "New default path for files selected"
-msgstr "Nouă cale implicită pentru fişierele alese"
+msgstr "Nouă cale implicită pentru fișierele alese"
 
 #: ../src/browser.c:695 ../src/easytag.c:4613
 #, fuzzy
 msgid "Some files have been modified but not saved"
-msgstr "Toate fişierele au fost salvate..."
+msgstr "Toate fișierele au fost salvate..."
 
 #: ../src/browser.c:696
 #, fuzzy
 msgid "Do you want to save them before changing the directory?"
 msgstr ""
-"Doriţi să redenumiţi fişierul \n"
+"Doriți să redenumiți fișierul \n"
 "'%s'\n"
 "în \n"
 "'%s' ?"
@@ -888,7 +888,7 @@ msgstr "Arbore"
 #, fuzzy
 #| msgid "File Name"
 msgid "Filename"
-msgstr "Numele fişierlui"
+msgstr "Numele fișierlui"
 
 #: ../src/browser.c:3225 ../src/cddb.c:804 ../src/misc.c:1904
 #: ../src/prefs.c:643
@@ -969,12 +969,12 @@ msgstr "# Fisiere"
 
 #: ../src/browser.c:3260
 msgid "Enter a directory to browse."
-msgstr "Introduceţi un director de navigat."
+msgstr "Introduceți un director de navigat."
 
 #: ../src/browser.c:3269
 #, fuzzy
 msgid "Select a directory to browse."
-msgstr "Alegeţi un director de navigat!"
+msgstr "Alegeți un director de navigat!"
 
 #.
 #. * The label for displaying number of files in path (without subdirs)
@@ -984,7 +984,7 @@ msgstr "Alegeţi un director de navigat!"
 #, fuzzy
 #| msgid "No file to parse"
 msgid "No files"
-msgstr "Nici un fişier de examinat"
+msgstr "Nici un fișier de examinat"
 
 #: ../src/browser.c:3354
 msgid "Artist & Album"
@@ -1000,7 +1000,7 @@ msgstr "Redenumeste directorul..."
 #, fuzzy, c-format
 #| msgid "Rename the directory '%s' to : "
 msgid "Rename the directory '%s' to:"
-msgstr "Redenumeşte directorul '%s' : "
+msgstr "Redenumește directorul '%s' : "
 
 #: ../src/browser.c:3760 ../src/misc.c:1172
 #, fuzzy
@@ -1019,20 +1019,20 @@ msgid ""
 "Select or type in a mask using codes (see Legend in Scanner Window) to "
 "rename the directory from tag fields."
 msgstr ""
-"Alegeţi sau introduceti un mask folosind codurile (vezi legenda) pentru a "
-"examina numele de fişiere şi calea. Folosit pentru a completa cîmpurile "
+"Alegeți sau introduceti un mask folosind codurile (vezi legenda) pentru a "
+"examina numele de fișiere și calea. Folosit pentru a completa cîmpurile "
 "etichetei."
 
 #. Preview label
 #: ../src/browser.c:3805
 #, fuzzy
 msgid "Rename directory preview"
-msgstr "Previziualizează redenumirea fişierului"
+msgstr "Previziualizează redenumirea fișierului"
 
 #: ../src/browser.c:3897
 #, fuzzy
 msgid "You must type a directory name"
-msgstr "Trebuie să introduceţi un nume de director!"
+msgstr "Trebuie să introduceți un nume de director!"
 
 #: ../src/browser.c:3898 ../src/browser.c:3919
 #, fuzzy
@@ -1053,7 +1053,7 @@ msgstr ""
 #, fuzzy, c-format
 msgid "The directory name '%s' already exists"
 msgstr ""
-"Fişierul playlist '%s' există deja!\n"
+"Fișierul playlist '%s' există deja!\n"
 "Suprascriu?"
 
 #: ../src/browser.c:3989 ../src/easytag.c:2962
@@ -1085,7 +1085,7 @@ msgstr "Program de executat :"
 msgid ""
 "Enter the program to run. It will receive the current directory as parameter."
 msgstr ""
-"Introduceţi programul de executat. O să primească directorul curent ca "
+"Introduceți programul de executat. O să primească directorul curent ca "
 "parametru."
 
 #: ../src/browser.c:4252
@@ -1097,7 +1097,7 @@ msgstr "Deschide fisierul cu ..."
 msgid ""
 "Enter the program to run. It will receive the current file as parameter."
 msgstr ""
-"Introduceţi programul de executat. El va primi fişierul curent ca parametru."
+"Introduceți programul de executat. El va primi fișierul curent ca parametru."
 
 #: ../src/cddb.c:313
 msgid "Artist / Album"
@@ -1182,7 +1182,7 @@ msgstr "Cuvinte :"
 
 #: ../src/cddb.c:429
 msgid "Enter the words to search (separated by a space or '+')"
-msgstr "Introduceţi cuvintele de căutat (separate de un spaţiu sau '+')"
+msgstr "Introduceți cuvintele de căutat (separate de un spațiu sau '+')"
 
 #.
 #. * Search options
@@ -1460,7 +1460,7 @@ msgstr "Primesc datele (%s) ..."
 #: ../src/cddb.c:1816
 #, fuzzy, c-format
 msgid "Error when reading CDDB response (%s)"
-msgstr "Eroare în timp ce ştergeam eticheta ID3v1 de la '%s' (%s)\n"
+msgstr "Eroare în timp ce ștergeam eticheta ID3v1 de la '%s' (%s)\n"
 
 #: ../src/cddb.c:1823
 #, fuzzy, c-format
@@ -1659,11 +1659,11 @@ msgstr "Chineză simplificată (GB2312)"
 
 #: ../src/charset.c:59
 msgid "Chinese Traditional (Big5)"
-msgstr "Chineză tradiţională (Big5)"
+msgstr "Chineză tradițională (Big5)"
 
 #: ../src/charset.c:60
 msgid "Chinese Traditional (Big5-HKSCS)"
-msgstr "Chineză tradiţională (Big5-HKSCS)"
+msgstr "Chineză tradițională (Big5-HKSCS)"
 
 #: ../src/charset.c:61
 msgid "Cyrillic (IBM-855)"
@@ -1834,7 +1834,7 @@ msgstr ""
 #: ../src/easytag.c:198
 #, fuzzy, c-format
 msgid "Setting locale: '%s'"
-msgstr "Redenumesc fişierul '%s'"
+msgstr "Redenumesc fișierul '%s'"
 
 #: ../src/easytag.c:203
 #, c-format
@@ -1853,7 +1853,7 @@ msgstr ""
 #, fuzzy, c-format
 #| msgid "Error while removing ID3v1 tag of '%s' (%s)"
 msgid "Error while querying information for file: '%s' (%s)"
-msgstr "Eroare în timp ce ştergeam eticheta ID3v1 de la '%s' (%s)"
+msgstr "Eroare în timp ce ștergeam eticheta ID3v1 de la '%s' (%s)"
 
 #: ../src/easytag.c:490
 #, fuzzy, c-format
@@ -1869,7 +1869,7 @@ msgstr "Navigator"
 
 #: ../src/easytag.c:604 ../src/et_core.c:2869
 msgid "File"
-msgstr "Fişier"
+msgstr "Fișier"
 
 #. Default values are MPs data
 #. Nothing to display
@@ -1894,7 +1894,7 @@ msgstr "Bitrate:"
 #, fuzzy
 #| msgid "Freq:"
 msgid "Frequency:"
-msgstr "Frecvenţă:"
+msgstr "Frecvență:"
 
 #. Mode
 #: ../src/easytag.c:665 ../src/easytag.c:4288 ../src/mpeg_header.c:216
@@ -2266,7 +2266,7 @@ msgstr "Sters titlul din fisierele alese."
 
 #: ../src/easytag.c:2009
 msgid "Select Mode and Mask, and redo the same action"
-msgstr "Alegeţi modul şi masca şi refă aceeaşi actiune"
+msgstr "Alegeți modul și masca și refă aceeași actiune"
 
 #: ../src/easytag.c:2061
 msgid "All tags have been scanned"
@@ -2274,7 +2274,7 @@ msgstr "Toate etichetele au fost examinate"
 
 #: ../src/easytag.c:2117
 msgid "All tags have been removed"
-msgstr "Toate etichetele au fost şterse"
+msgstr "Toate etichetele au fost șterse"
 
 #: ../src/easytag.c:2422
 #, c-format
@@ -2287,7 +2287,7 @@ msgstr[1] ""
 #, fuzzy
 msgid "Do you want to continue saving the file?"
 msgstr ""
-"Doriţi să scrieţi eticheta fişierului\n"
+"Doriți să scrieți eticheta fișierului\n"
 "'%s' ?"
 
 #: ../src/easytag.c:2485 ../src/easytag.c:2505
@@ -2297,7 +2297,7 @@ msgstr ""
 #: ../src/easytag.c:2507
 #, fuzzy
 msgid "All files have been saved"
-msgstr "Toate fişierele au fost salvate..."
+msgstr "Toate fișierele au fost salvate..."
 
 #: ../src/easytag.c:2642
 #, fuzzy, c-format
@@ -2318,7 +2318,7 @@ msgstr "Toate fisierele au fost sterse..."
 #, fuzzy, c-format
 msgid "Do you want to write the tag of file '%s'?"
 msgstr ""
-"Doriţi să scrieţi eticheta fişierului\n"
+"Doriți să scrieți eticheta fișierului\n"
 "'%s' ?"
 
 #: ../src/easytag.c:2783
@@ -2329,7 +2329,7 @@ msgstr "Confirmări"
 #: ../src/easytag.c:2788 ../src/easytag.c:2908 ../src/easytag.c:3225
 #, fuzzy
 msgid "Repeat action for the remaining files"
-msgstr "Repetă acţiunea pentru celelalte fişiere"
+msgstr "Repetă acțiunea pentru celelalte fișiere"
 
 #. Directories and filename changed
 #: ../src/easytag.c:2872 ../src/scan_dialog.c:183
@@ -2344,7 +2344,7 @@ msgstr ""
 #, fuzzy, c-format
 msgid "Do you want to rename the file and directory '%s' to '%s'?"
 msgstr ""
-"Doriţi să redenumiţi fişierul \n"
+"Doriți să redenumiți fișierul \n"
 "'%s'\n"
 "în \n"
 "'%s' ?"
@@ -2358,7 +2358,7 @@ msgstr "Director redenumit"
 #, fuzzy, c-format
 msgid "Do you want to rename the directory '%s' to '%s'?"
 msgstr ""
-"Doriţi să redenumiţi fişierul \n"
+"Doriți să redenumiți fișierul \n"
 "'%s'\n"
 "în \n"
 "'%s' ?"
@@ -2367,7 +2367,7 @@ msgstr ""
 #: ../src/easytag.c:2887
 #, fuzzy
 msgid "Rename File"
-msgstr "Redenumeşte fişierul..."
+msgstr "Redenumește fișierul..."
 
 #: ../src/easytag.c:2888
 msgid "File rename confirmation required"
@@ -2377,7 +2377,7 @@ msgstr ""
 #, fuzzy, c-format
 msgid "Do you want to rename the file '%s' to '%s'?"
 msgstr ""
-"Doriţi să redenumiţi fişierul \n"
+"Doriți să redenumiți fișierul \n"
 "'%s'\n"
 "în \n"
 "'%s' ?"
@@ -2386,7 +2386,7 @@ msgstr ""
 #, fuzzy, c-format
 msgid "Cannot rename file '%s' to '%s'"
 msgstr ""
-"Nu pot redenumi fişierul '%s'\n"
+"Nu pot redenumi fișierul '%s'\n"
 " în \n"
 "'%s'!\n"
 "(%s)"
@@ -2395,7 +2395,7 @@ msgstr ""
 #, fuzzy, c-format
 msgid "Cannot rename file '%s' to '%s': %s"
 msgstr ""
-"Nu pot redenumi fişierul '%s'\n"
+"Nu pot redenumi fișierul '%s'\n"
 " în \n"
 "'%s'!\n"
 "(%s)"
@@ -2403,7 +2403,7 @@ msgstr ""
 #: ../src/easytag.c:2973
 #, fuzzy
 msgid "File(s) not renamed"
-msgstr "Fişierul(ele) neredenumite..."
+msgstr "Fișierul(ele) neredenumite..."
 
 #: ../src/easytag.c:3152
 #, c-format
@@ -2418,7 +2418,7 @@ msgstr "Eticheta(le) scris(e)"
 #, fuzzy, c-format
 msgid "Cannot write tag in file '%s'"
 msgstr ""
-"Nu pot scrie eticheta în fişierul '%s'!\n"
+"Nu pot scrie eticheta în fișierul '%s'!\n"
 "(%s)"
 
 #: ../src/easytag.c:3176
@@ -2465,7 +2465,7 @@ msgstr "Căutare în curs..."
 #: ../src/easytag.c:3446 ../src/et_core.c:2876
 #, c-format
 msgid "File: '%s'"
-msgstr "Fişier: '%s'"
+msgstr "Fișier: '%s'"
 
 #: ../src/easytag.c:3496
 #, fuzzy, c-format
@@ -2487,13 +2487,13 @@ msgstr[1] "Gasit %d fisier(e) în acest director."
 #, fuzzy
 #| msgid "No file found in this directory and subdirectories!"
 msgid "No file found in this directory and subdirectories"
-msgstr "Nici un fişier nu a fost găsit în acest director şi subdirectoare!"
+msgstr "Nici un fișier nu a fost găsit în acest director și subdirectoare!"
 
 #: ../src/easytag.c:3527
 #, fuzzy
 #| msgid "No file found in this directory!"
 msgid "No file found in this directory"
-msgstr "Nici un fişier nu a fost găsit în acest director!"
+msgstr "Nici un fișier nu a fost găsit în acest director!"
 
 #: ../src/easytag.c:3595
 #, fuzzy, c-format
@@ -2524,7 +2524,7 @@ msgstr "Caut..."
 #: ../src/easytag.c:4318
 #, fuzzy
 msgid "Select a directory to browse"
-msgstr "Alegeţi un director de navigat!"
+msgstr "Alegeți un director de navigat!"
 
 #. Menu items
 #: ../src/easytag.c:4464
@@ -2533,7 +2533,7 @@ msgstr "Eticheteaza fisierele alese cu titlul acesta"
 
 #: ../src/easytag.c:4476 ../src/scan_dialog.c:2128
 msgid "Convert '_' and '%20' to spaces"
-msgstr "Schimbă '_' şi '%20' în spaţii"
+msgstr "Schimbă '_' și '%20' în spații"
 
 #: ../src/easytag.c:4483 ../src/scan_dialog.c:2130
 msgid "Convert ' ' to '_'"
@@ -2559,31 +2559,31 @@ msgstr "Prima literă a fiecărui cuvînt majusculă"
 
 #: ../src/easytag.c:4526 ../src/prefs.c:1023 ../src/scan_dialog.c:2254
 msgid "Remove spaces"
-msgstr "Şterge spaţiile"
+msgstr "Șterge spațiile"
 
 #: ../src/easytag.c:4533
 msgid "Insert space before uppercase letter"
-msgstr "Introdu spaţiu înainte de majusculă"
+msgstr "Introdu spațiu înainte de majusculă"
 
 #: ../src/easytag.c:4540
 msgid "Remove duplicate spaces or underscores"
-msgstr "Şterge spaţiile si underscores multiple"
+msgstr "Șterge spațiile si underscores multiple"
 
 #: ../src/easytag.c:4547
 #, fuzzy
 #| msgid "Remove spaces"
 msgid "Remove all text"
-msgstr "Şterge spaţiile"
+msgstr "Șterge spațiile"
 
 #: ../src/easytag.c:4566
 msgid "EasyTAG: Normal exit."
-msgstr "EasyTAG: Ieşire normală."
+msgstr "EasyTAG: Ieșire normală."
 
 #: ../src/easytag.c:4618
 #, fuzzy
 msgid "Do you want to save them before quitting?"
 msgstr ""
-"Doriţi să redenumiţi fişierul \n"
+"Doriți să redenumiți fișierul \n"
 "'%s'\n"
 "în \n"
 "'%s' ?"
@@ -2591,7 +2591,7 @@ msgstr ""
 #: ../src/easytag.c:4645
 #, fuzzy
 msgid "Do you really want to quit?"
-msgstr " Sigur vreţi să ieşiti din program? "
+msgstr " Sigur vreți să ieșiti din program? "
 
 #: ../src/et_core.c:551
 #, fuzzy, c-format
@@ -2638,15 +2638,15 @@ msgstr ""
 
 #: ../src/et_core.c:2813
 msgid "MP3 File"
-msgstr "Fişier MP3"
+msgstr "Fișier MP3"
 
 #: ../src/et_core.c:2817
 msgid "MP2 File"
-msgstr "Fişier MP2"
+msgstr "Fișier MP2"
 
 #: ../src/et_core.c:2823
 msgid "Ogg Vorbis File"
-msgstr "Fişier Ogg Vorbis"
+msgstr "Fișier Ogg Vorbis"
 
 #: ../src/et_core.c:2829
 #, fuzzy
@@ -2655,7 +2655,7 @@ msgstr "Urmatorul fisier"
 
 #: ../src/et_core.c:2835
 msgid "FLAC File"
-msgstr "Fişier FLAC"
+msgstr "Fișier FLAC"
 
 #: ../src/et_core.c:2840
 msgid "MusePack File"
@@ -2668,7 +2668,7 @@ msgstr "Fisier Monkey's Audio"
 #: ../src/et_core.c:2849
 #, fuzzy
 msgid "MP4/AAC File"
-msgstr "Fişier MP2"
+msgstr "Fișier MP2"
 
 #: ../src/et_core.c:2855
 #, fuzzy
@@ -2684,13 +2684,13 @@ msgstr "Ultimul fisier"
 #: ../src/et_core.c:2920 ../src/et_core.c:2975
 #, fuzzy
 msgid "File not found"
-msgstr "Fişierul(ele) neredenumite..."
+msgstr "Fișierul(ele) neredenumite..."
 
 #: ../src/et_core.c:2925
 #, fuzzy, c-format
 msgid "Cannot query file information (%s)"
 msgstr ""
-"Nu pot redenumi fişierul '%s'\n"
+"Nu pot redenumi fișierul '%s'\n"
 " în \n"
 "'%s'!\n"
 "(%s)"
@@ -2699,7 +2699,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Read Only File"
 msgid "Read-only file"
-msgstr "Fişier doar citire"
+msgstr "Fișier doar citire"
 
 #. And refresh the number of files in this directory
 #: ../src/et_core.c:3023
@@ -2790,7 +2790,7 @@ msgstr ""
 #, fuzzy, c-format
 #| msgid "ERROR: Failed to write comments to file '%s' (%s)."
 msgid "Error: Failed to write comments to file '%s' (%s)."
-msgstr "Eroare: Am eşuat să scriu comentariile în fişierul '%s' (%s)."
+msgstr "Eroare: Am eșuat să scriu comentariile în fișierul '%s' (%s)."
 
 #: ../src/flac_tag.c:1099 ../src/ogg_tag.c:1063
 #, c-format
@@ -2817,17 +2817,17 @@ msgstr "Salvati fisierul..."
 #: ../src/id3_tag.c:592
 #, c-format
 msgid "Removed tag of '%s'"
-msgstr "Şters eticheta de la '%s'"
+msgstr "Șters eticheta de la '%s'"
 
 #: ../src/id3_tag.c:596 ../src/id3_tag.c:696
 #, c-format
 msgid "Error while removing ID3v1 tag of '%s' (%s)"
-msgstr "Eroare în timp ce ştergeam eticheta ID3v1 de la '%s' (%s)"
+msgstr "Eroare în timp ce ștergeam eticheta ID3v1 de la '%s' (%s)"
 
 #: ../src/id3_tag.c:598 ../src/id3_tag.c:668
 #, c-format
 msgid "Error while removing ID3v2 tag of '%s' (%s)"
-msgstr "Eroare în timp ce ştergeam eticheta ID3v2 de la '%s' (%s)"
+msgstr "Eroare în timp ce ștergeam eticheta ID3v2 de la '%s' (%s)"
 
 #: ../src/id3_tag.c:617
 #, c-format
@@ -2876,7 +2876,7 @@ msgstr "Nu este destulă memorie"
 
 #: ../src/id3_tag.c:725
 msgid "No data to parse"
-msgstr "Nici o informaţie de examinat"
+msgstr "Nici o informație de examinat"
 
 #: ../src/id3_tag.c:727
 msgid "Improperly formatted data"
@@ -2904,7 +2904,7 @@ msgstr "Tip de cîmp necunoscut"
 
 #: ../src/id3_tag.c:739
 msgid "Tag is already attached to a file"
-msgstr "Eticheta este deja ataşată unui fişier"
+msgstr "Eticheta este deja atașată unui fișier"
 
 #: ../src/id3_tag.c:741
 msgid "Invalid tag version"
@@ -2912,11 +2912,11 @@ msgstr "Versiune de etichetă incorectă"
 
 #: ../src/id3_tag.c:743
 msgid "No file to parse"
-msgstr "Nici un fişier de examinat"
+msgstr "Nici un fișier de examinat"
 
 #: ../src/id3_tag.c:745
 msgid "Attempting to write to a read-only file"
-msgstr "Încercare de scriere a unui fişier disponibil doar pentru citire"
+msgstr "Încercare de scriere a unui fișier disponibil doar pentru citire"
 
 #: ../src/id3_tag.c:747
 msgid "Error in compression/uncompression"
@@ -2931,7 +2931,7 @@ msgstr "Mesaj de eroare necunoscut!"
 #: ../src/id3_tag.c:1357
 #, fuzzy, c-format
 msgid "Error while creating temporary file: '%s'"
-msgstr "Eroare în timp ce ştergeam eticheta ID3v1 de la '%s' (%s)"
+msgstr "Eroare în timp ce ștergeam eticheta ID3v1 de la '%s' (%s)"
 
 #: ../src/id3_tag.c:1364
 msgid "Error while creating temporary file"
@@ -2953,23 +2953,23 @@ msgstr "Eroare în timp ce actualizam eticheta ID3v2 de la '%s' (%s)"
 msgid "Cannot write tag of file ‘%s’ (a byte was missing)"
 msgid_plural "Cannot write tag of file ‘%s’ (%s bytes were missing)"
 msgstr[0] ""
-"Nu pot scrie eticheta în fişierul '%s'!\n"
+"Nu pot scrie eticheta în fișierul '%s'!\n"
 "(%s)"
 msgstr[1] ""
-"Nu pot scrie eticheta în fişierul '%s'!\n"
+"Nu pot scrie eticheta în fișierul '%s'!\n"
 "(%s)"
 
 #: ../src/id3v24_tag.c:1584
 #, fuzzy, c-format
 msgid "Cannot save tag of file '%s'"
 msgstr ""
-"Nu pot scrie eticheta în fişierul '%s'!\n"
+"Nu pot scrie eticheta în fișierul '%s'!\n"
 "(%s)"
 
 #: ../src/id3v24_tag.c:1595
 #, fuzzy, c-format
 msgid "Size error while saving tag of '%s'"
-msgstr "Eroare în timp ce ştergeam eticheta ID3v1 de la '%s' (%s)"
+msgstr "Eroare în timp ce ștergeam eticheta ID3v1 de la '%s' (%s)"
 
 #: ../src/log.c:100
 msgid "Log"
@@ -2979,7 +2979,7 @@ msgstr ""
 #, fuzzy
 #| msgid "You must type a program name!"
 msgid "You must type a program name"
-msgstr "Trebuie să introduceţi un nume de fişier!"
+msgstr "Trebuie să introduceți un nume de fișier!"
 
 #: ../src/misc.c:721
 msgid "Program Name Error"
@@ -3003,7 +3003,7 @@ msgstr "Sterge fisierul(-ele)..."
 #: ../src/misc.c:830
 #, fuzzy
 msgid "Select Directory"
-msgstr "Alegeţi directorul..."
+msgstr "Alegeți directorul..."
 
 #: ../src/misc.c:1142
 #, fuzzy
@@ -3017,12 +3017,12 @@ msgstr "Numele M3U playlist"
 
 #: ../src/misc.c:1181
 msgid "Use directory name"
-msgstr "Foloseşte numele de director"
+msgstr "Folosește numele de director"
 
 #. Playlist options
 #: ../src/misc.c:1198
 msgid "Playlist Options"
-msgstr "Opţiuni playlist"
+msgstr "Opțiuni playlist"
 
 #: ../src/misc.c:1204
 msgid "Include only the selected files"
@@ -3038,11 +3038,11 @@ msgstr ""
 
 #: ../src/misc.c:1210
 msgid "Use full path for files in playlist"
-msgstr "Foloseşte calea completă pentru fişierele din playlist"
+msgstr "Folosește calea completă pentru fișierele din playlist"
 
 #: ../src/misc.c:1213
 msgid "Use relative path for files in playlist"
-msgstr "Foloseşte calea relativă pentru fişierele din playlist"
+msgstr "Folosește calea relativă pentru fișierele din playlist"
 
 #. Create playlist in parent directory
 #: ../src/misc.c:1219
@@ -3068,27 +3068,27 @@ msgstr ""
 
 #: ../src/misc.c:1241
 msgid "Playlist Content"
-msgstr "Conţinutul playlist"
+msgstr "Conținutul playlist"
 
 #: ../src/misc.c:1247
 msgid "Write only list of files"
-msgstr "Listă de fişiere disponibile doar pentru scriere"
+msgstr "Listă de fișiere disponibile doar pentru scriere"
 
 #: ../src/misc.c:1251
 msgid "Write info using filename"
-msgstr "Scrie informaţiile folosind numele de fişier"
+msgstr "Scrie informațiile folosind numele de fișier"
 
 #: ../src/misc.c:1254
 #, fuzzy
 #| msgid "Write info using :"
 msgid "Write info using:"
-msgstr "Scrie informaţiile folosind :"
+msgstr "Scrie informațiile folosind :"
 
 #: ../src/misc.c:1468
 #, fuzzy, c-format
 msgid "Cannot write playlist file '%s'"
 msgstr ""
-"Nu pot scrie fişierul playlist '%s'!\n"
+"Nu pot scrie fișierul playlist '%s'!\n"
 "(%s)"
 
 #: ../src/misc.c:1472
@@ -3099,7 +3099,7 @@ msgstr "Tipul imaginii"
 #: ../src/misc.c:1480
 #, c-format
 msgid "Written playlist file '%s'"
-msgstr "Am scris fişierul playlist '%s'"
+msgstr "Am scris fișierul playlist '%s'"
 
 #: ../src/misc.c:1544 ../src/scan_dialog.c:2747 ../src/scan_dialog.c:2809
 #, fuzzy
@@ -3136,7 +3136,7 @@ msgstr "În :"
 #: ../src/misc.c:1973
 #, fuzzy
 msgid "the Filename"
-msgstr "Nume de fişier"
+msgstr "Nume de fișier"
 
 #. Translators: This option is for the previous 'in' option. For instance,
 #. * translate this as "Search" "In:" "the Tag".
@@ -3163,20 +3163,20 @@ msgstr "Gata să caut..."
 #| msgid "Found : %d file(s)"
 msgid "Found one file"
 msgid_plural "Found %d files"
-msgstr[0] "Gasit : %d fişier(e)"
-msgstr[1] "Gasit : %d fişier(e)"
+msgstr[0] "Gasit : %d fișier(e)"
+msgstr[1] "Gasit : %d fișier(e)"
 
 #: ../src/misc.c:2722
 #, fuzzy
 #| msgid "Load the filenames from a TXT file"
 msgid "Load Filenames From a Text File"
-msgstr "Încarcă numele de fişier dintr-un fişier TXT"
+msgstr "Încarcă numele de fișier dintr-un fișier TXT"
 
 #: ../src/misc.c:2751
 #, fuzzy
 #| msgid "File :"
 msgid "File:"
-msgstr "Fişier :"
+msgstr "Fișier :"
 
 #. Button 'load'
 #. the signal attached to this button, to load the file, is placed after the LoadFileContentList definition
@@ -3187,24 +3187,24 @@ msgstr " Încarcă "
 #: ../src/misc.c:2788
 #, fuzzy
 msgid "Content of Text File"
-msgstr "Confirmă redenumirea fişierului"
+msgstr "Confirmă redenumirea fișierului"
 
 #. gtk_button_set_relief(GTK_BUTTON(Button),GTK_RELIEF_NONE);
 #: ../src/misc.c:2809 ../src/misc.c:2904
 #, fuzzy
 msgid "Insert a blank line before the selected line"
-msgstr "Introdu un spaţiu înainte de o majusculă"
+msgstr "Introdu un spațiu înainte de o majusculă"
 
 #. gtk_button_set_relief(GTK_BUTTON(Button),GTK_RELIEF_NONE);
 #: ../src/misc.c:2818 ../src/misc.c:2913
 #, fuzzy
 msgid "Delete the selected line"
-msgstr "Şterge această linie"
+msgstr "Șterge această linie"
 
 #. gtk_button_set_relief(GTK_BUTTON(Button),GTK_RELIEF_NONE);
 #: ../src/misc.c:2827 ../src/misc.c:2922 ../src/misc.c:3403
 msgid "Delete all blank lines"
-msgstr "Şterge toate liniile goale"
+msgstr "Șterge toate liniile goale"
 
 #. gtk_button_set_relief(GTK_BUTTON(Button),GTK_RELIEF_NONE);
 #: ../src/misc.c:2839 ../src/misc.c:2934
@@ -3226,7 +3226,7 @@ msgstr "Reîncarcă"
 #: ../src/misc.c:2882
 #, fuzzy
 msgid "List of Files"
-msgstr "Listă de fişiere disponibile doar pentru scriere"
+msgstr "Listă de fișiere disponibile doar pentru scriere"
 
 #: ../src/misc.c:2977
 #, fuzzy
@@ -3255,7 +3255,7 @@ msgstr "Nu pot deschide '%s' (%s)"
 #: ../src/misc.c:3174
 #, fuzzy, c-format
 msgid "Error reading file (%s)"
-msgstr "Eroare în timp ce ştergeam eticheta ID3v1 de la '%s' (%s)\n"
+msgstr "Eroare în timp ce ștergeam eticheta ID3v1 de la '%s' (%s)\n"
 
 #: ../src/misc.c:3391
 msgid "Insert a blank line"
@@ -3263,7 +3263,7 @@ msgstr "Introdu o linie goală"
 
 #: ../src/misc.c:3397
 msgid "Delete this line"
-msgstr "Şterge această linie"
+msgstr "Șterge această linie"
 
 #: ../src/misc.c:3412
 #, fuzzy
@@ -3347,7 +3347,7 @@ msgstr ""
 #: ../src/ogg_header.c:282
 #, fuzzy, c-format
 msgid "Ogg Vorbis: Bitstream is not Vorbis data (file: '%s')."
-msgstr "Fluxul Ogg nu conţine date vorbis."
+msgstr "Fluxul Ogg nu conține date vorbis."
 
 #: ../src/ogg_header.c:285
 #, c-format
@@ -3370,12 +3370,12 @@ msgstr ""
 #, fuzzy, c-format
 #| msgid "ERROR: Failed to open file: '%s' as vorbis (%s)."
 msgid "Error: Failed to open file: '%s' as Vorbis (%s)."
-msgstr "Eroare: Am eşuat să deschis fişierul: '%s' ca vorbis (%s)."
+msgstr "Eroare: Am eșuat să deschis fișierul: '%s' ca vorbis (%s)."
 
 #: ../src/picture.c:244 ../src/picture.c:269
 #, fuzzy, c-format
 msgid "Image file not loaded: %s"
-msgstr "Toate fişierele au fost salvate..."
+msgstr "Toate fișierele au fost salvate..."
 
 #: ../src/picture.c:261
 #, fuzzy, c-format
@@ -3390,7 +3390,7 @@ msgstr "Redenumeste fisierul si directorul"
 #: ../src/picture.c:276
 #, fuzzy
 msgid "Image file loaded"
-msgstr "Toate fişierele au fost salvate..."
+msgstr "Toate fișierele au fost salvate..."
 
 #: ../src/picture.c:334
 msgid "Add Images"
@@ -3430,7 +3430,7 @@ msgstr "Salveaza imaginea %d/%d"
 #: ../src/picture.c:763
 #, fuzzy, c-format
 msgid "Image file not saved: %s"
-msgstr "Toate fişierele au fost salvate..."
+msgstr "Toate fișierele au fost salvate..."
 
 #: ../src/picture.c:846
 msgid "JPEG image"
@@ -3587,8 +3587,8 @@ msgid ""
 "Specify the directory where your files are located. This path will be loaded "
 "when EasyTAG starts without parameter."
 msgstr ""
-"Specifcaţi directorul în care se află fişierele. Calea va fi încărcată cînd "
-"EasyTAG porneşte fără parametru."
+"Specifcați directorul în care se află fișierele. Calea va fi încărcată cînd "
+"EasyTAG pornește fără parametru."
 
 #. Load directory on startup
 #: ../src/prefs.c:186
@@ -3603,9 +3603,9 @@ msgid ""
 "Note that this path may be overridden by the parameter passed to easytag "
 "(easytag /path_to/mp3_files)."
 msgstr ""
-"Automat caută fişierele, cînd EasyTAG porneşte, în următoarele directoare. "
+"Automat caută fișierele, cînd EasyTAG pornește, în următoarele directoare. "
 "De remarcat: calea poate fi dată de parametrul dat easytag (easytag /"
-"calea_spre/fişierele_mp3)."
+"calea_spre/fișierele_mp3)."
 
 #. Browse subdirectories
 #: ../src/prefs.c:194
@@ -3615,7 +3615,7 @@ msgstr "Caută subdirectoarele"
 #: ../src/prefs.c:197
 msgid "Search subdirectories for files when reading a directory into the tree."
 msgstr ""
-"Caută subdirectoarele pentru fişiere cînd deschid un director in arbore."
+"Caută subdirectoarele pentru fișiere cînd deschid un director in arbore."
 
 #. Open the node to show subdirectories
 #: ../src/prefs.c:201
@@ -3628,7 +3628,7 @@ msgid ""
 "This expands the selected node into the file browser to display the sub-"
 "directories."
 msgstr ""
-"Aceasta extinde nodul ales în navigatorul de fişiere pentru a afişa "
+"Aceasta extinde nodul ales în navigatorul de fișiere pentru a afișa "
 "subdirectoarele."
 
 #. Browse hidden directories
@@ -3651,13 +3651,13 @@ msgstr "Diverse"
 #. User interface
 #: ../src/prefs.c:228
 msgid "User Interface"
-msgstr "Interfaţa cu utilizatorul"
+msgstr "Interfața cu utilizatorul"
 
 #. Show header infos
 #: ../src/prefs.c:235
 #, fuzzy
 msgid "Show header information of file"
-msgstr "Arată informaţiile din antetul fişierului"
+msgstr "Arată informațiile din antetul fișierului"
 
 #: ../src/prefs.c:238
 #, fuzzy
@@ -3665,8 +3665,8 @@ msgid ""
 "If activated, information about the file as the bitrate, the time, the size, "
 "will be displayed under the filename entry."
 msgstr ""
-"Dacă este activată, informaţiile despre fişier cum ar fi bitrate, timpul, "
-"lungimea vor fi afişate sub numele de fişier."
+"Dacă este activată, informațiile despre fișier cum ar fi bitrate, timpul, "
+"lungimea vor fi afișate sub numele de fișier."
 
 #: ../src/prefs.c:244
 msgid "Display changed files in list using:"
@@ -3690,19 +3690,19 @@ msgstr "Optiunile de ordonare a listei"
 #, fuzzy
 #| msgid "Sort the file list by :"
 msgid "Sort the file list by:"
-msgstr "Ordonează lista de fişiere :"
+msgstr "Ordonează lista de fișiere :"
 
 #: ../src/prefs.c:278
 #, fuzzy
 #| msgid "Ascending file name"
 msgid "Ascending filename"
-msgstr "Crescător după numele de fişier"
+msgstr "Crescător după numele de fișier"
 
 #: ../src/prefs.c:280
 #, fuzzy
 #| msgid "Descending file name"
 msgid "Descending filename"
-msgstr "Descrescător după numele de fişier"
+msgstr "Descrescător după numele de fișier"
 
 #: ../src/prefs.c:281
 msgid "Ascending title"
@@ -3844,7 +3844,7 @@ msgstr "Descrescator dupa numele codorului"
 
 #: ../src/prefs.c:326
 msgid "Ascending creation date"
-msgstr "Crescător după data creaţiei"
+msgstr "Crescător după data creației"
 
 #: ../src/prefs.c:328
 #, fuzzy
@@ -3853,11 +3853,11 @@ msgstr "Descrescator dupa data creatiei"
 
 #: ../src/prefs.c:332
 msgid "Select the type of file sorting when loading a directory."
-msgstr "Alegeţi tipul de ordonare a fişierelor la încărcarea unui director."
+msgstr "Alegeți tipul de ordonare a fișierelor la încărcarea unui director."
 
 #: ../src/prefs.c:344
 msgid "If activated, the sorting of the list will be dependent on the case."
-msgstr "Dacă este activată, ordonarea listei va fi ţine seama de majuscule."
+msgstr "Dacă este activată, ordonarea listei va fi ține seama de majuscule."
 
 #. File Player
 #: ../src/prefs.c:348
@@ -3875,15 +3875,15 @@ msgid ""
 "Enter the program used to play the files. Some arguments can be passed for "
 "the program (as 'xmms -p') before to receive files as other arguments."
 msgstr ""
-"Introduceţi programul folosit să ruleze fişierele. Unele argumente pot fi "
-"transferate programului (ca 'xmms -p') înainte să primească fişierele ca "
+"Introduceți programul folosit să ruleze fișierele. Unele argumente pot fi "
+"transferate programului (ca 'xmms -p') înainte să primească fișierele ca "
 "argumente."
 
 #. Log options
 #: ../src/prefs.c:384
 #, fuzzy
 msgid "Log Options"
-msgstr "Opţiunile etichetei"
+msgstr "Opțiunile etichetei"
 
 #. Show / hide log view
 #: ../src/prefs.c:391
@@ -3918,7 +3918,7 @@ msgstr "_Setari"
 #: ../src/prefs.c:424
 #, fuzzy
 msgid "File Options"
-msgstr "Opţiuni ale numelui de fişier"
+msgstr "Opțiuni ale numelui de fișier"
 
 #: ../src/prefs.c:430
 msgid "Replace illegal characters in filename (for Windows and CD-Rom)"
@@ -4055,7 +4055,7 @@ msgstr "Setari etichete"
 #. Tag Options
 #: ../src/prefs.c:539
 msgid "Tag Options"
-msgstr "Opţiunile etichetei"
+msgstr "Opțiunile etichetei"
 
 #: ../src/prefs.c:545
 msgid "Auto completion of date if not complete"
@@ -4158,9 +4158,9 @@ msgid ""
 "strip the whole tag when these seven standard data fields have been set to "
 "blank."
 msgstr ""
-"Pentru că etichetele ID3v2 pot conţine şi alte date decît titlu, artist, "
-"album, an, pistă, gen sau comentariu (cum ar fi o imagine ataşată, versuri, "
-"etc.), această opţiune permite ştergerea întregii etichete cînd cele şapte "
+"Pentru că etichetele ID3v2 pot conține și alte date decît titlu, artist, "
+"album, an, pistă, gen sau comentariu (cum ar fi o imagine atașată, versuri, "
+"etc.), această opțiune permite ștergerea întregii etichete cînd cele șapte "
 "cîmpuri standard sînt goale."
 
 #. Convert old ID3v2 tag version
@@ -4230,7 +4230,7 @@ msgid ""
 "the MP3 files. Else it will be stripped."
 msgstr ""
 "Dacă este activată, o etichetă ID3v2 va fi adăugată sau actualizată la "
-"începutul fişierelor MP3. Altfel eticheta va fi ştearsă."
+"începutul fișierelor MP3. Altfel eticheta va fi ștearsă."
 
 #. ID3v2 tag version
 #: ../src/prefs.c:757
@@ -4309,7 +4309,7 @@ msgid ""
 "files. Else it will be stripped."
 msgstr ""
 "Dacă este activată, o etichetă ID3v1 va fi adăugată sau actualizată la "
-"sfîrşitul fişierelor MP3. Altfel va fi ştearsă."
+"sfîrșitul fișierelor MP3. Altfel va fi ștearsă."
 
 #: ../src/prefs.c:890
 #, fuzzy
@@ -4362,11 +4362,11 @@ msgstr "Schimba caracterele"
 
 #: ../src/prefs.c:996 ../src/prefs.c:1021
 msgid "Convert underscore character '_' and string '%20' to space ' '"
-msgstr "Schimbă '_' şi '%20' în spaţii ' '"
+msgstr "Schimbă '_' și '%20' în spații ' '"
 
 #: ../src/prefs.c:998 ../src/prefs.c:1022
 msgid "Convert space ' ' to underscore '_'"
-msgstr "Schimbă spaţiile în '_'"
+msgstr "Schimbă spațiile în '_'"
 
 #: ../src/prefs.c:1010 ../src/prefs.c:1012
 msgid ""
@@ -4426,7 +4426,7 @@ msgid ""
 "Activate this option to open automatically the scanner window when EasyTAG "
 "starts."
 msgstr ""
-"Activaţi această opţiune pentru a deschide automat freastra examinatorului "
+"Activați această opțiune pentru a deschide automat freastra examinatorului "
 "cînd EasyTAG este pornit."
 
 #. Other options
@@ -4461,8 +4461,8 @@ msgid ""
 "Activate this option if you want to put the following string into the "
 "comment field when using the 'Fill Tag' scanner."
 msgstr ""
-"Activaţi această opţiune dacă vreţi să puneţi următorul şir în cîmpul "
-"comentariu cînd folosiţi 'Completează eticheta'."
+"Activați această opțiune dacă vreți să puneți următorul șir în cîmpul "
+"comentariu cînd folosiți 'Completează eticheta'."
 
 #. CRC32 comment
 #: ../src/prefs.c:1113
@@ -4543,7 +4543,7 @@ msgstr "Setări proxy"
 
 #: ../src/prefs.c:1297
 msgid "Use a proxy"
-msgstr "Foloseşte proxy"
+msgstr "Folosește proxy"
 
 #: ../src/prefs.c:1300
 msgid "Set active the settings of the proxy server."
@@ -4622,7 +4622,7 @@ msgstr "Confirmări"
 
 #: ../src/prefs.c:1379
 msgid "Confirm exit from program"
-msgstr "Confirmă ieşirea din program"
+msgstr "Confirmă ieșirea din program"
 
 #: ../src/prefs.c:1382
 msgid ""
@@ -4634,11 +4634,11 @@ msgstr ""
 
 #: ../src/prefs.c:1385
 msgid "Confirm writing of file tag"
-msgstr "Confirmă scrierea etichetei fişierului"
+msgstr "Confirmă scrierea etichetei fișierului"
 
 #: ../src/prefs.c:1389
 msgid "Confirm renaming of file"
-msgstr "Confirmă redenumirea fişierului"
+msgstr "Confirmă redenumirea fișierului"
 
 #: ../src/prefs.c:1393
 msgid "Confirm deleting of file"
@@ -4666,17 +4666,17 @@ msgstr ""
 
 #: ../src/prefs.c:1614 ../src/setting.c:904
 msgid "Configuration saved"
-msgstr "Configuraţia salvată"
+msgstr "Configurația salvată"
 
 #: ../src/prefs.c:1622
 msgid "Configuration unchanged"
-msgstr "Configuraţia neschimbată"
+msgstr "Configurația neschimbată"
 
 #: ../src/prefs.c:1713
 #, fuzzy
 msgid "The selected path for 'Default path to files' is invalid"
 msgstr ""
-" Calea aleasă pentru 'Calea implicită spre fişierele' nu este corectă!\n"
+" Calea aleasă pentru 'Calea implicită spre fișierele' nu este corectă!\n"
 "'%s'\n"
 "(%s) "
 
@@ -4710,7 +4710,7 @@ msgstr "Completează eticheta"
 #, fuzzy, c-format
 msgid "Cannot calculate CRC value of file (%s)"
 msgstr ""
-"Nu pot scrie eticheta în fişierul '%s'!\n"
+"Nu pot scrie eticheta în fișierul '%s'!\n"
 "(%s)"
 
 #: ../src/scan_dialog.c:371
@@ -4736,12 +4736,12 @@ msgstr "Eroare la examinare: nu pot găsi separatorul '%s' în '%s'"
 #: ../src/scan_dialog.c:712
 #, fuzzy
 msgid "New filename successfully scanned"
-msgstr "Noul nume de fişier examinat cu succes..."
+msgstr "Noul nume de fișier examinat cu succes..."
 
 #: ../src/scan_dialog.c:715
 #, fuzzy, c-format
 msgid "New filename successfully scanned: %s"
-msgstr "Noul nume de fişier examinat cu succes...(%s)"
+msgstr "Noul nume de fișier examinat cu succes...(%s)"
 
 #: ../src/scan_dialog.c:1632
 #, fuzzy, c-format
@@ -4753,7 +4753,7 @@ msgstr "Eroare în timpul deschiderii fisierului: '%s' (%s)."
 #, fuzzy
 #| msgid "Tag and File Name scan"
 msgid "Tag and Filename Scan"
-msgstr "Examinarea etichetei şi numelui de fişier"
+msgstr "Examinarea etichetei și numelui de fișier"
 
 #. TODO: Set related action to match AM_SCAN_FILES.
 #: ../src/scan_dialog.c:1811
@@ -4769,12 +4769,12 @@ msgstr "Examinator :"
 
 #: ../src/scan_dialog.c:1860
 msgid "Select the type of scanner to use"
-msgstr "Alegeţi tipul de examinator"
+msgstr "Alegeți tipul de examinator"
 
 #: ../src/scan_dialog.c:1869
 #, fuzzy
 msgid "Scanner Preferences"
-msgstr "Preferinţe..."
+msgstr "Preferințe..."
 
 #: ../src/scan_dialog.c:1878
 msgid "Show / Hide Masks Editor"
@@ -4793,8 +4793,8 @@ msgid ""
 "Select or type in a mask using codes (see Legend) to parse filename and "
 "path. Used to fill in tag fields"
 msgstr ""
-"Alegeţi sau introduceti un mask folosind codurile (vezi legenda) pentru a "
-"examina numele de fişiere şi calea. Folosit pentru a completa cîmpurile "
+"Alegeți sau introduceti un mask folosind codurile (vezi legenda) pentru a "
+"examina numele de fișiere și calea. Folosit pentru a completa cîmpurile "
 "etichetei."
 
 #. Preview label
@@ -4823,11 +4823,11 @@ msgstr ""
 #: ../src/scan_dialog.c:2011
 #, fuzzy
 msgid "Rename file preview"
-msgstr "Previziualizează redenumirea fişierului"
+msgstr "Previziualizează redenumirea fișierului"
 
 #: ../src/scan_dialog.c:2030
 msgid "Select fields:"
-msgstr "Alegeţi cîmpurile:"
+msgstr "Alegeți cîmpurile:"
 
 #: ../src/scan_dialog.c:2033
 #, fuzzy
@@ -4839,7 +4839,7 @@ msgid ""
 "those which interest you"
 msgstr ""
 "Butoantele de pe dreapta reprezintă cîmpurile care pot fi prelucrate. "
-"Alegeţi acelea care vă interesează."
+"Alegeți acelea care vă interesează."
 
 #. Advice for Translators: set the first letter of filename translated
 #: ../src/scan_dialog.c:2037
@@ -4850,7 +4850,7 @@ msgstr "F"
 #, fuzzy
 #| msgid "Process file name field"
 msgid "Process filename field"
-msgstr "Prelucrez cîmpul nume de fişier"
+msgstr "Prelucrez cîmpul nume de fișier"
 
 #. Advice for Translators: set the first letter of title translated
 #: ../src/scan_dialog.c:2041
@@ -4979,7 +4979,7 @@ msgid ""
 "The underscore character or the string '%20' are replaced by one space. "
 "Example, before: 'Text%20In%20An_Entry', after: 'Text In An Entry'."
 msgstr ""
-"Caracterul '_' sau şirul '%20' sînt înlocuite de un spaţiu. Exemplu, "
+"Caracterul '_' sau șirul '%20' sînt înlocuite de un spațiu. Exemplu, "
 "înainte: 'Text%20Introdus_înainte', după: 'Text Introdus înainte'."
 
 #: ../src/scan_dialog.c:2180
@@ -4987,7 +4987,7 @@ msgid ""
 "The space character is replaced by one underscore character. Example, "
 "before: 'Text In An Entry', after: 'Text_In_An_Entry'."
 msgstr ""
-"Spaţiul este înlocuit de un '_'. Examplu, înainte: 'text introdus', după: "
+"Spațiul este înlocuit de un '_'. Examplu, înainte: 'text introdus', după: "
 "'text_introdus'."
 
 #: ../src/scan_dialog.c:2183
@@ -5044,7 +5044,7 @@ msgid ""
 "Convert the initial of the first word in all fields to upper case. Example, "
 "before: 'text IN An ENTRY', after: 'Text in an entry'."
 msgstr ""
-"Schimbă iniţiala primului cuvînt în toate cîmpurile în majusculă. Exemplu "
+"Schimbă inițiala primului cuvînt în toate cîmpurile în majusculă. Exemplu "
 "înainte: 'tEXt înainte', după: 'Text Înainte'."
 
 #: ../src/scan_dialog.c:2245
@@ -5052,7 +5052,7 @@ msgid ""
 "Convert the initial of each word in all fields to upper case. Example, "
 "before: 'Text in an ENTRY', after: 'Text In An Entry'."
 msgstr ""
-"Schimbă iniţiala fiecărui cuvînt în toate cîmpurile în majusculă. Exemplu "
+"Schimbă inițiala fiecărui cuvînt în toate cîmpurile în majusculă. Exemplu "
 "înainte: 'tEXt înainte', după: 'Text Înainte'."
 
 #: ../src/scan_dialog.c:2248
@@ -5061,20 +5061,20 @@ msgid ""
 "Force to convert to upper case the Roman numerals. Example, before: 'ix. "
 "text in an entry', after: 'IX. Text In An Entry'."
 msgstr ""
-"Un spaţiu este introdus înainte de fiecare majusculă. Exemplu, înainte: "
+"Un spațiu este introdus înainte de fiecare majusculă. Exemplu, înainte: "
 "'TextÎnainte', după: 'Text Înainte'."
 
 #: ../src/scan_dialog.c:2256
 #, fuzzy
 #| msgid "Insert space before uppercase letter"
 msgid "Insert a space before uppercase letters"
-msgstr "Introdu spaţiu înainte de majusculă"
+msgstr "Introdu spațiu înainte de majusculă"
 
 #: ../src/scan_dialog.c:2258
 #, fuzzy
 #| msgid "Remove duplicate spaces or underscores"
 msgid "Remove duplicate spaces and underscores"
-msgstr "Şterge spaţiile si underscores multiple"
+msgstr "Șterge spațiile si underscores multiple"
 
 #: ../src/scan_dialog.c:2260
 msgid "Do not change word separators"
@@ -5085,7 +5085,7 @@ msgid ""
 "All spaces between words are removed. Example, before: 'Text In An Entry', "
 "after: 'TextInAnEntry'."
 msgstr ""
-"Toate paţiile dintre cuvinte să fie şterse. Exemplu, înainte: 'Text "
+"Toate pațiile dintre cuvinte să fie șterse. Exemplu, înainte: 'Text "
 "Înainte', după: 'TextÎnainte'."
 
 #: ../src/scan_dialog.c:2285
@@ -5093,7 +5093,7 @@ msgid ""
 "A space is inserted before each upper case letter. Example, before: "
 "'TextInAnEntry', after: 'Text In An Entry'."
 msgstr ""
-"Un spaţiu este introdus înainte de fiecare majusculă. Exemplu, înainte: "
+"Un spațiu este introdus înainte de fiecare majusculă. Exemplu, înainte: "
 "'TextÎnainte', după: 'Text Înainte'."
 
 #: ../src/scan_dialog.c:2288
@@ -5105,7 +5105,7 @@ msgid ""
 "Duplicate spaces and underscores are removed. Example, before: "
 "'Text__In__An   Entry', after: 'Text_In_An Entry'."
 msgstr ""
-"Spaţiile sau '_' multiple sînt şterse. Exemplu, înainte: 'Text__Înainte', "
+"Spațiile sau '_' multiple sînt șterse. Exemplu, înainte: 'Text__Înainte', "
 "după: 'Text_Înainte'."
 
 #.
@@ -5220,7 +5220,7 @@ msgstr "%y : an"
 #.
 #: ../src/scan_dialog.c:2356
 msgid "Mask Editor"
-msgstr "Editor de măşti"
+msgstr "Editor de măști"
 
 #: ../src/scan_dialog.c:2410
 msgid "Create New Mask"
@@ -5244,7 +5244,7 @@ msgstr "Adaugă o mască implicită"
 
 #: ../src/scan_dialog.c:2460
 msgid "Remove Mask"
-msgstr "Şterge masca"
+msgstr "Șterge masca"
 
 #: ../src/scan_dialog.c:2470
 msgid "Save Masks"
@@ -5264,7 +5264,7 @@ msgstr "Copiază: Nici un rînd ales!"
 #, fuzzy
 #| msgid "Remove: No row selected!"
 msgid "Remove: No row selected"
-msgstr "Şterge: Nici un rînd ales!"
+msgstr "Șterge: Nici un rînd ales!"
 
 #: ../src/scan_dialog.c:3229
 #, fuzzy
@@ -5287,18 +5287,18 @@ msgstr "Eroare: Nu pot scrie fisierul configuratie: %s (%s)\a"
 #, fuzzy, c-format
 #| msgid "Can't open configuration file '%s' (%s)"
 msgid "Error while writing configuration file: %s"
-msgstr "Nu pot deschide fişierul configuraţie '%s' (%s)"
+msgstr "Nu pot deschide fișierul configurație '%s' (%s)"
 
 #: ../src/setting.c:1100
 #, fuzzy, c-format
 #| msgid "Can't open configuration file '%s' (%s)"
 msgid "Cannot open configuration file '%s' (%s)"
-msgstr "Nu pot deschide fişierul configuraţie '%s' (%s)"
+msgstr "Nu pot deschide fișierul configurație '%s' (%s)"
 
 #: ../src/setting.c:1102
 #, fuzzy
 msgid "Loading default configuration"
-msgstr "Încarc configuraţia implicită..."
+msgstr "Încarc configurația implicită..."
 
 #: ../src/setting.c:1143
 #, fuzzy, c-format
@@ -5316,7 +5316,7 @@ msgstr ""
 #: ../src/setting.c:1221
 #, fuzzy, c-format
 msgid "Error while writing list file: %s"
-msgstr "Eroare în timp ce ştergeam eticheta ID3v1 de la '%s' (%s)"
+msgstr "Eroare în timp ce ștergeam eticheta ID3v1 de la '%s' (%s)"
 
 #. Fall back to defaults
 #: ../src/setting.c:1301
@@ -5328,25 +5328,25 @@ msgstr "Încarc mask 'Completează eticheta' implicit..."
 #: ../src/setting.c:1331
 #, fuzzy
 msgid "Loading default 'Rename File' masks…"
-msgstr "Încarc mask-ul 'Redenumeşte fişierul' implicit..."
+msgstr "Încarc mask-ul 'Redenumește fișierul' implicit..."
 
 #. Fall back to defaults
 #: ../src/setting.c:1357
 #, fuzzy
 msgid "Loading default 'Rename Directory' masks…"
-msgstr "Încarc mask-ul 'Redenumeşte fişierul' implicit..."
+msgstr "Încarc mask-ul 'Redenumește fișierul' implicit..."
 
 #: ../src/setting.c:1568
 #, fuzzy, c-format
 #| msgid "Can't open configuration file '%s' (%s)"
 msgid "Migrating configuration from directory '%s' to '%s'"
-msgstr "Nu pot deschide fişierul configuraţie '%s' (%s)"
+msgstr "Nu pot deschide fișierul configurație '%s' (%s)"
 
 #: ../src/setting.c:1592
 #, fuzzy, c-format
 #| msgid "Can't open configuration file '%s' (%s)"
 msgid "Failed to migrate configuration file '%s'"
-msgstr "Nu pot deschide fişierul configuraţie '%s' (%s)"
+msgstr "Nu pot deschide fișierul configurație '%s' (%s)"
 
 #: ../src/setting.c:1629
 #, fuzzy, c-format
@@ -5488,7 +5488,7 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 #~ msgstr "(Suportul pentru FLAC dezactivat)"
 
 #~ msgid "Thanks"
-#~ msgstr "Mulţumiri"
+#~ msgstr "Mulțumiri"
 
 #~ msgid "Translations:\n"
 #~ msgstr "Traduceri:\n"
@@ -5613,7 +5613,7 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 #~ msgstr "%s %s de %s (compilat %s, %s)\n"
 
 #~ msgid "File Link Broken"
-#~ msgstr "Legătură fişier incorectă"
+#~ msgstr "Legătură fișier incorectă"
 
 #~ msgid "?, Layer ?"
 #~ msgstr "?, Strat ?"
@@ -5656,12 +5656,12 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 #~ msgstr "Redenumeste fisierul si directorul"
 
 #~ msgid "Renaming file '%s'"
-#~ msgstr "Redenumesc fişierul '%s'"
+#~ msgstr "Redenumesc fișierul '%s'"
 
 #, fuzzy
 #~ msgid "Cannot rename file '%s' to '%s' (%s)"
 #~ msgstr ""
-#~ "Nu pot redenumi fişierul '%s'\n"
+#~ "Nu pot redenumi fișierul '%s'\n"
 #~ " în \n"
 #~ "'%s'!\n"
 #~ "(%s)"
@@ -5670,9 +5670,9 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 #~ msgid ""
 #~ "Cannot rename file '%s' because the following file already exists: '%s'"
 #~ msgstr ""
-#~ "Nu pot redenumi fişierul\n"
+#~ "Nu pot redenumi fișierul\n"
 #~ "'%s'\n"
-#~ "pentru că următorul fişier deja există:\n"
+#~ "pentru că următorul fișier deja există:\n"
 #~ "'%s'"
 
 #, fuzzy
@@ -5683,11 +5683,11 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 #~ "(%s)"
 
 #~ msgid "Renamed file '%s' to '%s'"
-#~ msgstr "Fişier redenumit '%s' în '%s'"
+#~ msgstr "Fișier redenumit '%s' în '%s'"
 
 #, fuzzy
 #~ msgid "File(s) renamed…"
-#~ msgstr "Fişierul(ele) neredenumite..."
+#~ msgstr "Fișierul(ele) neredenumite..."
 
 #, fuzzy
 #~ msgid "Cannot remove old directory '%s'"
@@ -5709,7 +5709,7 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 
 #, fuzzy
 #~ msgid "Moved file '%s' to '%s'"
-#~ msgstr "Fişier redenumit '%s' în '%s'\n"
+#~ msgstr "Fișier redenumit '%s' în '%s'\n"
 
 #, fuzzy
 #~ msgid "File(s) moved…"
@@ -5732,7 +5732,7 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 #~ "'%s'!\n"
 #~ "(%s)"
 #~ msgstr ""
-#~ "Nu pot redenumi fişierul '%s'\n"
+#~ "Nu pot redenumi fișierul '%s'\n"
 #~ " în \n"
 #~ "'%s'!\n"
 #~ "(%s)"
@@ -5740,7 +5740,7 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 #, fuzzy
 #~ msgid "Cannot move file '%s' to '%s'"
 #~ msgstr ""
-#~ "Nu pot redenumi fişierul '%s'\n"
+#~ "Nu pot redenumi fișierul '%s'\n"
 #~ " în \n"
 #~ "'%s'!\n"
 #~ "(%s)"
@@ -5752,7 +5752,7 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 #, fuzzy
 #~ msgid "Can't rename file '%s' to '%s'! (%s)"
 #~ msgstr ""
-#~ "Nu pot redenumi fişierul '%s'\n"
+#~ "Nu pot redenumi fișierul '%s'\n"
 #~ " în \n"
 #~ "'%s'!\n"
 #~ "(%s)"
@@ -5763,7 +5763,7 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 #~ " to \n"
 #~ "'%s': (%s)"
 #~ msgstr ""
-#~ "Nu pot redenumi fişierul '%s'\n"
+#~ "Nu pot redenumi fișierul '%s'\n"
 #~ " în \n"
 #~ "'%s'!\n"
 #~ "(%s)"
@@ -5781,13 +5781,13 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 #~ msgstr "%u fisier(e)"
 
 #~ msgid "  STOP the search...  "
-#~ msgstr "  Opreşte căutarea...  "
+#~ msgstr "  Oprește căutarea...  "
 
 #~ msgid "Select a directory to browse!"
-#~ msgstr "Alegeţi un director de navigat!"
+#~ msgstr "Alegeți un director de navigat!"
 
 #~ msgid "EasyTAG %s: Abnormal exit! (PId: %d)."
-#~ msgstr "EasyTAG %s: Ieşire anormală! (PId: %d)."
+#~ msgstr "EasyTAG %s: Ieșire anormală! (PId: %d)."
 
 #, fuzzy
 #~ msgid "Received signal %s (%d)\a"
@@ -5850,7 +5850,7 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 
 #, fuzzy
 #~ msgid "Select file…"
-#~ msgstr "Alegeţi fişierul..."
+#~ msgstr "Alegeți fișierul..."
 
 #, fuzzy
 #~ msgid "Audio Player Warning"
@@ -5880,13 +5880,13 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 #, fuzzy
 #~ msgid "Playlist file '%s' already exists"
 #~ msgstr ""
-#~ "Fişierul playlist '%s' există deja!\n"
+#~ "Fișierul playlist '%s' există deja!\n"
 #~ "Suprascriu?"
 
 #, fuzzy
 #~ msgid "Do you want to save the playlist, overwriting the existing file?"
 #~ msgstr ""
-#~ "Doriţi să scrieţi eticheta fişierului\n"
+#~ "Doriți să scrieți eticheta fișierului\n"
 #~ "'%s' ?"
 
 #, fuzzy
@@ -5897,7 +5897,7 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 #~ msgstr "Codor"
 
 #~ msgid "Search a file"
-#~ msgstr "Caută un fişier"
+#~ msgstr "Caută un fișier"
 
 #, fuzzy
 #~ msgid "Unknown"
@@ -5935,16 +5935,16 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 
 #, fuzzy
 #~ msgid "Picture file can't be saved (%s)…"
-#~ msgstr "Toate fişierele au fost salvate..."
+#~ msgstr "Toate fișierele au fost salvate..."
 
 #~ msgid "Message Dialog Position"
-#~ msgstr "Poziţia ferestrei de dialog"
+#~ msgstr "Poziția ferestrei de dialog"
 
 #~ msgid "No particular position"
-#~ msgstr "Nici o poziţie aleasă"
+#~ msgstr "Nici o poziție aleasă"
 
 #~ msgid "Let the Window Manager to place the windows."
-#~ msgstr "Lasă administratorul de ferestre să poziţioneze ferestrele."
+#~ msgstr "Lasă administratorul de ferestre să poziționeze ferestrele."
 
 #, fuzzy
 #~ msgid "Center of the main window"
@@ -5952,22 +5952,22 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 
 #, fuzzy
 #~ msgid "Windows should be placed in the center of the main window."
-#~ msgstr "Ferestrele ar trebui poziţionate în centrul ecranului."
+#~ msgstr "Ferestrele ar trebui poziționate în centrul ecranului."
 
 #~ msgid "Center of the screen"
 #~ msgstr "Centrul ecranului"
 
 #~ msgid "Windows should be placed in the center of the screen."
-#~ msgstr "Ferestrele ar trebui poziţionate în centrul ecranului."
+#~ msgstr "Ferestrele ar trebui poziționate în centrul ecranului."
 
 #~ msgid "Mouse position"
-#~ msgstr "Poziţia cursorlui"
+#~ msgstr "Poziția cursorlui"
 
 #~ msgid "Windows should be placed at the current mouse position."
-#~ msgstr "Ferestrele ar trebui poziţionate la pozitia curentă a cursorului"
+#~ msgstr "Ferestrele ar trebui poziționate la pozitia curentă a cursorului"
 
 #~ msgid "Ogg Vorbis Files : Write also the comment to the XMMS format"
-#~ msgstr "Fişiere Ogg Vorbis : scrie comentariul şi în formatul XMMS"
+#~ msgstr "Fișiere Ogg Vorbis : scrie comentariul și în formatul XMMS"
 
 #~ msgid ""
 #~ "XMMS doesn't make use of the right way to identify a comment in Ogg "
@@ -5976,10 +5976,10 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 #~ "if you don't want other apps to complain about an unknown field. Comments "
 #~ "won't be shown in XMMS, though."
 #~ msgstr ""
-#~ "XMMS nu foloseşte corect identificatorul de comentariu din fişierele Ogg "
-#~ "Vorbis aşa cum fac celelate aplicaţii. De fapt, acest cîmp este în mod "
-#~ "normal etichetat cu 'comment=', iar XMMS foloseşte doar '='. Va rog să "
-#~ "debifati această opţiune dacă nu vreţi ca celelalte aplicaţii să se "
+#~ "XMMS nu folosește corect identificatorul de comentariu din fișierele Ogg "
+#~ "Vorbis așa cum fac celelate aplicații. De fapt, acest cîmp este în mod "
+#~ "normal etichetat cu 'comment=', iar XMMS folosește doar '='. Va rog să "
+#~ "debifati această opțiune dacă nu vreți ca celelalte aplicații să se "
 #~ "plingă de un cîmp necunoscut. Comentariile nu o să apară în XMMS însă."
 
 #, fuzzy
@@ -6000,20 +6000,20 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 #~ "If activated, the window which contains the masks will stay always over "
 #~ "the main window."
 #~ msgstr ""
-#~ "Dacă este activată, fereastra care conţine mask va fi tot timpul peste "
+#~ "Dacă este activată, fereastra care conține mask va fi tot timpul peste "
 #~ "fereastra principală."
 
 #~ msgid "CD Data Base"
 #~ msgstr "Baza de date CD"
 
 #~ msgid "Apply changes (but don't save) and close this window"
-#~ msgstr "Aplică modificările (dar nu salva) şi închide această fereastră"
+#~ msgstr "Aplică modificările (dar nu salva) și închide această fereastră"
 
 #~ msgid "Close this window without saving"
 #~ msgstr "Închide fereastra fără să salvezi"
 
 #~ msgid "Save changes and close this window"
-#~ msgstr "Salvează schimbările şi închide fereastra"
+#~ msgstr "Salvează schimbările și închide fereastra"
 
 #~ msgid "Changes applied"
 #~ msgstr "Schimbările aplicate"
@@ -6022,7 +6022,7 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 #~ msgstr "Deschide fereastra examinatorului / Examinati fisierele alese"
 
 #~ msgid "Scanner Options"
-#~ msgstr "Opţiunile examinatorului"
+#~ msgstr "Opțiunile examinatorului"
 
 #~ msgid "Close this window"
 #~ msgstr "Închide această fereastră"
@@ -6031,13 +6031,13 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 #~ msgstr "Invesează alegerea"
 
 #~ msgid "Convert '_' and '%20' to ' '"
-#~ msgstr "Schimbă '_' şi '%20' în ' '"
+#~ msgstr "Schimbă '_' și '%20' în ' '"
 
 #~ msgid "Insert a space before an uppercase letter"
-#~ msgstr "Introdu un spaţiu înainte de o majusculă"
+#~ msgstr "Introdu un spațiu înainte de o majusculă"
 
 #~ msgid "Remove duplicates of space or underscore"
-#~ msgstr "Şterge spaţiile sau '_' multiple"
+#~ msgstr "Șterge spațiile sau '_' multiple"
 
 #, fuzzy
 #~ msgid "ERROR: The environment variable HOME is not defined!"
@@ -6055,17 +6055,17 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 #~ msgstr "Eroare la citirea primei pagini a fluxului Ogg."
 
 #~ msgid "Error reading initial header packet."
-#~ msgstr "Eroare la citirea pachetului antet iniţial."
+#~ msgstr "Eroare la citirea pachetului antet inițial."
 
 #, fuzzy
 #~ msgid "Ogg bitstream contains neither speex or vorbis data."
-#~ msgstr "Fluxul Ogg nu conţine date vorbis."
+#~ msgstr "Fluxul Ogg nu conține date vorbis."
 
 #~ msgid "Corrupt secondary header."
 #~ msgstr "Antet secundar incorect."
 
 #~ msgid "EOF before end of vorbis headers."
-#~ msgstr "EOF înainte de sfîrşitul anteletolor vorbis."
+#~ msgstr "EOF înainte de sfîrșitul anteletolor vorbis."
 
 #, fuzzy
 #~ msgid "Corrupt or missing data, continuing…"
@@ -6075,7 +6075,7 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 #~ "Error writing stream to output. Output stream may be corrupted or "
 #~ "truncated."
 #~ msgstr ""
-#~ "Eroare la scrierea fluxului la ieşire. Fluxul de ieşire poate fi incorect "
+#~ "Eroare la scrierea fluxului la ieșire. Fluxul de ieșire poate fi incorect "
 #~ "sau trunchiat."
 
 #, fuzzy
@@ -6112,14 +6112,14 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 #~ msgstr "%u fisier(e)"
 
 #~ msgid "File(s) not renamed..."
-#~ msgstr "Fişierul(ele) neredenumite..."
+#~ msgstr "Fișierul(ele) neredenumite..."
 
 #~ msgid "File(s) renamed..."
 #~ msgstr "Fisierul(ele) redenumite..."
 
 #, fuzzy
 #~ msgid "File(s) not moved..."
-#~ msgstr "Fişierul(ele) neredenumite..."
+#~ msgstr "Fișierul(ele) neredenumite..."
 
 #~ msgid "Confirm..."
 #~ msgstr "Confirmări..."
@@ -6128,8 +6128,8 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 #~ "Some files have been modified but not saved...\n"
 #~ "Do you want to save them before changing the directory?"
 #~ msgstr ""
-#~ "Unele fişiere au fost modificate dar nu au fost salvate...\n"
-#~ "Doriţi să le salvez înainte de a schimba directorul?"
+#~ "Unele fișiere au fost modificate dar nu au fost salvate...\n"
+#~ "Doriți să le salvez înainte de a schimba directorul?"
 
 #~ msgid "Error..."
 #~ msgstr "Eroare..."
@@ -6171,9 +6171,9 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 #~ "because the following file already exists:\n"
 #~ "'%s'"
 #~ msgstr ""
-#~ "Nu pot redenumi fişierul\n"
+#~ "Nu pot redenumi fișierul\n"
 #~ "'%s'\n"
-#~ "pentru că următorul fişier deja există:\n"
+#~ "pentru că următorul fișier deja există:\n"
 #~ "'%s'"
 
 #~ msgid ""
@@ -6186,7 +6186,7 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 #~ "(%s)"
 
 #~ msgid "Delete File..."
-#~ msgstr "Şterge fişierul..."
+#~ msgstr "Șterge fișierul..."
 
 #~ msgid "Not a directory"
 #~ msgstr "Nu este director"
@@ -6203,8 +6203,8 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 #~ "Some files have been modified but not saved...\n"
 #~ "Do you want to save them before exiting the program?"
 #~ msgstr ""
-#~ "Unele fişiere au fost modificate dar nu şi salvate...\n"
-#~ "Doriţi să le salvez înainte de ieşire?"
+#~ "Unele fișiere au fost modificate dar nu și salvate...\n"
+#~ "Doriți să le salvez înainte de ieșire?"
 
 #~ msgid "Save file..."
 #~ msgstr "Salvati fisierul..."
@@ -6217,7 +6217,7 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 #~ msgstr "Nu pot deschide '%s' (%s)\n"
 
 #~ msgid "Files have been partially saved..."
-#~ msgstr "Fişierele au fost parţial salvate..."
+#~ msgstr "Fișierele au fost parțial salvate..."
 
 #~ msgid " OK "
 #~ msgstr " OK "
@@ -6263,10 +6263,10 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 #~ msgstr "Inlocuiti caracterul cu un altul."
 
 #~ msgid "Loaded File Content :"
-#~ msgstr "Conţinutul fişierului încarcat :"
+#~ msgstr "Conținutul fișierului încarcat :"
 
 #~ msgid "Files Name List :"
-#~ msgstr "Lista numelor de fişiere :"
+#~ msgstr "Lista numelor de fișiere :"
 
 #, fuzzy
 #~ msgid "(MP3 file support enabled using: libid3tag %s)"
@@ -6337,7 +6337,7 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 #~ "If activated, the background of tooltips will be yellow colored, "
 #~ "overriding your window manager."
 #~ msgstr ""
-#~ "Daca este activată, fundalul ponturilor va fi colorat în galben, neţinînd "
+#~ "Daca este activată, fundalul ponturilor va fi colorat în galben, neținînd "
 #~ "seama de administratorul de ferestre."
 
 #, fuzzy
@@ -6364,37 +6364,37 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 #~ msgstr "Fixează dimensiunea ferestrei principale"
 
 #~ msgid "Width :"
-#~ msgstr "Lăţime :"
+#~ msgstr "Lățime :"
 
 #~ msgid "Height :"
-#~ msgstr "Înălţime :"
+#~ msgstr "Înălțime :"
 
 #~ msgid " Get current size "
-#~ msgstr " Obţine dimensiunea curentă "
+#~ msgstr " Obține dimensiunea curentă "
 
 #~ msgid ""
 #~ "Specify the default size for the main window. You must restart the "
 #~ "program to apply the new size. For your display, the max values are: "
 #~ "width=%d and height=%d."
 #~ msgstr ""
-#~ "Specificaţi dimensiunea implicită pentru fereastra principală. Trebuie să "
-#~ "reporniţi programul pentru a aplica noua dimensiune. Pentru ecranul dvs., "
-#~ "valorile maxime sînt: lăţime=%d şi înălţime=%d."
+#~ "Specificați dimensiunea implicită pentru fereastra principală. Trebuie să "
+#~ "reporniți programul pentru a aplica noua dimensiune. Pentru ecranul dvs., "
+#~ "valorile maxime sînt: lățime=%d și înălțime=%d."
 
 #~ msgid "Width: set -1 for automatic size"
-#~ msgstr "Lăţimea: alegeţi -1 pentru dimensionarea automată"
+#~ msgstr "Lățimea: alegeți -1 pentru dimensionarea automată"
 
 #~ msgid "Heigth: set -1 for automatic size"
-#~ msgstr "Înălţimea: alegeţi -1 pentru dimensionarea automată"
+#~ msgstr "Înălțimea: alegeți -1 pentru dimensionarea automată"
 
 #~ msgid "Set vertical right pane handle position"
 #~ msgstr "Alegeti pozitia panoului vertical din dreapta"
 
 #~ msgid "Position :"
-#~ msgstr "Poziţia :"
+#~ msgstr "Poziția :"
 
 #~ msgid " Get current position "
-#~ msgstr " Obţine poziţia curentă "
+#~ msgstr " Obține poziția curentă "
 
 #~ msgid ""
 #~ "Specify the default position for the pane handle located between the "
@@ -6405,7 +6405,7 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 #~ "urmatoarea pornire."
 
 #~ msgid "Position: set -1 for automatic positioning"
-#~ msgstr "Poziţia: alegeţi -1 pentru poziţionarea automată"
+#~ msgstr "Poziția: alegeți -1 pentru poziționarea automată"
 
 #~ msgid "Set vertical left pane handle position"
 #~ msgstr "Alegeti pozitia panoului vertical din stinga"
@@ -6430,7 +6430,7 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 #~ "si lista de albume. Modificarile o sa fie aplicate la urmatoarea pornire."
 
 #~ msgid "Set scanner window position"
-#~ msgstr "Fixează poziţia ferestrei examinatorului"
+#~ msgstr "Fixează poziția ferestrei examinatorului"
 
 #~ msgid ""
 #~ "If activated, the scanner window will appear at the specified coordinates "
@@ -6439,10 +6439,10 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 #~ "manager determines the position."
 #~ msgstr ""
 #~ "Dacă este activată, fereastra examinatorului va apărea la coordonatele "
-#~ "specificate, relativ la fereastra principală. Folosiţi această opţiune "
-#~ "pentru a păstra aceeaşi poziţie a ferestrei examinatorului de fiecare "
-#~ "dată cînd o deschideţi. Dacă o dezactivaţi, administratorul de ferestre "
-#~ "va fixa poziţia."
+#~ "specificate, relativ la fereastra principală. Folosiți această opțiune "
+#~ "pentru a păstra aceeași poziție a ferestrei examinatorului de fiecare "
+#~ "dată cînd o deschideți. Dacă o dezactivați, administratorul de ferestre "
+#~ "va fixa poziția."
 
 #~ msgid "X :"
 #~ msgstr "X :"
@@ -6467,31 +6467,31 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 
 #~ msgid " Window height (%d) is bigger than screen height (%d)! "
 #~ msgstr ""
-#~ " Înălţimea ferestrei (%d) este mai mare decît înalţimea ecranului (%d)! "
+#~ " Înălțimea ferestrei (%d) este mai mare decît înalțimea ecranului (%d)! "
 
 #~ msgid "Size Error..."
 #~ msgstr "Eroare de dimensiune..."
 
 #~ msgid " Window width (%d) is bigger than screen width (%d)! "
-#~ msgstr "Lăţimea ferestrei (%d) este mai mare decît lăţimea ecranului (%d)! "
+#~ msgstr "Lățimea ferestrei (%d) este mai mare decît lățimea ecranului (%d)! "
 
 #~ msgid "The scanner window must be open to get its current position!"
 #~ msgstr ""
-#~ "Fereastra examinatorului trebuie să fie deschisă pentru a-i obţine "
-#~ "poziţia curentă"
+#~ "Fereastra examinatorului trebuie să fie deschisă pentru a-i obține "
+#~ "poziția curentă"
 
 #~ msgid "The CDDB window must be open to get its current position!"
 #~ msgstr ""
-#~ "Fereastra CDDB trebuie să fie deschisă pentru a-i obţine poziţia curentă!"
+#~ "Fereastra CDDB trebuie să fie deschisă pentru a-i obține poziția curentă!"
 
 #~ msgid "Save the configuration before exiting the program"
-#~ msgstr "Salvează configuraţia înainte de ieşirea din program"
+#~ msgstr "Salvează configurația înainte de ieșirea din program"
 
 #~ msgid ""
 #~ "If activated, the configuration will be automatically saved before "
 #~ "exiting the program."
 #~ msgstr ""
-#~ "Dacă este activată, configuraţia va fi automat salvată inainte de "
+#~ "Dacă este activată, configurația va fi automat salvată inainte de "
 #~ "părăsirea programului."
 
 #, fuzzy
@@ -6558,7 +6558,7 @@ msgstr "Eroare: Nu pot crea directorul '%s' (%s)!"
 
 #, fuzzy
 #~ msgid "AAC/MPEG-4 File"
-#~ msgstr "Fişier MP3"
+#~ msgstr "Fișier MP3"
 
 #~ msgid "Use DLM to match lines with files"
 #~ msgstr "Foloseste DLM pentru a asocia liniile cu fisierele"

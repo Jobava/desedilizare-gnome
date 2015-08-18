@@ -359,7 +359,7 @@ msgstr "<b>Dată:</b>"
 
 #: ../src/niepce/ui/dialogs/importdialog.ui.h:11
 msgid "_Options"
-msgstr "_Opţiuni"
+msgstr "_Opțiuni"
 
 #: ../src/niepce/ui/dialogs/preferencesdialog.cpp:42
 msgid "Preferences"
@@ -703,7 +703,7 @@ msgstr "Cuvinte cheie"
 #. TODO make it a mnemonic
 #: ../src/niepce/ui/workspacecontroller.cpp:316
 msgid "_Workspace"
-msgstr "Spaţiu de _lucru"
+msgstr "Spațiu de _lucru"
 
 #~ msgid "_Image"
 #~ msgstr "_Imagine"
@@ -906,19 +906,19 @@ msgstr "Spaţiu de _lucru"
 #~ msgstr "Nume lung"
 
 #~ msgid "Human readable name for the dock object"
-#~ msgstr "Nume uşor de citit pentru obiect"
+#~ msgstr "Nume ușor de citit pentru obiect"
 
 #~ msgid "Stock Icon"
-#~ msgstr "Iconiţă standard"
+#~ msgstr "Iconiță standard"
 
 #~ msgid "Stock icon for the dock object"
-#~ msgstr "Iconiţă standard pentru obiectul din bară"
+#~ msgstr "Iconiță standard pentru obiectul din bară"
 
 #~ msgid "Pixbuf Icon"
-#~ msgstr "Iconiţă pixbuf"
+#~ msgstr "Iconiță pixbuf"
 
 #~ msgid "Pixbuf icon for the dock object"
-#~ msgstr "Iconiţă pixbuf pentru obiectul din bară"
+#~ msgstr "Iconiță pixbuf pentru obiectul din bară"
 
 #~ msgid "Dock master"
 #~ msgstr "Atribuție"
@@ -937,7 +937,7 @@ msgstr "Spaţiu de _lucru"
 #~ "Dock operation requested in a non-bound object %p. The application might "
 #~ "crash"
 #~ msgstr ""
-#~ "Operaţia solicitată nu are legatură cu obiectul %p. Aplicația s-ar putea "
+#~ "Operația solicitată nu are legatură cu obiectul %p. Aplicația s-ar putea "
 #~ "bolca"
 
 #~ msgid "Cannot dock %p to %p because they belong to different masters"
@@ -1035,10 +1035,10 @@ msgstr "Spaţiu de _lucru"
 #~ msgstr "Titlu implicit pentru noile variabile create"
 
 #~ msgid "Width for the dock when it's of floating type"
-#~ msgstr "Lăţimea elementului când este de tip variabil"
+#~ msgstr "Lățimea elementului când este de tip variabil"
 
 #~ msgid "Height for the dock when it's of floating type"
-#~ msgstr "Înălţimea elementului când este de tip variabil"
+#~ msgstr "Înălțimea elementului când este de tip variabil"
 
 #~ msgid "Float X"
 #~ msgstr "Variabila X"

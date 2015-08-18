@@ -2178,7 +2178,7 @@ msgstr "/_Leagă aici"
 
 #: ../src/gnome-cmd-file-list.cc:221
 msgid "/C_ancel"
-msgstr "/R_enunţă"
+msgstr "/R_enunță"
 
 #: ../src/gnome-cmd-file-list.cc:1434
 msgid "Directory listing failed."

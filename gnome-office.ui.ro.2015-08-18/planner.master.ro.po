@@ -262,7 +262,7 @@ msgstr "_Start:"
 
 #: ../data/glade/project-properties.glade.h:4
 msgid "_Organization:"
-msgstr "_Organizaţie:"
+msgstr "_Organizație:"
 
 #: ../data/glade/project-properties.glade.h:5
 msgid "_Manager:"
@@ -2237,7 +2237,7 @@ msgstr "_Ieșire"
 
 #: ../src/planner-window.c:255
 msgid "Exit the program"
-msgstr "Ieşire din program"
+msgstr "Ieșire din program"
 
 #: ../src/planner-window.c:259
 msgid "_Edit"

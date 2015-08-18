@@ -493,7 +493,7 @@ msgstr ""
 #: ../avahi-ui/bssh.c:101 ../avahi-utils/avahi-browse.c:775
 #, c-format
 msgid "Too many arguments\n"
-msgstr "Prea mulţi parametri\n"
+msgstr "Prea mulți parametri\n"
 
 #: ../avahi-ui/bssh.c:149
 msgid "Choose Shell Server"

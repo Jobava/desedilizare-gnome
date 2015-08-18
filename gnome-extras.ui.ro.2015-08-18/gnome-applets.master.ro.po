@@ -2594,14 +2594,14 @@ msgid ""
 "A little applet that displays some information on the traffic on the "
 "specified network device"
 msgstr ""
-"Un mic aplet ce afişează informaţii despre traficul dispozitivului de reţea "
+"Un mic aplet ce afișează informații despre traficul dispozitivului de rețea "
 "specificat"
 
 #: ../netspeed/src/netspeed.c:639
 #, fuzzy
 #| msgid "Netspeed Applet"
 msgid "Netspeed Website"
-msgstr "Aplet Viteză Reţea"
+msgstr "Aplet Viteză Rețea"
 
 #: ../netspeed/src/netspeed.c:902
 #, c-format
@@ -2610,7 +2610,7 @@ msgstr "Detalii dispozitiv pentru %s"
 
 #: ../netspeed/src/netspeed.c:927
 msgid "_In graph color"
-msgstr "Culoare grafic _recepţie"
+msgstr "Culoare grafic _recepție"
 
 #: ../netspeed/src/netspeed.c:928
 msgid "_Out graph color"
@@ -2622,7 +2622,7 @@ msgstr "Adresa internet:"
 
 #: ../netspeed/src/netspeed.c:945
 msgid "Netmask:"
-msgstr "Masca de reţea:"
+msgstr "Masca de rețea:"
 
 #: ../netspeed/src/netspeed.c:946
 msgid "Hardware Address:"
@@ -2634,11 +2634,11 @@ msgstr "Adresa P-t-P:"
 
 #: ../netspeed/src/netspeed.c:948
 msgid "Bytes in:"
-msgstr "Bytes recepţionaţi:"
+msgstr "Bytes recepționați:"
 
 #: ../netspeed/src/netspeed.c:949
 msgid "Bytes out:"
-msgstr "Bytes transmişi:"
+msgstr "Bytes transmiși:"
 
 #: ../netspeed/src/netspeed.c:951 ../netspeed/src/netspeed.c:952
 #: ../netspeed/src/netspeed.c:953 ../netspeed/src/netspeed.c:954
@@ -2674,7 +2674,7 @@ msgid ""
 "in: %s out: %s"
 msgstr ""
 "%s :%s\n"
-"recepţie: %s transmisie: %s"
+"recepție: %s transmisie: %s"
 
 #: ../netspeed/src/netspeed.c:1083 ../netspeed/src/netspeed.c:1092
 msgid "has no ip"
@@ -2722,7 +2722,7 @@ msgstr ""
 
 #: ../netspeed/src/netspeed.c:1457
 msgid "Netspeed"
-msgstr "Viteză reţea"
+msgstr "Viteză rețea"
 
 #: ../netspeed/src/netspeed.c:1549
 #, fuzzy, c-format
@@ -2734,7 +2734,7 @@ msgstr "A intervenit o eroare la afișarea ajutorului: %s"
 
 #: ../netspeed/src/preferences.c:152
 msgid "Network _device:"
-msgstr "_Dispozitiv reţea:"
+msgstr "_Dispozitiv rețea:"
 
 #: ../netspeed/src/preferences.c:219
 msgid "General Settings"
@@ -2742,21 +2742,21 @@ msgstr "Setări generale"
 
 #: ../netspeed/src/preferences.c:240
 msgid "Show _sum instead of in & out"
-msgstr "Afişează _totalul în loc de recepţie & transmisie"
+msgstr "Afișează _totalul în loc de recepție & transmisie"
 
 #: ../netspeed/src/preferences.c:246
 #, fuzzy
 #| msgid "Show _bits/s (b/s) instead of bytes/s (B/s)"
 msgid "Show _bits instead of bytes"
-msgstr "Afişează _biţi/s (b/s) în loc de bytes/s (B/s)"
+msgstr "Afișează _biți/s (b/s) în loc de bytes/s (B/s)"
 
 #: ../netspeed/src/preferences.c:252
 msgid "Change _icon according to the selected device"
-msgstr "Schimbă _iconiţa funcţie de dispozitivul selectat"
+msgstr "Schimbă _iconița funcție de dispozitivul selectat"
 
 #: ../netspeed/src/preferences.c:312
 msgid "Netspeed Preferences"
-msgstr "Preferinţe viteză reţea"
+msgstr "Preferințe viteză rețea"
 
 #: ../netspeed/data/netspeed-menu.xml.h:1
 msgid "Device _Details"
@@ -2764,15 +2764,15 @@ msgstr "_Detalii Dispozitiv"
 
 #: ../netspeed/data/org.gnome.panel.Netspeed.panel-applet.in.in.h:1
 msgid "Netspeed Applet Factory"
-msgstr "Uzina aplet viteză de reţea"
+msgstr "Uzina aplet viteză de rețea"
 
 #: ../netspeed/data/org.gnome.panel.Netspeed.panel-applet.in.in.h:2
 msgid "Netspeed Applet"
-msgstr "Aplet Viteză Reţea"
+msgstr "Aplet Viteză Rețea"
 
 #: ../netspeed/data/org.gnome.panel.Netspeed.panel-applet.in.in.h:3
 msgid "Network Monitor"
-msgstr "Monitorizare reţea"
+msgstr "Monitorizare rețea"
 
 #: ../netspeed/data/org.gnome.gnome-applets.netspeed.gschema.xml.in.in.h:1
 #, fuzzy
@@ -2784,7 +2784,7 @@ msgstr "Arată cadru"
 #, fuzzy
 #| msgid "Show _sum instead of in & out"
 msgid "Show sum instead of in &amp; out"
-msgstr "Afişează _totalul în loc de recepţie & transmisie"
+msgstr "Afișează _totalul în loc de recepție & transmisie"
 
 #: ../netspeed/data/org.gnome.gnome-applets.netspeed.gschema.xml.in.in.h:3
 #, fuzzy
@@ -2796,7 +2796,7 @@ msgstr "Afișează notițele adezive"
 #, fuzzy
 #| msgid "Show _bits/s (b/s) instead of bytes/s (B/s)"
 msgid "Show bits instead of bytes"
-msgstr "Afişează _biţi/s (b/s) în loc de bytes/s (B/s)"
+msgstr "Afișează _biți/s (b/s) în loc de bytes/s (B/s)"
 
 #: ../netspeed/data/org.gnome.gnome-applets.netspeed.gschema.xml.in.in.h:5
 #, fuzzy
@@ -2808,7 +2808,7 @@ msgstr "Schimbare %"
 #, fuzzy
 #| msgid "Change _icon according to the selected device"
 msgid "Change icon according to the selected device"
-msgstr "Schimbă _iconiţa funcţie de dispozitivul selectat"
+msgstr "Schimbă _iconița funcție de dispozitivul selectat"
 
 #: ../netspeed/data/org.gnome.gnome-applets.netspeed.gschema.xml.in.in.h:7
 msgid "Auto change device"
@@ -2830,7 +2830,7 @@ msgstr "Rata de reîmprospătare a miniaplicației, în milisecunde"
 #, fuzzy
 #| msgid "Network _device:"
 msgid "Network device"
-msgstr "_Dispozitiv reţea:"
+msgstr "_Dispozitiv rețea:"
 
 #: ../netspeed/data/org.gnome.gnome-applets.netspeed.gschema.xml.in.in.h:11
 #, fuzzy
@@ -2848,7 +2848,7 @@ msgstr "Comandă"
 #, fuzzy
 #| msgid "_In graph color"
 msgid "In graph color"
-msgstr "Culoare grafic _recepţie"
+msgstr "Culoare grafic _recepție"
 
 #: ../netspeed/data/org.gnome.gnome-applets.netspeed.gschema.xml.in.in.h:14
 #, fuzzy
@@ -4139,7 +4139,7 @@ msgstr ""
 #~ msgstr "puncte"
 
 #~ msgid "_Preferences..."
-#~ msgstr "_Preferinţe..."
+#~ msgstr "_Preferințe..."
 
 #~ msgid "_About..."
 #~ msgstr "_Despre..."

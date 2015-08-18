@@ -23,28 +23,28 @@ msgstr ""
 
 #: ../boards/algebra_group.xml.in.h:1
 msgid "Go to Algebra activities"
-msgstr "Activităţi de algebră"
+msgstr "Activități de algebră"
 
 #: ../boards/algebra_group.xml.in.h:2 ../boards/menu.xml.in.h:2
 #: ../boards/money_group.xml.in.h:2 ../src/lang-activity/lang.xml.in.h:2
 #, fuzzy
 msgid "Left-click the mouse on an activity to select it."
-msgstr "Făceţi clic stânga cu şoricelul pentru a selecta o activitate"
+msgstr "Făceți clic stânga cu șoricelul pentru a selecta o activitate"
 
 #: ../boards/algebramenu.xml.in.h:1
 msgid "Go to calculation activities"
-msgstr "Mergeţi la activităţile de calcul"
+msgstr "Mergeți la activitățile de calcul"
 
 #: ../boards/algebramenu.xml.in.h:2
 msgid "Various calculation activities."
-msgstr "Activităţi diverse de calcul."
+msgstr "Activități diverse de calcul."
 
 #: ../boards/braille.xml.in.h:1
 #: ../src/braille_alphabets-activity/braille_alphabets.xml.in.h:1
 #, fuzzy
 #| msgid "Discover the Computer"
 msgid "Discover the Braille system"
-msgstr "Descoperiţi calculatorul"
+msgstr "Descoperiți calculatorul"
 
 #: ../boards/braille.xml.in.h:2
 msgid ""
@@ -54,34 +54,34 @@ msgstr ""
 
 #: ../boards/chess.xml.in.h:1
 msgid "Practice chess"
-msgstr "Exersaţi şahul"
+msgstr "Exersați șahul"
 
 #: ../boards/chess.xml.in.h:2
 #: ../src/chess_computer-activity/chess_computer.xml.in.h:2
 msgid "Play chess against the computer in a learning mode"
-msgstr "Jucaţi şah contra calculatorului într-un mod de învăţare"
+msgstr "Jucați șah contra calculatorului într-un mod de învățare"
 
 #: ../boards/colors_group.xml.in.h:1
 #, fuzzy
 msgid "Go to Color activities"
-msgstr "Mergeţi la activităţile cu culori"
+msgstr "Mergeți la activitățile cu culori"
 
 #: ../boards/colors_group.xml.in.h:2
 msgid "Colors based activities."
-msgstr "Activităţile bazate pe culori."
+msgstr "Activitățile bazate pe culori."
 
 #: ../boards/computer.xml.in.h:1
 msgid "Discover the Computer"
-msgstr "Descoperiţi calculatorul"
+msgstr "Descoperiți calculatorul"
 
 #: ../boards/computer.xml.in.h:2
 msgid "Play with computer peripherals."
-msgstr "Jucaţi-vă cu sistemele periferice a calculatorului."
+msgstr "Jucați-vă cu sistemele periferice a calculatorului."
 
 #: ../boards/discovery.xml.in.h:1
 #, fuzzy
 msgid "Go to discovery activities"
-msgstr "Mergeţi la activităţile cu culori"
+msgstr "Mergeți la activitățile cu culori"
 
 #: ../boards/discovery.xml.in.h:2
 msgid "Colors, sounds, memory..."
@@ -90,29 +90,29 @@ msgstr "Culori, sunete, memorie..."
 #: ../boards/experience.xml.in.h:1
 #, fuzzy
 msgid "Go to experiential activities"
-msgstr "Mergeţi la activităţile de citire"
+msgstr "Mergeți la activitățile de citire"
 
 #: ../boards/experience.xml.in.h:2
 msgid "Various activities based on physical movement."
-msgstr "Activităţi diferite bazate pe mişcări fizice."
+msgstr "Activități diferite bazate pe mișcări fizice."
 
 #: ../boards/experimental.xml.in.h:1
 #, fuzzy
 msgid "Go to Experimental activities"
-msgstr "Mergeţi la activităţile de citire"
+msgstr "Mergeți la activitățile de citire"
 
 #: ../boards/experimental.xml.in.h:2
 msgid "Run gcompris --experimental to see this menu."
-msgstr "Lansaţi gcompris--experimental pentru a vedea acest meniu"
+msgstr "Lansați gcompris--experimental pentru a vedea acest meniu"
 
 #: ../boards/fun.xml.in.h:1
 msgid "Go to Amusement activities"
-msgstr "Mergeţi la amuzamente"
+msgstr "Mergeți la amuzamente"
 
 #: ../boards/fun.xml.in.h:2
 #, fuzzy
 msgid "Various fun activities."
-msgstr "Mergeţi la amuzamente"
+msgstr "Mergeți la amuzamente"
 
 #: ../boards/geometry.xml.in.h:1
 msgid "Geometry"
@@ -120,12 +120,12 @@ msgstr "Geometria"
 
 #: ../boards/geometry.xml.in.h:2
 msgid "Geometry activities."
-msgstr "Mergeţi la activităţile de geometrie"
+msgstr "Mergeți la activitățile de geometrie"
 
 #: ../boards/gnumchmenu.xml.in.h:1
 #, fuzzy
 msgid "Go to Number Munchers activities"
-msgstr "Mergeţi la activităţile de citire"
+msgstr "Mergeți la activitățile de citire"
 
 #: ../boards/gnumchmenu.xml.in.h:2
 msgid "Number Munchers are games to play with arithmetic."
@@ -139,7 +139,7 @@ msgstr "Folosirea tastaturii"
 #: ../boards/keyboard.xml.in.h:2
 #, fuzzy
 msgid "Discover the keyboard."
-msgstr "Descoperiţi calculatorul"
+msgstr "Descoperiți calculatorul"
 
 #: ../boards/math.xml.in.h:1
 msgid "Mathematics"
@@ -147,30 +147,30 @@ msgstr "Matematica"
 
 #: ../boards/math.xml.in.h:2
 msgid "Mathematical activities."
-msgstr "Mergeţi la activităţile de matematică"
+msgstr "Mergeți la activitățile de matematică"
 
 #: ../boards/mazeMenu.xml.in.h:1
 #, fuzzy
 msgid "Go to Maze activities"
-msgstr "Activităţi de algebră"
+msgstr "Activități de algebră"
 
 #: ../boards/mazeMenu.xml.in.h:2
 #, fuzzy
 msgid "Find your way out of different types of mazes"
-msgstr "Găsiţi ieşirea din labirint"
+msgstr "Găsiți ieșirea din labirint"
 
 #: ../boards/memory_group.xml.in.h:1
 #, fuzzy
 msgid "Go to Memory activities"
-msgstr "Mergeţi la activităţile cu culori"
+msgstr "Mergeți la activitățile cu culori"
 
 #: ../boards/memory_group.xml.in.h:2
 msgid "Various memory activities (images, letters, sounds)."
-msgstr "Activităţi diferite pentru memorie (imagini, scrisori, sunete)."
+msgstr "Activități diferite pentru memorie (imagini, scrisori, sunete)."
 
 #: ../boards/memory_op_group_tux.xml.in.h:1
 msgid "Go to mathematics memory activities against Tux"
-msgstr "Mergeţi la activităţile de matematică contra Tux"
+msgstr "Mergeți la activitățile de matematică contra Tux"
 
 #: ../boards/memory_op_group_tux.xml.in.h:2
 #: ../boards/memory_op_group.xml.in.h:2
@@ -180,7 +180,7 @@ msgstr "Un joc de memorie cu trenuri"
 
 #: ../boards/memory_op_group.xml.in.h:1
 msgid "Go to mathematics memory activities"
-msgstr "Mergeţi la activităţile de matematică"
+msgstr "Mergeți la activitățile de matematică"
 
 #: ../boards/menu.xml.in.h:1
 msgid "GCompris Main Menu"
@@ -192,7 +192,7 @@ msgid ""
 "GCompris is a collection of educational games that provides different "
 "activities for children aged 2 and up."
 msgstr ""
-"GCompris este un joc educaţional ce oferă diverse activităţi pentru copii de "
+"GCompris este un joc educațional ce oferă diverse activități pentru copii de "
 "la 3 la 8 ani."
 
 #: ../boards/menu.xml.in.h:4
@@ -202,7 +202,7 @@ msgid ""
 "edutainment software"
 msgstr ""
 "Scopul GCompris este să ofere o alternativă liberă la software-ul proprietar "
-"pentru educaţie"
+"pentru educație"
 
 #: ../boards/menu.xml.in.h:5
 #, fuzzy
@@ -229,21 +229,21 @@ msgid ""
 "    ctrl-f Toggle full screen\n"
 "    ctrl-m Toggle mute for the background music"
 msgstr ""
-"Pentru folosire făceţi un clic simplu pe iconuri ce vă duc la o activitate\n"
-" sau la un meniu. În partea de jos a ecranului aveţi bara de control. De la "
+"Pentru folosire făceți un clic simplu pe iconuri ce vă duc la o activitate\n"
+" sau la un meniu. În partea de jos a ecranului aveți bara de control. De la "
 "dreapta\n"
-" la stânga, iată semnificaţia iconurilor: Casă - Înapoi la meniul anterior;\n"
-" Deget - OK, confirmaţi răspunsul; Zar - Nivelul curent ( făceţi clic pe el "
+" la stânga, iată semnificația iconurilor: Casă - Înapoi la meniul anterior;\n"
+" Deget - OK, confirmați răspunsul; Zar - Nivelul curent ( făceți clic pe el "
 "pentru a\n"
 " selecta alt nivel ); Semnul întrebării - Ajutorul; Cutia cu unelte - meniul "
 "de configurare;\n"
-" Avionul - Despre joc. Stelele înseamnă: 1 stea - vârste între 3 şi 4 ani;\n"
-" 2 stele - vârste între 5 şi 6 ani; 3 stele - vârste între 7 şi 8 ani."
+" Avionul - Despre joc. Stelele înseamnă: 1 stea - vârste între 3 și 4 ani;\n"
+" 2 stele - vârste între 5 și 6 ani; 3 stele - vârste între 7 și 8 ani."
 
 #: ../boards/miscelaneous.xml.in.h:1
 #, fuzzy
 msgid "Miscellaneous activities"
-msgstr "Mergeţi la activităţile cu culori"
+msgstr "Mergeți la activitățile cu culori"
 
 #: ../boards/miscelaneous.xml.in.h:2
 msgid "Time, Geography, ..."
@@ -252,16 +252,16 @@ msgstr "Timp, Geografie, .."
 #: ../boards/money_group.xml.in.h:1
 #, fuzzy
 msgid "Go to money activities"
-msgstr "Mergeţi la activităţile cu culori"
+msgstr "Mergeți la activitățile cu culori"
 
 #: ../boards/mouse.xml.in.h:1
 #, fuzzy
 msgid "Mouse-manipulation activities."
-msgstr "Folosirea şoricelului"
+msgstr "Folosirea șoricelului"
 
 #: ../boards/mouse.xml.in.h:2
 msgid "Various mouse-based activities (clicking, moving)"
-msgstr "Activităti diferite cu şoricelul (click, mişcare)."
+msgstr "Activităti diferite cu șoricelul (click, mișcare)."
 
 #: ../boards/numeration.xml.in.h:1
 #, fuzzy
@@ -283,22 +283,22 @@ msgstr "Încurcături diferite."
 
 #: ../boards/reading.xml.in.h:1
 msgid "Go to the Reading activities"
-msgstr "Mergeţi la activităţile de citire"
+msgstr "Mergeți la activitățile de citire"
 
 #: ../boards/reading.xml.in.h:2
 #, fuzzy
 msgid "Reading activities."
-msgstr "Mergeţi la activităţile de citire"
+msgstr "Mergeți la activitățile de citire"
 
 #: ../boards/sound_group.xml.in.h:1
 #, fuzzy
 msgid "Go to Sound activities"
-msgstr "Mergeţi la activităţile cu culori"
+msgstr "Mergeți la activitățile cu culori"
 
 #: ../boards/sound_group.xml.in.h:2
 #, fuzzy
 msgid "Sound based activities."
-msgstr "Mergi la activităţile cu table"
+msgstr "Mergi la activitățile cu table"
 
 #: ../boards/strategy.xml.in.h:1
 msgid "Strategy games"
@@ -306,7 +306,7 @@ msgstr "Jocuri strategice"
 
 #: ../boards/strategy.xml.in.h:2
 msgid "Strategy games like chess, connect4, ..."
-msgstr "Jocuri strategice ca şah, connect4, ..."
+msgstr "Jocuri strategice ca șah, connect4, ..."
 
 #: ../gcompris.appdata.xml.in.h:1
 #, fuzzy
@@ -314,7 +314,7 @@ msgid ""
 "GCompris is an educational software suite comprising of numerous activities "
 "for children aged 2 to 10."
 msgstr ""
-"GCompris este un joc educaţional ce oferă diverse activităţi pentru copii de "
+"GCompris este un joc educațional ce oferă diverse activități pentru copii de "
 "la 3 la 8 ani."
 
 #: ../gcompris.appdata.xml.in.h:2
@@ -374,16 +374,16 @@ msgstr ""
 
 #: ../gcompris.desktop.in.h:1
 msgid "Educational suite GCompris"
-msgstr "Set educaţional GCompris"
+msgstr "Set educațional GCompris"
 
 #: ../gcompris.desktop.in.h:2
 msgid "Multi-activity educational game"
-msgstr "Joc educaţional de activitate"
+msgstr "Joc educațional de activitate"
 
 #: ../gcompris.desktop.in.h:3
 #, fuzzy
 msgid "Educational game for ages 2 to 10"
-msgstr "Joc educaţional pentru copii peste 3 ani"
+msgstr "Joc educațional pentru copii peste 3 ani"
 
 #: ../gcompris-edit.desktop.in.h:1
 #, fuzzy
@@ -429,7 +429,7 @@ msgstr ""
 
 #: ../src/administration-activity/admin/board_list.py:86
 msgid "Select a profile:"
-msgstr "Selectaţi profilul:"
+msgstr "Selectați profilul:"
 
 #: ../src/administration-activity/admin/board_list.py:147
 msgid "Filter"
@@ -437,11 +437,11 @@ msgstr "Filtru"
 
 #: ../src/administration-activity/admin/board_list.py:152
 msgid "Select all"
-msgstr "Selectaţi totul"
+msgstr "Selectați totul"
 
 #: ../src/administration-activity/admin/board_list.py:157
 msgid "Unselect all"
-msgstr "Deselectaţi totul"
+msgstr "Deselectați totul"
 
 #: ../src/administration-activity/admin/board_list.py:162
 #, fuzzy
@@ -506,7 +506,7 @@ msgstr ""
 #: ../src/pythontest-activity/pythontest.py:513
 #: ../src/smallnumbers-activity/smallnumbers.c:619
 msgid "Select sound locale"
-msgstr "Selectaţi localizarea sonoră"
+msgstr "Selectați localizarea sonoră"
 
 #: ../src/administration-activity/admin/class_edit.py:56
 msgid "Editing a Class"
@@ -529,11 +529,11 @@ msgstr "pahar"
 #. Label and Entry for the teacher name
 #: ../src/administration-activity/admin/class_edit.py:99
 msgid "Teacher:"
-msgstr "Învăţător:"
+msgstr "Învățător:"
 
 #: ../src/administration-activity/admin/class_edit.py:109
 msgid "Assign all the users belonging to this class"
-msgstr "Atribue utilizatorii, ce aparţin clasei."
+msgstr "Atribue utilizatorii, ce aparțin clasei."
 
 #: ../src/administration-activity/admin/class_edit.py:246
 #: ../src/administration-activity/admin/group_edit.py:258
@@ -551,7 +551,7 @@ msgstr "Prenumele"
 
 #: ../src/administration-activity/admin/class_edit.py:332
 msgid "You need to provide at least a name for your class"
-msgstr "Oferiţi un nume pentru clasă."
+msgstr "Oferiți un nume pentru clasă."
 
 #: ../src/administration-activity/admin/class_edit.py:377
 msgid "There is already a class with this name"
@@ -565,7 +565,7 @@ msgstr ""
 
 #: ../src/administration-activity/admin/class_list.py:175
 msgid "Teacher"
-msgstr "Învăţător"
+msgstr "Învățător"
 
 #: ../src/administration-activity/admin/group_edit.py:56
 msgid "Editing a Group"
@@ -607,7 +607,7 @@ msgstr ""
 #: ../src/administration-activity/admin/group_list.py:82
 #, fuzzy
 msgid "Select a class:"
-msgstr "Selectaţi o tablă"
+msgstr "Selectați o tablă"
 
 #: ../src/administration-activity/admin/group_list.py:210
 #: ../src/administration-activity/admin/profile_group_list.py:150
@@ -629,7 +629,7 @@ msgstr "Selectează o grupă din listă"
 #: ../src/administration-activity/admin/group_user_list.py:170
 #: ../src/administration-activity/admin/user_list.py:211
 msgid "Birth Date"
-msgstr "Data naşterii"
+msgstr "Data nașterii"
 
 #: ../src/administration-activity/administration.xml.in.h:1
 #, fuzzy
@@ -638,7 +638,7 @@ msgstr "Meniul principal"
 
 #: ../src/administration-activity/administration.xml.in.h:2
 msgid "Left-Click with the mouse to select an activity"
-msgstr "Făceţi clic stânga cu şoricelul pentru a selecta o activitate"
+msgstr "Făceți clic stânga cu șoricelul pentru a selecta o activitate"
 
 #: ../src/administration-activity/administration.xml.in.h:3
 msgid ""
@@ -647,10 +647,10 @@ msgid ""
 "reporting for parents and teacher who want to monitor the progress, "
 "strengths and needs of their children."
 msgstr ""
-"Pentru a adapta GCompris la necesităţile voastre, puteţi folosi modulul de "
+"Pentru a adapta GCompris la necesitățile voastre, puteți folosi modulul de "
 "administrare. Scopul final este de prevederea rapoartelor particulare "
-"afiecarui copil pentru părinţi şi profesori, care doresc să monitorizeze  "
-"progresul, virtutea şi necesităţile copiilor lor."
+"afiecarui copil pentru părinți și profesori, care doresc să monitorizeze  "
+"progresul, virtutea și necesitățile copiilor lor."
 
 #: ../src/administration-activity/administration.xml.in.h:4
 msgid ""
@@ -676,12 +676,12 @@ msgstr ""
 #: ../src/administration-activity/admin/log_list.py:91
 #, fuzzy
 msgid "Select a user:"
-msgstr "Selectaţi o tablă"
+msgstr "Selectați o tablă"
 
 #. Insert the ALL option (HACK, use the user_id -2 to indicate ALL)
 #: ../src/administration-activity/admin/log_list.py:102
 msgid "All users"
-msgstr "Toţi utilizatorii"
+msgstr "Toți utilizatorii"
 
 #. This is the name of the Default user profile
 #: ../src/administration-activity/admin/log_list.py:109
@@ -797,7 +797,7 @@ msgstr ""
 
 #: ../src/administration-activity/admin/profile_edit.py:130
 msgid "You need to provide at least a name for your profile"
-msgstr "Setaţi un nume pentru profil"
+msgstr "Setați un nume pentru profil"
 
 #: ../src/administration-activity/admin/profile_list.py:185
 msgid "Profile"
@@ -809,7 +809,7 @@ msgstr ""
 
 #: ../src/administration-activity/admin/profile_widget.py:291
 msgid "There is already a profile with this name"
-msgstr "Deja este un profil cu aşa nume"
+msgstr "Deja este un profil cu așa nume"
 
 #: ../src/administration-activity/admin/user_edit.py:47
 msgid "Editing a User"
@@ -841,16 +841,16 @@ msgstr "Prenumele:"
 #. Label and Entry for the birth date
 #: ../src/administration-activity/admin/user_edit.py:104
 msgid "Birth date:"
-msgstr "Data de naştere:"
+msgstr "Data de naștere:"
 
 #: ../src/administration-activity/admin/user_edit.py:153
 msgid ""
 "You need to provide at least a login, first name and last name for your users"
-msgstr "Setaţi un login, nume şi prenume pentru utilizatori."
+msgstr "Setați un login, nume și prenume pentru utilizatori."
 
 #: ../src/administration-activity/admin/user_edit.py:170
 msgid "There is already a user with this login"
-msgstr "Deja există utilizator cu aşa nume"
+msgstr "Deja există utilizator cu așa nume"
 
 #: ../src/administration-activity/admin/user_list.py:285
 msgid ""
@@ -890,7 +890,7 @@ msgstr "Culori avansate"
 #: ../src/advanced_colors-activity/advanced_colors.xml.in.h:2
 #, fuzzy
 msgid "Click on the correct color"
-msgstr "Făceţi clic pe culoarea corectă"
+msgstr "Făceți clic pe culoarea corectă"
 
 #: ../src/advanced_colors-activity/advanced_colors.xml.in.h:3
 msgid "Can read"
@@ -899,12 +899,12 @@ msgstr "Poate citi"
 #: ../src/advanced_colors-activity/advanced_colors.xml.in.h:4
 #, fuzzy
 msgid "Learn to recognize unusual colors."
-msgstr "Învăţaţi să recunoaşteţi litere"
+msgstr "Învățați să recunoașteți litere"
 
 #: ../src/advanced_colors-activity/advanced_colors.xml.in.h:5
 #, fuzzy
 msgid "Click on the correct colored butterfly."
-msgstr "Făceţi clic pe cutia colorată corect."
+msgstr "Făceți clic pe cutia colorată corect."
 
 #: ../src/advanced_colors-activity/resources/advanced_colors/activity.desktop.in.h:1
 msgid "Find the coral butterfly"
@@ -949,12 +949,12 @@ msgstr ""
 #: ../src/advanced_colors-activity/resources/advanced_colors/activity.desktop.in.h:11
 #, fuzzy
 msgid "Find the sienna butterfly"
-msgstr "Descoperiţi litera lipsă"
+msgstr "Descoperiți litera lipsă"
 
 #: ../src/advanced_colors-activity/resources/advanced_colors/activity.desktop.in.h:12
 #, fuzzy
 msgid "Find the sage butterfly"
-msgstr "Descoperiţi litera lipsă"
+msgstr "Descoperiți litera lipsă"
 
 #: ../src/advanced_colors-activity/resources/advanced_colors/activity.desktop.in.h:13
 msgid "Find the salmon butterfly"
@@ -963,7 +963,7 @@ msgstr ""
 #: ../src/advanced_colors-activity/resources/advanced_colors/activity.desktop.in.h:14
 #, fuzzy
 msgid "Find the sepia butterfly"
-msgstr "Descoperiţi litera lipsă"
+msgstr "Descoperiți litera lipsă"
 
 #: ../src/advanced_colors-activity/resources/advanced_colors/activity.desktop.in.h:15
 msgid "Find the sulfur butterfly"
@@ -984,13 +984,13 @@ msgstr ""
 #: ../src/advanced_colors-activity/resources/advanced_colors/activity.desktop.in.h:19
 #, fuzzy
 msgid "Find the absinthe butterfly"
-msgstr "Descoperiţi litera lipsă"
+msgstr "Descoperiți litera lipsă"
 
 #: ../src/advanced_colors-activity/resources/advanced_colors/activity.desktop.in.h:20
 #, fuzzy
 #| msgid "Find the matching pair"
 msgid "Find the mahogany butterfly"
-msgstr "Găsiţi perechea potrivită"
+msgstr "Găsiți perechea potrivită"
 
 #: ../src/advanced_colors-activity/resources/advanced_colors/activity.desktop.in.h:21
 msgid "Find the aquamarine butterfly"
@@ -1011,12 +1011,12 @@ msgstr ""
 #: ../src/advanced_colors-activity/resources/advanced_colors/activity.desktop.in.h:25
 #, fuzzy
 msgid "Find the anise butterfly"
-msgstr "Descoperiţi litera lipsă"
+msgstr "Descoperiți litera lipsă"
 
 #: ../src/advanced_colors-activity/resources/advanced_colors/activity.desktop.in.h:26
 #, fuzzy
 msgid "Find the vermilion butterfly"
-msgstr "Descoperiţi litera lipsă"
+msgstr "Descoperiți litera lipsă"
 
 #: ../src/advanced_colors-activity/resources/advanced_colors/activity.desktop.in.h:27
 msgid "Find the ceruse butterfly"
@@ -1065,7 +1065,7 @@ msgstr ""
 #: ../src/advanced_colors-activity/resources/advanced_colors/activity.desktop.in.h:38
 #, fuzzy
 msgid "Find the crimson butterfly"
-msgstr "Descoperiţi litera lipsă"
+msgstr "Descoperiți litera lipsă"
 
 #: ../src/advanced_colors-activity/resources/advanced_colors/activity.desktop.in.h:39
 msgid "Find the celadon butterfly"
@@ -1086,7 +1086,7 @@ msgstr ""
 #: ../src/advanced_colors-activity/resources/advanced_colors/activity.desktop.in.h:43
 #, fuzzy
 msgid "Find the indigo butterfly"
-msgstr "Descoperiţi litera lipsă"
+msgstr "Descoperiți litera lipsă"
 
 #: ../src/advanced_colors-activity/resources/advanced_colors/activity.desktop.in.h:44
 msgid "Find the ivory butterfly"
@@ -1107,7 +1107,7 @@ msgstr ""
 #: ../src/advanced_colors-activity/resources/advanced_colors/activity.desktop.in.h:48
 #, fuzzy
 msgid "Find the wine butterfly"
-msgstr "Descoperiţi litera lipsă"
+msgstr "Descoperiți litera lipsă"
 
 #: ../src/advanced_colors-activity/resources/advanced_colors/activity.desktop.in.h:49
 msgid "Find the lilac butterfly"
@@ -1121,18 +1121,18 @@ msgstr ""
 #, fuzzy
 #| msgid "Find the matching pair"
 msgid "Find the malachite butterfly"
-msgstr "Găsiţi perechea potrivită"
+msgstr "Găsiți perechea potrivită"
 
 #: ../src/advanced_colors-activity/resources/advanced_colors/activity.desktop.in.h:52
 #, fuzzy
 #| msgid "Find the matching pair"
 msgid "Find the larch butterfly"
-msgstr "Găsiţi perechea potrivită"
+msgstr "Găsiți perechea potrivită"
 
 #: ../src/advanced_colors-activity/resources/advanced_colors/activity.desktop.in.h:53
 #, fuzzy
 msgid "Find the mimosa butterfly"
-msgstr "Descoperiţi litera lipsă"
+msgstr "Descoperiți litera lipsă"
 
 #: ../src/advanced_colors-activity/resources/advanced_colors/activity.desktop.in.h:54
 msgid "Find the ochre butterfly"
@@ -1162,18 +1162,18 @@ msgstr ""
 #, fuzzy
 #| msgid "Find the matching pair"
 msgid "Find the pistachio butterfly"
-msgstr "Găsiţi perechea potrivită"
+msgstr "Găsiți perechea potrivită"
 
 #: ../src/advanced_colors-activity/resources/advanced_colors/activity.desktop.in.h:61
 #, fuzzy
 #| msgid "Find the matching pair"
 msgid "Find the platinum butterfly"
-msgstr "Găsiţi perechea potrivită"
+msgstr "Găsiți perechea potrivită"
 
 #: ../src/advanced_colors-activity/resources/advanced_colors/activity.desktop.in.h:62
 #, fuzzy
 msgid "Find the purple butterfly"
-msgstr "Făceţi clic pe culoarea corectă"
+msgstr "Făceți clic pe culoarea corectă"
 
 #: ../src/advanced_colors-activity/resources/advanced_colors/activity.desktop.in.h:63
 msgid "Find the plum butterfly"
@@ -1182,7 +1182,7 @@ msgstr ""
 #: ../src/advanced_colors-activity/resources/advanced_colors/activity.desktop.in.h:64
 #, fuzzy
 msgid "Find the prussian blue butterfly"
-msgstr "Descoperiţi litera lipsă"
+msgstr "Descoperiți litera lipsă"
 
 #: ../src/advanced_colors-activity/resources/advanced_colors/activity.desktop.in.h:65
 msgid "Find the rust butterfly"
@@ -1210,7 +1210,7 @@ msgstr ""
 
 #: ../src/algebra_by-activity/algebra_by.xml.in.h:1
 msgid "Practice the multiplication operation"
-msgstr "Exersaţi operaţia de înmulţire"
+msgstr "Exersați operația de înmulțire"
 
 #: ../src/algebra_by-activity/algebra_by.xml.in.h:2
 #: ../src/algebra_minus-activity/algebra_minus.xml.in.h:2
@@ -1221,12 +1221,12 @@ msgstr "Vă întreb câteva socoteli la algebră"
 
 #: ../src/algebra_by-activity/algebra_by.xml.in.h:3
 msgid "Multiplication table"
-msgstr "Tabla înmulţirii"
+msgstr "Tabla înmulțirii"
 
 #: ../src/algebra_by-activity/algebra_by.xml.in.h:4
 #, fuzzy
 msgid "In a limited time, give the product of two numbers"
-msgstr "Într-un timp limitat, daţi rezultatul adunării a două numere"
+msgstr "Într-un timp limitat, dați rezultatul adunării a două numere"
 
 #: ../src/algebra_by-activity/algebra_by.xml.in.h:5
 #, fuzzy
@@ -1236,9 +1236,9 @@ msgid ""
 "your answer and press the Enter key to check if you've got it right. If not, "
 "just try again."
 msgstr ""
-"Este afişată o înmulţire între două numere. La dreapta semnului egal, daţi "
-"răspunsul. Folosiţi săgeţile stânga şi dreapta pentru a vă modifica "
-"răspunsul, Enter când sunteţi gata"
+"Este afișată o înmulțire între două numere. La dreapta semnului egal, dați "
+"răspunsul. Folosiți săgețile stânga și dreapta pentru a vă modifica "
+"răspunsul, Enter când sunteți gata"
 
 #. TRANSLATORS: Put here the mathematical operators '+-x/' for  your language.
 #. require by all utf8-functions
@@ -1259,27 +1259,27 @@ msgstr "Sunt gata"
 #: ../src/algebra_guesscount-activity/algebra_guesscount.xml.in.h:1
 #, fuzzy
 msgid "Find the series of correct operations that matches the given answer"
-msgstr "Găsiţi operaţiile corecte pentru a obţine rezultatul"
+msgstr "Găsiți operațiile corecte pentru a obține rezultatul"
 
 #: ../src/algebra_guesscount-activity/algebra_guesscount.xml.in.h:2
 msgid ""
 "Work out the right combination of numbers and operations to match the given "
 "value"
 msgstr ""
-"Aplică combinaţia corectă dintre numere şi operaţii pentru a primi valoarea "
+"Aplică combinația corectă dintre numere și operații pentru a primi valoarea "
 "dată"
 
 #: ../src/algebra_guesscount-activity/algebra_guesscount.xml.in.h:3
 #, fuzzy
 msgid "The four arithmetic operations. Combine several arithmetic operations."
-msgstr "Cele patru operaţii aritmetice. Combinaţi câteva dintre ele."
+msgstr "Cele patru operații aritmetice. Combinați câteva dintre ele."
 
 #: ../src/algebra_guesscount-activity/algebra_guesscount.xml.in.h:4
 #, fuzzy
 msgid ""
 "Deploy a strategy to arrange a set of arithmetic operations to match a given "
 "value."
-msgstr "Aranjaţi un set de operaţii aritmetice pentru a obţine o valoare"
+msgstr "Aranjați un set de operații aritmetice pentru a obține o valoare"
 
 #: ../src/algebra_guesscount-activity/algebra_guesscount.xml.in.h:5
 msgid ""
@@ -1287,8 +1287,8 @@ msgid ""
 "that give the specified result. You can deselect a number or operator by "
 "clicking on it again."
 msgstr ""
-"Pentru a compune operaţiile, alegeţi numerele şi operatorii aritmetici din "
-"partea de sus a tablei. Aceste numere şi operatori pot fi deselectaţi făcând "
+"Pentru a compune operațiile, alegeți numerele și operatorii aritmetici din "
+"partea de sus a tablei. Aceste numere și operatori pot fi deselectați făcând "
 "clic pe ele."
 
 #: ../src/algebra_guesscount-activity/algebra_guesscount.xml.in.h:6
@@ -1301,12 +1301,12 @@ msgid ""
 msgstr ""
 "Pozele animalelor sunt de pe pagina Animal Photography a lui Ralf Schmode "
 "(http://schmode.net/). Ralf a permis cu amabilitate să fie incluse pozele "
-"lui în GCompris. Mulţumesc mult, Ralf."
+"lui în GCompris. Mulțumesc mult, Ralf."
 
 #: ../src/algebra_minus-activity/algebra_minus.xml.in.h:1
 #, fuzzy
 msgid "Practice the subtraction operation"
-msgstr "Exersaţi operaţia de scădere"
+msgstr "Exersați operația de scădere"
 
 #: ../src/algebra_minus-activity/algebra_minus.xml.in.h:3
 #, fuzzy
@@ -1316,7 +1316,7 @@ msgstr "Scădere simplă"
 #: ../src/algebra_minus-activity/algebra_minus.xml.in.h:4
 #, fuzzy
 msgid "In a limited time, find the difference between two numbers"
-msgstr "Într-un timp limitat, daţi rezultatul adunării a două numere"
+msgstr "Într-un timp limitat, dați rezultatul adunării a două numere"
 
 #: ../src/algebra_minus-activity/algebra_minus.xml.in.h:5
 #, fuzzy
@@ -1326,23 +1326,23 @@ msgid ""
 "to modify your answer and press the Enter key to check if you've got it "
 "right. If not, just try again."
 msgstr ""
-"O scădere între două numere este afişată. La dreapta semnului egal daţi "
-"răspunsul. Folosiţi săgeţile stânga şi dreapta pentru a vă modifica "
-"răspunsul, tasta Enter când sunteţi gata."
+"O scădere între două numere este afișată. La dreapta semnului egal dați "
+"răspunsul. Folosiți săgețile stânga și dreapta pentru a vă modifica "
+"răspunsul, tasta Enter când sunteți gata."
 
 #: ../src/algebra_plus-activity/algebra_plus.xml.in.h:1
 msgid "Practice the addition operation"
-msgstr "Exersaţi operaţia de adunare"
+msgstr "Exersați operația de adunare"
 
 #: ../src/algebra_plus-activity/algebra_plus.xml.in.h:3
 msgid "Simple addition. Can recognize written numbers"
-msgstr "Adăugare simplă. Recunoaşte cifre scrise de mână."
+msgstr "Adăugare simplă. Recunoaște cifre scrise de mână."
 
 #: ../src/algebra_plus-activity/algebra_plus.xml.in.h:4
 msgid ""
 "In a limited time, find the sum of of two numbers. Introduction to simple in-"
 "line addition."
-msgstr "Într-un timp limitat, găseşte diferenţa dintre două numere"
+msgstr "Într-un timp limitat, găsește diferența dintre două numere"
 
 #: ../src/algebra_plus-activity/algebra_plus.xml.in.h:5
 #, fuzzy
@@ -1352,9 +1352,9 @@ msgid ""
 "modify your answer and press the Enter key to check if you've got it right. "
 "If not, just try again."
 msgstr ""
-"O adunare între două numere este afişată. La dreapta semnului egal daţi "
-"răspunsul. Folosiţi săgeţile stânga şi dreapta pentru a vă modifica "
-"răspunsul, tasta Enter când sunteţi gata."
+"O adunare între două numere este afișată. La dreapta semnului egal dați "
+"răspunsul. Folosiți săgețile stânga și dreapta pentru a vă modifica "
+"răspunsul, tasta Enter când sunteți gata."
 
 #: ../src/algorithm-activity/algorithm.xml.in.h:1
 msgid "algorithm"
@@ -1369,7 +1369,7 @@ msgstr "Listă completă de simboluri."
 #: ../src/melody-activity/melody.xml.in.h:3
 #, fuzzy
 msgid "Move and click the mouse"
-msgstr "Mutaţi şoricelul"
+msgstr "Mutați șoricelul"
 
 #: ../src/algorithm-activity/algorithm.xml.in.h:4
 msgid "Logic training activity"
@@ -1377,7 +1377,7 @@ msgstr "Activitate antrenament logică."
 
 #: ../src/algorithm-activity/algorithm.xml.in.h:5
 msgid "Find the next symbol in a list."
-msgstr "Găsiţi simboul următor în listă."
+msgstr "Găsiți simboul următor în listă."
 
 #: ../src/anim-activity/anim.py:103
 msgid "Save..."
@@ -1391,25 +1391,25 @@ msgstr ""
 #, fuzzy
 #| msgid "Mouse manipulation"
 msgid "Run the animation"
-msgstr "Folosirea şoricelului"
+msgstr "Folosirea șoricelului"
 
 #: ../src/anim-activity/anim.py:121
 #, fuzzy
 #| msgid "Select all"
 msgid "Select"
-msgstr "Selectaţi totul"
+msgstr "Selectați totul"
 
 #: ../src/anim-activity/anim.py:127
 #, fuzzy
 #| msgid "Use rectangles"
 msgid "Rectangle"
-msgstr "Folosiţi dreptunghiuri"
+msgstr "Folosiți dreptunghiuri"
 
 #: ../src/anim-activity/anim.py:133
 #, fuzzy
 #| msgid "Use rectangles"
 msgid "Filled rectangle"
-msgstr "Folosiţi dreptunghiuri"
+msgstr "Folosiți dreptunghiuri"
 
 #: ../src/anim-activity/anim.py:139
 msgid "Circle"
@@ -1419,7 +1419,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Use circles"
 msgid "Filled circle"
-msgstr "Folosiţi cercuri"
+msgstr "Folosiți cercuri"
 
 #: ../src/anim-activity/anim.py:151
 msgid "Line"
@@ -1463,15 +1463,15 @@ msgstr ""
 
 #: ../src/anim-activity/anim.xml.in.h:1
 msgid "Create a drawing or an animation"
-msgstr "Creaţi un desen sau o animaţie."
+msgstr "Creați un desen sau o animație."
 
 #: ../src/anim-activity/anim.xml.in.h:2
 msgid "Free drawing and animation tool."
-msgstr "Instrument de desenat şi animare liber."
+msgstr "Instrument de desenat și animare liber."
 
 #: ../src/anim-activity/anim.xml.in.h:3 ../src/draw-activity/draw.xml.in.h:3
 msgid "Needs to be capable of moving and clicking the mouse easily"
-msgstr "Necesită capabilităţi de mişcare şi click a şoricelului uşor."
+msgstr "Necesită capabilități de mișcare și click a șoricelului ușor."
 
 #: ../src/anim-activity/anim.xml.in.h:4
 msgid ""
@@ -1481,7 +1481,7 @@ msgid ""
 "be used."
 msgstr ""
 "În acest joc, copiii pot desena liber. Scopul este să descopere cum pot crea "
-"desene drăguţe bazate pe forme simple: dreptunghiuri, elipse şi linii."
+"desene drăguțe bazate pe forme simple: dreptunghiuri, elipse și linii."
 
 #: ../src/anim-activity/anim.xml.in.h:5
 #, fuzzy
@@ -1512,16 +1512,16 @@ msgid ""
 "mode. You can also save and reload your animations with the 'floppy disk' "
 "and 'folder' buttons."
 msgstr ""
-"În stânga selectaţi o unealtă de desen, jos selectaţi o culoare. Apoi făceţi "
-"clic şi trageţi în zona albă pentru a crea o formă nouă. După ce aţi "
-"terminat desenul puteţi face o copie cu ajutorul butonului 'camera'. Puteţi "
-"redacta desenul mişcând obiectele puţin sau adăugând/ştergând-ule. Odată ce "
-"aveţi câteva desene şi facând un click pe butonul 'film' veţi putea rula o "
-"animatie continuă. De asemenea puteţi schimba viteza de rulare a filmului în "
-"acest mod. Faceţi un click pe butonul 'desen' pentru a vă întoarce în "
-"regimul de desenare. Apoi puteţi redacta fiecare imagine a animaţiei, "
-"folosind selectorul de imagini în colţul de jos din stânga a ecranului. De "
-"asemenea puteţi păstra şi reîncărca animaţiile într-un directoriu sau pe un "
+"În stânga selectați o unealtă de desen, jos selectați o culoare. Apoi făceți "
+"clic și trageți în zona albă pentru a crea o formă nouă. După ce ați "
+"terminat desenul puteți face o copie cu ajutorul butonului 'camera'. Puteți "
+"redacta desenul mișcând obiectele puțin sau adăugând/ștergând-ule. Odată ce "
+"aveți câteva desene și facând un click pe butonul 'film' veți putea rula o "
+"animatie continuă. De asemenea puteți schimba viteza de rulare a filmului în "
+"acest mod. Faceți un click pe butonul 'desen' pentru a vă întoarce în "
+"regimul de desenare. Apoi puteți redacta fiecare imagine a animației, "
+"folosind selectorul de imagini în colțul de jos din stânga a ecranului. De "
+"asemenea puteți păstra și reîncărca animațiile într-un directoriu sau pe un "
 "floppy-disk."
 
 #: ../src/anim-activity/Color.py:86
@@ -1557,7 +1557,7 @@ msgstr "Rândul tău să mergi ..."
 
 #: ../src/awele-activity/awele.c:692
 msgid "Not allowed! Try again !"
-msgstr "Nu se permite! Încearcă iarăşi !"
+msgstr "Nu se permite! Încearcă iarăși !"
 
 #: ../src/awele-activity/awele.xml.in.h:1
 msgid "Oware"
@@ -1617,17 +1617,17 @@ msgstr "Potrivirea elementelor"
 #: ../src/babymatch-activity/resources/babymatch/board6_0.xml.in.h:1
 #: ../src/babymatch-activity/resources/babymatch/board7_0.xml.in.h:1
 msgid "Drag and Drop the items to make them match"
-msgstr "Trageţi şi plasaţi elementele pentru a le face să se potrivească"
+msgstr "Trageți și plasați elementele pentru a le face să se potrivească"
 
 #: ../src/babymatch-activity/babymatch.xml.in.h:3
 #, fuzzy
 msgid "Motor coordination. Conceptual matching."
-msgstr "Coordonarea mişcării. Potrivire conceptuală."
+msgstr "Coordonarea mișcării. Potrivire conceptuală."
 
 #: ../src/babymatch-activity/babymatch.xml.in.h:4
 #, fuzzy
 msgid "Mouse manipulation: movement, drag and drop. Cultural references."
-msgstr "Folosirea şoricelului: mişcare, tragere şi plasare"
+msgstr "Folosirea șoricelului: mișcare, tragere și plasare"
 
 #: ../src/babymatch-activity/babymatch.xml.in.h:5
 #, fuzzy
@@ -1639,9 +1639,9 @@ msgid ""
 "do they fit together? Drag each object to the correct red space in the main "
 "area."
 msgstr ""
-"În centrul tablei sunt afişate un set de obiecte. În cadrul vertical din "
+"În centrul tablei sunt afișate un set de obiecte. În cadrul vertical din "
 "stânga se află alte obiecte, fiecare potrivindu-se cu un obiect de pe tablă. "
-"Trageţi obiectele din stânga în punctele roşii corespunzătoare."
+"Trageți obiectele din stânga în punctele roșii corespunzătoare."
 
 #: ../src/babymatch-activity/shapegame.c:2042
 #: ../src/missing_letter-activity/missingletter.c:808
@@ -1654,22 +1654,22 @@ msgstr ""
 #: ../src/babyshapes-activity/babyshapes.xml.in.h:1
 #, fuzzy
 msgid "Complete the puzzle"
-msgstr "Faceţi puzzle-ul"
+msgstr "Faceți puzzle-ul"
 
 #: ../src/babyshapes-activity/babyshapes.xml.in.h:2
 #: ../src/details-activity/details.xml.in.h:2
 #, fuzzy
 msgid "Drag and Drop the shapes on their respective targets"
-msgstr "Trageţi şi plasaţi formele pe ţinta respectivă"
+msgstr "Trageți și plasați formele pe ținta respectivă"
 
 #: ../src/babyshapes-activity/babyshapes.xml.in.h:3
 #: ../src/details-activity/details.xml.in.h:3
 msgid "Good mouse-control"
-msgstr "Control bun al şoricelului"
+msgstr "Control bun al șoricelului"
 
 #: ../src/babyshapes-activity/babyshapes.xml.in.h:4
 msgid "The dog is provided by Andre Connes and released under the GPL"
-msgstr "Câinele este oferit de Andre Connes sub licenţa GPL"
+msgstr "Câinele este oferit de Andre Connes sub licența GPL"
 
 #: ../src/babyshapes-activity/babyshapes.xml.in.h:5
 #: ../src/details-activity/details.xml.in.h:5
@@ -1677,8 +1677,8 @@ msgid ""
 "Complete the puzzle by dragging each piece from the set of pieces on the "
 "left, to the matching space in the puzzle."
 msgstr ""
-"Faceţi puzzle-ul tragând fiecare piesă din setul pieselor din stînga în "
-"spaţiul potrivit din puzzle."
+"Faceți puzzle-ul tragând fiecare piesă din setul pieselor din stînga în "
+"spațiul potrivit din puzzle."
 
 #: ../src/babyshapes-activity/resources/babyshapes/board5_0.xml.in.h:1
 msgid "Hello ! My name is Lock."
@@ -1709,7 +1709,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Vincent Van Gogh, Village Street in Auvers - 1890"
 msgid "Vincent van Gogh, Bedroom in Arles - 1888"
-msgstr "Vincent Van Gogh, Uliţă de sat în Auvers - 1890"
+msgstr "Vincent Van Gogh, Uliță de sat în Auvers - 1890"
 
 #: ../src/babyshapes-activity/resources/babyshapes/board8_4.xml.in.h:1
 msgid "Ambrosius Bosschaert the Elder, Flower Still Life - 1614"
@@ -1721,11 +1721,11 @@ msgid ""
 "Press the two shift keys at the same time, to make the ball go in a straight "
 "line."
 msgstr ""
-"Tastaţi shift de două ori pentru a face mingea să meargă în linie dreaptă."
+"Tastați shift de două ori pentru a face mingea să meargă în linie dreaptă."
 
 #: ../src/ballcatch-activity/ballcatch.xml.in.h:1
 msgid "Make the ball go to Tux"
-msgstr "Faceţi ca mingea să pornească spre Tux."
+msgstr "Faceți ca mingea să pornească spre Tux."
 
 #: ../src/bargame-activity/bargame.xml.in.h:1
 #, fuzzy
@@ -1744,20 +1744,20 @@ msgstr "Super Creier"
 #: ../src/bargame-activity/bargame.xml.in.h:4
 #: ../src/hexagon-activity/hexagon.xml.in.h:4
 msgid "Logic-training activity"
-msgstr "Activitate de logică şi antrenament."
+msgstr "Activitate de logică și antrenament."
 
 #: ../src/bargame-activity/bargame.xml.in.h:5
 msgid ""
 "Place balls in the holes. You win if the computer has to place the last "
 "ball. If you want Tux to begin, just click on him."
 msgstr ""
-"Plasează mingile în găuri. Vei câştiga, dacă calculatorul va fi nevoit să "
-"facă ultima mişcare. Dacă doreşti ca Tux să inceapă, fă un click pe el."
+"Plasează mingile în găuri. Vei câștiga, dacă calculatorul va fi nevoit să "
+"facă ultima mișcare. Dacă dorești ca Tux să inceapă, fă un click pe el."
 
 #: ../src/billard-activity/billard.c:89 ../src/erase-activity/erase.c:85
 #: ../src/erase-activity/erase.xml.in.h:1
 msgid "Move the mouse"
-msgstr "Mutaţi şoricelul"
+msgstr "Mutați șoricelul"
 
 #: ../src/billard-activity/billard.xml.in.h:1
 msgid "The football game"
@@ -1784,7 +1784,7 @@ msgstr "Împinge mingea spre gol."
 #: ../src/tangram-activity/tangram.xml.in.h:3
 #, fuzzy
 msgid "Mouse-manipulation"
-msgstr "Folosirea şoricelului"
+msgstr "Folosirea șoricelului"
 
 #: ../src/billard-activity/billard.xml.in.h:4
 #, fuzzy
@@ -1795,8 +1795,8 @@ msgid ""
 "Point the mouse and click on the ball, to set the speed and direction of the "
 "ball. The closer you click to the center, the slower the ball moves."
 msgstr ""
-"Direcţioneză şoricelul şi fă un click pe minge, pentru a setarea viteza şi "
-"direcţia ei. Cu cât mai aproape de mijloc e click-ul, cu atât mai mică e "
+"Direcționeză șoricelul și fă un click pe minge, pentru a setarea viteza și "
+"direcția ei. Cu cât mai aproape de mijloc e click-ul, cu atât mai mică e "
 "viteza mingii."
 
 #: ../src/billard-activity/billard.xml.in.h:5
@@ -1809,7 +1809,7 @@ msgstr ""
 
 #: ../src/boards/menu2.c:139
 msgid "Select a Board"
-msgstr "Selectaţi o tablă"
+msgstr "Selectați o tablă"
 
 #. Display the profile name
 #: ../src/boards/menu2.c:271 ../src/login-activity/login.py:100
@@ -1906,7 +1906,7 @@ msgstr ""
 #: ../src/braille_alphabets-activity/BrailleMap.py:96
 #, fuzzy
 msgid "Back to the activity"
-msgstr "Activităţi de algebră"
+msgstr "Activități de algebră"
 
 #: ../src/braille_fun-activity/braille_fun.xml.in.h:1
 #, fuzzy
@@ -1916,7 +1916,7 @@ msgstr "Super Creier"
 #: ../src/braille_fun-activity/braille_fun.xml.in.h:2
 #, fuzzy
 msgid "Braille the falling letters"
-msgstr "Descoperiţi litera lipsă"
+msgstr "Descoperiți litera lipsă"
 
 #: ../src/braille_fun-activity/braille_fun.xml.in.h:3
 msgid "Braille Alphabet Codes"
@@ -1962,7 +1962,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Guess a number"
 msgid "Generate a number"
-msgstr "Giciţi un număr"
+msgstr "Giciți un număr"
 
 #. Translators : Do not translate the token {column}
 #: ../src/braille_lotto-activity/braille_lotto.py:296
@@ -1988,7 +1988,7 @@ msgstr ""
 #, fuzzy
 #| msgid "red"
 msgid "3rd"
-msgstr "roşu"
+msgstr "roșu"
 
 #: ../src/braille_lotto-activity/braille_lotto.py:343
 msgid "4th"
@@ -2021,15 +2021,15 @@ msgstr ""
 
 #: ../src/canal_lock-activity/canal_lock.xml.in.h:1
 msgid "Operate a canal lock"
-msgstr "Operaţi barajul unui canal"
+msgstr "Operați barajul unui canal"
 
 #: ../src/canal_lock-activity/canal_lock.xml.in.h:2
 msgid ""
 "Tux is in trouble, and needs to take his boat through a lock. Help Tux and "
 "find out how a canal lock works."
 msgstr ""
-"Tux este în necaz pe vaporul său, trebuie să treacă printr-un baraj. Ajutaţi-"
-"l pe Tux şi înţelegeţi cum funcţionează un baraj."
+"Tux este în necaz pe vaporul său, trebuie să treacă printr-un baraj. Ajutați-"
+"l pe Tux și înțelegeți cum funcționează un baraj."
 
 #: ../src/canal_lock-activity/canal_lock.xml.in.h:3
 #, fuzzy
@@ -2037,7 +2037,7 @@ msgid ""
 "You are in charge of the canal lock. Open the gates and the locks in the "
 "right order, so Tux can travel through the gates in both directions."
 msgstr ""
-"Sunteţi responsabili de barajul canalului. Trebuie să deschideţi porţile în "
+"Sunteți responsabili de barajul canalului. Trebuie să deschideți porțile în "
 "ordinea corespunzătoare, astfel încât Tux să treacă de ele."
 
 #: ../src/canal_lock-activity/canal_lock.xml.in.h:4
@@ -2048,7 +2048,7 @@ msgstr ""
 
 #: ../src/chat-activity/chat.py:87
 msgid "All messages will be displayed here.\n"
-msgstr "Toate mesajele vor fi afişate aici.\n"
+msgstr "Toate mesajele vor fi afișate aici.\n"
 
 #: ../src/chat-activity/chat.py:139
 msgid "Your Friends"
@@ -2092,11 +2092,11 @@ msgstr ""
 #, fuzzy
 #| msgid "Chat with your friends"
 msgid "Chat and draw with your friends"
-msgstr "Vorbeşte cu prietenii tăi."
+msgstr "Vorbește cu prietenii tăi."
 
 #: ../src/chat-activity/chat.xml.in.h:2
 msgid "This chat activity only works on the local network"
-msgstr "Acest chat va fi disponibil numai în reţeaua locală."
+msgstr "Acest chat va fi disponibil numai în rețeaua locală."
 
 #: ../src/chat-activity/chat.xml.in.h:3
 msgid ""
@@ -2106,14 +2106,14 @@ msgid ""
 "program running the chat activity on that local network will receive and "
 "display your message."
 msgstr ""
-"Această activitate va fi disponibilă pentru alţi utilitori GCompris numai în "
-"reţeaua locală, şi nu Internet. Pentru a transmite un mesaj, tipăreşte-l şi "
-"apasă Enter. Mesajul va fi transmis in reţeaua locală, şi fiecare program "
-"GCompris lansat în reţea va primi mesajul."
+"Această activitate va fi disponibilă pentru alți utilitori GCompris numai în "
+"rețeaua locală, și nu Internet. Pentru a transmite un mesaj, tipărește-l și "
+"apasă Enter. Mesajul va fi transmis in rețeaua locală, și fiecare program "
+"GCompris lansat în rețea va primi mesajul."
 
 #: ../src/chess_computer-activity/chess.c:225
 msgid "Error: The external program gnuchess died unexpectedly"
-msgstr "Greşală: Programul extern gnuchess sa terminat inexplicabil"
+msgstr "Greșală: Programul extern gnuchess sa terminat inexplicabil"
 
 #: ../src/chess_computer-activity/chess.c:269
 #: ../src/chess_computer-activity/chess.c:315
@@ -2136,12 +2136,12 @@ msgstr "Rândul negrului"
 #: ../src/chess_computer-activity/chess.c:801
 #, fuzzy
 msgid "White checks"
-msgstr "Şah alb"
+msgstr "Șah alb"
 
 #: ../src/chess_computer-activity/chess.c:803
 #, fuzzy
 msgid "Black checks"
-msgstr "Şah negru"
+msgstr "Șah negru"
 
 #: ../src/chess_computer-activity/chess.c:1213
 msgid "Black mates"
@@ -2158,13 +2158,13 @@ msgstr "Remiză"
 
 #: ../src/chess_computer-activity/chess.c:1255
 msgid "Error: The external program gnuchess died unexpectingly"
-msgstr "Greşală: Programul extern gnuchess sa terminat inexplicabil"
+msgstr "Greșală: Programul extern gnuchess sa terminat inexplicabil"
 
 #: ../src/chess_computer-activity/chess_computer.xml.in.h:1
 #: ../src/chess_movelearn-activity/chess_movelearn.xml.in.h:1
 #: ../src/chess_partyend-activity/chess_partyend.xml.in.h:1
 msgid "Learning chess"
-msgstr "Învăţaţi şah"
+msgstr "Învățați șah"
 
 #: ../src/chess_computer-activity/chess_computer.xml.in.h:4
 #: ../src/chess_movelearn-activity/chess_movelearn.xml.in.h:4
@@ -2175,12 +2175,12 @@ msgstr "Calculatorul joacă cu ajutorul gnuchess."
 
 #: ../src/chess_movelearn-activity/chess_movelearn.xml.in.h:2
 msgid "Chess training. Catch the computer's pawns."
-msgstr "Antrenament şah. Capturaţi pionii calculatorului."
+msgstr "Antrenament șah. Capturați pionii calculatorului."
 
 #: ../src/chess_partyend-activity/chess_partyend.xml.in.h:2
 #, fuzzy
 msgid "Play the end of the chess game against the computer"
-msgstr "Jucaţi sfârşitul unui joc de şah împotriva calculatorului"
+msgstr "Jucați sfârșitul unui joc de șah împotriva calculatorului"
 
 #: ../src/chronos-activity/chronos.xml.in.h:1
 #, fuzzy
@@ -2190,15 +2190,15 @@ msgstr "Culori"
 #: ../src/chronos-activity/chronos.xml.in.h:2
 #, fuzzy
 msgid "Drag and Drop the items to organize the story"
-msgstr "Trageţi şi plasaţi elementele pentru a le face să se potrivească"
+msgstr "Trageți și plasați elementele pentru a le face să se potrivească"
 
 #: ../src/chronos-activity/chronos.xml.in.h:3
 msgid "Pick from the pictures on the left and put them on the red dots"
-msgstr "Alege din imaginile din dreapta şi punele în punctele roşii."
+msgstr "Alege din imaginile din dreapta și punele în punctele roșii."
 
 #: ../src/chronos-activity/chronos.xml.in.h:4
 msgid "Sort the pictures into the order that tells the story"
-msgstr "Aranjează imaginile în aşa ordine, ca să-ti spună o istorie."
+msgstr "Aranjează imaginile în așa ordine, ca să-ti spună o istorie."
 
 #: ../src/chronos-activity/chronos.xml.in.h:5
 msgid "Tell a short story"
@@ -2212,8 +2212,8 @@ msgid ""
 "those found in &lt;http://www.wikipedia.org&gt;."
 msgstr ""
 "Imaginea Lunii este prezentată cu amabilitate de NASA. Sunetele cosmice vin "
-"de la Tux şi Vegastrike, care sunt sub licenţa GPL. Imaginile de transport "
-"aparţin Franck Doucet. Datele de transport se bazează pe celel găsite în &lt;"
+"de la Tux și Vegastrike, care sunt sub licența GPL. Imaginile de transport "
+"aparțin Franck Doucet. Datele de transport se bazează pe celel găsite în &lt;"
 "http://www.wikipedia.org&gt;"
 
 #: ../src/chronos-activity/resources/chronos/board1_0.xml.in.h:1
@@ -2250,7 +2250,7 @@ msgstr "Grădinărit"
 
 #: ../src/chronos-activity/resources/chronos/board2_0.xml.in.h:1
 msgid "Tux and the apple tree"
-msgstr "Tux şi copacul de mere"
+msgstr "Tux și copacul de mere"
 
 #: ../src/chronos-activity/resources/chronos/board3_0.xml.in.h:1
 #: ../src/chronos-activity/resources/chronos/board3_1.xml.in.h:1
@@ -2268,8 +2268,8 @@ msgid ""
 "http://www.wikipedia.org"
 msgstr ""
 "Plasează fiecare imagine in ordineă\n"
-"şi data când a fost efectuată invenţia.\n"
-"Dacă nu eşti sigur, cosultă wikipedia on-line:\n"
+"și data când a fost efectuată invenția.\n"
+"Dacă nu ești sigur, cosultă wikipedia on-line:\n"
 "http://www.wikipedia.org."
 
 #: ../src/chronos-activity/resources/chronos/board3_0.xml.in.h:6
@@ -2294,7 +2294,7 @@ msgstr ""
 msgid ""
 "1783 Montgolfier brothers'\n"
 "hot air balloon"
-msgstr "1783 balonul cu aer cald al fraţilor Montgolfier"
+msgstr "1783 balonul cu aer cald al fraților Montgolfier"
 
 #: ../src/chronos-activity/resources/chronos/board3_1.xml.in.h:4
 #: ../src/chronos-activity/resources/chronos/board3_2.xml.in.h:5
@@ -2321,7 +2321,7 @@ msgstr ""
 #: ../src/chronos-activity/resources/chronos/board4_0.xml.in.h:1
 #: ../src/chronos-activity/resources/chronos/board4_1.xml.in.h:1
 msgid "Aviation"
-msgstr "Aviaţie"
+msgstr "Aviație"
 
 #: ../src/chronos-activity/resources/chronos/board4_0.xml.in.h:3
 msgid "1903 The Wright brothers' Flyer III"
@@ -2361,7 +2361,7 @@ msgstr ""
 
 #: ../src/chronos-activity/resources/chronos/board4_2.xml.in.h:1
 msgid "The car"
-msgstr "Maşina"
+msgstr "Mașina"
 
 #: ../src/chronos-activity/resources/chronos/board4_2.xml.in.h:2
 msgid "1878 Léon Bollé's \"La Mancelle\""
@@ -2372,12 +2372,12 @@ msgid ""
 "1885 The first petrol\n"
 "car by Benz"
 msgstr ""
-"1885 Prima maşină cu\n"
+"1885 Prima mașină cu\n"
 "benzină de Benz"
 
 #: ../src/chronos-activity/resources/chronos/board4_3.xml.in.h:1
 msgid "Cars"
-msgstr "Maşini"
+msgstr "Mașini"
 
 #: ../src/chronos-activity/resources/chronos/board4_3.xml.in.h:2
 msgid "1899 Renault \"voiturette\""
@@ -2393,12 +2393,12 @@ msgstr ""
 
 #: ../src/clickanddraw-activity/clickanddraw.xml.in.h:1
 msgid "Click and draw"
-msgstr "Făceţi clic şi desenaţi."
+msgstr "Făceți clic și desenați."
 
 #: ../src/clickanddraw-activity/clickanddraw.xml.in.h:2
 #, fuzzy
 msgid "Draw the picture by clicking on the blue points."
-msgstr "Ascultaţi culoarea şi făceţi clic pe desen."
+msgstr "Ascultați culoarea și făceți clic pe desen."
 
 #: ../src/clickanddraw-activity/clickanddraw.xml.in.h:3
 msgid "Draw the picture by clicking on each blue point in sequence."
@@ -2407,7 +2407,7 @@ msgstr ""
 
 #: ../src/clickgame-activity/clickgame.xml.in.h:1
 msgid "Click On Me"
-msgstr "Făceţi clic pe mine"
+msgstr "Făceți clic pe mine"
 
 #: ../src/clickgame-activity/clickgame.xml.in.h:2
 #, fuzzy
@@ -2415,13 +2415,13 @@ msgid ""
 "Left-Click with the mouse on all the swimming fish before they leave the "
 "fishtank"
 msgstr ""
-"Făceţi clic cu şoricelul pe toţi peştii care înoată înainte ca ei să "
+"Făceți clic cu șoricelul pe toți peștii care înoată înainte ca ei să "
 "părăsească acvariul"
 
 #: ../src/clickgame-activity/clickgame.xml.in.h:4
 #, fuzzy
 msgid "Motor coordination: moving and clicking the mouse."
-msgstr "Coordonarea mişcării. Potrivire conceptuală."
+msgstr "Coordonarea mișcării. Potrivire conceptuală."
 
 #: ../src/clickgame-activity/clickgame.xml.in.h:5
 #, fuzzy
@@ -2430,15 +2430,15 @@ msgid ""
 "Use the left mouse button to click on the moving fish. A level 5 and after, "
 "a double click is mandatory."
 msgstr ""
-"Folosiţi butonul stâng al şoricelului pentru un click pe peştele ce se mişcă."
+"Folosiți butonul stâng al șoricelului pentru un click pe peștele ce se mișcă."
 
 #: ../src/clickgame-activity/clickgame.xml.in.h:6
 msgid ""
 "Fish are taken from the Unix utility xfishtank. All image credits belong to "
 "Guillaume Rousse."
 msgstr ""
-"Peştii au fost extraşi cu ajutorul programului Unix xfishtank. Imaginile "
-"aparţin lui Guillaume Rousse."
+"Peștii au fost extrași cu ajutorul programului Unix xfishtank. Imaginile "
+"aparțin lui Guillaume Rousse."
 
 #: ../src/click_on_letter-activity/click_on_letter.c:388
 msgid ""
@@ -2454,10 +2454,10 @@ msgid ""
 "Go to the configuration dialog to\n"
 "enable the sound"
 msgstr ""
-"Greşală: activitatea nu poate fi jucată cu efectele\n"
+"Greșală: activitatea nu poate fi jucată cu efectele\n"
 "sonore deactivate.\n"
-"Mergeţi la dialogul de configurare\n"
-"şi activaţi sunetul."
+"Mergeți la dialogul de configurare\n"
+"și activați sunetul."
 
 #: ../src/click_on_letter-activity/click_on_letter.c:412
 #, c-format
@@ -2541,24 +2541,24 @@ msgstr ""
 #, fuzzy
 #| msgid "Click on a letter"
 msgid "Click on a lowercase letter"
-msgstr "Făceţi clic pe o literă"
+msgstr "Făceți clic pe o literă"
 
 #: ../src/click_on_letter-activity/click_on_letter.xml.in.h:2
 #: ../src/click_on_letter_up-activity/click_on_letter_up.xml.in.h:2
 #, fuzzy
 msgid "Listen to a letter and click on the right one"
-msgstr "Ascultaţi o literă şi făceţi clic pe ea"
+msgstr "Ascultați o literă și făceți clic pe ea"
 
 #: ../src/click_on_letter-activity/click_on_letter.xml.in.h:3
 #: ../src/click_on_letter_up-activity/click_on_letter_up.xml.in.h:3
 msgid "Visual letter-recognition. Can move the mouse."
-msgstr "Recunoaşterea vizuală a literelor. Se poate mişca şoricelul."
+msgstr "Recunoașterea vizuală a literelor. Se poate mișca șoricelul."
 
 #: ../src/click_on_letter-activity/click_on_letter.xml.in.h:4
 #: ../src/click_on_letter_up-activity/click_on_letter_up.xml.in.h:4
 #, fuzzy
 msgid "Letter-name recognition"
-msgstr "Recunoaşterea literelor"
+msgstr "Recunoașterea literelor"
 
 #: ../src/click_on_letter-activity/click_on_letter.xml.in.h:5
 #: ../src/click_on_letter_up-activity/click_on_letter_up.xml.in.h:5
@@ -2567,28 +2567,28 @@ msgid ""
 "A letter is spoken. Click on the matching letter in the main area. You can "
 "listen to the letter again, by clicking on the mouth icon in the bottom box."
 msgstr ""
-"O literă este rostită. Făceţi clic pe litera corespunzătoare în zona "
-"principală. Puteţi auzi litera din nou făcând clic pe iconul difuzor din "
+"O literă este rostită. Făceți clic pe litera corespunzătoare în zona "
+"principală. Puteți auzi litera din nou făcând clic pe iconul difuzor din "
 "partea de jos."
 
 #: ../src/click_on_letter_up-activity/click_on_letter_up.xml.in.h:1
 #, fuzzy
 #| msgid "Click on a letter"
 msgid "Click on an uppercase letter"
-msgstr "Făceţi clic pe o literă"
+msgstr "Făceți clic pe o literă"
 
 #: ../src/clockgame-activity/clockgame.c:535
 msgid "Set the watch to:"
-msgstr "Setaţi ceasul la:"
+msgstr "Setați ceasul la:"
 
 #: ../src/clockgame-activity/clockgame.xml.in.h:1
 msgid "Learning Clock"
-msgstr "Învăţaţi ceasul"
+msgstr "Învățați ceasul"
 
 #: ../src/clockgame-activity/clockgame.xml.in.h:2
 #, fuzzy
 msgid "Learn how to tell the time"
-msgstr "Învăţaţi cum să citiţi timpul"
+msgstr "Învățați cum să citiți timpul"
 
 #: ../src/clockgame-activity/clockgame.xml.in.h:3
 #, fuzzy
@@ -2601,7 +2601,7 @@ msgid ""
 "Distinguish between time-units (hour, minute and second). Set and display "
 "time on a clock."
 msgstr ""
-"Făceţi diferenţa între oră, minut şi secundă. Potriviţi timpul la un ceas"
+"Făceți diferența între oră, minut și secundă. Potriviți timpul la un ceas"
 
 #: ../src/clockgame-activity/clockgame.xml.in.h:5
 msgid ""
@@ -2609,9 +2609,9 @@ msgid ""
 "hours:minutes:seconds). Click on the different arrows, and move the mouse, "
 "to make the numbers go up or down."
 msgstr ""
-"Seteaza ceasul la timpul dat, în unităţile arătate (ore:minute sau ore:"
-"minute:secunde). Faceţi click pe săgeţi diferite şi mişcaţi şoricelul pentru "
-"a face numerele să se mişte în sus sau jos."
+"Seteaza ceasul la timpul dat, în unitățile arătate (ore:minute sau ore:"
+"minute:secunde). Faceți click pe săgeți diferite și mișcați șoricelul pentru "
+"a face numerele să se miște în sus sau jos."
 
 #: ../src/color_mix-activity/color_mix.py:72
 #, fuzzy
@@ -2736,74 +2736,74 @@ msgstr "Culori"
 
 #: ../src/colors-activity/colors.xml.in.h:2
 msgid "Click on the right color"
-msgstr "Făceţi clic pe culoarea corectă"
+msgstr "Făceți clic pe culoarea corectă"
 
 #: ../src/colors-activity/colors.xml.in.h:3
 msgid "Can move the mouse."
-msgstr "Poate mişca şoricelul"
+msgstr "Poate mișca șoricelul"
 
 #: ../src/colors-activity/colors.xml.in.h:4
 msgid ""
 "This board teaches you to recognize different colors. When you hear the name "
 "of the color, click on the duck wearing it."
 msgstr ""
-"Această tablă te învaţă să recunoşti diferite culori. Când auzi denumirea "
-"culorii, faceţi un click pe raţa corespunzătoare."
+"Această tablă te învață să recunoști diferite culori. Când auzi denumirea "
+"culorii, faceți un click pe rața corespunzătoare."
 
 #: ../src/colors-activity/colors.xml.in.h:5
 #, fuzzy
 msgid "Listen to the color and click on the matching duck."
-msgstr "Ascultaţi culoarea şi făceţi clic pe desen."
+msgstr "Ascultați culoarea și făceți clic pe desen."
 
 #: ../src/colors-activity/resources/colors/activity.desktop.in.h:1
 #, fuzzy
 msgid "Find the yellow duck"
-msgstr "Făceţi clic pe culoarea corectă"
+msgstr "Făceți clic pe culoarea corectă"
 
 #: ../src/colors-activity/resources/colors/activity.desktop.in.h:2
 #, fuzzy
 msgid "Find the black duck"
-msgstr "Făceţi clic pe culoarea corectă"
+msgstr "Făceți clic pe culoarea corectă"
 
 #: ../src/colors-activity/resources/colors/activity.desktop.in.h:3
 #, fuzzy
 msgid "Find the green duck"
-msgstr "Făceţi clic pe culoarea corectă"
+msgstr "Făceți clic pe culoarea corectă"
 
 #: ../src/colors-activity/resources/colors/activity.desktop.in.h:4
 #, fuzzy
 msgid "Find the red duck"
-msgstr "Făceţi clic pe culoarea corectă"
+msgstr "Făceți clic pe culoarea corectă"
 
 #: ../src/colors-activity/resources/colors/activity.desktop.in.h:5
 #, fuzzy
 msgid "Find the white duck"
-msgstr "Făceţi clic pe culoarea corectă"
+msgstr "Făceți clic pe culoarea corectă"
 
 #: ../src/colors-activity/resources/colors/activity.desktop.in.h:6
 #, fuzzy
 msgid "Find the blue duck"
-msgstr "Făceţi clic pe culoarea corectă"
+msgstr "Făceți clic pe culoarea corectă"
 
 #: ../src/colors-activity/resources/colors/activity.desktop.in.h:7
 #, fuzzy
 msgid "Find the brown duck"
-msgstr "Făceţi clic pe culoarea corectă"
+msgstr "Făceți clic pe culoarea corectă"
 
 #: ../src/colors-activity/resources/colors/activity.desktop.in.h:8
 #, fuzzy
 msgid "Find the grey duck"
-msgstr "Făceţi clic pe culoarea corectă"
+msgstr "Făceți clic pe culoarea corectă"
 
 #: ../src/colors-activity/resources/colors/activity.desktop.in.h:9
 #, fuzzy
 msgid "Find the orange duck"
-msgstr "Făceţi clic pe culoarea corectă"
+msgstr "Făceți clic pe culoarea corectă"
 
 #: ../src/colors-activity/resources/colors/activity.desktop.in.h:10
 #, fuzzy
 msgid "Find the purple duck"
-msgstr "Făceţi clic pe culoarea corectă"
+msgstr "Făceți clic pe culoarea corectă"
 
 #: ../src/connect4-2players-activity/connect4-2players.xml.in.h:1
 msgid "Connect 4 (2 Players)"
@@ -2818,7 +2818,7 @@ msgstr "Arangează monetele în rând."
 msgid ""
 "Create a line of 4 pieces either horizontally (lying down) or vertically "
 "(standing up) or diagonally."
-msgstr "Creaţi o linie din 4 piese orizontală, verticală sau diagonală."
+msgstr "Creați o linie din 4 piese orizontală, verticală sau diagonală."
 
 #: ../src/connect4-2players-activity/connect4-2players.xml.in.h:5
 #: ../src/connect4-activity/connect4.xml.in.h:5
@@ -2827,9 +2827,9 @@ msgid ""
 "use the arrow keys to move the piece left or right, and the down or space "
 "key to drop a piece."
 msgstr ""
-"Faceţi un click pe poziţila unde doriţi să puneţi o piesă. De asemenea "
-"puteţi folosi tastele cu săgeţi în stânga şi dreapta pentru a misca piesele, "
-"şi cu săgeata în jos sau spaţiu pentru a pune o piesă."
+"Faceți un click pe pozițila unde doriți să puneți o piesă. De asemenea "
+"puteți folosi tastele cu săgeți în stânga și dreapta pentru a misca piesele, "
+"și cu săgeata în jos sau spațiu pentru a pune o piesă."
 
 #: ../src/connect4-2players-activity/connect4-2players.xml.in.h:6
 msgid ""
@@ -2847,7 +2847,7 @@ msgstr ""
 msgid ""
 "Create a line of 4 pieces either horizontally (lying down), vertically "
 "(standing up) or diagonally."
-msgstr "Creaţi o linie din 4 piese orizontală, verticală sau diagonală."
+msgstr "Creați o linie din 4 piese orizontală, verticală sau diagonală."
 
 #: ../src/connect4-activity/connect4.xml.in.h:6
 msgid ""
@@ -2858,16 +2858,16 @@ msgstr ""
 
 #: ../src/crane-activity/crane.xml.in.h:1
 msgid "Build the same model"
-msgstr "Construieşte acelaşi model."
+msgstr "Construiește același model."
 
 #: ../src/crane-activity/crane.xml.in.h:2
 msgid "Drive the crane and copy the model"
-msgstr "Condu macaraua şi copie modelul"
+msgstr "Condu macaraua și copie modelul"
 
 #: ../src/crane-activity/crane.xml.in.h:3
 #: ../src/hanoi_real-activity/hanoi_real.xml.in.h:3
 msgid "Mouse manipulation"
-msgstr "Folosirea şoricelului"
+msgstr "Folosirea șoricelului"
 
 #: ../src/crane-activity/crane.xml.in.h:4
 #: ../src/erase_2clic-activity/erase_2clic.xml.in.h:4
@@ -2876,7 +2876,7 @@ msgstr "Folosirea şoricelului"
 #: ../src/penalty-activity/penalty.xml.in.h:4
 #, fuzzy
 msgid "Motor-coordination"
-msgstr "Coordonarea mişcării"
+msgstr "Coordonarea mișcării"
 
 #: ../src/crane-activity/crane.xml.in.h:5
 #, fuzzy
@@ -2890,16 +2890,16 @@ msgid ""
 "move items. To select the item to move, just click on it. If you prefer, you "
 "can use the arrow keys and the space or tab key instead."
 msgstr ""
-"Mutaţi elementele în cadrul din stânga jos pentru a copia poziţia lor în "
-"modelul corespunzător de sus. Sub robinet, ve-ţi gasi patru săgeţi care vă "
-"va permite să mutaţi elementele. Pentru a selecta elemteul pentru mişcare "
-"faceţi un click pe el."
+"Mutați elementele în cadrul din stânga jos pentru a copia poziția lor în "
+"modelul corespunzător de sus. Sub robinet, ve-ți gasi patru săgeți care vă "
+"va permite să mutați elementele. Pentru a selecta elemteul pentru mișcare "
+"faceți un click pe el."
 
 #: ../src/details-activity/details.xml.in.h:1
 #, fuzzy
 #| msgid "Find the matching pair"
 msgid "Find the details"
-msgstr "Găsiţi perechea potrivită"
+msgstr "Găsiți perechea potrivită"
 
 #: ../src/details-activity/details.xml.in.h:4
 msgid "The images are from Wikimedia Commons."
@@ -2919,7 +2919,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Vincent Van Gogh, Village Street in Auvers - 1890"
 msgid "Vincent van Gogh, The Church at Auvers-sur-Oise - 1890"
-msgstr "Vincent Van Gogh, Uliţă de sat în Auvers - 1890"
+msgstr "Vincent Van Gogh, Uliță de sat în Auvers - 1890"
 
 #: ../src/details-activity/resources/details/board1_3.xml.in.h:1
 msgid "Vincent van Gogh, Painter on His Way to Work - 1888"
@@ -2929,13 +2929,13 @@ msgstr ""
 #, fuzzy
 #| msgid "Vincent Van Gogh, Village Street in Auvers - 1890"
 msgid "Vincent van Gogh, The Harvest - 1888"
-msgstr "Vincent Van Gogh, Uliţă de sat în Auvers - 1890"
+msgstr "Vincent Van Gogh, Uliță de sat în Auvers - 1890"
 
 #: ../src/details-activity/resources/details/board1_5.xml.in.h:1
 #, fuzzy
 #| msgid "Vincent Van Gogh, Village Street in Auvers - 1890"
 msgid "Vincent van Gogh, Cafe Terrace at Night - 1888"
-msgstr "Vincent Van Gogh, Uliţă de sat în Auvers - 1890"
+msgstr "Vincent Van Gogh, Uliță de sat în Auvers - 1890"
 
 #: ../src/details-activity/resources/details/board1_6.xml.in.h:1
 msgid "Vincent van Gogh, The Night Café - 1888"
@@ -3006,7 +3006,7 @@ msgstr "Tablă cu intrare dublă"
 #: ../src/doubleentry-activity/doubleentry.xml.in.h:2
 #, fuzzy
 msgid "Drag and Drop the items in the double-entry table"
-msgstr "Trageţi şi plasaţi elementele în tabla cu intrare dublă"
+msgstr "Trageți și plasați elementele în tabla cu intrare dublă"
 
 #: ../src/doubleentry-activity/doubleentry.xml.in.h:3
 msgid "Basic counting skills"
@@ -3018,17 +3018,17 @@ msgid ""
 "Move the items on the left to their proper position in the double-entry "
 "table."
 msgstr ""
-"Copiii trebuie să mute elementele din stânga la destinaţia corespunzătoare "
+"Copiii trebuie să mute elementele din stânga la destinația corespunzătoare "
 "în tabla cu intrare dublă."
 
 #: ../src/doubleentry-activity/doubleentry.xml.in.h:5
 #, fuzzy
 msgid "Drag and Drop each proposed item on its destination"
-msgstr "Trageţi şi plasaţi elementele propuse la destinaţia lor"
+msgstr "Trageți și plasați elementele propuse la destinația lor"
 
 #: ../src/doubleentry-activity/resources/doubleentry/board3_0.xml.in.h:1
 msgid "Click on an item and listen to its target position"
-msgstr "Faceţi click pe un element şi ascultati-i poziţia iniţială"
+msgstr "Faceți click pe un element și ascultati-i poziția inițială"
 
 #: ../src/draw-activity/draw.xml.in.h:1
 #, fuzzy
@@ -3038,7 +3038,7 @@ msgstr "O unealtă de desenare simplă"
 #: ../src/draw-activity/draw.xml.in.h:2
 #, fuzzy
 msgid "A creative board where you can draw freely"
-msgstr "Tablă creativă unde puteţi desena liber"
+msgstr "Tablă creativă unde puteți desena liber"
 
 #: ../src/draw-activity/draw.xml.in.h:4
 #, fuzzy
@@ -3048,7 +3048,7 @@ msgid ""
 "lines."
 msgstr ""
 "În acest joc, copiin pot desena liber. Scopul este să descopere cum pot crea "
-"desene drăguţe bazate pe forme simple: dreptunghiuri, elipse şi linii."
+"desene drăguțe bazate pe forme simple: dreptunghiuri, elipse și linii."
 
 #: ../src/draw-activity/draw.xml.in.h:5
 #, fuzzy
@@ -3057,10 +3057,10 @@ msgid ""
 "and drag in the white area to create a new shape. To save time, you can "
 "click with the middle mouse button to delete an object."
 msgstr ""
-"În stânga selectaţi o unealtă de desen, jos selectaţi o culoare şi apoi "
-"făceţi clic pe zona albă şi trageţi pentru a crea o formă nouă. Pentru a "
-"merge mai rapid puteţi folosi butonul din mijloc al şoricelului pentru a "
-"şterge un obiect."
+"În stânga selectați o unealtă de desen, jos selectați o culoare și apoi "
+"făceți clic pe zona albă și trageți pentru a crea o formă nouă. Pentru a "
+"merge mai rapid puteți folosi butonul din mijloc al șoricelului pentru a "
+"șterge un obiect."
 
 #: ../src/drawnumber-activity/drawnumber.py:238
 #: ../src/explore-activity/explore.py:412 ../src/findit-activity/findit.py:342
@@ -3081,11 +3081,11 @@ msgstr ""
 
 #: ../src/drawnumber-activity/drawnumber.xml.in.h:3
 msgid "Can count from 1 to 50."
-msgstr "Puteţi socoti de la 1 la 50."
+msgstr "Puteți socoti de la 1 la 50."
 
 #: ../src/drawnumber-activity/drawnumber.xml.in.h:4
 msgid "Draw the picture by clicking on each numbers in the right order."
-msgstr "Desenaţi imaginea facând click pe fiecare număr in ordinea corectă."
+msgstr "Desenați imaginea facând click pe fiecare număr in ordinea corectă."
 
 #: ../src/electric-activity/electric.py:99
 msgid ""
@@ -3104,15 +3104,15 @@ msgstr "Electricitate."
 
 #: ../src/electric-activity/electric.xml.in.h:2
 msgid "Create and simulate an electric schema"
-msgstr "Creaţi şi simulaţi schema electrică"
+msgstr "Creați și simulați schema electrică"
 
 #: ../src/electric-activity/electric.xml.in.h:3
 msgid "Requires some basic understanding of the concept of electricity."
-msgstr "Necesită înţelegere de bază al concepţiei de electricitate."
+msgstr "Necesită înțelegere de bază al concepției de electricitate."
 
 #: ../src/electric-activity/electric.xml.in.h:4
 msgid "Freely create an electric schema with a real time simulation of it."
-msgstr "Creaţi o schemă electrică cu o simulare în timp real a ei."
+msgstr "Creați o schemă electrică cu o simulare în timp real a ei."
 
 #: ../src/electric-activity/electric.xml.in.h:5
 #, fuzzy
@@ -3123,7 +3123,7 @@ msgid ""
 "GCompris uses the Gnucap electric simulator as a backend. You can get more "
 "information on gnucap at &lt;http://www.gnu.org/software/gnucap/&gt;."
 msgstr ""
-"GCompris foloseşte simulatorul electric Gnucap. Puteţi afla mai mut despre "
+"GCompris folosește simulatorul electric Gnucap. Puteți afla mai mut despre "
 "gnucap pe adresa &lt;http://geda.seul.org/tools/gnucap/&gt;."
 
 #: ../src/electric-activity/electric.xml.in.h:6
@@ -3148,11 +3148,11 @@ msgstr "Exersarea numărării"
 #: ../src/enumerate-activity/enumerate.c:112
 #: ../src/enumerate-activity/enumerate.xml.in.h:2
 msgid "Place the items in the best way to count them"
-msgstr "Plasaţi elementele în cea mai bună poziţie pentru a fi numărate"
+msgstr "Plasați elementele în cea mai bună poziție pentru a fi numărate"
 
 #: ../src/enumerate-activity/enumerate.xml.in.h:1
 msgid "Count the items"
-msgstr "Număraţi elementele"
+msgstr "Numărați elementele"
 
 #: ../src/enumerate-activity/enumerate.xml.in.h:4
 msgid "Basic enumeration"
@@ -3164,28 +3164,28 @@ msgid ""
 "the item you want to answer in the bottom right area. Enter the answer with "
 "the keyboard and press the OK button or the 'Enter' key."
 msgstr ""
-"În primul rând organizaţi elementele pentru să le puteţi număra. Apoi "
-"selectaţi elementul la care ve-ţi răspunde în partea dreapta de jos. "
-"Întroduce-ţi răspunsul şi tataţi OK sau 'Enter'."
+"În primul rând organizați elementele pentru să le puteți număra. Apoi "
+"selectați elementul la care ve-ți răspunde în partea dreapta de jos. "
+"Întroduce-ți răspunsul și tatați OK sau 'Enter'."
 
 #: ../src/erase_2clic-activity/erase_2clic.xml.in.h:1
 #, fuzzy
 msgid "Double click the mouse"
-msgstr "Mutaţi şoricelul"
+msgstr "Mutați șoricelul"
 
 #: ../src/erase_2clic-activity/erase_2clic.xml.in.h:2
 #, fuzzy
 msgid "Double click the mouse to erase the area and discover the background"
-msgstr "Mutaţi şoricelul pentru a descoperi fundalul"
+msgstr "Mutați șoricelul pentru a descoperi fundalul"
 
 #: ../src/erase_2clic-activity/erase_2clic.xml.in.h:5
 #, fuzzy
 msgid "Double click the mouse on rectangles until all the blocks disappear."
-msgstr "Mutaţi şoricelul până când dispar toate blocurile."
+msgstr "Mutați șoricelul până când dispar toate blocurile."
 
 #: ../src/erase-activity/erase.c:86 ../src/erase-activity/erase.xml.in.h:2
 msgid "Move the mouse to erase the area and discover the background"
-msgstr "Mutaţi şoricelul pentru a descoperi fundalul"
+msgstr "Mutați șoricelul pentru a descoperi fundalul"
 
 #: ../src/erase-activity/erase.c:180
 msgid "Error: No images found\n"
@@ -3194,7 +3194,7 @@ msgstr ""
 #: ../src/erase-activity/erase.c:582 ../src/gcompris/properties.c:511
 #: ../src/gcompris/properties.c:518
 msgid "readme"
-msgstr "citeşte-mă"
+msgstr "citește-mă"
 
 #: ../src/erase-activity/erase.c:584
 msgid ""
@@ -3219,23 +3219,23 @@ msgid ""
 "both of you."
 msgstr ""
 "Imaginile animalelor au fost luate de la Animal Photography Page, facute de "
-"Ralf Schmode (&lt;http://schmode.net/&gt;) şi de la LE BERRE Daniel. Aceşti "
-"oameni au dat permisiunea de a include imaginile lor în GCompris. Mulţumim "
+"Ralf Schmode (&lt;http://schmode.net/&gt;) și de la LE BERRE Daniel. Acești "
+"oameni au dat permisiunea de a include imaginile lor în GCompris. Mulțumim "
 "mult."
 
 #: ../src/erase_clic-activity/erase_clic.xml.in.h:1
 msgid "Click the mouse"
-msgstr "Clicaţi şoricelul"
+msgstr "Clicați șoricelul"
 
 #: ../src/erase_clic-activity/erase_clic.xml.in.h:2
 #, fuzzy
 msgid "Click the mouse to erase the area and discover the background"
-msgstr "Mutaţi şoricelul pentru a descoperi fundalul"
+msgstr "Mutați șoricelul pentru a descoperi fundalul"
 
 #: ../src/erase_clic-activity/erase_clic.xml.in.h:5
 #, fuzzy
 msgid "Click the mouse on rectangles until all the blocks disappear."
-msgstr "Mutaţi şoricelul până când dispar toate blocurile."
+msgstr "Mutați șoricelul până când dispar toate blocurile."
 
 #: ../src/explore-activity/explore.py:85 ../src/lang-activity/lang.py:106
 #: ../src/note_names-activity/note_names.py:82
@@ -3254,10 +3254,10 @@ msgid ""
 "Go to the configuration dialogue to\n"
 "enable the sound."
 msgstr ""
-"Greşală: activitatea nu poate fi jucată cu efectele\n"
+"Greșală: activitatea nu poate fi jucată cu efectele\n"
 "sonore deactivate.\n"
-"Mergeţi la dialogul de configurare\n"
-"şi activaţi sunetul."
+"Mergeți la dialogul de configurare\n"
+"și activați sunetul."
 
 #: ../src/explore-activity/explore.py:152
 msgid "Click to play sound"
@@ -3397,7 +3397,7 @@ msgstr ""
 #: ../src/explore_farm_animals-activity/resources/explore_farm_animals/content.desktop.in.h:19
 #, fuzzy
 msgid "White Duck"
-msgstr "Şah alb"
+msgstr "Șah alb"
 
 #: ../src/explore_farm_animals-activity/resources/explore_farm_animals/content.desktop.in.h:20
 msgid ""
@@ -3568,7 +3568,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Learn about the water cycle"
 msgid "Learn about the music of the world."
-msgstr "Învaţă despre ciclul apei"
+msgstr "Învață despre ciclul apei"
 
 #: ../src/explore_world_music-activity/explore_world_music.xml.in.h:3
 msgid ""
@@ -3779,14 +3779,14 @@ msgstr "Jocul cincisprezece."
 msgid ""
 "Move each item to make an increasing series: from the smallest to the largest"
 msgstr ""
-"Mişcaţi fiecare element pentru a forma o serie în creştere: de la mic la mare"
+"Mișcați fiecare element pentru a forma o serie în creștere: de la mic la mare"
 
 #: ../src/fifteen-activity/fifteen.xml.in.h:4
 msgid ""
 "Click on any item that has a free block beside it, and it will be swapped "
 "with the empty block."
 msgstr ""
-"Faceţi click pe orice element, care are un block liber lângă el şi el va fi "
+"Faceți click pe orice element, care are un block liber lângă el și el va fi "
 "schimbat cu un block gol."
 
 #: ../src/fifteen-activity/fifteen.xml.in.h:5
@@ -3796,7 +3796,7 @@ msgstr "Cod original luat de la versiunea demo libgnomecanavs"
 #: ../src/followline-activity/followline.xml.in.h:1
 #, fuzzy
 msgid "Control the hose-pipe"
-msgstr "Număraţi elementele"
+msgstr "Numărați elementele"
 
 #: ../src/followline-activity/followline.xml.in.h:2
 msgid "Tux needs to water the flowers, but the hose is blocked."
@@ -3805,7 +3805,7 @@ msgstr "Tux vrea să ude florile, dar furtunul e blocat."
 #: ../src/followline-activity/followline.xml.in.h:3
 #, fuzzy
 msgid "Fine motor coordination"
-msgstr "Coordonarea mişcării"
+msgstr "Coordonarea mișcării"
 
 #: ../src/followline-activity/followline.xml.in.h:4
 msgid ""
@@ -3813,8 +3813,8 @@ msgid ""
 "bringing it, part by part, up to the flowers. Be careful, if you move off "
 "the hose, the red part will go back down."
 msgstr ""
-"Mişcaţi şoricelul peste partea roşie a ţevei. În acest mod vă ve-ţi mişca, "
-"pas cu pas înspre flori. Fiţi atenţi, dacă ve-ţi rata ţeava, partea roşie se "
+"Mișcați șoricelul peste partea roșie a țevei. În acest mod vă ve-ți mișca, "
+"pas cu pas înspre flori. Fiți atenți, dacă ve-ți rata țeava, partea roșie se "
 "va întoarce înapoi."
 
 #: ../src/gcompris/about.c:49
@@ -3857,7 +3857,7 @@ msgid ""
 "This software is a GNU Package and is released under the GNU General Public "
 "License"
 msgstr ""
-"Acest software este un pachet GNU şi este produs sub Licenţa publică "
+"Acest software este un pachet GNU și este produs sub Licența publică "
 "generală GNU"
 
 #: ../src/gcompris/about.c:221 ../src/gcompris/config.c:491
@@ -3869,11 +3869,11 @@ msgstr "OK"
 #: ../src/gcompris/bar.c:701
 #, fuzzy
 msgid "GCompris confirmation"
-msgstr "Configuraţia GCompris"
+msgstr "Configurația GCompris"
 
 #: ../src/gcompris/bar.c:702
 msgid "Are you sure you want to quit?"
-msgstr "Sunteţi siguri vreţi să ieşiţi?"
+msgstr "Sunteți siguri vreți să ieșiți?"
 
 #: ../src/gcompris/bar.c:703
 msgid "Yes, I am sure!"
@@ -3891,7 +3891,7 @@ msgstr ""
 msgid ""
 "Select the language\n"
 " to use in the board"
-msgstr "Selectaţi limbajul<br> pentru interfaţă"
+msgstr "Selectați limbajul<br> pentru interfață"
 
 #: ../src/gcompris/board_config_combo.c:252
 msgid "Global GCompris mode"
@@ -3931,12 +3931,12 @@ msgstr "Listă completă de simboluri."
 #: ../src/gcompris/board_config_wordlist.c:236
 #, fuzzy
 msgid "Choice of the language"
-msgstr "Făceţi clic pe o literă"
+msgstr "Făceți clic pe o literă"
 
 #: ../src/gcompris/board_config_wordlist.c:248
 #, fuzzy
 msgid "Choice of the level"
-msgstr "Făceţi clic pe o literă"
+msgstr "Făceți clic pe o literă"
 
 #: ../src/gcompris/config.c:57
 msgid "Language: your system default"
@@ -3986,15 +3986,15 @@ msgstr "Cineză (simplificată)"
 #, fuzzy
 #| msgid "Chinese (Traditional)"
 msgid "Chinese (Hong Kong)"
-msgstr "Cineză (tradiţional)"
+msgstr "Cineză (tradițional)"
 
 #: ../src/gcompris/config.c:69
 msgid "Chinese (Traditional)"
-msgstr "Cineză (tradiţional)"
+msgstr "Cineză (tradițional)"
 
 #: ../src/gcompris/config.c:70
 msgid "Croatian"
-msgstr "Croaţia"
+msgstr "Croația"
 
 #: ../src/gcompris/config.c:71
 #: ../src/geography-activity/resources/geography/board6_0.xml.in.h:7
@@ -4131,7 +4131,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Serbia Montenegro"
 msgid "Montenegrin"
-msgstr "Serbia şi Muntenegru"
+msgstr "Serbia și Muntenegru"
 
 #: ../src/gcompris/config.c:103
 #: ../src/geography-activity/resources/geography/board10_0.xml.in.h:38
@@ -4276,7 +4276,7 @@ msgstr "Meniul principal"
 
 #: ../src/gcompris/config.c:204
 msgid "GCompris Configuration"
-msgstr "Configuraţia GCompris"
+msgstr "Configurația GCompris"
 
 #: ../src/gcompris/config.c:276
 msgid "Fullscreen"
@@ -4318,7 +4318,7 @@ msgstr "PĂSTREZ"
 #: ../src/gcompris/gameutil.c:141 ../src/gcompris/gameutil.c:199
 #, fuzzy
 msgid "Couldn't find or load the file"
-msgstr "N-am putut găsi fişierul %s !"
+msgstr "N-am putut găsi fișierul %s !"
 
 #: ../src/gcompris/gameutil.c:143 ../src/gcompris/gameutil.c:201
 msgid "This activity is incomplete."
@@ -4436,11 +4436,11 @@ msgstr ""
 
 #: ../src/gcompris/gcompris.c:226
 msgid "Run the experimental activities"
-msgstr "Mergeţi la activităţile experimentale"
+msgstr "Mergeți la activitățile experimentale"
 
 #: ../src/gcompris/gcompris.c:229
 msgid "Disable the quit button"
-msgstr "Inactivează butonul de ieşire"
+msgstr "Inactivează butonul de ieșire"
 
 #: ../src/gcompris/gcompris.c:232
 msgid "Disable the config button"
@@ -4450,7 +4450,7 @@ msgstr "Incativează butonul de configurare"
 #, fuzzy
 #| msgid "Disable the quit button"
 msgid "Disable the level button"
-msgstr "Inactivează butonul de ieşire"
+msgstr "Inactivează butonul de ieșire"
 
 #: ../src/gcompris/gcompris.c:238
 msgid "Disable the database (slower start and no user log)"
@@ -4492,7 +4492,7 @@ msgstr ""
 #: ../src/gcompris/gcompris.c:262
 #, fuzzy
 msgid "Print the version of "
-msgstr "Tipăreşte versiunea "
+msgstr "Tipărește versiunea "
 
 #: ../src/gcompris/gcompris.c:942
 #, c-format
@@ -4525,16 +4525,16 @@ msgid ""
 msgid_plural ""
 "GCompris won't start because the lock file is less than %d seconds old.\n"
 msgstr[0] ""
-"GCompris nu v-a starta, pentru că fişierul de blocaj are o vechime mai puţin "
+"GCompris nu v-a starta, pentru că fișierul de blocaj are o vechime mai puțin "
 "de %d secunde. \n"
 msgstr[1] ""
-"GCompris nu v-a starta, pentru că fişierul de blocaj are o vechime mai puţin "
+"GCompris nu v-a starta, pentru că fișierul de blocaj are o vechime mai puțin "
 "de %d secunde. \n"
 
 #: ../src/gcompris/gcompris.c:1517
 #, c-format
 msgid "The lock file is: %s\n"
-msgstr "Fişierul de blocaj este: %s\n"
+msgstr "Fișierul de blocaj este: %s\n"
 
 #: ../src/gcompris/gcompris.c:1638
 #, fuzzy, c-format
@@ -4546,19 +4546,19 @@ msgid ""
 msgstr ""
 "GCompris\n"
 "Versiune: %s\n"
-"Licenţă: GPL\n"
-"Mai multe informaţii la http://ofset.sourceforge.net/gcompris\n"
+"Licență: GPL\n"
+"Mai multe informații la http://ofset.sourceforge.net/gcompris\n"
 
 #. check the list of possible values for -l, then exit
 #: ../src/gcompris/gcompris.c:1823
 #, c-format
 msgid "Use -l to access an activity directly.\n"
-msgstr "Folosiţi -l pentru a accesa activitatea direct.\n"
+msgstr "Folosiți -l pentru a accesa activitatea direct.\n"
 
 #: ../src/gcompris/gcompris.c:1824
 #, c-format
 msgid "The list of available activities is :\n"
-msgstr "Lista activităţilor disponibile:\n"
+msgstr "Lista activităților disponibile:\n"
 
 #: ../src/gcompris/gcompris.c:1855
 #, fuzzy, c-format
@@ -4600,7 +4600,7 @@ msgstr ""
 
 #: ../src/gcompris/help.c:183
 msgid "Prerequisite"
-msgstr "Cunoştinţe necesare"
+msgstr "Cunoștințe necesare"
 
 #: ../src/gcompris/help.c:213
 msgid "Goal"
@@ -4619,7 +4619,7 @@ msgstr "Echipa"
 msgid ""
 "Loading activity from file:\n"
 "%s"
-msgstr "Mergeţi la activităţile de citire"
+msgstr "Mergeți la activitățile de citire"
 
 #: ../src/gcompris/menu.c:673
 msgid ""
@@ -4632,7 +4632,7 @@ msgid ""
 "This directory contains the files you create with the GCompris educational "
 "suite\n"
 msgstr ""
-"Acest directoriu conţine fişierele create de setul educaţional GCompris\n"
+"Acest directoriu conține fișierele create de setul educațional GCompris\n"
 
 #: ../src/gcompris/properties.c:520
 msgid ""
@@ -4641,8 +4641,8 @@ msgid ""
 "The image formats supported are jpeg, png and svg.\n"
 msgstr ""
 "Pune orice număr de imagini in acest directoriu.\n"
-"Pute-ţi include aceste imagini in desenele şi animaţiile voastre.\n"
-"Imaginile pot fi de tip jpeg, png şi svg.\n"
+"Pute-ți include aceste imagini in desenele și animațiile voastre.\n"
+"Imaginile pot fi de tip jpeg, png și svg.\n"
 
 #: ../src/gcompris/sugar_cli.c:222 ../src/gcompris/sugar_srv.c:156
 msgid "Sharing Error"
@@ -4693,17 +4693,17 @@ msgstr "Timp rămas = %d"
 
 #: ../src/geo_country-activity/geo_country.xml.in.h:1
 msgid "Locate the region"
-msgstr "Localizaţi regionul"
+msgstr "Localizați regionul"
 
 #: ../src/geo_country-activity/geo_country.xml.in.h:2
 #, fuzzy
 msgid "Drag and Drop the regions to redraw the whole country"
-msgstr "Trageţi şi plasaţi elementele pentru a redesena harta completă"
+msgstr "Trageți și plasați elementele pentru a redesena harta completă"
 
 #: ../src/geo_country-activity/geo_country.xml.in.h:3
 #: ../src/geography-activity/geography.xml.in.h:3
 msgid "Mouse manipulation: movement, drag and drop"
-msgstr "Folosirea şoricelului: mişcare, tragere şi plasare"
+msgstr "Folosirea șoricelului: mișcare, tragere și plasare"
 
 #: ../src/geo_country-activity/geo_country.xml.in.h:4
 msgid ""
@@ -4711,8 +4711,8 @@ msgid ""
 "Documentation License. Olaf Ronneberger and his children Lina and Julia "
 "Ronneberger created the German level."
 msgstr ""
-"Harta Germaniei vine de la Wikipedia şi este oferită sub licenţa GNU Free "
-"Documentation License. Olaf Ronneberger şi copiii lui Lina şi Julia "
+"Harta Germaniei vine de la Wikipedia și este oferită sub licența GNU Free "
+"Documentation License. Olaf Ronneberger și copiii lui Lina și Julia "
 "Ronneberger au creat nivelul Germaniei."
 
 #: ../src/geo_country-activity/resources/geo_country/board10_0.xml.in.h:1
@@ -4974,7 +4974,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Birth Date"
 msgid "North Dakota"
-msgstr "Data naşterii"
+msgstr "Data nașterii"
 
 #: ../src/geo_country-activity/resources/geo_country/board10_0.xml.in.h:50
 #: ../src/geo_country-activity/resources/geo_country/board10_1.xml.in.h:50
@@ -4998,7 +4998,7 @@ msgstr ""
 
 #: ../src/geo_country-activity/resources/geo_country/board1_0.xml.in.h:1
 msgid "Regions of France"
-msgstr "Regioanele Franţei"
+msgstr "Regioanele Franței"
 
 #: ../src/geo_country-activity/resources/geo_country/board12_0.xml.in.h:1
 #: ../src/geography-activity/resources/geography/board10_0.xml.in.h:41
@@ -5042,7 +5042,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Switzerland"
 msgid "Sutherland"
-msgstr "Elveţia"
+msgstr "Elveția"
 
 #: ../src/geo_country-activity/resources/geo_country/board15_0.xml.in.h:8
 #: ../src/geo_country-activity/resources/geo_country/board15_2.xml.in.h:8
@@ -5248,12 +5248,12 @@ msgstr ""
 
 #: ../src/geography-activity/geography.xml.in.h:1
 msgid "Locate the countries"
-msgstr "Descoperă ţările"
+msgstr "Descoperă țările"
 
 #: ../src/geography-activity/geography.xml.in.h:2
 #, fuzzy
 msgid "Drag and Drop the items to redraw the whole map"
-msgstr "Trageţi şi plasaţi elementele pentru a redesena harta completă"
+msgstr "Trageți și plasați elementele pentru a redesena harta completă"
 
 #: ../src/geography-activity/resources/geography/board10_0.xml.in.h:1
 #: ../src/geography-activity/resources/geography/board1_0.xml.in.h:5
@@ -5762,7 +5762,7 @@ msgstr "Finlanda"
 #: ../src/geography-activity/resources/geography/board5_0.xml.in.h:6
 #: ../src/piano_composition-activity/resources/piano_composition/melodies.desktop.in.h:11
 msgid "France"
-msgstr "Franţa"
+msgstr "Franța"
 
 #: ../src/geography-activity/resources/geography/board5_0.xml.in.h:7
 #: ../src/piano_composition-activity/resources/piano_composition/melodies.desktop.in.h:12
@@ -5800,7 +5800,7 @@ msgstr "Suedia"
 
 #: ../src/geography-activity/resources/geography/board5_0.xml.in.h:17
 msgid "Switzerland"
-msgstr "Elveţia"
+msgstr "Elveția"
 
 #: ../src/geography-activity/resources/geography/board5_0.xml.in.h:18
 msgid "United Kingdom"
@@ -5820,7 +5820,7 @@ msgstr ""
 
 #: ../src/geography-activity/resources/geography/board6_0.xml.in.h:4
 msgid "Bosnia Herzegovina"
-msgstr "Bosnia şi Herzegovina"
+msgstr "Bosnia și Herzegovina"
 
 #: ../src/geography-activity/resources/geography/board6_0.xml.in.h:5
 msgid "Bulgaria"
@@ -5828,7 +5828,7 @@ msgstr ""
 
 #: ../src/geography-activity/resources/geography/board6_0.xml.in.h:6
 msgid "Croatia"
-msgstr "Croaţia"
+msgstr "Croația"
 
 #: ../src/geography-activity/resources/geography/board6_0.xml.in.h:8
 msgid "Estonia"
@@ -5874,7 +5874,7 @@ msgstr "Serbă"
 #, fuzzy
 #| msgid "Serbia Montenegro"
 msgid "Montenegro"
-msgstr "Serbia şi Muntenegru"
+msgstr "Serbia și Muntenegru"
 
 #: ../src/geography-activity/resources/geography/board6_0.xml.in.h:19
 msgid "Slovak Republic"
@@ -6149,7 +6149,7 @@ msgstr "Litere simple"
 #: ../src/gletters-activity/gletters.c:136
 #: ../src/gletters-activity/gletters.xml.in.h:2
 msgid "Type the falling letters before they reach the ground"
-msgstr "Tastaţi literele căzătoare înainte de a atinge pământul"
+msgstr "Tastați literele căzătoare înainte de a atinge pământul"
 
 #: ../src/gletters-activity/gletters.c:215
 msgid ""
@@ -6177,7 +6177,7 @@ msgstr ""
 #: ../src/gletters-activity/gletters.c:1064
 #: ../src/smallnumbers-activity/smallnumbers.c:617
 msgid "Enable sounds"
-msgstr "Activaţi sunetul"
+msgstr "Activați sunetul"
 
 #: ../src/gletters-activity/gletters.c:1068
 msgid ""
@@ -6188,7 +6188,7 @@ msgstr ""
 #: ../src/gletters-activity/gletters.xml.in.h:3
 #, fuzzy
 msgid "Letter association between the screen and the keyboard"
-msgstr "Recunoaşterea literelor de pe ecran şi tastatură"
+msgstr "Recunoașterea literelor de pe ecran și tastatură"
 
 #: ../src/gletters-activity/gletters.xml.in.h:4
 #: ../src/wordsgame-activity/wordsgame.xml.in.h:3
@@ -6207,7 +6207,7 @@ msgstr ""
 
 #: ../src/gnumch-equality-activity/gnumch-equality.xml.in.h:3
 msgid "Practice addition, multiplication, division and subtraction."
-msgstr "Exersaţi operaţiile de adunare, înmulţire, împărţire şi scădere"
+msgstr "Exersați operațiile de adunare, înmulțire, împărțire și scădere"
 
 #: ../src/gnumch-equality-activity/gnumch-equality.xml.in.h:4
 #: ../src/gnumch-inequality-activity/gnumch-inequality.xml.in.h:4
@@ -6215,8 +6215,8 @@ msgid ""
 "Use the arrow keys to navigate around the board and to avoid the Troggles. "
 "Press the spacebar to eat a number."
 msgstr ""
-"Folosiţi săgeţile pentru navigarea în jurul tablei şi evitaţi-l pe Troggles. "
-"Tastaţi tasta 'spaţiu' pentru a mânca un număr."
+"Folosiți săgețile pentru navigarea în jurul tablei și evitați-l pe Troggles. "
+"Tastați tasta 'spațiu' pentru a mânca un număr."
 
 #: ../src/gnumch-equality-activity/gnumch.py:95
 #, python-format
@@ -6226,7 +6226,7 @@ msgstr ""
 #: ../src/gnumch-equality-activity/gnumch.py:96
 #, python-format
 msgid " and %d"
-msgstr "şi %d"
+msgstr "și %d"
 
 #: ../src/gnumch-equality-activity/gnumch.py:116
 #, python-brace-format
@@ -6305,12 +6305,12 @@ msgid ""
 "You were eaten by a Troggle.\n"
 "Press <Return> to continue."
 msgstr ""
-"Aţi fost mâncat de Troggle.\n"
-"Apăsaţi <Return> pentru continuare."
+"Ați fost mâncat de Troggle.\n"
+"Apăsați <Return> pentru continuare."
 
 #: ../src/gnumch-equality-activity/gnumch.py:494
 msgid "You ate a wrong number.\n"
-msgstr "Aţi mâncat un număr greşit.\n"
+msgstr "Ați mâncat un număr greșit.\n"
 
 #: ../src/gnumch-equality-activity/gnumch.py:495
 msgid ""
@@ -6318,7 +6318,7 @@ msgid ""
 "Press <Return> to continue."
 msgstr ""
 "\n"
-"Apăsaţi <Return> pentru continuare."
+"Apăsați <Return> pentru continuare."
 
 #: ../src/gnumch-equality-activity/gnumch.py:789
 msgid ""
@@ -6370,7 +6370,7 @@ msgstr ""
 #: ../src/gnumch-inequality-activity/gnumch-inequality.xml.in.h:3
 #, fuzzy
 msgid "Practice addition, subtraction, multiplication and division."
-msgstr "Exersaţi operaţia de înmulţire"
+msgstr "Exersați operația de înmulțire"
 
 #: ../src/gnumch-multiples-activity/gnumch-multiples.xml.in.h:1
 msgid "Multiple Number Munchers"
@@ -6431,13 +6431,13 @@ msgstr ""
 #, fuzzy, python-brace-format
 #| msgid "Guess a number between %d and %d"
 msgid "Guess a number between {0} and {1}"
-msgstr "Ghiciţi un număr între %d şi %d"
+msgstr "Ghiciți un număr între %d și %d"
 
 #: ../src/guessnumber-activity/guessnumber.py:307
 #, fuzzy, python-brace-format
 #| msgid "Please enter a number between %d and %d"
 msgid "Please enter a number between {0} and {1}"
-msgstr "Întroduceţi un număr între %d şi %d"
+msgstr "Întroduceți un număr între %d și %d"
 
 #: ../src/guessnumber-activity/guessnumber.py:312
 msgid "Out of range"
@@ -6453,12 +6453,12 @@ msgstr ""
 
 #: ../src/guessnumber-activity/guessnumber.xml.in.h:1
 msgid "Guess a number"
-msgstr "Giciţi un număr"
+msgstr "Giciți un număr"
 
 #: ../src/guessnumber-activity/guessnumber.xml.in.h:2
 msgid "Help Tux escape the cave. Tux hides a number for you to find."
 msgstr ""
-"Ajută-l pe Tux să scape din peşteră. Tux ascunde un număr, ca să-l găseşti."
+"Ajută-l pe Tux să scape din peșteră. Tux ascunde un număr, ca să-l găsești."
 
 #: ../src/guessnumber-activity/guessnumber.xml.in.h:3
 msgid "Numbers from 1 to 1000 for the last level."
@@ -6544,25 +6544,25 @@ msgstr "Turnul simplificat din Hanoi"
 
 #: ../src/hanoi-activity/hanoi.c:113 ../src/hanoi-activity/hanoi.xml.in.h:2
 msgid "Reproduce the given tower"
-msgstr "Reporduceţi turnul"
+msgstr "Reporduceți turnul"
 
 #: ../src/hanoi-activity/hanoi.c:349
 msgid ""
 "Build the same tower in the empty area as the one you see on the right-hand "
 "side."
 msgstr ""
-"Construieşte acelaşi turn în partea liberă, ca şi turnul din partea dreaptă."
+"Construiește același turn în partea liberă, ca și turnul din partea dreaptă."
 
 #: ../src/hanoi-activity/hanoi.xml.in.h:4
 msgid "Reproduce the tower on the right in the empty space on the left"
-msgstr "Reproduceţi turnul din dreaptă în spaţiul gol din stînga"
+msgstr "Reproduceți turnul din dreaptă în spațiul gol din stînga"
 
 #: ../src/hanoi-activity/hanoi.xml.in.h:5
 msgid ""
 "Drag and Drop one top piece at a time, from one peg to another, to reproduce "
 "the tower on the right in the empty space on the left."
 msgstr ""
-"Trageţi şi plasaţi câte un element de sus de pe un ţăruş pe altul pentru a "
+"Trageți și plasați câte un element de sus de pe un țăruș pe altul pentru a "
 "reproduce turnul din dreapta în stânga."
 
 #: ../src/hanoi-activity/hanoi.xml.in.h:6
@@ -6583,7 +6583,7 @@ msgstr "Turnul din Hanoi"
 
 #: ../src/hanoi_real-activity/hanoi_real.xml.in.h:2
 msgid "Reproduce the tower on the right side"
-msgstr "Reproduceţi turnul din dreaptă"
+msgstr "Reproduceți turnul din dreaptă"
 
 #: ../src/hanoi_real-activity/hanoi_real.xml.in.h:4
 msgid ""
@@ -6592,9 +6592,9 @@ msgid ""
 "* only one disc may be moved at a time\n"
 "* no disc may be placed atop a smaller disc"
 msgstr ""
-"Obiectivul jocului e intregii piramide de pe un ţăruş pe altul, conform "
+"Obiectivul jocului e intregii piramide de pe un țăruș pe altul, conform "
 "urătoarelor reguli:\n"
-"* numai un disk poate fi mişcat odată\n"
+"* numai un disk poate fi mișcat odată\n"
 "* pe un disk mai mic nu se poate pune altul"
 
 #: ../src/hanoi_real-activity/hanoi_real.xml.in.h:7
@@ -6602,7 +6602,7 @@ msgid ""
 "Drag and Drop the top pieces only from one peg to another, to reproduce the "
 "tower on the right in the empty space on the left."
 msgstr ""
-"Trageţi şi plasaţi piesele de sus de pe un ţăruş pe altul, pentru a "
+"Trageți și plasați piesele de sus de pe un țăruș pe altul, pentru a "
 "reproduce turnul din dreapta în cel gol din stânga."
 
 #: ../src/hanoi_real-activity/hanoi_real.xml.in.h:8
@@ -6623,15 +6623,15 @@ msgstr ""
 
 #: ../src/hexagon-activity/hexagon.xml.in.h:2
 msgid "Find the strawberry by clicking on the blue fields"
-msgstr "Găseşte căpşuna făcînd click pe cîmpurile albastre"
+msgstr "Găsește căpșuna făcînd click pe cîmpurile albastre"
 
 #: ../src/hexagon-activity/hexagon.xml.in.h:5
 msgid ""
 "Try to find the strawberry under the blue fields. The fields become redder "
 "as you get closer."
 msgstr ""
-"Încearcă să găseşti căpşuna sub cîmpurile albastre. Cîmpurile devin mai "
-"roşii cînd eşti mai aproape."
+"Încearcă să găsești căpșuna sub cîmpurile albastre. Cîmpurile devin mai "
+"roșii cînd ești mai aproape."
 
 #: ../src/hydroelectric-activity/hydroelectric.py:88
 #: ../src/watercycle-activity/watercycle.py:107
@@ -6740,8 +6740,8 @@ msgid ""
 "Tux has come back from a long fishing party on his boat. Bring the "
 "electrical system back up so he can have light in his home."
 msgstr ""
-"Tux a venit de la pescuit. Construeşte sistemul de apă pentru ai permite lui "
-"Tux să facă un duş."
+"Tux a venit de la pescuit. Construește sistemul de apă pentru ai permite lui "
+"Tux să facă un duș."
 
 #: ../src/hydroelectric-activity/hydroelectric.xml.in.h:3
 #, fuzzy
@@ -6756,9 +6756,9 @@ msgid ""
 "the system is back up and Tux is in his home, push the light button for him. "
 "To win you must switch on all the consumers while all the producers are up."
 msgstr ""
-"Faceţi un click pe elementele active: soare, nor, staţia de pompare a apei, "
-"şi staţia de curăţire a apei, pentru a reactiva sistemul de apă. Când "
-"sistemul e setat şi Tux e în duş, apasă pe butonul din duş."
+"Faceți un click pe elementele active: soare, nor, stația de pompare a apei, "
+"și stația de curățire a apei, pentru a reactiva sistemul de apă. Când "
+"sistemul e setat și Tux e în duș, apasă pe butonul din duș."
 
 #: ../src/imageid-activity/imageid.c:94
 #: ../src/imageid-activity/imageid.xml.in.h:3
@@ -6777,7 +6777,7 @@ msgstr "Citire"
 #: ../src/imageid-activity/imageid.c:95
 #: ../src/missing_letter-activity/missingletter.c:85
 msgid "Learn how to read"
-msgstr "Învăţaţi citirea"
+msgstr "Învățați citirea"
 
 #: ../src/imageid-activity/imageid.c:526
 msgid ""
@@ -6797,11 +6797,11 @@ msgstr "Exersarea citirii"
 
 #: ../src/imageid-activity/imageid.xml.in.h:2
 msgid "Practice reading by finding the word matching an image"
-msgstr "Exersaţi citirea găsind cuvântul corespunzător imaginii"
+msgstr "Exersați citirea găsind cuvântul corespunzător imaginii"
 
 #: ../src/imageid-activity/imageid.xml.in.h:4
 msgid "Click on the word corresponding to the printed image."
-msgstr "Făceţi clic pe cuvîntul ce corespunde imaginii."
+msgstr "Făceți clic pe cuvîntul ce corespunde imaginii."
 
 #: ../src/imageid-activity/resources/imageid/board1.xml.in.h:1
 msgid "satchel"
@@ -6859,7 +6859,7 @@ msgstr "înapoi"
 #: ../src/imageid-activity/resources/imageid/board2.xml.in.h:5
 #: ../src/imagename-activity/resources/imagename/board4_0.xml.in.h:5
 msgid "car"
-msgstr "maşină"
+msgstr "mașină"
 
 #: ../src/imageid-activity/resources/imageid/board2.xml.in.h:6
 msgid "cake"
@@ -6880,7 +6880,7 @@ msgstr "barcă"
 
 #: ../src/imageid-activity/resources/imageid/board2.xml.in.h:10
 msgid "fish"
-msgstr "peşte"
+msgstr "pește"
 
 #: ../src/imageid-activity/resources/imageid/board2.xml.in.h:11
 msgid "catch"
@@ -6896,7 +6896,7 @@ msgstr "câine"
 
 #: ../src/imageid-activity/resources/imageid/board2.xml.in.h:14
 msgid "finish"
-msgstr "sfârşit"
+msgstr "sfârșit"
 
 #: ../src/imageid-activity/resources/imageid/board2.xml.in.h:15
 msgid "plane"
@@ -6905,7 +6905,7 @@ msgstr "avion"
 #: ../src/imagename-activity/imagename.xml.in.h:1
 #, fuzzy
 msgid "Drag and Drop each item above its name"
-msgstr "Trageţi şi plasaţi elementele deasupra numelor"
+msgstr "Trageți și plasați elementele deasupra numelor"
 
 #: ../src/imagename-activity/imagename.xml.in.h:2
 msgid "Image Name"
@@ -6913,15 +6913,15 @@ msgstr "Numele imaginii"
 
 #: ../src/imagename-activity/imagename.xml.in.h:4
 msgid "Vocabulary and reading"
-msgstr "Vocabular şi citire"
+msgstr "Vocabular și citire"
 
 #: ../src/imagename-activity/imagename.xml.in.h:5
 msgid ""
 "Drag each image from the (vertical) box on the left to its (corresponding) "
 "name on the right. Click the OK button to check your answer."
 msgstr ""
-"Trageţi fiecare imagine de pe cutia verticală din stânga pe numele "
-"corespunzător din dreapta. Tastaţi OK pentru control."
+"Trageți fiecare imagine de pe cutia verticală din stânga pe numele "
+"corespunzător din dreapta. Tastați OK pentru control."
 
 #: ../src/imagename-activity/resources/imagename/board1_0.xml.in.h:1
 #: ../src/imagename-activity/resources/imagename/board2_0.xml.in.h:1
@@ -6932,12 +6932,12 @@ msgstr ""
 #: ../src/imagename-activity/resources/imagename/board7_0.xml.in.h:1
 #, fuzzy
 msgid "Drag and Drop each item onto its name"
-msgstr "Trageţi şi plasaţi elementele deasupra numelor"
+msgstr "Trageți și plasați elementele deasupra numelor"
 
 #: ../src/imagename-activity/resources/imagename/board1_0.xml.in.h:2
 #: ../src/imagename-activity/resources/imagename/board7_0.xml.in.h:3
 msgid "mail box"
-msgstr "cutie poştală"
+msgstr "cutie poștală"
 
 #: ../src/imagename-activity/resources/imagename/board1_0.xml.in.h:3
 #: ../src/imagename-activity/resources/imagename/board3_0.xml.in.h:7
@@ -6974,7 +6974,7 @@ msgstr "ou"
 
 #: ../src/imagename-activity/resources/imagename/board2_0.xml.in.h:5
 msgid "eggcup"
-msgstr "ceaşcă pentru ou"
+msgstr "ceașcă pentru ou"
 
 #: ../src/imagename-activity/resources/imagename/board2_0.xml.in.h:6
 #: ../src/imagename-activity/resources/imagename/board7_0.xml.in.h:7
@@ -7030,7 +7030,7 @@ msgstr "camion"
 
 #: ../src/imagename-activity/resources/imagename/board5_0.xml.in.h:7
 msgid "van"
-msgstr "dubiţă"
+msgstr "dubiță"
 
 #: ../src/imagename-activity/resources/imagename/board6_0.xml.in.h:2
 msgid "castle"
@@ -7055,23 +7055,23 @@ msgstr ""
 #: ../src/instruments-activity/instruments.xml.in.h:2
 #, fuzzy
 msgid "Click on the correct musical instruments"
-msgstr "Făceţi clic pe culoarea corectă"
+msgstr "Făceți clic pe culoarea corectă"
 
 #: ../src/instruments-activity/instruments.xml.in.h:3
 #, fuzzy
 msgid "Learn to recognize musical instruments."
-msgstr "Învăţaţi să recunoaşteţi litere"
+msgstr "Învățați să recunoașteți litere"
 
 #: ../src/instruments-activity/instruments.xml.in.h:4
 #, fuzzy
 msgid "Click on the correct instrument."
-msgstr "Făceţi clic pe culoarea corectă"
+msgstr "Făceți clic pe culoarea corectă"
 
 #: ../src/instruments-activity/resources/instruments/activity.desktop.in.h:1
 #, fuzzy
 #| msgid "Find the matching pair"
 msgid "Find the clarinet"
-msgstr "Găsiţi perechea potrivită"
+msgstr "Găsiți perechea potrivită"
 
 #: ../src/instruments-activity/resources/instruments/activity.desktop.in.h:2
 msgid "Find the transverse flute"
@@ -7081,25 +7081,25 @@ msgstr ""
 #, fuzzy
 #| msgid "Find the matching pair"
 msgid "Find the guitar"
-msgstr "Găsiţi perechea potrivită"
+msgstr "Găsiți perechea potrivită"
 
 #: ../src/instruments-activity/resources/instruments/activity.desktop.in.h:4
 #, fuzzy
 #| msgid "Find the matching pair"
 msgid "Find the harp"
-msgstr "Găsiţi perechea potrivită"
+msgstr "Găsiți perechea potrivită"
 
 #: ../src/instruments-activity/resources/instruments/activity.desktop.in.h:5
 #, fuzzy
 #| msgid "Find the matching pair"
 msgid "Find the piano"
-msgstr "Găsiţi perechea potrivită"
+msgstr "Găsiți perechea potrivită"
 
 #: ../src/instruments-activity/resources/instruments/activity.desktop.in.h:6
 #, fuzzy
 #| msgid "Find the matching pair"
 msgid "Find the saxophone"
-msgstr "Găsiţi perechea potrivită"
+msgstr "Găsiți perechea potrivită"
 
 #: ../src/instruments-activity/resources/instruments/activity.desktop.in.h:7
 msgid "Find the trombone"
@@ -7112,49 +7112,49 @@ msgstr ""
 #: ../src/instruments-activity/resources/instruments/activity.desktop.in.h:9
 #, fuzzy
 msgid "Find the violin"
-msgstr "Tipăreşte versiunea "
+msgstr "Tipărește versiunea "
 
 #: ../src/instruments-activity/resources/instruments/activity.desktop.in.h:10
 #, fuzzy
 #| msgid "Find the matching pair"
 msgid "Find the drum kit"
-msgstr "Găsiţi perechea potrivită"
+msgstr "Găsiți perechea potrivită"
 
 #: ../src/instruments-activity/resources/instruments/activity.desktop.in.h:11
 #, fuzzy
 #| msgid "Find the matching pair"
 msgid "Find the accordion"
-msgstr "Găsiţi perechea potrivită"
+msgstr "Găsiți perechea potrivită"
 
 #: ../src/instruments-activity/resources/instruments/activity.desktop.in.h:12
 #, fuzzy
 #| msgid "Find the matching pair"
 msgid "Find the banjo"
-msgstr "Găsiţi perechea potrivită"
+msgstr "Găsiți perechea potrivită"
 
 #: ../src/instruments-activity/resources/instruments/activity.desktop.in.h:13
 #, fuzzy
 #| msgid "Find the matching pair"
 msgid "Find the bongo"
-msgstr "Găsiţi perechea potrivită"
+msgstr "Găsiți perechea potrivită"
 
 #: ../src/instruments-activity/resources/instruments/activity.desktop.in.h:14
 #, fuzzy
 #| msgid "Find the matching pair"
 msgid "Find the electric guitar"
-msgstr "Găsiţi perechea potrivită"
+msgstr "Găsiți perechea potrivită"
 
 #: ../src/instruments-activity/resources/instruments/activity.desktop.in.h:15
 #, fuzzy
 #| msgid "Find the matching pair"
 msgid "Find the castanets"
-msgstr "Găsiţi perechea potrivită"
+msgstr "Găsiți perechea potrivită"
 
 #: ../src/instruments-activity/resources/instruments/activity.desktop.in.h:16
 #, fuzzy
 #| msgid "Find the next symbol in a list."
 msgid "Find the cymbal"
-msgstr "Găsiţi simboul următor în listă."
+msgstr "Găsiți simboul următor în listă."
 
 #: ../src/instruments-activity/resources/instruments/activity.desktop.in.h:17
 msgid "Find the cello"
@@ -7164,55 +7164,55 @@ msgstr ""
 #, fuzzy
 #| msgid "Find the matching pair"
 msgid "Find the harmonica"
-msgstr "Găsiţi perechea potrivită"
+msgstr "Găsiți perechea potrivită"
 
 #: ../src/instruments-activity/resources/instruments/activity.desktop.in.h:19
 #, fuzzy
 #| msgid "Find the matching pair"
 msgid "Find the horn"
-msgstr "Găsiţi perechea potrivită"
+msgstr "Găsiți perechea potrivită"
 
 #: ../src/instruments-activity/resources/instruments/activity.desktop.in.h:20
 #, fuzzy
 #| msgid "Find the matching pair"
 msgid "Find the maracas"
-msgstr "Găsiţi perechea potrivită"
+msgstr "Găsiți perechea potrivită"
 
 #: ../src/instruments-activity/resources/instruments/activity.desktop.in.h:21
 #, fuzzy
 #| msgid "Find the matching pair"
 msgid "Find the organ"
-msgstr "Găsiţi perechea potrivită"
+msgstr "Găsiți perechea potrivită"
 
 #: ../src/instruments-activity/resources/instruments/activity.desktop.in.h:22
 #, fuzzy
 #| msgid "Build the same model"
 msgid "Find the snare drum"
-msgstr "Construieşte acelaşi model."
+msgstr "Construiește același model."
 
 #: ../src/instruments-activity/resources/instruments/activity.desktop.in.h:23
 #, fuzzy
 #| msgid "Find the matching pair"
 msgid "Find the timpani"
-msgstr "Găsiţi perechea potrivită"
+msgstr "Găsiți perechea potrivită"
 
 #: ../src/instruments-activity/resources/instruments/activity.desktop.in.h:24
 #, fuzzy
 #| msgid "Find the matching pair"
 msgid "Find the triangle"
-msgstr "Găsiţi perechea potrivită"
+msgstr "Găsiți perechea potrivită"
 
 #: ../src/instruments-activity/resources/instruments/activity.desktop.in.h:25
 #, fuzzy
 #| msgid "Find the next symbol in a list."
 msgid "Find the tambourine"
-msgstr "Găsiţi simboul următor în listă."
+msgstr "Găsiți simboul următor în listă."
 
 #: ../src/instruments-activity/resources/instruments/activity.desktop.in.h:26
 #, fuzzy
 #| msgid "Find the matching pair"
 msgid "Find the tuba"
-msgstr "Găsiţi perechea potrivită"
+msgstr "Găsiți perechea potrivită"
 
 #: ../src/intro_gravity-activity/intro_gravity.py:100
 msgid ""
@@ -7405,13 +7405,13 @@ msgstr ""
 #, fuzzy
 #| msgid "Select sound locale"
 msgid "Select locale"
-msgstr "Selectaţi localizarea sonoră"
+msgstr "Selectați localizarea sonoră"
 
 #: ../src/lang-activity/lang.xml.in.h:1
 #, fuzzy
 #| msgid "Go to the Reading activities"
 msgid "Go to the language learning activities"
-msgstr "Mergeţi la activităţile de citire"
+msgstr "Mergeți la activitățile de citire"
 
 #: ../src/lang-activity/resources/lang/words.xml.in.h:1
 msgid "other"
@@ -7421,7 +7421,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Aviation"
 msgid "action"
-msgstr "Aviaţie"
+msgstr "Aviație"
 
 #: ../src/lang-activity/resources/lang/words.xml.in.h:3
 #, fuzzy
@@ -7491,7 +7491,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Learn subtraction"
 msgid "construction"
-msgstr "Învaţa scăderea"
+msgstr "Învața scăderea"
 
 #: ../src/lang-activity/resources/lang/words.xml.in.h:19
 msgid "furniture"
@@ -7521,7 +7521,7 @@ msgstr ""
 
 #: ../src/leftright-activity/leftright.xml.in.h:1
 msgid "Find your left and right hands"
-msgstr "Găsiţi mâna stângă sau dreaptă"
+msgstr "Găsiți mâna stângă sau dreaptă"
 
 #: ../src/leftright-activity/leftright.xml.in.h:2
 msgid "Determine if a hand is a right or a left hand"
@@ -7533,8 +7533,8 @@ msgid ""
 "Distinguish right and left hands from different points of view. Spatial "
 "representation"
 msgstr ""
-"Faceţi diferenţa între diverse puncte de vedere ale mâinilor. Reprezentare "
-"spaţială"
+"Faceți diferența între diverse puncte de vedere ale mâinilor. Reprezentare "
+"spațială"
 
 #: ../src/leftright-activity/leftright.xml.in.h:4
 #, fuzzy
@@ -7542,9 +7542,9 @@ msgid ""
 "You can see a hand: is it a left hand or a right hand? Click on the left "
 "button, or the right button depending on the displayed hand."
 msgstr ""
-"O mână este afişată. Trebuie să spuneţi dacă este mâna dreaptă sau stângă. "
-"Făceţi clic pe butonul roşu - la stânga - sau pe cel verde - la dreapta, "
-"apoi faceţi clic pe mâna de jos pentru a confirma alegerea voastră."
+"O mână este afișată. Trebuie să spuneți dacă este mâna dreaptă sau stângă. "
+"Făceți clic pe butonul roșu - la stânga - sau pe cel verde - la dreapta, "
+"apoi faceți clic pe mâna de jos pentru a confirma alegerea voastră."
 
 #: ../src/lightsoff-activity/lightsoff.py:442
 msgid ""
@@ -7598,7 +7598,7 @@ msgstr "Meniul principal"
 
 #: ../src/login-activity/login.xml.in.h:2
 msgid "Select or enter your name to log in to GCompris"
-msgstr "Selectaţi sau întroduce-ţi numele tău pentru a intra in Gompris"
+msgstr "Selectați sau întroduce-ți numele tău pentru a intra in Gompris"
 
 #: ../src/login-activity/login.xml.in.h:3
 msgid ""
@@ -7628,7 +7628,7 @@ msgstr ""
 #, fuzzy
 #| msgid "The story of Oscar and friend"
 msgid "The History of Louis Braille"
-msgstr "isotria lui Oscar şi prietenii lui."
+msgstr "isotria lui Oscar și prietenii lui."
 
 #: ../src/louis_braille-activity/louis_braille.xml.in.h:2
 msgid "Review the major dates of the inventor of the Braille system."
@@ -7720,7 +7720,7 @@ msgstr "Pălăria magicianului"
 #: ../src/magic_hat_minus-activity/magic_hat_minus.xml.in.h:2
 msgid "Count how many items are under the magic hat after some have got away"
 msgstr ""
-"Socoate câte elemente sunt sub pălăria magică, după dispariţia câtorva din "
+"Socoate câte elemente sunt sub pălăria magică, după dispariția câtorva din "
 "ele"
 
 #: ../src/magic_hat_minus-activity/magic_hat_minus.xml.in.h:3
@@ -7732,7 +7732,7 @@ msgstr "Scădere simplă"
 
 #: ../src/magic_hat_minus-activity/magic_hat_minus.xml.in.h:4
 msgid "Learn subtraction"
-msgstr "Învaţa scăderea"
+msgstr "Învața scăderea"
 
 #: ../src/magic_hat_minus-activity/magic_hat_minus.xml.in.h:5
 msgid ""
@@ -7755,7 +7755,7 @@ msgstr "Adunare simplă"
 
 #: ../src/magic_hat_plus-activity/magic_hat_plus.xml.in.h:4
 msgid "Learn addition"
-msgstr "Învaţa adunarea"
+msgstr "Învața adunarea"
 
 #: ../src/magic_hat_plus-activity/magic_hat_plus.xml.in.h:5
 msgid ""
@@ -7773,21 +7773,21 @@ msgstr "Labirint"
 #: ../src/maze2DRelative-activity/maze2DRelative.xml.in.h:2
 #, fuzzy
 msgid "Find your way out of the maze (Move is relative)"
-msgstr "Găsiţi ieşirea din labirint"
+msgstr "Găsiți ieșirea din labirint"
 
 #: ../src/maze2DRelative-activity/maze2DRelative.xml.in.h:3
 #: ../src/maze3D-activity/maze3D.xml.in.h:3
 #: ../src/maze-activity/maze.xml.in.h:3
 #: ../src/mazeInvisible-activity/mazeInvisible.xml.in.h:3
 msgid "Can use the keyboard arrow to move an object."
-msgstr "Poate folosi săgeţile de pe tastatură pentru muta un obiect."
+msgstr "Poate folosi săgețile de pe tastatură pentru muta un obiect."
 
 #: ../src/maze2DRelative-activity/maze2DRelative.xml.in.h:4
 #: ../src/maze3D-activity/maze3D.xml.in.h:4
 #: ../src/maze-activity/maze.xml.in.h:4
 #: ../src/mazeInvisible-activity/mazeInvisible.xml.in.h:4
 msgid "Help Tux get out of this maze."
-msgstr "Ajutaţi-l pe Tux să iasă afară din labirint."
+msgstr "Ajutați-l pe Tux să iasă afară din labirint."
 
 #: ../src/maze2DRelative-activity/maze2DRelative.xml.in.h:5
 msgid ""
@@ -7819,7 +7819,7 @@ msgstr "Labirint 3D"
 
 #: ../src/maze3D-activity/maze3D.xml.in.h:2
 msgid "Find your way out of the 3D maze"
-msgstr "Găsiţi ieşirea din labirint"
+msgstr "Găsiți ieșirea din labirint"
 
 #: ../src/maze3D-activity/maze3D.xml.in.h:5
 msgid ""
@@ -7827,14 +7827,14 @@ msgid ""
 "switch between 2D and 3D modes. 2D mode just gives you an indication of your "
 "position, like a map. You cannot move Tux in 2D mode."
 msgstr ""
-"Folosiţi săgeţile de pe tastatură pentru a-l duce pe Tux la uşă. Folosiţi "
-"tasta 'spaţiu' pentru a schimba între modul bidimensional şi tridimensional. "
-"Modul bidimensional vă indică poziţia la moment, ca o hartă. Nu-l puteţi "
-"mişca pe Tux în acest mod."
+"Folosiți săgețile de pe tastatură pentru a-l duce pe Tux la ușă. Folosiți "
+"tasta 'spațiu' pentru a schimba între modul bidimensional și tridimensional. "
+"Modul bidimensional vă indică poziția la moment, ca o hartă. Nu-l puteți "
+"mișca pe Tux în acest mod."
 
 #: ../src/maze-activity/maze.c:142 ../src/maze-activity/maze.xml.in.h:2
 msgid "Find your way out of the maze"
-msgstr "Găsiţi ieşirea din labirint"
+msgstr "Găsiți ieșirea din labirint"
 
 #: ../src/maze-activity/maze.c:637
 msgid ""
@@ -7873,7 +7873,7 @@ msgstr ""
 #: ../src/mazeInvisible-activity/mazeInvisible.xml.in.h:2
 #, fuzzy
 msgid "Find your way out of the invisible maze"
-msgstr "Găsiţi ieşirea din labirint"
+msgstr "Găsiți ieșirea din labirint"
 
 #: ../src/mazeInvisible-activity/mazeInvisible.xml.in.h:5
 msgid ""
@@ -7918,15 +7918,15 @@ msgstr "Repetă melodia"
 
 #: ../src/melody-activity/melody.xml.in.h:4
 msgid "Ear-training activity"
-msgstr "Activităţi de auz"
+msgstr "Activități de auz"
 
 #: ../src/melody-activity/melody.xml.in.h:5
 msgid ""
 "Listen to the sound sequence played, and repeat it by clicking on the "
 "elements. You can listen again by clicking on the repeat button."
 msgstr ""
-"Ascultaţi secvenţele sonore şi repetaţi-le făcând un click pe elemente. "
-"Puteţi asculta iarăşi fă©ând un click pe butonul repetă."
+"Ascultați secvențele sonore și repetați-le făcând un click pe elemente. "
+"Puteți asculta iarăși fă©ând un click pe butonul repetă."
 
 #: ../src/memory-activity/memory.c:272
 msgid "zero"
@@ -7978,7 +7978,7 @@ msgstr "Memorie"
 
 #: ../src/memory-activity/memory.c:294
 msgid "Find the matching pair"
-msgstr "Găsiţi perechea potrivită"
+msgstr "Găsiți perechea potrivită"
 
 #. TRANSLATORS: Put here the numbers in your language
 #: ../src/memory-activity/memory.c:949
@@ -7992,12 +7992,12 @@ msgstr "Jocul memoriei cu imagini"
 #: ../src/memory-activity/memory.xml.in.h:2
 #, fuzzy
 msgid "Flip the cards to find the matching pairs"
-msgstr "Descoperiţi cărţile şi găsiţi o pereche potrivită"
+msgstr "Descoperiți cărțile și găsiți o pereche potrivită"
 
 #: ../src/memory-activity/memory.xml.in.h:4
 #: ../src/memory_tux-activity/memory_tux.xml.in.h:4
 msgid "Train your memory and remove all the cards"
-msgstr "Exersaţi-vă memoria şi eliminaţi toate cărţile"
+msgstr "Exersați-vă memoria și eliminați toate cărțile"
 
 #: ../src/memory-activity/memory.xml.in.h:5
 msgid ""
@@ -8007,11 +8007,11 @@ msgid ""
 "cards at once, so you need to remember where a picture is, while you look "
 "for its twin. When you turn over the twins, they both disappear."
 msgstr ""
-"Vă sunt arătate un set de carţi. Fiecare carte are o imagine pe o parte şi "
-"fiecare imagine are o pereche. Faceţi un click pe carte pentru a vedea "
-"imaginea ascunsă. În acest mod poţi găsi perechea. În acelaşi moment poţi "
-"întoarce numai două cărţi, deci trebuie să ţii minte, unde este imaginea-"
-"pereche. Când găseşti perechea, carţile cu aceleaşi imagini dispar."
+"Vă sunt arătate un set de carți. Fiecare carte are o imagine pe o parte și "
+"fiecare imagine are o pereche. Faceți un click pe carte pentru a vedea "
+"imaginea ascunsă. În acest mod poți găsi perechea. În același moment poți "
+"întoarce numai două cărți, deci trebuie să ții minte, unde este imaginea-"
+"pereche. Când găsești perechea, carțile cu aceleași imagini dispar."
 
 #: ../src/memory_add-activity/memory_add.xml.in.h:1
 #, fuzzy
@@ -8024,13 +8024,13 @@ msgid ""
 "Turn the cards over to find two numbers which add up the same, until all the "
 "cards are gone."
 msgstr ""
-"Întoarceţi cărţile pentru a găsi două numere indentice, până când toate "
-"cărţile dispar."
+"Întoarceți cărțile pentru a găsi două numere indentice, până când toate "
+"cărțile dispar."
 
 #: ../src/memory_add-activity/memory_add.xml.in.h:4
 #: ../src/memory_add_tux-activity/memory_add_tux.xml.in.h:4
 msgid "Practise adding up, until all the cards are gone."
-msgstr "Practicaţi adunarea, până când toate cărţile dispar."
+msgstr "Practicați adunarea, până când toate cărțile dispar."
 
 #: ../src/memory_add-activity/memory_add.xml.in.h:5
 #: ../src/memory_add_tux-activity/memory_add_tux.xml.in.h:5
@@ -8061,7 +8061,7 @@ msgstr ""
 
 #: ../src/memory_add_minus-activity/memory_add_minus.xml.in.h:1
 msgid "Addition and subtraction memory game"
-msgstr "Jocuri de adunare şi scădere"
+msgstr "Jocuri de adunare și scădere"
 
 #: ../src/memory_add_minus-activity/memory_add_minus.xml.in.h:2
 #: ../src/memory_add_minus_tux-activity/memory_add_minus_tux.xml.in.h:2
@@ -8069,20 +8069,20 @@ msgid ""
 "Turn the cards over to find two numbers which add or subtract the same, "
 "until all the cards are gone."
 msgstr ""
-"Întoarceţi cărţile pentru a găsi două numere care se adună sau scad la fel, "
-"până când toate cărţile dispar."
+"Întoarceți cărțile pentru a găsi două numere care se adună sau scad la fel, "
+"până când toate cărțile dispar."
 
 #: ../src/memory_add_minus-activity/memory_add_minus.xml.in.h:3
 #: ../src/memory_add_minus_tux-activity/memory_add_minus_tux.xml.in.h:3
 #, fuzzy
 #| msgid "Addition and subtraction memory game"
 msgid "Addition and subtraction"
-msgstr "Jocuri de adunare şi scădere"
+msgstr "Jocuri de adunare și scădere"
 
 #: ../src/memory_add_minus-activity/memory_add_minus.xml.in.h:4
 #: ../src/memory_add_minus_tux-activity/memory_add_minus_tux.xml.in.h:4
 msgid "Practise addition, subtraction, until all the cards are gone."
-msgstr "Practicaţi adunarea şi scăderea până când toate fişele vor dispărea."
+msgstr "Practicați adunarea și scăderea până când toate fișele vor dispărea."
 
 #: ../src/memory_add_minus-activity/memory_add_minus.xml.in.h:5
 #: ../src/memory_add_minus_mult_div-activity/memory_add_minus_mult_div.xml.in.h:5
@@ -8111,7 +8111,7 @@ msgstr ""
 
 #: ../src/memory_add_minus_mult_div-activity/memory_add_minus_mult_div.xml.in.h:1
 msgid "All operations memory game"
-msgstr "Toate activităţile pentru antrenarea memoriei."
+msgstr "Toate activitățile pentru antrenarea memoriei."
 
 #: ../src/memory_add_minus_mult_div-activity/memory_add_minus_mult_div.xml.in.h:2
 #: ../src/memory_add_minus_mult_div_tux-activity/memory_add_minus_mult_div_tux.xml.in.h:2
@@ -8124,13 +8124,13 @@ msgid ""
 "Turn the cards over to find a matching operation, until all the cards are "
 "gone."
 msgstr ""
-"Întoarceţi cărţile pentru a găsi operaţii indentice, până când toate cărţile "
+"Întoarceți cărțile pentru a găsi operații indentice, până când toate cărțile "
 "dispar."
 
 #: ../src/memory_add_minus_mult_div-activity/memory_add_minus_mult_div.xml.in.h:3
 #: ../src/memory_add_minus_mult_div_tux-activity/memory_add_minus_mult_div_tux.xml.in.h:3
 msgid "Addition, subtraction, multiplication, division"
-msgstr "Adunarea, scăderea, înmulţirea şi scăderea"
+msgstr "Adunarea, scăderea, înmulțirea și scăderea"
 
 #: ../src/memory_add_minus_mult_div-activity/memory_add_minus_mult_div.xml.in.h:4
 #: ../src/memory_add_minus_mult_div_tux-activity/memory_add_minus_mult_div_tux.xml.in.h:4
@@ -8138,16 +8138,16 @@ msgid ""
 "Practise addition, subtraction, multiplication, division, until all the "
 "cards are gone."
 msgstr ""
-"Practicaţi adunarea, scăderea, înmulţirea, împărţirea, până când toate "
-"fişele vor dispărea."
+"Practicați adunarea, scăderea, înmulțirea, împărțirea, până când toate "
+"fișele vor dispărea."
 
 #: ../src/memory_add_minus_mult_div_tux-activity/memory_add_minus_mult_div_tux.xml.in.h:1
 msgid "All operations memory game against Tux"
-msgstr "Toate activităţile pentru antrenarea memoriei contra Tux."
+msgstr "Toate activitățile pentru antrenarea memoriei contra Tux."
 
 #: ../src/memory_add_minus_tux-activity/memory_add_minus_tux.xml.in.h:1
 msgid "Addition and subtraction memory game against Tux"
-msgstr "Un joc cu adunarea şi scăderea contra Tux"
+msgstr "Un joc cu adunarea și scăderea contra Tux"
 
 #: ../src/memory_add_tux-activity/memory_add_tux.xml.in.h:1
 msgid "Addition memory game against Tux"
@@ -8160,27 +8160,27 @@ msgstr "Adunarea"
 
 #: ../src/memory_div-activity/memory_div.xml.in.h:1
 msgid "Division memory game"
-msgstr "Joc de memorie cu împărţirea"
+msgstr "Joc de memorie cu împărțirea"
 
 #: ../src/memory_div-activity/memory_div.xml.in.h:3
 #: ../src/memory_div_tux-activity/memory_div_tux.xml.in.h:3
 msgid "Division"
-msgstr "Împărţirea"
+msgstr "Împărțirea"
 
 #: ../src/memory_div-activity/memory_div.xml.in.h:4
 #: ../src/memory_div_tux-activity/memory_div_tux.xml.in.h:4
 msgid "Practise division, until all the cards are gone."
-msgstr "Practicaţi împărţirea până când toate fişele vor dispărea."
+msgstr "Practicați împărțirea până când toate fișele vor dispărea."
 
 #: ../src/memory_div_tux-activity/memory_div_tux.xml.in.h:1
 msgid "Division memory game against Tux"
-msgstr "Un joc de memorie cu împărţirea contra Tux"
+msgstr "Un joc de memorie cu împărțirea contra Tux"
 
 #: ../src/memory_enumerate-activity/memory_enumerate.xml.in.h:1
 #, fuzzy
 #| msgid "Subtraction memory game"
 msgid "Enumeration memory game"
-msgstr "Un joc ce foloseşte împărţirea"
+msgstr "Un joc ce folosește împărțirea"
 
 #: ../src/memory_enumerate-activity/memory_enumerate.xml.in.h:2
 #, fuzzy
@@ -8189,8 +8189,8 @@ msgstr "Un joc ce foloseşte împărţirea"
 #| "the cards are gone."
 msgid "Turn the cards over to match the number with the drawn picture."
 msgstr ""
-"Întoarceţi cărţile pentru a găsi două numere indentice, până când toate "
-"cărţile dispar."
+"Întoarceți cărțile pentru a găsi două numere indentice, până când toate "
+"cărțile dispar."
 
 #: ../src/memory_enumerate-activity/memory_enumerate.xml.in.h:4
 #, fuzzy
@@ -8206,7 +8206,7 @@ msgstr ""
 
 #: ../src/memory_minus-activity/memory_minus.xml.in.h:1
 msgid "Subtraction memory game"
-msgstr "Un joc ce foloseşte împărţirea"
+msgstr "Un joc ce folosește împărțirea"
 
 #: ../src/memory_minus-activity/memory_minus.xml.in.h:2
 #: ../src/memory_minus_tux-activity/memory_minus_tux.xml.in.h:2
@@ -8214,14 +8214,14 @@ msgid ""
 "Turn the cards over to find two numbers which subtract the same, until all "
 "the cards are gone."
 msgstr ""
-"Întoarceţi cărţile pentru a găsi două numere care se împart identic, până "
-"când toate cărţile dispar."
+"Întoarceți cărțile pentru a găsi două numere care se împart identic, până "
+"când toate cărțile dispar."
 
 #: ../src/memory_minus-activity/memory_minus.xml.in.h:4
 #: ../src/memory_minus_tux-activity/memory_minus_tux.xml.in.h:4
 #, fuzzy
 msgid "Practise subtraction, until all the cards are gone."
-msgstr "Exersaţi scăderea cu un joc amuzant"
+msgstr "Exersați scăderea cu un joc amuzant"
 
 #: ../src/memory_minus-activity/memory_minus.xml.in.h:5
 #: ../src/memory_minus_tux-activity/memory_minus_tux.xml.in.h:5
@@ -8252,57 +8252,57 @@ msgstr ""
 
 #: ../src/memory_minus_tux-activity/memory_minus_tux.xml.in.h:1
 msgid "Subtraction memory game against Tux"
-msgstr "Un joc ce foloseşte scăderea contra Tux"
+msgstr "Un joc ce folosește scăderea contra Tux"
 
 #: ../src/memory_mult-activity/memory_mult.xml.in.h:1
 #, fuzzy
 msgid "Multiplication memory game"
-msgstr "Tabla înmulţirii"
+msgstr "Tabla înmulțirii"
 
 #: ../src/memory_mult-activity/memory_mult.xml.in.h:2
 msgid ""
 "Turn the cards over to find two numbers which multiply the same, until all "
 "the cards are gone."
 msgstr ""
-"Întoarceţi cărţile pentru a găsi două numere care se înmulţesc identic, până "
-"când toate cărţile dispar."
+"Întoarceți cărțile pentru a găsi două numere care se înmulțesc identic, până "
+"când toate cărțile dispar."
 
 #: ../src/memory_mult-activity/memory_mult.xml.in.h:3
 #, fuzzy
 msgid "Multiplication"
-msgstr "Tabla înmulţirii"
+msgstr "Tabla înmulțirii"
 
 #: ../src/memory_mult-activity/memory_mult.xml.in.h:4
 #, fuzzy
 msgid "Practise multiplication, until all the cards are gone."
-msgstr "Exersaţi operaţia de înmulţire"
+msgstr "Exersați operația de înmulțire"
 
 #: ../src/memory_mult_div-activity/memory_mult_div.xml.in.h:1
 msgid "Multiplication and division memory game"
-msgstr "Un joc ce foloseşte înmulţirea şi împărţirea"
+msgstr "Un joc ce folosește înmulțirea și împărțirea"
 
 #: ../src/memory_mult_div-activity/memory_mult_div.xml.in.h:3
 #: ../src/memory_mult_div_tux-activity/memory_mult_div_tux.xml.in.h:3
 msgid "Multiplication, division"
-msgstr "Înmulţirea, împărţirea"
+msgstr "Înmulțirea, împărțirea"
 
 #: ../src/memory_mult_div-activity/memory_mult_div.xml.in.h:4
 #: ../src/memory_mult_div_tux-activity/memory_mult_div_tux.xml.in.h:4
 msgid "Practise multiplication, division, until all the cards are gone."
-msgstr "Exersaţi înmulţirea, împărţirea până când toate fişele vor dispărea."
+msgstr "Exersați înmulțirea, împărțirea până când toate fișele vor dispărea."
 
 #: ../src/memory_mult_div_tux-activity/memory_mult_div_tux.xml.in.h:1
 msgid "Multiplication and division memory game against Tux"
-msgstr "Un joc ce foloseşte înmulţirea şi împărţirea contra Tux"
+msgstr "Un joc ce folosește înmulțirea și împărțirea contra Tux"
 
 #: ../src/memory_mult_tux-activity/memory_mult_tux.xml.in.h:1
 msgid "Multiplication memory game against Tux"
-msgstr "Un joc ce foloseşte înmulţirea contra Tux"
+msgstr "Un joc ce folosește înmulțirea contra Tux"
 
 #: ../src/memory_mult_tux-activity/memory_mult_tux.xml.in.h:4
 #, fuzzy
 msgid "Practise multiplication until all the cards are gone."
-msgstr "Exersaţi operaţia de înmulţire"
+msgstr "Exersați operația de înmulțire"
 
 #: ../src/memory_sound-activity/memory_sound.xml.in.h:1
 msgid "Audio memory game"
@@ -8311,7 +8311,7 @@ msgstr "Joc audio de memorie"
 #: ../src/memory_sound-activity/memory_sound.xml.in.h:2
 msgid "Click on Tux the violinist and listen to find the matching sounds"
 msgstr ""
-"Faceţi un click pe Tux violonistul şi ascultaţi pentru a găsi sunete "
+"Faceți un click pe Tux violonistul și ascultați pentru a găsi sunete "
 "identice."
 
 #: ../src/memory_sound-activity/memory_sound.xml.in.h:3
@@ -8319,13 +8319,13 @@ msgstr ""
 #: ../src/memory_tux-activity/memory_tux.xml.in.h:3
 #, fuzzy
 msgid "Mouse manipulation, Brain."
-msgstr "Folosirea şoricelului"
+msgstr "Folosirea șoricelului"
 
 #: ../src/memory_sound-activity/memory_sound.xml.in.h:4
 #: ../src/memory_sound_tux-activity/memory_sound_tux.xml.in.h:4
 #, fuzzy
 msgid "Train your audio memory and remove all the violinists Tux."
-msgstr "Exersaţi-vă memoria şi eliminaţi toate cărţile"
+msgstr "Exersați-vă memoria și eliminați toate cărțile"
 
 #: ../src/memory_sound-activity/memory_sound.xml.in.h:5
 #: ../src/memory_sound_tux-activity/memory_sound_tux.xml.in.h:5
@@ -8345,7 +8345,7 @@ msgstr "Un joc de memorie cu trenuri"
 #: ../src/memory_sound_tux-activity/memory_sound_tux.xml.in.h:2
 #, fuzzy
 msgid "Play the audio memory game against Tux"
-msgstr "Jucaţi sfârşitul unui joc de şah împotriva calculatorului"
+msgstr "Jucați sfârșitul unui joc de șah împotriva calculatorului"
 
 #: ../src/memory_tux-activity/memory_tux.xml.in.h:1
 #, fuzzy
@@ -8354,7 +8354,7 @@ msgstr "Jocul memoriei cu imagini"
 
 #: ../src/memory_tux-activity/memory_tux.xml.in.h:2
 msgid "Have a memory competition with Tux."
-msgstr "Exersaţi-vă memoria jucându-vă cu Tux."
+msgstr "Exersați-vă memoria jucându-vă cu Tux."
 
 #: ../src/memory_tux-activity/memory_tux.xml.in.h:5
 msgid ""
@@ -8365,11 +8365,11 @@ msgid ""
 "You take turns with Tux, and to win the game, you have to find more pairs of "
 "twins than he does."
 msgstr ""
-"Aveţi un set de cărţi, care toate arată identic. Fiecare carte are o imagine "
-"pe partea cealaltă şi fiecare imagine are o pereche undeva în set. Puteţi "
-"întoarce numai două cărţi odată, deci va trebui să memoraţi unde sunt "
-"imaginile, până nu găsiţi perechea. Când întoarceţi perechea, cărţile "
-"dispar! Dacă vreţi să câştigaţi jocul, va trebui să găsiţi mai multe perechi "
+"Aveți un set de cărți, care toate arată identic. Fiecare carte are o imagine "
+"pe partea cealaltă și fiecare imagine are o pereche undeva în set. Puteți "
+"întoarce numai două cărți odată, deci va trebui să memorați unde sunt "
+"imaginile, până nu găsiți perechea. Când întoarceți perechea, cărțile "
+"dispar! Dacă vreți să câștigați jocul, va trebui să găsiți mai multe perechi "
 "decât Tux."
 
 #: ../src/memory_wordnumber-activity/memory_wordnumber.xml.in.h:1
@@ -8384,8 +8384,8 @@ msgstr "Joc de memorie"
 #| "the cards are gone."
 msgid "Turn the cards over to match the number with the word matching it."
 msgstr ""
-"Întoarceţi cărţile pentru a găsi două numere indentice, până când toate "
-"cărţile dispar."
+"Întoarceți cărțile pentru a găsi două numere indentice, până când toate "
+"cărțile dispar."
 
 #: ../src/memory_wordnumber-activity/memory_wordnumber.xml.in.h:4
 msgid "Reading numbers, memory."
@@ -8530,7 +8530,7 @@ msgstr "Litera lipsă"
 #: ../src/missing_letter-activity/missing_letter.xml.in.h:2
 #, fuzzy
 msgid "Fill in the missing letter"
-msgstr "Descoperiţi litera lipsă"
+msgstr "Descoperiți litera lipsă"
 
 #: ../src/missing_letter-activity/missing_letter.xml.in.h:3
 msgid "Word reading"
@@ -8539,7 +8539,7 @@ msgstr "Citirea cuvintelor"
 #: ../src/missing_letter-activity/missing_letter.xml.in.h:4
 #, fuzzy
 msgid "Training reading skills"
-msgstr "Exersaţi citirea"
+msgstr "Exersați citirea"
 
 #: ../src/missing_letter-activity/missing_letter.xml.in.h:5
 #, fuzzy
@@ -8547,8 +8547,8 @@ msgid ""
 "An object is displayed in the main area, and an incomplete word is printed "
 "under the picture. Select the missing letter to complete the word."
 msgstr ""
-"Un obiect este afişat în zona principală. Un cuvânt incomplet este afişat "
-"sub desen. Selectaţi litera lipsă pentru a completa cuvântul. Făceţi clic pe "
+"Un obiect este afișat în zona principală. Un cuvânt incomplet este afișat "
+"sub desen. Selectați litera lipsă pentru a completa cuvântul. Făceți clic pe "
 "mâna de jos pentru a vă confirma răspunsul."
 
 #: ../src/missing_letter-activity/resources/missing_letter/board1.xml.in.h:1
@@ -8561,11 +8561,11 @@ msgstr "câine/_âine/c/d/p"
 
 #: ../src/missing_letter-activity/resources/missing_letter/board1.xml.in.h:3
 msgid "fish/f_sh/i/u/l"
-msgstr "peşte/pe_te/ş/p/s"
+msgstr "pește/pe_te/ș/p/s"
 
 #: ../src/missing_letter-activity/resources/missing_letter/board1.xml.in.h:4
 msgid "car/c_r/a/k/o"
-msgstr "maşină/ma_ină/ş/l/n"
+msgstr "mașină/ma_ină/ș/l/n"
 
 #: ../src/missing_letter-activity/resources/missing_letter/board2.xml.in.h:1
 #, fuzzy
@@ -8625,13 +8625,13 @@ msgstr "câine/câ_ne/i/p/o"
 #, fuzzy
 #| msgid "fish/_ish/f/h/l"
 msgid "fish/_ish/f/h/l/j"
-msgstr "peşte/_eşte/p/t/f"
+msgstr "pește/_ește/p/t/f"
 
 #: ../src/missing_letter-activity/resources/missing_letter/board4.xml.in.h:4
 #, fuzzy
 #| msgid "car/_ar/c/k/b"
 msgid "car/_ar/c/k/b/u"
-msgstr "maşină/_aşină/m/n/r"
+msgstr "mașină/_așină/m/n/r"
 
 #: ../src/missing_letter-activity/resources/missing_letter/board4.xml.in.h:5
 #, fuzzy
@@ -8673,7 +8673,7 @@ msgstr "sticlă/s_iclă/t/o/n"
 #, fuzzy
 #| msgid "cake/c_ke/a/o/e"
 msgid "cake/c_ke/a/o/e/i/u/y"
-msgstr "prăjitură/pră_itură/j/ş/n"
+msgstr "prăjitură/pră_itură/j/ș/n"
 
 #: ../src/missing_letter-activity/resources/missing_letter/board5.xml.in.h:4
 #, fuzzy
@@ -8697,13 +8697,13 @@ msgstr "câine/câin_/e/o/a"
 #, fuzzy
 #| msgid "fish/fis_/h/o/i"
 msgid "fish/fis_/h/o/i/y/z"
-msgstr "peşte/peşt_/e/o/u"
+msgstr "pește/peșt_/e/o/u"
 
 #: ../src/missing_letter-activity/resources/missing_letter/board5.xml.in.h:8
 #, fuzzy
 #| msgid "car/ca_/r/w/k"
 msgid "car/ca_/r/w/k/c/a"
-msgstr "maşină/maşi_ă/n/m/b"
+msgstr "mașină/mași_ă/n/m/b"
 
 #: ../src/missing_letter-activity/resources/missing_letter/board5.xml.in.h:9
 #, fuzzy
@@ -8781,7 +8781,7 @@ msgstr "Bani"
 #: ../src/money-activity/money.xml.in.h:2
 #, fuzzy
 msgid "Practice money usage"
-msgstr "Exersaţi folosirea banilor"
+msgstr "Exersați folosirea banilor"
 
 #: ../src/money-activity/money.xml.in.h:3
 #: ../src/money_back-activity/money_back.xml.in.h:3
@@ -8805,8 +8805,8 @@ msgid ""
 "Click on the coins or paper money at the bottom of the screen to pay. If you "
 "want to remove a coin or note, click on it on the upper screen area."
 msgstr ""
-"Faceţi un click pe monede sau bancnote în partea de jos a ecranului, pentru "
-"a plăti. Dacă vreţi să eliminaţi o monedă su o bancnotă, faceţi un click în "
+"Faceți un click pe monede sau bancnote în partea de jos a ecranului, pentru "
+"a plăti. Dacă vreți să eliminați o monedă su o bancnotă, faceți un click în "
 "partea de sus a ecranului."
 
 #: ../src/money_back-activity/money_back.xml.in.h:1
@@ -8817,7 +8817,7 @@ msgstr ""
 #: ../src/money_back_cents-activity/money_back_cents.xml.in.h:2
 #, fuzzy
 msgid "Practice money usage by giving Tux his change"
-msgstr "Exersaţi folosirea banilor, inclusiv cenţii"
+msgstr "Exersați folosirea banilor, inclusiv cenții"
 
 #: ../src/money_back-activity/money_back.xml.in.h:4
 #: ../src/money_back_cents-activity/money_back_cents.xml.in.h:4
@@ -8830,12 +8830,12 @@ msgstr ""
 #: ../src/money_back_cents-activity/money_back_cents.xml.in.h:1
 #, fuzzy
 msgid "Give tux his change, including cents"
-msgstr "Exersaţi folosirea banilor, inclusiv cenţii"
+msgstr "Exersați folosirea banilor, inclusiv cenții"
 
 #: ../src/money_cents-activity/money_cents.xml.in.h:2
 #, fuzzy
 msgid "Practice money usage including cents"
-msgstr "Exersaţi folosirea banilor, inclusiv cenţii"
+msgstr "Exersați folosirea banilor, inclusiv cenții"
 
 #: ../src/mosaic-activity/mosaic.py:186
 #: ../src/mosaic-activity/mosaic.xml.in.h:2
@@ -8926,27 +8926,27 @@ msgstr ""
 #: ../src/paintings-activity/paintings.xml.in.h:1
 #, fuzzy
 msgid "Assemble the puzzle"
-msgstr "Faceţi puzzle-ul"
+msgstr "Faceți puzzle-ul"
 
 #: ../src/paintings-activity/paintings.xml.in.h:2
 msgid "Drag and Drop the items to rebuild the original paintings"
-msgstr "Trageţi şi plasaţi elementele pentru a reconstrui picturile originale"
+msgstr "Trageți și plasați elementele pentru a reconstrui picturile originale"
 
 #: ../src/paintings-activity/paintings.xml.in.h:3
 #, fuzzy
 msgid "Mouse-manipulation: movement, drag and drop"
-msgstr "Folosirea şoricelului: mişcare, tragere şi plasare"
+msgstr "Folosirea șoricelului: mișcare, tragere și plasare"
 
 #: ../src/paintings-activity/paintings.xml.in.h:4
 msgid "Spatial representation"
-msgstr "Reprezentare spaţială"
+msgstr "Reprezentare spațială"
 
 #: ../src/paintings-activity/paintings.xml.in.h:5
 msgid ""
 "Drag the image parts from the box on the left to create a painting on the "
 "main board."
 msgstr ""
-"Trageţi părţile imaginii din stânga, pentru a forma imaginea pe table "
+"Trageți părțile imaginii din stânga, pentru a forma imaginea pe table "
 "principală."
 
 #: ../src/paintings-activity/resources/paintings/board1_0.xml.in.h:1
@@ -9051,19 +9051,19 @@ msgstr "Cassat, Timp de vară - 1895"
 
 #: ../src/paintings-activity/resources/paintings/board6_0.xml.in.h:1
 msgid "Vincent Van Gogh, Village Street in Auvers - 1890"
-msgstr "Vincent Van Gogh, Uliţă de sat în Auvers - 1890"
+msgstr "Vincent Van Gogh, Uliță de sat în Auvers - 1890"
 
 #: ../src/paratrooper-activity/paratrooper.c:409
 msgid "Control fall speed with up and down arrow keys."
-msgstr "Controlaţi viteza căderii cu săgeţile sus şi jos."
+msgstr "Controlați viteza căderii cu săgețile sus și jos."
 
 #: ../src/paratrooper-activity/paratrooper.xml.in.h:1
 msgid "Parachutist"
-msgstr "Paraşutistul"
+msgstr "Parașutistul"
 
 #: ../src/paratrooper-activity/paratrooper.xml.in.h:2
 msgid "Help Tux the parachutist land safely"
-msgstr "Ajutaţi paraşutistului Tux să aterizeze"
+msgstr "Ajutați parașutistului Tux să aterizeze"
 
 #: ../src/paratrooper-activity/paratrooper.xml.in.h:3
 #, fuzzy
@@ -9077,8 +9077,8 @@ msgid ""
 "In this game, Tux the parachutist needs help to land safely on the fishing "
 "boat. He needs to allow for the wind direction and speed."
 msgstr ""
-"În acest joc, copiii vor încerca să-l facă pe Tux paraşutistul să aterizeze "
-"în siguranţă pe vapor. Ei trebuie să fie atenţi la direcţia şi viteza "
+"În acest joc, copiii vor încerca să-l facă pe Tux parașutistul să aterizeze "
+"în siguranță pe vapor. Ei trebuie să fie atenți la direcția și viteza "
 "vântului."
 
 #: ../src/paratrooper-activity/paratrooper.xml.in.h:5
@@ -9086,9 +9086,9 @@ msgid ""
 "Hit any key or click on the plane to make Tux jump. Hit another key or click "
 "on Tux to open the parachute."
 msgstr ""
-"Tastaţi orice tastă sau faceţi un click pe avion pentru a-l face pe Tux să "
-"sară. Tastaţi altă tasta sau faceţi un click pe Tux pentru a descide "
-"paraşuta."
+"Tastați orice tastă sau faceți un click pe avion pentru a-l face pe Tux să "
+"sară. Tastați altă tasta sau faceți un click pe Tux pentru a descide "
+"parașuta."
 
 #: ../src/penalty-activity/penalty.py:292
 #, fuzzy
@@ -9107,7 +9107,7 @@ msgstr ""
 #: ../src/penalty-activity/penalty.xml.in.h:2
 #, fuzzy
 msgid "Double click the mouse on the ball to score a goal."
-msgstr "Făceţi clic stânga cu şoricelul pentru a selecta o activitate"
+msgstr "Făceți clic stânga cu șoricelul pentru a selecta o activitate"
 
 #: ../src/penalty-activity/penalty.xml.in.h:5
 msgid ""
@@ -9123,7 +9123,7 @@ msgstr ""
 #: ../src/photohunter-activity/photohunter.c:580
 #, fuzzy
 msgid "Click on the differences between the two images."
-msgstr "Într-un timp limitat, daţi rezultatul adunării a două numere"
+msgstr "Într-un timp limitat, dați rezultatul adunării a două numere"
 
 #: ../src/photohunter-activity/photohunter.xml.in.h:1
 msgid "Photo hunter"
@@ -9132,7 +9132,7 @@ msgstr ""
 #: ../src/photohunter-activity/photohunter.xml.in.h:2
 #, fuzzy
 msgid "Find the differences between two pictures"
-msgstr "Într-un timp limitat, daţi rezultatul adunării a două numere"
+msgstr "Într-un timp limitat, dați rezultatul adunării a două numere"
 
 #: ../src/photohunter-activity/photohunter.xml.in.h:3
 msgid "Visual discrimination."
@@ -9483,7 +9483,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Distance:"
 msgid "Distance: {:.1f}"
-msgstr "Distanţa:"
+msgstr "Distanța:"
 
 #: ../src/place_your_satellite-activity/place_your_satellite.py:297
 msgid "Satellite is crashing"
@@ -9534,11 +9534,11 @@ msgstr "Numere în ordine"
 
 #: ../src/planegame-activity/planegame.c:63
 msgid "Move the plane to catch the clouds in the correct order"
-msgstr "Mutaţi avionul pentru a prinde norii în ordinea corectă"
+msgstr "Mutați avionul pentru a prinde norii în ordinea corectă"
 
 #: ../src/planegame-activity/planegame.xml.in.h:2
 msgid "Move the helicopter to catch the clouds in the correct order"
-msgstr "Mutaţi elicopterul pentru a prinde norii în ordinea corectă"
+msgstr "Mutați elicopterul pentru a prinde norii în ordinea corectă"
 
 #: ../src/planegame-activity/planegame.xml.in.h:4
 msgid "Number"
@@ -9549,8 +9549,8 @@ msgid ""
 "Catch the numbers in increasing order, using the up, down, right and left "
 "arrows on the keyboard to move the helicopter."
 msgstr ""
-"Prinde numerele în ordinea crescătoare, folosind săgeţile sus, jos, stânga, "
-"dreapta pentru a mişca elicopterul."
+"Prinde numerele în ordinea crescătoare, folosind săgețile sus, jos, stânga, "
+"dreapta pentru a mișca elicopterul."
 
 #: ../src/play_piano-activity/play_piano.py:123
 #, fuzzy
@@ -9639,7 +9639,7 @@ msgstr ""
 #: ../src/play_rhythm-activity/play_rhythm.py:350
 #, fuzzy
 msgid "Listen to the rhythm and follow the moving line."
-msgstr "Ascultaţi culoarea şi făceţi clic pe desen."
+msgstr "Ascultați culoarea și făceți clic pe desen."
 
 #: ../src/play_rhythm-activity/play_rhythm.py:352
 msgid "Click the drum to the tempo. Watch the vertical line when you start."
@@ -9756,16 +9756,16 @@ msgstr "Culoarea liniei"
 #. spin button for int
 #: ../src/pythontest-activity/pythontest.py:476
 msgid "Distance between circles"
-msgstr "Distanţa dintre cercuri"
+msgstr "Distanța dintre cercuri"
 
 #. radio buttons for circle or rectangle
 #: ../src/pythontest-activity/pythontest.py:487
 msgid "Use circles"
-msgstr "Folosiţi cercuri"
+msgstr "Folosiți cercuri"
 
 #: ../src/pythontest-activity/pythontest.py:488
 msgid "Use rectangles"
-msgstr "Folosiţi dreptunghiuri"
+msgstr "Folosiți dreptunghiuri"
 
 #: ../src/pythontest-activity/pythontest.xml.in.h:1
 msgid "Python Test"
@@ -9784,7 +9784,7 @@ msgstr "Joc de memorie"
 #: ../src/railroad-activity/railroad.c:98
 #, fuzzy
 msgid "Build a train according to the model"
-msgstr "Contruiţi un tren după modelul dat"
+msgstr "Contruiți un tren după modelul dat"
 
 #: ../src/railroad-activity/railroad.xml.in.h:1
 #, fuzzy
@@ -9808,10 +9808,10 @@ msgid ""
 "appropriate carriages and locomotive. Deselect an item by clicking on it "
 "again. Check your construction by clicking on the hand at the bottom."
 msgstr ""
-"Un tren - o locomotivă şi vagoane - sunt afişate în partea superioară. După "
-"câteva secunde trenul va pleca. Trebuie să refaceţi trenul selectând "
-"vagoanele şi locomotiva potrivită. Puteţi deselecta un element făcând clic "
-"pe el. Confirmaţi-vă răspunsul făcând clic pe mâna de jos."
+"Un tren - o locomotivă și vagoane - sunt afișate în partea superioară. După "
+"câteva secunde trenul va pleca. Trebuie să refaceți trenul selectând "
+"vagoanele și locomotiva potrivită. Puteți deselecta un element făcând clic "
+"pe el. Confirmați-vă răspunsul făcând clic pe mâna de jos."
 
 #: ../src/readingh-activity/reading.c:240
 #: ../src/wordsgame-activity/wordsgame.c:227
@@ -9822,11 +9822,11 @@ msgstr ""
 
 #: ../src/readingh-activity/reading.c:402
 msgid "Please, check if the word"
-msgstr "Verificaţi dacă cuvântul"
+msgstr "Verificați dacă cuvântul"
 
 #: ../src/readingh-activity/reading.c:422
 msgid "is being displayed"
-msgstr "este afişat"
+msgstr "este afișat"
 
 #: ../src/readingh-activity/reading.c:478
 msgid "We skip this level because there are not enough words in the list!"
@@ -9850,12 +9850,12 @@ msgstr "Cuvântul căutat a fost '%s'"
 #: ../src/readingh-activity/reading.c:758
 #, c-format
 msgid "But it was not displayed"
-msgstr "Dar nu a fost afişat"
+msgstr "Dar nu a fost afișat"
 
 #: ../src/readingh-activity/reading.c:760
 #, fuzzy, c-format
 msgid "And it was displayed"
-msgstr "este afişat"
+msgstr "este afișat"
 
 #: ../src/readingh-activity/readingh.xml.in.h:1
 msgid "Horizontal reading practice"
@@ -9865,7 +9865,7 @@ msgstr "Exersarea citirii pe orizontală"
 #, fuzzy
 msgid "Read a list of words and work out if a given word is in it"
 msgstr ""
-"Citiţi o listă orizontală de cuvinte şi spuneţi dacă cuvântul dat este în ea"
+"Citiți o listă orizontală de cuvinte și spuneți dacă cuvântul dat este în ea"
 
 #: ../src/readingh-activity/readingh.xml.in.h:3
 #, fuzzy
@@ -9878,8 +9878,8 @@ msgid ""
 "A word is shown at the top right of the board. A list of words will appear "
 "and disappear on the left. Does the given word belong to the list?"
 msgstr ""
-"Un cuvânt este arătat sus pe tablă. O listă de cuvinte va apare şi va "
-"dispare în stânga. Cuvântul dat aparţine listei din stânga ?"
+"Un cuvânt este arătat sus pe tablă. O listă de cuvinte va apare și va "
+"dispare în stânga. Cuvântul dat aparține listei din stânga ?"
 
 #: ../src/readingv-activity/readingv.xml.in.h:1
 #, fuzzy
@@ -9890,7 +9890,7 @@ msgstr "Exersarea citirii pe verticală"
 #, fuzzy
 msgid "Read a vertical list of words and work out if a given word is in it"
 msgstr ""
-"Citiţi o listă verticală de cuvinte şi spuneţi dacă cuvântul dat este în ea"
+"Citiți o listă verticală de cuvinte și spuneți dacă cuvântul dat este în ea"
 
 #: ../src/readingv-activity/readingv.xml.in.h:3
 msgid "Read training in a limited time"
@@ -9903,7 +9903,7 @@ msgstr "Echipa"
 
 #: ../src/redraw-activity/redraw.xml.in.h:1
 msgid "Redraw the given item"
-msgstr "Redesenaţi elementul dat."
+msgstr "Redesenați elementul dat."
 
 #: ../src/redraw-activity/redraw.xml.in.h:2
 msgid "Copy a drawing from the box on the right into the box on the left."
@@ -9919,14 +9919,14 @@ msgstr ""
 
 #: ../src/redraw_symmetrical-activity/redraw_symmetrical.xml.in.h:1
 msgid "Mirror the given item"
-msgstr "Faceţi o copie-oglindă"
+msgstr "Faceți o copie-oglindă"
 
 #: ../src/redraw_symmetrical-activity/redraw_symmetrical.xml.in.h:2
 msgid ""
 "Copy the mirror image of an object from the box on the right into the box on "
 "the left."
 msgstr ""
-"Copiaţi imaginea-oglindă obiectului din cutia din dreapta în cutia din "
+"Copiați imaginea-oglindă obiectului din cutia din dreapta în cutia din "
 "stânga."
 
 #: ../src/redraw_symmetrical-activity/redraw_symmetrical.xml.in.h:3
@@ -9941,13 +9941,13 @@ msgstr ""
 #: ../src/reversecount-activity/reversecount.xml.in.h:1
 #, fuzzy
 msgid "Practice subtraction with a fun game"
-msgstr "Exersaţi scăderea cu un joc amuzant"
+msgstr "Exersați scăderea cu un joc amuzant"
 
 #: ../src/reversecount-activity/reversecount.xml.in.h:2
 #, fuzzy
 msgid "Tux is hungry. Help him find fish by counting to the correct ice spot."
 msgstr ""
-"Tux este înfometat. Ajutaţi-l să găsească peştii numărând cuburile de gheaţă "
+"Tux este înfometat. Ajutați-l să găsească peștii numărând cuburile de gheață "
 "pe care trebuie să le traverseze pentru a ajunge la ei."
 
 #: ../src/reversecount-activity/reversecount.xml.in.h:3
@@ -9956,7 +9956,7 @@ msgid ""
 "Can move the mouse, can read numbers and subtract numbers up to 10 for the "
 "first level"
 msgstr ""
-"Poate muta şoricelul, poate citi şi scădea numere până la 10 pentru primul "
+"Poate muta șoricelul, poate citi și scădea numere până la 10 pentru primul "
 "nivel"
 
 #: ../src/reversecount-activity/reversecount.xml.in.h:4
@@ -9966,10 +9966,10 @@ msgid ""
 "fish. Click the dice with the right mouse button to count backwards. When "
 "done, click on the OK button or hit the Enter key."
 msgstr ""
-"Mai întâi număraţi câte cuburi de gheaţă sunt între Tux şi peşte. Apoi "
-"faceţi clic pe zar pentru a selecta numărul corect. Puteţi folosi şi butonul "
-"dreapta al şoricelului pentru a număra invers. Când sunteţi gata, daţi clic "
-"pe OK sau apăsaţi Enter."
+"Mai întâi numărați câte cuburi de gheață sunt între Tux și pește. Apoi "
+"faceți clic pe zar pentru a selecta numărul corect. Puteți folosi și butonul "
+"dreapta al șoricelului pentru a număra invers. Când sunteți gata, dați clic "
+"pe OK sau apăsați Enter."
 
 #: ../src/scalesboard-activity/scale.c:374
 msgid "Enter the weight of the object in gram"
@@ -9987,12 +9987,12 @@ msgstr ""
 #: ../src/scalesboard_weight-activity/scalesboard_weight.xml.in.h:1
 #, fuzzy
 msgid "Balance the scales properly"
-msgstr "Echilibraţi greutăţile"
+msgstr "Echilibrați greutățile"
 
 #: ../src/scalesboard-activity/scalesboard.xml.in.h:2
 #, fuzzy
 msgid "Drag and Drop weights to balance the scales"
-msgstr "Trageţi şi plasaţi greutăţile pentru a echilibra balanţa"
+msgstr "Trageți și plasați greutățile pentru a echilibra balanța"
 
 #: ../src/scalesboard-activity/scalesboard.xml.in.h:3
 #, fuzzy
@@ -10005,8 +10005,8 @@ msgid ""
 "To balance the scales, move the weights on the left or the right side. The "
 "weights can be arranged in any order."
 msgstr ""
-"Pentru a echilibra balanţa, mutaţi greutăţile pe talerul din stânga. "
-"Greutăţile pot fi aranjate în orice ordine."
+"Pentru a echilibra balanța, mutați greutățile pe talerul din stânga. "
+"Greutățile pot fi aranjate în orice ordine."
 
 #: ../src/scalesboard-activity/scalesboard.xml.in.h:5
 #: ../src/scalesboard_weight-activity/scalesboard_weight.xml.in.h:5
@@ -10019,7 +10019,7 @@ msgstr ""
 #: ../src/scalesboard_weight-activity/scalesboard_weight.xml.in.h:2
 #, fuzzy
 msgid "Drag and Drop masses to balance the scales and calculate the weight"
-msgstr "Trageţi şi plasaţi greutăţile pentru a echilibra balanţa"
+msgstr "Trageți și plasați greutățile pentru a echilibra balanța"
 
 #: ../src/scalesboard_weight-activity/scalesboard_weight.xml.in.h:3
 #, fuzzy
@@ -10033,8 +10033,8 @@ msgid ""
 "care of the weight and the unit of the masses, remember that a kilogram (kg) "
 "is 1000 grams (g). They can be arranged in any order."
 msgstr ""
-"Pentru a echilibra balanţa, mutaţi greutăţile pe talerul din stânga. "
-"Greutăţile pot fi aranjate în orice ordine."
+"Pentru a echilibra balanța, mutați greutățile pe talerul din stânga. "
+"Greutățile pot fi aranjate în orice ordine."
 
 #: ../src/searace1player-activity/searace1player.xml.in.h:1
 msgid "Sea race (Single Player)"
@@ -10117,11 +10117,11 @@ msgstr "E un desen"
 
 #: ../src/searace-activity/searace.py:742
 msgid "The Red boat has won"
-msgstr "Corabia Roşie a câştigat"
+msgstr "Corabia Roșie a câștigat"
 
 #: ../src/searace-activity/searace.py:745
 msgid "The Green boat has won"
-msgstr "Corabia Verde a câştigat"
+msgstr "Corabia Verde a câștigat"
 
 #: ../src/searace-activity/searace.py:764
 #: ../src/searace-activity/searace.py:1005
@@ -10146,7 +10146,7 @@ msgstr "Comandă necunoscută în rândul"
 
 #: ../src/searace-activity/searace.py:1005
 msgid "Distance:"
-msgstr "Distanţa:"
+msgstr "Distanța:"
 
 #: ../src/searace-activity/searace.xml.in.h:1
 msgid "Sea race (2 Players)"
@@ -10154,7 +10154,7 @@ msgstr "Curse maritime (2 Jucători)"
 
 #: ../src/searace-activity/searace.xml.in.h:2
 msgid "Direct your boat accurately to win the race."
-msgstr "Direcţionează vaporul pentru a câştiga cursa."
+msgstr "Direcționează vaporul pentru a câștiga cursa."
 
 #: ../src/searace-activity/searace.xml.in.h:4
 msgid ""
@@ -10183,7 +10183,7 @@ msgstr "Numere cu zaruri"
 #: ../src/smallnumbers-activity/smallnumbers.xml.in.h:2
 #, fuzzy
 msgid "Count the number of dots on dice before they reach the ground"
-msgstr "Tastaţi cuvântul întreg înainte ca el să atingă pământul"
+msgstr "Tastați cuvântul întreg înainte ca el să atingă pământul"
 
 #: ../src/smallnumbers2-activity/smallnumbers2.xml.in.h:3
 #: ../src/smallnumbers-activity/smallnumbers.xml.in.h:3
@@ -10195,14 +10195,14 @@ msgstr "Aptitudinea numărării"
 #: ../src/smallnumbers-activity/smallnumbers.xml.in.h:4
 #, fuzzy
 msgid "In a limited time, count the number of dots"
-msgstr "Într-un timp limitat număraţi o cantitate de puncte"
+msgstr "Într-un timp limitat numărați o cantitate de puncte"
 
 #: ../src/smallnumbers2-activity/smallnumbers2.xml.in.h:5
 #: ../src/smallnumbers-activity/smallnumbers.xml.in.h:5
 #, fuzzy
 msgid "With the keyboard, type the number of dots you see on the falling dice."
 msgstr ""
-"Tastaţi numărul de pe tastatură corespunzător numărului de puncte din zarul "
+"Tastați numărul de pe tastatură corespunzător numărului de puncte din zarul "
 "căzător."
 
 #: ../src/smallnumbers-activity/smallnumbers.xml.in.h:1
@@ -10277,7 +10277,7 @@ msgstr "Pilotează submarina"
 #: ../src/submarine-activity/submarine.xml.in.h:2
 msgid "Pilot a submarine using air tanks and dive rudders"
 msgstr ""
-"Pilotează submarina folosind rezervoarele de apă şi cârmele de scufundare"
+"Pilotează submarina folosind rezervoarele de apă și cârmele de scufundare"
 
 #: ../src/submarine-activity/submarine.xml.in.h:3
 msgid "Physics basics"
@@ -10285,7 +10285,7 @@ msgstr "Bazele fizice"
 
 #: ../src/submarine-activity/submarine.xml.in.h:4
 msgid "Learn how a submarine works"
-msgstr "Învaţă cum submarina lucrează"
+msgstr "Învață cum submarina lucrează"
 
 #: ../src/submarine-activity/submarine.xml.in.h:5
 #, fuzzy
@@ -10300,9 +10300,9 @@ msgid ""
 "After the first level, you have to catch the jewel to open it. Pass through "
 "it to reach the next level."
 msgstr ""
-"Faceţi click pe diferite elemente active: motor, cârme şi rezervoarele de "
+"Faceți click pe diferite elemente active: motor, cârme și rezervoarele de "
 "apă pentru a naviga la adâncimea necesară. Este o poartă aproape în dreapta. "
-"Prinde bijuteria pentru a o deschide şi a trece la nivelul următor."
+"Prinde bijuteria pentru a o deschide și a trece la nivelul următor."
 
 #: ../src/sudoku-activity/sudoku.xml.in.h:1
 msgid "Sudoku, place unique symbols in a square."
@@ -10344,7 +10344,7 @@ msgstr "Super Creier"
 #: ../src/superbrain-activity/superbrain.xml.in.h:2
 #, fuzzy
 msgid "Tux has hidden several items. Find them again in the correct order"
-msgstr "Tux a ascuns câteva elemente, găsiţile în ordinea corectă"
+msgstr "Tux a ascuns câteva elemente, găsițile în ordinea corectă"
 
 #: ../src/superbrain-activity/superbrain.c:403
 #: ../src/superbrain-activity/superbrain.c:539
@@ -10356,7 +10356,7 @@ msgstr ""
 #, fuzzy
 #| msgid "is being displayed"
 msgid "This item is misplaced"
-msgstr "este afişat"
+msgstr "este afișat"
 
 #: ../src/superbrain-activity/superbrain.c:587
 msgid "One item is well placed"
@@ -10365,7 +10365,7 @@ msgstr ""
 #: ../src/superbrain-activity/superbrain.c:601
 #, fuzzy
 msgid "One item is misplaced"
-msgstr "este afişat"
+msgstr "este afișat"
 
 #: ../src/superbrain-activity/superbrain.xml.in.h:3
 #, fuzzy
@@ -10376,10 +10376,10 @@ msgid ""
 "a black box. You can use the right mouse button to flip the colors in the "
 "opposite order."
 msgstr ""
-"Făceţi clic pe elemente până când credeţi că aţi găsit răspunsul corect. "
-"Apoi, făceţi clic pe butonul OK din bara de control. În partea de jos, Tux "
-"vă oferă o indicaţie dacă aţi obţinut o poziţie bună marcând elementul cu o "
-"cutie neagră. Puteţi folosi butonul din dreapta al şoricelului pentru a muta "
+"Făceți clic pe elemente până când credeți că ați găsit răspunsul corect. "
+"Apoi, făceți clic pe butonul OK din bara de control. În partea de jos, Tux "
+"vă oferă o indicație dacă ați obținut o poziție bună marcând elementul cu o "
+"cutie neagră. Puteți folosi butonul din dreapta al șoricelului pentru a muta "
 "culorile în ordinea inversă."
 
 #: ../src/tangram-activity/tangram.xml.in.h:1
@@ -10388,7 +10388,7 @@ msgstr ""
 
 #: ../src/tangram-activity/tangram.xml.in.h:2
 msgid "The objective is to form a given shape with seven pieces"
-msgstr "Scopul e alcătuirea formei date din şapte piese"
+msgstr "Scopul e alcătuirea formei date din șapte piese"
 
 #: ../src/tangram-activity/tangram.xml.in.h:4
 msgid ""
@@ -10442,30 +10442,30 @@ msgstr ""
 #| msgid "Distance to target = %d meters"
 msgid "Distance to target = %d meter"
 msgid_plural "Distance to target = %d meters"
-msgstr[0] "Distanţa până la ţintă = %d metri"
-msgstr[1] "Distanţa până la ţintă = %d metri"
+msgstr[0] "Distanța până la țintă = %d metri"
+msgstr[1] "Distanța până la țintă = %d metri"
 
 #: ../src/target-activity/target.xml.in.h:1
 #, fuzzy
 msgid "Practice addition with a target game"
-msgstr "Exersaţi adunarea cu un joc de tragere la ţintă"
+msgstr "Exersați adunarea cu un joc de tragere la țintă"
 
 #: ../src/target-activity/target.xml.in.h:2
 #, fuzzy
 msgid "Hit the target and count your points"
-msgstr "Atingeţi ţinta şi număraţi-vă scorul"
+msgstr "Atingeți ținta și numărați-vă scorul"
 
 #: ../src/target-activity/target.xml.in.h:3
 msgid ""
 "Can move the mouse, can read numbers and count up to 15 for the first level"
 msgstr ""
-"Poate muta şoricelul, poate citi numere şi număra până la 15 pentru primul "
+"Poate muta șoricelul, poate citi numere și număra până la 15 pentru primul "
 "nivel"
 
 #: ../src/target-activity/target.xml.in.h:4
 #, fuzzy
 msgid "Throw darts at a target and count your score."
-msgstr "Trimiteţi săgeţi la ţintă şi număraţi scorul."
+msgstr "Trimiteți săgeți la țintă și numărați scorul."
 
 #: ../src/target-activity/target.xml.in.h:5
 #, fuzzy
@@ -10475,10 +10475,10 @@ msgid ""
 "count your score. Enter the score with the keyboard then press the Enter key "
 "or the OK button."
 msgstr ""
-"Mai întâi verificaţi direcţia şi puterea vântului, apoi faceţi clic pe ţintă "
-"pentru a lansa o săgeată. Când toate săgeţile au fost folosite, o fereastră "
-"apare cerându-vă să vă număraţi scorul. Introduceţi scorul cu tastatura şi "
-"apăsaţi Enter sau butonul OK."
+"Mai întâi verificați direcția și puterea vântului, apoi faceți clic pe țintă "
+"pentru a lansa o săgeată. Când toate săgețile au fost folosite, o fereastră "
+"apare cerându-vă să vă numărați scorul. Introduceți scorul cu tastatura și "
+"apăsați Enter sau butonul OK."
 
 #: ../src/traffic-activity/traffic.xml.in.h:1
 #, fuzzy
@@ -10488,26 +10488,26 @@ msgstr "Un joc puzzle"
 #: ../src/traffic-activity/traffic.xml.in.h:2
 #, fuzzy
 msgid "Remove the red car from the parking lot through the gate on the right"
-msgstr "Scopul este să eliminaţi toate maşinile roşii prin poarta din dreapta"
+msgstr "Scopul este să eliminați toate mașinile roșii prin poarta din dreapta"
 
 #: ../src/traffic-activity/traffic.xml.in.h:3
 msgid ""
 "Each car can only move either horizontally or vertically. You must make some "
 "room in order to let the red car move through the gate on the right."
 msgstr ""
-"Fiecare maşină se poate mişca sau orizontal sau vertical. Trebuie sa faceti "
-"ceva spaţiu pentru a permite maşinei roşii mişcarea către poarta din dreapta."
+"Fiecare mașină se poate mișca sau orizontal sau vertical. Trebuie sa faceti "
+"ceva spațiu pentru a permite mașinei roșii mișcarea către poarta din dreapta."
 
 #: ../src/tuxpaint-activity/tuxpaint.py:113
 #: ../src/tuxpaint-activity/tuxpaint.py:173
 msgid ""
 "Cannot find Tuxpaint.\n"
 "Install it to use this activity !"
-msgstr "Nu pot găsi Tuxpaint.<br> Instataţi-l pentru folosirea activităţii !"
+msgstr "Nu pot găsi Tuxpaint.<br> Instatați-l pentru folosirea activității !"
 
 #: ../src/tuxpaint-activity/tuxpaint.py:185
 msgid "Waiting for Tuxpaint to finish"
-msgstr "Aşteptaţi Tuxpaint să finişeze"
+msgstr "Așteptați Tuxpaint să finișeze"
 
 #: ../src/tuxpaint-activity/tuxpaint.py:244
 msgid "Inherit fullscreen setting from GCompris"
@@ -10535,11 +10535,11 @@ msgstr ""
 
 #: ../src/tuxpaint-activity/tuxpaint.xml.in.h:2
 msgid "Launch Tuxpaint"
-msgstr "Lansaţi Tuxpaint-ul"
+msgstr "Lansați Tuxpaint-ul"
 
 #: ../src/tuxpaint-activity/tuxpaint.xml.in.h:3
 msgid "mouse and keyboard manipulation"
-msgstr "Folosirea tastaturii şi şoricelului"
+msgstr "Folosirea tastaturii și șoricelului"
 
 #: ../src/tuxpaint-activity/tuxpaint.xml.in.h:4
 msgid "Drawing activity (pixmap)"
@@ -10548,7 +10548,7 @@ msgstr "Activitate de desen."
 #: ../src/tuxpaint-activity/tuxpaint.xml.in.h:5
 msgid "Use Tuxpaint to draw. When Tuxpaint is finished this board will end."
 msgstr ""
-"Foloseşte Tuxpaint pentru a desena. Când Tuxpaint va fi terminat, acest "
+"Folosește Tuxpaint pentru a desena. Când Tuxpaint va fi terminat, acest "
 "panou se va închide."
 
 #: ../src/watercycle-activity/watercycle.py:170
@@ -10568,19 +10568,19 @@ msgstr ""
 
 #: ../src/watercycle-activity/watercycle.xml.in.h:1
 msgid "Learn about the water cycle"
-msgstr "Învaţă despre ciclul apei"
+msgstr "Învață despre ciclul apei"
 
 #: ../src/watercycle-activity/watercycle.xml.in.h:2
 msgid ""
 "Tux has come back from a long fishing party on his boat. Bring the water "
 "system back up so he can take a shower."
 msgstr ""
-"Tux a venit de la pescuit. Construeşte sistemul de apă pentru ai permite lui "
-"Tux să facă un duş."
+"Tux a venit de la pescuit. Construește sistemul de apă pentru ai permite lui "
+"Tux să facă un duș."
 
 #: ../src/watercycle-activity/watercycle.xml.in.h:3
 msgid "Learn the water cycle"
-msgstr "Învaţă ciclul apei"
+msgstr "Învață ciclul apei"
 
 #: ../src/watercycle-activity/watercycle.xml.in.h:4
 msgid ""
@@ -10589,9 +10589,9 @@ msgid ""
 "the system is back up and Tux is in the shower, push the shower button for "
 "him."
 msgstr ""
-"Faceţi un click pe elementele active: soare, nor, staţia de pompare a apei, "
-"şi staţia de curăţire a apei, pentru a reactiva sistemul de apă. Când "
-"sistemul e setat şi Tux e în duş, apasă pe butonul din duş."
+"Faceți un click pe elementele active: soare, nor, stația de pompare a apei, "
+"și stația de curățire a apei, pentru a reactiva sistemul de apă. Când "
+"sistemul e setat și Tux e în duș, apasă pe butonul din duș."
 
 #: ../src/wordprocessor-activity/wordprocessor.c:57
 msgid "Research"
@@ -10633,7 +10633,7 @@ msgstr "Procesorul de texte personal"
 
 #: ../src/wordprocessor-activity/wordprocessor.xml.in.h:2
 msgid "A simple word processor to enter and save any text"
-msgstr "Un procesor simplu de texte pentru întroducerea şi păstrarea textului"
+msgstr "Un procesor simplu de texte pentru întroducerea și păstrarea textului"
 
 #: ../src/wordprocessor-activity/wordprocessor.xml.in.h:3
 msgid "The children can type their own text or copy one given by the teacher."
@@ -10665,7 +10665,7 @@ msgstr "Cuvinte căzătoare"
 #: ../src/wordsgame-activity/wordsgame.xml.in.h:2
 #, fuzzy
 msgid "Type the falling words before they reach the ground"
-msgstr "Tastaţi cuvântul întreg înainte ca el să atingă pământul"
+msgstr "Tastați cuvântul întreg înainte ca el să atingă pământul"
 
 #: ../src/wordsgame-activity/wordsgame.xml.in.h:4
 msgid "Keyboard training"
@@ -10674,7 +10674,7 @@ msgstr "Exersarea tastaturii"
 #: ../src/wordsgame-activity/wordsgame.xml.in.h:5
 #, fuzzy
 msgid "Type the complete word as it falls, before it reaches the ground"
-msgstr "Tastaţi literele căzătoare înainte de a atinge pământul"
+msgstr "Tastați literele căzătoare înainte de a atinge pământul"
 
 #~ msgid "almond"
 #~ msgstr "migdală"
@@ -10683,7 +10683,7 @@ msgstr "Tastaţi literele căzătoare înainte de a atinge pământul"
 #~ msgstr "castană"
 
 #~ msgid "claret"
-#~ msgstr "vin roşu"
+#~ msgstr "vin roșu"
 
 #~ msgid "cobalt"
 #~ msgstr "cobalt"
@@ -10770,7 +10770,7 @@ msgstr "Tastaţi literele căzătoare înainte de a atinge pământul"
 #~ msgstr "rubin"
 
 #~ msgid "auburn"
-#~ msgstr "roşcat"
+#~ msgstr "roșcat"
 
 #~ msgid "azure"
 #~ msgstr "azur"
@@ -10791,13 +10791,13 @@ msgstr "Tastaţi literele căzătoare înainte de a atinge pământul"
 #~ msgstr "indigo"
 
 #~ msgid "ivory"
-#~ msgstr "fildeş"
+#~ msgstr "fildeș"
 
 #~ msgid "jade"
 #~ msgstr "jad"
 
 #~ msgid "lavender"
-#~ msgstr "levănţică"
+#~ msgstr "levănțică"
 
 #~ msgid "lichen"
 #~ msgstr "lichen"
@@ -10806,7 +10806,7 @@ msgstr "Tastaţi literele căzătoare înainte de a atinge pământul"
 #~ msgstr "vin"
 
 #~ msgid "larch"
-#~ msgstr "buştean"
+#~ msgstr "buștean"
 
 #~ msgid "lilac"
 #~ msgstr "liliac"
@@ -10867,11 +10867,11 @@ msgstr "Tastaţi literele căzătoare înainte de a atinge pământul"
 
 #, fuzzy
 #~ msgid "Move the mouse until all the blocks disappear."
-#~ msgstr "Mutaţi şoricelul până când dispar toate blocurile."
+#~ msgstr "Mutați șoricelul până când dispar toate blocurile."
 
 #, fuzzy
 #~ msgid "gcompris animation"
-#~ msgstr "Configuraţia GCompris"
+#~ msgstr "Configurația GCompris"
 
 #, fuzzy
 #~ msgid "gcompris drawing"
@@ -10881,17 +10881,17 @@ msgstr "Tastaţi literele căzătoare înainte de a atinge pământul"
 #~ msgstr "procesor de texte"
 
 #~ msgid "Use the keyboard arrows to move Tux up to the door."
-#~ msgstr "Folosiţi săgeţile de pe tastatură pentru a-l duce pe Tux la uşă."
+#~ msgstr "Folosiți săgețile de pe tastatură pentru a-l duce pe Tux la ușă."
 
 #~ msgid ""
 #~ "Use the keyboard arrows to move Tux up to the door. In this maze, the "
 #~ "move is relative (first person). Use the up arrow to go forward. The "
 #~ "other arrow let you turn Tux in another direction."
 #~ msgstr ""
-#~ "Folosiţi săgeţile pentru a-l duce pe Tux până la uşâ. În acest labirint "
-#~ "mişcarea este relativă (de la prima persoană). Folosiţî şageata în sus "
-#~ "pentru a vă mişca înainte. Celelalte săgeţi vă permit să schimbaţi "
-#~ "direcţia lui Tux."
+#~ "Folosiți săgețile pentru a-l duce pe Tux până la ușâ. În acest labirint "
+#~ "mișcarea este relativă (de la prima persoană). Folosițî șageata în sus "
+#~ "pentru a vă mișca înainte. Celelalte săgeți vă permit să schimbați "
+#~ "direcția lui Tux."
 
 #~ msgid ""
 #~ "Use the keyboard arrows to move Tux up to the door. Use the spacebar to "
@@ -10899,9 +10899,9 @@ msgstr "Tastaţi literele căzătoare înainte de a atinge pământul"
 #~ "an indication of your position, like a map. You cannot move Tux in "
 #~ "visible mode."
 #~ msgstr ""
-#~ "Folosiţi săgeţile de pe tastatură pentru a-l duce pe Tux la uşă. Folosiţi "
-#~ "tasta 'spaţiu' pentru a schimba între modul vizibil şi invizibil. Modul "
-#~ "vizibil vă indica poziţia la moment, ca o hartă.  Nu-l puteţi mişca pe "
+#~ "Folosiți săgețile de pe tastatură pentru a-l duce pe Tux la ușă. Folosiți "
+#~ "tasta 'spațiu' pentru a schimba între modul vizibil și invizibil. Modul "
+#~ "vizibil vă indica poziția la moment, ca o hartă.  Nu-l puteți mișca pe "
 #~ "Tux în acest mod."
 
 #~ msgid "satchel/s_tchel/a/o/i"
@@ -10909,10 +10909,10 @@ msgstr "Tastaţi literele căzătoare înainte de a atinge pământul"
 
 #~ msgid "Improve reading skill and the ability to understand what is read."
 #~ msgstr ""
-#~ "Perfecţionaţi-vă citirea şi posibilitatea de a înţelege ce aţi citit."
+#~ "Perfecționați-vă citirea și posibilitatea de a înțelege ce ați citit."
 
 #~ msgid "Read and play with the story"
-#~ msgstr "Citeşte şi joacă-te cu istoria."
+#~ msgstr "Citește și joacă-te cu istoria."
 
 #, fuzzy
 #~ msgid "reading"
@@ -10920,15 +10920,15 @@ msgstr "Tastaţi literele căzătoare înainte de a atinge pământul"
 
 #, fuzzy
 #~ msgid "Click on the correct colored object."
-#~ msgstr "Făceţi clic pe obiectul colorat corect."
+#~ msgstr "Făceți clic pe obiectul colorat corect."
 
 #, fuzzy
 #~ msgid "Click on the matching color"
-#~ msgstr "Făceţi clic pe culoarea corectă"
+#~ msgstr "Făceți clic pe culoarea corectă"
 
 #, fuzzy
 #~ msgid "Read the names of colors"
-#~ msgstr "Citiţi culorile"
+#~ msgstr "Citiți culorile"
 
 #, fuzzy
 #~ msgid "This board teaches basic colors."
@@ -10979,4 +10979,4 @@ msgstr "Tastaţi literele căzătoare înainte de a atinge pământul"
 #~ msgstr "N-am putut deschide dosarul cu imagini: %s"
 
 #~ msgid "Use the antialiased canvas (slower)."
-#~ msgstr "Foloseşte canava cu anti-alias ( mai încet )."
+#~ msgstr "Folosește canava cu anti-alias ( mai încet )."

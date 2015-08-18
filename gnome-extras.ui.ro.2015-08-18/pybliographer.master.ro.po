@@ -812,7 +812,7 @@ msgstr "Asociere"
 
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:1
 msgid "Entry types and field names configuration"
-msgstr "Configurare tipuri de intrare şi nume de câmpuri"
+msgstr "Configurare tipuri de intrare și nume de câmpuri"
 
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:12
 msgid ""

@@ -444,7 +444,7 @@ msgstr "Șterge o linie dintr-i matrice"
 
 #: ../lib/library-strings.c:80
 msgid "Get the dot product of two vectors (no conjugates)"
-msgstr "Obţine produsul scalar a doi vectori (nu conjugaţi)"
+msgstr "Obține produsul scalar a doi vectori (nu conjugați)"
 
 #: ../lib/library-strings.c:81
 msgid "Zero out entries above the diagonal"
