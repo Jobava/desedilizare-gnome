@@ -1,0 +1,539 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# , 2010.
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=anjuta&keywords=I18N+L10N&component=unknown\n"
+"POT-Creation-Date: 2013-12-18 14:11+0000\n"
+"PO-Revision-Date: 2011-03-19 01:13+0200\n"
+"Last-Translator: Lucian Adrian Grijincu <lucian.grijincu@gmail.com>\n"
+"Language-Team: Romanian Gnome Team <gnomero-list@lists.sourceforge.net>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);;\n"
+"X-Generator: Virtaal 0.6.1\n"
+
+#: ../plugins/scintilla/print.c:659
+#, c-format
+msgid "File: %s"
+msgstr "Fișier: %s"
+
+#: ../plugins/scintilla/print.c:888
+msgid "Unable to get text buffer for printing"
+msgstr "Nu se poate obține zona de memorie tampon pentru textul de tipărit"
+
+#: ../plugins/scintilla/print.c:966
+msgid "No file to print!"
+msgstr "Niciun fișier de tipărit!"
+
+#: ../plugins/scintilla/plugin.c:336 ../plugins/scintilla/plugin.c:348
+#: ../plugins/scintilla/anjuta-editor.plugin.in.h:1
+msgid "Scintilla Editor"
+msgstr "Editor Scintilla"
+
+#: ../plugins/scintilla/text_editor.c:471
+#, c-format
+msgid ""
+"The file '%s' has been changed.\n"
+"Do you want to reload it ?"
+msgstr ""
+"Fișierul „%s” a fost schimbat.\n"
+"Doriți să îl reîncărcați?"
+
+#: ../plugins/scintilla/text_editor.c:477
+#, c-format
+msgid ""
+"The file '%s' has been changed.\n"
+"Do you want to loose your changes and reload it ?"
+msgstr ""
+"Fișierul „%s” a fost schimbat.\n"
+"Doriți să renunțați la schimbări și să îl reîncărcați?"
+
+#: ../plugins/scintilla/text_editor.c:497
+#, c-format
+msgid ""
+"The file '%s' has been deleted.\n"
+"Do you confirm and close it ?"
+msgstr ""
+"Fișierul „%s” a fost șters.\n"
+"Confirmați și închideți?"
+
+#: ../plugins/scintilla/text_editor.c:504
+#, c-format
+msgid ""
+"The file '%s' has been deleted.\n"
+"Do you want to loose your changes and close it ?"
+msgstr ""
+"Fișierul „%s” a fost șters.\n"
+"Doriți să renunțați la schimbări și să îl închideți ?"
+
+#: ../plugins/scintilla/text_editor.c:1483
+msgid "Could not get file info"
+msgstr "Nu s-au putut obține informațiile despre fișier"
+
+#. DEBUG_PRINT ("%s", "This file is too big. Unable to allocate memory.");
+#: ../plugins/scintilla/text_editor.c:1495
+msgid "This file is too big. Unable to allocate memory."
+msgstr "Fișierul este prea mare. Nu se poate aloca memorie."
+
+#: ../plugins/scintilla/text_editor.c:1504
+msgid "Could not open file"
+msgstr "Nu s-a putut deschide fișierul"
+
+#: ../plugins/scintilla/text_editor.c:1515
+msgid "Error while reading from file"
+msgstr "Eroare la citirea din fișier"
+
+#: ../plugins/scintilla/text_editor.c:1561
+msgid ""
+"The file does not look like a text file or the file encoding is not "
+"supported. Please check if the encoding of file is in the supported "
+"encodings list. If not, add it from the preferences."
+msgstr ""
+"Fișierul nu pare a fi un fișier text sau codarea nu este suportată. "
+"Verificați dacă în lista de codări suportate se află și codarea fișierului. "
+"Dacă nu, adăugați-o din panoul de preferințe."
+
+#: ../plugins/scintilla/text_editor.c:1708
+msgid "Loading file..."
+msgstr "Se încarcă fișierul..."
+
+#: ../plugins/scintilla/text_editor.c:1717
+#, c-format
+msgid ""
+"Could not load file: %s\n"
+"\n"
+"Details: %s"
+msgstr ""
+"Nu s-a putut încărca fișierul :%s\n"
+"\n"
+"Detalii: %s"
+
+#: ../plugins/scintilla/text_editor.c:1738
+msgid "File loaded successfully"
+msgstr "Fișierul a fost încărcat cu succes"
+
+#: ../plugins/scintilla/text_editor.c:1756
+msgid "Saving file..."
+msgstr "Se salvează fișierul..."
+
+#: ../plugins/scintilla/text_editor.c:1765
+#, c-format
+msgid "Could not save intermediate file %s: %s"
+msgstr "Nu s-a putut salva fișierul intermediar %s: %s"
+
+#: ../plugins/scintilla/text_editor.c:1781
+msgid "File saved successfully"
+msgstr "Fișierul a fost salvat cu succes"
+
+#: ../plugins/scintilla/text_editor.c:2154
+#, c-format
+msgid ""
+"Cannot load Global defaults and configuration files:\n"
+"%s.\n"
+"This may result in improper behaviour or instabilities.\n"
+"Anjuta will fall back to built in (limited) settings"
+msgstr ""
+"Nu s-au putut încărca valorile implicite globale și fișierele de "
+"configurație:\n"
+"%s.\n"
+"Aceasta ar putea duce la un comportament greșit sau instabil.\n"
+"Anjuta va reveni la setările cu care a fost construit (limitate)"
+
+#: ../plugins/scratchbox/plugin.c:209
+#, c-format
+msgid "Program '%s' does not exists"
+msgstr "Programul „%s” nu există"
+
+#: ../plugins/scratchbox/plugin.c:460 ../plugins/scratchbox/plugin.c:482
+#: ../plugins/scratchbox/anjuta-scratchbox.plugin.in.h:1
+msgid "Scratchbox"
+msgstr "Scratchbox"
+
+#. Public functions
+#. *---------------------------------------------------------------------------
+#: ../plugins/sample1/anjuta-sample.plugin.in.h:1
+msgid "Sample Plugin"
+msgstr "Modul demonstrativ"
+
+#: ../plugins/sample1/anjuta-sample.plugin.in.h:2
+msgid "Sample Plugin for Anjuta."
+msgstr "Modul demonstrativ pentru Anjuta."
+
+#: ../plugins/scintilla/anjuta-editor.plugin.in.h:2
+msgid "An alternate editor based on Scintilla"
+msgstr "Un editor de text alternativ bazat pe Scintilla"
+
+#: ../plugins/scratchbox/anjuta-scratchbox.plugin.in.h:2
+msgid "Change build commands to use scratchbox 1 or 2"
+msgstr ""
+"Schimbă comenzile de construire pentru folosirea scratchbox-urilor 1 sau 2"
+
+#~ msgid "Function Name"
+#~ msgstr "Numele funcției"
+
+#~ msgid "Time"
+#~ msgstr "Timp"
+
+#~ msgid "Self"
+#~ msgstr "Individual"
+
+#~ msgid "Children"
+#~ msgstr "Copii"
+
+#~ msgid "Calls"
+#~ msgstr "Apeluri"
+
+#~ msgid "% Time"
+#~ msgstr "% timp"
+
+#~ msgid "Cumulative Seconds"
+#~ msgstr "Secunde cumulate"
+
+#~ msgid "Self Seconds"
+#~ msgstr "Secunde individuale"
+
+#~ msgid "Self ms/call"
+#~ msgstr "Ms individuale per apel"
+
+#~ msgid "Total ms/call"
+#~ msgstr "Ms totale per apel"
+
+#~ msgid ""
+#~ "Could not get profiling data.\n"
+#~ "\n"
+#~ "Please check the path to this target's profiling data file."
+#~ msgstr ""
+#~ "Nu s-au putut obține datele de profilare.\n"
+#~ "\n"
+#~ "Verificați calea către datele de profilare ale țintei."
+
+#~ msgid ""
+#~ "This target does not have any profiling data.\n"
+#~ "\n"
+#~ "Please ensure that the target is compiled with profiling support (-p)and "
+#~ "that it is run at least once."
+#~ msgstr ""
+#~ "Ținta nu are date de profilare.\n"
+#~ "\n"
+#~ "Asigurați-vă că ținta este compilată cu suportul de compilare (-p) și că "
+#~ "a fost rulată cel puțin o dată."
+
+#~ msgid "Debug"
+#~ msgstr "Depanează"
+
+#~ msgid "Profiler"
+#~ msgstr "Profilator"
+
+#~ msgid "Select Target..."
+#~ msgstr "Alegeți ținta..."
+
+#~ msgid "Refresh"
+#~ msgstr "Reîmprospătează"
+
+#~ msgid "Delete Data"
+#~ msgstr "Șterge datele"
+
+#~ msgid "Application Performance Profiler"
+#~ msgstr "Profilator de performanțe ale aplicației"
+
+#~ msgid "Flat Profile"
+#~ msgstr "Profil neted"
+
+#~ msgid "Call Graph"
+#~ msgstr "Graficul apelurilor"
+
+#~ msgid "Function Call Tree"
+#~ msgstr "Arborele apelurilor de funcții"
+
+#~ msgid "Function Call Chart"
+#~ msgstr "Diagrama apelurilor de funcții"
+
+#~ msgid "Options"
+#~ msgstr "Opțiuni"
+
+#~ msgid "Select debugging target"
+#~ msgstr "Alegeți ținta de depanare"
+
+#~ msgid "Valgrind"
+#~ msgstr "Valgrind"
+
+#~ msgid ""
+#~ "No executable target selected for debugging with Valgrind. Please select "
+#~ "one."
+#~ msgstr ""
+#~ "Niciun fișier executabil nu a fost selectat pentru depanare cu Valgrind. "
+#~ "Alegeți unul."
+
+#~ msgid ""
+#~ "There aren't any available executable targets for this project.\n"
+#~ "Please create one first."
+#~ msgstr ""
+#~ "Nu sunt ținte executabile valabile pentru acest proiect.\n"
+#~ "creați unul întâi."
+
+#~ msgid "Choose file where to save Valgrind log"
+#~ msgstr "Alegeți fișierul pentru a salva istoricul Valgrind"
+
+#~ msgid ""
+#~ "The file '%s' already exists.\n"
+#~ "Do you want to replace it with the one you are saving?"
+#~ msgstr ""
+#~ "Fișierul „%s” există deja.\n"
+#~ "Doriți să îl înlocuiți cu cel pe care îl salvați?"
+
+#~ msgid "_Replace"
+#~ msgstr "Î_nlocuiește"
+
+#~ msgid "Open Valgrind log file"
+#~ msgstr "Deschide fișierul de istoric Valgrind"
+
+#~ msgid "_Debug"
+#~ msgstr "_Depanare"
+
+#~ msgid "_Valgrind"
+#~ msgstr "_Valgrind"
+
+#~ msgid "_Select Tool and Run..."
+#~ msgstr "A_lege unealta și rulează..."
+
+#~ msgid "_Kill Execution"
+#~ msgstr "O_prește execuția"
+
+#~ msgid "_Load Log"
+#~ msgstr "Isto_ric de încărcare"
+
+#~ msgid "S_ave Log"
+#~ msgstr "Istoric de _salvări"
+
+#~ msgid "Edit Rules"
+#~ msgstr "Modifică regulile"
+
+#~ msgid "Use Valgrind debug tool"
+#~ msgstr "Folosește unealta de depanare Valgrind"
+
+#~ msgid "<b>Valgrind general preferences</b>"
+#~ msgstr "<b>Preferințe generale Valgrind</b>"
+
+#~ msgid "Valgrind binary file path:"
+#~ msgstr "Calea fișierului binar Valgrind:"
+
+#~ msgid "Choose Valgrind Binary File Path..."
+#~ msgstr "Alege calea fișierului binar Valgrind..."
+
+#~ msgid "Preview"
+#~ msgstr "Previzualizare"
+
+#~ msgid "lines above and below the target line."
+#~ msgstr "linii sub și deasupra liniei țintă."
+
+#~ msgid "Failed to create pipe to '%s': %s"
+#~ msgstr "Nu s-a putut crea conexiunea la „%s”: %s"
+
+#~ msgid "Failed to create child process '%s': %s"
+#~ msgstr "Nu s-a putut crea procesul de copil „%s”: %s"
+
+#~ msgid ""
+#~ "Reached the end of the input file or error in parsing valgrind output."
+#~ msgstr ""
+#~ "A fost atins sfârșitul fișierului de intrare sau al erorii în analiza "
+#~ "datelor de ieșire valgrind."
+
+#~ msgid "Process exited."
+#~ msgstr "Proces oprit."
+
+#~ msgid "Could not get the right valgrind-binary gconf key:"
+#~ msgstr "Nu s-a putut obține cheia gconf corectă pentru valgrind-binary:"
+
+#~ msgid ""
+#~ "Valgrind binary [%s] does not exist. Please check the preferences or "
+#~ "install Valgrind package."
+#~ msgstr ""
+#~ "Valgrind binary [%s] nu există. Verificați preferințele sau instalați "
+#~ "pachetul Valgrind."
+
+#~ msgid "Could not get the right pipe for the process."
+#~ msgstr "Nu s-a putut obține conectarea corectă pentru proces."
+
+#~ msgid ""
+#~ "Invalid syntax in settings '%s'.\n"
+#~ "Please enter a value of the form \"<integer>,<integer>,<integer>\"."
+#~ msgstr ""
+#~ "Sintaxă nevalidă în setările „%s”.\n"
+#~ "Introduceți o valoare de forma „<integer>,<integer>,<integer>”."
+
+#~ msgid "Override default settings"
+#~ msgstr "Suprascrie setările implicite"
+
+#~ msgid "Enter <size>,<assoc>,<line_size>:"
+#~ msgstr "Introduceți <size>,<assoc>,<line_size>:"
+
+#~ msgid "Cachegrind"
+#~ msgstr "Cachegrind"
+
+#~ msgid "Error contains"
+#~ msgstr "Eroarea conține"
+
+#~ msgid "Function contains"
+#~ msgstr "Funcția conține"
+
+#~ msgid "Object contains"
+#~ msgstr "Obiectul conține"
+
+#~ msgid "Source filename contains"
+#~ msgstr "Numele fișierului sursă conține"
+
+#~ msgid "Invalid regular expression: '%s': %s"
+#~ msgstr "Expresie normală nevalidă: „%s”: %s"
+
+#~ msgid "Valgrind Suppression Rules"
+#~ msgstr "Reguli de suprimare ale Valgrind"
+
+#~ msgid "Valgrind Suppression"
+#~ msgstr "Suprimare Valgrind"
+
+#~ msgid "Cu_t"
+#~ msgstr "_Taie"
+
+#~ msgid "_Copy"
+#~ msgstr "_Copiază"
+
+#~ msgid "_Paste"
+#~ msgstr "Li_pește"
+
+#~ msgid "Suppress"
+#~ msgstr "Suprimă"
+
+#~ msgid "Edit in Custom Editor"
+#~ msgstr "Modifică în editorul personalizat"
+
+#~ msgid "General"
+#~ msgstr "Generale"
+
+#~ msgid "Demangle C++ symbol names"
+#~ msgstr "Demangle pe simbolurile C++"
+
+#~ msgid "Show"
+#~ msgstr "Arată"
+
+#~ msgid "callers in stack trace"
+#~ msgstr "apelatori în trasarea stivei"
+
+#~ msgid "Stop showing errors if there are too many"
+#~ msgstr "Nu mai arăta erori dacă sunt prea multe"
+
+#~ msgid "Round malloc sizes to next word"
+#~ msgstr "Rotunjește dimensiunea pentru malloc() la următorul cuvânt"
+
+#~ msgid "Trace any child processes forked off by the program being debugged"
+#~ msgstr "Trasează orice proces de copil desprins de programul depanat"
+
+#~ msgid "Track open file descriptors"
+#~ msgstr "Urmărește descriptorii de fișier deschiși"
+
+#~ msgid "Add time stamps to log messages"
+#~ msgstr "Adaugă marcaje de timp la mesajele de istoric"
+
+#~ msgid "Call __libc_freeres() at exit before checking for memory leaks"
+#~ msgstr ""
+#~ "Apelează _libc_freeres() la ieșire înainte de verificarea scurgerilor de "
+#~ "memorie"
+
+#~ msgid "Suppressions File:"
+#~ msgstr "Fișier de suprimare:"
+
+#~ msgid "Choose Valgrind Suppressions File..."
+#~ msgstr "Alegeți fișierul Valgrind suprimat..."
+
+#~ msgid "Helgrind"
+#~ msgstr "Helgrind"
+
+#~ msgid "Assume thread stacks are used privately"
+#~ msgstr "Presupune că stivele firelor de execuție sunt utilizate privat"
+
+#~ msgid "Show location of last word access on error:"
+#~ msgstr "Arată locația ultimului cuvânt accesat la eroare:"
+
+#~ msgid "Memcheck"
+#~ msgstr "Memcheck"
+
+#~ msgid "Memory leaks"
+#~ msgstr "Scurgeri de memorie"
+
+#~ msgid "Leak check:"
+#~ msgstr "Verificare de scurgeri:"
+
+#~ msgid "Show reachable blocks in leak check"
+#~ msgstr "Arată blocurile la care se poate ajunge la verificarea de scurgeri"
+
+#~ msgid "Leak resolution:"
+#~ msgstr "Rezoluția scurgerilor:"
+
+#~ msgid "Keep up to"
+#~ msgstr "Păstrează până la"
+
+#~ msgid "bytes in the queue after being free()'d"
+#~ msgstr "octeții în coadă după ce au fost eliberați cu free()"
+
+#~ msgid "Work around bugs generated by gcc 2.96"
+#~ msgstr "Lucrează în jurul erorilor generate de gcc 2.96"
+
+#~ msgid "Function"
+#~ msgstr "Funcție"
+
+#~ msgid "Shared Object"
+#~ msgstr "Obiect partajat"
+
+#~ msgid "Grow"
+#~ msgstr "Crește"
+
+#~ msgid "Shrink"
+#~ msgstr "Micșorează"
+
+#~ msgid "Rule name:"
+#~ msgstr "Numele regulii:"
+
+#~ msgid "Suppress messages of type:"
+#~ msgstr "Suprimă mesajele de tipul:"
+
+#~ msgid "Suppress when using:"
+#~ msgstr "Suprimă când se folosește:"
+
+#~ msgid "System call:"
+#~ msgstr "Apel de sistem:"
+
+#~ msgid "Call chain:"
+#~ msgstr "Lanț de apel:"
+
+#~ msgid "Error saving to suppression file '%s': %s"
+#~ msgstr "Eroare la salvarea în fișierul de suprimare „%s”: %s"
+
+#~ msgid "You have forgotten to name your suppression rule."
+#~ msgstr "Ați uitat să numiți regula de suprimare."
+
+#~ msgid "_Edit"
+#~ msgstr "_Editează"
+
+#~ msgid "Cannot save suppression rules: %s"
+#~ msgstr "Nu se poate salva regula de suprimare: %s"
+
+#~ msgid "You have not set a suppressions file in your settings."
+#~ msgstr "Nu aveți setat un fișier de suprimare în setările dumneavoastră."
+
+#~ msgid "Application performance profiler"
+#~ msgstr "Profilator de performanțe ale aplicației"
+
+#~ msgid "Profile"
+#~ msgstr "Profil"
+
+#~ msgid "Powerful debugging tool."
+#~ msgstr "Unealtă de depanare puternică."
+
+#~ msgid "Valgrind Plugin"
+#~ msgstr "Modul Valgrind"

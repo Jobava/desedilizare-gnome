@@ -1,0 +1,2495 @@
+# Romanian translation for webkit.
+# Copyright (C) 2010-2013 webkit's COPYRIGHT HOLDER
+# This file is distributed under the same license as the webkit package.
+# kuchiki14 <kuchiki14@yahoo.com>, 2010.
+# Daniel Șerbănescu <daniel@serbanescu.dk>, 2012.
+# Mișu Moldovan <dumol@xfce.org>, 2012 - 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: webkit HEAD\n"
+"Report-Msgid-Bugs-To: https://bugs.webkit.org\n"
+"POT-Creation-Date: 2015-07-23 00:13+0000\n"
+"PO-Revision-Date: 2013-02-12 12:02+0200\n"
+"Last-Translator: Mișu Moldovan <dumol@gnome.org>\n"
+"Language-Team: Romanian <diacritice@googlegroups.com>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);;\n"
+"X-Generator: Virtaal 0.7.0\n"
+
+#: ../ErrorsGtk.cpp:33
+msgid "Load request cancelled"
+msgstr "Cerere de încărcare anulată"
+
+#: ../ErrorsGtk.cpp:39
+msgid "Not allowed to use restricted network port"
+msgstr "Utilizarea acestui port de rețea este restricționată"
+
+#: ../ErrorsGtk.cpp:45
+msgid "URL cannot be shown"
+msgstr "Nu se poate afișa adresa URL"
+
+#: ../ErrorsGtk.cpp:51
+msgid "Frame load was interrupted"
+msgstr "Încărcarea cadrului a fost întreruptă"
+
+#: ../ErrorsGtk.cpp:57
+msgid "Content with the specified MIME type cannot be shown"
+msgstr "Conținutul cu tipul MIME specificat nu se poate afișa"
+
+#: ../ErrorsGtk.cpp:63
+msgid "File does not exist"
+msgstr "Fișierul nu există"
+
+#: ../ErrorsGtk.cpp:69
+msgid "Plugin will handle load"
+msgstr "Încărcarea va fi în sarcina modulului"
+
+#: ../ErrorsGtk.cpp:81
+msgid "User cancelled the download"
+msgstr "Utilizatorul a renunțat la descărcare"
+
+#: ../ErrorsGtk.cpp:97
+msgid "Printer not found"
+msgstr "Nu s-a găsit imprimanta"
+
+#: ../ErrorsGtk.cpp:102
+msgid "Invalid page range"
+msgstr "Interval de pagini greșit"
+
+#: ../LocalizedStringsGtk.cpp:55 ../LocalizedStringsGtk.cpp:60
+msgid "Submit"
+msgstr "Trimitere"
+
+#: ../LocalizedStringsGtk.cpp:65
+msgid "Reset"
+msgstr "Reinițializare"
+
+#: ../LocalizedStringsGtk.cpp:70
+msgid "Details"
+msgstr "Detalii"
+
+#: ../LocalizedStringsGtk.cpp:75
+msgid "This is a searchable index. Enter search keywords: "
+msgstr ""
+"Acesta este un index în care se pot face căutări. Introduceți cuvintele "
+"cheie de căutat:"
+
+#: ../LocalizedStringsGtk.cpp:80
+msgid "Choose File"
+msgstr "Alegeți un fișier"
+
+#: ../LocalizedStringsGtk.cpp:85
+msgid "Choose Files"
+msgstr "Alegeți fișiere"
+
+#: ../LocalizedStringsGtk.cpp:90 ../LocalizedStringsGtk.cpp:95
+msgid "(None)"
+msgstr "(Nimic)"
+
+#: ../LocalizedStringsGtk.cpp:100
+msgid "Open Link in New _Window"
+msgstr "Deschide linkul într-o _fereastră nouă"
+
+#: ../LocalizedStringsGtk.cpp:105
+msgid "_Download Linked File"
+msgstr "_Descarcă fișierul din link"
+
+#: ../LocalizedStringsGtk.cpp:110
+msgid "Copy Link Loc_ation"
+msgstr "Copiază _adresa linkului"
+
+#: ../LocalizedStringsGtk.cpp:115
+msgid "Open _Image in New Window"
+msgstr "Deschide _imaginea într-o fereastră nouă"
+
+#: ../LocalizedStringsGtk.cpp:120
+msgid "Sa_ve Image As"
+msgstr "Sal_vează imaginea ca"
+
+#: ../LocalizedStringsGtk.cpp:125
+msgid "Cop_y Image"
+msgstr "Copia_ză imaginea"
+
+#: ../LocalizedStringsGtk.cpp:130
+msgid "Copy Image _Address"
+msgstr "Copiază a_dresa imaginii"
+
+#: ../LocalizedStringsGtk.cpp:135
+msgid "Open _Video in New Window"
+msgstr "Deschide materialul _video într-o fereastră nouă"
+
+#: ../LocalizedStringsGtk.cpp:140
+msgid "Open _Audio in New Window"
+msgstr "Deschide materialul _audio într-o fereastră nouă"
+
+#: ../LocalizedStringsGtk.cpp:145
+#, fuzzy
+#| msgid "_Download Linked File"
+msgid "Download _Video"
+msgstr "_Descarcă fișierul din link"
+
+#: ../LocalizedStringsGtk.cpp:150
+#, fuzzy
+#| msgid "_Download Linked File"
+msgid "Download _Audio"
+msgstr "_Descarcă fișierul din link"
+
+#: ../LocalizedStringsGtk.cpp:155
+msgid "Cop_y Video Link Location"
+msgstr "Copia_ză adresa materialului video"
+
+#: ../LocalizedStringsGtk.cpp:160
+msgid "Cop_y Audio Link Location"
+msgstr "Copi_ază adresa materialului audio"
+
+#: ../LocalizedStringsGtk.cpp:165
+msgid "_Toggle Media Controls"
+msgstr "Comu_tă controalele media"
+
+#: ../LocalizedStringsGtk.cpp:170
+#, fuzzy
+#| msgid "_Toggle Media Controls"
+msgid "_Show Media Controls"
+msgstr "Comu_tă controalele media"
+
+#: ../LocalizedStringsGtk.cpp:175
+#, fuzzy
+#| msgid "_Toggle Media Controls"
+msgid "_Hide Media Controls"
+msgstr "Comu_tă controalele media"
+
+#: ../LocalizedStringsGtk.cpp:180
+msgid "Toggle Media _Loop Playback"
+msgstr "Comută _repetarea redării multimedia"
+
+#: ../LocalizedStringsGtk.cpp:185
+msgid "Switch Video to _Fullscreen"
+msgstr "Comută redarea pe tot _ecranul "
+
+#: ../LocalizedStringsGtk.cpp:190
+msgid "_Play"
+msgstr "_Redă"
+
+#: ../LocalizedStringsGtk.cpp:195
+msgid "_Pause"
+msgstr "_Pauză"
+
+#: ../LocalizedStringsGtk.cpp:200
+msgid "_Mute"
+msgstr "_Silențios"
+
+#: ../LocalizedStringsGtk.cpp:205
+msgid "Open _Frame in New Window"
+msgstr "Deschide cadrul într-o _fereastră nouă"
+
+#: ../LocalizedStringsGtk.cpp:228
+msgid "_Insert Unicode Control Character"
+msgstr "_Introduceți un caracter de control Unicode"
+
+#: ../LocalizedStringsGtk.cpp:233
+msgid "Input _Methods"
+msgstr "_Metode de input"
+
+#: ../LocalizedStringsGtk.cpp:256
+msgid "_Reload"
+msgstr "_Reîncarcă"
+
+#: ../LocalizedStringsGtk.cpp:273
+msgid "No Guesses Found"
+msgstr "Nu s-au găsit sugestii"
+
+#: ../LocalizedStringsGtk.cpp:278
+msgid "_Ignore Spelling"
+msgstr "Nu _verifica ortografia"
+
+#: ../LocalizedStringsGtk.cpp:283
+msgid "_Learn Spelling"
+msgstr "Învață _ortografia"
+
+#: ../LocalizedStringsGtk.cpp:288
+msgid "_Search the Web"
+msgstr "_Caută pe net"
+
+#: ../LocalizedStringsGtk.cpp:293
+msgid "_Look Up in Dictionary"
+msgstr "Caută în _dicționar"
+
+#: ../LocalizedStringsGtk.cpp:298
+msgid "_Open Link"
+msgstr "_Deschide linkul"
+
+#: ../LocalizedStringsGtk.cpp:303
+msgid "Ignore _Grammar"
+msgstr "Nu ve_rifica gramatica"
+
+#: ../LocalizedStringsGtk.cpp:308
+msgid "Spelling and _Grammar"
+msgstr "_Ortografie și gramatică"
+
+#: ../LocalizedStringsGtk.cpp:313
+msgid "_Show Spelling and Grammar"
+msgstr "Afișează _verificările de ortografie și gramatică"
+
+#: ../LocalizedStringsGtk.cpp:313
+msgid "_Hide Spelling and Grammar"
+msgstr "Ascunde ve_rificările de ortografie și gramatică"
+
+#: ../LocalizedStringsGtk.cpp:318
+msgid "_Check Document Now"
+msgstr "Verifică acum _documentul"
+
+#: ../LocalizedStringsGtk.cpp:323
+msgid "Check Spelling While _Typing"
+msgstr "Verifică ortografia în timpul _tastării"
+
+#: ../LocalizedStringsGtk.cpp:328
+msgid "Check _Grammar With Spelling"
+msgstr "Veri_fică gramatica împreună cu ortografia"
+
+#: ../LocalizedStringsGtk.cpp:333
+msgid "_Font"
+msgstr "_Font"
+
+#: ../LocalizedStringsGtk.cpp:356
+msgid "_Outline"
+msgstr "C_ontur"
+
+#: ../LocalizedStringsGtk.cpp:361
+msgid "Inspect _Element"
+msgstr "_Inspectați elementul"
+
+#: ../LocalizedStringsGtk.cpp:366
+msgid "LRM _Left-to-right mark"
+msgstr "Marcaj _stânga-spre-dreapta LRM"
+
+#: ../LocalizedStringsGtk.cpp:371
+msgid "RLM _Right-to-left mark"
+msgstr "Marcaj _dreapta-spre-stânga RLM"
+
+#: ../LocalizedStringsGtk.cpp:376
+msgid "LRE Left-to-right _embedding"
+msgstr "Î_ncapsulare stânga-spre-dreapta LRE"
+
+#: ../LocalizedStringsGtk.cpp:381
+msgid "RLE Right-to-left e_mbedding"
+msgstr "În_capsulare dreapta-spre-stânga RLE"
+
+#: ../LocalizedStringsGtk.cpp:386
+msgid "LRO Left-to-right _override"
+msgstr "S_uprascriere stânga-spre-dreapta LRO"
+
+#: ../LocalizedStringsGtk.cpp:391
+msgid "RLO Right-to-left o_verride"
+msgstr "Supr_ascriere dreapta-spre-stânga RLO"
+
+#: ../LocalizedStringsGtk.cpp:396
+msgid "PDF _Pop directional formatting"
+msgstr "_Formatare direcțională Pop PDF"
+
+#: ../LocalizedStringsGtk.cpp:401
+msgid "ZWS _Zero width space"
+msgstr "Spațiu de lungime _zero ZWS"
+
+#: ../LocalizedStringsGtk.cpp:406
+msgid "ZWJ Zero width _joiner"
+msgstr "_Legătură de lungime zero ZWJ"
+
+#: ../LocalizedStringsGtk.cpp:411
+msgid "ZWNJ Zero width _non-joiner"
+msgstr "N_on-legătură de lungime zero ZWNJ"
+
+#: ../LocalizedStringsGtk.cpp:416
+msgid "No recent searches"
+msgstr "Nicio căutare recentă"
+
+#: ../LocalizedStringsGtk.cpp:421
+msgid "Recent searches"
+msgstr "Căutări recente"
+
+#: ../LocalizedStringsGtk.cpp:426
+msgid "_Clear recent searches"
+msgstr "_Golește căutările recente"
+
+#: ../LocalizedStringsGtk.cpp:431
+msgid "definition"
+msgstr "definiție"
+
+#: ../LocalizedStringsGtk.cpp:436
+#, fuzzy
+#| msgid "description"
+msgid "description list"
+msgstr "descriere"
+
+#: ../LocalizedStringsGtk.cpp:441
+msgid "term"
+msgstr "termen"
+
+#: ../LocalizedStringsGtk.cpp:446
+msgid "description"
+msgstr "descriere"
+
+#: ../LocalizedStringsGtk.cpp:451
+msgid "footer"
+msgstr "notă de subsol"
+
+#: ../LocalizedStringsGtk.cpp:456
+msgid "cancel"
+msgstr ""
+
+#: ../LocalizedStringsGtk.cpp:461
+msgid "press"
+msgstr "apăsați"
+
+#: ../LocalizedStringsGtk.cpp:466
+msgid "select"
+msgstr "alegeți"
+
+#: ../LocalizedStringsGtk.cpp:471
+msgid "activate"
+msgstr "activați"
+
+#: ../LocalizedStringsGtk.cpp:476
+msgid "uncheck"
+msgstr "debifați"
+
+#: ../LocalizedStringsGtk.cpp:481
+msgid "check"
+msgstr "bifați"
+
+#: ../LocalizedStringsGtk.cpp:486
+msgid "jump"
+msgstr "salt"
+
+#: ../LocalizedStringsGtk.cpp:506
+msgid "Missing Plug-in"
+msgstr "Modul lipsă"
+
+#: ../LocalizedStringsGtk.cpp:512
+msgid "Plug-in Failure"
+msgstr "Eroare de modul"
+
+#. FIXME: If this file gets localized, this should really be localized as one string with a wildcard for the number.
+#: ../LocalizedStringsGtk.cpp:530
+msgid " files"
+msgstr " fișiere"
+
+#: ../LocalizedStringsGtk.cpp:535
+msgid "Unknown"
+msgstr "Nu se cunoaște"
+
+#: ../LocalizedStringsGtk.cpp:540
+#, c-format
+msgctxt "Title string for images"
+msgid "%s  (%dx%d pixels)"
+msgstr "%s  (%dx%d pixeli)"
+
+#: ../LocalizedStringsGtk.cpp:551
+msgid "Loading..."
+msgstr "Se încarcă..."
+
+#: ../LocalizedStringsGtk.cpp:556
+msgid "Live Broadcast"
+msgstr "Transmisiune în direct"
+
+#: ../LocalizedStringsGtk.cpp:562
+#, fuzzy
+#| msgid "pause playback"
+msgid "audio playback"
+msgstr "pune pauză redării"
+
+#: ../LocalizedStringsGtk.cpp:564
+#, fuzzy
+#| msgid "begin playback"
+msgid "video playback"
+msgstr "pornește redarea"
+
+#: ../LocalizedStringsGtk.cpp:566
+msgid "mute"
+msgstr "fără sunet"
+
+#: ../LocalizedStringsGtk.cpp:568
+msgid "unmute"
+msgstr "cu sunet"
+
+#: ../LocalizedStringsGtk.cpp:570
+msgid "play"
+msgstr "redare"
+
+#: ../LocalizedStringsGtk.cpp:572
+msgid "pause"
+msgstr "pauză"
+
+#: ../LocalizedStringsGtk.cpp:574
+msgid "movie time"
+msgstr "durata filmului"
+
+#: ../LocalizedStringsGtk.cpp:576
+msgid "timeline slider thumb"
+msgstr "glisor de progres în redare"
+
+#: ../LocalizedStringsGtk.cpp:578
+msgid "back 30 seconds"
+msgstr "înapoi cu 30 de secunde"
+
+#: ../LocalizedStringsGtk.cpp:580
+msgid "return to realtime"
+msgstr "revenire la redarea în timp real"
+
+#: ../LocalizedStringsGtk.cpp:582
+msgid "elapsed time"
+msgstr "timp scurs"
+
+#: ../LocalizedStringsGtk.cpp:584
+msgid "remaining time"
+msgstr "timp rămas"
+
+#: ../LocalizedStringsGtk.cpp:586
+msgid "status"
+msgstr "stare"
+
+#: ../LocalizedStringsGtk.cpp:588
+msgid "enter fullscreen"
+msgstr "pe tot ecranul"
+
+#: ../LocalizedStringsGtk.cpp:590
+msgid "exit fullscreen"
+msgstr "mărime normală"
+
+#: ../LocalizedStringsGtk.cpp:592
+msgid "fast forward"
+msgstr "derulare înainte"
+
+#: ../LocalizedStringsGtk.cpp:594
+msgid "fast reverse"
+msgstr "derulare înapoi"
+
+#: ../LocalizedStringsGtk.cpp:596
+msgid "show closed captions"
+msgstr "arată subtitrarea"
+
+#: ../LocalizedStringsGtk.cpp:598
+msgid "hide closed captions"
+msgstr "ascunde subtitrarea"
+
+#: ../LocalizedStringsGtk.cpp:600
+msgid "media controls"
+msgstr "controale media"
+
+#: ../LocalizedStringsGtk.cpp:609
+msgid "audio element playback controls and status display"
+msgstr "controale de redare audio și afișarea stării"
+
+#: ../LocalizedStringsGtk.cpp:611
+msgid "video element playback controls and status display"
+msgstr "controale de redare video și afișarea stării"
+
+#: ../LocalizedStringsGtk.cpp:613
+msgid "mute audio tracks"
+msgstr "nu reda sunetul"
+
+#: ../LocalizedStringsGtk.cpp:615
+msgid "unmute audio tracks"
+msgstr "redă sunetul"
+
+#: ../LocalizedStringsGtk.cpp:617
+msgid "begin playback"
+msgstr "pornește redarea"
+
+#: ../LocalizedStringsGtk.cpp:619
+msgid "pause playback"
+msgstr "pune pauză redării"
+
+#: ../LocalizedStringsGtk.cpp:621
+msgid "movie time scrubber"
+msgstr "bară de progres în redare"
+
+#: ../LocalizedStringsGtk.cpp:623
+msgid "movie time scrubber thumb"
+msgstr "glisorul barei de progres în redare"
+
+#: ../LocalizedStringsGtk.cpp:625
+msgid "seek movie back 30 seconds"
+msgstr "derulează înapoi cu 30 de secunde"
+
+#: ../LocalizedStringsGtk.cpp:627
+msgid "return streaming movie to real time"
+msgstr "revino la redarea în timp real"
+
+#: ../LocalizedStringsGtk.cpp:629
+msgid "current movie time in seconds"
+msgstr "timpul redat, în secunde"
+
+#: ../LocalizedStringsGtk.cpp:631
+msgid "number of seconds of movie remaining"
+msgstr "timpul de redat, în secunde"
+
+#: ../LocalizedStringsGtk.cpp:633
+msgid "current movie status"
+msgstr "starea materialului în redare"
+
+#: ../LocalizedStringsGtk.cpp:635
+msgid "seek quickly back"
+msgstr "derulare rapidă înapoi"
+
+#: ../LocalizedStringsGtk.cpp:637
+msgid "seek quickly forward"
+msgstr "derulare rapidă înainte"
+
+#: ../LocalizedStringsGtk.cpp:639
+msgid "Play movie in fullscreen mode"
+msgstr "Redare pe tot ecranul"
+
+#: ../LocalizedStringsGtk.cpp:641
+msgid "Exit fullscreen mode"
+msgstr "Revenire la normal"
+
+#: ../LocalizedStringsGtk.cpp:643
+msgid "start displaying closed captions"
+msgstr "începe afișarea subtitrării"
+
+#: ../LocalizedStringsGtk.cpp:645
+msgid "stop displaying closed captions"
+msgstr "oprește afișarea subtitrării"
+
+#: ../LocalizedStringsGtk.cpp:654
+msgid "indefinite time"
+msgstr "timp nedefinit"
+
+#: ../LocalizedStringsGtk.cpp:684
+msgid "value missing"
+msgstr "valoare lipsă"
+
+#: ../LocalizedStringsGtk.cpp:720
+msgid "type mismatch"
+msgstr "nepotrivire de tip"
+
+#: ../LocalizedStringsGtk.cpp:743
+msgid "pattern mismatch"
+msgstr "nepotrivire de model"
+
+#: ../LocalizedStringsGtk.cpp:748
+msgid "too long"
+msgstr "prea lung"
+
+#: ../LocalizedStringsGtk.cpp:753
+msgid "range underflow"
+msgstr "valoare sub limită"
+
+#: ../LocalizedStringsGtk.cpp:758
+msgid "range overflow"
+msgstr "valoare peste limită"
+
+#: ../LocalizedStringsGtk.cpp:763
+msgid "step mismatch"
+msgstr "granularitate nepotrivită"
+
+#: ../LocalizedStringsGtk.cpp:768
+msgid "Unacceptable TLS certificate"
+msgstr "Certificat TLS de neacceptat"
+
+#: ../LocalizedStringsGtk.cpp:785
+msgctxt "Menu section heading for subtitles"
+msgid "Subtitles"
+msgstr ""
+
+#: ../LocalizedStringsGtk.cpp:790
+msgctxt ""
+"Menu item label for the track that represents disabling closed captions"
+msgid "Off"
+msgstr ""
+
+#: ../LocalizedStringsGtk.cpp:795
+msgctxt "Menu item label for the automatically choosen track"
+msgid "Auto"
+msgstr ""
+
+#: ../LocalizedStringsGtk.cpp:800
+msgctxt "Menu item label for a closed captions track that has no other name"
+msgid "No label"
+msgstr ""
+
+#: ../LocalizedStringsGtk.cpp:805
+msgctxt "Menu item label for an audio track that has no other name"
+msgid "No label"
+msgstr ""
+
+#: ../LocalizedStringsGtk.cpp:811
+msgctxt "Snapshotted Plug-In"
+msgid "Title of the label to show on a snapshotted plug-in"
+msgstr ""
+
+#: ../LocalizedStringsGtk.cpp:816
+msgctxt "Click to restart"
+msgid "Subtitle of the label to show on a snapshotted plug-in"
+msgstr ""
+
+#: ../../../../WebKit2/Shared/Downloads/soup/DownloadSoup.cpp:99
+#, c-format
+msgid ""
+"Cannot determine destination URI for download with suggested filename %s"
+msgstr ""
+
+#. Title of the HTTP authentication dialog.
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitAuthenticationDialog.cpp:93
+msgid "Authentication Required"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitAuthenticationDialog.cpp:104
+msgid "_Cancel"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitAuthenticationDialog.cpp:110
+msgid "_Authenticate"
+msgstr ""
+
+#. Prompt on the HTTP authentication dialog.
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitAuthenticationDialog.cpp:122
+#, c-format
+msgid "Authentication required by %s:%i"
+msgstr ""
+
+#. Label on the HTTP authentication dialog. %s is a (probably English) message from the website.
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitAuthenticationDialog.cpp:131
+#, c-format
+msgid "The site says: “%s”"
+msgstr ""
+
+#. Check button on the HTTP authentication dialog.
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitAuthenticationDialog.cpp:138
+msgid "_Remember password"
+msgstr "_Reține parola"
+
+#. Entry on the HTTP authentication dialog.
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitAuthenticationDialog.cpp:147
+#, fuzzy
+#| msgid "Username:"
+msgid "_Username"
+msgstr "Nume de utilizator:"
+
+#. Entry on the HTTP authentication dialog.
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitAuthenticationDialog.cpp:159
+#, fuzzy
+#| msgid "Password:"
+msgid "_Password"
+msgstr "Parolă:"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitDownload.cpp:164
+#, fuzzy
+msgid "Destination"
+msgstr "Destinație URI"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitDownload.cpp:165
+#, fuzzy
+msgid "The local URI to where the download will be saved"
+msgstr "Adresa URI către care se va răspunde."
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitDownload.cpp:177
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebResource.cpp:123
+#, fuzzy
+msgid "Response"
+msgstr "Răspuns din rețea"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitDownload.cpp:178
+#, fuzzy
+msgid "The response of the download"
+msgstr "Determină progresul curent al descărcării"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitDownload.cpp:195
+#, fuzzy
+msgid "Estimated Progress"
+msgstr "Progres"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitDownload.cpp:196
+msgid "Determines the current progress of the download"
+msgstr "Determină progresul curent al descărcării"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitDownload.cpp:214
+msgid "Allow Overwrite"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitDownload.cpp:215
+#, fuzzy
+msgid "Whether the destination may be overwritten"
+msgstr "Specifică dacă zonele de text sunt redimensionabile."
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitFaviconDatabase.cpp:142
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitFaviconDatabase.cpp:322
+#, c-format
+msgid "Unknown favicon for page %s"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitFaviconDatabase.cpp:148
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitFaviconDatabase.cpp:278
+#, c-format
+msgid "Page %s does not have a favicon"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitFaviconDatabase.cpp:272
+msgid "Favicons database not initialized yet"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitFileChooserRequest.cpp:129
+msgid "MIME types filter"
+msgstr "Filtru de tipuri MIME"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitFileChooserRequest.cpp:130
+msgid "The filter currently associated with the request"
+msgstr "Filtrul asociat curent cu această cerere"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitFileChooserRequest.cpp:143
+msgid "MIME types"
+msgstr "Tipuri MIME"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitFileChooserRequest.cpp:144
+msgid "The list of MIME types associated with the request"
+msgstr "Lista tipurilor MIME asociate cu această cerere"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitFileChooserRequest.cpp:158
+msgid "Select multiple files"
+msgstr "Selectare multiplă de fișiere"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitFileChooserRequest.cpp:159
+msgid "Whether the file chooser should allow selecting multiple files"
+msgstr ""
+"Specifică dacă selectorul de fișiere permite selectarea mai multor fișiere"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitFileChooserRequest.cpp:172
+msgid "Selected files"
+msgstr "Fișiere selectate"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitFileChooserRequest.cpp:173
+msgid "The list of selected files associated with the request"
+msgstr "Lista fișierelor selectate asociată cu cererea"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitFindController.cpp:190
+#, fuzzy
+msgid "Search text"
+msgstr "_Caută pe net"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitFindController.cpp:191
+#, fuzzy
+msgid "Text to search for in the view"
+msgstr "Codarea personalizată pentru vizualizarea web"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitFindController.cpp:203
+msgid "Search Options"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitFindController.cpp:204
+msgid "Search options to be used in the search operation"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitFindController.cpp:217
+#, fuzzy
+msgid "Maximum matches count"
+msgstr "Factor de scalare maximă"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitFindController.cpp:218
+#, fuzzy
+msgid "The maximum number of matches in a given text to report"
+msgstr "Scalare maximă a vizualizării."
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitFindController.cpp:230
+#, fuzzy
+msgid "WebView"
+msgstr "Vizualizare web"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitFindController.cpp:231
+#, fuzzy
+msgid "The WebView associated with this find controller"
+msgstr "Nodul DOM intern asociat cu rezultatul testului hit."
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitHitTestResult.cpp:152
+msgid "Context"
+msgstr "Context"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitHitTestResult.cpp:153
+msgid "Flags with the context of the WebKitHitTestResult"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitHitTestResult.cpp:166
+msgid "Link URI"
+msgstr "Adresă URI"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitHitTestResult.cpp:167
+#, fuzzy
+msgid "The link URI"
+msgstr "Adresă URI"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitHitTestResult.cpp:179
+#, fuzzy
+msgid "Link Title"
+msgstr "Titlu"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitHitTestResult.cpp:180
+msgid "The link title"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitHitTestResult.cpp:192
+msgid "Link Label"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitHitTestResult.cpp:193
+msgid "The link label"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitHitTestResult.cpp:205
+msgid "Image URI"
+msgstr "Imagine URI"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitHitTestResult.cpp:206
+#, fuzzy
+msgid "The image URI"
+msgstr "Imagine URI"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitHitTestResult.cpp:218
+msgid "Media URI"
+msgstr "Media URI"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitHitTestResult.cpp:219
+#, fuzzy
+msgid "The media URI"
+msgstr "Media URI"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitNavigationPolicyDecision.cpp:113
+msgid "Navigation action"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitNavigationPolicyDecision.cpp:114
+msgid "The WebKitNavigationAction triggering this decision"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitNavigationPolicyDecision.cpp:130
+msgid "Navigation type"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitNavigationPolicyDecision.cpp:131
+msgid "The type of navigation triggering this decision"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitNavigationPolicyDecision.cpp:150
+msgid "Mouse button"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitNavigationPolicyDecision.cpp:151
+msgid "The mouse button used if this decision was triggered by a mouse event"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitNavigationPolicyDecision.cpp:169
+msgid "Mouse event modifiers"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitNavigationPolicyDecision.cpp:170
+msgid "The modifiers active if this decision was triggered by a mouse event"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitNavigationPolicyDecision.cpp:185
+msgid "Navigation URI request"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitNavigationPolicyDecision.cpp:186
+#, fuzzy
+msgid "The URI request that is associated with this navigation"
+msgstr "Adresa URI cerută ca destinație pentru navigare"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitNavigationPolicyDecision.cpp:201
+#, fuzzy
+msgid "Frame name"
+msgstr "Numele cadrului"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitNavigationPolicyDecision.cpp:202
+msgid "The name of the new frame this navigation action targets"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitPrintOperation.cpp:146
+msgid "Web View"
+msgstr "Vizualizare web"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitPrintOperation.cpp:147
+msgid "The web view that will be printed"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitPrintOperation.cpp:159
+#, fuzzy
+msgid "Print Settings"
+msgstr "Opțiuni"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitPrintOperation.cpp:160
+msgid "The initial print settings for the print operation"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitPrintOperation.cpp:171
+msgid "Page Setup"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitPrintOperation.cpp:172
+#, fuzzy
+msgid "The initial page setup for the print operation"
+msgstr "Scalarea inițială a vizualizării."
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitResponsePolicyDecision.cpp:91
+msgid "Response URI request"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitResponsePolicyDecision.cpp:92
+msgid "The URI request that is associated with this policy decision"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitResponsePolicyDecision.cpp:105
+msgid "URI response"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitResponsePolicyDecision.cpp:106
+msgid "The URI response that is associated with this policy decision"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:497
+#, fuzzy
+msgid "Enable JavaScript"
+msgstr "Activează scripturile"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:498
+#, fuzzy
+msgid "Enable JavaScript."
+msgstr "Activează scripturile"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:512
+#, fuzzy
+msgid "Auto load images"
+msgstr "Arată automat imaginile"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:513
+msgid "Load images automatically."
+msgstr "Arată imaginile în mod automat."
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:526
+msgid "Load icons ignoring image load setting"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:527
+msgid "Whether to load site icons ignoring image load setting."
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:544
+msgid "Enable offline web application cache"
+msgstr "Activează stocarea offline pentru aplicațiile web"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:545
+#, fuzzy
+msgid "Whether to enable offline web application cache."
+msgstr ""
+"Specifică dacă se activează un cache pentru funcționarea offline a "
+"aplicațiilor web deconectate"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:561
+#, fuzzy
+msgid "Enable HTML5 local storage"
+msgstr "Activează stocarea locală HTML5"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:562
+#, fuzzy
+msgid "Whether to enable HTML5 Local Storage support."
+msgstr "Specifică dacă se activează suportul pentru stocare locală HTML5"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:579
+#, fuzzy
+msgid "Enable HTML5 database"
+msgstr "Activează baza de date HTML5"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:580
+#, fuzzy
+msgid "Whether to enable HTML5 database support."
+msgstr "Specifică dacă se activează suportul pentru baze de date HTML5"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:593
+#, fuzzy
+msgid "Enable XSS auditor"
+msgstr "Activează auditorul XSS"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:594
+#, fuzzy
+msgid "Whether to enable the XSS auditor."
+msgstr "Specifică dacă se activează auditorul XSS"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:609
+#, fuzzy
+msgid "Enable frame flattening"
+msgstr "Activează aplatizarea cadrelor"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:610
+#, fuzzy
+msgid "Whether to enable frame flattening."
+msgstr ""
+"Specifică dacă se activează o afișare optimizată a cadrelor pentru ecrane "
+"tactile"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:622
+#, fuzzy
+msgid "Enable plugins"
+msgstr "Activează modulele"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:623
+msgid "Enable embedded plugin objects."
+msgstr "Activează modulele pentru obiecte înglobate."
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:635
+#, fuzzy
+msgid "Enable Java"
+msgstr "Activează suportul pentru <applet>"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:636
+#, fuzzy
+msgid "Whether Java support should be enabled."
+msgstr "Specifică dacă se activează streamingul media"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:649
+msgid "JavaScript can open windows automatically"
+msgstr "JavaScript poate deschide automat ferestre"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:650
+#, fuzzy
+msgid "Whether JavaScript can open windows automatically."
+msgstr "Specifică dacă JavaScript poate deschide automat ferestre"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:665
+#, fuzzy
+msgid "Enable hyperlink auditing"
+msgstr "Activează auditul pentru linkuri"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:666
+#, fuzzy
+msgid "Whether <a ping> should be able to send pings."
+msgstr "Specifică dacă se pot trimite pinguri prin <a ping>"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:678
+#, fuzzy
+msgid "Default font family"
+msgstr "Familia implicită de fonturi"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:679
+msgid ""
+"The font family to use as the default for content that does not specify a "
+"font."
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:692
+#, fuzzy
+msgid "Monospace font family"
+msgstr "Familie de fonturi monospațiate"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:693
+#, fuzzy
+msgid "The font family used as the default for content using monospace font."
+msgstr ""
+"Familia implicită de fonturi folosită pentru afișarea textului monospațiat."
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:705
+#, fuzzy
+msgid "Serif font family"
+msgstr "Familie de fonturi cu serife"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:706
+msgid "The font family used as the default for content using serif font."
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:718
+#, fuzzy
+msgid "Sans-serif font family"
+msgstr "Font de fonturi fără serife"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:719
+msgid "The font family used as the default for content using sans-serif font."
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:731
+#, fuzzy
+msgid "Cursive font family"
+msgstr "Familie de fonturi cursive"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:732
+msgid "The font family used as the default for content using cursive font."
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:744
+#, fuzzy
+msgid "Fantasy font family"
+msgstr "Familie de fonturi fanteziste"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:745
+msgid "The font family used as the default for content using fantasy font."
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:757
+msgid "Pictograph font family"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:758
+msgid "The font family used as the default for content using pictograph font."
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:771
+#, fuzzy
+msgid "Default font size"
+msgstr "Mărime implicită pentru fonturi"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:772
+msgid "The default font size used to display text."
+msgstr "Mărimea implicită a fonturilor pentru afișarea textului."
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:785
+#, fuzzy
+msgid "Default monospace font size"
+msgstr "Mărime implicită pentru fontul monospațiat"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:786
+msgid "The default font size used to display monospace text."
+msgstr "Mărimea implicită a fontului pentru afișarea textului monospațiat."
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:800
+#, fuzzy
+msgid "Minimum font size"
+msgstr "Mărime minimă pentru fonturi"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:801
+msgid "The minimum font size used to display text."
+msgstr "Mărimea minimă a fonturilor pentru afișarea textului."
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:813
+msgid "Default charset"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:814
+msgid ""
+"The default text charset used when interpreting content with unspecified "
+"charset."
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:827
+#, fuzzy
+msgid "Enable private browsing"
+msgstr "Activează navigarea privată"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:828
+#, fuzzy
+msgid "Whether to enable private browsing"
+msgstr ""
+"Specifică dacă se activează o afișare optimizată a cadrelor pentru ecrane "
+"tactile"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:840
+#, fuzzy
+msgid "Enable developer extras"
+msgstr "Activează extensiile pentru dezvoltatori"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:841
+#, fuzzy
+msgid "Whether to enable developer extras"
+msgstr "Activează extensiile pentru dezvoltatori"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:853
+#, fuzzy
+msgid "Enable resizable text areas"
+msgstr "Zone de text redimensionabile"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:854
+#, fuzzy
+msgid "Whether to enable resizable text areas"
+msgstr ""
+"Specifică dacă se activează o afișare optimizată a cadrelor pentru ecrane "
+"tactile"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:869
+#, fuzzy
+msgid "Enable tabs to links"
+msgstr "Activează modulele"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:870
+#, fuzzy
+msgid "Whether to enable tabs to links"
+msgstr "Specifică dacă se activează derularea cu efect"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:883
+#, fuzzy
+msgid "Enable DNS prefetching"
+msgstr "Activează corectarea ortografică"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:884
+#, fuzzy
+msgid "Whether to enable DNS prefetching"
+msgstr "Specifică dacă se activează lipirea DOM din clipboard"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:896
+msgid "Enable Caret Browsing"
+msgstr "Activează navigarea cu cursorul"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:897
+msgid "Whether to enable accessibility enhanced keyboard navigation"
+msgstr ""
+"Specifică dacă se activează o accesibilitate îmbunătățită pentru navigarea "
+"cu tastatura "
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:912
+msgid "Enable Fullscreen"
+msgstr "Activează modul pe tot ecranul"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:913
+#, fuzzy
+msgid "Whether to enable the Javascript Fullscreen API"
+msgstr "Specifică dacă se activează derularea cu efect"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:925
+msgid "Print Backgrounds"
+msgstr "Tipărește fundalurile"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:926
+#, fuzzy
+msgid "Whether background images should be drawn during printing"
+msgstr "Specifică dacă imaginile de fundal trebuie tipărite."
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:944
+msgid "Enable WebAudio"
+msgstr "Activează WebAudio"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:945
+msgid "Whether WebAudio content should be handled"
+msgstr "Specifică dacă se deschide conținutul WebAudio"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:959
+msgid "Enable WebGL"
+msgstr "Activează WebGL"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:960
+msgid "Whether WebGL content should be rendered"
+msgstr "Specifică dacă se va randa conținutul WebGL."
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:977
+msgid "Allow modal dialogs"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:978
+msgid "Whether it is possible to create modal dialogs"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:993
+msgid "Zoom Text Only"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:994
+msgid "Whether zoom level of web view changes only the text size"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:1008
+#, fuzzy
+msgid "JavaScript can access clipboard"
+msgstr "JavaScript poate accesa clipboardul"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:1009
+msgid "Whether JavaScript can access Clipboard"
+msgstr "Specifică dacă JavaScript poate accesa clipboardul"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:1025
+msgid "Media playback requires user gesture"
+msgstr "Redarea multimedia necesită acțiunea utilizatorului"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:1026
+msgid "Whether media playback requires user gesture"
+msgstr "Specifică dacă redarea multimedia necesită intervenția utilizatorului"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:1040
+msgid "Media playback allows inline"
+msgstr "Redarea multimedia este înglobată"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:1041
+msgid "Whether media playback allows inline"
+msgstr "Specifică dacă redarea multimedia se face în cadrul paginii"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:1055
+msgid "Draw compositing indicators"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:1056
+msgid "Whether to draw compositing borders and repaint counters"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:1075
+msgid "Enable Site Specific Quirks"
+msgstr "Activează subterfugii pentru anumite site-uri"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:1076
+msgid "Enables the site-specific compatibility workarounds"
+msgstr ""
+"Activează modul de compatibilitate maximă pentru anumite site-uri problemă"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:1096
+msgid "Enable page cache"
+msgstr "Activează cache-ul pentru pagini"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:1097
+msgid "Whether the page cache should be used"
+msgstr "Specifică dacă se folosește un cache pentru pagini"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:1116
+#, fuzzy
+msgid "User agent string"
+msgstr "Agent de utilizator"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:1117
+#, fuzzy
+msgid "The user agent string"
+msgstr "Șirul User-Agent folosit de către WebKitGtk"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:1129
+msgid "Enable smooth scrolling"
+msgstr "Activează derularea cu efect"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:1130
+msgid "Whether to enable smooth scrolling"
+msgstr "Specifică dacă se activează derularea cu efect"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:1147
+#, fuzzy
+#| msgid "Enable accelerated compositing"
+msgid "Enable accelerated 2D canvas"
+msgstr "Activează compoziționarea accelerată"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:1148
+#, fuzzy
+msgid "Whether to enable accelerated 2D canvas"
+msgstr ""
+"Specifică dacă se activează o afișare optimizată a cadrelor pentru ecrane "
+"tactile"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:1163
+msgid "Write console messages on stdout"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:1164
+msgid "Whether to write console messages on stdout"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:1182
+#, fuzzy
+#| msgid "Enable Media Stream"
+msgid "Enable MediaStream"
+msgstr "Activează streamingul media"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:1183
+#, fuzzy
+#| msgid "Whether WebAudio content should be handled"
+msgid "Whether MediaStream content should be handled"
+msgstr "Specifică dacă se deschide conținutul WebAudio"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:1202
+msgid "Enable Spatial Navigation"
+msgstr "Activează navigarea spațială"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:1203
+#, fuzzy
+#| msgid "Whether to enable Spatial Navigation"
+msgid "Whether to enable Spatial Navigation support."
+msgstr "Specifică dacă se activează navigarea spațială"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:1222
+#, fuzzy
+#| msgid "Enable Media Stream"
+msgid "Enable MediaSource"
+msgstr "Activează streamingul media"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:1223
+#, fuzzy
+#| msgid "Whether Media Stream should be enabled"
+msgid "Whether MediaSource should be enabled."
+msgstr "Specifică dacă se activează streamingul media"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:1241
+#, fuzzy
+#| msgid "Enable universal access from file URIs"
+msgid "Allow file access from file URLs"
+msgstr "Activează accesul universal de la URI-urile de fișiere"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitSettings.cpp:1242
+#, fuzzy
+#| msgid "Whether to allow universal access from file URIs"
+msgid "Whether file access is allowed from file URLs."
+msgstr ""
+"Specifică dacă se permite accesul universal de la URI-urile de tip file://"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitURIRequest.cpp:95
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitURIResponse.cpp:105
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebResource.cpp:110
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebView.cpp:912
+msgid "URI"
+msgstr "URI"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitURIRequest.cpp:96
+msgid "The URI to which the request will be made."
+msgstr "Adresa URI la care se va realiza cererea."
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitURIResponse.cpp:106
+#, fuzzy
+msgid "The URI for which the response was made."
+msgstr "Adresa URI către care se va răspunde."
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitURIResponse.cpp:117
+#, fuzzy
+msgid "Status Code"
+msgstr "Stare"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitURIResponse.cpp:118
+msgid "The status code of the response as returned by the server."
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitURIResponse.cpp:130
+msgid "Content Length"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitURIResponse.cpp:131
+#, fuzzy
+msgid "The expected content length of the response."
+msgstr "Numele de fișier sugerat pentru răspuns."
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitURIResponse.cpp:143
+msgid "MIME Type"
+msgstr "Tip MIME"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitURIResponse.cpp:144
+#, fuzzy
+msgid "The MIME type of the response"
+msgstr "Tipul MIME al resursei"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitURIResponse.cpp:156
+msgid "Suggested Filename"
+msgstr "Nume de fișier sugerat"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitURIResponse.cpp:157
+#, fuzzy
+msgid "The suggested filename for the URI response"
+msgstr "Numele de fișier sugerat pentru răspuns."
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitURIResponse.cpp:173
+msgid "HTTP Headers"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitURIResponse.cpp:174
+#, fuzzy
+msgid "The The HTTP headers of the response"
+msgstr "Tipul MIME al resursei"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebInspector.cpp:127
+msgid "Inspected URI"
+msgstr "Adresă URI inspectată"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebInspector.cpp:128
+msgid "The URI that is currently being inspected"
+msgstr "Adresa URI inspectată curent"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebInspector.cpp:139
+#, fuzzy
+msgid "Attached Height"
+msgstr "Înălțime disponibilă"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebInspector.cpp:140
+msgid "The height that the inspector view should have when it is attached"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebInspector.cpp:157
+msgid "Can Attach"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebInspector.cpp:158
+msgid ""
+"Whether the inspector can be attached to the same window that contains the "
+"inspected view"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebResource.cpp:111
+#, fuzzy
+msgid "The current active URI of the resource"
+msgstr "Adresa URI a resursei"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebResource.cpp:124
+#, fuzzy
+msgid "The response of the resource"
+msgstr "Numele cadrului pentru această resursă"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebViewBase.cpp:1138
+#, fuzzy
+#| msgid "Exit from fullscreen mode"
+msgid "Website running in fullscreen mode"
+msgstr "Ieșire din modul de redare pe tot ecranul"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebView.cpp:559
+msgid "Select Files"
+msgstr "Alegeți fișierele"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebView.cpp:559
+msgid "Select File"
+msgstr "Alegeți un fișier"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebView.cpp:802
+#, fuzzy
+msgid "Web Context"
+msgstr "Context"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebView.cpp:803
+#, fuzzy
+msgid "The web context for the view"
+msgstr "Lățimea vizualizării."
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebView.cpp:820
+#, fuzzy
+msgid "Related WebView"
+msgstr "Vizualizare web"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebView.cpp:821
+msgid ""
+"The related WebKitWebView used when creating the view to share the same web "
+"process"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebView.cpp:837
+#, fuzzy
+msgid "WebView settings"
+msgstr "Vizualizare web"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebView.cpp:838
+#, fuzzy
+msgid "The WebKitSettings of the view"
+msgstr "Lățimea vizualizării."
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebView.cpp:854
+msgid "WebView user content manager"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebView.cpp:855
+#, fuzzy
+msgid "The WebKitUserContentManager of the view"
+msgstr "Lățimea vizualizării."
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebView.cpp:868
+msgid "Title"
+msgstr "Titlu"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebView.cpp:869
+msgid "Main frame document title"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebView.cpp:887
+msgid "Estimated Load Progress"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebView.cpp:888
+msgid "An estimate of the percent completion for a document load"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebView.cpp:900
+msgid "Favicon"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebView.cpp:901
+#, fuzzy
+msgid "The favicon associated to the view, if any"
+msgstr "Filtrul asociat curent cu această cerere"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebView.cpp:913
+#, fuzzy
+msgid "The current active URI of the view"
+msgstr "Titlul de document al cadrului"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebView.cpp:928
+msgid "Zoom level"
+msgstr "Nivel de zoom"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebView.cpp:929
+#, fuzzy
+msgid "The zoom level of the view content"
+msgstr "Nivelul de zoom pentru conținut"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebView.cpp:948
+#, fuzzy
+#| msgid "Loading..."
+msgid "Is Loading"
+msgstr "Se încarcă..."
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebView.cpp:949
+#, fuzzy
+msgid "Whether the view is loading a page"
+msgstr "Specifică dacă modulul este activat"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebView.cpp:969
+#, fuzzy
+msgid "Whether the view is playing audio"
+msgstr "Specifică dacă modulul este activat"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebView.cpp:986
+msgid "Editable"
+msgstr "Editabil"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebView.cpp:987
+#, fuzzy
+#| msgid "Whether content can be modified by the user"
+msgid "Whether the content can be modified by the user."
+msgstr "Specifică dacă poate fi modificat conținutul de către utilizator"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebView.cpp:2993
+msgid "An exception was raised in JavaScript"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWebView.cpp:3450
+msgid "There was an error creating the snapshot"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWindowProperties.cpp:210
+msgid "Geometry"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWindowProperties.cpp:211
+#, fuzzy
+msgid "The size and position of the window on the screen."
+msgstr "Numărul punctelor per inch al ecranului."
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWindowProperties.cpp:223
+msgid "Toolbar Visible"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWindowProperties.cpp:224
+#, fuzzy
+msgid "Whether the toolbar should be visible for the window."
+msgstr ""
+"Specifică dacă se activează suportul pentru API-ul Mozilla pentru pagini pe "
+"tot ecranul."
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWindowProperties.cpp:236
+msgid "Statusbar Visible"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWindowProperties.cpp:237
+#, fuzzy
+msgid "Whether the statusbar should be visible for the window."
+msgstr "Specifică dacă se folosește un cache pentru pagini"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWindowProperties.cpp:249
+msgid "Scrollbars Visible"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWindowProperties.cpp:250
+#, fuzzy
+msgid "Whether the scrollbars should be visible for the window."
+msgstr ""
+"Specifică dacă se activează suportul pentru API-ul Mozilla pentru pagini pe "
+"tot ecranul."
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWindowProperties.cpp:262
+msgid "Menubar Visible"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWindowProperties.cpp:263
+#, fuzzy
+msgid "Whether the menubar should be visible for the window."
+msgstr "Specifică dacă se pot trimite pinguri prin <a ping>"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWindowProperties.cpp:275
+msgid "Locationbar Visible"
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWindowProperties.cpp:276
+#, fuzzy
+msgid "Whether the locationbar should be visible for the window."
+msgstr "Specifică dacă se pot trimite pinguri prin <a ping>"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWindowProperties.cpp:287
+#, fuzzy
+msgid "Resizable"
+msgstr "Zone de text redimensionabile"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWindowProperties.cpp:288
+#, fuzzy
+msgid "Whether the window can be resized."
+msgstr "Specifică dacă zonele de text sunt redimensionabile."
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWindowProperties.cpp:300
+#, fuzzy
+msgid "Fullscreen"
+msgstr "Revenire la normal"
+
+#: ../../../../WebKit2/UIProcess/API/gtk/WebKitWindowProperties.cpp:301
+msgid "Whether window will be displayed fullscreen."
+msgstr ""
+
+#: ../../../../WebKit2/UIProcess/gtk/WebInspectorProxyGtk.cpp:173
+#: ../../../../WebKit2/UIProcess/gtk/WebInspectorProxyGtk.cpp:178
+#: ../../../../WebKit2/UIProcess/gtk/WebInspectorProxyGtk.cpp:181
+msgid "Web Inspector"
+msgstr "Inspector Web"
+
+#~ msgid "The site %s:%i requests a username and password"
+#~ msgstr "Site-ul %s:%i cere un nume de utilizator și o parolă"
+
+#~ msgid "Server message:"
+#~ msgstr "Mesaj de la server:"
+
+#~ msgid "audio element controller"
+#~ msgstr "controler de element audio"
+
+#~ msgid "video element controller"
+#~ msgstr "controler de element video"
+
+#~ msgid "Play"
+#~ msgstr "Redare"
+
+#~ msgid "Pause"
+#~ msgstr "Pauză"
+
+#~ msgid "Play / Pause"
+#~ msgstr "Redare / Pauză"
+
+#~ msgid "Play or pause the media"
+#~ msgstr "Redare ori pauză la redare"
+
+#~ msgid "Time:"
+#~ msgstr "Timp:"
+
+#~ msgid "Exit Fullscreen"
+#~ msgstr "Revenire la normal"
+
+#~ msgid "Network Request"
+#~ msgstr "Cerere în rețea"
+
+#~ msgid "The network request for the URI that should be downloaded"
+#~ msgstr "Cererea în rețea pentru adresa URI de descărcat"
+
+#~ msgid "Network Response"
+#~ msgstr "Răspuns din rețea"
+
+#~ msgid "The network response for the URI that should be downloaded"
+#~ msgstr "Răspunsul din rețea pentru adresa URI de descărcat"
+
+#~ msgid "Destination URI"
+#~ msgstr "Destinație URI"
+
+#~ msgid "The destination URI where to save the file"
+#~ msgstr "Destinația URI pentru salvarea fișierului"
+
+#~ msgid "The filename suggested as default when saving"
+#~ msgstr "Numele de fișier sugerat implicit la salvare"
+
+#~ msgid "Progress"
+#~ msgstr "Progres"
+
+#~ msgid "Status"
+#~ msgstr "Stare"
+
+#~ msgid "Determines the current status of the download"
+#~ msgstr "Determină starea curentă a descărcării"
+
+#~ msgid "Current Size"
+#~ msgstr "Mărime curentă"
+
+#~ msgid "The length of the data already downloaded"
+#~ msgstr "Mărimea datelor deja descărcate"
+
+#~ msgid "Total Size"
+#~ msgstr "Mărime totală"
+
+#~ msgid "The total size of the file"
+#~ msgstr "Mărimea totală a fișierului"
+
+#~ msgid "Operation was cancelled"
+#~ msgstr "S-a renunțat la operațiune"
+
+#~ msgid "Path"
+#~ msgstr "Cale"
+
+#~ msgid "The absolute path of the icon database folder"
+#~ msgstr "Calea completă a directorului cu baza de date a iconițelor"
+
+#~ msgid "Flags indicating the kind of target that received the event."
+#~ msgstr "Marcaje ce indică tipul destinației care a recepționat evenimentul."
+
+#~ msgid "The URI to which the target that received the event points, if any."
+#~ msgstr ""
+#~ "Adresa URI la care destinația a recepționat indicatorii de eveniment, "
+#~ "dacă există."
+
+#~ msgid ""
+#~ "The URI of the image that is part of the target that received the event, "
+#~ "if any."
+#~ msgstr ""
+#~ "Adresa URI a imaginii care face parte din destinația ce a recepționat "
+#~ "evenimentul, dacă există."
+
+#~ msgid ""
+#~ "The URI of the media that is part of the target that received the event, "
+#~ "if any."
+#~ msgstr ""
+#~ "Adresa URI pentru materialul media care face parte din destinația ce a "
+#~ "recepționat evenimentul, dacă există."
+
+#~ msgid "Inner node"
+#~ msgstr "Nod intern"
+
+#~ msgid "The inner DOM node associated with the hit test result."
+#~ msgstr "Nodul DOM intern asociat cu rezultatul testului hit."
+
+#~ msgid "X coordinate"
+#~ msgstr "Coordonată x"
+
+#~ msgid "The x coordinate of the event relative to the view's window."
+#~ msgstr "Coordonata x a evenimentului relativ la fereastra vizualizării."
+
+#~ msgid "Y coordinate"
+#~ msgstr "Coordonată y"
+
+#~ msgid "The y coordinate of the event relative to the view's window."
+#~ msgstr "Coordonata y a evenimentului relativ la fereastra vizualizării."
+
+#~ msgid "Message"
+#~ msgstr "Mesaj"
+
+#~ msgid "The SoupMessage that backs the request."
+#~ msgstr "MessageSoup asociat cererii."
+
+#~ msgid "The URI to which the response will be made."
+#~ msgstr "Adresa URI către care se va răspunde."
+
+#~ msgid "The SoupMessage that backs the response."
+#~ msgstr "MesageSoup asociat răspunsului."
+
+#~ msgid "Suggested filename"
+#~ msgstr "Nume de fișier sugerat"
+
+#~ msgid "The suggested filename for the response."
+#~ msgstr "Numele de fișier sugerat pentru răspuns."
+
+#~ msgid "Protocol"
+#~ msgstr "Protocol"
+
+#~ msgid "The protocol of the security origin"
+#~ msgstr "Protocolul pentru originea securității"
+
+#~ msgid "Host"
+#~ msgstr "Gazdă"
+
+#~ msgid "The host of the security origin"
+#~ msgstr "Gazda pentru originea securității"
+
+#~ msgid "Port"
+#~ msgstr "Port"
+
+#~ msgid "The port of the security origin"
+#~ msgstr "Portul pentru originea securității"
+
+#~ msgid "Web Database Usage"
+#~ msgstr "Utilizarea bazei de date web"
+
+#~ msgid "The cumulative size of all web databases in the security origin"
+#~ msgstr ""
+#~ "Mărimea totală pentru toate bazele de date web în originea securității"
+
+#~ msgid "Web Database Quota"
+#~ msgstr "Cota bazei de date web"
+
+#~ msgid "The web database quota of the security origin in bytes"
+#~ msgstr "Cota bazei de date web pentru originea securității în bytes"
+
+#~ msgid "Device Width"
+#~ msgstr "Lățimea dispozitivului"
+
+#~ msgid "The width of the screen."
+#~ msgstr "Lățimea ecranului."
+
+#~ msgid "Device Height"
+#~ msgstr "Înălțimea dispozitivului"
+
+#~ msgid "The height of the screen."
+#~ msgstr "Înălțimea ecranului."
+
+#~ msgid "Available Width"
+#~ msgstr "Lățime disponibilă"
+
+#~ msgid "The width of the visible area."
+#~ msgstr "Lățimea ariei vizibile."
+
+#~ msgid "Available Height"
+#~ msgstr "Înălțime disponibilă"
+
+#~ msgid "The height of the visible area."
+#~ msgstr "Înălțimea ariei vizibile."
+
+#~ msgid "Desktop Width"
+#~ msgstr "Lățimea desktopului"
+
+#~ msgid ""
+#~ "The width of viewport that works well for most web pages designed for "
+#~ "desktop."
+#~ msgstr ""
+#~ "Lățimea vizualizării potrivite pentru cele mai multe pagini concepute "
+#~ "pentru desktop."
+
+#~ msgid "Device DPI"
+#~ msgstr "DPI-ul dispozitivului"
+
+#~ msgid "The number of dots per inch of the screen."
+#~ msgstr "Numărul punctelor per inch al ecranului."
+
+#~ msgid "Width"
+#~ msgstr "Lățime"
+
+#~ msgid "The width of the viewport."
+#~ msgstr "Lățimea vizualizării."
+
+#~ msgid "Height"
+#~ msgstr "Înălțime"
+
+#~ msgid "The height of the viewport."
+#~ msgstr "Înălțimea vizualizării."
+
+#~ msgid "Initial Scale Factor"
+#~ msgstr "Factor de scalare inițial"
+
+#~ msgid "The initial scale of the viewport."
+#~ msgstr "Scalarea inițială a vizualizării."
+
+#~ msgid "Minimum Scale Factor"
+#~ msgstr "Factor de scalare minimă"
+
+#~ msgid "The minimum scale of the viewport."
+#~ msgstr "Scalare minimă a vizualizării."
+
+#~ msgid "Maximum Scale Factor"
+#~ msgstr "Factor de scalare maximă"
+
+#~ msgid "The maximum scale of the viewport."
+#~ msgstr "Scalare maximă a vizualizării."
+
+#~ msgid "Device Pixel Ratio"
+#~ msgstr "Raport de pixeli al dispozitivului"
+
+#~ msgid "The device pixel ratio of the viewport."
+#~ msgstr "Raportul de pixeli al vizualizării"
+
+#~ msgid "user-scalable"
+#~ msgstr "user-scalable"
+
+#~ msgid "User Scalable"
+#~ msgstr "Scalabil de către utilizator"
+
+#~ msgid "Determines whether or not the user can zoom in and out."
+#~ msgstr "Determină dacă utilizatorul poate modifica zoomul."
+
+#~ msgid "valid"
+#~ msgstr "validă"
+
+#~ msgid "Valid"
+#~ msgstr "Validă"
+
+#~ msgid "Determines whether or not the attributes are valid, and can be used."
+#~ msgstr ""
+#~ "Determină dacă atributele sunt sau nu valide și dacă pot fi utilizate."
+
+#~ msgid "Security Origin"
+#~ msgstr "Originea securității"
+
+#~ msgid "The security origin of the database"
+#~ msgstr "Originea securității bazei de date"
+
+#~ msgid "Name"
+#~ msgstr "Nume"
+
+#~ msgid "The name of the Web Database database"
+#~ msgstr "Numele bazei de date Web Database"
+
+#~ msgid "Display Name"
+#~ msgstr "Nume de afișat"
+
+#~ msgid "The display name of the Web Storage database"
+#~ msgstr "Numele de afișat al bazei de date Web Storage"
+
+#~ msgid "Expected Size"
+#~ msgstr "Mărime așteptată"
+
+#~ msgid "The expected size of the Web Database database"
+#~ msgstr "Mărimea așteptată pentru baza de date Web Database"
+
+#~ msgid "Size"
+#~ msgstr "Mărime"
+
+#~ msgid "The current size of the Web Database database"
+#~ msgstr "Mărimea curentă a bazei de date Web Database"
+
+#~ msgid "Filename"
+#~ msgstr "Nume de fișier"
+
+#~ msgid "The absolute filename of the Web Storage database"
+#~ msgstr "Numele complet de fișier al bazei de date Web Storage"
+
+#~ msgid "The name of the frame"
+#~ msgstr "Numele cadrului"
+
+#~ msgid "The document title of the frame"
+#~ msgstr "Titlul de document al cadrului"
+
+#~ msgid "The current URI of the contents displayed by the frame"
+#~ msgstr "Adresa curentă URI a conținutului afișat în cadru"
+
+#~ msgid "Horizontal Scrollbar Policy"
+#~ msgstr "Reguli pentru bara de derulare orizontală"
+
+#~ msgid ""
+#~ "Determines the current policy for the horizontal scrollbar of the frame."
+#~ msgstr ""
+#~ "Determină regulile curente pentru bara de derulare orizontală a cadrului."
+
+#~ msgid "Vertical Scrollbar Policy"
+#~ msgstr "Reguli pentru bara de derulare verticală"
+
+#~ msgid ""
+#~ "Determines the current policy for the vertical scrollbar of the frame."
+#~ msgstr ""
+#~ "Determină regulile curente pentru bara de derulare verticală a cadrului."
+
+#~ msgid "The title of the history item"
+#~ msgstr "Titlul elementului din istoric"
+
+#~ msgid "Alternate Title"
+#~ msgstr "Titlu alternativ"
+
+#~ msgid "The alternate title of the history item"
+#~ msgstr "Titlul alternativ pentru elementul din istoric"
+
+#~ msgid "The URI of the history item"
+#~ msgstr "Adresa URI pentru elementul din istoric"
+
+#~ msgid "Original URI"
+#~ msgstr "Adresă URI originală"
+
+#~ msgid "The original URI of the history item"
+#~ msgstr "Adresa originală URI pentru elementul din istoric"
+
+#~ msgid "Last visited Time"
+#~ msgstr "Data ultimei accesări"
+
+#~ msgid "The time at which the history item was last visited"
+#~ msgstr "Data la care a fost accesat ultima dată elementul din istoric"
+
+#~ msgid "The Web View that renders the Web Inspector itself"
+#~ msgstr "Vizualizarea web în care se randează Inspectorul Web"
+
+#~ msgid "Enable JavaScript profiling"
+#~ msgstr "Activează analiza JavaScript"
+
+#~ msgid "Profile the executed JavaScript."
+#~ msgstr "Analizați codul JavaScript executat."
+
+#~ msgid "Enable Timeline profiling"
+#~ msgstr "Activează analiza Timeline"
+
+#~ msgid "Profile the WebCore instrumentation."
+#~ msgstr "Analizați instrumentația WebCore."
+
+#~ msgid "Reason"
+#~ msgstr "Motiv"
+
+#~ msgid "The reason why this navigation is occurring"
+#~ msgstr "Motivul pentru care se produce această navigare"
+
+#~ msgid "The URI that was requested as the target for the navigation"
+#~ msgstr "Adresa URI cerută ca destinație pentru navigare"
+
+#~ msgid "Button"
+#~ msgstr "Buton"
+
+#~ msgid "The button used to click"
+#~ msgstr "Butonul folosit pentru clic"
+
+#~ msgid "Modifier state"
+#~ msgstr "Starea modificatorului"
+
+#~ msgid "A bitmask representing the state of the modifier keys"
+#~ msgstr "O mască de biți ce reprezintă starea tastelor modificatoare"
+
+#~ msgid "Target frame"
+#~ msgstr "Cadru de destinație"
+
+#~ msgid "The target frame for the navigation"
+#~ msgstr "Cadrul de destinație pentru navigare"
+
+#~ msgid "Enabled"
+#~ msgstr "Activare"
+
+#~ msgid "Whether the plugin is enabled"
+#~ msgstr "Specifică dacă modulul este activat"
+
+#~ msgid "The URI of the resource"
+#~ msgstr "Adresa URI a resursei"
+
+#~ msgid "The MIME type of the resource"
+#~ msgstr "Tipul MIME al resursei"
+
+#~ msgid "Encoding"
+#~ msgstr "Codare"
+
+#~ msgid "The text encoding name of the resource"
+#~ msgstr "Numele codării de text pentru această resursă"
+
+#~ msgid "Frame Name"
+#~ msgstr "Numele cadrului"
+
+#~ msgid "The frame name of the resource"
+#~ msgstr "Numele cadrului pentru această resursă"
+
+#~ msgid "Default Encoding"
+#~ msgstr "Codare implicită"
+
+#~ msgid "The default encoding used to display text."
+#~ msgstr "Codarea implicită folosită pentru afișarea textului."
+
+#~ msgid "Cursive Font Family"
+#~ msgstr "Familie de fonturi cursive"
+
+#~ msgid "The default Cursive font family used to display text."
+#~ msgstr ""
+#~ "Familia implicită de fonturi cursive folosită pentru afișarea textului."
+
+#~ msgid "Default Font Family"
+#~ msgstr "Familia implicită de fonturi"
+
+#~ msgid "The default font family used to display text."
+#~ msgstr "Familia implicită de fonturi folosită pentru afișarea textului."
+
+#~ msgid "Fantasy Font Family"
+#~ msgstr "Familie de fonturi fanteziste"
+
+#~ msgid "The default Fantasy font family used to display text."
+#~ msgstr ""
+#~ "Familia implicită de fonturi fanteziste folosită pentru afișarea textului."
+
+#~ msgid "Monospace Font Family"
+#~ msgstr "Familie de fonturi monospațiate"
+
+#~ msgid "The default font family used to display monospace text."
+#~ msgstr ""
+#~ "Familia implicită de fonturi folosită pentru afișarea textului "
+#~ "monospațiat."
+
+#~ msgid "Sans Serif Font Family"
+#~ msgstr "Font de fonturi fără serife"
+
+#~ msgid "The default Sans Serif font family used to display text."
+#~ msgstr ""
+#~ "Familia implicită de fonturi fără serife folosită pentru afișarea "
+#~ "textului."
+
+#~ msgid "Serif Font Family"
+#~ msgstr "Familie de fonturi cu serife"
+
+#~ msgid "The default Serif font family used to display text."
+#~ msgstr ""
+#~ "Familia implicită de fonturi cu serife folosită pentru afișarea textului."
+
+#~ msgid "Default Font Size"
+#~ msgstr "Mărime implicită pentru fonturi"
+
+#~ msgid "Default Monospace Font Size"
+#~ msgstr "Mărime implicită pentru fontul monospațiat"
+
+#~ msgid "Minimum Font Size"
+#~ msgstr "Mărime minimă pentru fonturi"
+
+#~ msgid "Minimum Logical Font Size"
+#~ msgstr "Mărime minimă pentru fonturi logice"
+
+#~ msgid "The minimum logical font size used to display text."
+#~ msgstr "Mărimea minimă a fonturilor logice pentru afișare textului."
+
+#~ msgid "Enforce 96 DPI"
+#~ msgstr "Forțează un DPI de 96"
+
+#~ msgid "Enforce a resolution of 96 DPI"
+#~ msgstr "Forțează o rezoluție de 96 DPI"
+
+#~ msgid "Auto Load Images"
+#~ msgstr "Arată automat imaginile"
+
+#~ msgid "Auto Shrink Images"
+#~ msgstr "Micșorează automat imaginile"
+
+#~ msgid "Automatically shrink standalone images to fit."
+#~ msgstr ""
+#~ "Micșorează automat imaginile de sine stătătoare pentru o potrivire optimă."
+
+#~ msgid "Whether background images should be printed."
+#~ msgstr "Specifică dacă imaginile de fundal trebuie tipărite."
+
+#~ msgid "Enable Scripts"
+#~ msgstr "Activează scripturile"
+
+#~ msgid "Enable embedded scripting languages."
+#~ msgstr "Interpretează limbajele de scripting înglobate."
+
+#~ msgid "Enable Plugins"
+#~ msgstr "Activează modulele"
+
+#~ msgid "Resizable Text Areas"
+#~ msgstr "Zone de text redimensionabile"
+
+#~ msgid "Whether text areas are resizable."
+#~ msgstr "Specifică dacă zonele de text sunt redimensionabile."
+
+#~ msgid "User Stylesheet URI"
+#~ msgstr "Adresa URI pentru foaia de stiluri a utilizatorului"
+
+#~ msgid "The URI of a stylesheet that is applied to every page."
+#~ msgstr ""
+#~ "Adresa URI a unei foi de stiluri care este aplicată fiecărei pagini."
+
+#~ msgid "Zoom Stepping Value"
+#~ msgstr "Valoare pentru pasul de zoom"
+
+#~ msgid "The value by which the zoom level is changed when zooming in or out."
+#~ msgstr ""
+#~ "Valoarea cu care se schimbă nivelul zoomului când se mărește sau se "
+#~ "micșorează zoomul."
+
+#~ msgid "Enable Developer Extras"
+#~ msgstr "Activează extensiile pentru dezvoltatori"
+
+#~ msgid "Enables special extensions that help developers"
+#~ msgstr "Activează extensii speciale pentru asistența dezvoltatorilor"
+
+#~ msgid "Enable Private Browsing"
+#~ msgstr "Activează navigarea privată"
+
+#~ msgid "Enables private browsing mode"
+#~ msgstr "Activează modul de navigare privată"
+
+#~ msgid "Enable Spell Checking"
+#~ msgstr "Activează corectarea ortografică"
+
+#~ msgid "Enables spell checking while typing"
+#~ msgstr "Activează corectarea ortografică în timpul tastării"
+
+#~ msgid "Languages to use for spell checking"
+#~ msgstr "Limbi folosite pentru corectare ortografică"
+
+#~ msgid "Comma separated list of languages to use for spell checking"
+#~ msgstr ""
+#~ "Listă separată prin virgulă a limbilor folosite pentru corectare "
+#~ "ortografică"
+
+#~ msgid "Enable HTML5 Database"
+#~ msgstr "Activează baza de date HTML5"
+
+#~ msgid "Whether to enable HTML5 database support"
+#~ msgstr "Specifică dacă se activează suportul pentru baze de date HTML5"
+
+#~ msgid "Enable HTML5 Local Storage"
+#~ msgstr "Activează stocarea locală HTML5"
+
+#~ msgid "Whether to enable HTML5 Local Storage support"
+#~ msgstr "Specifică dacă se activează suportul pentru stocare locală HTML5"
+
+#~ msgid "Local Storage Database Path"
+#~ msgstr "Calea bazei de date stocate local"
+
+#~ msgid "The path to where HTML5 Local Storage databases are stored."
+#~ msgstr "Calea către baza de date HTML5 stocată local."
+
+#~ msgid "Enable XSS Auditor"
+#~ msgstr "Activează auditorul XSS"
+
+#~ msgid "Whether to enable the XSS auditor"
+#~ msgstr "Specifică dacă se activează auditorul XSS"
+
+#~ msgid "Enable Frame Flattening"
+#~ msgstr "Activează aplatizarea cadrelor"
+
+#~ msgid "Whether to enable Frame Flattening"
+#~ msgstr ""
+#~ "Specifică dacă se activează o afișare optimizată a cadrelor pentru ecrane "
+#~ "tactile"
+
+#~ msgid "User Agent"
+#~ msgstr "Agent de utilizator"
+
+#~ msgid "The User-Agent string used by WebKitGtk"
+#~ msgstr "Șirul User-Agent folosit de către WebKitGtk"
+
+#~ msgid "Whether JavaScript can open windows automatically"
+#~ msgstr "Specifică dacă JavaScript poate deschide automat ferestre"
+
+#~ msgid "JavaScript can access Clipboard"
+#~ msgstr "JavaScript poate accesa clipboardul"
+
+#~ msgid "Whether to enable offline web application cache"
+#~ msgstr ""
+#~ "Specifică dacă se activează un cache pentru funcționarea offline a "
+#~ "aplicațiilor web deconectate"
+
+#~ msgid "Editing behavior"
+#~ msgstr "Comportament la editare"
+
+#~ msgid "The behavior mode to use in editing mode"
+#~ msgstr "Modul de comportament folosit în modul de editare"
+
+#~ msgid "Enable DOM paste"
+#~ msgstr "Activează lipirea DOM"
+
+#~ msgid "Whether to enable DOM paste"
+#~ msgstr "Specifică dacă se activează lipirea DOM din clipboard"
+
+#~ msgid "Tab key cycles through elements"
+#~ msgstr "Tasta tab ciclează elementele"
+
+#~ msgid "Whether the tab key cycles through elements on the page."
+#~ msgstr "Specifică dacă tasta Tab ciclează elementele din pagină."
+
+#~ msgid "Enable Default Context Menu"
+#~ msgstr "Activează meniul de context implicit"
+
+#~ msgid ""
+#~ "Enables the handling of right-clicks for the creation of the default "
+#~ "context menu"
+#~ msgstr ""
+#~ "Activează gestionarea clicului dreapta pentru crearea meniului de context "
+#~ "implicit."
+
+#~ msgid "Auto Resize Window"
+#~ msgstr "Redimensionează automat fereastra"
+
+#~ msgid "Automatically resize the toplevel window when a page requests it"
+#~ msgstr ""
+#~ "Redimensionează automat fereastra de prim nivel atunci când o pagină o "
+#~ "solicită"
+
+#~ msgid "Enable Java Applet"
+#~ msgstr "Activează suportul pentru <applet>"
+
+#~ msgid "Whether Java Applet support through <applet> should be enabled"
+#~ msgstr ""
+#~ "Specifică dacă e activat suportul pentru aplicații Java înglobate prin "
+#~ "<applet>"
+
+#~ msgid "Enable Hyperlink Auditing"
+#~ msgstr "Activează auditul pentru linkuri"
+
+#~ msgid "Whether <a ping> should be able to send pings"
+#~ msgstr "Specifică dacă se pot trimite pinguri prin <a ping>"
+
+#~ msgid "Whether the Mozilla style API should be enabled."
+#~ msgstr ""
+#~ "Specifică dacă se activează suportul pentru API-ul Mozilla pentru pagini "
+#~ "pe tot ecranul."
+
+#~ msgid "Whether accelerated compositing should be enabled"
+#~ msgstr "Specifică dacă se activează compoziționarea accelerată"
+
+#~ msgid "WebKit prefetches domain names"
+#~ msgstr "WebKit rezolvă anticipat numele"
+
+#~ msgid "Whether WebKit prefetches domain names"
+#~ msgstr "Specifică dacă WebKit rezolvă anticipat numele de domenii"
+
+#~ msgid "Enable display of insecure content"
+#~ msgstr "Activează afișarea conținutului nesigur"
+
+#~ msgid "Whether non-HTTPS resources can display on HTTPS pages."
+#~ msgstr "Specifică dacă se vor afișa resursele non-HTTPS în paginile HTTPS."
+
+#~ msgid "Enable running of insecure content"
+#~ msgstr "Activează executarea conținutului nesigur"
+
+#~ msgid "Whether non-HTTPS resources can run on HTTPS pages."
+#~ msgstr ""
+#~ "Specifică dacă se vor executa resursele non-HTTPS în paginile HTTPS."
+
+#~ msgid "Returns the @web_view's document title"
+#~ msgstr "Returnează titlul documentului @web_view"
+
+#~ msgid "Returns the current URI of the contents displayed by the @web_view"
+#~ msgstr "Returnează adresa curentă URI a conținutului afișat de @web_view"
+
+#~ msgid "Copy target list"
+#~ msgstr "Lista destinațiilor de copiat"
+
+#~ msgid "The list of targets this web view supports for clipboard copying"
+#~ msgstr ""
+#~ "Lista cu destinațiile din această vizualizare web pentru care există "
+#~ "suport pentru copiere în clipboard"
+
+#~ msgid "Paste target list"
+#~ msgstr "Lista destinațiilor pentru lipit"
+
+#~ msgid "The list of targets this web view supports for clipboard pasting"
+#~ msgstr ""
+#~ "Lista cu destinațiile din această vizualizare web pentru care există "
+#~ "suport pentru lipire din clipboard"
+
+#~ msgid "Settings"
+#~ msgstr "Opțiuni"
+
+#~ msgid "An associated WebKitWebSettings instance"
+#~ msgstr "O instanță asociată WebKitWebSettings"
+
+#~ msgid "The associated WebKitWebInspector instance"
+#~ msgstr "Instanța asociată WebKitWebInspector"
+
+#~ msgid "Viewport Attributes"
+#~ msgstr "Atribute viewport"
+
+#~ msgid "The associated WebKitViewportAttributes instance"
+#~ msgstr "Instanța asociată WebKitViewportAttributes"
+
+#~ msgid "Transparent"
+#~ msgstr "Transparent"
+
+#~ msgid "Whether content has a transparent background"
+#~ msgstr "Specifică dacă conținutul are un fundal transparent"
+
+#~ msgid "The level of zoom of the content"
+#~ msgstr "Nivelul de zoom pentru conținut"
+
+#~ msgid "Full content zoom"
+#~ msgstr "Zoom pentru tot conținutul"
+
+#~ msgid "Whether the full content is scaled when zooming"
+#~ msgstr "Specifică dacă se scalează tot conținutul când se face zoom"
+
+#~ msgid "The default encoding of the web view"
+#~ msgstr "Codarea implicită pentru vizualizarea web"
+
+#~ msgid "Custom Encoding"
+#~ msgstr "Codare personalizată"
+
+#~ msgid "The custom encoding of the web view"
+#~ msgstr "Codarea personalizată pentru vizualizarea web"
+
+#~ msgid "Icon URI"
+#~ msgstr "Adresa URI a iconiței"
+
+#~ msgid "The URI for the favicon for the #WebKitWebView."
+#~ msgstr "Adresa URI a iconiței de tip favicon pentru #WebKitWebView."
+
+#~ msgctxt "Closed Captions"
+#~ msgid "Menu section heading for closed captions"
+#~ msgstr "Titlul secțiunii cu subtitrări opționale"
+
+#~ msgctxt "Subtitles"
+#~ msgid "Menu section heading for subtitles"
+#~ msgstr "Titlul secțiunii cu subtitrări"
+
+#~ msgctxt "Off"
+#~ msgid ""
+#~ "Menu item label for the track that represents disabling closed captions"
+#~ msgstr ""
+#~ "Eticheta elementului de meniu pentru pista de dezactivare e subtitrărilor"
+
+#~ msgctxt "No label"
+#~ msgid "Menu item label for a closed captions track that has no other name"
+#~ msgstr ""
+#~ "Eticheta elementului de meniu pentru o pistă cu subtitrări fără nume"

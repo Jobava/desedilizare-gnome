@@ -1,0 +1,148 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=network-manager-openswan&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2015-08-18 11:14+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../auth-dialog/main.c:175
+#, c-format
+msgid "Authenticate VPN %s"
+msgstr ""
+
+#: ../auth-dialog/main.c:192
+msgid "Password:"
+msgstr ""
+
+#: ../auth-dialog/main.c:202
+msgid "Group Password:"
+msgstr ""
+
+#: ../auth-dialog/main.c:238
+msgid "Authenticate VPN"
+msgstr ""
+
+#: ../auth-dialog/main.c:247
+msgid "_Group Password:"
+msgstr ""
+
+#: ../auth-dialog/main.c:496
+#, c-format
+msgid "You need to authenticate to access the Virtual Private Network '%s'."
+msgstr ""
+
+#: ../auth-dialog/nm-openswan-auth-dialog.desktop.in.in.h:1
+msgid "Network"
+msgstr ""
+
+#: ../auth-dialog/nm-openswan-auth-dialog.desktop.in.in.h:2
+msgid "Request VPN authentication"
+msgstr ""
+
+#: ../properties/nm-openswan.c:45
+msgid "IPsec based VPN"
+msgstr ""
+
+#: ../properties/nm-openswan.c:46
+msgid "IPsec, IKEv1, IKEv2 based VPN"
+msgstr ""
+
+#: ../properties/nm-openswan.c:301
+msgid "Saved"
+msgstr ""
+
+#: ../properties/nm-openswan.c:308
+msgid "Always Ask"
+msgstr ""
+
+#: ../properties/nm-openswan.c:315
+msgid "Not Required"
+msgstr ""
+
+#: ../properties/nm-openswan-dialog.ui.h:1
+msgid " "
+msgstr ""
+
+#: ../properties/nm-openswan-dialog.ui.h:2
+msgid "<b>General</b>"
+msgstr ""
+
+#: ../properties/nm-openswan-dialog.ui.h:3
+msgid "Show passwords"
+msgstr ""
+
+#: ../properties/nm-openswan-dialog.ui.h:4
+msgid "Gro_up password:"
+msgstr ""
+
+#: ../properties/nm-openswan-dialog.ui.h:5
+msgid "_Gateway:"
+msgstr ""
+
+#: ../properties/nm-openswan-dialog.ui.h:6
+msgid "G_roup name:"
+msgstr ""
+
+#: ../properties/nm-openswan-dialog.ui.h:7
+msgid "_User password:"
+msgstr ""
+
+#: ../properties/nm-openswan-dialog.ui.h:8
+msgid "<b>Optional</b>"
+msgstr ""
+
+#: ../properties/nm-openswan-dialog.ui.h:9
+msgid "User name:"
+msgstr ""
+
+#: ../properties/nm-openswan-dialog.ui.h:10
+msgid "Phase1 Algorithms:"
+msgstr ""
+
+#: ../properties/nm-openswan-dialog.ui.h:11
+msgid "Phase2 Algorithms:"
+msgstr ""
+
+#: ../properties/nm-openswan-dialog.ui.h:12
+msgid "Domain:"
+msgstr ""
+
+#: ../src/nm-openswan-service.c:833
+msgid "A password is required."
+msgstr ""
+
+#: ../src/nm-openswan-service.c:1199
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr ""
+
+#: ../src/nm-openswan-service.c:1213
+msgid "Unhandled pending authentication."
+msgstr ""
+
+#: ../src/nm-openswan-service.c:1299
+msgid "Don't quit when VPN connection terminates"
+msgstr ""
+
+#: ../src/nm-openswan-service.c:1300
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr ""
+
+#: ../src/nm-openswan-service.c:1323
+msgid ""
+"This service provides integrated IPsec VPN capability to NetworkManager."
+msgstr ""

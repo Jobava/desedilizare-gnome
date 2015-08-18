@@ -1,0 +1,176 @@
+# Romanian translation for telegnome.
+# Copyright (C) 2010 telegnome's COPYRIGHT HOLDER
+# This file is distributed under the same license as the telegnome package.
+# Daniel Șerbănescu <cyber19rider@gmail.com>, 2010.
+# cyberrider <cyber19rider@gmail.com>, 2010.
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: telegnome master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-12-19 16:31+0000\n"
+"PO-Revision-Date: 2010-10-11 04:38+0300\n"
+"Last-Translator: Lucian Adrian Grijincu <lucian.grijincu@gmail.com>\n"
+"Language-Team: Romanian Gnome Team <gnomero-list@lists.sourceforge.net>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);;\n"
+"X-Generator: Virtaal 0.6.1\n"
+
+#: ../src/gui.c:46
+#, c-format
+msgid "TeleGNOME: %s (%s)"
+msgstr "TeleGNOME: %s (%s)"
+
+#: ../src/gui.c:193 ../src/prefs.c:446
+msgid "Channels"
+msgstr "Canale"
+
+#: ../src/gui.c:333
+msgid "Page:"
+msgstr "Pagina:"
+
+#: ../src/gui.c:338
+msgid "Page number"
+msgstr "Numărul paginii"
+
+#: ../src/gui.c:346
+msgid "Go To Page"
+msgstr "Navighează la pagina"
+
+#: ../src/gui.c:352
+msgid "Get Previous Page"
+msgstr "Pagina precedentă"
+
+#: ../src/gui.c:358
+msgid "Get Next Page"
+msgstr "Pagina următoare"
+
+#: ../src/gui.c:364
+msgid "Go to the home page"
+msgstr "Navighează la pagina principală"
+
+#: ../src/gui.c:374
+msgid "Toggles auto-paging"
+msgstr "Comută derularea automată"
+
+#. the app
+#: ../src/gui.c:405
+msgid "TeleGNOME: Teletext for GNOME"
+msgstr "TeleGNOME: Teletext pentru GNOME"
+
+#: ../src/gui.c:586
+msgid "Teletext for GNOME"
+msgstr "Teletext pentru GNOME"
+
+#: ../src/gui.c:587
+msgid "GNU General Public License, version 2 or later"
+msgstr "GNU General Public License, versiunea a 2-a sau ulterioară"
+
+#: ../src/gui.c:590
+msgid "translator-credits"
+msgstr "Șerbănescu Daniel <cyber19rider@gmail.com>, 2010"
+
+#: ../src/gui.c:675
+msgid "Error in page entry"
+msgstr "Eroare în pagina de intrare"
+
+#: ../src/prefs.c:98
+msgid "New/Edit Channel"
+msgstr "Modifică/Adaugă canal"
+
+#: ../src/prefs.c:108 ../src/prefs.c:368
+msgid "Name"
+msgstr "Nume"
+
+#: ../src/prefs.c:116
+msgid "Description"
+msgstr "Descriere"
+
+#: ../src/prefs.c:124
+msgid "Page url"
+msgstr "Url-ul paginii"
+
+#: ../src/prefs.c:132
+msgid "Subpage url"
+msgstr "Url-ul subpaginii"
+
+#: ../src/prefs.c:140 ../src/prefs.c:368
+msgid "Country"
+msgstr "Țara"
+
+#: ../src/prefs.c:148
+msgid "Channel Information"
+msgstr "Informații despre canal"
+
+#: ../src/prefs.c:333
+msgid "Paging interval"
+msgstr "Intervalul de paginare"
+
+#: ../src/prefs.c:334
+msgid "Specifies the interval for the auto-pager, in milliseconds."
+msgstr "Specificați intervalul derulării paginilor, în milisecunde."
+
+#: ../src/prefs.c:344
+msgid "Proxy server"
+msgstr "Server proxy"
+
+#: ../src/prefs.c:353
+msgid "Miscelaneous"
+msgstr "Diverse"
+
+#. move up button
+#: ../src/prefs.c:396
+msgid "Move up"
+msgstr "Mută mai sus"
+
+#. move down button
+#: ../src/prefs.c:401
+msgid "Move down"
+msgstr "Mută mai jos"
+
+#. add button
+#: ../src/prefs.c:406
+msgid "Add..."
+msgstr "Adaugă..."
+
+#. delete button
+#: ../src/prefs.c:412
+msgid "Delete"
+msgstr "Șterge"
+
+#. edit buton
+#: ../src/prefs.c:418
+msgid "Edit"
+msgstr "Editează"
+
+#: ../src/prefs.c:441
+msgid "TeleGNOME: Preferences"
+msgstr "TeleGNOME: Preferințe"
+
+#: ../src/prefs.c:451
+msgid "Misc"
+msgstr "Diverse"
+
+#: ../src/view.c:114
+msgid "Web server error: Wrong page number?"
+msgstr "Eroare de server web: este greșit numărul paginii?"
+
+#: ../src/view.c:133
+msgid "Error making HTTP connection"
+msgstr "Eroare la stabilirea conexiunii HTTP"
+
+#: ../src/view.c:136
+msgid "Internal error in HTTP query code"
+msgstr "Eroare internă în codul de interogare HTTP"
+
+#: ../telegnome.desktop.in.h:1
+msgid "TeleGNOME"
+msgstr "TeleGNOME"
+
+#: ../telegnome.desktop.in.h:2
+msgid "Viewer for Teletext pages"
+msgstr "Vizualizator de pagini Teletext"

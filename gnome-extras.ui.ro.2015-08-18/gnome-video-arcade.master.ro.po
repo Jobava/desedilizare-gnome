@@ -1,0 +1,1130 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Alexandru Florescu <show_some_originality@yahoo.com>, 2010.
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=&keywords=I18N+L10N\n"
+"POT-Creation-Date: 2015-07-27 20:03+0000\n"
+"PO-Revision-Date: 2010-12-03 05:23+0300\n"
+"Last-Translator: Lucian Adrian Grijincu <lucian.grijincu@gmail.com>\n"
+"Language-Team: Romanian Gnome Team <gnomero-list@lists.sourceforge.net>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);;\n"
+"X-Generator: Virtaal 0.6.1\n"
+
+#: ../data/gnome-video-arcade.builder.h:1
+msgid "Add to _Favorites"
+msgstr "Adaugă la _favorite"
+
+#: ../data/gnome-video-arcade.builder.h:2
+msgid "Show next game"
+msgstr "Arată jocul următor"
+
+#: ../data/gnome-video-arcade.builder.h:3
+msgid "Play _Back..."
+msgstr "Redă din _nou..."
+
+#: ../data/gnome-video-arcade.builder.h:4
+msgid "Play back the selected game recording"
+msgstr "Redă din nou înregistrările jocului selectat"
+
+#: ../data/gnome-video-arcade.builder.h:5
+msgid "Show previous game"
+msgstr "Arată jocul precedent"
+
+#: ../data/gnome-video-arcade.builder.h:6
+msgid "_Properties"
+msgstr "_Proprietăți"
+
+#: ../data/gnome-video-arcade.builder.h:7
+msgid "Show information about the selected game"
+msgstr "Arată informații despre jocul selectat"
+
+#: ../data/gnome-video-arcade.builder.h:8
+msgid "_Record"
+msgstr "În_registrează"
+
+#: ../data/gnome-video-arcade.builder.h:9
+msgid "Start the selected game and record keypresses to a file"
+msgstr "Pornește jocul selectat și reține tastele apăsate într-un fișier"
+
+#: ../data/gnome-video-arcade.builder.h:10
+msgid "Remove from _Favorites"
+msgstr "Elimină din _favorite"
+
+#: ../data/gnome-video-arcade.builder.h:11
+msgid "Remove the selected game from my list of favorites"
+msgstr "Elimină jocul selectat din lista de favorite"
+
+#: ../data/gnome-video-arcade.builder.h:12
+msgid "Save _As..."
+msgstr "Salve_ază ca..."
+
+#: ../data/gnome-video-arcade.builder.h:13
+msgid "Save ROM errors to a file"
+msgstr "Salvează erorile ROM într-un fișier"
+
+#: ../data/gnome-video-arcade.builder.h:14
+msgid "S_earch..."
+msgstr "_Caută..."
+
+#: ../data/gnome-video-arcade.builder.h:15
+msgid "Show a custom list of games"
+msgstr "Arată o listă personalizată de jocuri"
+
+#: ../data/gnome-video-arcade.builder.h:16
+msgid "Play back a previously recorded game"
+msgstr "Redă un joc înregistrat anterior"
+
+#: ../data/gnome-video-arcade.builder.h:17
+msgid "_Start"
+msgstr "_Start"
+
+#: ../data/gnome-video-arcade.builder.h:18
+msgid "Start the selected game"
+msgstr "Pornește jocul selectat"
+
+#: ../data/gnome-video-arcade.builder.h:19
+msgid "Show _alternate versions of original games"
+msgstr "Arată versiuni _alternante ale jocului original"
+
+#: ../data/gnome-video-arcade.builder.h:20
+msgid "_Available Games"
+msgstr "Jocuri d_isponibile"
+
+#: ../data/gnome-video-arcade.builder.h:21
+msgid "Show all available games"
+msgstr "Arată toate jocurile disponibile"
+
+#: ../data/gnome-video-arcade.builder.h:22
+msgid "_Favorite Games"
+msgstr "Jocuri _favorite"
+
+#: ../data/gnome-video-arcade.builder.h:23
+msgid "Only show my favorite games"
+msgstr "Arată numai jocurile favorite"
+
+#: ../data/gnome-video-arcade.builder.h:24
+msgid "Search _Results"
+msgstr "_Rezultatele căutării"
+
+#: ../data/gnome-video-arcade.builder.h:25
+msgid "Show my search results"
+msgstr "Arată rezultatele căutării"
+
+#: ../data/gnome-video-arcade.builder.h:26
+#: ../data/gnome-video-arcade.desktop.in.h:1
+msgid "GNOME Video Arcade"
+msgstr "Emulator GNOME pentru jocuri de tip arcadă"
+
+#. This label precedes the search entry. e.g. Search for: Pac-Man
+#: ../data/gnome-video-arcade.builder.h:28
+msgid "Search for:"
+msgstr "Caută după:"
+
+#: ../data/gnome-video-arcade.builder.h:29
+msgid "_Start Game"
+msgstr "Î_ncepe jocul"
+
+#: ../data/gnome-video-arcade.builder.h:30
+msgid " "
+msgstr " "
+
+#: ../data/gnome-video-arcade.builder.h:31
+msgid "<big><b>Errors detected in ROM files</b></big>"
+msgstr "<big><b>Au fost detectate erori în fișierele ROM</b></big>"
+
+#: ../data/gnome-video-arcade.builder.h:32
+msgid ""
+"An audit of the available games has detected errors in some of the ROM "
+"files. The following games will not be available in GNOME Video Arcade."
+msgstr ""
+"O verificare a jocurilor disponibile a detectat erori în unele dintre "
+"fișierele ROM. Următoarele jocuri nu vor fi disponibile în emulatorul GNOME "
+"pentru jocuri de tip arcadă."
+
+#: ../data/gnome-video-arcade.builder.h:33
+msgid ""
+"<small><i>If these games worked with previous versions of MAME, it is likely "
+"their ROM requirements have changed.  If so, you will need to acquire more "
+"recent ROM files.</i></small>"
+msgstr ""
+"<small><i>Dacă aceste jocuri au mers cu versiuni mai vechi ale MAME, este "
+"posibil ca cerințele lor ROM să se fi schimbat. În acest caz, va trebui să "
+"obțineți fișiere ROM mai recente.</i></small>"
+
+#: ../data/gnome-video-arcade.builder.h:34
+msgid "Close this window"
+msgstr "Închide fereastra"
+
+#: ../data/gnome-video-arcade.builder.h:35
+msgid "Properties"
+msgstr "Proprietăți"
+
+#: ../data/gnome-video-arcade.builder.h:36
+msgid "History"
+msgstr "Istoric"
+
+#: ../data/gnome-video-arcade.builder.h:37
+msgid "Gallery"
+msgstr "Galerie"
+
+#. The same text is in gnome-video-arcade.builder,
+#. * so it has to be translated with markup anyway.
+#: ../data/gnome-video-arcade.builder.h:38 ../src/gva-columns.c:753
+msgid "<b>There are known problems with this game:</b>"
+msgstr "<b>Există probleme cunoscute pentru acest joc:</b>"
+
+#. The labels begin with a UTF-8 encoded bullet character.
+#: ../data/gnome-video-arcade.builder.h:40 ../src/gva-columns.c:765
+#, no-c-format
+msgid "• The colors aren't 100% accurate."
+msgstr "• Culorile nu sunt 100% exacte."
+
+#: ../data/gnome-video-arcade.builder.h:41 ../src/gva-columns.c:774
+msgid "• The colors are completely wrong."
+msgstr "• Culorile sunt complet greșite."
+
+#: ../data/gnome-video-arcade.builder.h:43 ../src/gva-columns.c:784
+#, no-c-format
+msgid "• The video emulation isn't 100% accurate."
+msgstr "• Emulatorul de video nu este 100% exact."
+
+#: ../data/gnome-video-arcade.builder.h:45 ../src/gva-columns.c:794
+#, no-c-format
+msgid "• The sound emulation isn't 100% accurate."
+msgstr "• Emulatorul de sunet nu este 100% exact."
+
+#: ../data/gnome-video-arcade.builder.h:46 ../src/gva-columns.c:803
+msgid "• The game lacks sound."
+msgstr "• Jocul duce lipsă de sunet."
+
+#: ../data/gnome-video-arcade.builder.h:47 ../src/gva-columns.c:812
+msgid "• Screen flipping in cocktail mode is not supported."
+msgstr "• Întoarcerea ecranului nu este posibilă în modulul cocktail."
+
+#: ../data/gnome-video-arcade.builder.h:48 ../src/gva-columns.c:821
+msgid "• <b>THIS GAME DOESN'T WORK.</b>"
+msgstr "• <b>ACEST JOC NU FUNCȚIONEAZĂ.</b>"
+
+#: ../data/gnome-video-arcade.builder.h:49 ../src/gva-columns.c:831
+msgid "• The game has protection which isn't fully emulated."
+msgstr "• Jocul are o protecție ce nu este complet emulată."
+
+#: ../data/gnome-video-arcade.builder.h:50
+msgid "<b>BIOS</b>"
+msgstr "<b>BIOS</b>"
+
+#: ../data/gnome-video-arcade.builder.h:51
+msgid "<b>CPU</b>"
+msgstr "<b>CPU</b>"
+
+#: ../data/gnome-video-arcade.builder.h:52
+msgid "<b>Sound</b>"
+msgstr "<b>Sunet</b>"
+
+#: ../data/gnome-video-arcade.builder.h:53
+msgid "<b>Video</b>"
+msgstr "<b>Video</b>"
+
+#: ../data/gnome-video-arcade.builder.h:54
+msgid "<b>Original Version</b>"
+msgstr "<b>Versiune originală</b>"
+
+#: ../data/gnome-video-arcade.builder.h:55
+msgid "<b>Alternate Versions</b>"
+msgstr "<b>Versiuni alternative</b>"
+
+#: ../data/gnome-video-arcade.builder.h:56
+msgid "Technical"
+msgstr "Tehnic"
+
+#: ../data/gnome-video-arcade.builder.h:57
+msgid "Recorded Games"
+msgstr "Jocuri înregistrate"
+
+#: ../data/gnome-video-arcade.builder.h:58
+msgid "Delete the selected game recordings"
+msgstr "Șterge înregistrările jocului selectat"
+
+#: ../data/gnome-video-arcade.builder.h:59
+msgid "Play _Back"
+msgstr "Redă din _nou"
+
+#: ../data/gnome-video-arcade.builder.h:60
+msgid "_About"
+msgstr "_Despre"
+
+#: ../data/gnome-video-arcade.builder.h:61
+msgid "Show information about the application"
+msgstr "Arată informații despre aplicație"
+
+#: ../data/gnome-video-arcade.builder.h:62
+msgid "_Contents"
+msgstr "_Conținut"
+
+#: ../data/gnome-video-arcade.builder.h:63
+msgid "Open the help documentation"
+msgstr "Deschide documentația de ajutor"
+
+#: ../data/gnome-video-arcade.builder.h:64
+msgid "_Preferences"
+msgstr "_Preferințe"
+
+#: ../data/gnome-video-arcade.builder.h:65
+msgid "Configure the application"
+msgstr "Configurează aplicația"
+
+#: ../data/gnome-video-arcade.builder.h:66
+msgid "_Quit"
+msgstr "_Ieșire"
+
+#: ../data/gnome-video-arcade.builder.h:67
+msgid "Quit the application"
+msgstr "Închide aplicația"
+
+#: ../data/gnome-video-arcade.builder.h:68
+msgid "_Add Column"
+msgstr "_Adaugă coloană"
+
+#: ../data/gnome-video-arcade.builder.h:69
+msgid "_Edit"
+msgstr "_Editează"
+
+#: ../data/gnome-video-arcade.builder.h:70
+msgid "_Game"
+msgstr "_Joc"
+
+#: ../data/gnome-video-arcade.builder.h:71
+msgid "_Help"
+msgstr "_Ajutor"
+
+#: ../data/gnome-video-arcade.builder.h:72
+msgid "_View"
+msgstr "_Vizualizare"
+
+#: ../data/gnome-video-arcade.builder.h:73
+msgid "_Restore previous state when starting a game"
+msgstr "_Restaurează starea anterioară când se pornește un joc"
+
+#: ../data/gnome-video-arcade.builder.h:74
+msgid "Start games in _fullscreen mode"
+msgstr "Pornește jocul pe tot _ecranul"
+
+#: ../data/gnome-video-arcade.builder.h:75
+msgid "Preferences"
+msgstr "Preferințe"
+
+#: ../data/gnome-video-arcade.builder.h:76
+msgid "<b>General</b>"
+msgstr "<b>Generale</b>"
+
+#: ../data/gnome-video-arcade.builder.h:77
+msgid ""
+"<small><i><b>Note:</b> Setting this will not take effect until the second "
+"time the game is started. It does not apply to recording or playing back "
+"games.</i></small>"
+msgstr ""
+"<small><i><b>Rețineți:</b>Această configurație nu va avea efect decât a doua "
+"oară când se va deschide jocul. Nu se aplică jocurilor în curs de utilizare "
+"sau înregistrare.</i></small>"
+
+#: ../data/gnome-video-arcade.builder.h:78
+msgid "<b>Game List</b>"
+msgstr "<b>Listă de jocuri</b>"
+
+#: ../data/gnome-video-arcade.builder.h:79
+msgid "General"
+msgstr "General"
+
+#: ../data/gnome-video-arcade.builder.h:80
+msgid "<b>Columns</b>"
+msgstr "<b>Coloane</b>"
+
+#: ../data/gnome-video-arcade.builder.h:81
+msgid "Choose the order of information to appear in the game list."
+msgstr "Alegeți ordinea în care informațiile vor apărea în lista de jocuri."
+
+#: ../data/gnome-video-arcade.builder.h:82
+msgid "Columns"
+msgstr "Coloane"
+
+#: ../data/gnome-video-arcade.desktop.in.h:2
+#, fuzzy
+#| msgid "GNOME Video Arcade"
+msgid "Video Arcade"
+msgstr "Emulator GNOME pentru jocuri de tip arcadă"
+
+#: ../data/gnome-video-arcade.desktop.in.h:3
+#, fuzzy
+#| msgid "Playing a fullscreen game"
+msgid "Play classic arcade games"
+msgstr "Se redă un joc pe tot ecranul"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:1
+#, fuzzy
+#| msgid "Show all available games"
+msgid "All available column names"
+msgstr "Arată toate jocurile disponibile"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:2
+msgid ""
+"List of all available column names. The user may choose to only display a "
+"subset of them (see \"columns\")."
+msgstr ""
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:3
+msgid "Save and restore state"
+msgstr ""
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:4
+msgid ""
+"Enable automatic restore at startup and save at exit. If true, the emulator "
+"will try to restore the previous state of the arcade machine when starting a "
+"game. If false, the emulator will boot the arcade machine from a cold start. "
+"This setting does not apply to recording games or playing back previously "
+"recorded games. In those cases the emulator will always reboot the arcade "
+"machine."
+msgstr ""
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:5
+#, fuzzy
+#| msgid "Columns"
+msgid "Column names"
+msgstr "Coloane"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:6
+msgid "List of column names to display."
+msgstr ""
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:7
+#, fuzzy
+#| msgid "_Favorite Games"
+msgid "Favorite games"
+msgstr "Jocuri _favorite"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:8
+msgid "List of the user's favorite games."
+msgstr ""
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:9
+#, fuzzy
+#| msgid "Start games in _fullscreen mode"
+msgid "Start games in full screen mode"
+msgstr "Pornește jocul pe tot _ecranul"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:10
+msgid ""
+"If true, automatically switch to full screen mode when starting a game. If "
+"false, start the game in a window."
+msgstr ""
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:11
+#, fuzzy
+#| msgid "Save ROM errors to a file"
+msgid "ROM error filename"
+msgstr "Salvează erorile ROM într-un fișier"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:12
+msgid "Suggested filename for the ROM error \"Save As\" dialog."
+msgstr ""
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:13
+#, fuzzy
+#| msgid "Properties"
+msgid "Properties height"
+msgstr "Proprietăți"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:14
+msgid "The height of the Properties window."
+msgstr ""
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:15
+#, fuzzy
+#| msgid "Properties"
+msgid "Properties maximized"
+msgstr "Proprietăți"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:16
+msgid "True if the Properties window is maximized."
+msgstr ""
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:17
+#, fuzzy
+#| msgid "Properties"
+msgid "Properties page"
+msgstr "Proprietăți"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:18
+msgid "The most recently selected page in the Properties window."
+msgstr ""
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:19
+#, fuzzy
+#| msgid "Properties"
+msgid "Properties width"
+msgstr "Proprietăți"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:20
+msgid "The width of the Properties window."
+msgstr ""
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:21
+#, fuzzy
+#| msgid "Search Result"
+#| msgid_plural "Search Results"
+msgid "Search text"
+msgstr "Rezultatul căutării"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:22
+msgid "The most recent text in the search entry."
+msgstr ""
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:23
+#, fuzzy
+#| msgid "Start the selected game"
+msgid "Selected game"
+msgstr "Pornește jocul selectat"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:24
+#, fuzzy
+#| msgid "Start the selected game"
+msgid "The most recently selected game."
+msgstr "Pornește jocul selectat"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:25
+msgid "Selected completion match"
+msgstr ""
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:26
+msgid ""
+"The most recently selected match from a search completion list. The first "
+"value is the column name of the match, and the second value is the text of "
+"the match. Example: (manufacturer, Williams). Empty values indicate the "
+"completion feature was not used in the most recent search."
+msgstr ""
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:27
+msgid "Selected view"
+msgstr ""
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:28
+msgid "The most recently selected view."
+msgstr ""
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:29
+#, fuzzy
+#| msgid "Show next game"
+msgid "Show cloned games"
+msgstr "Arată jocul următor"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:30
+msgid ""
+"If true, show both original and cloned games in the main window. If false, "
+"show only original games."
+msgstr ""
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:31
+msgid "Sort column and sort order"
+msgstr ""
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:32
+msgid ""
+"The first value is the most recently sorted column name (or \"default\" for "
+"default sorting), and the second value is the sort order. True indicates "
+"descending order; False indicates ascending order."
+msgstr ""
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:33
+#, fuzzy
+#| msgid "In-game sound is muted"
+msgid "Sound muted"
+msgstr "Sunetul din joc este oprit"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:34
+msgid "If true, games are started without sound."
+msgstr ""
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:35
+msgid "Program version"
+msgstr ""
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:36
+msgid "The most recently run version of GNOME Video Arcade."
+msgstr ""
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:37
+msgid "Window height"
+msgstr ""
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:38
+msgid "The height of the main window."
+msgstr ""
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:39
+msgid "Window maximized"
+msgstr ""
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:40
+msgid "True if the main window is maximized."
+msgstr ""
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:41
+msgid "Window width"
+msgstr ""
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:42
+msgid "The width of the main window."
+msgstr ""
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:43
+msgid "Window X coordinate"
+msgstr ""
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:44
+msgid "The X coordinate of the main window."
+msgstr ""
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:45
+msgid "Window Y coordinate"
+msgstr ""
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:46
+msgid "The Y coordinate of the main window."
+msgstr ""
+
+#: ../src/gva-audit.c:238
+msgid "Save As"
+msgstr "Salvează ca"
+
+#: ../src/gva-column-manager.c:557
+msgid "Managed View"
+msgstr "Vizualizare gestionată"
+
+#: ../src/gva-column-manager.c:558
+msgid "The GtkTreeView being managed"
+msgstr "GtkTreeView este gestionat"
+
+#: ../src/gva-column-manager.c:615
+msgid "Move _Up"
+msgstr "Mută s_us"
+
+#: ../src/gva-column-manager.c:628
+msgid "Move _Down"
+msgstr "Mută _jos"
+
+#: ../src/gva-column-manager.c:641
+msgid "_Show"
+msgstr "_Arată"
+
+#: ../src/gva-column-manager.c:650
+msgid "_Hide"
+msgstr "As_cunde"
+
+#: ../src/gva-columns.c:299
+#, c-format
+msgid "Remove %s Column"
+msgstr "Elimină coloana %s"
+
+#: ../src/gva-columns.c:301
+#, c-format
+msgid "Remove the \"%s\" column from the game list"
+msgstr "Elimină coloana „%s” din lista de jocuri"
+
+#: ../src/gva-columns.c:867
+msgid "Click here to remove from favorites"
+msgstr "Clic pentru a elimina din favorite"
+
+#: ../src/gva-columns.c:869
+msgid "Click here to add to favorites"
+msgstr "Clic pentru a adăuga la favorite"
+
+#: ../src/gva-columns.c:961 ../src/gva-properties.c:409
+msgid "(Game Description Unknown)"
+msgstr "(Descriere de joc necunoscută) "
+
+#: ../src/gva-columns.c:964 ../src/gva-properties.c:412
+msgid "(Manufacturer Unknown)"
+msgstr "(Producător necunoscut)"
+
+#: ../src/gva-columns.c:967 ../src/gva-properties.c:415
+msgid "(Year Unknown)"
+msgstr "(An necunoscut)"
+
+#: ../src/gva-columns.c:991 ../src/gva-main.c:1007
+msgid "ROM Name"
+msgstr "Nume ROM"
+
+#: ../src/gva-columns.c:993
+msgid "BIOS"
+msgstr "BIOS"
+
+#: ../src/gva-columns.c:995 ../src/gva-main.c:1000
+msgid "Category"
+msgstr "Categorie"
+
+#: ../src/gva-columns.c:997
+msgid "Favorite"
+msgstr "Favorit"
+
+#: ../src/gva-columns.c:1000
+msgid "Driver"
+msgstr "Driver"
+
+#: ../src/gva-columns.c:1008
+msgid "Samples"
+msgstr "Mostre"
+
+#: ../src/gva-columns.c:1010
+msgid "Title"
+msgstr "Titlu"
+
+#: ../src/gva-columns.c:1013
+msgid "Year"
+msgstr "An"
+
+#: ../src/gva-columns.c:1016 ../src/gva-main.c:986
+msgid "Manufacturer"
+msgstr "Producător"
+
+#: ../src/gva-columns.c:1022
+msgid "Players"
+msgstr "Jucători"
+
+#: ../src/gva-columns.c:1025
+msgid "Players (Alt.)"
+msgstr "Jucători (Alt.)"
+
+#: ../src/gva-columns.c:1028
+msgid "Players (Sim.)"
+msgstr "Jucători (Sim.)"
+
+#: ../src/gva-columns.c:1033
+msgid "Status"
+msgstr "Stare"
+
+#: ../src/gva-columns.c:1044
+msgid "Last Played"
+msgstr "Ultimul jucat"
+
+#: ../src/gva-columns.c:1046
+msgid "Comment"
+msgstr "Comentariu"
+
+#: ../src/gva-columns.c:1050
+msgid "Played On"
+msgstr "Jucat la"
+
+#: ../src/gva-input-file.c:505
+#, c-format
+msgid "Invalid or unsupported INP file format"
+msgstr "Format de fișier INP nevalid sau nesuportat"
+
+#: ../src/gva-main.c:230
+msgid "Building game database..."
+msgstr "Se construiește baza de date a jocului..."
+
+#: ../src/gva-main.c:291
+msgid "Analyzing ROM files..."
+msgstr "Se analizează fișierele ROM..."
+
+#: ../src/gva-main.c:972
+msgid "Search for any of the following:"
+msgstr "Caută după oricare dintre următoarele:"
+
+#. The labels begin with a UTF-8 encoded bullet character.
+#: ../src/gva-main.c:979
+msgid "Game Title"
+msgstr "Titlul jocului"
+
+#: ../src/gva-main.c:993
+msgid "Copyright Year"
+msgstr "Anul drepturi de autor"
+
+#: ../src/gva-main.c:1014
+msgid "BIOS Name"
+msgstr "Numele BIOS"
+
+#: ../src/gva-main.c:1021
+msgid "Driver Name"
+msgstr "Numele driverului"
+
+#: ../src/gva-mame.c:144
+#, c-format
+msgid "Could not determine emulator version"
+msgstr "Nu s-a putut determina versiunea emulatorului"
+
+#: ../src/gva-mame.c:314
+#, c-format
+msgid "%s: No such configuration key"
+msgstr "%s: Nicio astfel de configurație cheie"
+
+#: ../src/gva-mute-button.c:126
+msgid "Muted"
+msgstr "Mut"
+
+#: ../src/gva-mute-button.c:127
+msgid "Whether the button state is muted"
+msgstr "Dacă starea butonului este mut"
+
+#: ../src/gva-mute-button.c:202
+msgid "In-game sound is muted"
+msgstr "Sunetul din joc este oprit"
+
+#: ../src/gva-mute-button.c:207
+msgid "In-game sound is enabled"
+msgstr "Sunetul din joc este pornit"
+
+#: ../src/gva-nplayers.c:179
+msgid "Up to four players alternating or two players simultaneously"
+msgstr "Până la patru jucători alternând sau doi jucători simultan"
+
+#: ../src/gva-nplayers.c:183
+msgid "Up to eight players alternating or two players simultaneously"
+msgstr "Până la opt jucători alternând sau doi jucători simultan"
+
+#: ../src/gva-nplayers.c:198 ../src/gva-nplayers.c:241
+#: ../src/gva-nplayers.c:277
+msgid "One player only"
+msgstr "Doar un jucător"
+
+#: ../src/gva-nplayers.c:201
+msgid "One or two players"
+msgstr "Unu sau doi jucători"
+
+#: ../src/gva-nplayers.c:204
+msgid "Up to three players"
+msgstr "Până la trei jucători"
+
+#: ../src/gva-nplayers.c:207
+msgid "Up to four players"
+msgstr "Până la patru jucători"
+
+#: ../src/gva-nplayers.c:210
+msgid "Up to five players"
+msgstr "Până la cinci jucători"
+
+#: ../src/gva-nplayers.c:213
+msgid "Up to six players"
+msgstr "Până la șase jucători"
+
+#: ../src/gva-nplayers.c:216
+msgid "Up to seven players"
+msgstr "Până la șapte jucători"
+
+#: ../src/gva-nplayers.c:219
+msgid "Up to eight players"
+msgstr "Până la opt jucători"
+
+#: ../src/gva-nplayers.c:244
+msgid "One or two players alternating"
+msgstr "Unu sau doi jucători alternând"
+
+#: ../src/gva-nplayers.c:247
+msgid "Up to three players alternating"
+msgstr "Până la trei jucători alternând"
+
+#: ../src/gva-nplayers.c:250
+msgid "Up to four players alternating"
+msgstr "Până la patru jucători alternând"
+
+#: ../src/gva-nplayers.c:253
+msgid "Up to five players alternating"
+msgstr "Până la cinci jucători alternând"
+
+#: ../src/gva-nplayers.c:256
+msgid "Up to six players alternating"
+msgstr "Până la șase jucători alternând"
+
+#: ../src/gva-nplayers.c:259
+msgid "Up to seven players alternating"
+msgstr "Până la șapte jucători alternând"
+
+#: ../src/gva-nplayers.c:262
+msgid "Up to eight players alternating"
+msgstr "Până la opt jucători alternând"
+
+#: ../src/gva-nplayers.c:280
+msgid "One or two players simultaneously"
+msgstr "Unu sau doi jucători simultan"
+
+#: ../src/gva-nplayers.c:283
+msgid "Up to three players simultaneously"
+msgstr "Până la trei jucători simultan"
+
+#: ../src/gva-nplayers.c:286
+msgid "Up to four players simultaneously"
+msgstr "Până la patru jucători simultan"
+
+#: ../src/gva-nplayers.c:289
+msgid "Up to five players simultaneously"
+msgstr "Până la cinci jucători simultan"
+
+#: ../src/gva-nplayers.c:292
+msgid "Up to six players simultaneously"
+msgstr "Până la șase jucători simultan"
+
+#: ../src/gva-nplayers.c:295
+msgid "Up to seven players simultaneously"
+msgstr "Până la șapte jucători simultan"
+
+#: ../src/gva-nplayers.c:298
+msgid "Up to eight players simultaneously"
+msgstr "Până la opt jucători simultan"
+
+#: ../src/gva-play-back.c:54
+msgid "Delete selected game recordings?"
+msgstr "Ștergeți înregistrările jocului selectat?"
+
+#: ../src/gva-play-back.c:58
+msgid ""
+"This operation will permanently erase the recorded games you have selected.  "
+"Are you sure you want to proceed?"
+msgstr ""
+"Această operație va șterge permanent înregistrările jocurilor pe care le-ați "
+"selectat. Sigur doriți să continuați?"
+
+#: ../src/gva-play-back.c:62
+msgid "Do Not Delete"
+msgstr "Nu șterge"
+
+#: ../src/gva-properties.c:145
+msgid "Show this game"
+msgstr "Arată acest joc"
+
+#: ../src/gva-properties.c:456
+#, c-format
+msgid ""
+"Error while fetching history:\n"
+"%s"
+msgstr ""
+"A apărut o eroare la obținerea istoricului:\n"
+"%s"
+
+#: ../src/gva-properties.c:461
+msgid "History not available"
+msgstr "Istoricul nu este disponibil"
+
+#: ../src/gva-tree-view.c:431
+msgid "Available Game"
+msgid_plural "Available Games"
+msgstr[0] "Joc disponibil"
+msgstr[1] "Jocuri disponibile"
+msgstr[2] "Jocuri disponibile"
+
+#: ../src/gva-tree-view.c:438
+msgid "Favorite Game"
+msgid_plural "Favorite Games"
+msgstr[0] "Joc favorit"
+msgstr[1] "Jocuri favorite"
+msgstr[2] "Jocuri favorite"
+
+#: ../src/gva-tree-view.c:445
+msgid "Search Result"
+msgid_plural "Search Results"
+msgstr[0] "Rezultatul căutării"
+msgstr[1] "Rezultatele căutării"
+msgstr[2] "Rezultatele căutării"
+
+#: ../src/gva-ui.c:58
+msgid ""
+"GNOME Video Arcade is free software; you can redistribute it and/or modify "
+"it under the terms of the GNU General Public License as published by the "
+"Free Software Foundation; either version 3 of the License, or (at your "
+"option) any later version.\n"
+"\n"
+"GNOME Video Arcade is distributed in the hope that it will be useful, but "
+"WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
+"or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along with "
+"GNOME Video Arcade.  If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+
+#: ../src/gva-ui.c:310
+msgid "M.A.M.E. Front-End"
+msgstr "Interfață M.A.M.E. "
+
+#: ../src/gva-ui.c:315
+msgid "Visit the Website"
+msgstr "Vizitați pagina web"
+
+#: ../src/gva-ui.c:317
+msgid "translator-credits"
+msgstr "Alexandru Marian Florescu <show_some_originality@yahoo.com>"
+
+#. Translators: This is passed through D-Bus as
+#. * the reason to inhibit GNOME screen saver.
+#: ../src/gva-ui.c:444
+msgid "Watching a fullscreen game"
+msgstr "Se vizualizează un joc pe tot ecranul"
+
+#. Translators: This is passed through D-Bus as
+#. * the reason to inhibit GNOME screen saver.
+#: ../src/gva-ui.c:543
+msgid "Recording a fullscreen game"
+msgstr "Se înregistrează un joc pe tot ecranul"
+
+#. Translators: This is passed through D-Bus as the
+#. * reason to inhibit GNOME screen saver.
+#: ../src/gva-ui.c:683
+msgid "Playing a fullscreen game"
+msgstr "Se redă un joc pe tot ecranul"
+
+#: ../src/gva-ui.c:780
+msgid "Failed to initialize user interface"
+msgstr "Inițializarea interfeței pentru utilizator a eșuat"
+
+#: ../src/gva-ui.c:922
+#, c-format
+msgid "Add %s Column"
+msgstr "Adaugă coloana %s"
+
+#: ../src/gva-ui.c:924
+#, c-format
+msgid "Add a \"%s\" column to the game list"
+msgstr "Adaugă o coloană „%s” la lista de jocuri"
+
+#: ../src/main.c:53
+msgid "Build the games database"
+msgstr "Construiește baza de date a jocului"
+
+#: ../src/main.c:57
+msgid "Inspect an emulator setting"
+msgstr "Inspectează configurările emulatorului"
+
+#: ../src/main.c:58
+msgid "NAME"
+msgstr "NAME"
+
+#: ../src/main.c:62
+msgid "Show the application version"
+msgstr "Arată versiunea aplicației"
+
+#: ../src/main.c:66
+msgid "Show which emulator will be used"
+msgstr "Arată care emulator va fi folosit"
+
+#: ../src/main.c:105
+msgid "No ROM files found"
+msgstr "Niciun fișier ROM găsit"
+
+#: ../src/main.c:109
+msgid ""
+"GNOME Video Arcade was unable to locate any ROM files. It could be that MAME "
+"is misconfigured or that no ROM files are installed. Click <b>Help</b> for "
+"more details and troubleshooting tips."
+msgstr ""
+"Emulatorul Gnome pentru jocuri de tip arcadă nu a putut găsi niciun fișier "
+"ROM. Fie că MAME este configurat greșit, fie că niciun fișier ROM nu este "
+"instalat. Clic <b>Ajutor</b> pentru mai multe detalii și sfaturi de depanare."
+
+#: ../src/main.c:152
+msgid "Changes detected in ROM files"
+msgstr "Au fost detectate modificări în fișierele ROM"
+
+#: ../src/main.c:156
+msgid ""
+"GNOME Video Arcade has detected changes in your ROM files and will need to "
+"audit them in order to update the game list. However the audit may take "
+"several minutes to complete. Would you like to perform the audit now?\n"
+"\n"
+"If you skip the audit now, it will be performed automatically the next time "
+"you start GNOME Video Arcade."
+msgstr ""
+"Emulatorul Gnome pentru jocuri de tip arcadă  a detectat modificări în "
+"fișierele dumneavoastră ROM și trebuie să le verifice pentru a actualiza "
+"lista de jocuri. În orice caz, verificarea va lua câteva minute pentru a fi "
+"completată. Doriți să începeți configurația acum?\n"
+"\n"
+"Dacă omiteți verificare acum, ea va fi făcută automat data viitoare când se "
+"va porni GNOME Video Arcade."
+
+#: ../src/main.c:166
+msgid "_Skip Audit"
+msgstr "_Omite verificarea"
+
+#: ../src/main.c:167
+msgid "_Audit ROM Files"
+msgstr "_Verifică fișierele ROM"
+
+#~ msgid "&#x2022; <b>THIS GAME DOESN'T WORK.</b>"
+#~ msgstr "&#x2022; <b>ACEST JOC NU FUNCȚIONEAZĂ.</b>"
+
+#~ msgid "&#x2022; Screen flipping in cocktail mode is not supported."
+#~ msgstr ""
+#~ "&#x2022; Întoarcerea ecranului nu este suportată în modulul cocktail."
+
+#~ msgid "&#x2022; The colors are completely wrong."
+#~ msgstr "&#x2022; Culorile sunt complet greșite."
+
+#~ msgid "&#x2022; The colors aren't 100% accurate."
+#~ msgstr "&#x2022; Culorile nu sunt 100% exacte."
+
+#~ msgid "&#x2022; The game has protection which isn't fully emulated."
+#~ msgstr "&#x2022; Jocul are o protecție ce nu este emulată în întregime."
+
+#~ msgid "&#x2022; The game lacks sound."
+#~ msgstr "&#x2022; Jocul duce lipsă de sunet."
+
+#~ msgid "&#x2022; The sound emulation isn't 100% accurate."
+#~ msgstr "&#x2022; Emulatorul de sunet nu este 100% exact."
+
+#~ msgid "&#x2022; The video emulation isn't 100% accurate."
+#~ msgstr "&#x2022; Emulatorul de video nu este 100% exact."
+
+#~ msgid "<small></small>"
+#~ msgstr "<small></small>"
+
+#~ msgid "Play a music clip"
+#~ msgstr "Redă un clip muzical"
+
+#~ msgid "GConf error: %s"
+#~ msgstr "Eroare GConf : %s"
+
+#~ msgid "All further errors shown only on terminal."
+#~ msgstr "Viitoarele erori vor fi afișate doar în terminal."
+
+#~ msgid "This program is not configured to show category information."
+#~ msgstr ""
+#~ "Acest program nu este configurat să arate informații despre categorie."
+
+#~ msgid "This program is not configured to show history information."
+#~ msgstr ""
+#~ "Acest program nu este configurat să ofere informații despre istoric."
+
+#~ msgid "No music available"
+#~ msgstr "Nicio muzică disponibilă"
+
+#~ msgid "Unable to play music"
+#~ msgstr "Nu se poate reda muzica"
+
+#~ msgid "Buffering %d%%..."
+#~ msgstr "Se creează memoria tampon %d%%..."
+
+#~ msgid "Connecting..."
+#~ msgstr "Se conectează..."
+
+#~ msgid ""
+#~ "This program is not configured to show detailed number of players "
+#~ "information."
+#~ msgstr ""
+#~ "Acest program nu este configurat să arate informații detaliate despre "
+#~ "numărul de jucători."
+
+#~ msgid "Add the selected game to my list of favorites"
+#~ msgstr "Adaugă jocul selectat la lista mea de favorite"
+
+#~ msgid "Play music _automatically"
+#~ msgstr "Redă muzica _automat"
+
+#~ msgid "Automatically play a music clip from the selected game"
+#~ msgstr "Se va reda automat un clip muzical din jocul selectat"

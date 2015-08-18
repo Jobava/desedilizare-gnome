@@ -1,0 +1,185 @@
+# Romanian translation for gst-plugins-bad
+# This file is distributed under the same license as the gst-plugins-bad package.
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: gst-plugins-bad 0.10.18.2\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=gstreamer&keywords=I18N+L10N&component=gst-plugins-bad\n"
+"POT-Creation-Date: 2015-08-05 21:08+0000\n"
+"PO-Revision-Date: 2010-08-16 03:11+0300\n"
+"Last-Translator: Lucian Adrian Grijincu <lucian.grijincu@gmail.com>\n"
+"Language-Team: Romanian <translation-team-ro@lists.sourceforge.net>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);;\n"
+"X-Generator: Virtaal 0.6.1\n"
+
+#: ../ext/gl/gstgltestsrc.c:673
+msgid "format wasn't negotiated before get function"
+msgstr ""
+
+#: ../ext/opencv/gsttemplatematch.c:442
+msgid "OpenCV failed to load template image"
+msgstr ""
+
+#: ../ext/resindvd/resindvdsrc.c:362
+msgid "Could not read title information for DVD."
+msgstr "Nu s-au putut citi informațiile despre titlu pentru DVD."
+
+#: ../ext/resindvd/resindvdsrc.c:368
+#, c-format
+msgid "Failed to open DVD device '%s'."
+msgstr "Nu s-a putut deschide dispozitivul DVD „%s”."
+
+#: ../ext/resindvd/resindvdsrc.c:374
+msgid "Failed to set PGC based seeking."
+msgstr "Nu s-a putut stabili derularea bazată pe PGC."
+
+#: ../ext/resindvd/resindvdsrc.c:1166
+msgid ""
+"Could not read DVD. This may be because the DVD is encrypted and a DVD "
+"decryption library is not installed."
+msgstr ""
+
+#: ../ext/resindvd/resindvdsrc.c:1171 ../ext/resindvd/resindvdsrc.c:1180
+#, fuzzy
+msgid "Could not read DVD."
+msgstr "Nu s-au putut citi informațiile despre titlu pentru DVD."
+
+#: ../ext/smoothstreaming/gstmssdemux.c:380
+#: ../gst-libs/gst/adaptivedemux/gstadaptivedemux.c:524
+msgid "This file contains no playable streams."
+msgstr ""
+
+#: ../ext/sndfile/gstsfdec.c:769
+#, fuzzy
+msgid "Could not open sndfile stream for reading."
+msgstr "Nu s-a putut deschide fișierul „%s” pentru citire."
+
+#: ../ext/sndio/sndiosink.c:324 ../ext/sndio/sndiosrc.c:321
+msgid "Could not establish connection to sndio"
+msgstr ""
+
+#: ../ext/sndio/sndiosink.c:331 ../ext/sndio/sndiosrc.c:328
+msgid "Failed to query sndio capabilities"
+msgstr ""
+
+#: ../ext/sndio/sndiosink.c:424 ../ext/sndio/sndiosrc.c:422
+#, fuzzy
+msgid "Could not configure sndio"
+msgstr "Nu s-a putut deschide fișierul „%s” pentru citire."
+
+#: ../ext/sndio/sndiosink.c:430 ../ext/sndio/sndiosrc.c:428
+#, fuzzy
+msgid "Could not start sndio"
+msgstr "Nu s-au putut citi informațiile despre titlu pentru DVD."
+
+#: ../gst/aiff/aiffparse.c:1458
+msgid "Internal data flow error."
+msgstr "Eroare internă de flux al datelor."
+
+#: ../gst/asfmux/gstasfmux.c:1803
+msgid "Generated file has a larger preroll time than its streams duration"
+msgstr ""
+
+#: ../gst/camerabin2/camerabingeneral.c:166
+#: ../gst/camerabin2/gstcamerabin2.c:1876
+#: ../gst/camerabin2/gstdigitalzoom.c:282
+#: ../gst/camerabin2/gstviewfinderbin.c:271
+#, c-format
+msgid "Missing element '%s' - check your GStreamer installation."
+msgstr ""
+
+#: ../gst/camerabin2/gstcamerabin2.c:364
+msgid "File location is set to NULL, please set it to a valid filename"
+msgstr ""
+
+#: ../gst/camerabin2/gstwrappercamerabinsrc.c:584
+msgid "Digitalzoom element couldn't be created"
+msgstr ""
+
+#: ../gst/dvdspu/gstdvdspu.c:1036
+msgid "Subpicture format was not configured before data flow"
+msgstr ""
+
+#: ../gst-libs/gst/adaptivedemux/gstadaptivedemux.c:1980
+msgid "Failed to get fragment URL."
+msgstr ""
+
+#: ../gst-libs/gst/adaptivedemux/gstadaptivedemux.c:2174
+#: ../gst-libs/gst/adaptivedemux/gstadaptivedemux.c:2338
+#: ../gst/mpegtsdemux/mpegtsbase.c:1342 ../gst/mpegtsdemux/mpegtsbase.c:1346
+#: ../gst/nuvdemux/gstnuvdemux.c:736
+msgid "Internal data stream error."
+msgstr "Eroare internă a fluxului de date."
+
+#: ../gst-libs/gst/adaptivedemux/gstadaptivedemux.c:2275
+#, c-format
+msgid "Couldn't download fragments"
+msgstr ""
+
+#: ../gst/videomeasure/gstvideomeasure_collector.c:294
+msgid "No file name specified for writing."
+msgstr "Niciun nume de fișier specificat pentru scriere."
+
+#: ../gst/videomeasure/gstvideomeasure_collector.c:300
+#, c-format
+msgid "Given file name \"%s\" can't be converted to local file name encoding."
+msgstr ""
+
+#: ../gst/videomeasure/gstvideomeasure_collector.c:307
+#, c-format
+msgid "Could not open file \"%s\" for writing."
+msgstr "Nu s-a putut deschide fișierul „%s” pentru scriere."
+
+#: ../sys/dvb/gstdvbsrc.c:1565 ../sys/dvb/gstdvbsrc.c:1754
+#, c-format
+msgid "Device \"%s\" does not exist."
+msgstr "Dispozitivul „%s” nu există."
+
+#: ../sys/dvb/gstdvbsrc.c:1569
+#, c-format
+msgid "Could not open frontend device \"%s\"."
+msgstr "Nu s-a putut deschide dispozitivul frontend „%s”."
+
+#: ../sys/dvb/gstdvbsrc.c:1583
+#, c-format
+msgid "Could not get settings from frontend device \"%s\"."
+msgstr "Nu s-au putut obține configurările de la dispozitivul frontend „%s”."
+
+#: ../sys/dvb/gstdvbsrc.c:1600
+#, fuzzy, c-format
+msgid "Cannot enumerate delivery systems from frontend device \"%s\"."
+msgstr "Nu s-au putut obține configurările de la dispozitivul frontend „%s”."
+
+#: ../sys/dvb/gstdvbsrc.c:1758
+#, c-format
+msgid "Could not open file \"%s\" for reading."
+msgstr "Nu s-a putut deschide fișierul „%s” pentru citire."
+
+#: ../sys/dvb/parsechannels.c:168
+#, c-format
+msgid "Couldn't find DVB channel configuration file"
+msgstr ""
+
+#: ../sys/dvb/parsechannels.c:171
+#, c-format
+msgid "Couldn't load DVB channel configuration file: %s"
+msgstr ""
+
+#: ../sys/dvb/parsechannels.c:180
+#, c-format
+msgid "DVB channel configuration file doesn't contain any channels"
+msgstr ""
+
+#: ../sys/dvb/parsechannels.c:456
+#, c-format
+msgid "Couldn't find details for DVB channel %s"
+msgstr ""
+
+#~ msgid "Could not write to file \"%s\"."
+#~ msgstr "Nu s-a putut scrie în fișierul „%s”."

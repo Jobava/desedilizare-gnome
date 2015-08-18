@@ -1,0 +1,375 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Alexandru Palcuie <palcuiealex@yahoo.com>, 2010.
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=NetworkManager&keywords=I18N+L10N&component=VPN: pptp\n"
+"POT-Creation-Date: 2015-07-09 11:30+0000\n"
+"PO-Revision-Date: 2010-11-27 14:19+0300\n"
+"Last-Translator: Lucian Adrian Grijincu <lucian.grijincu@gmail.com>\n"
+"Language-Team: Romanian Gnome Team <gnomero-list@lists.sourceforge.net>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);;\n"
+"X-Generator: Virtaal 0.6.1\n"
+
+#. Otherwise, we have no saved password, or the password flags indicated
+#. * that the password should never be saved.
+#.
+#: ../auth-dialog/main.c:155
+#, c-format
+msgid "You need to authenticate to access the Virtual Private Network '%s'."
+msgstr ""
+"Trebuie să vă autentificați pentru a accesa Rețeaua privată virtuală „%s”."
+
+#: ../auth-dialog/main.c:164 ../auth-dialog/main.c:184
+msgid "Authenticate VPN"
+msgstr "Autentifică VPN"
+
+#: ../auth-dialog/main.c:166 ../properties/nm-pptp-dialog.ui.h:39
+msgid "Password:"
+msgstr "Parolă:"
+
+#: ../nm-pptp.desktop.in.h:1
+msgid "PPTP VPN Connection Manager"
+msgstr "Manager conexiuni PPTP VPN"
+
+#: ../nm-pptp.desktop.in.h:2
+msgid "Add, Remove, and Edit PPTP VPN Connections"
+msgstr "Adaugă, șterge sau modifică conexiunile PPTP VPN"
+
+#: ../properties/advanced-dialog.c:184
+msgid "All Available (Default)"
+msgstr "Toate cele disponibile (implicit)"
+
+#: ../properties/advanced-dialog.c:188
+msgid "128-bit (most secure)"
+msgstr "128-bit (cea mai sigură)"
+
+#: ../properties/advanced-dialog.c:197
+msgid "40-bit (less secure)"
+msgstr "40-bit (mai puțin sigură)"
+
+#: ../properties/advanced-dialog.c:301
+msgid "PAP"
+msgstr "PAP"
+
+#: ../properties/advanced-dialog.c:314
+msgid "CHAP"
+msgstr "CHAP"
+
+#: ../properties/advanced-dialog.c:326
+msgid "MSCHAP"
+msgstr "MSCHAP"
+
+#: ../properties/advanced-dialog.c:338
+msgid "MSCHAPv2"
+msgstr "MSCHAPv2"
+
+#: ../properties/advanced-dialog.c:351
+msgid "EAP"
+msgstr "EAP"
+
+#: ../properties/nm-pptp-dialog.ui.h:1
+msgid "Default"
+msgstr "Implicit"
+
+#: ../properties/nm-pptp-dialog.ui.h:2
+msgid "PPTP Advanced Options"
+msgstr "Opțiuni avansate PPTP"
+
+#: ../properties/nm-pptp-dialog.ui.h:3
+msgid "<b>Authentication</b>"
+msgstr "<b>Autentificare</b>"
+
+#: ../properties/nm-pptp-dialog.ui.h:4
+msgid "Allow the following authentication methods:"
+msgstr "Permite următoarele metode de autentificare:"
+
+#: ../properties/nm-pptp-dialog.ui.h:5
+msgid ""
+"Allow/disable authentication methods.\n"
+"config: refuse-pap, refuse-chap, refuse-mschap, refuse-mschap-v2, refuse-eap"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:7
+msgid "<b>Security and Compression</b>"
+msgstr "<b>Securitate și compresie</b>"
+
+#: ../properties/nm-pptp-dialog.ui.h:8
+msgid "Use _Point-to-Point encryption (MPPE)"
+msgstr "Folosește criptarea _Punct la punct (MPPE)"
+
+#: ../properties/nm-pptp-dialog.ui.h:9
+msgid ""
+"Note: MPPE encryption is only available with MSCHAP authentication methods. "
+"To enable this checkbox, select one or more of the MSCHAP authentication "
+"methods: MSCHAP or MSCHAPv2."
+msgstr ""
+"Notă: criptarea MPPE este disponibilă doar împreună cu metodele de "
+"autentificare MSCHAP. Pentru a activa această opțiune, selectați una sau mai "
+"multe metode de autentificare MSCHAP: MSCHAP sau MSCHAPv2."
+
+#: ../properties/nm-pptp-dialog.ui.h:10
+msgid "_Security:"
+msgstr "_Securitate:"
+
+#: ../properties/nm-pptp-dialog.ui.h:11
+msgid ""
+"Require the use of MPPE, with 40/128-bit encryption or all.\n"
+"config: require-mppe, require-mppe-128 or require-mppe-40"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:13
+msgid "Allow st_ateful encryption"
+msgstr "Permite criptarea cu st_are"
+
+#: ../properties/nm-pptp-dialog.ui.h:14
+msgid ""
+"Allow MPPE to use stateful mode. Stateless mode is still attempted first.\n"
+"config: mppe-stateful (when checked)"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:16
+msgid "Allow _BSD data compression"
+msgstr "Permite compresia de date _BSD"
+
+#: ../properties/nm-pptp-dialog.ui.h:17
+msgid ""
+"Allow/disable BSD-Compress compression.\n"
+"config: nobsdcomp (when unchecked)"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:19
+msgid "Allow _Deflate data compression"
+msgstr "Permite compresia de date _Deflate"
+
+#: ../properties/nm-pptp-dialog.ui.h:20
+msgid ""
+"Allow/disable Deflate compression.\n"
+"config: nodeflate (when unchecked)"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:22
+msgid "Use TCP _header compression"
+msgstr "Folosește compresia _antetelor TCP"
+
+#: ../properties/nm-pptp-dialog.ui.h:23
+msgid ""
+"Allow/disable Van Jacobson style TCP/IP header compression in both the "
+"transmit and the receive directions.\n"
+"config: novj (when unchecked)"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:25
+msgid "<b>Echo</b>"
+msgstr "<b>Echo</b>"
+
+#: ../properties/nm-pptp-dialog.ui.h:26
+msgid "Send PPP _echo packets"
+msgstr "Trimite pachete _echo PPP"
+
+#: ../properties/nm-pptp-dialog.ui.h:27
+msgid ""
+"Send LCP echo-requests to find out whether peer is alive.\n"
+"config: lcp-echo-failure and lcp-echo-interval"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:29
+msgid "<b>General</b>"
+msgstr "<b>Generale</b>"
+
+#: ../properties/nm-pptp-dialog.ui.h:30
+msgid ""
+"PPTP server IP or name.\n"
+"config: the first parameter of pptp"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:32
+msgid "_Gateway:"
+msgstr "_Gateway:"
+
+#: ../properties/nm-pptp-dialog.ui.h:33
+msgid "<b>Optional</b>"
+msgstr "<b>Opționale</b>"
+
+#: ../properties/nm-pptp-dialog.ui.h:34
+msgid ""
+"Append the domain name <domain> to the local host name for authentication "
+"purposes.\n"
+"config: domain <domain>"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:36
+msgid "NT Domain:"
+msgstr "Domeniu NT:"
+
+#: ../properties/nm-pptp-dialog.ui.h:37
+msgid "Show password"
+msgstr "Arată parola"
+
+#: ../properties/nm-pptp-dialog.ui.h:38
+msgid "Password passed to PPTP when prompted for it."
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:40
+msgid ""
+"Set the name used for authenticating the local system to the peer to "
+"<name>.\n"
+"config: user <name>"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:42
+msgid "User name:"
+msgstr "Nume utilizator:"
+
+#: ../properties/nm-pptp-dialog.ui.h:43
+msgid "Ad_vanced..."
+msgstr "A_vansat..."
+
+#: ../properties/nm-pptp.c:50
+msgid "Point-to-Point Tunneling Protocol (PPTP)"
+msgstr "Protocol de tunelare Punct la punct (PPTP)"
+
+#: ../properties/nm-pptp.c:51
+msgid "Compatible with Microsoft and other PPTP VPN servers."
+msgstr "Compatibil cu Microsoft și alte servere VPN PPTP."
+
+#: ../src/nm-pptp-service.c:161
+#, c-format
+msgid "couldn't convert PPTP VPN gateway IP address '%s' (%d)"
+msgstr ""
+
+#: ../src/nm-pptp-service.c:179
+#, c-format
+msgid "couldn't look up PPTP VPN gateway IP address '%s' (%d)"
+msgstr ""
+
+#: ../src/nm-pptp-service.c:203
+#, c-format
+msgid "no usable addresses returned for PPTP VPN gateway '%s'"
+msgstr ""
+
+#: ../src/nm-pptp-service.c:214
+#, c-format
+msgid "no usable addresses returned for PPTP VPN gateway '%s' (%d)"
+msgstr ""
+
+#: ../src/nm-pptp-service.c:241
+msgid "Could not find secrets (connection invalid, no vpn setting)."
+msgstr ""
+
+#: ../src/nm-pptp-service.c:253
+msgid "Invalid VPN username."
+msgstr ""
+
+#: ../src/nm-pptp-service.c:262
+msgid "Missing VPN username."
+msgstr ""
+
+#: ../src/nm-pptp-service.c:272
+msgid "Missing or invalid VPN password."
+msgstr ""
+
+#: ../src/nm-pptp-service.c:430
+msgid "No cached credentials."
+msgstr ""
+
+#: ../src/nm-pptp-service.c:576
+#, c-format
+msgid "invalid gateway '%s'"
+msgstr ""
+
+#: ../src/nm-pptp-service.c:590
+#, c-format
+msgid "invalid integer property '%s'"
+msgstr ""
+
+#: ../src/nm-pptp-service.c:600
+#, c-format
+msgid "invalid boolean property '%s' (not yes or no)"
+msgstr ""
+
+#: ../src/nm-pptp-service.c:607
+#, c-format
+msgid "unhandled property '%s' type %s"
+msgstr ""
+
+#: ../src/nm-pptp-service.c:618
+#, c-format
+msgid "property '%s' invalid or not supported"
+msgstr ""
+
+#: ../src/nm-pptp-service.c:636
+msgid "No VPN configuration options."
+msgstr ""
+
+#: ../src/nm-pptp-service.c:656
+#, c-format
+msgid "Missing required option '%s'."
+msgstr ""
+
+#: ../src/nm-pptp-service.c:676
+msgid "No VPN secrets!"
+msgstr ""
+
+#: ../src/nm-pptp-service.c:817
+msgid "Could not find pptp client binary."
+msgstr ""
+
+#: ../src/nm-pptp-service.c:830
+msgid "Missing VPN gateway."
+msgstr ""
+
+#: ../src/nm-pptp-service.c:983
+msgid "Could not find the pppd binary."
+msgstr ""
+
+#: ../src/nm-pptp-service.c:1113
+msgid "Invalid or missing PPTP gateway."
+msgstr ""
+
+#: ../src/nm-pptp-service.c:1292
+msgid "Don't quit when VPN connection terminates"
+msgstr ""
+
+#: ../src/nm-pptp-service.c:1293
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr ""
+
+#: ../src/nm-pptp-service.c:1316
+msgid ""
+"nm-pptp-service provides integrated PPTP VPN capability (compatible with "
+"Microsoft and other implementations) to NetworkManager."
+msgstr ""
+
+#~ msgid "_Secondary Password:"
+#~ msgstr "Parolă _secundară:"
+
+#~ msgid "_Username:"
+#~ msgstr "Nume _utilizator:"
+
+#~ msgid "_Domain:"
+#~ msgstr "_Domeniu:"
+
+#~ msgid "_Password:"
+#~ msgstr "_Parolă:"
+
+#~ msgid "Connect _anonymously"
+#~ msgstr "Conectare _anonimă"
+
+#~ msgid "Connect as _user:"
+#~ msgstr "Conectare ca _utilizator:"
+
+#~ msgid "_Remember passwords for this session"
+#~ msgstr "_Reține parolele pentru această sesiune"
+
+#~ msgid "_Save passwords in keyring"
+#~ msgstr "_Salvează parolele în inelul de chei"

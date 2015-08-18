@@ -1,0 +1,259 @@
+# Romanian translation for video-subtitles.
+# Copyright (C) 2014 video-subtitles's COPYRIGHT HOLDER
+# This file is distributed under the same license as the video-subtitles package.
+# Bogdan Mințoi <mintoi.bogdan@gmail.com>, 2014.
+# Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>, 2015.
+#. extracted from ../gnome314.srt
+msgid ""
+msgstr ""
+"Project-Id-Version: video-subtitles master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-18 23:53+0000\n"
+"PO-Revision-Date: 2015-05-18 19:42+0200\n"
+"Last-Translator: Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>\n"
+"Language-Team: Gnome Romanian Translation Team\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);;\n"
+"X-Generator: Virtaal 0.7.1\n"
+
+#. visible for 2 seconds
+#: 00:00:04.000-->00:00:06.500
+msgid "Thanks to the hard work of our contributors.."
+msgstr "Mulțumită muncii asidue din partea contribuitorilor noștri.."
+
+#. visible for 1 seconds
+#: 00:00:06.800-->00:00:08.000
+msgid "..and thanks to the friends of GNOME"
+msgstr "..și mulțumită prietenilor GNOME"
+
+#. visible for 2 seconds
+#: 00:00:08.200-->00:00:11.000
+msgid "..we're proud to announce GNOME 3.14."
+msgstr "..suntem mândri să anunțăm GNOME 3.14."
+
+#. visible for 3 seconds
+#: 00:00:11.800-->00:00:15.200
+msgid "With this release GNOME brings an improved desktop.."
+msgstr "Cu această lansare GNOME aduce un mediu de birou îmbunătățit.."
+
+#. visible for 1 seconds
+#: 00:00:15.200-->00:00:16.900
+msgid "..for its users and developers."
+msgstr "..pentru utilizatorii și dezvoltatorii săi."
+
+#. visible for 2 seconds
+#: 00:00:18.000-->00:00:20.700
+msgid "The visual details in GNOME have been revised.."
+msgstr "Detaliile vizuale în GNOME au fost revizuite.."
+
+#. visible for 2 seconds
+#: 00:00:20.800-->00:00:23.600
+msgid "..and new animations have been implemented.."
+msgstr "..și animații noi au fost implementate.."
+
+#. visible for 1 seconds
+#: 00:00:23.600-->00:00:25.200
+msgid "..to improve your user experience."
+msgstr "..pentru a îmbunătăți experiența dumneavoastră ca utilizator."
+
+#. visible for 3 seconds
+#: 00:00:26.300-->00:00:29.500
+msgid "This release also brings better support for multitouch."
+msgstr ""
+"Această versiune aduce suport mai bun pentru atingere tactilă multiplă."
+
+#. visible for 2 seconds
+#: 00:00:30.880-->00:00:32.900
+msgid "You can now use swipe and zoom.."
+msgstr "Acum puteți utiliza swipe și zoom.."
+
+#. visible for 1 seconds
+#: 00:00:32.900-->00:00:34.200
+msgid "..in a multitude of GNOME apps."
+msgstr "..într-o multitudine de aplicații GNOME."
+
+#. visible for 2 seconds
+#: 00:00:35.680-->00:00:38.200
+msgid "GNOME Shell also has new gestures."
+msgstr "GNOME Shell are, de asemenea, gesturi noi."
+
+#. visible for 2 seconds
+#: 00:00:38.720-->00:00:41.700
+msgid "For example, when switching workspaces.."
+msgstr "De exemplu, la schimbarea spațiilor de lucru.."
+
+#. visible for 2 seconds
+#: 00:00:41.700-->00:00:44.200
+msgid "..and opening the activities overview."
+msgstr "..și deschiderea panoramei de activități."
+
+#. visible for 2 seconds
+#: 00:00:45.200-->00:00:47.700
+msgid "With help from GNOME's community.."
+msgstr "Cu ajutor din partea comunității GNOME.."
+
+#. visible for 2 seconds
+#: 00:00:47.700-->00:00:50.100
+msgid "..and from this year's internship participants.."
+msgstr "..și a stagiarilor din acest an.."
+
+#. visible for 2 seconds
+#: 00:00:50.100-->00:00:52.600
+msgid "..a lot of the GNOME apps have received updates."
+msgstr "..o mulțime de aplicații GNOME au fost actualizate."
+
+#. visible for 2 seconds
+#: 00:00:54.000-->00:00:56.440
+msgid "Software now supports app add-ons."
+msgstr "Programe suportă acum suplimente ale aplicațiilor."
+
+#. visible for 3 seconds
+#: 00:00:57.000-->00:01:00.000
+msgid "Maps gained navigation routing."
+msgstr "Hărți beneficiază de rutare de navigare."
+
+#. visible for 2 seconds
+#: 00:01:01.000-->00:01:03.420
+msgid "Photos can import your photos from Google."
+msgstr "Fotografii poate importa forografiile dumneavoastră de la Google."
+
+#. visible for 3 seconds
+#: 00:01:04.000-->00:01:07.000
+msgid "And Weather's interface was redesigned."
+msgstr "Vremea are o nouă interfață reproiectată."
+
+#. visible for 5 seconds
+#: 00:01:08.800-->00:01:13.900
+msgid "Furthermore, clocks and calculator have new search providers.."
+msgstr "Mai mult, Ceasuri și Calculator au noi furnizori de căutare.."
+
+#. visible for 1 seconds
+#: 00:01:13.900-->00:01:15.800
+msgid "..so you can check the time.."
+msgstr "..pentru a putea verifica ora.."
+
+#. visible for 2 seconds
+#: 00:01:15.800-->00:01:17.800
+msgid "..and calculate live in the search field."
+msgstr "..și efectua calcule în timp real în câmpul de căutare."
+
+#. visible for 3 seconds
+#: 00:01:18.200-->00:01:21.400
+msgid "Sudoku and mines were redesigned.."
+msgstr "Sudoku și Mine au fost reproiectate.."
+
+#. visible for 1 seconds
+#: 00:01:21.400-->00:01:22.960
+msgid "..for a better gameplay experience."
+msgstr "..pentru o mai bună experiență de joc."
+
+#. visible for 1 seconds
+#: 00:01:23.360-->00:01:25.200
+msgid "And a new game, named Hitori.."
+msgstr "Și un joc nou, intitulat Hitori.."
+
+#. visible for 2 seconds
+#: 00:01:25.220-->00:01:27.800
+msgid "..is now a part of GNOME games."
+msgstr "..face acum parte din jocurile GNOME."
+
+#. visible for 2 seconds
+#: 00:01:30.200-->00:01:33.000
+msgid "With GNOME 3.14, developers can look forward to.."
+msgstr "Cu GNOME 3.14, dezvoltatorii se pot aștepta.."
+
+#. visible for 2 seconds
+#: 00:01:33.000-->00:01:35.000
+msgid "..a better development environment."
+msgstr "..la un mediu de dezvoltare mai bun."
+
+#. visible for 2 seconds
+#: 00:01:35.700-->00:01:37.740
+msgid "GTK has begun an ongoing effort.. "
+msgstr "GTK a demarat un efort continuu.."
+
+#. visible for 1 seconds
+#: 00:01:37.740-->00:01:39.500
+msgid "..to improve the developer experience."
+msgstr "..de a îmbunătăți experiența de dezvoltare."
+
+#. visible for 2 seconds
+#: 00:01:40.860-->00:01:43.000
+msgid "This release ships with GTK Inspector.."
+msgstr "Această versiune vine cu GTK Inspector.."
+
+#. visible for 3 seconds
+#: 00:01:43.240-->00:01:46.940
+msgid "an interactive debugger aimed to improve your debugging workflow."
+msgstr ""
+"un depanator interactiv ce are ca scop îmbunătățirea procesului de depanare."
+
+#. visible for 2 seconds
+#: 00:01:50.560-->00:01:53.040
+msgid "GTK also comes with more documentation.."
+msgstr "GTK vine de asemenea cu mai multă documentație.."
+
+#. visible for 3 seconds
+#: 00:01:53.280-->00:01:56.520
+msgid "..including a brand new set of human interface guidelines."
+msgstr "..inclusiv cu un nou set de reguli orientative pentru interfața umană."
+
+#. visible for 2 seconds
+#: 00:01:59.560-->00:02:01.800
+msgid "Apart from the news for GTK.."
+msgstr "În afara noutăților privind GTK.."
+
+#. visible for 1 seconds
+#: 00:02:01.800-->00:02:03.400
+msgid "..this release brings more stability.."
+msgstr "..această versiune este mai stabilă.."
+
+#. visible for 1 seconds
+#: 00:02:03.400-->00:02:05.300
+msgid "..to the GNOME compositor in Wayland."
+msgstr "..pentru compozitorul GNOME în Wayland."
+
+#. visible for 2 seconds
+#: 00:02:06.300-->00:02:08.640
+msgid "Furthermore, glib has gained new features.."
+msgstr "Mai mult, glib beneficiază de noi funcționalități.."
+
+#. visible for 1 seconds
+#: 00:02:09.040-->00:02:10.860
+msgid "..like Unicode 7 compliance.."
+msgstr "..precum conformitate cu standardul Unicode 7.."
+
+#. visible for 2 seconds
+#: 00:02:10.960-->00:02:13.800
+msgid "..and support for the new Mimeapps spec."
+msgstr "..și suport pentru noile specificații Mimeapps."
+
+#. visible for 3 seconds
+#: 00:02:15.580-->00:02:18.800
+msgid "Many distributions will ship GNOME 3.14 in the future."
+msgstr "Multe distribuții vor furniza GNOME 3.14 în viitor."
+
+#. visible for 1 seconds
+#: 00:02:20.400-->00:02:21.780
+msgid "If you can't wait.."
+msgstr "Dacă nu puteți aștepta.."
+
+#. visible for 1 seconds
+#: 00:02:22.020-->00:02:23.800
+msgid "Try out our demo image in the description."
+msgstr "Încercați imaginea demo din descriere."
+
+#. visible for 3 seconds
+#: 00:02:24.800-->00:02:27.800
+msgid "Or come join us in making our next GNOME release even better. "
+msgstr ""
+"Sau alăturați-vă nouă pentru a creea o nouă versiune GNOME și mai bună."
+
+#. visible for 2 seconds
+#: 00:02:29.400-->00:02:31.900
+msgid "We look forward to getting you started."
+msgstr "Suntem nerăbdători să începeți."

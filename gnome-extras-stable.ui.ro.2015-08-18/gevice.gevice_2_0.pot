@@ -1,0 +1,404 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=gevice&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2015-08-18 05:27+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. create columns
+#: ../data/ui/device.xml.h:1 ../src/gevicemodel.py:40
+msgid "Device"
+msgstr ""
+
+#: ../data/ui/device.xml.h:2 ../data/ui/find.xml.h:3
+msgctxt "yes"
+msgid "IP"
+msgstr ""
+
+#: ../data/ui/device.xml.h:3
+msgctxt "yes"
+msgid "Name"
+msgstr ""
+
+#: ../data/ui/diagram.xml.h:1
+msgid "png"
+msgstr ""
+
+#: ../data/ui/diagram.xml.h:2
+msgid "jpg"
+msgstr ""
+
+#: ../data/ui/diagram.xml.h:3
+msgid "gif"
+msgstr ""
+
+#: ../data/ui/diagram.xml.h:4
+msgid "svg"
+msgstr ""
+
+#: ../data/ui/diagram.xml.h:5
+msgid "dot"
+msgstr ""
+
+#: ../data/ui/diagram.xml.h:6
+msgid "neato"
+msgstr ""
+
+#: ../data/ui/diagram.xml.h:7
+msgid "circo"
+msgstr ""
+
+#: ../data/ui/diagram.xml.h:8
+msgid "twopi"
+msgstr ""
+
+#: ../data/ui/diagram.xml.h:9
+msgctxt "yes"
+msgid "Generate Diagram"
+msgstr ""
+
+#: ../data/ui/diagram.xml.h:10
+msgctxt "yes"
+msgid "Program"
+msgstr ""
+
+#: ../data/ui/diagram.xml.h:11
+msgctxt "yes"
+msgid "Format"
+msgstr ""
+
+#: ../data/ui/find.xml.h:1
+msgctxt "yes"
+msgid "Find"
+msgstr ""
+
+#: ../data/ui/find.xml.h:2
+msgctxt "yes"
+msgid "Device name"
+msgstr ""
+
+#: ../data/ui/find.xml.h:4
+msgctxt "yes"
+msgid "Serial"
+msgstr ""
+
+#: ../data/ui/find.xml.h:5
+msgctxt "yes"
+msgid "Filter"
+msgstr ""
+
+#: ../data/ui/main.xml.h:1
+msgid "Gevice"
+msgstr ""
+
+#: ../data/ui/pref.xml.h:1
+msgctxt "yes"
+msgid "Preferences"
+msgstr ""
+
+#: ../data/ui/pref.xml.h:2
+msgctxt "yes"
+msgid "Show IP on Tree"
+msgstr ""
+
+#: ../data/ui/pref.xml.h:3 ../src/gevice.py:181
+msgid "Tree"
+msgstr ""
+
+#: ../data/ui/pref.xml.h:4
+msgctxt "yes"
+msgid "Text color"
+msgstr ""
+
+#: ../data/ui/pref.xml.h:5
+msgctxt "yes"
+msgid "Background"
+msgstr ""
+
+#: ../data/ui/pref.xml.h:6
+msgctxt "yes"
+msgid "Colors"
+msgstr ""
+
+#: ../data/ui/pref.xml.h:7
+msgctxt "yes"
+msgid "Show IP on diagram"
+msgstr ""
+
+#: ../data/ui/pref.xml.h:8
+msgctxt "yes"
+msgid "Diagram"
+msgstr ""
+
+#: ../data/ui/pref.xml.h:9
+msgctxt "yes"
+msgid "Separator"
+msgstr ""
+
+#: ../data/ui/pref.xml.h:10
+msgctxt "yes"
+msgid "CSV"
+msgstr ""
+
+#: ../src/gevicedatabase.py:50
+msgid "Disconnect from database"
+msgstr ""
+
+#: ../src/gevicedatabase.py:51
+msgid "Disconnect"
+msgstr ""
+
+#: ../src/gevicedatabase.py:61
+msgid "Unable to connect to the database"
+msgstr ""
+
+#: ../src/gevicedatabase.py:82 ../src/gevicedatabase.py:187
+msgid "Unable to execute SQL: "
+msgstr ""
+
+#: ../src/gevicedevice.py:34
+msgid "NoName"
+msgstr ""
+
+#: ../src/gevicedevice.py:36
+msgid "New device"
+msgstr ""
+
+#: ../src/gevicedevice.py:44
+msgid "Modify device"
+msgstr ""
+
+#: ../src/gevicedevice.py:50
+msgid "Do you want to remove: "
+msgstr ""
+
+#: ../src/gevicedevice.py:94
+msgid "Enter name of device"
+msgstr ""
+
+#: ../src/geviceexport.py:37
+msgid "Save file as"
+msgstr ""
+
+#: ../src/geviceexport.py:62 ../src/gevice.py:244
+msgid "Can not write to file"
+msgstr ""
+
+#: ../src/gevicemodel.py:47
+msgid "IP Address"
+msgstr ""
+
+#: ../src/geviceprefer.py:79
+msgid "Select background color"
+msgstr ""
+
+#: ../src/geviceprefer.py:82
+msgid "Select text color"
+msgstr ""
+
+#: ../src/gevice.py:99
+msgid "User"
+msgstr ""
+
+#: ../src/gevice.py:147
+msgid "Dual terminal"
+msgstr ""
+
+#: ../src/gevice.py:151
+msgid "_File"
+msgstr ""
+
+#: ../src/gevice.py:152
+msgid "_Edit"
+msgstr ""
+
+#: ../src/gevice.py:153
+msgid "_View"
+msgstr ""
+
+#: ../src/gevice.py:154
+msgid "_Session"
+msgstr ""
+
+#: ../src/gevice.py:155
+msgid "_Help"
+msgstr ""
+
+#: ../src/gevice.py:156
+msgid "_Actions"
+msgstr ""
+
+#: ../src/gevice.py:157
+msgid "_Quit"
+msgstr ""
+
+#: ../src/gevice.py:157
+msgid "Quit the program"
+msgstr ""
+
+#: ../src/gevice.py:158
+msgid "Preferences"
+msgstr ""
+
+#: ../src/gevice.py:158
+msgid "Setting preferences"
+msgstr ""
+
+#. ##FIXME: Open the new database after created
+#: ../src/gevice.py:160 ../src/gevice.py:225
+msgid "New Database"
+msgstr ""
+
+#: ../src/gevice.py:161 ../src/gevice.py:290
+msgid "Connect"
+msgstr ""
+
+#: ../src/gevice.py:161 ../src/gevice.py:289
+msgid "Connect to database"
+msgstr ""
+
+#: ../src/gevice.py:165
+msgid "Find"
+msgstr ""
+
+#: ../src/gevice.py:165
+msgid "Search a device"
+msgstr ""
+
+#: ../src/gevice.py:166
+msgid "Save"
+msgstr ""
+
+#: ../src/gevice.py:166
+msgid "Save model"
+msgstr ""
+
+#: ../src/gevice.py:167
+msgid "Export all to CSV"
+msgstr ""
+
+#: ../src/gevice.py:168
+msgid "Add"
+msgstr ""
+
+#: ../src/gevice.py:168
+msgid "Add a device"
+msgstr ""
+
+#: ../src/gevice.py:172
+msgid "Remove"
+msgstr ""
+
+#: ../src/gevice.py:172
+msgid "Remove device selected"
+msgstr ""
+
+#: ../src/gevice.py:173
+msgid "Edit"
+msgstr ""
+
+#: ../src/gevice.py:173
+msgid "Edit data of device selected"
+msgstr ""
+
+#: ../src/gevice.py:174
+msgid "Expand"
+msgstr ""
+
+#: ../src/gevice.py:174
+msgid "Expand tree of device selected"
+msgstr ""
+
+#: ../src/gevice.py:175
+msgid "Decrease"
+msgstr ""
+
+#: ../src/gevice.py:175
+msgid "Decrease tree of device selected"
+msgstr ""
+
+#: ../src/gevice.py:176
+msgid "Generate Diagram"
+msgstr ""
+
+#: ../src/gevice.py:176
+msgid "Generate diagram of devices"
+msgstr ""
+
+#: ../src/gevice.py:177
+msgid "Open terminal"
+msgstr ""
+
+#: ../src/gevice.py:181
+msgid "Show tree"
+msgstr ""
+
+#: ../src/gevice.py:182
+msgid "Terminal"
+msgstr ""
+
+#: ../src/gevice.py:182
+msgid "Show terminal"
+msgstr ""
+
+#: ../src/gevice.py:183
+msgid "ToolBar"
+msgstr ""
+
+#: ../src/gevice.py:183
+msgid "Show/Hide ToolBar"
+msgstr ""
+
+#: ../src/gevice.py:184
+msgid "Dark Theme"
+msgstr ""
+
+#: ../src/gevice.py:184
+msgid "Show Dark Theme"
+msgstr ""
+
+#: ../src/gevice.py:188
+msgid "ssh"
+msgstr ""
+
+#: ../src/gevice.py:188
+msgid "SSH Session"
+msgstr ""
+
+#: ../src/gevice.py:189
+msgid "telnet"
+msgstr ""
+
+#: ../src/gevice.py:189
+msgid "Telnet Session"
+msgstr ""
+
+#: ../src/gevice.py:260
+msgid "Open Database"
+msgstr ""
+
+#: ../src/gevice.py:281
+msgid "Seems not sqlite3: "
+msgstr ""
+
+#. ## FIXME: Validate to error
+#: ../src/gevice.py:361
+msgid "Model saved"
+msgstr ""
+
+#: ../src/gevice.py:424
+msgid "Not device selected"
+msgstr ""

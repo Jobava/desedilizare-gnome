@@ -1,0 +1,1777 @@
+# Romanian translation for gstreamer
+# This file is distributed under the same license as the gstreamer package.
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2010.
+#: ../gst/parse/grammar.y:217 ../gst/parse/grammar.y:222
+msgid ""
+msgstr ""
+"Project-Id-Version: gstreamer 0.10.29.2\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=gstreamer&keywords=I18N+L10N&component=gstreamer (core)\n"
+"POT-Creation-Date: 2015-06-25 09:04+0000\n"
+"PO-Revision-Date: 2010-08-16 01:10+0300\n"
+"Last-Translator: Lucian Adrian Grijincu <lucian.grijincu@gmail.com>\n"
+"Language-Team: Romanian <translation-team-ro@lists.sourceforge.net>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);;\n"
+"X-Generator: Virtaal 0.6.1\n"
+
+#: ../gst/gst.c:242
+msgid "Print the GStreamer version"
+msgstr "Afișează versiunea GStreamer"
+
+#: ../gst/gst.c:244
+msgid "Make all warnings fatal"
+msgstr "Setează toate avertizările ca fiind fatale"
+
+#: ../gst/gst.c:248
+msgid "Print available debug categories and exit"
+msgstr "Afișează categoriile de depanare disponibile și ieși"
+
+#: ../gst/gst.c:252
+#, fuzzy
+msgid ""
+"Default debug level from 1 (only error) to 9 (anything) or 0 for no output"
+msgstr ""
+"Nivelul standard de depanare de la 1 (numai erorile) la 5 (orice) sau 0 fără "
+"afișare"
+
+#: ../gst/gst.c:254
+msgid "LEVEL"
+msgstr "NIVEL"
+
+#: ../gst/gst.c:256
+msgid ""
+"Comma-separated list of category_name:level pairs to set specific levels for "
+"the individual categories. Example: GST_AUTOPLUG:5,GST_ELEMENT_*:3"
+msgstr ""
+"Lista separată de virgule cu perechile nume_categorie:nivel pentru a seta "
+"nivelul specific pentru fiecare categorie. Exemplu: GST_AUTOPLUG:5,"
+"GST_ELEMENT_*:3"
+
+#: ../gst/gst.c:259
+msgid "LIST"
+msgstr "LISTĂ"
+
+#: ../gst/gst.c:261
+msgid "Disable colored debugging output"
+msgstr "Dezactivează afișarea în culori pentru depanare"
+
+#: ../gst/gst.c:265
+msgid ""
+"Changes coloring mode of the debug log. Possible modes: off, on, disable, "
+"auto, unix"
+msgstr ""
+
+#: ../gst/gst.c:269
+msgid "Disable debugging"
+msgstr "Dezactivează depanarea"
+
+#: ../gst/gst.c:273
+msgid "Enable verbose plugin loading diagnostics"
+msgstr ""
+"Activează diagnosticele detaliate pentru încărcarea modulelor de extensie"
+
+#: ../gst/gst.c:277
+msgid "Colon-separated paths containing plugins"
+msgstr "Căile către module de extensie, separate prin două puncte (:)"
+
+#: ../gst/gst.c:277
+msgid "PATHS"
+msgstr "CĂI"
+
+#: ../gst/gst.c:280
+msgid ""
+"Comma-separated list of plugins to preload in addition to the list stored in "
+"environment variable GST_PLUGIN_PATH"
+msgstr ""
+"Lista modulelor de preîncărcat, separate prin virgulă, în plus față de lista "
+"stocată în variabila de mediu GST_PLUGIN_PATH"
+
+#: ../gst/gst.c:282
+msgid "PLUGINS"
+msgstr "MODULE"
+
+#: ../gst/gst.c:285
+msgid "Disable trapping of segmentation faults during plugin loading"
+msgstr ""
+"Dezactivează capturarea erorilor de segmentare în timpul încărcării modulelor"
+
+#: ../gst/gst.c:290
+msgid "Disable updating the registry"
+msgstr "Dezactivează actualizarea registrului"
+
+#: ../gst/gst.c:295
+msgid "Disable spawning a helper process while scanning the registry"
+msgstr ""
+"Dezactivează lansarea de procese ajutătoare în timpul scanării registrului"
+
+#: ../gst/gst.c:300
+msgid "GStreamer Options"
+msgstr "Opțiuni GStreamer"
+
+#: ../gst/gst.c:301
+msgid "Show GStreamer Options"
+msgstr "Arată opțiunile GStreamer"
+
+#: ../gst/gst.c:884
+#, c-format
+msgid "Unknown option"
+msgstr "Opțiune necunoscută"
+
+#: ../gst/gsterror.c:130
+msgid "GStreamer encountered a general core library error."
+msgstr "GStreamer a întâlnit o eroare generală într-o bibliotecă principală."
+
+#: ../gst/gsterror.c:132 ../gst/gsterror.c:174 ../gst/gsterror.c:198
+#: ../gst/gsterror.c:240
+msgid ""
+"GStreamer developers were too lazy to assign an error code to this error."
+msgstr ""
+"Dezvoltatorii programului GStreamer au fost prea leneși pentru a atribui un "
+"cod acestei erori."
+
+#: ../gst/gsterror.c:135
+msgid "Internal GStreamer error: code not implemented."
+msgstr "Eroare internă GStreamer: cod neimplementat."
+
+#: ../gst/gsterror.c:137
+msgid ""
+"GStreamer error: state change failed and some element failed to post a "
+"proper error message with the reason for the failure."
+msgstr ""
+"Eroare GStreamer: schimbarea de stare nu a reușit și un element nu pentru a "
+"posta un mesaj de eroare corespunzător cu motivul eșecului."
+
+#: ../gst/gsterror.c:140
+msgid "Internal GStreamer error: pad problem."
+msgstr "Eroare internă GStreamer: problemă de „pad”."
+
+#: ../gst/gsterror.c:142
+msgid "Internal GStreamer error: thread problem."
+msgstr "Eroare internă GStreamer: problemă cu firele de execuție."
+
+#: ../gst/gsterror.c:144
+#, fuzzy
+msgid "GStreamer error: negotiation problem."
+msgstr "Eroare internă GStreamer: problemă de negociere."
+
+#: ../gst/gsterror.c:146
+msgid "Internal GStreamer error: event problem."
+msgstr "Eroare internă GStreamer: problemă legată de un eveniment."
+
+#: ../gst/gsterror.c:148
+msgid "Internal GStreamer error: seek problem."
+msgstr "Eroare internă GStreamer: problemă de derulare."
+
+#: ../gst/gsterror.c:150
+msgid "Internal GStreamer error: caps problem."
+msgstr "Eroare internă GStreamer: problemă de majuscule."
+
+#: ../gst/gsterror.c:152
+msgid "Internal GStreamer error: tag problem."
+msgstr "Eroare internă Gstreamer: problemă de etichetă."
+
+#: ../gst/gsterror.c:154
+msgid "Your GStreamer installation is missing a plug-in."
+msgstr "Lipsește un modul din instalarea programului GStreamer."
+
+#: ../gst/gsterror.c:156
+#, fuzzy
+msgid "GStreamer error: clock problem."
+msgstr "Eroare internă GStreamer: problemă de ceas."
+
+#: ../gst/gsterror.c:158
+msgid ""
+"This application is trying to use GStreamer functionality that has been "
+"disabled."
+msgstr ""
+"Această aplicație încearcă să folosească o funcție a programului GStreamer "
+"care a fost dezactivată."
+
+#: ../gst/gsterror.c:172
+msgid "GStreamer encountered a general supporting library error."
+msgstr "GStreamer a întâlnit o eroare generală într-o bibliotecă suport."
+
+#: ../gst/gsterror.c:177
+msgid "Could not initialize supporting library."
+msgstr "Nu se poate inițializa biblioteca suport."
+
+#: ../gst/gsterror.c:179
+msgid "Could not close supporting library."
+msgstr "Nu se poate închide biblioteca suport."
+
+#: ../gst/gsterror.c:181
+msgid "Could not configure supporting library."
+msgstr "Nu se poate configura biblioteca suport."
+
+#: ../gst/gsterror.c:183
+msgid "Encoding error."
+msgstr ""
+
+#: ../gst/gsterror.c:196
+msgid "GStreamer encountered a general resource error."
+msgstr "GStreamer a întâlnit o eroare generală de resurse."
+
+#: ../gst/gsterror.c:201
+msgid "Resource not found."
+msgstr "Resursă negăsită."
+
+#: ../gst/gsterror.c:203
+msgid "Resource busy or not available."
+msgstr "Resursă ocupată sau nedisponibilă."
+
+#: ../gst/gsterror.c:205
+msgid "Could not open resource for reading."
+msgstr "Nu se poate deschide resursa pentru citire."
+
+#: ../gst/gsterror.c:207
+msgid "Could not open resource for writing."
+msgstr "Nu se poate deschide resursa pentru scriere."
+
+#: ../gst/gsterror.c:209
+msgid "Could not open resource for reading and writing."
+msgstr "Nu se poate deschide resursa pentru citire și scriere."
+
+#: ../gst/gsterror.c:211
+msgid "Could not close resource."
+msgstr "Nu se poate închide resursa."
+
+#: ../gst/gsterror.c:213
+msgid "Could not read from resource."
+msgstr "Nu se poate citi din resursă."
+
+#: ../gst/gsterror.c:215
+msgid "Could not write to resource."
+msgstr "Nu se poate scrie în resursă."
+
+#: ../gst/gsterror.c:217
+msgid "Could not perform seek on resource."
+msgstr "Nu se poate derula în resursă."
+
+#: ../gst/gsterror.c:219
+msgid "Could not synchronize on resource."
+msgstr "Nu se poate sincroniza resursa."
+
+#: ../gst/gsterror.c:221
+msgid "Could not get/set settings from/on resource."
+msgstr "Nu s-au putut obține/defini configurările din/în resursă."
+
+#: ../gst/gsterror.c:223
+msgid "No space left on the resource."
+msgstr "Nu mai există spațiu liber pe resursă."
+
+#: ../gst/gsterror.c:225
+#, fuzzy
+msgid "Not authorized to access resource."
+msgstr "Nu mai există spațiu liber pe resursă."
+
+#: ../gst/gsterror.c:238
+msgid "GStreamer encountered a general stream error."
+msgstr "GStreamer a întâlnit o eroare generală de flux."
+
+#: ../gst/gsterror.c:243
+msgid "Element doesn't implement handling of this stream. Please file a bug."
+msgstr ""
+"Elementul nu implementează gestionarea acestui flux. Trimiteți o sesizare de "
+"defecțiune."
+
+#: ../gst/gsterror.c:246
+msgid "Could not determine type of stream."
+msgstr "Nu se poate determina tipul fluxului."
+
+#: ../gst/gsterror.c:248
+msgid "The stream is of a different type than handled by this element."
+msgstr "Fluxul este de un tip diferit de cel gestionat de acest element."
+
+#: ../gst/gsterror.c:251
+msgid "There is no codec present that can handle the stream's type."
+msgstr "Nu există niciun codec care să poată gestiona acest tip de flux."
+
+#: ../gst/gsterror.c:253
+msgid "Could not decode stream."
+msgstr "Nu se poate decoda fluxul."
+
+#: ../gst/gsterror.c:255
+msgid "Could not encode stream."
+msgstr "Nu se poate coda fluxul."
+
+#: ../gst/gsterror.c:257
+msgid "Could not demultiplex stream."
+msgstr "Nu se poate demultiplexa fluxul."
+
+#: ../gst/gsterror.c:259
+msgid "Could not multiplex stream."
+msgstr "Nu se poate multiplexa fluxul."
+
+#: ../gst/gsterror.c:261
+msgid "The stream is in the wrong format."
+msgstr "Fluxul este într-un format greșit."
+
+#: ../gst/gsterror.c:263
+msgid "The stream is encrypted and decryption is not supported."
+msgstr "Fluxul este criptat și decriptarea nu este suportată."
+
+#: ../gst/gsterror.c:265
+msgid ""
+"The stream is encrypted and can't be decrypted because no suitable key has "
+"been supplied."
+msgstr ""
+"Fluxul este criptat și nu poate fi decriptat deoarece nu s-a oferit o cheie "
+"potrivită."
+
+#: ../gst/gsterror.c:305
+#, c-format
+msgid "No error message for domain %s."
+msgstr "Niciun mesaj de eroare pentru domeniul %s."
+
+#: ../gst/gsterror.c:313
+#, c-format
+msgid "No standard error message for domain %s and code %d."
+msgstr "Niciun mesaj standard de eroare pentru domeniul %s și codul %d."
+
+#: ../gst/gstpipeline.c:549
+msgid "Selected clock cannot be used in pipeline."
+msgstr "Ceasul selectat nu poate fi utilizat în linia de asamblare."
+
+#: ../gst/gstregistry.c:1693
+#, c-format
+msgid "Error writing registry cache to %s: %s"
+msgstr ""
+
+#: ../gst/gsttaglist.c:107
+msgid "title"
+msgstr "titlu"
+
+#: ../gst/gsttaglist.c:107
+msgid "commonly used title"
+msgstr "titlu folosit în mod obișnuit"
+
+#: ../gst/gsttaglist.c:110
+msgid "title sortname"
+msgstr "nume de sortare al titlului"
+
+#: ../gst/gsttaglist.c:110
+msgid "commonly used title for sorting purposes"
+msgstr "titlu folosit în mod obișnuit în scop de sortare"
+
+#: ../gst/gsttaglist.c:113
+msgid "artist"
+msgstr "artist"
+
+#: ../gst/gsttaglist.c:114
+msgid "person(s) responsible for the recording"
+msgstr "persoana responsabilă pentru înregistrare"
+
+#: ../gst/gsttaglist.c:118
+msgid "artist sortname"
+msgstr "nume de sortare al artistului"
+
+#: ../gst/gsttaglist.c:119
+msgid "person(s) responsible for the recording for sorting purposes"
+msgstr "persoana responsabilă pentru înregistrarea în scop de sortare"
+
+#: ../gst/gsttaglist.c:122
+msgid "album"
+msgstr "album"
+
+#: ../gst/gsttaglist.c:123
+msgid "album containing this data"
+msgstr "album care conține aceste date"
+
+#: ../gst/gsttaglist.c:126
+msgid "album sortname"
+msgstr "numele de sortare al albumului"
+
+#: ../gst/gsttaglist.c:127
+msgid "album containing this data for sorting purposes"
+msgstr "album care conține aceste date în scop de sortare"
+
+#: ../gst/gsttaglist.c:130
+msgid "album artist"
+msgstr "artist album"
+
+#: ../gst/gsttaglist.c:131
+msgid "The artist of the entire album, as it should be displayed"
+msgstr "Artistul albumului întreg, așa cum ar trebui să fie afișat"
+
+#: ../gst/gsttaglist.c:135
+msgid "album artist sortname"
+msgstr "nume de sortare al artistului albumului"
+
+#: ../gst/gsttaglist.c:136
+msgid "The artist of the entire album, as it should be sorted"
+msgstr "Artistul al albumului întreg, așa cum ar trebui să fie sortat"
+
+#: ../gst/gsttaglist.c:138
+msgid "date"
+msgstr "data"
+
+#: ../gst/gsttaglist.c:138
+msgid "date the data was created (as a GDate structure)"
+msgstr "data la care au fost create aceste date (ca structură GDate)"
+
+#: ../gst/gsttaglist.c:140
+#, fuzzy
+msgid "datetime"
+msgstr "data"
+
+#: ../gst/gsttaglist.c:141
+#, fuzzy
+msgid "date and time the data was created (as a GstDateTime structure)"
+msgstr "data la care au fost create aceste date (ca structură GDate)"
+
+#: ../gst/gsttaglist.c:145
+msgid "genre"
+msgstr "gen"
+
+#: ../gst/gsttaglist.c:146
+msgid "genre this data belongs to"
+msgstr "genul căruia îi aparțin aceste date"
+
+#: ../gst/gsttaglist.c:149
+msgid "comment"
+msgstr "comentariu"
+
+#: ../gst/gsttaglist.c:150
+msgid "free text commenting the data"
+msgstr "comentariu liber pentru date"
+
+#: ../gst/gsttaglist.c:153
+msgid "extended comment"
+msgstr "comentariu extins"
+
+#: ../gst/gsttaglist.c:154
+msgid "free text commenting the data in key=value or key[en]=comment form"
+msgstr ""
+"text liber care comentează datele în key=valoare sau key[en]=comentariu de la"
+
+#: ../gst/gsttaglist.c:158
+msgid "track number"
+msgstr "număr piesă"
+
+#: ../gst/gsttaglist.c:159
+msgid "track number inside a collection"
+msgstr "numărul piesei în cadrul unei colecții"
+
+#: ../gst/gsttaglist.c:162
+msgid "track count"
+msgstr "număr piesă"
+
+#: ../gst/gsttaglist.c:163
+msgid "count of tracks inside collection this track belongs to"
+msgstr "numărul pieselor în colecția din care face parte această piesă"
+
+#: ../gst/gsttaglist.c:167
+msgid "disc number"
+msgstr "număr disc"
+
+#: ../gst/gsttaglist.c:168
+msgid "disc number inside a collection"
+msgstr "număr disc în cadrul unei colecții"
+
+#: ../gst/gsttaglist.c:171
+msgid "disc count"
+msgstr "numărul discurilor"
+
+#: ../gst/gsttaglist.c:172
+msgid "count of discs inside collection this disc belongs to"
+msgstr "numărul discurilor în colecția din care face parte acest disc"
+
+#: ../gst/gsttaglist.c:176
+msgid "location"
+msgstr "locație"
+
+#: ../gst/gsttaglist.c:176
+msgid ""
+"Origin of media as a URI (location, where the original of the file or stream "
+"is hosted)"
+msgstr ""
+"Originea fișierului media ca un URI (locație unde este stocată versiunea "
+"originală a fișierului sau fluxului)"
+
+#: ../gst/gsttaglist.c:181
+msgid "homepage"
+msgstr "pagina de pornire"
+
+#: ../gst/gsttaglist.c:182
+msgid "Homepage for this media (i.e. artist or movie homepage)"
+msgstr ""
+"Pagina de pornire pentru acest fișier media (adică pagina de pornire a "
+"artistului sau a filmului)"
+
+#: ../gst/gsttaglist.c:185
+msgid "description"
+msgstr "descriere"
+
+#: ../gst/gsttaglist.c:186
+msgid "short text describing the content of the data"
+msgstr "text scurt care descrie conținutul acestor date"
+
+#: ../gst/gsttaglist.c:189
+msgid "version"
+msgstr "versiune"
+
+#: ../gst/gsttaglist.c:189
+msgid "version of this data"
+msgstr "versiunea acestor date"
+
+#: ../gst/gsttaglist.c:191
+msgid "ISRC"
+msgstr "ISRC"
+
+#: ../gst/gsttaglist.c:193
+msgid "International Standard Recording Code - see http://www.ifpi.org/isrc/"
+msgstr ""
+"Codul Internațional Standardizat de Înregistrări - vezi http://www.ifpi.org/"
+"isrc/"
+
+#: ../gst/gsttaglist.c:197
+msgid "organization"
+msgstr "organizație"
+
+#: ../gst/gsttaglist.c:200
+msgid "copyright"
+msgstr "drepturi de autor"
+
+#: ../gst/gsttaglist.c:200
+msgid "copyright notice of the data"
+msgstr "notiță asupra drepturilor de autor pentru aceste date"
+
+#: ../gst/gsttaglist.c:202
+msgid "copyright uri"
+msgstr "uri pentru drepturile de autor"
+
+#: ../gst/gsttaglist.c:203
+msgid "URI to the copyright notice of the data"
+msgstr "URI către notița asupra drepturilor de autor pentru aceste date (URI)"
+
+#: ../gst/gsttaglist.c:205
+#, fuzzy
+msgid "encoded by"
+msgstr "codor"
+
+#: ../gst/gsttaglist.c:205
+msgid "name of the encoding person or organization"
+msgstr ""
+
+#: ../gst/gsttaglist.c:209
+msgid "contact"
+msgstr "contact"
+
+#: ../gst/gsttaglist.c:209
+msgid "contact information"
+msgstr "informații de contact"
+
+#: ../gst/gsttaglist.c:211
+msgid "license"
+msgstr "licență"
+
+#: ../gst/gsttaglist.c:211
+msgid "license of data"
+msgstr "licența datelor"
+
+#: ../gst/gsttaglist.c:213
+msgid "license uri"
+msgstr "uri licență"
+
+#: ../gst/gsttaglist.c:214
+msgid "URI to the license of the data"
+msgstr "URI pentru licența acestor date"
+
+#: ../gst/gsttaglist.c:217
+msgid "performer"
+msgstr "interpret"
+
+#: ../gst/gsttaglist.c:218
+msgid "person(s) performing"
+msgstr "persoana care interpretează"
+
+#: ../gst/gsttaglist.c:221
+msgid "composer"
+msgstr "compozitor"
+
+#: ../gst/gsttaglist.c:222
+msgid "person(s) who composed the recording"
+msgstr "persoana care a compus înregistrarea"
+
+#: ../gst/gsttaglist.c:226
+msgid "duration"
+msgstr "durata"
+
+#: ../gst/gsttaglist.c:226
+msgid "length in GStreamer time units (nanoseconds)"
+msgstr "durata în unitățile de timp ale programului GStreamer (nanosecunde)"
+
+#: ../gst/gsttaglist.c:229
+msgid "codec"
+msgstr "codec"
+
+#: ../gst/gsttaglist.c:230
+msgid "codec the data is stored in"
+msgstr "codecul cu care au fost stocate datele"
+
+#: ../gst/gsttaglist.c:233
+msgid "video codec"
+msgstr "codec video"
+
+#: ../gst/gsttaglist.c:233
+msgid "codec the video data is stored in"
+msgstr "codecul cu care au fost stocate datele video"
+
+#: ../gst/gsttaglist.c:236
+msgid "audio codec"
+msgstr "codec audio"
+
+#: ../gst/gsttaglist.c:236
+msgid "codec the audio data is stored in"
+msgstr "codec cu care au fost stocate datele audio"
+
+#: ../gst/gsttaglist.c:239
+msgid "subtitle codec"
+msgstr "codec subtitrare"
+
+#: ../gst/gsttaglist.c:239
+msgid "codec the subtitle data is stored in"
+msgstr "codec cu care au fost stocate datele subtitrării"
+
+#: ../gst/gsttaglist.c:241
+msgid "container format"
+msgstr "format container"
+
+#: ../gst/gsttaglist.c:242
+msgid "container format the data is stored in"
+msgstr "formatul containerului în care sunt stocate datele"
+
+#: ../gst/gsttaglist.c:244
+msgid "bitrate"
+msgstr "rata de biți"
+
+#: ../gst/gsttaglist.c:244
+msgid "exact or average bitrate in bits/s"
+msgstr "rata de biți exactă sau medie, în biți/s"
+
+#: ../gst/gsttaglist.c:246
+msgid "nominal bitrate"
+msgstr "rata de biți nominală"
+
+#: ../gst/gsttaglist.c:246
+msgid "nominal bitrate in bits/s"
+msgstr "rata de biți nominală în biți/s"
+
+#: ../gst/gsttaglist.c:248
+msgid "minimum bitrate"
+msgstr "rata de biți minimă"
+
+#: ../gst/gsttaglist.c:248
+msgid "minimum bitrate in bits/s"
+msgstr "rata de biți minimă în biți/s"
+
+#: ../gst/gsttaglist.c:250
+msgid "maximum bitrate"
+msgstr "rata de biți maximă"
+
+#: ../gst/gsttaglist.c:250
+msgid "maximum bitrate in bits/s"
+msgstr "rata de biți maximă în biți/s"
+
+#: ../gst/gsttaglist.c:253
+msgid "encoder"
+msgstr "codor"
+
+#: ../gst/gsttaglist.c:253
+msgid "encoder used to encode this stream"
+msgstr "codorul folosit pentru a coda acest flux"
+
+#: ../gst/gsttaglist.c:256
+msgid "encoder version"
+msgstr "versiunea codorului"
+
+#: ../gst/gsttaglist.c:257
+msgid "version of the encoder used to encode this stream"
+msgstr "versiunea codorului folosit pentru a coda acest flux"
+
+#: ../gst/gsttaglist.c:259
+msgid "serial"
+msgstr "serial"
+
+#: ../gst/gsttaglist.c:259
+msgid "serial number of track"
+msgstr "numărul serial al pistei"
+
+#: ../gst/gsttaglist.c:261
+msgid "replaygain track gain"
+msgstr "câștigul replaygain al pistei"
+
+#: ../gst/gsttaglist.c:261
+msgid "track gain in db"
+msgstr "câștigul în db al pistei"
+
+#: ../gst/gsttaglist.c:263
+msgid "replaygain track peak"
+msgstr "vârful replaygain al pistei"
+
+#: ../gst/gsttaglist.c:263
+msgid "peak of the track"
+msgstr "vârful pistei"
+
+#: ../gst/gsttaglist.c:265
+msgid "replaygain album gain"
+msgstr "câștigul replaygain al albumului"
+
+#: ../gst/gsttaglist.c:265
+msgid "album gain in db"
+msgstr "câștigul în db al albumului"
+
+#: ../gst/gsttaglist.c:267
+msgid "replaygain album peak"
+msgstr "vârful replaygain al albumului"
+
+#: ../gst/gsttaglist.c:267
+msgid "peak of the album"
+msgstr "vârful albumului"
+
+#: ../gst/gsttaglist.c:269
+msgid "replaygain reference level"
+msgstr "nivelul de referință replaygain"
+
+#: ../gst/gsttaglist.c:270
+msgid "reference level of track and album gain values"
+msgstr "nivelul de referință al valorilor câștigului pentru pistă și album"
+
+#: ../gst/gsttaglist.c:272
+msgid "language code"
+msgstr "cod limbă"
+
+#: ../gst/gsttaglist.c:273
+#, fuzzy
+msgid "language code for this stream, conforming to ISO-639-1 or ISO-639-2"
+msgstr "codul de limbă al acestui flux, conform ISO-639-1"
+
+#: ../gst/gsttaglist.c:276
+#, fuzzy
+msgid "language name"
+msgstr "cod limbă"
+
+#: ../gst/gsttaglist.c:277
+msgid "freeform name of the language this stream is in"
+msgstr ""
+
+#: ../gst/gsttaglist.c:279
+msgid "image"
+msgstr "imagine"
+
+#: ../gst/gsttaglist.c:279
+msgid "image related to this stream"
+msgstr "imagine în legătură cu acest flux"
+
+#. TRANSLATORS: 'preview image' = image that shows a preview of the full image
+#: ../gst/gsttaglist.c:283
+msgid "preview image"
+msgstr "previzualizare imagine"
+
+#: ../gst/gsttaglist.c:283
+msgid "preview image related to this stream"
+msgstr "previzualizarea imaginii în legătură cu acest flux"
+
+#: ../gst/gsttaglist.c:285
+msgid "attachment"
+msgstr "atașament"
+
+#: ../gst/gsttaglist.c:285
+msgid "file attached to this stream"
+msgstr "fișier atașat la acest flux"
+
+#: ../gst/gsttaglist.c:288
+msgid "beats per minute"
+msgstr "bătăi pe minut"
+
+#: ../gst/gsttaglist.c:289
+msgid "number of beats per minute in audio"
+msgstr "numărul de bătăi pe minut în partea audio"
+
+#: ../gst/gsttaglist.c:291
+msgid "keywords"
+msgstr "cuvinte cheie"
+
+#: ../gst/gsttaglist.c:291
+msgid "comma separated keywords describing the content"
+msgstr "cuvinte cheie separate prin virgulă, care descriu conținutul"
+
+#: ../gst/gsttaglist.c:294
+msgid "geo location name"
+msgstr "nume geo-locație"
+
+#: ../gst/gsttaglist.c:295
+msgid ""
+"human readable descriptive location of where the media has been recorded or "
+"produced"
+msgstr ""
+"nume lizibil descriptiv al locației unde a fost înregistrat sau produs acest "
+"fișier media"
+
+#: ../gst/gsttaglist.c:298
+msgid "geo location latitude"
+msgstr "latitudine geo-locație"
+
+#: ../gst/gsttaglist.c:299
+msgid ""
+"geo latitude location of where the media has been recorded or produced in "
+"degrees according to WGS84 (zero at the equator, negative values for "
+"southern latitudes)"
+msgstr ""
+"latitudinea geo-locației unde a fost înregistrat sau produs acest fișier "
+"media conform WGS84 (zero la ecuator, valori negative pentru latitudini "
+"sudice)"
+
+#: ../gst/gsttaglist.c:303
+msgid "geo location longitude"
+msgstr "longitudine geo-locație"
+
+#: ../gst/gsttaglist.c:304
+msgid ""
+"geo longitude location of where the media has been recorded or produced in "
+"degrees according to WGS84 (zero at the prime meridian in Greenwich/UK,  "
+"negative values for western longitudes)"
+msgstr ""
+"longitudine geo-locației unde a fost înregistrat sau produs acest fișier "
+"media în grade conform WGS84 (zero la primul meridian din Greenwich/Marea "
+"Britanie, valori negative pentru longitudini vestice)"
+
+#: ../gst/gsttaglist.c:308
+msgid "geo location elevation"
+msgstr "altitudine geo-locație"
+
+#: ../gst/gsttaglist.c:309
+msgid ""
+"geo elevation of where the media has been recorded or produced in meters "
+"according to WGS84 (zero is average sea level)"
+msgstr ""
+"altitudinea geo-locației unde a fost înregistrat sau produs acest fișier "
+"media conform WGS84 (zero la ecuator, valori negative pentru latitudini "
+"sudice) (zero este nivelul mediu al mării)"
+
+#: ../gst/gsttaglist.c:312
+msgid "geo location country"
+msgstr "țară geo-locație"
+
+#: ../gst/gsttaglist.c:313
+msgid "country (english name) where the media has been recorded or produced"
+msgstr ""
+"țara (nume în limba engleză) unde a fost înregistrat sau produs acest fișier "
+"media"
+
+#: ../gst/gsttaglist.c:316
+msgid "geo location city"
+msgstr "oraș geo-locație"
+
+#: ../gst/gsttaglist.c:317
+msgid "city (english name) where the media has been recorded or produced"
+msgstr ""
+"oraș (nume în limba engleză) unde a fost înregistrat sau produs acest fișier "
+"media"
+
+#: ../gst/gsttaglist.c:320
+msgid "geo location sublocation"
+msgstr "sublocație geo-locație"
+
+#: ../gst/gsttaglist.c:321
+#, fuzzy
+msgid ""
+"a location within a city where the media has been produced or created (e.g. "
+"the neighborhood)"
+msgstr ""
+"locație în orașul unde a fost înregistrat sau produs acest fișier media (de "
+"ex. cartierul)"
+
+#: ../gst/gsttaglist.c:324
+#, fuzzy
+msgid "geo location horizontal error"
+msgstr "nume geo-locație"
+
+#: ../gst/gsttaglist.c:325
+msgid "expected error of the horizontal positioning measures (in meters)"
+msgstr ""
+
+#: ../gst/gsttaglist.c:328
+msgid "geo location movement speed"
+msgstr "viteza de circulație a geo-locației"
+
+#: ../gst/gsttaglist.c:329
+msgid ""
+"movement speed of the capturing device while performing the capture in m/s"
+msgstr ""
+"viteza de circulație a dispozitivului de capturare în timp ce desfășurau "
+"activitățile de captare în m/s"
+
+#: ../gst/gsttaglist.c:332
+msgid "geo location movement direction"
+msgstr "direcția de circulație a geo-locației"
+
+#: ../gst/gsttaglist.c:333
+msgid ""
+"indicates the movement direction of the device performing the capture of a "
+"media. It is represented as degrees in floating point representation, 0 "
+"means the geographic north, and increases clockwise"
+msgstr ""
+"indica direcția de mișcare a aparatului de captare cu care a fost "
+"înregistrat fișierul media. Acesta este reprezentat ca de grade în virgulă "
+"mobilă, 0 înseamnă nord geografic și crește în sensul acelor de ceasornic"
+
+#: ../gst/gsttaglist.c:338
+msgid "geo location capture direction"
+msgstr "direcția de captare a geo-locației"
+
+#: ../gst/gsttaglist.c:339
+msgid ""
+"indicates the direction the device is pointing to when capturing  a media. "
+"It is represented as degrees in floating point  representation, 0 means the "
+"geographic north, and increases clockwise"
+msgstr ""
+"indica direcția în care arăta aparatul de captare cu care a fost înregistrat "
+"fișierul media. Acesta este reprezentat ca de grade în virgulă mobilă, 0 "
+"înseamnă nord geografic și crește în sensul acelor de ceasornic"
+
+#. TRANSLATORS: 'show name' = 'TV/radio/podcast show name' here
+#: ../gst/gsttaglist.c:345
+msgid "show name"
+msgstr "nume show"
+
+#: ../gst/gsttaglist.c:346
+msgid "Name of the tv/podcast/series show the media is from"
+msgstr ""
+"Numele unui show tv/podcast/serial din care acest fișier media face parte"
+
+#. TRANSLATORS: 'show sortname' = 'TV/radio/podcast show name as used for sorting purposes' here
+#: ../gst/gsttaglist.c:351
+msgid "show sortname"
+msgstr "arată numele de sortare"
+
+#: ../gst/gsttaglist.c:352
+msgid ""
+"Name of the tv/podcast/series show the media is from, for sorting purposes"
+msgstr ""
+"Numele unui show tv/podcast/serial din care acest fișier media face parte, "
+"pentru sortare"
+
+#: ../gst/gsttaglist.c:355
+msgid "episode number"
+msgstr "număr episod"
+
+#: ../gst/gsttaglist.c:356
+msgid "The episode number in the season the media is part of"
+msgstr "Numărul episodului din care acest fișier media face parte"
+
+#: ../gst/gsttaglist.c:359
+msgid "season number"
+msgstr "numărul sezon"
+
+#: ../gst/gsttaglist.c:360
+msgid "The season number of the show the media is part of"
+msgstr "Numărul sezonului din care acest fișier media face parte"
+
+#: ../gst/gsttaglist.c:363
+msgid "lyrics"
+msgstr "versuri"
+
+#: ../gst/gsttaglist.c:363
+msgid "The lyrics of the media, commonly used for songs"
+msgstr "Versurile fișierului media, frecvent utilizate pentru cântece"
+
+#: ../gst/gsttaglist.c:366
+msgid "composer sortname"
+msgstr "nume sortare compozitor"
+
+#: ../gst/gsttaglist.c:367
+msgid "person(s) who composed the recording, for sorting purposes"
+msgstr "persoana care a compus înregistrarea, în scop de sortare"
+
+#: ../gst/gsttaglist.c:369
+msgid "grouping"
+msgstr "grupare"
+
+#: ../gst/gsttaglist.c:370
+msgid ""
+"Groups related media that spans multiple tracks, like the different pieces "
+"of a concerto. It is a higher level than a track, but lower than an album"
+msgstr ""
+"Grupează media înrudite care se întind pe mai multe piste, ca de ex. "
+"diferitele piese ale unui concert. Este un nivel de organizare mai ridicat "
+"decât al unei piese, dar mai coborât decât al unui album"
+
+#: ../gst/gsttaglist.c:374
+msgid "user rating"
+msgstr "evaluare utilizator"
+
+#: ../gst/gsttaglist.c:375
+msgid ""
+"Rating attributed by a user. The higher the rank, the more the user likes "
+"this media"
+msgstr ""
+"Evaluarea atribuită de un utilizator. Cu cât este mai mare evaluarea, cu "
+"atât mai mult i-a plăcut acelui utilizator"
+
+#: ../gst/gsttaglist.c:378
+msgid "device manufacturer"
+msgstr "producătorul dispozitivului"
+
+#: ../gst/gsttaglist.c:379
+msgid "Manufacturer of the device used to create this media"
+msgstr "Producătorul dispozitivului utilizat pentru a crea acest fișier media"
+
+#: ../gst/gsttaglist.c:381
+msgid "device model"
+msgstr "model dispozitiv"
+
+#: ../gst/gsttaglist.c:382
+msgid "Model of the device used to create this media"
+msgstr "Modelul dispozitivului utilizat pentru a crea acest fișier media"
+
+#: ../gst/gsttaglist.c:384
+#, fuzzy
+msgid "application name"
+msgstr "nume geo-locație"
+
+#: ../gst/gsttaglist.c:385
+#, fuzzy
+msgid "Application used to create the media"
+msgstr "Modelul dispozitivului utilizat pentru a crea acest fișier media"
+
+#: ../gst/gsttaglist.c:387
+msgid "application data"
+msgstr ""
+
+#: ../gst/gsttaglist.c:388
+msgid "Arbitrary application data to be serialized into the media"
+msgstr ""
+
+#: ../gst/gsttaglist.c:390
+msgid "image orientation"
+msgstr "orientare imagine"
+
+#: ../gst/gsttaglist.c:391
+msgid "How the image should be rotated or flipped before display"
+msgstr "Cum ar trebui rotită sau întoarsă imaginea înainte de afișare"
+
+#: ../gst/gsttaglist.c:394
+msgid "publisher"
+msgstr ""
+
+#: ../gst/gsttaglist.c:395
+msgid "Name of the label or publisher"
+msgstr ""
+
+#: ../gst/gsttaglist.c:398
+msgid "interpreted-by"
+msgstr ""
+
+#: ../gst/gsttaglist.c:399
+msgid "Information about the people behind a remix and similar interpretations"
+msgstr ""
+
+#: ../gst/gsttaglist.c:403
+msgid "midi-base-note"
+msgstr ""
+
+#: ../gst/gsttaglist.c:403
+msgid "Midi note number of the audio track."
+msgstr ""
+
+#. separator between two strings
+#: ../gst/gsttaglist.c:442
+msgid ", "
+msgstr ", "
+
+#: ../gst/gsturi.c:674
+#, c-format
+msgid "No URI handler for the %s protocol found"
+msgstr ""
+
+#: ../gst/gsturi.c:849
+#, c-format
+msgid "URI scheme '%s' not supported"
+msgstr ""
+
+#: ../gst/gstutils.c:2424 ../tools/gst-launch.c:324
+#, c-format
+msgid "ERROR: from element %s: %s\n"
+msgstr "EROARE: de la elementul %s: %s\n"
+
+#: ../gst/gstutils.c:2426 ../tools/gst-launch.c:326 ../tools/gst-launch.c:669
+#, c-format
+msgid ""
+"Additional debug info:\n"
+"%s\n"
+msgstr ""
+"Informații suplimentare pentru depanare:\n"
+"%s\n"
+
+#. ******************************************************************************************
+#. *** helpers for pipeline-setup
+#. ******************************************************************************************
+#: ../gst/parse/grammar.y:216
+#, c-format
+msgid "link has no source [sink=%s@%p]"
+msgstr ""
+
+#: ../gst/parse/grammar.y:221
+#, c-format
+msgid "link has no sink [source=%s@%p]"
+msgstr ""
+
+#: ../gst/parse/grammar.y:412
+#, c-format
+msgid "no property \"%s\" in element \"%s\""
+msgstr "nicio proprietate „%s” în elementul „%s”"
+
+#: ../gst/parse/grammar.y:453
+#, c-format
+msgid "could not set property \"%s\" in element \"%s\" to \"%s\""
+msgstr ""
+"nu se poate stabili proprietatea „%s” în elementul „%s” la valoarea „%s”"
+
+#: ../gst/parse/grammar.y:616
+#, c-format
+msgid "could not link %s to %s"
+msgstr "nu se poate lega %s la %s"
+
+#: ../gst/parse/grammar.y:691
+#, c-format
+msgid "no element \"%s\""
+msgstr "niciun element „%s”"
+
+#: ../gst/parse/grammar.y:752
+#, c-format
+msgid "unexpected reference \"%s\" - ignoring"
+msgstr ""
+
+#: ../gst/parse/grammar.y:758
+#, c-format
+msgid "unexpected pad-reference \"%s\" - ignoring"
+msgstr ""
+
+#: ../gst/parse/grammar.y:797
+#, c-format
+msgid "could not parse caps \"%s\""
+msgstr "nu se pot analiza majusculele „%s”"
+
+#: ../gst/parse/grammar.y:825
+#, c-format
+msgid "no sink element for URI \"%s\""
+msgstr "niciun element derivat pentru URI „%s”"
+
+#: ../gst/parse/grammar.y:844
+#, c-format
+msgid "no source element for URI \"%s\""
+msgstr "niciun element sursă pentru URI „%s”"
+
+#: ../gst/parse/grammar.y:934
+msgid "syntax error"
+msgstr ""
+
+#: ../gst/parse/grammar.y:948
+msgid "bin"
+msgstr ""
+
+#: ../gst/parse/grammar.y:957
+#, c-format
+msgid "specified empty bin \"%s\", not allowed"
+msgstr "containerul gol „%s” specificat, nu este permis"
+
+#: ../gst/parse/grammar.y:967
+#, fuzzy, c-format
+msgid "no bin \"%s\", unpacking elements"
+msgstr "niciun container „%s”, se omite"
+
+#: ../gst/parse/grammar.y:998
+msgid "empty pipeline not allowed"
+msgstr "linia de asamblare vidă nu este permisă"
+
+#: ../libs/gst/base/gstbasesink.c:2845
+msgid "A lot of buffers are being dropped."
+msgstr "Multe zone de memorie tampon sunt abandonate."
+
+#: ../libs/gst/base/gstbasesink.c:3373
+msgid "Internal data flow problem."
+msgstr "Problemă internă de flux al datelor."
+
+#: ../libs/gst/base/gstbasesink.c:4075
+msgid "Internal data stream error."
+msgstr "Eroare internă a fluxului de date."
+
+#: ../libs/gst/base/gstbasesink.c:4085 ../libs/gst/base/gstbasesrc.c:2942
+#: ../libs/gst/base/gstbasesrc.c:2951
+#: ../plugins/elements/gstdownloadbuffer.c:1344
+#: ../plugins/elements/gstqueue.c:968 ../plugins/elements/gstqueue.c:1514
+#: ../plugins/elements/gstqueue2.c:2353 ../plugins/elements/gstqueue2.c:2829
+msgid "Internal data flow error."
+msgstr "Eroare internă de flux al datelor."
+
+#: ../libs/gst/base/gstbasesrc.c:2541
+msgid "Internal clock error."
+msgstr "Eroare internă de ceas."
+
+#: ../libs/gst/base/gstbasesrc.c:2569
+msgid "Failed to map buffer."
+msgstr ""
+
+#: ../plugins/elements/gstcapsfilter.c:128
+msgid "Filter caps"
+msgstr "Filtrare majuscule"
+
+#: ../plugins/elements/gstcapsfilter.c:129
+msgid ""
+"Restrict the possible allowed capabilities (NULL means ANY). Setting this "
+"property takes a reference to the supplied GstCaps object."
+msgstr ""
+"Restricționează capacitățile permise (NULL înseamnă ORICE). Definirea "
+"acestei proprietăți preia o referință către obiectul GstCaps furnizat."
+
+#: ../plugins/elements/gstcapsfilter.c:136
+msgid "Caps Change Mode"
+msgstr ""
+
+#: ../plugins/elements/gstcapsfilter.c:137
+msgid "Filter caps change behaviour"
+msgstr ""
+
+#: ../plugins/elements/gstdownloadbuffer.c:915
+#: ../plugins/elements/gstqueue2.c:1536
+msgid "No Temp directory specified."
+msgstr "Niciun director temporar specificat."
+
+#: ../plugins/elements/gstdownloadbuffer.c:921
+#: ../plugins/elements/gstqueue2.c:1542
+#, c-format
+msgid "Could not create temp file \"%s\"."
+msgstr "Nu am putut crea fișierul temporar „%s”."
+
+#: ../plugins/elements/gstdownloadbuffer.c:929
+#: ../plugins/elements/gstfilesrc.c:518 ../plugins/elements/gstqueue2.c:1550
+#, c-format
+msgid "Could not open file \"%s\" for reading."
+msgstr "Nu se poate deschide fișierul „%s” pentru citire."
+
+#: ../plugins/elements/gstdownloadbuffer.c:1253
+#: ../plugins/elements/gstqueue2.c:1956
+msgid "Error while writing to download file."
+msgstr "Eroare la scrierea în fișierul descărcat."
+
+#: ../plugins/elements/gstfilesink.c:424
+msgid "No file name specified for writing."
+msgstr "Niciun nume de fișier specificat pentru scriere."
+
+#: ../plugins/elements/gstfilesink.c:430
+#, c-format
+msgid "Could not open file \"%s\" for writing."
+msgstr "Nu s-a putut deschide fișierul „%s” pentru scriere."
+
+#: ../plugins/elements/gstfilesink.c:455
+#, c-format
+msgid "Error closing file \"%s\"."
+msgstr "Eroare la închiderea fișierului „%s”."
+
+#: ../plugins/elements/gstfilesink.c:619
+#, c-format
+msgid "Error while seeking in file \"%s\"."
+msgstr "Eroare în timpul derulării în fișierul „%s”."
+
+#: ../plugins/elements/gstfilesink.c:627 ../plugins/elements/gstfilesink.c:704
+#: ../plugins/elements/gstfilesink.c:739
+#, c-format
+msgid "Error while writing to file \"%s\"."
+msgstr "Eroare la scrierea fișierului „%s\"."
+
+#: ../plugins/elements/gstfilesrc.c:506
+msgid "No file name specified for reading."
+msgstr "Niciun nume de fișier specificat pentru citire."
+
+#: ../plugins/elements/gstfilesrc.c:527
+#, c-format
+msgid "Could not get info on \"%s\"."
+msgstr "Nu se pot obține informații despre „%s”."
+
+#: ../plugins/elements/gstfilesrc.c:533
+#, c-format
+msgid "\"%s\" is a directory."
+msgstr "„%s” este un director."
+
+#: ../plugins/elements/gstfilesrc.c:539
+#, c-format
+msgid "File \"%s\" is a socket."
+msgstr "Fișierul „%s” este un socket."
+
+#: ../plugins/elements/gstidentity.c:643
+msgid "Failed after iterations as requested."
+msgstr "Eșec după numărul de iterații care a fost cerut."
+
+#: ../plugins/elements/gsttypefindelement.c:200
+msgid "caps"
+msgstr "majuscule"
+
+#: ../plugins/elements/gsttypefindelement.c:201
+msgid "detected capabilities in stream"
+msgstr "capabilități detectate în flux"
+
+#: ../plugins/elements/gsttypefindelement.c:204
+msgid "minimum"
+msgstr "minim"
+
+#: ../plugins/elements/gsttypefindelement.c:209
+msgid "force caps"
+msgstr "forțează caps"
+
+#: ../plugins/elements/gsttypefindelement.c:210
+msgid "force caps without doing a typefind"
+msgstr "forțează caps fără a efectua un typefind"
+
+#: ../plugins/elements/gsttypefindelement.c:932
+#: ../plugins/elements/gsttypefindelement.c:953
+#, fuzzy
+msgid "Stream contains not enough data."
+msgstr "Fluxul nu conține date."
+
+#: ../plugins/elements/gsttypefindelement.c:1072
+msgid "Stream contains no data."
+msgstr "Fluxul nu conține date."
+
+#: ../tools/gst-inspect.c:195
+#, c-format
+msgid "Implemented Interfaces:\n"
+msgstr "Interfețe implementate:\n"
+
+#: ../tools/gst-inspect.c:281
+msgid "readable"
+msgstr "se poate citi"
+
+#: ../tools/gst-inspect.c:290
+msgid "writable"
+msgstr "se poate scrie"
+
+#: ../tools/gst-inspect.c:294
+msgid "deprecated"
+msgstr ""
+
+#: ../tools/gst-inspect.c:298
+msgid "controllable"
+msgstr "se poate controla"
+
+#: ../tools/gst-inspect.c:302
+msgid "changeable in NULL, READY, PAUSED or PLAYING state"
+msgstr ""
+
+#: ../tools/gst-inspect.c:304
+msgid "changeable only in NULL, READY or PAUSED state"
+msgstr ""
+
+#: ../tools/gst-inspect.c:306
+msgid "changeable only in NULL or READY state"
+msgstr ""
+
+#: ../tools/gst-inspect.c:910
+msgid "Blacklisted files:"
+msgstr "Fișierele de pe lista neagră:"
+
+#: ../tools/gst-inspect.c:922 ../tools/gst-inspect.c:1011
+#, c-format
+msgid "Total count: "
+msgstr "Număr total: "
+
+#: ../tools/gst-inspect.c:923
+#, c-format
+msgid "%d blacklisted file"
+msgid_plural "%d blacklisted files"
+msgstr[0] "%d fișier pe lista neagră"
+msgstr[1] "%d fișiere pe lista neagră"
+msgstr[2] "%d de fișiere pe lista neagră"
+
+#: ../tools/gst-inspect.c:1012
+#, c-format
+msgid "%d plugin"
+msgid_plural "%d plugins"
+msgstr[0] "%d modul"
+msgstr[1] "%d module"
+msgstr[2] "%d de module"
+
+#: ../tools/gst-inspect.c:1015
+#, c-format
+msgid "%d blacklist entry"
+msgid_plural "%d blacklist entries"
+msgstr[0] "%d intrare pe lista neagră"
+msgstr[1] "%d intrări pe lista neagră"
+msgstr[2] "%d de intrări pe lista neagră"
+
+#: ../tools/gst-inspect.c:1020
+#, c-format
+msgid "%d feature"
+msgid_plural "%d features"
+msgstr[0] "%d caracteristică"
+msgstr[1] "%d caracteristici"
+msgstr[2] "%d de caracteristici"
+
+#: ../tools/gst-inspect.c:1456
+msgid "Print all elements"
+msgstr "Tipărește toate elementele"
+
+#: ../tools/gst-inspect.c:1458
+msgid "Print list of blacklisted files"
+msgstr "Tipărește lista de fișiere de pe lista neagră"
+
+#: ../tools/gst-inspect.c:1460
+msgid ""
+"Print a machine-parsable list of features the specified plugin or all "
+"plugins provide.\n"
+"                                       Useful in connection with external "
+"automatic plugin installation mechanisms"
+msgstr ""
+"Tipărește o listă prelucrabilă de o mașină a caracteristicilor furnizate de "
+"modulul de extensie specificat sau de toate modulele.\n"
+"                                       Util în conexiunile către mecanisme "
+"externe de instalare automată de module de extensie"
+
+#: ../tools/gst-inspect.c:1465
+msgid "List the plugin contents"
+msgstr "Listează conținutul modulului de extensie"
+
+#: ../tools/gst-inspect.c:1467
+msgid "Check if the specified element or plugin exists"
+msgstr ""
+
+#: ../tools/gst-inspect.c:1470
+msgid ""
+"When checking if an element or plugin exists, also check that its version is "
+"at least the version specified"
+msgstr ""
+
+#: ../tools/gst-inspect.c:1474
+msgid "Print supported URI schemes, with the elements that implement them"
+msgstr ""
+"Tipărește schemele URI suportate, cu elementele pe care le implementează"
+
+#: ../tools/gst-inspect.c:1617
+#, c-format
+msgid "Could not load plugin file: %s\n"
+msgstr "Nu se poate încărca fișierul modul: %s\n"
+
+#: ../tools/gst-inspect.c:1622
+#, c-format
+msgid "No such element or plugin '%s'\n"
+msgstr "Niciun astfel de element sau modul „%s”\n"
+
+#: ../tools/gst-launch.c:251
+msgid "Index statistics"
+msgstr ""
+
+#: ../tools/gst-launch.c:550
+#, c-format
+msgid "Got message #%u from element \"%s\" (%s): "
+msgstr "Primit mesajul #%u, de la elementul „%s” (%s):"
+
+#: ../tools/gst-launch.c:554
+#, c-format
+msgid "Got message #%u from pad \"%s:%s\" (%s): "
+msgstr "Primit mesajul #%u, de la pad-ul „%s:%s” (%s):"
+
+#: ../tools/gst-launch.c:558
+#, c-format
+msgid "Got message #%u from object \"%s\" (%s): "
+msgstr "Primit mesajul #%u, de la obiectul „%s” (%s):"
+
+#: ../tools/gst-launch.c:562
+#, c-format
+msgid "Got message #%u (%s): "
+msgstr "Primit mesajul #%u (%s):"
+
+#: ../tools/gst-launch.c:594
+#, c-format
+msgid "Got EOS from element \"%s\".\n"
+msgstr "Primire EOS de la elementul „%s”.\n"
+
+#: ../tools/gst-launch.c:603
+#, c-format
+msgid "FOUND TAG      : found by element \"%s\".\n"
+msgstr "MARCAJ GĂSIT: găsit de către elementul „%s”.\n"
+
+#: ../tools/gst-launch.c:606
+#, c-format
+msgid "FOUND TAG      : found by pad \"%s:%s\".\n"
+msgstr "MARCAJ GĂSIT   : găsit de către pad „%s:%s”.\n"
+
+#: ../tools/gst-launch.c:609
+#, c-format
+msgid "FOUND TAG      : found by object \"%s\".\n"
+msgstr "MARCAJ GĂSIT   : găsit de către obiectul „%s”.\n"
+
+#: ../tools/gst-launch.c:612
+msgid "FOUND TAG\n"
+msgstr "MARCAJ GĂSIT\n"
+
+#: ../tools/gst-launch.c:627
+#, fuzzy, c-format
+msgid "FOUND TOC      : found by element \"%s\".\n"
+msgstr "MARCAJ GĂSIT: găsit de către elementul „%s”.\n"
+
+#: ../tools/gst-launch.c:630
+#, fuzzy, c-format
+msgid "FOUND TOC      : found by object \"%s\".\n"
+msgstr "MARCAJ GĂSIT   : găsit de către obiectul „%s”.\n"
+
+#: ../tools/gst-launch.c:633
+#, fuzzy
+msgid "FOUND TOC\n"
+msgstr "MARCAJ GĂSIT\n"
+
+#: ../tools/gst-launch.c:650
+#, c-format
+msgid ""
+"INFO:\n"
+"%s\n"
+msgstr ""
+"INFORMAȚII:\n"
+"%s\n"
+
+#: ../tools/gst-launch.c:667
+#, c-format
+msgid "WARNING: from element %s: %s\n"
+msgstr "AVERTISMENT: de la elementul %s: %s\n"
+
+#: ../tools/gst-launch.c:702
+msgid "Prerolled, waiting for buffering to finish...\n"
+msgstr "Preîncărcare, se așteaptă terminarea umplerii memoriei tampon...\n"
+
+#: ../tools/gst-launch.c:706
+#, fuzzy
+msgid "Prerolled, waiting for progress to finish...\n"
+msgstr "Preîncărcare, se așteaptă terminarea umplerii memoriei tampon...\n"
+
+#: ../tools/gst-launch.c:718
+msgid "buffering..."
+msgstr ""
+
+#: ../tools/gst-launch.c:729
+msgid "Done buffering, setting pipeline to PLAYING ...\n"
+msgstr "Preîncărcare completă, se setează liniei de asamblare pe REDARE ...\n"
+
+#. we were not buffering but PLAYING, PAUSE  the pipeline.
+#: ../tools/gst-launch.c:737
+msgid "Buffering, setting pipeline to PAUSED ...\n"
+msgstr "Preîncărcare, se setează linia de asamblare pe PAUZĂ ...\n"
+
+#: ../tools/gst-launch.c:746
+msgid "Redistribute latency...\n"
+msgstr "Se redistribuie latența...\n"
+
+#: ../tools/gst-launch.c:757
+#, c-format
+msgid "Setting state to %s as requested by %s...\n"
+msgstr "Se definește starea la %s după cum a fost cerut de %s...\n"
+
+#. this application message is posted when we caught an interrupt and
+#. * we need to stop the pipeline.
+#: ../tools/gst-launch.c:773
+msgid "Interrupt: Stopping pipeline ...\n"
+msgstr "Întrerupere: Se oprește linia de asamblare ...\n"
+
+#: ../tools/gst-launch.c:802
+#, c-format
+msgid "Progress: (%s) %s\n"
+msgstr ""
+
+#: ../tools/gst-launch.c:815
+#, fuzzy, c-format
+msgid "Missing element: %s\n"
+msgstr "niciun element „%s”"
+
+#: ../tools/gst-launch.c:829
+#, fuzzy, c-format
+msgid "Got context from element '%s': %s=%s\n"
+msgstr "AVERTISMENT: de la elementul %s: %s\n"
+
+#: ../tools/gst-launch.c:919
+msgid "Output tags (also known as metadata)"
+msgstr "Marcaje de ieșire (cunoscute și ca „metadata”)"
+
+#: ../tools/gst-launch.c:921
+msgid "Output TOC (chapters and editions)"
+msgstr ""
+
+#: ../tools/gst-launch.c:923
+msgid "Output status information and property notifications"
+msgstr "Informații asupra stării de ieșire și notificări proprietăți"
+
+#: ../tools/gst-launch.c:925
+msgid "Do not print any progress information"
+msgstr "Nu tipări niciun fel de informații de progres"
+
+#: ../tools/gst-launch.c:927
+msgid "Output messages"
+msgstr "Mesaje de ieșire"
+
+#: ../tools/gst-launch.c:929
+msgid "Do not output status information of TYPE"
+msgstr "Nu scoate informații despre stările de TIPUL"
+
+#: ../tools/gst-launch.c:929
+msgid "TYPE1,TYPE2,..."
+msgstr "TIP1,TIP2,..."
+
+#: ../tools/gst-launch.c:931
+msgid "Do not install a fault handler"
+msgstr "Nu instala un gestionar de erori"
+
+#: ../tools/gst-launch.c:933
+msgid "Force EOS on sources before shutting the pipeline down"
+msgstr "Forțează EOS pe surse înainte de a închide linia de asamblare"
+
+#: ../tools/gst-launch.c:936
+msgid "Gather and print index statistics"
+msgstr ""
+
+#: ../tools/gst-launch.c:999
+#, c-format
+msgid "ERROR: pipeline could not be constructed: %s.\n"
+msgstr "EROARE: linia de asamblare nu a putut fi construită: %s.\n"
+
+#: ../tools/gst-launch.c:1003
+#, c-format
+msgid "ERROR: pipeline could not be constructed.\n"
+msgstr "EROARE: linia de asamblare nu a putut fi construită.\n"
+
+#: ../tools/gst-launch.c:1007
+#, c-format
+msgid "WARNING: erroneous pipeline: %s\n"
+msgstr "AVERTISMENT: linia de asamblare conține erori: %s\n"
+
+#: ../tools/gst-launch.c:1023
+#, c-format
+msgid "ERROR: the 'pipeline' element wasn't found.\n"
+msgstr "EROARE: elementul „pipeline” (linie de asamblare) nu a fost găsit.\n"
+
+#: ../tools/gst-launch.c:1056 ../tools/gst-launch.c:1156
+msgid "Setting pipeline to PAUSED ...\n"
+msgstr "Se setează linia de asamblare pe PAUZĂ ...\n"
+
+#: ../tools/gst-launch.c:1061
+#, c-format
+msgid "ERROR: Pipeline doesn't want to pause.\n"
+msgstr "EROARE: Linia de asamblare nu vrea să fie pusă pe pauză.\n"
+
+#: ../tools/gst-launch.c:1066
+msgid "Pipeline is live and does not need PREROLL ...\n"
+msgstr "Linia de asamblare este „live” și nu necesită PREÎNCĂRCARE ...\n"
+
+#: ../tools/gst-launch.c:1070
+msgid "Pipeline is PREROLLING ...\n"
+msgstr "Linia de asamblare este PREÎNCĂRCATĂ ...\n"
+
+#: ../tools/gst-launch.c:1073 ../tools/gst-launch.c:1087
+#, c-format
+msgid "ERROR: pipeline doesn't want to preroll.\n"
+msgstr "EROARE: linia de asamblare nu vrea să se preîncarce.\n"
+
+#: ../tools/gst-launch.c:1080
+msgid "Pipeline is PREROLLED ...\n"
+msgstr "Linia de asamblare se PREÎNCARCĂ ...\n"
+
+#: ../tools/gst-launch.c:1093
+msgid "Setting pipeline to PLAYING ...\n"
+msgstr "Se setează linia de asamblare pe REDARE ...\n"
+
+#: ../tools/gst-launch.c:1100
+#, c-format
+msgid "ERROR: pipeline doesn't want to play.\n"
+msgstr "EROARE: linia de asamblare nu vrea să redea.\n"
+
+#: ../tools/gst-launch.c:1118
+msgid "EOS on shutdown enabled -- Forcing EOS on the pipeline\n"
+msgstr "EOS la închidere activat -- Se forțează EOS pe linia de asamblare\n"
+
+#: ../tools/gst-launch.c:1122
+#, fuzzy
+msgid "EOS on shutdown enabled -- waiting for EOS after Error\n"
+msgstr "EOS la închidere activat -- Se forțează EOS pe linia de asamblare\n"
+
+#: ../tools/gst-launch.c:1125
+msgid "Waiting for EOS...\n"
+msgstr "Se așteaptă EOS...\n"
+
+#. we got EOS
+#: ../tools/gst-launch.c:1132
+msgid "EOS received - stopping pipeline...\n"
+msgstr "EOS primit - se oprește linia de asamblare...\n"
+
+#: ../tools/gst-launch.c:1136
+#, fuzzy
+msgid "Interrupt while waiting for EOS - stopping pipeline...\n"
+msgstr "Întrerupere: Se oprește linia de asamblare ...\n"
+
+#: ../tools/gst-launch.c:1141
+msgid "An error happened while waiting for EOS\n"
+msgstr "A apărut o eroare în timp ce se aștepta EOS\n"
+
+#: ../tools/gst-launch.c:1152
+msgid "Execution ended after %"
+msgstr "Execuție terminată după %"
+
+#: ../tools/gst-launch.c:1168
+msgid "Setting pipeline to READY ...\n"
+msgstr "Se setează linia de asamblare pe PREGĂTIT ...\n"
+
+#: ../tools/gst-launch.c:1180
+msgid "Setting pipeline to NULL ...\n"
+msgstr "Se setează linia de asamblare pe NULL ...\n"
+
+#: ../tools/gst-launch.c:1184
+msgid "Freeing pipeline ...\n"
+msgstr "Se eliberează linia de asamblare...\n"
+
+#~ msgid "link without source element"
+#~ msgstr "legătură fără un element sursă"
+
+#~ msgid "link without sink element"
+#~ msgstr "legătură fără un element derivat"
+
+#~ msgid "no element to link URI \"%s\" to"
+#~ msgstr "niciun element pentru a lega URI „%s” la"
+
+#~ msgid "could not link sink element for URI \"%s\""
+#~ msgstr "nu se poate lega elementul derivat pentru URI „%s”"
+
+#~ msgid "Print alloc trace (if enabled at compile time)"
+#~ msgstr "Afișează căile de alocare (dacă s-a activat la momentul compilării)"
+
+#~ msgid "Usage: gst-xmllaunch <file.xml> [ element.property=value ... ]\n"
+#~ msgstr ""
+#~ "Utilizare: gst-xmllaunch <fișier.xml> [ element.property=valoare ... ]\n"
+
+#~ msgid "ERROR: parse of xml file '%s' failed.\n"
+#~ msgstr "EROARE: prelucrarea fișierului xml „%s” a eșuat.\n"
+
+#~ msgid "ERROR: no toplevel pipeline element in file '%s'.\n"
+#~ msgstr ""
+#~ "EROARE: niciun element de prim nivel al liniei de asamblare în fișierul "
+#~ "„%s”.\n"
+
+#~ msgid "WARNING: only one toplevel element is supported at this time.\n"
+#~ msgstr ""
+#~ "AVERTISMENT: doar un element de nivel de vârf este suportat în acest "
+#~ "moment.\n"
+
+#~ msgid "ERROR: could not parse command line argument %d: %s.\n"
+#~ msgstr "EROARE: nu se poate analiza argumetul %d al liniei de comandă: %s\n"
+
+#~ msgid "WARNING: element named '%s' not found.\n"
+#~ msgstr "AVERTISMENT: elementul cu numele „%s” nu a fost găsit.\n"
+
+#~ msgid "Save xml representation of pipeline to FILE and exit"
+#~ msgstr ""
+#~ "Salvarea unei reprezentări xml a liniei de asamblare în FIȘIER și ieșire"
+
+#~ msgid "FILE"
+#~ msgstr "FIȘIER"
+
+#~ msgid "Do not install signal handlers for SIGUSR1 and SIGUSR2"
+#~ msgstr "Nu instala rutine de tratare a semnalului pentru SIGUSR1 și SIGUSR2"

@@ -1,0 +1,147 @@
+# Romanian translation for gedit-collaboration.
+# Copyright (C) 2010 gedit-collaboration's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gedit-collaboration package.
+# Gabriel Șerbănescu <gabi_ro@ymail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: gedit-collaboration master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=gedit&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-12-18 18:51+0000\n"
+"PO-Revision-Date: 2010-11-24 12:16+0300\n"
+"Last-Translator: Gabriel Șerbănescu <gabi_ro@ymail.com>\n"
+"Language-Team: Romanian Gnome Team <gnomero-list@lists.sourceforge.net>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);;\n"
+"X-Generator: Virtaal 0.6.1\n"
+
+#: ../data/org.gnome.gedit.plugins.collaboration.gschema.xml.in.in.h:1
+msgid "Default User Name"
+msgstr "Numele de utilizator implicit"
+
+#: ../data/org.gnome.gedit.plugins.collaboration.gschema.xml.in.in.h:2
+msgid "The default user name for collaboration"
+msgstr "Numele de utilizator implicit pentru colaborare"
+
+#: ../data/org.gnome.gedit.plugins.collaboration.gschema.xml.in.in.h:3
+msgid "Default User Hue"
+msgstr "Nuanța de utilizator implicită"
+
+#: ../data/org.gnome.gedit.plugins.collaboration.gschema.xml.in.in.h:4
+msgid "The default user hue part of the color to identify the user by."
+msgstr ""
+"Nuanța de utilizator implicită este culoarea după care este identificat "
+"utilizatorul."
+
+#: ../src/collaboration.plugin.desktop.in.in.h:1
+#: ../src/gedit-collaboration-window-helper.c:1639
+msgid "Collaboration"
+msgstr "Colaborare"
+
+#: ../src/collaboration.plugin.desktop.in.in.h:2
+msgid "Collaboration plugin"
+msgstr "Modul Colaborare"
+
+#: ../src/gedit-collaboration-actions.c:118
+msgid "New File"
+msgstr "Fișier nou"
+
+#: ../src/gedit-collaboration-actions.c:118
+msgid "New Folder"
+msgstr "Dosar nou"
+
+#: ../src/gedit-collaboration-actions.c:130
+msgid "File _name:"
+msgstr "_Nume fișier:"
+
+#: ../src/gedit-collaboration-actions.c:130
+msgid "Folder _name:"
+msgstr "_Nume dosar:"
+
+#: ../src/gedit-collaboration-bookmark-dialog.c:262
+msgid "Defaults"
+msgstr "Implicite"
+
+#: ../src/gedit-collaboration-bookmark-dialog.c:275
+msgid "Create New Bookmark"
+msgstr "Creează un marcaj nou"
+
+#: ../src/gedit-collaboration-bookmark-dialog.c:287
+msgid "Bookmark Properties"
+msgstr "Proprietăți marcaj"
+
+#: ../src/gedit-collaboration-color-button.c:86
+msgid "Select User Color"
+msgstr "Alegeți culoarea utilizatorului"
+
+#: ../src/gedit-collaboration-document-message.c:143
+msgid "The collaboration session for this file was closed"
+msgstr "Sesiunea de colaborare pentru acest fișier a fost închisă"
+
+#: ../src/gedit-collaboration-document-message.c:166
+msgid "State vector has a bad format"
+msgstr "Vectorul de stare are un format greșit"
+
+#: ../src/gedit-collaboration-document-message.c:169
+msgid "State vector failed"
+msgstr "Vectorul de stare a eșuat"
+
+#: ../src/gedit-collaboration-document-message.c:180
+msgid "Adopted session user does not exist"
+msgstr "Utilizatorul de sesiune adoptat nu există"
+
+#: ../src/gedit-collaboration-document-message.c:183
+msgid "Adopted session missing operation"
+msgstr "Lipsește operația sesiunii adoptate"
+
+#: ../src/gedit-collaboration-document-message.c:186
+msgid "Adopted session invalid request"
+msgstr "Cerere nevalidă de la sesiunea adoptată"
+
+#: ../src/gedit-collaboration-document-message.c:189
+msgid "Adopted session missing state vector"
+msgstr "Lipsește vectorul de stare din sesiunea adoptată"
+
+#: ../src/gedit-collaboration-document-message.c:192
+msgid "Adopted session failed"
+msgstr "Sesiunea adoptată a eșuat"
+
+#: ../src/gedit-collaboration-document-message.c:199
+msgid "An unknown error occurred"
+msgstr "S-a produs o eroare necunoscută"
+
+#: ../src/gedit-collaboration-manager.c:805
+msgid "Synchronizing document"
+msgstr "Se sincronizează documentul"
+
+#: ../src/gedit-collaboration-manager.c:806
+msgid "Please wait while the shared document is being synchronized"
+msgstr "Așteptați cât timp documentul partajat se sincronizează"
+
+#. Translators: "Chat" is the label (noun) of the bottom pane in which
+#. the collaboration chat embedded and is used as a fallback label when
+#. the session name could not be determined
+#: ../src/gedit-collaboration-window-helper.c:737
+msgid "Chat"
+msgstr "Discuție"
+
+#: ../src/gedit-collaboration-window-helper.c:1005
+#, c-format
+msgid "Please provide a password for %s"
+msgstr "Furnizați parola pentru %s"
+
+#: ../src/gedit-collaboration-window-helper.c:1013
+msgid "Note: The connection is not secure"
+msgstr "Notă: Conexiunea nu este sigură"
+
+#: ../src/gedit-collaboration-window-helper.c:1514
+msgid "Clear _Collaboration Colors"
+msgstr "Curăță culorile de _colaborare"
+
+#: ../src/gedit-collaboration-window-helper.c:1515
+msgid "Clear collaboration user colors"
+msgstr "Curăță culorile utilizatorilor din colaborare"

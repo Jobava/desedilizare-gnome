@@ -1,0 +1,7198 @@
+# translation of gnome-games.HEAD.ro.po to Română
+# gnome-games
+# Copyright (C) 2004, 2005, 2006 Free Software Foundation, Inc.
+# Iulian Cutui <itph@k.ro>
+# Marius Andreiana <mandreiana@yahoo.com>, 2001.
+# Mugurel Tudor <mugurelu@gnome.ro>, 2004-2005, 2006.
+# Adi Roiban https://launchpad.net/~adiroiban, 2008, 2009
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2009, 2010, 2011.
+# Ion Laurențiu Cristian <me_lawr@yahoo.com>, 2010, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-games.HEAD.ro\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=four-"
+"in-a-row&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2015-07-26 13:49+0000\n"
+"PO-Revision-Date: 2011-03-16 17:36+0200\n"
+"Last-Translator: Lucian Adrian Grijincu <lucian.grijincu@gmail.com>\n"
+"Language-Team: Romanian Gnome Team <gnomero-list@lists.sourceforge.net>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);;\n"
+"X-Generator: Virtaal 0.6.1\n"
+"X-Launchpad-Export-Date: 2009-11-27 09:12+0000\n"
+
+#: ../data/four-in-a-row.appdata.xml.in.h:1
+#: ../data/four-in-a-row.desktop.in.h:1 ../data/four-in-a-row.ui.h:1
+#: ../src/main.h:5
+#, fuzzy
+#| msgid "Four-in-a-Row"
+msgid "Four-in-a-row"
+msgstr "Patru-in-linie"
+
+#: ../data/four-in-a-row.appdata.xml.in.h:2
+#: ../data/four-in-a-row.desktop.in.h:2
+msgid "Make lines of the same color to win"
+msgstr "Încercați să creați linii de aceeași culoare pentru a câștiga"
+
+#: ../data/four-in-a-row.appdata.xml.in.h:3
+msgid ""
+"A family classic, the objective of Four-in-a-row is to build a line of four "
+"of your marbles while trying to stop your opponent (human or computer) from "
+"building a line of his or her own. A line can be horizontal, vertical or "
+"diagonal. The first player to connect four in a row is the winner!"
+msgstr ""
+
+#: ../data/four-in-a-row.appdata.xml.in.h:4
+msgid ""
+"Four-in-a-row features multiple difficulty levels. If you're having trouble, "
+"you can always ask for a hint."
+msgstr ""
+
+#: ../data/four-in-a-row.desktop.in.h:3
+msgid "game;strategy;logic;"
+msgstr ""
+
+#: ../data/four-in-a-row.ui.h:2
+#, fuzzy
+#| msgid "The users's most recent score."
+msgid "Undo your most recent move"
+msgstr "Scorul recent al utilizatorului."
+
+#: ../data/four-in-a-row.ui.h:3
+msgid "_Hint"
+msgstr "Su_gestie"
+
+#: ../data/four-in-a-row.ui.h:4
+#, fuzzy
+#| msgid "Get a hint for your next move"
+msgid "Receive a hint for your next move"
+msgstr "Primește o sugestie pentru următoarea mutare"
+
+#: ../data/four-in-a-row.ui.h:5
+#, fuzzy
+#| msgid "_Start"
+msgid "_Start Over"
+msgstr "_Start"
+
+#: ../data/four-in-a-row.ui.h:6
+msgid "Start a new game"
+msgstr "Pornește un joc nou"
+
+#: ../data/org.gnome.four-in-a-row.gschema.xml.h:1
+#, fuzzy
+#| msgid "Computer Opponents"
+msgid "Opponent"
+msgstr "Adversari controlați de calculator"
+
+#: ../data/org.gnome.four-in-a-row.gschema.xml.h:2
+msgid ""
+"Zero is human; one through three correspond to the level of the computer "
+"player."
+msgstr ""
+"Zero este uman, iar de la unu la trei este corespunzător nivelului "
+"jucătorului calculator."
+
+#: ../data/org.gnome.four-in-a-row.gschema.xml.h:3
+msgid "Theme ID"
+msgstr "ID Temă"
+
+#: ../data/org.gnome.four-in-a-row.gschema.xml.h:4
+msgid "A number specifying the preferred theme."
+msgstr "Un număr specificând tema preferată."
+
+#: ../data/org.gnome.four-in-a-row.gschema.xml.h:5
+msgid "Sound"
+msgstr "Sunet"
+
+#: ../data/org.gnome.four-in-a-row.gschema.xml.h:6
+msgid "Whether or not to play event sounds."
+msgstr "Dacă sau nu să se folosească sunete pentru evenimente."
+
+#: ../data/org.gnome.four-in-a-row.gschema.xml.h:7 ../src/prefs.c:247
+msgid "Move left"
+msgstr "Mută la stânga"
+
+#: ../data/org.gnome.four-in-a-row.gschema.xml.h:8
+msgid "Key press to move left."
+msgstr "Tasta pentru mișcare la stânga."
+
+#: ../data/org.gnome.four-in-a-row.gschema.xml.h:9 ../src/prefs.c:248
+msgid "Move right"
+msgstr "Mută la dreapta"
+
+#: ../data/org.gnome.four-in-a-row.gschema.xml.h:10
+msgid "Key press to move right."
+msgstr "Tasta pentru mișcare la dreapta."
+
+#: ../data/org.gnome.four-in-a-row.gschema.xml.h:11 ../src/prefs.c:249
+msgid "Drop marble"
+msgstr "Eliberează piesa"
+
+#: ../data/org.gnome.four-in-a-row.gschema.xml.h:12
+msgid "Key press to drop a marble."
+msgstr "Tasta apăsată pentru a elibera o piesă."
+
+#: ../src/games-controls.c:105
+#, fuzzy
+#| msgid "That username is already in use."
+msgid "This key is already in use."
+msgstr "Acel nume de utilizator este deja în folosință."
+
+#: ../src/games-controls.c:326
+msgid "Unknown Command"
+msgstr "Comandă necunoscută"
+
+#: ../src/gfx.c:247
+#, c-format
+msgid ""
+"Unable to load image:\n"
+"%s"
+msgstr ""
+"Nu am putut încărca imaginea:\n"
+"%s"
+
+#: ../src/main.c:476
+#, fuzzy
+#| msgid "It's a draw!"
+msgid "It’s a draw!"
+msgstr "E remiză!"
+
+#: ../src/main.c:484
+msgid "You win!"
+msgstr "Ai învins!"
+
+#: ../src/main.c:486 ../src/main.c:502
+msgid "Your Turn"
+msgstr ""
+
+#: ../src/main.c:489
+msgid "I win!"
+msgstr "Am invins!"
+
+#: ../src/main.c:491 ../src/main.c:590
+msgid "I’m Thinking…"
+msgstr ""
+
+#: ../src/main.c:603
+#, c-format
+msgid "Hint: Column %d"
+msgstr "Sugestie: Coloana %d"
+
+#: ../src/main.c:631 ../src/main.c:635
+msgid "You:"
+msgstr "Tu:"
+
+#: ../src/main.c:632 ../src/main.c:634
+msgid "Me:"
+msgstr "Eu:"
+
+#: ../src/main.c:680
+msgid "Scores"
+msgstr "Scoruri"
+
+#: ../src/main.c:721
+msgid "Drawn:"
+msgstr "Remiză:"
+
+#: ../src/main.c:762
+#, fuzzy
+#| msgid "Connect four tiles in a row"
+msgid "Connect four in a row to win."
+msgstr "Aranjați patru piese în linie"
+
+#: ../src/main.c:765
+msgid "translator-credits"
+msgstr ""
+"Mugurel Tudor <mugurelu@gnome.ro>\n"
+"Lucian Adrian Grijincu <lucian.grijincu@gmail.com>\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Adi Roiban https://launchpad.net/~adiroiban\n"
+"  Andrei Coman https://launchpad.net/~comandrei\n"
+"  Beczuk David https://launchpad.net/~beczukdavid\n"
+"  Bogdan BOTEZ https://launchpad.net/~bmbogdan\n"
+"  Doru Horișco https://launchpad.net/~doruhushhush\n"
+"  Eduard Nicodei https://launchpad.net/~omega2youall\n"
+"  Ionuț Jula https://launchpad.net/~ionutjula\n"
+"  Lucian Adrian Grijincu https://launchpad.net/~lucian.grijincu\n"
+"  Manuel R. Ciosici https://launchpad.net/~manuelciosici\n"
+"  Marius https://launchpad.net/~yo9gvn\n"
+"  Mihai R https://launchpad.net/~mihairadau\n"
+"  Mugurel Tudor https://launchpad.net/~mugurelu\n"
+"  Mugurel Tudor https://launchpad.net/~mugurelu-gnome\n"
+"  leandrud https://launchpad.net/~leandrud"
+
+#: ../src/main.c:1130
+msgid "_Scores"
+msgstr "_Scoruri"
+
+#: ../src/main.c:1131
+#, fuzzy
+#| msgid "Preferences"
+msgid "_Preferences"
+msgstr "Preferințe"
+
+#: ../src/main.c:1134
+msgid "_Help"
+msgstr "_Ajutor"
+
+#: ../src/main.c:1135
+msgid "_About"
+msgstr "_Despre"
+
+#: ../src/main.c:1136
+#, fuzzy
+#| msgid "Quit"
+msgid "_Quit"
+msgstr "Ieșire"
+
+#: ../src/prefs.c:171
+msgid "Preferences"
+msgstr "Preferințe"
+
+#: ../src/prefs.c:193
+msgid "Game"
+msgstr "Joc"
+
+#: ../src/prefs.c:196
+msgid "Opponent:"
+msgstr ""
+
+#: ../src/prefs.c:207
+msgid "Human"
+msgstr "Om"
+
+#: ../src/prefs.c:211
+msgid "Level one"
+msgstr "Nivelul unu"
+
+#: ../src/prefs.c:215
+msgid "Level two"
+msgstr "Nivelul doi"
+
+#: ../src/prefs.c:219
+msgid "Level three"
+msgstr "Nivelul trei"
+
+#: ../src/prefs.c:225
+msgid "_Theme:"
+msgstr "_Temă:"
+
+#: ../src/prefs.c:238
+msgid "E_nable sounds"
+msgstr "A_ctivează sunetele"
+
+#. keyboard tab
+#: ../src/prefs.c:243
+msgid "Keyboard Controls"
+msgstr "Control tastatură"
+
+#: ../src/theme.c:40
+msgid "High Contrast"
+msgstr "Contrast mare"
+
+#: ../src/theme.c:44 ../src/theme.c:53
+msgid "Circle"
+msgstr ""
+
+#: ../src/theme.c:44 ../src/theme.c:53
+msgid "Cross"
+msgstr ""
+
+#: ../src/theme.c:45 ../src/theme.c:54
+#, fuzzy
+#| msgid "White wins"
+msgid "Circle wins!"
+msgstr "Albul câștigă"
+
+#: ../src/theme.c:45 ../src/theme.c:54
+#, fuzzy
+#| msgid "%s wins!"
+msgid "Cross wins!"
+msgstr "%s a învins!"
+
+#: ../src/theme.c:46 ../src/theme.c:55
+msgid "Circle’s turn"
+msgstr ""
+
+#: ../src/theme.c:46 ../src/theme.c:55
+msgid "Cross’s turn"
+msgstr ""
+
+#: ../src/theme.c:49
+msgid "High Contrast Inverse"
+msgstr "Contrast mare inversat"
+
+#: ../src/theme.c:58
+msgid "Red and Green Marbles"
+msgstr ""
+
+#: ../src/theme.c:62 ../src/theme.c:71 ../src/theme.c:80
+msgid "Red"
+msgstr "Roșu"
+
+#: ../src/theme.c:62 ../src/theme.c:80
+msgid "Green"
+msgstr "Verde"
+
+#: ../src/theme.c:63 ../src/theme.c:72 ../src/theme.c:81
+#, fuzzy
+#| msgid "%s wins!"
+msgid "Red wins!"
+msgstr "%s a învins!"
+
+#: ../src/theme.c:63 ../src/theme.c:81
+#, fuzzy
+#| msgid "%s wins!"
+msgid "Green wins!"
+msgstr "%s a învins!"
+
+#: ../src/theme.c:64 ../src/theme.c:73 ../src/theme.c:82
+msgid "Red’s turn"
+msgstr ""
+
+#: ../src/theme.c:64 ../src/theme.c:82
+msgid "Green’s turn"
+msgstr ""
+
+#: ../src/theme.c:67
+#, fuzzy
+#| msgid "Cream Marbles"
+msgid "Blue and Red Marbles"
+msgstr "Bile colorate"
+
+#: ../src/theme.c:71
+msgid "Blue"
+msgstr "Albastru"
+
+#: ../src/theme.c:72
+#, fuzzy
+#| msgid "Black wins"
+msgid "Blue wins!"
+msgstr "Negrul câștigă"
+
+#: ../src/theme.c:73
+msgid "Blue’s turn"
+msgstr ""
+
+#: ../src/theme.c:76
+#, fuzzy
+#| msgid "Starting %s"
+msgid "Stars and Rings"
+msgstr "Se pornește %s"
+
+#~ msgid "A list of recently played games."
+#~ msgstr "Lista jocurilor jucate recent."
+
+#~ msgid ""
+#~ "A list of strings that come in the form of a quintuple: name, wins, total "
+#~ "games played, best time (in seconds) and worst time (also in seconds). "
+#~ "Unplayed games do not need to be represented."
+#~ msgstr ""
+#~ "O listă de înregistrări sub formă de cvintupli cuprinzând: nume, "
+#~ "victorii, număr total de jocuri jucate, cel mai bun timp (în secunde) și "
+#~ "cel mai prost timp (tot în secunde). Jocurile care nu au fost jucate nu "
+#~ "au nevoie să fie reprezentate."
+
+#~ msgid "Animations"
+#~ msgstr "Animații"
+
+#~ msgid "Recently played games"
+#~ msgstr "Jocuri jucate recent"
+
+#~ msgid "Select the style of control"
+#~ msgstr "Selectați stilul de control"
+
+#~ msgid ""
+#~ "Select whether to drag the cards or to click on the source then the "
+#~ "destination."
+#~ msgstr ""
+#~ "Selectați dacă să trageți cărțile sau să faceți clic pe sursă și pe "
+#~ "destinație."
+
+#~ msgid "Statistics of games played"
+#~ msgstr "Statisticile jocurilor jucate"
+
+#~ msgid "The game file to use"
+#~ msgstr "Fișierul jocului ce trebuie folosit"
+
+#~ msgid "The name of the file with the graphics for the cards."
+#~ msgstr "Numele fișierului ce conține grafica pentru cărți."
+
+#~ msgid "The name of the scheme file containing the solitaire game to play."
+#~ msgstr "Numele fișierului scheme ce conține jocul solitaire de jucat."
+
+#~ msgid "Theme file name"
+#~ msgstr "Numele fișierului temă"
+
+#~ msgid "Whether or not to animate card moves."
+#~ msgstr "Dacă să se animeze sau nu mutările cărților."
+
+#~ msgid "Whether or not to show the status bar"
+#~ msgstr "Dacă se afișează sau nu bara de stare"
+
+#~ msgid "Whether or not to show the toolbar"
+#~ msgstr "Dacă să se afișeze sau nu bara de unelte"
+
+#~ msgid "Select Game"
+#~ msgstr "Selectare Joc"
+
+#~ msgid "_Select"
+#~ msgstr "_Selectează"
+
+#~ msgid "FreeCell Solitaire"
+#~ msgstr "Solitaire FreeCell"
+
+#~ msgid "Play the popular FreeCell card game"
+#~ msgstr "Jucați popularul joc de cărți FreeCell"
+
+#~ msgid ""
+#~ "Aisleriot cannot load the file “%s”. Please check your Aisleriot "
+#~ "installation."
+#~ msgstr ""
+#~ "Aisleriot nu poate încărca fișierul „%s”. Verificați instalarea Aisleriot."
+
+#~ msgctxt "slot type"
+#~ msgid "foundation"
+#~ msgstr "fundație"
+
+#~ msgctxt "slot type"
+#~ msgid "reserve"
+#~ msgstr "rezervat"
+
+#~ msgctxt "slot type"
+#~ msgid "stock"
+#~ msgstr "stoc"
+
+#~ msgctxt "slot type"
+#~ msgid "tableau"
+#~ msgstr "masă"
+
+#~ msgctxt "slot type"
+#~ msgid "waste"
+#~ msgstr "gunoi"
+
+#~ msgctxt "slot hint"
+#~ msgid "%s on foundation"
+#~ msgstr "%s pe fundație"
+
+#~ msgctxt "slot hint"
+#~ msgid "%s on reserve"
+#~ msgstr "%s pe rezervă"
+
+#~ msgctxt "slot hint"
+#~ msgid "%s on stock"
+#~ msgstr "%s pe stoc"
+
+#~ msgctxt "slot hint"
+#~ msgid "%s on tableau"
+#~ msgstr "%s pe masă"
+
+#~ msgctxt "slot hint"
+#~ msgid "%s on waste"
+#~ msgstr "%s pe gunoi"
+
+#~ msgid "Aisleriot cannot find the last game you played."
+#~ msgstr "Aisleriot nu poate găsi ultimul joc pe care l-ați jucat."
+
+#~ msgid ""
+#~ "This usually occurs when you run an older version of Aisleriot which does "
+#~ "not have the game you last played. The default game, Klondike, is being "
+#~ "started instead."
+#~ msgstr ""
+#~ "Acest lucru se întâmplă în general când rulați o versiune mai veche de "
+#~ "Aisleriot care nu are ultimul joc pe care l-ați jucat. Jocul implicit, "
+#~ "Klondike, va fi pornit în locul său."
+
+#~ msgid "This game does not have hint support yet."
+#~ msgstr "Acest joc încă nu are suport pentru sugestii."
+
+#~ msgid "Move %s onto %s."
+#~ msgstr "Mutați %s pe %s."
+
+#~ msgid "You are searching for a %s."
+#~ msgstr "Căutați %s"
+
+#~ msgid "This game is unable to provide a hint."
+#~ msgstr "Acest joc nu vă poate oferi o sugestie."
+
+#~ msgid "Peek"
+#~ msgstr "Peek"
+
+#~ msgid "Auld Lang Syne"
+#~ msgstr "Auld Lang Syne"
+
+#~ msgid "Fortunes"
+#~ msgstr "Răvașe"
+
+#~ msgid "Seahaven"
+#~ msgstr "Seahaven"
+
+#~ msgid "King Albert"
+#~ msgstr "Regele Albert"
+
+#~ msgid "First Law"
+#~ msgstr "Prima regulă"
+
+#~ msgid "Straight Up"
+#~ msgstr "Straight Up"
+
+#~ msgid "Jumbo"
+#~ msgstr "Jumbo"
+
+#~ msgid "Accordion"
+#~ msgstr "Accordion"
+
+#~ msgid "Ten Across"
+#~ msgstr "Ten Across"
+
+#~ msgid "Plait"
+#~ msgstr "Plait"
+
+#~ msgid "Lady Jane"
+#~ msgstr "Lady Jane"
+
+#~ msgid "Gypsy"
+#~ msgstr "Gypsy"
+
+#~ msgid "Neighbor"
+#~ msgstr "Vecinul"
+
+#~ msgid "Jamestown"
+#~ msgstr "Jamestown"
+
+#~ msgid "Osmosis"
+#~ msgstr "Osmosis"
+
+#~ msgid "Kings Audience"
+#~ msgstr "Kings Audience"
+
+#~ msgid "Glenwood"
+#~ msgstr "Glenwood"
+
+#~ msgid "Gay Gordons"
+#~ msgstr "Gay Gordons"
+
+#~ msgid "Monte Carlo"
+#~ msgstr "Monte Carlo"
+
+#~ msgid "Kansas"
+#~ msgstr "Kansas"
+
+#~ msgid "Camelot"
+#~ msgstr "Camelot"
+
+#~ msgid "Fourteen"
+#~ msgstr "Patrusprezece"
+
+#~ msgid "Scorpion"
+#~ msgstr "Scorpion"
+
+#~ msgid "Isabel"
+#~ msgstr "Isabel"
+
+#~ msgid "Escalator"
+#~ msgstr "Escalator"
+
+#~ msgid "Agnes"
+#~ msgstr "Agnes"
+
+#~ msgid "Bristol"
+#~ msgstr "Bristol"
+
+#~ msgid "Quatorze"
+#~ msgstr "Quatorze"
+
+#~ msgid "Bear River"
+#~ msgstr "Bear River"
+
+#~ msgid "Gold Mine"
+#~ msgstr "Mina de aur"
+
+#~ msgid "Athena"
+#~ msgstr "Atena"
+
+#~ msgid "Spiderette"
+#~ msgstr "Spiderette"
+
+#~ msgid "Chessboard"
+#~ msgstr "Tablă de șah"
+
+#~ msgid "Backbone"
+#~ msgstr "Backbone"
+
+#~ msgid "Yukon"
+#~ msgstr "Yukon"
+
+#~ msgid "Union Square"
+#~ msgstr "Union Square"
+
+#~ msgid "Eight Off"
+#~ msgstr "Eight Off"
+
+#~ msgid "Napoleons Tomb"
+#~ msgstr "Mormântul lui Napoleon"
+
+#~ msgid "Forty Thieves"
+#~ msgstr "Patruzeci de hoți"
+
+#~ msgid "Streets And Alleys"
+#~ msgstr "Străzi și alei"
+
+#~ msgid "Maze"
+#~ msgstr "Labirint"
+
+#~ msgid "Clock"
+#~ msgstr "Ceas"
+
+#~ msgid "Pileon"
+#~ msgstr "Pileon"
+
+#~ msgid "Canfield"
+#~ msgstr "Canfield"
+
+#~ msgid "Thirteen"
+#~ msgstr "Treisprezece"
+
+#~ msgid "Bakers Game"
+#~ msgstr "Joc Bakers"
+
+#~ msgid "Triple Peaks"
+#~ msgstr "Triple Peaks"
+
+#~ msgid "Easthaven"
+#~ msgstr "Easthaven"
+
+#~ msgid "Terrace"
+#~ msgstr "Terrace"
+
+#~ msgid "Aunt Mary"
+#~ msgstr "Mătușa Mary"
+
+#~ msgid "Carpet"
+#~ msgstr "Carpet"
+
+#~ msgid "Sir Tommy"
+#~ msgstr "Sir Tommy"
+
+#~ msgid "Diamond Mine"
+#~ msgstr "Mina de diamante"
+
+#~ msgid "Yield"
+#~ msgstr "Yield"
+
+#~ msgid "Labyrinth"
+#~ msgstr "Labirint"
+
+#~ msgid "Thieves"
+#~ msgstr "Hoții"
+
+#~ msgid "Saratoga"
+#~ msgstr "Saratoga"
+
+#~ msgid "Cruel"
+#~ msgstr "Crud"
+
+#~ msgid "Block Ten"
+#~ msgstr "Block Ten"
+
+#~ msgid "Will O The Wisp"
+#~ msgstr "Will O The Wisp"
+
+#~ msgid "Odessa"
+#~ msgstr "Odesa"
+
+#~ msgid "Eagle Wing"
+#~ msgstr "Aripă de vultur"
+
+#~ msgid "Treize"
+#~ msgstr "Treize"
+
+#~ msgid "Zebra"
+#~ msgstr "Zebra"
+
+#~ msgid "Cover"
+#~ msgstr "Cover"
+
+#~ msgid "Elevator"
+#~ msgstr "Lift"
+
+#~ msgid "Fortress"
+#~ msgstr "Fortăreața"
+
+#~ msgid "Giant"
+#~ msgstr "Giant"
+
+#~ msgid "Spider"
+#~ msgstr "Spider"
+
+#~ msgid "Gaps"
+#~ msgstr "Goluri"
+
+#~ msgid "Bakers Dozen"
+#~ msgstr "Bakers Dozen"
+
+#~ msgid "Whitehead"
+#~ msgstr "Whitehead"
+
+#~ msgid "Freecell"
+#~ msgstr "Freecell"
+
+#~ msgid "Helsinki"
+#~ msgstr "Helsinki"
+
+#~ msgid "Spider Three Decks"
+#~ msgstr "Spider cu trei pachete"
+
+#~ msgid "Scuffle"
+#~ msgstr "Scuffle"
+
+#~ msgid "Poker"
+#~ msgstr "Poker"
+
+#~ msgid "Klondike Three Decks"
+#~ msgstr "Klondike Three Decks"
+
+#~ msgid "Valentine"
+#~ msgstr "Valentine"
+
+#~ msgid "Royal East"
+#~ msgstr "Royal East"
+
+#~ msgid "Thumb And Pouch"
+#~ msgstr "Thumb And Pouch"
+
+#~ msgid "Klondike"
+#~ msgstr "Klondike"
+
+#~ msgid "Doublets"
+#~ msgstr "Doublets"
+
+#~ msgid "Template"
+#~ msgstr "Template"
+
+#~ msgid "Golf"
+#~ msgstr "Golf"
+
+#~ msgid "Westhaven"
+#~ msgstr "Westhaven"
+
+#~ msgid "Beleaguered Castle"
+#~ msgstr "Castelul Beleaguered"
+
+#~ msgid "Hopscotch"
+#~ msgstr "Hopscotch"
+
+#~ msgid "Solitaire"
+#~ msgstr "Solitaire"
+
+#~ msgid "GNOME Solitaire"
+#~ msgstr "GNOME Solitaire"
+
+#~ msgid "About Solitaire"
+#~ msgstr "Despre Solitaire"
+
+#~ msgid "Select the game type to play"
+#~ msgstr "Selectați tipul de joc"
+
+#~ msgid "NAME"
+#~ msgstr "NUME"
+
+#~ msgid "Select the game number"
+#~ msgstr "Alegeți numărul jocului"
+
+#~ msgid "NUMBER"
+#~ msgstr "NUMĂR"
+
+#~ msgid "AisleRiot"
+#~ msgstr "AisleRiot"
+
+#~ msgid "AisleRiot Solitaire"
+#~ msgstr "AisleRiot Solitaire"
+
+#~ msgid "Play many different solitaire games"
+#~ msgstr "Jucați numeroase forme de solitaire"
+
+#~ msgid "Unknown color"
+#~ msgstr "Culoare necunoscută"
+
+#~ msgid "Unknown suit"
+#~ msgstr "Suită necunoscută"
+
+#~ msgid "Unknown value"
+#~ msgstr "Valoare necunoscută"
+
+#~ msgid "ace"
+#~ msgstr "as"
+
+#~ msgid "black joker"
+#~ msgstr "joker negru"
+
+#~ msgid "clubs"
+#~ msgstr "treflă"
+
+#~ msgid "diamonds"
+#~ msgstr "caro"
+
+#~ msgid "eight"
+#~ msgstr "opt"
+
+#~ msgid "five"
+#~ msgstr "cinci"
+
+#~ msgid "four"
+#~ msgstr "patru"
+
+#~ msgid "hearts"
+#~ msgstr "cupă"
+
+#~ msgid "jack"
+#~ msgstr "valet"
+
+#~ msgid "king"
+#~ msgstr "rege"
+
+#~ msgid "nine"
+#~ msgstr "nouă"
+
+#~ msgid "queen"
+#~ msgstr "damă"
+
+#~ msgid "red joker"
+#~ msgstr "joker roșu"
+
+#~ msgid "seven"
+#~ msgstr "șapte"
+
+#~ msgid "six"
+#~ msgstr "șase"
+
+#~ msgid "spades"
+#~ msgstr "pică"
+
+#~ msgid "ten"
+#~ msgstr "zece"
+
+#~ msgid "the ace of clubs"
+#~ msgstr "as de treflă"
+
+#~ msgid "the ace of diamonds"
+#~ msgstr "as de caro"
+
+#~ msgid "the ace of hearts"
+#~ msgstr "as de cupă"
+
+#~ msgid "the ace of spades"
+#~ msgstr "as de pică"
+
+#~ msgid "the eight of clubs"
+#~ msgstr "opt de treflă"
+
+#~ msgid "the eight of diamonds"
+#~ msgstr "opt de caro"
+
+#~ msgid "the eight of hearts"
+#~ msgstr "opt de cupă"
+
+#~ msgid "the eight of spades"
+#~ msgstr "opt de pică"
+
+#~ msgid "the five of clubs"
+#~ msgstr "cinci de treflă"
+
+#~ msgid "the five of diamonds"
+#~ msgstr "cinci de caro"
+
+#~ msgid "the five of hearts"
+#~ msgstr "cinci de cupă"
+
+#~ msgid "the five of spades"
+#~ msgstr "cinci de pică"
+
+#~ msgid "the four of clubs"
+#~ msgstr "patru de treflă"
+
+#~ msgid "the four of diamonds"
+#~ msgstr "patru de caro"
+
+#~ msgid "the four of hearts"
+#~ msgstr "patru de cupă"
+
+#~ msgid "the four of spades"
+#~ msgstr "patru de pică"
+
+#~ msgid "the jack of clubs"
+#~ msgstr "valetul de treflă"
+
+#~ msgid "the jack of diamonds"
+#~ msgstr "valetul de caro"
+
+#~ msgid "the jack of hearts"
+#~ msgstr "valetul de cupă"
+
+#~ msgid "the jack of spades"
+#~ msgstr "valetul de pică"
+
+#~ msgid "the king of clubs"
+#~ msgstr "regele de treflă"
+
+#~ msgid "the king of diamonds"
+#~ msgstr "regele de caro"
+
+#~ msgid "the king of hearts"
+#~ msgstr "regele de cupă"
+
+#~ msgid "the king of spades"
+#~ msgstr "regele de pică"
+
+#~ msgid "the nine of clubs"
+#~ msgstr "nouă de treflă"
+
+#~ msgid "the nine of diamonds"
+#~ msgstr "nouă de caro"
+
+#~ msgid "the nine of hearts"
+#~ msgstr "nouă de cupă"
+
+#~ msgid "the nine of spades"
+#~ msgstr "nouă de pică"
+
+#~ msgid "the queen of clubs"
+#~ msgstr "dama de treflă"
+
+#~ msgid "the queen of diamonds"
+#~ msgstr "dama de caro"
+
+#~ msgid "the queen of hearts"
+#~ msgstr "dama de cupă"
+
+#~ msgid "the queen of spades"
+#~ msgstr "dama de pică"
+
+#~ msgid "the seven of clubs"
+#~ msgstr "șapte de treflă"
+
+#~ msgid "the seven of diamonds"
+#~ msgstr "șapte de caro"
+
+#~ msgid "the seven of hearts"
+#~ msgstr "șapte de cupă"
+
+#~ msgid "the seven of spades"
+#~ msgstr "șapte de pică"
+
+#~ msgid "the six of clubs"
+#~ msgstr "șase de treflă"
+
+#~ msgid "the six of diamonds"
+#~ msgstr "șase de caro"
+
+#~ msgid "the six of hearts"
+#~ msgstr "șase de cupă"
+
+#~ msgid "the six of spades"
+#~ msgstr "șase de pică"
+
+#~ msgid "the ten of clubs"
+#~ msgstr "zece de treflă"
+
+#~ msgid "the ten of diamonds"
+#~ msgstr "zece de caro"
+
+#~ msgid "the ten of hearts"
+#~ msgstr "zece de cupă"
+
+#~ msgid "the ten of spades"
+#~ msgstr "zece de pică"
+
+#~ msgid "the three of clubs"
+#~ msgstr "trei de treflă"
+
+#~ msgid "the three of diamonds"
+#~ msgstr "trei de caro"
+
+#~ msgid "the three of hearts"
+#~ msgstr "trei de cupă"
+
+#~ msgid "the three of spades"
+#~ msgstr "trei de pică"
+
+#~ msgid "the two of clubs"
+#~ msgstr "doi de treflă"
+
+#~ msgid "the two of diamonds"
+#~ msgstr "doi de caro"
+
+#~ msgid "the two of hearts"
+#~ msgstr "doi de cupă"
+
+#~ msgid "the two of spades"
+#~ msgstr "doi de pică"
+
+#~ msgid "the unknown card"
+#~ msgstr "carte necunoscută"
+
+#~ msgid "three"
+#~ msgstr "trei"
+
+#~ msgid "two"
+#~ msgstr "doi"
+
+#~ msgid "Wins:"
+#~ msgstr "Victorii:"
+
+#~ msgid "Total:"
+#~ msgstr "Total:"
+
+#~ msgid "Percentage:"
+#~ msgstr "Procentaj:"
+
+#~ msgid "Wins"
+#~ msgstr "Victorii"
+
+#~ msgid "Best:"
+#~ msgstr "Cea mai bună:"
+
+#~ msgid "Worst:"
+#~ msgstr "Cea mai slabă:"
+
+#~ msgid "Time"
+#~ msgstr "Timp"
+
+#~ msgid "Statistics"
+#~ msgstr "Statistici"
+
+#~ msgid "%d"
+#~ msgstr "%d"
+
+#~ msgid "%d%%"
+#~ msgstr "%d%%"
+
+#~ msgid "N/A"
+#~ msgstr "N/A"
+
+#~ msgid "%d:%02d"
+#~ msgstr "%d:%02d"
+
+#~ msgid "Could not show help for “%s”"
+#~ msgstr "Nu s-a putut afișa ajutorul pentru „%s”"
+
+#~ msgid "Congratulations, you have won!"
+#~ msgstr "Felicitări, ați câștigat!"
+
+#~ msgid "There are no more moves"
+#~ msgstr "Nu mai sunt mutări"
+
+#~ msgid "Game Over"
+#~ msgstr "Jocul s-a terminat"
+
+#~ msgid "Main game:"
+#~ msgstr "Jocul principal:"
+
+#~ msgid "Card games:"
+#~ msgstr "Jocuri de cărți:"
+
+#~ msgid "Card themes:"
+#~ msgstr "Teme carte:"
+
+#~ msgid "About FreeCell Solitaire"
+#~ msgstr "Despre FreeCell Solitaire"
+
+#~ msgid "About AisleRiot"
+#~ msgstr "Despre AisleRiot"
+
+#~ msgid ""
+#~ "AisleRiot provides a rule-based solitaire card engine that allows many "
+#~ "different games to be played.\n"
+#~ "AisleRiot is a part of GNOME Games."
+#~ msgstr ""
+#~ "AisleRiot furnizează un motor de jocuri solitaire bazate pe reguli ce "
+#~ "permite să fie jucate mai multe tipuri de jocuri.\n"
+#~ "AisleRiot este o componentă a proiectului Jocuri GNOME."
+
+#~ msgid "GNOME Games web site"
+#~ msgstr "Pagina web Jocuri GNOME"
+
+#~ msgid "Play “%s”"
+#~ msgstr "Joacă „%s”"
+
+#~ msgid "Display cards with “%s” card theme"
+#~ msgstr "Afișează cărțile cu tema de cărți „%s”"
+
+#~ msgctxt "score"
+#~ msgid "%6d"
+#~ msgstr "%6d"
+
+#~ msgid "A scheme exception occurred"
+#~ msgstr "A apărut e excepție în schemă"
+
+#~ msgid "Please report this bug to the developers."
+#~ msgstr "Raportează acestă eroare dezvoltatorilor"
+
+#~ msgid "Error"
+#~ msgstr "Eroare"
+
+#~ msgid "_Don't report"
+#~ msgstr "_Nu raporta"
+
+#~ msgid "_Report"
+#~ msgstr "_Raportează"
+
+#~ msgid "Freecell Solitaire"
+#~ msgstr "Freecell Solitaire"
+
+#~ msgid "_Game"
+#~ msgstr "_Joc"
+
+#~ msgid "_View"
+#~ msgstr "_Vizualizare"
+
+#~ msgid "_Control"
+#~ msgstr "_Control"
+
+#~ msgid "Restart the game"
+#~ msgstr "Repornește jocul"
+
+#~ msgid "_Select Game..."
+#~ msgstr "_Selectați jocul..."
+
+#~ msgid "Play a different game"
+#~ msgstr "Jucați un joc diferit"
+
+#~ msgid "_Recently Played"
+#~ msgstr "Jucate _recent"
+
+#~ msgid "S_tatistics"
+#~ msgstr "S_tatistici"
+
+#~ msgid "Show gameplay statistics"
+#~ msgstr "Afișează statisticile jocurilor"
+
+#~ msgid "Close this window"
+#~ msgstr "Închide această fereastră"
+
+#~ msgid "Undo the last move"
+#~ msgstr "Anulează ultima mutare"
+
+#~ msgid "Redo the undone move"
+#~ msgstr "Refă mutarea anulată"
+
+#~ msgid "Deal next card or cards"
+#~ msgstr "Împărțiți cartea său cărțile următoare"
+
+#~ msgid "View help for Aisleriot"
+#~ msgstr "Afișează ajutorul pentru Aisleriot"
+
+#~ msgid "View help for this game"
+#~ msgstr "Afișează ajutorul pentru acest joc"
+
+#~ msgid "About this game"
+#~ msgstr "Despre acest joc"
+
+#~ msgid "Install card themes…"
+#~ msgstr "Instalează teme pentru cărți…"
+
+#~ msgid "Install new card themes from the distribution packages repositories"
+#~ msgstr ""
+#~ "Instalează teme noi pentru cărțile de joc din arhivele de pachete ale "
+#~ "distribuției"
+
+#~ msgid "_Card Style"
+#~ msgstr "Stilul _cărților"
+
+#~ msgid "_Toolbar"
+#~ msgstr "Bară de unel_te"
+
+#~ msgid "Show or hide the toolbar"
+#~ msgstr "Afișează sau ascunde bara de unelte"
+
+#~ msgid "_Statusbar"
+#~ msgstr "Bară de _stare"
+
+#~ msgid "Show or hide statusbar"
+#~ msgstr "Afișează sau ascunde bara de stare"
+
+#~ msgid "_Click to Move"
+#~ msgstr "_Clic pentru a muta"
+
+#~ msgid "Pick up and drop cards by clicking"
+#~ msgstr "Ridicați și mutați cărțile cu clic"
+
+#~ msgid "_Sound"
+#~ msgstr "_Sunet"
+
+#~ msgid "Whether or not to play event sounds"
+#~ msgstr "Dacă se vor reda sau nu sunete pentru evenimente"
+
+#~ msgid "_Animations"
+#~ msgstr "_Animații"
+
+#~ msgid "Whether or not to animate card moves"
+#~ msgstr "Dacă să se animeze sau nu mutările cărților"
+
+#~ msgid "Score:"
+#~ msgstr "Scor:"
+
+#~ msgid "Time:"
+#~ msgstr "Timp:"
+
+#~ msgid "Cannot start the game “%s”"
+#~ msgstr "Nu s-a putut porni jocul „%s”"
+
+#~ msgctxt "card symbol"
+#~ msgid "JOKER"
+#~ msgstr "JOKER"
+
+#~ msgctxt "card symbol"
+#~ msgid "A"
+#~ msgstr "A"
+
+#~ msgctxt "card symbol"
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgctxt "card symbol"
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgctxt "card symbol"
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgctxt "card symbol"
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgctxt "card symbol"
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgctxt "card symbol"
+#~ msgid "7"
+#~ msgstr "7"
+
+#~ msgctxt "card symbol"
+#~ msgid "8"
+#~ msgstr "8"
+
+#~ msgctxt "card symbol"
+#~ msgid "9"
+#~ msgstr "9"
+
+#~ msgctxt "card symbol"
+#~ msgid "J"
+#~ msgstr "J"
+
+#~ msgctxt "card symbol"
+#~ msgid "Q"
+#~ msgstr "Q"
+
+#~ msgctxt "card symbol"
+#~ msgid "K"
+#~ msgstr "K"
+
+#~ msgctxt "card symbol"
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "ace of clubs"
+#~ msgstr "as de treflă"
+
+#~ msgid "two of clubs"
+#~ msgstr "doi de treflă"
+
+#~ msgid "three of clubs"
+#~ msgstr "trei de treflă"
+
+#~ msgid "four of clubs"
+#~ msgstr "patru de treflă"
+
+#~ msgid "five of clubs"
+#~ msgstr "cinci de treflă"
+
+#~ msgid "six of clubs"
+#~ msgstr "șase de treflă"
+
+#~ msgid "seven of clubs"
+#~ msgstr "șapte de treflă"
+
+#~ msgid "eight of clubs"
+#~ msgstr "opt de treflă"
+
+#~ msgid "nine of clubs"
+#~ msgstr "nouă de treflă"
+
+#~ msgid "ten of clubs"
+#~ msgstr "zece de treflă"
+
+#~ msgid "jack of clubs"
+#~ msgstr "valetul de treflă"
+
+#~ msgid "queen of clubs"
+#~ msgstr "dama de treflă"
+
+#~ msgid "king of clubs"
+#~ msgstr "regele de treflă"
+
+#~ msgid "ace of diamonds"
+#~ msgstr "as de caro"
+
+#~ msgid "two of diamonds"
+#~ msgstr "doi de caro"
+
+#~ msgid "three of diamonds"
+#~ msgstr "trei de caro"
+
+#~ msgid "four of diamonds"
+#~ msgstr "patru de caro"
+
+#~ msgid "five of diamonds"
+#~ msgstr "cinci de caro"
+
+#~ msgid "six of diamonds"
+#~ msgstr "șase de caro"
+
+#~ msgid "seven of diamonds"
+#~ msgstr "șapte de caro"
+
+#~ msgid "eight of diamonds"
+#~ msgstr "opt de caro"
+
+#~ msgid "nine of diamonds"
+#~ msgstr "nouă de caro"
+
+#~ msgid "ten of diamonds"
+#~ msgstr "zece de caro"
+
+#~ msgid "jack of diamonds"
+#~ msgstr "valetul de caro"
+
+#~ msgid "queen of diamonds"
+#~ msgstr "dama de caro"
+
+#~ msgid "king of diamonds"
+#~ msgstr "regele de caro"
+
+#~ msgid "ace of hearts"
+#~ msgstr "as de cupă"
+
+#~ msgid "two of hearts"
+#~ msgstr "doi de cupă"
+
+#~ msgid "three of hearts"
+#~ msgstr "trei de cupă"
+
+#~ msgid "four of hearts"
+#~ msgstr "patru de cupă"
+
+#~ msgid "five of hearts"
+#~ msgstr "cinci de cupă"
+
+#~ msgid "six of hearts"
+#~ msgstr "șase de cupă"
+
+#~ msgid "seven of hearts"
+#~ msgstr "șapte de cupă"
+
+#~ msgid "eight of hearts"
+#~ msgstr "opt de cupă"
+
+#~ msgid "nine of hearts"
+#~ msgstr "nouă de cupă"
+
+#~ msgid "ten of hearts"
+#~ msgstr "zece de cupă"
+
+#~ msgid "jack of hearts"
+#~ msgstr "valetul de cupă"
+
+#~ msgid "queen of hearts"
+#~ msgstr "dama de cupă"
+
+#~ msgid "king of hearts"
+#~ msgstr "regele de cupă"
+
+#~ msgid "ace of spades"
+#~ msgstr "as de pică"
+
+#~ msgid "two of spades"
+#~ msgstr "doi de pică"
+
+#~ msgid "three of spades"
+#~ msgstr "trei de pică"
+
+#~ msgid "four of spades"
+#~ msgstr "patru de pică"
+
+#~ msgid "five of spades"
+#~ msgstr "cinci de pică"
+
+#~ msgid "six of spades"
+#~ msgstr "șase de pică"
+
+#~ msgid "seven of spades"
+#~ msgstr "șapte de pică"
+
+#~ msgid "eight of spades"
+#~ msgstr "opt de pică"
+
+#~ msgid "nine of spades"
+#~ msgstr "nouă de pică"
+
+#~ msgid "ten of spades"
+#~ msgstr "zece de pică"
+
+#~ msgid "jack of spades"
+#~ msgstr "valetul de pică"
+
+#~ msgid "queen of spades"
+#~ msgstr "dama de pică"
+
+#~ msgid "king of spades"
+#~ msgstr "regele de pică"
+
+#~ msgid "face-down card"
+#~ msgstr "carte cu fața în jos"
+
+#~ msgid "Base Card: Ace"
+#~ msgstr "Carte de bază: As"
+
+#~ msgid "Base Card: Jack"
+#~ msgstr "Carte de bază: Valet"
+
+#~ msgid "Base Card: King"
+#~ msgstr "Carte de bază: Rege"
+
+#~ msgid "Base Card: Queen"
+#~ msgstr "Carte de bază: Damă"
+
+#~ msgid "Base Card: ~a"
+#~ msgstr "Carte de bază: ~a"
+
+#~ msgid "Deal more cards"
+#~ msgstr "Împarte mai multe cărți"
+
+#~ msgid "Stock left:"
+#~ msgstr "Stoc rămas:"
+
+#~ msgid "Stock left: 0"
+#~ msgstr "Stoc rămas: 0"
+
+#~ msgid "Try rearranging the cards"
+#~ msgstr "Încercați să rearanjați cărțile"
+
+#~ msgid "an empty foundation pile"
+#~ msgstr "o fundație goală"
+
+#~ msgid "Three card deals"
+#~ msgstr "Împărțiți câte trei cărți"
+
+#~ msgid "Deal another round"
+#~ msgstr "Cere altă rundă"
+
+#~ msgid "Deal a new card from the deck"
+#~ msgstr "Cere o carte nouă din pachet"
+
+#~ msgid "Redeals left:"
+#~ msgstr "Reîmparte stânga:"
+
+#~ msgid "an empty slot on the foundation"
+#~ msgstr "un loc liber în bază"
+
+#~ msgid "an empty slot on the tableau"
+#~ msgstr "un loc liber pe tablou"
+
+#~ msgid "an empty foundation"
+#~ msgstr "o bază goală"
+
+#~ msgid "Base Card: "
+#~ msgstr "Carte pentru bază: "
+
+#~ msgid "Move something onto an empty right-hand tableau slot"
+#~ msgstr "Mută ceva pe un loc liber de pe tablă din partea dreaptă"
+
+#~ msgid "an empty foundation slot"
+#~ msgstr "un loc pe fundație goală"
+
+#~ msgid "an empty bottom slot"
+#~ msgstr "un loc gol în partea de jos"
+
+#~ msgid "an empty corner slot"
+#~ msgstr "un loc gol în colț"
+
+#~ msgid "an empty left slot"
+#~ msgstr "un loc gol în stânga"
+
+#~ msgid "an empty right slot"
+#~ msgstr "un loc gol în dreapta"
+
+#~ msgid "an empty slot"
+#~ msgstr "un loc liber"
+
+#~ msgid "an empty top slot"
+#~ msgstr "un loc liber de sus"
+
+#~ msgid "itself"
+#~ msgstr "el însuși"
+
+#~ msgid "Move waste back to stock"
+#~ msgstr "Mutați grămada înapoi la stoc"
+
+#~ msgid "Reserve left:"
+#~ msgstr "Rezervă rămasă:"
+
+#~ msgid "empty slot on foundation"
+#~ msgstr "loc liber în fundație"
+
+#~ msgid "empty space on tableau"
+#~ msgstr "loc liber pe tablă"
+
+#~ msgid "Move a card to the Foundation"
+#~ msgstr "Mutați o carte către Fundație"
+
+#~ msgid "Move something into the empty Tableau slot"
+#~ msgstr "Mutați ceva în locul gol de pe tablou"
+
+#~ msgid "Consistency is key"
+#~ msgstr "Cheia este consistența"
+
+#~ msgid "Fishing wire makes bad dental floss"
+#~ msgstr "Ața de pescuit nu e bună pe post de ață dentară"
+
+#~ msgid "Have you read the help file?"
+#~ msgstr "Ați citit fișierul ajutor?"
+
+#~ msgid "I could sure use a backrub right about now..."
+#~ msgstr "Mi-ar prinde bine un masaj...."
+
+#~ msgid "If you're ever lost and alone in the woods, hug a tree"
+#~ msgstr "Dacă te-ai rătăcit prin pădure, îmbrățișează un copac"
+
+#~ msgid ""
+#~ "Just because a crosswalk looks like a hopscotch board doesn't mean it is "
+#~ "one"
+#~ msgstr ""
+#~ "Doar pentru că o trecere de pietoni arată ca un șotron nu înseamnă că și "
+#~ "este unul"
+
+#~ msgid "Look both ways before you cross the street"
+#~ msgstr "Uită-te în ambele direcții inainte să traversezi strada"
+
+#~ msgid "Monitors won't give you Vitamin D -- but sunlight will..."
+#~ msgstr "Monitoarele nu-ti dau vitamina D -- dar soarele da..."
+
+#~ msgid "Never blow in a dog's ear"
+#~ msgstr "Nu sufla niciodată în urechea unui câine"
+
+#~ msgid "Odessa is a better game.  Really."
+#~ msgstr "Odessa e un joc mai bun. Sincer."
+
+#~ msgid "Tourniquets are not recommended unless in the direst emergency"
+#~ msgstr "Tourniquets nu sunt recomandate decât în caz de strictă urgență"
+
+#~ msgid "When without a stapler, a staple and a ruler will work"
+#~ msgstr "Dacă nu aveți un capsator, o capsă și o riglă sunt îndeajuns"
+
+#~ msgid "Cards remaining: ~a"
+#~ msgstr "Cărți rămase: ~a"
+
+#~ msgid "Redeal."
+#~ msgstr "Reîmparte."
+
+#~ msgid "the foundation pile"
+#~ msgstr "teancul fundație"
+
+#~ msgid "Deal a card"
+#~ msgstr "Împarte o carte"
+
+#~ msgid "Move ~a to an empty foundation"
+#~ msgstr "Mută ~a către o fundație goală"
+
+#~ msgid "an empty slot on tableau"
+#~ msgstr "un loc liber pe tablă"
+
+#~ msgid "Move a King on to the empty tableau slot"
+#~ msgstr "Mută un Rege pe locul liber de pe tablou"
+
+#~ msgid "No hint available right now"
+#~ msgstr "Nu există nicio sugestie pentru mutare"
+
+#~ msgid "Move something on to an empty reserve"
+#~ msgstr "Plasați ceva într-un loc liber"
+
+#~ msgid "an empty tableau"
+#~ msgstr "un tablou gol"
+
+#~ msgid "I'm not sure"
+#~ msgstr "Nu sunt sigur"
+
+#~ msgid "Remove the aces"
+#~ msgstr "Elimină așii"
+
+#~ msgid "Remove the eights"
+#~ msgstr "Elimină cărțile de opt"
+
+#~ msgid "Remove the fives"
+#~ msgstr "Elimină cărțile de cinci"
+
+#~ msgid "Remove the fours"
+#~ msgstr "Elimină cărțile de patru"
+
+#~ msgid "Remove the jacks"
+#~ msgstr "Elimină valeții"
+
+#~ msgid "Remove the kings"
+#~ msgstr "Elimină regii"
+
+#~ msgid "Remove the nines"
+#~ msgstr "Elimină nouarii"
+
+#~ msgid "Remove the queens"
+#~ msgstr "Elimină damele"
+
+#~ msgid "Remove the sevens"
+#~ msgstr "Elimină șeptarii"
+
+#~ msgid "Remove the sixes"
+#~ msgstr "Elimină șesarii"
+
+#~ msgid "Remove the tens"
+#~ msgstr "Elimină decarii"
+
+#~ msgid "Remove the threes"
+#~ msgstr "Elimină treiarii"
+
+#~ msgid "Remove the twos"
+#~ msgstr "Elimină doiarii"
+
+#~ msgid "Return cards to stock"
+#~ msgstr "Returnează cărțile în stoc"
+
+#~ msgid "Consider moving something into an empty slot"
+#~ msgstr "Încercați să mutați ceva într-un loc liber"
+
+#~ msgid "Move ~a off the board"
+#~ msgstr "Mută ~a de pe tablă"
+
+#~ msgid "Bug! make-hint called on false move."
+#~ msgstr "Eroare internă! make-hint chemat pe o mișcare falsă."
+
+#~ msgid "Deal a card from stock"
+#~ msgstr "Împarte o carte din pachet"
+
+#~ msgid "an empty space"
+#~ msgstr "un spațiu liber"
+
+#~ msgid "No moves are possible. Undo or start again."
+#~ msgstr "Nu mai sunt mutări posibile. Anulați sau reîncepeți."
+
+#~ msgid "The game has no solution. Undo or start again."
+#~ msgstr "Jocul nu are soluție. Anulați sau reîncepeți."
+
+#~ msgid "an empty reserve"
+#~ msgstr "o rezervă goală"
+
+#~ msgid "an open tableau"
+#~ msgstr "un tablou deschis"
+
+#~ msgid "the foundation"
+#~ msgstr "fundația"
+
+#~ msgid "Add to the sequence in row ~a."
+#~ msgstr "Adaugă la secvența din rândul ~a."
+
+#~ msgid "Double click any card to redeal."
+#~ msgstr "Dublu clic pe orice carte pentru reîmpărțire."
+
+#~ msgid "No hint available."
+#~ msgstr "Nu există nici o sugestie disponibilă."
+
+#~ msgid "Place a two in the leftmost slot of row ~a."
+#~ msgstr "Plasați un doi în locul liber din extrema stângă a rândului ~a."
+
+#~ msgid "Place the ~a next to ~a."
+#~ msgstr "Pune ~a următorul la ~a."
+
+#~ msgid "Randomly Placed Gaps on Redeal"
+#~ msgstr "Zone goale plasate aleator la reîmpărțiri"
+
+#~ msgid "Alternating colors"
+#~ msgstr "Culori alternante"
+
+#~ msgid "Deal a row"
+#~ msgstr "Împarte o nouă mână"
+
+#~ msgid "Deals left: ~a"
+#~ msgstr "Mâini rămase: ~a"
+
+#~ msgid "Same suit"
+#~ msgstr "Aceeași suită"
+
+#~ msgid "Try dealing a row of cards"
+#~ msgstr "Încearcați să împărțiți un nou rând de cărți"
+
+#~ msgid "Try moving a card to the reserve"
+#~ msgstr "Încercați să mutați o carte la rezervă"
+
+#~ msgid "Try moving card piles around"
+#~ msgstr "Încercați să mutați grămezile de cărți"
+
+#~ msgid "an empty foundation place"
+#~ msgstr "o loc pe fundație goală"
+
+#~ msgid "an empty tableau place"
+#~ msgstr "un loc liber pe tablă"
+
+#~ msgid "Move a card from the reserve on to the empty tableau slot"
+#~ msgstr "Mută o carte din rezervă într-un loc liber de pe tablou"
+
+#~ msgid "Select a card from the reserve for first foundation pile"
+#~ msgstr "Selectați o carte din rezervă pentru primul teanc fundație"
+
+#~ msgid "on to the empty tableau slot"
+#~ msgstr "pe locul liber de pe tablou"
+
+#~ msgid "Deal another card"
+#~ msgstr "Trage altă carte"
+
+#~ msgid "Stock left: ~a"
+#~ msgstr "Stoc rămas: ~a"
+
+#~ msgid "Deal another hand"
+#~ msgstr "Împarte o altă mână"
+
+#~ msgid "Move a card or build of cards on to the empty slot"
+#~ msgstr "Mutați o carte sau o suită pe locul liber"
+
+#~ msgid "Move card from waste"
+#~ msgstr "Mutați carte din grămadă"
+
+#~ msgid "Move waste to stock"
+#~ msgstr "Mutați grămada la stoc"
+
+#~ msgid "an empty tableau slot"
+#~ msgstr "un loc liber pe tablou"
+
+#~ msgid "Deal a new card"
+#~ msgstr "Împarte o nouă carte"
+
+#~ msgid "Stock remaining: ~a"
+#~ msgstr "Au mai rămas: ~a"
+
+#~ msgid "No redeals"
+#~ msgstr "Fără reîmpărțire"
+
+#~ msgid "Single card deals"
+#~ msgstr "Se împarte câte o carte"
+
+#~ msgid "Try moving cards down from the foundation"
+#~ msgstr "Încercați să mutați cărțile jos din fundație"
+
+#~ msgid "Base Card:"
+#~ msgstr "Carte pentru bază:"
+
+#~ msgid ""
+#~ "Aim to place the suits in the order which fits the current layout most "
+#~ "naturally."
+#~ msgstr ""
+#~ "Scopul este plasarea suitelor în ordinea în care se potrivesc cât mai "
+#~ "natural cu aranjamentul curent."
+
+#~ msgid "Deal new cards from the deck"
+#~ msgstr "Împățiți cărți din pachet"
+
+#~ msgid "Redeals left: ~a"
+#~ msgstr "Levate rămase: ~a"
+
+#~ msgid "something"
+#~ msgstr "ceva"
+
+#~ msgid "Move ~a from the stock to an empty edge or tableau slot"
+#~ msgstr "Mutați ~a din stoc pe margine sau într-un loc liber de pe tablou"
+
+#~ msgid "Move ~a to an empty field"
+#~ msgstr "Mută ~a către un câmp liber"
+
+#~ msgid "Place cards on to the Tableau to form poker hands"
+#~ msgstr "Așează cărți pe tablou pentru a obține formații de poker"
+
+#~ msgid "Shuffle mode"
+#~ msgstr "Mod aleator"
+
+#~ msgid "an empty tableau pile"
+#~ msgstr "un teanc fundație gol"
+
+#~ msgid "Deal the cards"
+#~ msgstr "Împarte cărțile"
+
+#~ msgid "Reshuffle cards"
+#~ msgstr "Amestecați cărțile"
+
+#~ msgid "Move waste on to a reserve slot"
+#~ msgstr "Mutați grămada pe un loc de rezervă"
+
+#~ msgid "empty foundation"
+#~ msgstr "fundație goală"
+
+#~ msgid "Four Suits"
+#~ msgstr "Patru suite"
+
+#~ msgid "One Suit"
+#~ msgstr "O suită"
+
+#~ msgid "Place something on empty slot"
+#~ msgstr "Plasați ceva într-un loc liber"
+
+#~ msgid "Please fill in empty pile first."
+#~ msgstr "Vă rog umpleți locul gol întâi"
+
+#~ msgid "Two Suits"
+#~ msgstr "Două suite"
+
+#~ msgid "Undo until there are enough cards to fill all tableau piles"
+#~ msgstr ""
+#~ "Anulează până când sunt destule cărți pentru a umple toate grămezile de "
+#~ "pe tablă"
+
+#~ msgid "Allow temporary spots use"
+#~ msgstr "Permite folosirea locurilor temporare"
+
+#~ msgid "Move a card to an empty temporary slot"
+#~ msgstr "Mutați cartea către un loc liber temporar"
+
+#~ msgid "No hint available"
+#~ msgstr "Nici o sugestie disponibilă"
+
+#~ msgid "Blondes and Brunettes"
+#~ msgstr "Blondes and Brunettes"
+
+#~ msgid "Falling Stars"
+#~ msgstr "Falling Stars"
+
+#~ msgid "General's Patience"
+#~ msgstr "General's Patience"
+
+#~ msgid "Redheads"
+#~ msgstr "Redheads"
+
+#~ msgid "Signora"
+#~ msgstr "Signora"
+
+#~ msgid "Wood"
+#~ msgstr "Wood"
+
+#~ msgid "Deal a card from the deck"
+#~ msgstr "Împarte o carte din pachet"
+
+#~ msgid "Match the top two cards of the waste."
+#~ msgstr "Potrivește primele două cărți ale grămezii."
+
+#~ msgid "Multiplier Scoring"
+#~ msgstr "Scor multiplicat"
+
+#~ msgid "Progressive Rounds"
+#~ msgstr "Runde progresive"
+
+#~ msgid "appropriate foundation pile"
+#~ msgstr "fundația potrivită"
+
+#~ msgid "Move a build of cards on to the empty Tableau slot"
+#~ msgstr "Mutați gramada de cărți pe locul liber de pe tablou"
+
+#~ msgid "the appropriate Foundation pile"
+#~ msgstr "fundația potrivită"
+
+#~ msgid "A flag to enable 3D mode"
+#~ msgstr "Un indicator pentru a activa modul 3D"
+
+#~ msgid "A flag to enable board numbering"
+#~ msgstr "Un indicator pentru activarea numerotării."
+
+#~ msgid "A flag to enable fullscreen mode"
+#~ msgstr "Un indicator pentru activarea modului întreg ecranul"
+
+#~ msgid "A flag to enable maximised mode"
+#~ msgstr "Un indicator pentru activarea modului maximizat"
+
+#~ msgid "A flag to enable move hints"
+#~ msgstr "Un marcaj pentru a activa indiciile"
+
+#~ msgid "A flag to enable the move history browser"
+#~ msgstr "Un marcaj pentru a activa navigatorul istorie mutări"
+
+#~ msgid "A flag to enable the toolbar"
+#~ msgstr "Un indicator pentru activarea barei cu instrumente"
+
+#~ msgid "A flag to smooth (anti-alias) the 3D display"
+#~ msgstr "Un marcaj pentru a finisa (anti-alias) afișajul 3D"
+
+#~ msgid ""
+#~ "Can be 'human' (play against another human player), '' (use the first "
+#~ "available chess engine) or the name of a specific engine to play against"
+#~ msgstr ""
+#~ "Poate fi „human” (joc împotriva unui alt jucător uman), '' (utilizează "
+#~ "primul motor de șah disponibil) sau numele unui motor specific."
+
+#~ msgid "Difficulty of the opponent chess engine"
+#~ msgstr "Dificultatea motorului de șah adversar"
+
+#~ msgid "The directory to open the load game dialog in"
+#~ msgstr "Dosarul de unde să fie deschid dialogul de încărcare joc"
+
+#~ msgid "The directory to open the save game dialog in"
+#~ msgstr ""
+#~ "Directorul care se va deschide implicit la apelarea opțiunii de salvare"
+
+#~ msgid "The duration of a game in seconds (0 for no limit)"
+#~ msgstr "Durata unui joc în secunde (0 pentru nicio limită)"
+
+#~ msgid "The format to display moves in"
+#~ msgstr "Formatul de afișare a mutărilor"
+
+#~ msgid "The height of the main window in pixels."
+#~ msgstr "Înălțimea în pixeli a ferestrei principale."
+
+#~ msgid "The height of the window"
+#~ msgstr "Înălțimea ferestrei"
+
+#~ msgid "The opponent player"
+#~ msgstr "Jucătorul adversar"
+
+#~ msgid "The piece theme to use"
+#~ msgstr "Tema pieselor folosită"
+
+#~ msgid "The piece to promote pawns to"
+#~ msgstr ""
+#~ "Piesa în care pot fi transformați pionii ajunși pe ultima linie a tablei "
+#~ "de joc"
+
+#~ msgid ""
+#~ "The piece to promote to when a human player moves a pawn to the far rank"
+#~ msgstr ""
+#~ "Piesa în care se poate transforma pionul ajuns pe ultima linie atunci "
+#~ "când un jucător uman execută mutarea"
+
+#~ msgid "The side of the board that is in the foreground"
+#~ msgstr "Partea tablei care se află în prim-plan"
+
+#~ msgid "The width of the main window in pixels."
+#~ msgstr "Mărimea în pixeli a ferestrei principale."
+
+#~ msgid "The width of the window"
+#~ msgstr "Lățimea ferestrei"
+
+#~ msgid "true if the human player is playing white"
+#~ msgstr "adevărat dacă jucătorul uman joacă alb"
+
+#~ msgid "Claim _Draw"
+#~ msgstr "Reven_dică joc remiză"
+
+#~ msgid "New Game"
+#~ msgstr "Joc nou"
+
+#~ msgid "Resign"
+#~ msgstr "Renunță"
+
+#~ msgid "Rewind to the game start"
+#~ msgstr "Derulare la început de joc"
+
+#~ msgid "Show the current move"
+#~ msgstr "Afișare mutare curentă"
+
+#~ msgid "Show the next move"
+#~ msgstr "Afișare mutare viitoare"
+
+#~ msgid "Show the previous move"
+#~ msgstr "Afișare mutare anterioară"
+
+#~ msgid "Undo Move"
+#~ msgstr "Refă mutarea"
+
+#~ msgid "_Contents"
+#~ msgstr "_Conținut"
+
+#~ msgid "_Resign"
+#~ msgstr "_Renunță"
+
+#~ msgid "_Settings"
+#~ msgstr "_Setări"
+
+#~ msgid "_Undo Move"
+#~ msgstr "_Anulează mutarea"
+
+#~ msgid "30 minutes"
+#~ msgstr "30 de minute"
+
+#~ msgid "3_D Chess View"
+#~ msgstr "Mod de vizualizare 3_D a tablei de șah"
+
+#~ msgid "Board Orientation:"
+#~ msgstr "Orientarea tablei:"
+
+#~ msgid "Changes will take effect for the next game."
+#~ msgstr "Modificările vor avea efect în jocul următor."
+
+#~ msgid "Custom"
+#~ msgstr "Definită de utilizator"
+
+#~ msgid "Difficulty:"
+#~ msgstr "Dificultate:"
+
+#~ msgid "Fancy"
+#~ msgstr "Stilat"
+
+#~ msgid "Five minutes"
+#~ msgstr "Cinci minute"
+
+#~ msgid "Game Duration:"
+#~ msgstr "Durată joc:"
+
+#~ msgid "Move Format:"
+#~ msgstr "Formatul de mișcare:"
+
+#~ msgid "No limit"
+#~ msgstr "Nicio limită"
+
+#~ msgid "One hour"
+#~ msgstr "O oră"
+
+#~ msgid "One minute"
+#~ msgstr "Un minut"
+
+#~ msgid "Opposing Player:"
+#~ msgstr "Jucător opus:"
+
+#~ msgid "Piece Style:"
+#~ msgstr "Stil piese:"
+
+#~ msgid "Play as:"
+#~ msgstr "Joacă ca:"
+
+#~ msgid "Promotion Type:"
+#~ msgstr "Tipul de promovare:"
+
+#~ msgid "Show _History"
+#~ msgstr "Afișează _Istoric"
+
+#~ msgid "Show _Toolbar"
+#~ msgstr "Afișează bara de _unelte"
+
+#~ msgid "Simple"
+#~ msgstr "Simplu"
+
+#~ msgid "_Appearance"
+#~ msgstr "_Aspect"
+
+#~ msgid "_Board Numbering"
+#~ msgstr "Numerotarea ta_blei"
+
+#~ msgid "_Move Hints"
+#~ msgstr "Indicii de _mutare"
+
+#~ msgid "_Smooth Display"
+#~ msgstr "_Afișare netedă"
+
+#~ msgctxt "chess-move-format"
+#~ msgid "Figurine"
+#~ msgstr "Figurină"
+
+#~ msgctxt "chess-move-format"
+#~ msgid "Human"
+#~ msgstr "Om"
+
+#~ msgctxt "chess-move-format"
+#~ msgid "Long Algebraic"
+#~ msgstr "Algebrică lungă"
+
+#~ msgctxt "chess-move-format"
+#~ msgid "Standard Algebraic"
+#~ msgstr "Algebrică standard"
+
+#~ msgctxt "chess-opponent"
+#~ msgid "Human"
+#~ msgstr "Om"
+
+#~ msgctxt "chess-piece"
+#~ msgid "Bishop"
+#~ msgstr "Nebun"
+
+#~ msgctxt "chess-piece"
+#~ msgid "Knight"
+#~ msgstr "Cal"
+
+#~ msgctxt "chess-piece"
+#~ msgid "Queen"
+#~ msgstr "Regină"
+
+#~ msgctxt "chess-piece"
+#~ msgid "Rook"
+#~ msgstr "Turn"
+
+#~ msgctxt "chess-player"
+#~ msgid "Black"
+#~ msgstr "Negru"
+
+#~ msgctxt "chess-player"
+#~ msgid "White"
+#~ msgstr "Alb"
+
+#~ msgctxt "chess-side"
+#~ msgid "Black Side"
+#~ msgstr "Partea neagră"
+
+#~ msgctxt "chess-side"
+#~ msgid "Current Player"
+#~ msgstr "Jucătorul curent"
+
+#~ msgctxt "chess-side"
+#~ msgid "Face to Face"
+#~ msgstr "Față în față"
+
+#~ msgctxt "chess-side"
+#~ msgid "Human Side"
+#~ msgstr "Partea umană"
+
+#~ msgctxt "chess-side"
+#~ msgid "White Side"
+#~ msgstr "Partea albă"
+
+#~ msgctxt "difficulty"
+#~ msgid "Easy"
+#~ msgstr "Ușor"
+
+#~ msgctxt "difficulty"
+#~ msgid "Hard"
+#~ msgstr "Greu"
+
+#~ msgctxt "difficulty"
+#~ msgid "Normal"
+#~ msgstr "Normal"
+
+#~ msgid "Chess"
+#~ msgstr "Șah"
+
+#~ msgid "Play the classic two-player boardgame of chess"
+#~ msgstr "Jucați jocul de șah clasic cu doi jucători"
+
+#~ msgid "%1$s (%2$s) - Chess"
+#~ msgstr "%1$s (%2$s) - Șah"
+
+#~ msgid "Game Start"
+#~ msgstr "Pornire joc"
+
+#~ msgid "White pawn moves from %1$s to %2$s"
+#~ msgstr "Pionul alb a mutat de la %1$s la %2$s"
+
+#~ msgid "White pawn at %1$s takes the black pawn at %2$s"
+#~ msgstr "Pionul alb de la %1$s a luat pionul negru la %2$s"
+
+#~ msgid "White pawn at %1$s takes the black rook at %2$s"
+#~ msgstr "Pionul alb de la %1$s a luat turnul negru la %2$s"
+
+#~ msgid "White pawn at %1$s takes the black knight at %2$s"
+#~ msgstr "Pionul alb de la %1$s a luat calul negru la %2$s"
+
+#~ msgid "White pawn at %1$s takes the black bishop at %2$s"
+#~ msgstr "Pionul alb de la %1$s a luat nebunul negru la %2$s"
+
+#~ msgid "White pawn at %1$s takes the black queen at %2$s"
+#~ msgstr "Pionul alb de la %1$s a luat regina neagră la %2$s"
+
+#~ msgid "White rook moves from %1$s to %2$s"
+#~ msgstr "Turnul alb a mutat de la %1$s la %2$s"
+
+#~ msgid "White rook at %1$s takes the black pawn at %2$s"
+#~ msgstr "Turnul alb de la %1$s a luat pionul negru la %2$s"
+
+#~ msgid "White rook at %1$s takes the black rook at %2$s"
+#~ msgstr "Turnul alb de la %1$s a luat turnul negru la %2$s"
+
+#~ msgid "White rook at %1$s takes the black knight at %2$s"
+#~ msgstr "Turnul alb de la %1$s a luat calul negru la %2$s"
+
+#~ msgid "White rook at %1$s takes the black bishop at %2$s"
+#~ msgstr "Turnul alb de la %1$s a luat nebunul negru la %2$s"
+
+#~ msgid "White rook at %1$s takes the black queen at %2$s"
+#~ msgstr "Turnul alb de la %1$s a luat regina neagră la %2$s"
+
+#~ msgid "White knight moves from %1$s to %2$s"
+#~ msgstr "Calul alb a mutat de la %1$s la %2$s"
+
+#~ msgid "White knight at %1$s takes the black pawn at %2$s"
+#~ msgstr "Calul alb la %1$s a luat pionul negru la %2$s"
+
+#~ msgid "White knight at %1$s takes the black rook at %2$s"
+#~ msgstr "Calul alb de la %1$s a luat turnul negru la %2$s"
+
+#~ msgid "White knight at %1$s takes the black knight at %2$s"
+#~ msgstr "Calul alb de la %1$s a luat calul negru la %2$s"
+
+#~ msgid "White knight at %1$s takes the black bishop at %2$s"
+#~ msgstr "Calul alb de la %1$s a luat nebunul negru la %2$s"
+
+#~ msgid "White knight at %1$s takes the black queen at %2$s"
+#~ msgstr "Calul alb de la %1$s a luat regina neagră la %2$s"
+
+#~ msgid "White bishop moves from %1$s to %2$s"
+#~ msgstr "Nebunul alb a mutat de la %1$s la %2$s"
+
+#~ msgid "White bishop at %1$s takes the black pawn at %2$s"
+#~ msgstr "Nebunul alb de la %1$s a luat pionul negru la %2$s"
+
+#~ msgid "White bishop at %1$s takes the black rook at %2$s"
+#~ msgstr "Nebunul alb de la %1$s a luat turnul negru la %2$s"
+
+#~ msgid "White bishop at %1$s takes the black knight at %2$s"
+#~ msgstr "Nebunul alb de la %1$s a luat calul negru la %2$s"
+
+#~ msgid "White bishop at %1$s takes the black bishop at %2$s"
+#~ msgstr "Nebunul alb de la %1$s a luat nebunul negru la %2$s"
+
+#~ msgid "White bishop at %1$s takes the black queen at %2$s"
+#~ msgstr "Nebunul alb de la %1$s a luat regina neagră la %2$s"
+
+#~ msgid "White queen moves from %1$s to %2$s"
+#~ msgstr "Regina albă a mutat de la %1$s la %2$s"
+
+#~ msgid "White queen at %1$s takes the black pawn at %2$s"
+#~ msgstr "Regina albă de la %1$s a luat pionul negru la %2$s"
+
+#~ msgid "White queen at %1$s takes the black rook at %2$s"
+#~ msgstr "Regina albă de la %1$s a luat turnul negru la %2$s"
+
+#~ msgid "White queen at %1$s takes the black knight at %2$s"
+#~ msgstr "Regina albă de la %1$s a luat calul negru la %2$s"
+
+#~ msgid "White queen at %1$s takes the black bishop at %2$s"
+#~ msgstr "Regina albă de la %1$s a luat nebunul negru la %2$s"
+
+#~ msgid "White queen at %1$s takes the black queen at %2$s"
+#~ msgstr "Regina albă de la %1$s a luat regina neagră la %2$s"
+
+#~ msgid "White king moves from %1$s to %2$s"
+#~ msgstr "Regele alb a mutat de la %1$s la %2$s"
+
+#~ msgid "White king at %1$s takes the black pawn at %2$s"
+#~ msgstr "Regele alb de la %1$s a luat pionul negru la %2$s"
+
+#~ msgid "White king at %1$s takes the black rook at %2$s"
+#~ msgstr "Regele alb de la %1$s a luat turnul negru la %2$s"
+
+#~ msgid "White king at %1$s takes the black knight at %2$s"
+#~ msgstr "Regele alb de la %1$s a luat calul negru la %2$s"
+
+#~ msgid "White king at %1$s takes the black bishop at %2$s"
+#~ msgstr "Regele alb de la %1$s a luat nebunul negru la %2$s"
+
+#~ msgid "White king at %1$s takes the black queen at %2$s"
+#~ msgstr "Regele alb de la %1$s a luat regina neagră la %2$s"
+
+#~ msgid "Black pawn moves from %1$s to %2$s"
+#~ msgstr "Pionul negru a mutat de la %1$s la %2$s"
+
+#~ msgid "Black pawn at %1$s takes the white pawn at %2$s"
+#~ msgstr "Pionul negru la %1$s a luat pionul alb la %2$s"
+
+#~ msgid "Black pawn at %1$s takes the white rook at %2$s"
+#~ msgstr "Pionul negru de la %1$s a luat turnul alb la %2$s"
+
+#~ msgid "Black pawn at %1$s takes the white knight at %2$s"
+#~ msgstr "Pionul negru de la %1$s a luat calul alb la %2$s"
+
+#~ msgid "Black pawn at %1$s takes the white bishop at %2$s"
+#~ msgstr "Pionul negru de la %1$s a luat nebunul alb la %2$s"
+
+#~ msgid "Black pawn at %1$s takes the white queen at %2$s"
+#~ msgstr "Pionul negru de la %1$s a luat regina albă la %2$s"
+
+#~ msgid "Black rook moves from %1$s to %2$s"
+#~ msgstr "Turnul negru a mutat de la %1$s la %2$s"
+
+#~ msgid "Black rook at %1$s takes the white pawn at %2$s"
+#~ msgstr "Turnul negru la %1$s a luat pionul alb la %2$s"
+
+#~ msgid "Black rook at %1$s takes the white rook at %2$s"
+#~ msgstr "Turnul negru de la %1$s a luat turnul alb la %2$s"
+
+#~ msgid "Black rook at %1$s takes the white knight at %2$s"
+#~ msgstr "Turnul negru de la %1$s a luat calul alb la %2$s"
+
+#~ msgid "Black rook at %1$s takes the white bishop at %2$s"
+#~ msgstr "Turnul negru de la %1$s a luat nebunul alb la %2$s"
+
+#~ msgid "Black rook at %1$s takes the white queen at %2$s"
+#~ msgstr "Turnul negru de la %1$s a luat regina albă la %2$s"
+
+#~ msgid "Black knight moves from %1$s to %2$s"
+#~ msgstr "Calul negru a mutat de la %1$s la %2$s"
+
+#~ msgid "Black knight at %1$s takes the white pawn at %2$s"
+#~ msgstr "Calul negru la %1$s a luat pionul alb la %2$s"
+
+#~ msgid "Black knight at %1$s takes the white rook at %2$s"
+#~ msgstr "Calul negru de la %1$s a luat turnul alb la %2$s"
+
+#~ msgid "Black knight at %1$s takes the white knight at %2$s"
+#~ msgstr "Calul negru de la %1$s a luat calul alb la %2$s"
+
+#~ msgid "Black knight at %1$s takes the white bishop at %2$s"
+#~ msgstr "Calul negru de la %1$s a luat nebunul alb la %2$s"
+
+#~ msgid "Black knight at %1$s takes the white queen at %2$s"
+#~ msgstr "Calul negru de la %1$s a luat regina albă la %2$s"
+
+#~ msgid "Black bishop moves from %1$s to %2$s"
+#~ msgstr "Nebunul negru a mutat de la %1$s la %2$s"
+
+#~ msgid "Black bishop at %1$s takes the white pawn at %2$s"
+#~ msgstr "Nebunul negru la %1$s a luat pionul alb la %2$s"
+
+#~ msgid "Black bishop at %1$s takes the white rook at %2$s"
+#~ msgstr "Nebunul negru de la %1$s a luat turnul alb la %2$s"
+
+#~ msgid "Black bishop at %1$s takes the white knight at %2$s"
+#~ msgstr "Nebunul negru de la %1$s a luat calul alb la %2$s"
+
+#~ msgid "Black bishop at %1$s takes the white bishop at %2$s"
+#~ msgstr "Nebunul negru de la %1$s a luat nebunul alb la %2$s"
+
+#~ msgid "Black bishop at %1$s takes the white queen at %2$s"
+#~ msgstr "Nebunul negru de la %1$s a luat regina albă la %2$s"
+
+#~ msgid "Black queen moves from %1$s to %2$s"
+#~ msgstr "Regina neagră a mutat de la %1$s la %2$s"
+
+#~ msgid "Black queen at %1$s takes the white pawn at %2$s"
+#~ msgstr "Regina neagră de la %1$s a luat pionul alb la %2$s"
+
+#~ msgid "Black queen at %1$s takes the white rook at %2$s"
+#~ msgstr "Regina neagră de la %1$s a luat turnul alb la %2$s"
+
+#~ msgid "Black queen at %1$s takes the white knight at %2$s"
+#~ msgstr "Regina neagră de la %1$s a luat calul alb la %2$s"
+
+#~ msgid "Black queen at %1$s takes the white bishop at %2$s"
+#~ msgstr "Regina neagră de la %1$s a luat nebunul alb la %2$s"
+
+#~ msgid "Black queen at %1$s takes the white queen at %2$s"
+#~ msgstr "Regina neagră de la %1$s a luat regina albă la %2$s"
+
+#~ msgid "Black king moves from %1$s to %2$s"
+#~ msgstr "Regele negru a mutat de la %1$s la %2$s"
+
+#~ msgid "Black king at %1$s takes the white pawn at %2$s"
+#~ msgstr "Regele negru la %1$s a luat pionul alb la %2$s"
+
+#~ msgid "Black king at %1$s takes the white rook at %2$s"
+#~ msgstr "Regele negru de la %1$s a luat turnul alb la %2$s"
+
+#~ msgid "Black king at %1$s takes the white knight at %2$s"
+#~ msgstr "Regele negru de la %1$s a luat calul alb la %2$s"
+
+#~ msgid "Black king at %1$s takes the white bishop at %2$s"
+#~ msgstr "Regele negru de la %1$s a luat nebunul alb la %2$s"
+
+#~ msgid "Black king at %1$s takes the white queen at %2$s"
+#~ msgstr "Regele negru de la %1$s a luat regina albă la %2$s"
+
+#~ msgid "Game is drawn"
+#~ msgstr "Jocul este remiză"
+
+#~ msgid "Save this game before starting a new one?"
+#~ msgstr "Salvați acest joc înainte de a începe unul nou?"
+
+#~ msgid "second"
+#~ msgid_plural "seconds"
+#~ msgstr[0] "secundă"
+#~ msgstr[1] "secunde"
+#~ msgstr[2] "de secunde"
+
+#~ msgid "minute"
+#~ msgid_plural "minutes"
+#~ msgstr[0] "minut"
+#~ msgstr[1] "minute"
+#~ msgstr[2] "de minute"
+
+#~ msgid "hour"
+#~ msgid_plural "hours"
+#~ msgstr[0] "oră"
+#~ msgstr[1] "ore"
+#~ msgstr[2] "de ore"
+
+#~ msgctxt "board size"
+#~ msgid "Small"
+#~ msgstr "Mic"
+
+#~ msgctxt "board size"
+#~ msgid "Medium"
+#~ msgstr "Mediu"
+
+#~ msgctxt "board size"
+#~ msgid "Large"
+#~ msgstr "Mare"
+
+#~ msgid "Could not load theme"
+#~ msgstr "Nu am putut încărca tema"
+
+#~ msgid ""
+#~ "Unable to locate file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "The default theme will be loaded instead."
+#~ msgstr ""
+#~ "Nu am putut localiza fișierul:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Tema implicită va fi încărcată în schimb."
+
+#~ msgid ""
+#~ "Unable to locate file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check that Five or More is installed correctly."
+#~ msgstr ""
+#~ "Nu am putut localiza fișierul:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Verificați dacă jocul „Cinci sau mai multe” este instalat corect."
+
+#~ msgid "Match five objects of the same type in a row to score!"
+#~ msgstr ""
+#~ "Potriviți cinci obiecte de același tip într-o linie pentru a puncta!"
+
+#~ msgid "GNOME Five or More"
+#~ msgstr "GNOME Cinci sau mai multe"
+
+#~ msgid "_Board size:"
+#~ msgstr "_Dimensiune tablă:"
+
+#~ msgid "Game Over!"
+#~ msgstr "Jocul s-a terminat!"
+
+#~ msgid "You can't move there!"
+#~ msgstr "Nu puteți muta acolo!"
+
+#~ msgid "Five or More"
+#~ msgstr "Cinci sau mai multe"
+
+#~ msgid ""
+#~ "GNOME port of the once-popular Color Lines game.\n"
+#~ "\n"
+#~ "Five or More is a part of GNOME Games."
+#~ msgstr ""
+#~ "Jocul este o adaptare pentru GNOME a cunoscutului joc Color Lines.\n"
+#~ "\n"
+#~ "„Cinci sau mai multe” face parte din suita de Jocuri GNOME."
+
+#~ msgid "Five or More Preferences"
+#~ msgstr "Preferințe Cinci sau mai multe"
+
+#~ msgid "Appearance"
+#~ msgstr "Aspect"
+
+#~ msgid "_Image:"
+#~ msgstr "_Imagine:"
+
+#~ msgid "B_ackground color:"
+#~ msgstr "Culo_area de fond:"
+
+#~ msgid "Board Size"
+#~ msgstr "Mărime tablă"
+
+#~ msgctxt "preferences"
+#~ msgid "General"
+#~ msgstr "General"
+
+#~ msgid "_Use fast moves"
+#~ msgstr "_Folosește mutări rapide"
+
+#~ msgid "Next:"
+#~ msgstr "Următoarele:"
+
+#~ msgid "Remove colored balls from the board by forming lines"
+#~ msgstr "Elimină bilele colorate de pe tablă formând linii"
+
+#~ msgid "Background color"
+#~ msgstr "Culoarea de fundal"
+
+#~ msgid "Background color. The hex specification of the background color."
+#~ msgstr ""
+#~ "Culoarea de fundal. Specificația în hexazecimal a culorii de fundal."
+
+#~ msgid "Ball style"
+#~ msgstr "Stilul bilei"
+
+#~ msgid "Ball style. The filename of the images to use for the balls."
+#~ msgstr "Stilul bilei. Numele fișierului ce conține imaginile pentru bile."
+
+#~ msgid "Game field"
+#~ msgstr "Câmpul jocului"
+
+#~ msgid "Game field from last saved session."
+#~ msgstr "Câmpul jocului de la ultima sesiune salvată."
+
+#~ msgid "Game preview"
+#~ msgstr "Previzualizare joc"
+
+#~ msgid "Game preview from last saved session."
+#~ msgstr "Previzualizare joc de la ultima sesiune salvată."
+
+#~ msgid "Game score"
+#~ msgstr "Scorul jocului"
+
+#~ msgid "Game score from last saved session."
+#~ msgstr "Scorul jocului de la ultima sesiune salvată."
+
+#~ msgid "Playing field size"
+#~ msgstr "Mărimea tablei de joc"
+
+#~ msgid ""
+#~ "Playing field size. 1=Small, 2=Medium, 3=Large. Any other value is "
+#~ "invalid."
+#~ msgstr ""
+#~ "Mărimea tablei de joc: 1=Mică, 2=Medie, 3=Mare. Orice altă valoare este "
+#~ "invalidă."
+
+#~ msgid "Time between moves"
+#~ msgstr "Timpul dintre mutări"
+
+#~ msgid "Time between moves in milliseconds."
+#~ msgstr "Timpul dintre mutări în milisecunde."
+
+#~ msgid "Animate"
+#~ msgstr "Animație"
+
+#~ msgid "Level of Player One"
+#~ msgstr "Nivelul Jucătorului Unu"
+
+#~ msgid "Level of Player Two"
+#~ msgstr "Nivelul Jucătorului Doi"
+
+#~ msgid "Whether or not to use animation."
+#~ msgstr "Dacă să se folosească sau nu animația."
+
+#~ msgid "It is your move."
+#~ msgstr "Este rândul vostru."
+
+#~ msgid "Thinking..."
+#~ msgstr "Mă gândesc..."
+
+#~ msgid "Waiting for %s to move."
+#~ msgstr "Se așteaptă ca %s să mute."
+
+#~ msgid ""
+#~ "\"Four in a Row\" for GNOME, with a computer player driven by Giuliano "
+#~ "Bertoletti's Velena Engine.\n"
+#~ "\n"
+#~ "\"Four in a Row\" is a part of GNOME Games."
+#~ msgstr ""
+#~ "„Patru în linie” pentru GNOME, cu un jucător controlat de calculator "
+#~ "având la bază motorul Velena dezvoltat de Giuliano Bertoletti.\n"
+#~ "\n"
+#~ "„Patru în linie” face parte din suita de Jocuri GNOME."
+
+#~ msgid ""
+#~ "Player One:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Jucătorul Unu :\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Player Two:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Jucătorul Doi:\n"
+#~ "%s"
+
+#~ msgid "Four-in-a-Row Preferences"
+#~ msgstr "Preferințe patru-in-linie"
+
+#~ msgid "Enable _animation"
+#~ msgstr "Activează _animația"
+
+#~ msgid "Classic"
+#~ msgstr "Clasic"
+
+#~ msgid "Yellow"
+#~ msgstr "Galben"
+
+#~ msgid "Light"
+#~ msgstr "Alb"
+
+#~ msgid "Dark"
+#~ msgstr "Negru"
+
+#~ msgid "Glass Marbles"
+#~ msgstr "Piese de sticlă"
+
+#~ msgid "Nightfall"
+#~ msgstr "Înserare"
+
+#~ msgid "Blocks"
+#~ msgstr "Blocuri"
+
+#~ msgid "Orange"
+#~ msgstr "Portocaliu"
+
+#~ msgid ""
+#~ "Nibbles couldn't load level file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your Nibbles installation"
+#~ msgstr ""
+#~ "Nibbles nu a putut încărca fișierul de nivel:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Verificați instalarea Nibbles"
+
+#~ msgid ""
+#~ "Level file appears to be damaged:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your Nibbles installation"
+#~ msgstr ""
+#~ "Fișierele de nivel par să fie defecte:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Verificați instalarea Nibbles"
+
+#~ msgid ""
+#~ "Nibbles couldn't find pixmap file:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check your Nibbles installation"
+#~ msgstr ""
+#~ "Nibbles nu a putut găsi fișierul pixmap:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Verificați instalarea Nibbles"
+
+#~ msgid "Nibbles Scores"
+#~ msgstr "Scoruri Nibbles"
+
+#~ msgid "Speed:"
+#~ msgstr "Viteză:"
+
+#~ msgid "Congratulations!"
+#~ msgstr "Felicitări!"
+
+#~ msgid "Your score is the best!"
+#~ msgstr "Aveți cel mai bun scor!"
+
+#~ msgid "Your score has made the top ten."
+#~ msgstr "Scorul tău a intrat în cele mai bune zece rezultate."
+
+#~ msgid "Guide a worm around a maze"
+#~ msgstr "Ghidează o râmă printr-un labirint"
+
+#~ msgid "Nibbles"
+#~ msgstr "Nibbles"
+
+#~ msgid "Color to use for worm"
+#~ msgstr "Culoarea folosită pentru râmă"
+
+#~ msgid "Color to use for worm."
+#~ msgstr "Culoarea folosită pentru râmă."
+
+#~ msgid "Enable fake bonuses"
+#~ msgstr "Activează bonusurile false"
+
+#~ msgid "Enable fake bonuses."
+#~ msgstr "Activează bonusurile false."
+
+#~ msgid "Enable sounds"
+#~ msgstr "Activează sunetele"
+
+#~ msgid "Enable sounds."
+#~ msgstr "Activează sunetele."
+
+#~ msgid "Game level to start on"
+#~ msgstr "Nivelul de pornire"
+
+#~ msgid "Game level to start on."
+#~ msgstr "Nivelul de pornire."
+
+#~ msgid "Game speed"
+#~ msgstr "Viteza jocului"
+
+#~ msgid "Game speed (1=fast, 4=slow)."
+#~ msgstr "Viteza jocului (1=rapid, 4=lent)."
+
+#~ msgid "Key to use for motion down."
+#~ msgstr "Tasta folosită pentru mișcare în jos."
+
+#~ msgid "Key to use for motion left."
+#~ msgstr "Tasta folosită pentru mișcare la stânga."
+
+#~ msgid "Key to use for motion right."
+#~ msgstr "Tasta folosită pentru mișcare la dreapta."
+
+#~ msgid "Key to use for motion up."
+#~ msgstr "Tasta folosită pentru mișcarea în sus."
+
+#~ msgid "Move down"
+#~ msgstr "Mișcă în jos"
+
+#~ msgid "Move up"
+#~ msgstr "Mișcă în sus"
+
+#~ msgid "Number of AI players"
+#~ msgstr "Număr de jucători virtuali"
+
+#~ msgid "Number of AI players."
+#~ msgstr "Număr de jucători virtuali."
+
+#~ msgid "Number of human players"
+#~ msgstr "Număr de jucători reali"
+
+#~ msgid "Number of human players."
+#~ msgstr "Număr de jucători reali."
+
+#~ msgid "Play levels in random order"
+#~ msgstr "Joacă nivelurile în ordine aleatoare"
+
+#~ msgid "Play levels in random order."
+#~ msgstr "Joacă nivelurile în ordine aleatoare."
+
+#~ msgid "Size of game tiles"
+#~ msgstr "Mărimea mozaicurilor din joc"
+
+#~ msgid "Size of game tiles."
+#~ msgstr "Mărimea mozaicurilor în joc."
+
+#~ msgid "Use relative movement"
+#~ msgstr "Folosește mișcări relative"
+
+#~ msgid "Use relative movement (ie. left or right only)."
+#~ msgstr "Folosește mișcări relative (ex. doar stânga sau dreapta)."
+
+#~ msgctxt "game speed"
+#~ msgid "Beginner"
+#~ msgstr "Începător"
+
+#~ msgctxt "game speed"
+#~ msgid "Slow"
+#~ msgstr "Încet"
+
+#~ msgctxt "game speed"
+#~ msgid "Medium"
+#~ msgstr "Mediu"
+
+#~ msgctxt "game speed"
+#~ msgid "Fast"
+#~ msgstr "Repede"
+
+#~ msgctxt "game speed"
+#~ msgid "Beginner with Fakes"
+#~ msgstr "Începător cu falsuri"
+
+#~ msgctxt "game speed"
+#~ msgid "Slow with Fakes"
+#~ msgstr "Lent cu falsuri"
+
+#~ msgctxt "game speed"
+#~ msgid "Medium with Fakes"
+#~ msgstr "Mediu cu falsuri"
+
+#~ msgctxt "game speed"
+#~ msgid "Fast with Fakes"
+#~ msgstr "Rapid cu falsuri"
+
+#~ msgid ""
+#~ "A worm game for GNOME.\n"
+#~ "\n"
+#~ "Nibbles is a part of GNOME Games."
+#~ msgstr ""
+#~ "Un joc cu viermișori flămânzi pentru GNOME.\n"
+#~ "\n"
+#~ "Nibbles este parte din secțiunea Jocuri din GNOME."
+
+#~ msgid "Game over! The game has been won by %s!"
+#~ msgstr "Sfârșitul jocului! Jocul a fost câștigat de %s!"
+
+#~ msgid "The game is over."
+#~ msgstr "Jocul s-a încheiat."
+
+#~ msgid "A worm game for GNOME."
+#~ msgstr "Un joc cu râmă pentru GNOME."
+
+#~ msgid "Nibbles Preferences"
+#~ msgstr "Preferințe Nibbles"
+
+#~ msgid "Speed"
+#~ msgstr "Viteză"
+
+#~ msgid "Nibbles newbie"
+#~ msgstr "Incepător"
+
+#~ msgid "My second day"
+#~ msgstr "Novice"
+
+#~ msgid "Not too shabby"
+#~ msgstr "Nu prea repede"
+
+#~ msgid "Finger-twitching good"
+#~ msgstr "Dureros pentru degete"
+
+#~ msgid "Options"
+#~ msgstr "Opțiuni"
+
+#~ msgid "_Play levels in random order"
+#~ msgstr "_Joacă nivelurile în ordine aleatoare"
+
+#~ msgid "_Enable fake bonuses"
+#~ msgstr "_Activează bonusurile false"
+
+#~ msgid "_Starting level:"
+#~ msgstr "Nivelul de î_nceput:"
+
+#~ msgid "Number of _human players:"
+#~ msgstr "N_umărul de jucători reali:"
+
+#~ msgid "Number of _AI players:"
+#~ msgstr "Numărul de jucători _virtuali:"
+
+#~ msgid "Worm"
+#~ msgstr "Râmă"
+
+#~ msgid "_Use relative movement"
+#~ msgstr "_Folosește mișcări relative"
+
+#~ msgid "_Worm color:"
+#~ msgstr "Culoare _râmă:"
+
+#~ msgid "Cyan"
+#~ msgstr "Cyan"
+
+#~ msgid "Purple"
+#~ msgstr "Purpuriu"
+
+#~ msgid "Gray"
+#~ msgstr "Gri"
+
+#~ msgid "Worm %d:"
+#~ msgstr "Râma %d:"
+
+#~ msgid "Game over!"
+#~ msgstr "Jocul s-a terminat!"
+
+#~ msgid "Great work, but unfortunately your score did not make the top ten."
+#~ msgstr ""
+#~ "Frumos efort, dar din păcate scorul nu a ajuns în cele mai bune zece "
+#~ "rezultate."
+
+#~ msgid "_New Game"
+#~ msgstr "Joc _nou"
+
+#~ msgid "Robots Scores"
+#~ msgstr "Scoruri Roboți"
+
+#~ msgid "Map:"
+#~ msgstr "Hartă:"
+
+#~ msgid ""
+#~ "Congratulations, You Have Defeated the Robots!! \n"
+#~ "But Can You do it Again?"
+#~ msgstr ""
+#~ "Felicitări, ați înfrânt roboții!! \n"
+#~ "Dar mai puteți să o faceți o dată?"
+
+#~ msgid "There are no teleport locations left!!"
+#~ msgstr "Nu mai sunt locuri de teleportare!!"
+
+#~ msgid "There are no safe locations to teleport to!!"
+#~ msgstr "Nu mai sunt locuri sigure de teleportare!!"
+
+#~ msgid "Set game scenario"
+#~ msgstr "Setează scenariul jocului"
+
+#~ msgid "Set game configuration"
+#~ msgstr "Setează configurația jocului"
+
+#~ msgid "Initial window position"
+#~ msgstr "Poziția inițială a ferestrei"
+
+#~ msgid "X"
+#~ msgstr "X"
+
+#~ msgid "Y"
+#~ msgstr "Y"
+
+#~ msgid "Classic robots"
+#~ msgstr "Roboți clasici"
+
+#~ msgid "Classic robots with safe moves"
+#~ msgstr "Roboți clasici cu mișcări precaute"
+
+#~ msgid "Classic robots with super-safe moves"
+#~ msgstr "Roboți clasici cu mișcări foarte precaute"
+
+#~ msgid "Nightmare"
+#~ msgstr "Coșmar"
+
+#~ msgid "Nightmare with safe moves"
+#~ msgstr "Coșmar cu mutări sigure"
+
+#~ msgid "Nightmare with super-safe moves"
+#~ msgstr "Coșmar cu mutări super-sigure"
+
+#~ msgid "Robots2"
+#~ msgstr "Roboți2"
+
+#~ msgid "Robots2 with safe moves"
+#~ msgstr "Roboți2 cu mișcări precaute"
+
+#~ msgid "Robots2 with super-safe moves"
+#~ msgstr "Roboți2 cu mișcări foarte precaute"
+
+#~ msgid "Robots2 easy"
+#~ msgstr "Roboți2 ușor"
+
+#~ msgid "Robots2 easy with safe moves"
+#~ msgstr "Roboți2 ușor cu mișcări sigure"
+
+#~ msgid "Robots2 easy with super-safe moves"
+#~ msgstr "Roboți2 ușor cu mișcări foarte sigure"
+
+#~ msgid "Robots with safe teleport"
+#~ msgstr "Roboți cu teleportări sigure"
+
+#~ msgid "Robots with safe teleport with safe moves"
+#~ msgstr "Roboți cu teleportări sigure cu mișcări sigure"
+
+#~ msgid "Robots with safe teleport with super-safe moves"
+#~ msgstr "Roboți cu teleportări sigure cu mișcări foarte sigure"
+
+#~ msgid "Robots"
+#~ msgstr "Roboți"
+
+#~ msgid "No game data could be found."
+#~ msgstr "Datele de joc nu au putut fi găsite."
+
+#~ msgid ""
+#~ "The program Robots was unable to find any valid game configuration files. "
+#~ "Please check that the program is installed correctly."
+#~ msgstr ""
+#~ "Programul Roboți nu a putut să găsească nici un fișier de configurare "
+#~ "valid. Verificați dacă programul a fost instalat corect."
+
+#~ msgid "Some graphics files are missing or corrupt."
+#~ msgstr "Unele fișiere de grafică lipsesc sau sunt corupte."
+
+#~ msgid ""
+#~ "The program Robots was unable to load all the necessary graphics files. "
+#~ "Please check that the program is installed correctly."
+#~ msgstr ""
+#~ "Programul Roboți nu a putut să încarce toate fișierele de grafică "
+#~ "necesare. Verificați dacă programul a fost instalat corect."
+
+#~ msgid "Avoid the robots and make them crash into each other"
+#~ msgstr "Evitați roboții și determinații să intre în coliziune unii cu alții"
+
+#~ msgid "Enable game sounds"
+#~ msgstr "Activează sunetele jocului"
+
+#~ msgid ""
+#~ "Enable game sounds. Play sounds for various events throughout the game."
+#~ msgstr ""
+#~ "Activează sunetele jocului. Redă sunete pentru diferite evenimente în "
+#~ "timpul jocului."
+
+#~ msgid "Game type"
+#~ msgstr "Tipul jocului"
+
+#~ msgid "Game type. The name of the game variation to use."
+#~ msgstr "Tipul jocului. Numele tipului de joc ce va fi folosit."
+
+#~ msgid "Key to hold"
+#~ msgstr "Tasta pentru menținere"
+
+#~ msgid "Key to move E"
+#~ msgstr "Tasta pentru mișcare la E"
+
+#~ msgid "Key to move N"
+#~ msgstr "Tasta pentru mișcare la N"
+
+#~ msgid "Key to move NE"
+#~ msgstr "Tasta pentru mișcare la NE"
+
+#~ msgid "Key to move NW"
+#~ msgstr "Tasta pentru mișcare la NV"
+
+#~ msgid "Key to move S"
+#~ msgstr "Tasta pentru mișcare la S"
+
+#~ msgid "Key to move SE"
+#~ msgstr "Tasta pentru mișcare la SE"
+
+#~ msgid "Key to move SW"
+#~ msgstr "Tasta pentru mișcare la SV"
+
+#~ msgid "Key to move W"
+#~ msgstr "Tasta pentru mișcare la V"
+
+#~ msgid "Key to teleport"
+#~ msgstr "Tasta pentru teleportare"
+
+#~ msgid "Key to teleport randomly"
+#~ msgstr "Tasta pentru teleportare aleatoare"
+
+#~ msgid "Key to wait"
+#~ msgstr "Tasta pentru așteptare"
+
+#~ msgid "Robot image theme"
+#~ msgstr "Tema de imagine pentru robot"
+
+#~ msgid "Robot image theme. The theme of the images to use for the robots."
+#~ msgstr ""
+#~ "Tema de imagine pentru robot. Tema de imagini folosită pentru roboți."
+
+#~ msgid "Show toolbar"
+#~ msgstr "Arată bara de unelte"
+
+#~ msgid "Show toolbar. A standard option for toolbars."
+#~ msgstr ""
+#~ "Afișează bara de unelte. O opțiune standard pentru barele de unelte."
+
+#~ msgid ""
+#~ "The name of the key used to hold still. The name is a standard X key name."
+#~ msgstr ""
+#~ "Numele tastei folosite pentru a sta nemișcat. Numele este un nume "
+#~ "standard de tastă X."
+
+#~ msgid ""
+#~ "The name of the key used to move east. The name is a standard X key name."
+#~ msgstr ""
+#~ "Numele tastei folosite pentru a vă mișca la est. Numele este un nume "
+#~ "standard de tastă X."
+
+#~ msgid ""
+#~ "The name of the key used to move north-east. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "Numele tastei folosite pentru a vă mișca la nord-est. Numele este un nume "
+#~ "standard de tastă X."
+
+#~ msgid ""
+#~ "The name of the key used to move north-west. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "Numele tastei folosite pentru a vă mișca la nord-vest. Numele este un "
+#~ "nume standard de tastă X."
+
+#~ msgid ""
+#~ "The name of the key used to move north. The name is a standard X key name."
+#~ msgstr ""
+#~ "Numele tastei folosite pentru a vă mișca la nord. Numele este un nume "
+#~ "standard de tastă X."
+
+#~ msgid ""
+#~ "The name of the key used to move south-east. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "Numele tastei folosite pentru a vă mișca la sud-est. Numele este un nume "
+#~ "standard de tastă X."
+
+#~ msgid ""
+#~ "The name of the key used to move south-west. The name is a standard X key "
+#~ "name."
+#~ msgstr ""
+#~ "Numele tastei folosite pentru a vă mișca la sud-vest. Numele este un nume "
+#~ "standard de tastă X."
+
+#~ msgid ""
+#~ "The name of the key used to move south. The name is a standard X key name."
+#~ msgstr ""
+#~ "Numele tastei folosite pentru a vă mișca la sud. Numele este un nume "
+#~ "standard de tastă X."
+
+#~ msgid ""
+#~ "The name of the key used to move west. The name is a standard X key name."
+#~ msgstr ""
+#~ "Numele tastei folosite pentru a vă mișca la vest. Numele este un nume "
+#~ "standard de tastă X."
+
+#~ msgid ""
+#~ "The name of the key used to teleport randomly. The name is a standard X "
+#~ "key name."
+#~ msgstr ""
+#~ "Numele tastei folosite pentru a vă teleporta aleator. Numele este un nume "
+#~ "standard de tastă X."
+
+#~ msgid ""
+#~ "The name of the key used to teleport safely (if possible). The name is a "
+#~ "standard X key name."
+#~ msgstr ""
+#~ "Numele tastei folosite pentru a vă teleporta în siguranță (dacă este "
+#~ "posibil). Numele este un nume standard de tastă X."
+
+#~ msgid "The name of the key used to wait. The name is a standard X key name."
+#~ msgstr ""
+#~ "Numele tastei folosite pentru a aștepta. Numele este un nume standard de "
+#~ "tastă X."
+
+#~ msgid "Use safe moves"
+#~ msgstr "Folosește mișcări sigure"
+
+#~ msgid ""
+#~ "Use safe moves. The safe moves option will help you to avoid being killed "
+#~ "due to a mistake. If you try to make a move that would lead to your death "
+#~ "when there is a safe move available you will not be allowed to proceed."
+#~ msgstr ""
+#~ "Folosește mișcări sigure. Opțiunea de mișcări sigure vă va ajuta să nu "
+#~ "fiți omorâți din greșeală. Dacă încercați să faceți o mișcare ce va duce "
+#~ "la moartea dumneavoastră, atunci când există o alternativă mai sigură nu "
+#~ "veți fi lăsat să o faceți."
+
+#~ msgid "Use super safe moves"
+#~ msgstr "Folosește mișcări extra-sigure"
+
+#~ msgid ""
+#~ "Use super safe moves. The player is alerted when there is no safe move "
+#~ "and the only option is to teleport out."
+#~ msgstr ""
+#~ "Folosește mișcări extra-sigure. Jucătorul este alertat atunci când nu "
+#~ "există o alternativă sigură și singura opțiune este teleportarea."
+
+#~ msgid "Could not find '%s' pixmap file\n"
+#~ msgstr "Nu am putut găsi fișierul „%s”\n"
+
+#~ msgid "_Move"
+#~ msgstr "_Mută"
+
+#~ msgid "_Teleport"
+#~ msgstr "_Teleportare"
+
+#~ msgid "Teleport, safely if possible"
+#~ msgstr "Teleportare, în siguranță dacă se poate"
+
+#~ msgid "_Random"
+#~ msgstr "_Aleator"
+
+#~ msgid "Teleport randomly"
+#~ msgstr "Teleportare aleatoare"
+
+#~ msgid "_Wait"
+#~ msgstr "Aș_teaptă"
+
+#~ msgid "Wait for the robots"
+#~ msgstr "Așteaptă roboții"
+
+#~ msgid ""
+#~ "Based on classic BSD Robots.\n"
+#~ "\n"
+#~ "Robots is a part of GNOME Games."
+#~ msgstr ""
+#~ "Bazat pe clasicul BSD Roboți.\n"
+#~ "Roboți face parte din Jocurile GNOME."
+
+#~ msgid "classic robots"
+#~ msgstr "roboți clasic"
+
+#~ msgid "robots2"
+#~ msgstr "roboți2"
+
+#~ msgid "robots2 easy"
+#~ msgstr "roboți2 ușor"
+
+#~ msgid "robots with safe teleport"
+#~ msgstr "roboți cu teleportări sigure"
+
+#~ msgid "nightmare"
+#~ msgstr "coșmar"
+
+#~ msgid "robots"
+#~ msgstr "roboți"
+
+#~ msgid "cows"
+#~ msgstr "vaci"
+
+#~ msgid "eggs"
+#~ msgstr "ouă"
+
+#~ msgid "gnomes"
+#~ msgstr "gnomi"
+
+#~ msgid "mice"
+#~ msgstr "șoareci"
+
+#~ msgid "ufo"
+#~ msgstr "ozn"
+
+#~ msgid "boo"
+#~ msgstr "bau-bau"
+
+#~ msgid "Robots Preferences"
+#~ msgstr "Preferințe Roboți"
+
+#~ msgid "Game Type"
+#~ msgstr "Tipul jocului"
+
+#~ msgid "_Use safe moves"
+#~ msgstr "_Folosește mișcări sigure"
+
+#~ msgid "Prevent accidental moves that result in getting killed."
+#~ msgstr "Preîntâmpină mișcările accidentale care ar putea duce la omorâre."
+
+#~ msgid "U_se super safe moves"
+#~ msgstr "Fo_losește mișcări extra-sigure"
+
+#~ msgid "Prevents all moves that result in getting killed."
+#~ msgstr "Preîntâmpină toate mișcările ce ar putea duce la moartea proprie."
+
+#~ msgid "_Enable sounds"
+#~ msgstr "_Activează sunetele"
+
+#~ msgid "Play sounds for events like winning a level and dying."
+#~ msgstr ""
+#~ "Redă sunetele pentru evenimente precum câștigarea unui nivel sau moartea."
+
+#~ msgid "Graphics Theme"
+#~ msgstr "Tema graficii"
+
+#~ msgid "_Image theme:"
+#~ msgstr "Tema _imaginii:"
+
+#~ msgid "_Background color:"
+#~ msgstr "Culoarea de _fundal:"
+
+#~ msgid "_Restore Defaults"
+#~ msgstr "_Restaurează setările implicite rămasă:"
+
+#~ msgid "Keyboard"
+#~ msgstr "Tastatură"
+
+#~ msgid "Safe Teleports:"
+#~ msgstr "Teleportări sigure:"
+
+#~ msgid "Level:"
+#~ msgstr "Nivel:"
+
+#~ msgid "Remaining:"
+#~ msgstr "Mai rămân:"
+
+#~ msgid "Fit falling blocks together"
+#~ msgstr "Potrivește blocurile care cad"
+
+#~ msgid "Quadrapassel"
+#~ msgstr "Quadrapassel"
+
+#~ msgid "Drop"
+#~ msgstr "Eliberează"
+
+#~ msgid "Image to use for drawing blocks"
+#~ msgstr "Imaginea folosită pentru desenarea pieselor"
+
+#~ msgid "Image to use for drawing blocks."
+#~ msgstr "Imaginea folosită pentru desenarea pieselor."
+
+#~ msgid "Key press to drop."
+#~ msgstr "Tasta apăsată pentru a elibera o piesă."
+
+#~ msgid "Key press to move down."
+#~ msgstr "Tasta apăsată pentru mișcare în jos."
+
+#~ msgid "Key press to pause."
+#~ msgstr "Tasta apăsată pentru pauză."
+
+#~ msgid "Key press to rotate."
+#~ msgstr "Tasta apăsată pentru rotire."
+
+#~ msgid "Level to start with"
+#~ msgstr "Nivelul de pornire"
+
+#~ msgid "Level to start with."
+#~ msgstr "Nivelul de pornire."
+
+#~ msgid "Pause"
+#~ msgstr "Pauză"
+
+#~ msgid "Rotate"
+#~ msgstr "Rotire"
+
+#~ msgid "The background color"
+#~ msgstr "Culoarea de fundal"
+
+#~ msgid "The background color, in a format gdk_color_parse understands."
+#~ msgstr "Culoarea de fundal, într-un format înțeles de gdk_color_parse."
+
+#~ msgid ""
+#~ "The density of blocks in rows filled at the start of the game. The value "
+#~ "is between 0 (for no blocks) and 10 (for a completely filled row)."
+#~ msgstr ""
+#~ "Densitatea blocurilor din linii umplute la începutul jocului. Valorile "
+#~ "sunt între 0 (pentru nici un bloc) și 10 (pentru o linie umplută complet)."
+
+#~ msgid "The density of filled rows"
+#~ msgstr "Densitatea blocurilor în liniile pre-umplute"
+
+#~ msgid ""
+#~ "The name of the theme used for rendering the blocks and the background."
+#~ msgstr "Numele temei folosite pentru a randa blocurile și fundalul."
+
+#~ msgid ""
+#~ "The number of rows that are filled with random blocks at the start of the "
+#~ "game."
+#~ msgstr ""
+#~ "Numărul liniilor ce sunt umplute cu blocuri aleatoare la începutul "
+#~ "jocului."
+
+#~ msgid "The number of rows to fill"
+#~ msgstr "Numărul liniilor ce vor fi umplute"
+
+#~ msgid "The theme used for rendering the blocks"
+#~ msgstr "Tema folosită pentru a randa blocurile"
+
+#~ msgid ""
+#~ "This selects whether or not to draw the background image over the "
+#~ "background color."
+#~ msgstr ""
+#~ "Aceasta selectează dacă să deseneze sau nu imaginea de fundal peste "
+#~ "culoarea de fundal."
+
+#~ msgid "Whether to give blocks random colors"
+#~ msgstr "Dacă piesele vor primi culori aleatoare"
+
+#~ msgid "Whether to give blocks random colors."
+#~ msgstr "Dacă piesele vor primi culori aleatoare."
+
+#~ msgid "Whether to preview the next block"
+#~ msgstr "Dacă să arate următoarea piesă"
+
+#~ msgid "Whether to preview the next block."
+#~ msgstr "Dacă să arate următoarea piesă."
+
+#~ msgid ""
+#~ "Whether to provide a graphical representation of where a block will land."
+#~ msgstr ""
+#~ "Dacă să furnizeze o reprezentare grafică pentru unde va ateriza un bloc."
+
+#~ msgid "Whether to provide a target"
+#~ msgstr "Dacă să furnizeze o țintă"
+
+#~ msgid "Whether to rotate counter clock wise"
+#~ msgstr "Dacă să rotească în sens invers orar"
+
+#~ msgid "Whether to rotate counter clock wise."
+#~ msgstr "Dacă să rotească în sens invers orar."
+
+#~ msgid "Whether to use the background image"
+#~ msgstr "Dacă să se folosească imaginea de fundal."
+
+#~ msgid "Set starting level (1 or greater)"
+#~ msgstr "Setați nivelul de pornire(1 sau mai mare)"
+
+#~ msgid "LEVEL"
+#~ msgstr "NIVEL"
+
+#~ msgid "Plain"
+#~ msgstr "Simplu"
+
+#~ msgid "Tango Flat"
+#~ msgstr "Tango plat"
+
+#~ msgid "Tango Shaded"
+#~ msgstr "Tango umbrit"
+
+#~ msgid "Clean"
+#~ msgstr "Curăță"
+
+#~ msgid "Lines:"
+#~ msgstr "Linii:"
+
+#~ msgid "Quadrapassel Preferences"
+#~ msgstr "Preferințe Quadrapassel"
+
+#~ msgid "Setup"
+#~ msgstr "Configurare"
+
+#~ msgid "_Number of pre-filled rows:"
+#~ msgstr "_Numărul liniilor pre-umplute:"
+
+#~ msgid "_Density of blocks in a pre-filled row:"
+#~ msgstr "_Densitatea blocurilor în liniile pre-umplute:"
+
+#~ msgid "Operation"
+#~ msgstr "Operația"
+
+#~ msgid "_Preview next block"
+#~ msgstr "_Arată următoarea piesă"
+
+#~ msgid "_Use random block colors"
+#~ msgstr "_Folosește culori aleatoare pentru piese"
+
+#~ msgid "Choose difficult _blocks"
+#~ msgstr "Alege _blocuri dificile"
+
+#~ msgid "_Rotate blocks counterclockwise"
+#~ msgstr "_Rotește blocurile invers acelor de ceas"
+
+#~ msgid "Show _where the block will land"
+#~ msgstr "Afișează _unde va ateriza blocul"
+
+#~ msgid "Theme"
+#~ msgstr "Teme"
+
+#~ msgid "Controls"
+#~ msgstr "Controale"
+
+#~ msgid "Block Style"
+#~ msgstr "Stil blocuri"
+
+#~ msgid ""
+#~ "A classic game of fitting falling blocks together.\n"
+#~ "\n"
+#~ "Quadrapassel is a part of GNOME Games."
+#~ msgstr ""
+#~ "Un joc clasic de potrivire a blocurilor în cădere.\n"
+#~ "\n"
+#~ "Quadrapassel este o componentă a proiectului Jocuri GNOME."
+
+#~ msgid "Quadrapassel Scores"
+#~ msgstr "Scoruri Quadrapassel"
+
+#~ msgid "Paused"
+#~ msgstr "Pauză"
+
+#~ msgid "Sudoku"
+#~ msgstr "Sudoku"
+
+#~ msgid "Test your logic skills in this number grid puzzle"
+#~ msgstr ""
+#~ "Testați-vă abilitățile de logică într-un joc de perspicacitate cu numere"
+
+#~ msgid "Color of the grid border"
+#~ msgstr "Culoarea marginei grilei"
+
+#~ msgid "Height of application window in pixels"
+#~ msgstr "Înălțimea în pixeli a ferestrei aplicației"
+
+#~ msgid "Mark printed games as played"
+#~ msgstr "Marchează jocurile tipărite ca jucate"
+
+#~ msgid "Number of puzzles to print on a page"
+#~ msgstr "Numărul de jocuri ce vor fi tipărite pe o pagină"
+
+#~ msgid "Print games that have been played"
+#~ msgstr "Tipărește jocuri care au fost jucate"
+
+#~ msgid "Show hint highlights"
+#~ msgstr "Afișează evidențieri pentru sugestii"
+
+#~ msgid "Show hints"
+#~ msgstr "Afișează indicii"
+
+#~ msgid "Show the application toolbar"
+#~ msgstr "Afișează bara de instrumente a aplicației"
+
+#~ msgid "The number of seconds between automatic saves"
+#~ msgstr "Numărul de secunde între salvările automate"
+
+#~ msgid "Width of application window in pixels"
+#~ msgstr "Lățimea în pixeli a ferestrei aplicației."
+
+#~ msgid "Details"
+#~ msgstr "Detalii"
+
+#~ msgid "Levels of difficulty to print"
+#~ msgstr "uNiveluri de dificultate de tipărit"
+
+#~ msgid "Print Games"
+#~ msgstr "Tipărește jocuri"
+
+#~ msgid "Print Sudokus"
+#~ msgstr "Tipăriți Sudoku"
+
+#~ msgid "_Easy"
+#~ msgstr "_Simplu"
+
+#~ msgid "_Hard"
+#~ msgstr "_Dificil"
+
+#~ msgid "_Include games you've already played in list of games to print"
+#~ msgstr "_Includeți jocurile completate în lista jocurilor de tipărit"
+
+#~ msgid "_Mark games as played once you've printed them."
+#~ msgstr "_Marcați jocurile ca jucate după tipărire."
+
+#~ msgid "_Medium"
+#~ msgstr "_Mediu"
+
+#~ msgid "_Number of sudoku to print: "
+#~ msgstr "_Numărul de sudokuri de tipărit: "
+
+#~ msgid "_Sudokus per page: "
+#~ msgstr "_Sudokuri pe pagină: "
+
+#~ msgid "_Very Hard"
+#~ msgstr "_Foarte dificil"
+
+#~ msgid "_Saved Games"
+#~ msgstr "Jocuri _salvate"
+
+#~ msgid "Add a new tracker"
+#~ msgstr "Adaugă un monitor nou"
+
+#~ msgid "H_ide"
+#~ msgstr "_Ascunde"
+
+#~ msgid "Hide the tracked values"
+#~ msgstr "Ascunde valorile monitorizate"
+
+#~ msgid "Make the tracked changes permanent"
+#~ msgstr "Fă modificările monitorizate permanente"
+
+#~ msgid "Remove the selected tracker"
+#~ msgstr "Elimină monitorul selectat"
+
+#~ msgid "Sudoku incorrectly installed"
+#~ msgstr "Sudoku instalat incorect"
+
+#~ msgid ""
+#~ "Sudoku is not able to start because required application files are not "
+#~ "installed. If you are currently upgrading your system please wait until "
+#~ "the upgrade has completed."
+#~ msgstr ""
+#~ "Sudoku nu poate porni deoarece fișierele necesare aplicației nu sunt "
+#~ "instalate. Dacă momentan vă actualizați sistemul vă rog să așteptați până "
+#~ "la terminarea actualizării."
+
+#~ msgid "GNOME Sudoku"
+#~ msgstr "GNOME Sudoku"
+
+#~ msgid ""
+#~ "GNOME Sudoku is a simple Sudoku generator and player. Sudoku is a "
+#~ "Japanese logic puzzle.\n"
+#~ "\n"
+#~ "GNOME Sudoku is a part of GNOME Games."
+#~ msgstr ""
+#~ "GNOME Sudoku este un simplu generator și jucător de Sudoku. Sudoku este "
+#~ "un puzzle logic japonez.\n"
+#~ "\n"
+#~ "GNOME Sudoku face parte din suita de jocuri GNOME."
+
+#~ msgid ""
+#~ "%s is free software; you can redistribute it and/or modify it under the "
+#~ "terms of the GNU General Public License as published by the Free Software "
+#~ "Foundation; either version 2 of the License, or (at your option) any "
+#~ "later version."
+#~ msgstr ""
+#~ "%s este o aplicație gratuită; o puteți redistribui și/sau modifica "
+#~ "respectând termenii licenței GNU General Public License publicată de "
+#~ "către Free Software Foundation fie versiunea 2 a licenței fie (la "
+#~ "alegere) orice versiune ulterioară."
+
+#~ msgid ""
+#~ "%s is distributed in the hope that it will be useful, but WITHOUT ANY "
+#~ "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+#~ "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+#~ "details."
+#~ msgstr ""
+#~ "Aplicața %s este distribuită în speranța că va fi utilă dar FĂRĂ A OFERI "
+#~ "NICI O GARANȚIE, nici măcar garanția care ar surveni din COMERCIALIZARE "
+#~ "sau prin IMPLEMENTAREA APLICAȚIEI ÎNTR-UN PROIECT ANUME ÎN PARTICULAR."
+
+#~ msgid ""
+#~ "You should have received a copy of the GNU General Public License along "
+#~ "with %s; if not, write to the Free Software Foundation, Inc., 51 Franklin "
+#~ "Street, Fifth Floor, Boston, MA  02110-1301  USA"
+#~ msgstr ""
+#~ "În mod normal trebuie să primiți o copie a licenței GNU General Public "
+#~ "License odată cu aplicația %s; dacă acest lucru nu s-a întâmplat "
+#~ "informați în scris la Free Software Foundation Inc., la adresa 51 "
+#~ "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
+
+#~ msgid "Unable to make data directory %(dir)s: %(error)s"
+#~ msgstr "Nu s-a putut crea directorul de date %(dir)s: %(error)s"
+
+#~ msgid "No Space"
+#~ msgstr "Fără spațiu"
+
+#~ msgid "No space left on disk"
+#~ msgstr "Nu mai este spațiu pe disc"
+
+#~ msgid "Unable to create data folder %(path)s."
+#~ msgstr "Nu s-a putut crea directorul de date %(path)s."
+
+#~ msgid "There is no disk space left!"
+#~ msgstr "Nu mai este disponibil spațiu pe disc!"
+
+#~ msgid "Error %(errno)s: %(error)s"
+#~ msgstr "Eroare %(errno)s: %(error)s"
+
+#~ msgid "Unable to save game."
+#~ msgstr "Nu s-a putut salva jocul."
+
+#~ msgid "Unable to save file %(filename)s."
+#~ msgstr "Nu s-a putut salva fișierul %(filename)s."
+
+#~ msgid "Unable to mark game as finished."
+#~ msgstr "Nu s-a putut marca jocul ca încheiat."
+
+#~ msgid "Sudoku unable to mark game as finished."
+#~ msgstr "Sudoku nu a putut să marcheze jocul ca încheiat."
+
+#~ msgid "Track moves"
+#~ msgstr "Marchează mutări"
+
+#~ msgid "New game"
+#~ msgstr "Joc nou"
+
+#~ msgid "_Reset"
+#~ msgstr "_Re-începe"
+
+#~ msgid "_Undo"
+#~ msgstr "An_ulează mutarea"
+
+#~ msgid "Undo last action"
+#~ msgstr "Anulează ultima mutare"
+
+#~ msgid "_Redo"
+#~ msgstr "_Repetă mutarea"
+
+#~ msgid "Redo last action"
+#~ msgstr "Repetă ultima acțiune"
+
+#~ msgid "Puzzle _Statistics..."
+#~ msgstr "_Statistici puzzle..."
+
+#~ msgid "_Print..."
+#~ msgstr "_Tipărește..."
+
+#~ msgid "Print _Multiple Sudokus..."
+#~ msgstr "Tipărește partide _multiple de Sudoku..."
+
+#~ msgid "_Tools"
+#~ msgstr "Unel_te"
+
+#~ msgid "Show a square that is easy to fill."
+#~ msgstr "Arată un pătrat care este ușor de umplut."
+
+#~ msgid "Clear _Top Notes"
+#~ msgstr "Elimină _notele de sus"
+
+#~ msgid "Clear _Bottom Notes"
+#~ msgstr "Elimină notele de _jos"
+
+#~ msgid "Show _Possible Numbers"
+#~ msgstr "Arată numerele _posibile"
+
+#~ msgid "Always show possible numbers in a square"
+#~ msgstr "Arată întotdeauna numerele posibile pentru o căsuță"
+
+#~ msgid "Warn About _Unfillable Squares"
+#~ msgstr "Avertizează despre căs_uțele ce nu pot fi completate"
+
+#~ msgid "Warn about squares made unfillable by a move"
+#~ msgstr ""
+#~ "Avertizează despre căsuțele ce nu pot fi completate din cauza unei mutări "
+#~ "anterioare"
+
+#~ msgid "_Track Additions"
+#~ msgstr "_Urmărește adăugările"
+
+#~ msgid ""
+#~ "Mark new additions in a separate color so you can keep track of them."
+#~ msgstr "Marchează adăugările noi într-o culoare separată pentru urmărire."
+
+#~ msgid "_Highlighter"
+#~ msgstr "E_vidențiere"
+
+#~ msgid "Highlight the current row, column and box"
+#~ msgstr "Evidențiază rândul curent, coloana și căsuța"
+
+#~ msgid "You completed the puzzle in %d second"
+#~ msgid_plural "You completed the puzzle in %d seconds"
+#~ msgstr[0] "Ați completat puzzle-ul în %d secundă"
+#~ msgstr[1] "Ați completat puzzle-ul în %d secunde"
+#~ msgstr[2] "Ați completat puzzle-ul în %d de secunde"
+
+#~ msgid "%d minute"
+#~ msgid_plural "%d minutes"
+#~ msgstr[0] "%d minut"
+#~ msgstr[1] "%d minute"
+#~ msgstr[2] "%d de minute"
+
+#~ msgid "%d second"
+#~ msgid_plural "%d seconds"
+#~ msgstr[0] "%d secundă"
+#~ msgstr[1] "%d secunde"
+#~ msgstr[2] "%d de secunde"
+
+#~ msgid "You completed the puzzle in %(minute)s and %(second)s"
+#~ msgstr "Ați completat puzzle-ul în %(minute)s și %(second)s"
+
+#~ msgid "%d hour"
+#~ msgid_plural "%d hours"
+#~ msgstr[0] "%d oră"
+#~ msgstr[1] "%d ore"
+#~ msgstr[2] "%d de ore"
+
+#~ msgid "You completed the puzzle in %(hour)s, %(minute)s and %(second)s"
+#~ msgstr "Ați completat puzzle-ul în %(hour)s, %(minute)s și %(second)s"
+
+#~ msgid "You got %(n)s hint."
+#~ msgid_plural "You got %(n)s hints."
+#~ msgstr[0] "Ați primit %(n)s indiciu."
+#~ msgstr[1] "Ați primit %(n)s indicii."
+#~ msgstr[2] "Ați primit %(n)s de indicii."
+
+#~ msgid "You had %(n)s impossibility pointed out."
+#~ msgid_plural "You had %(n)s impossibilities pointed out."
+#~ msgstr[0] "Vi s-a arătat imposibilitatea mișcării în %(n)s caz."
+#~ msgstr[1] "Vi s-a arătat imposibilitatea mișcării în %(n)s cazuri."
+#~ msgstr[2] "Vi s-a arătat imposibilitatea mișcării în %(n)s de cazuri."
+
+#~ msgid "Save this game before starting new one?"
+#~ msgstr "Salvați acest joc înainte de a începe unul nou?"
+
+#~ msgid "_Save game for later"
+#~ msgstr "_Salvează jocul pentru mai târziu"
+
+#~ msgid "_Abandon game"
+#~ msgstr "_Abandonează jocul"
+
+#~ msgid "Save game before closing?"
+#~ msgstr "Salvați jocul înainte de închidere?"
+
+#~ msgid "Puzzle Information"
+#~ msgstr "Informații despre joc"
+
+#~ msgid "There is no current puzzle."
+#~ msgstr "Nu există niciun puzzle curent."
+
+#~ msgid "Calculated difficulty: "
+#~ msgstr "Dificultate calculată: "
+
+#~ msgid "Easy"
+#~ msgstr "Ușor"
+
+#~ msgid "Medium"
+#~ msgstr "Mediu"
+
+#~ msgid "Hard"
+#~ msgstr "Dificil"
+
+#~ msgid "Very Hard"
+#~ msgstr "Foarte dificil"
+
+#~ msgid "Number of moves instantly fillable by elimination: "
+#~ msgstr "Număr de căsuțe ce se pot completa imediat prin eliminare: "
+
+#~ msgid "Number of moves instantly fillable by filling: "
+#~ msgstr "Număr de căsuțe ce se pot completa imediat prin completarea: "
+
+#~ msgid "Amount of trial-and-error required to solve: "
+#~ msgstr "Numărul de încercări și greșeli necesare rezolvării: "
+
+#~ msgid "Puzzle Statistics"
+#~ msgstr "Statistici joc"
+
+#~ msgid "Unable to display help: %s"
+#~ msgstr "Nu s-a putut afișa ajutorul: %s"
+
+#~ msgid "Untracked"
+#~ msgstr "Neurmărit"
+
+#~ msgid "_Remove"
+#~ msgstr "E_limină"
+
+#~ msgid "Delete selected tracker."
+#~ msgstr "Șterge monitorul selectat."
+
+#~ msgid "Hide current tracker entries."
+#~ msgstr "Ascunde valorile monitorizate."
+
+#~ msgid "A_pply"
+#~ msgstr "A_plică"
+
+#~ msgid "Apply all tracked values and remove the tracker."
+#~ msgstr "Aplică toate mișcările urmărite și elimină monitorul."
+
+#~ msgid "Tracker %s"
+#~ msgstr "Urmăritor %s"
+
+#~ msgid "Very hard"
+#~ msgstr "Foarte dificil"
+
+#~ msgid "Last played %(n)s second ago"
+#~ msgid_plural "Last played %(n)s seconds ago"
+#~ msgstr[0] "Ultima dată jucat cu %(n)s secundă în urmă"
+#~ msgstr[1] "Ultima dată jucat cu %(n)s secunde în urmă"
+#~ msgstr[2] "Ultima dată jucat cu %(n)s de secunde în urmă"
+
+#~ msgid "Last played %(n)s minute ago"
+#~ msgid_plural "Last played %(n)s minutes ago"
+#~ msgstr[0] "Ultima dată jucat cu %(n)s minut în urmă"
+#~ msgstr[1] "Ultima dată jucat cu %(n)s minute în urmă"
+#~ msgstr[2] "Ultima dată jucat cu %(n)s de minute în urmă"
+
+#~ msgid "Last played at %I:%M %p"
+#~ msgstr "Ultima dată jucat la %H:%M"
+
+#~ msgid "Last played yesterday at %I:%M %p"
+#~ msgstr "Ultima dată jucat ieri la %H:%M"
+
+#~ msgid "Last played on %A at %I:%M %p"
+#~ msgstr "Ultima dată jucat %A la %H:%M"
+
+#~ msgid "Last played on %B %e %Y"
+#~ msgstr "Ultima dată jucat în data de %e %B %Y"
+
+#~ msgid "Easy puzzle"
+#~ msgstr "Puzzle ușor"
+
+#~ msgid "Medium puzzle"
+#~ msgstr "Puzzle mediu"
+
+#~ msgid "Hard puzzle"
+#~ msgstr "Puzzle dificil"
+
+#~ msgid "Very hard puzzle"
+#~ msgstr "Puzzle foarte dificil"
+
+#~ msgid "Played for %d hour"
+#~ msgid_plural "Played for %d hours"
+#~ msgstr[0] "Jucat timp de %d oră"
+#~ msgstr[1] "Jucat timp de %d ore"
+#~ msgstr[2] "Jucat timp de %d de ore"
+
+#~ msgid "Played for %d minute"
+#~ msgid_plural "Played for %d minutes"
+#~ msgstr[0] "Jucat timp de %d minut"
+#~ msgstr[1] "Jucat timp de %d minute"
+#~ msgstr[2] "Jucat timp de %d de minute"
+
+#~ msgid "Played for %d second"
+#~ msgid_plural "Played for %d seconds"
+#~ msgstr[0] "Jucat timp de %d secundă"
+#~ msgstr[1] "Jucat timp de %d secunde"
+#~ msgstr[2] "Jucat timp de %d de secunde"
+
+#~ msgid "Do you really want to do this?"
+#~ msgstr "Sigur doriți să faceți asta?"
+
+#~ msgid "Don't ask me this again."
+#~ msgstr "Nu mă mai întreba asta din nou."
+
+#~ msgid "_Clear"
+#~ msgstr "Șter_ge"
+
+#~ msgid "Mines"
+#~ msgstr "Mine"
+
+#~ msgctxt "board size"
+#~ msgid "Custom"
+#~ msgstr "Personalizat"
+
+#~ msgid "Flags: %d/%d"
+#~ msgstr "Steaguri: %d/%d"
+
+#~ msgid "The Mines Have Been Cleared!"
+#~ msgstr "Minele au fost curățate!"
+
+#~ msgid "Mines Scores"
+#~ msgstr "Scoruri Mine"
+
+#~ msgid "Size:"
+#~ msgstr "Dimensiune:"
+
+#~ msgid "Click a square, any square"
+#~ msgstr "Efectuați clic pe un pătrat, orice pătrat"
+
+#~ msgid "Maybe they're all mines ..."
+#~ msgstr "Poate că sunt toate mine..."
+
+#~ msgid "Resizing and SVG support:"
+#~ msgstr "Redimensionare și suport SVG:"
+
+#~ msgid "Faces:"
+#~ msgstr "Chipuri:"
+
+#~ msgid "Graphics:"
+#~ msgstr "Grafică:"
+
+#~ msgid ""
+#~ "The popular logic puzzle minesweeper. Clear mines from a board using "
+#~ "hints from squares you have already uncovered.\n"
+#~ "\n"
+#~ "Mines is a part of GNOME Games."
+#~ msgstr ""
+#~ "Popularul joc logic minesweeper. Curățați tabla de mine folosindu-vă de "
+#~ "indiciile oferite de căsuțele sigure.\n"
+#~ "\n"
+#~ "Mine face parte din suita de Jocuri GNOME."
+
+#~ msgid "Field Size"
+#~ msgstr "Dimensiune câmp"
+
+#~ msgid "Custom Size"
+#~ msgstr "Dimensiune personalizată"
+
+#~ msgid "_Number of mines:"
+#~ msgstr "_Număr de mine:"
+
+#~ msgid "_Horizontal:"
+#~ msgstr "_Orizontal:"
+
+#~ msgid "_Vertical:"
+#~ msgstr "_Vertical:"
+
+#~ msgid "Flags"
+#~ msgstr "Fanioane"
+
+#~ msgid "_Use \"I'm not sure\" flags"
+#~ msgstr "_Folosește fanioane „Nu sunt sigur”."
+
+#~ msgid "Warnings"
+#~ msgstr "Avertismente"
+
+#~ msgid "_Use \"Too many flags\" warning"
+#~ msgstr "_Utilizați avertizarea „Prea multe steaguri”"
+
+#~ msgid "Mines Preferences"
+#~ msgstr "Preferințe Mine"
+
+#~ msgid "Width of grid"
+#~ msgstr "Lațime grilă"
+
+#~ msgid "Height of grid"
+#~ msgstr "Înălțime grilă"
+
+#~ msgid "Number of mines"
+#~ msgstr "Număr mine"
+
+#~ msgid "Size of the board (0-2 = small-large, 3=custom)"
+#~ msgstr "Dimensiunea tablei (0-2 = mică-mare, 3=personalizată)"
+
+#~ msgid "X location of window"
+#~ msgstr "Locația X a ferestrei"
+
+#~ msgid "Y location of window"
+#~ msgstr "Locația Y a ferestrei"
+
+#~ msgid "Press to Resume"
+#~ msgstr "Apasă pentru reluare"
+
+#~ msgid "Time: "
+#~ msgstr "Timp: "
+
+#~ msgid "Clear hidden mines from a minefield"
+#~ msgstr "Găsește minele de pe un câmp minat"
+
+#~ msgid "Board size"
+#~ msgstr "Mărime tablă"
+
+#~ msgid "Enable automatic placing of flags"
+#~ msgstr "Activează plasarea automată a steagurilor"
+
+#~ msgid "Number of columns in a custom game"
+#~ msgstr "Numărul de coloane într-un joc personalizat"
+
+#~ msgid "Number of rows in a custom game"
+#~ msgstr "Numărul de linii într-un joc personalizat"
+
+#~ msgid "Set to true to be able to mark squares as unknown."
+#~ msgstr "Setează la true pentru a putea marca pătratele ca necunoscute."
+
+#~ msgid "Set to true to enable warning icons when too many flags are placed."
+#~ msgstr ""
+#~ "Definiți ca adevărat pentru a activa iconițele de avertizare când sunt "
+#~ "plasate prea multe steaguri."
+
+#~ msgid ""
+#~ "Set to true to have gnomine automatically flag squares as mined when "
+#~ "enough squares are revealed"
+#~ msgstr ""
+#~ "Definiți ca adevărat pentru ca gnomine să marcheze automat pătrățele ca "
+#~ "minate când destule pătrățele au fost descoperite"
+
+#~ msgid "The number of mines in a custom game"
+#~ msgstr "Numărul minelor dintr-un joc personalizat"
+
+#~ msgid "Use the unknown flag"
+#~ msgstr "Folosește fanionul necunoscut"
+
+#~ msgid "Warning about too many flags"
+#~ msgstr "Atenționare în cazul prea multor steaguri"
+
+#~ msgid ""
+#~ "Unable to find required images.\n"
+#~ "\n"
+#~ "Please check your gnome-games installation."
+#~ msgstr ""
+#~ "Nu am putut încărca imaginea.\n"
+#~ "\n"
+#~ "Verificați instalarea gnome-games."
+
+#~ msgid ""
+#~ "Required images have been found, but refused to load.\n"
+#~ "\n"
+#~ "Please check your installation of gnome-games and its dependencies."
+#~ msgstr ""
+#~ "Imaginile necesare au fost găsite, dar nu au putut fi încărcate.\n"
+#~ "\n"
+#~ "Verificați instalarea lui gnome-games și a dependințelor sale."
+
+#~ msgid "Could not load images"
+#~ msgstr "Nu s-au putut încărca imaginile"
+
+#~ msgid "Tetravex"
+#~ msgstr "Tetravex"
+
+#~ msgid "2×2"
+#~ msgstr "2x2"
+
+#~ msgid "3×3"
+#~ msgstr "3x3"
+
+#~ msgid "4×4"
+#~ msgstr "4x4"
+
+#~ msgid "5×5"
+#~ msgstr "5x5"
+
+#~ msgid "6×6"
+#~ msgstr "6x6"
+
+#~ msgid "_2×2"
+#~ msgstr "_2x2"
+
+#~ msgid "Play on a 2×2 board"
+#~ msgstr "Joacă pe o tablă 2x2"
+
+#~ msgid "_3×3"
+#~ msgstr "_3x3"
+
+#~ msgid "Play on a 3×3 board"
+#~ msgstr "Joacă pe o tablă 3x3"
+
+#~ msgid "_4×4"
+#~ msgstr "_4x4"
+
+#~ msgid "Play on a 4×4 board"
+#~ msgstr "Joacă pe o tablă 4x4"
+
+#~ msgid "_5×5"
+#~ msgstr "_5x5"
+
+#~ msgid "Play on a 5×5 board"
+#~ msgstr "Joacă pe o tablă 5x5"
+
+#~ msgid "_6×6"
+#~ msgstr "_6x6"
+
+#~ msgid "Play on a 6×6 board"
+#~ msgstr "Joacă pe o tablă 6x6"
+
+#~ msgid "Size of board (2-6)"
+#~ msgstr "Mărimea tablei (2-6)"
+
+#~ msgid "SIZE"
+#~ msgstr "MĂRIME"
+
+#~ msgctxt "number"
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgctxt "number"
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgctxt "number"
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgctxt "number"
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgctxt "number"
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgctxt "number"
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgctxt "number"
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgctxt "number"
+#~ msgid "7"
+#~ msgstr "7"
+
+#~ msgctxt "number"
+#~ msgid "8"
+#~ msgstr "8"
+
+#~ msgctxt "number"
+#~ msgid "9"
+#~ msgstr "9"
+
+#~ msgid "Game paused"
+#~ msgstr "Pauză de joc"
+
+#~ msgid "Playing %d×%d board"
+#~ msgstr "Joc pe tablă de %dx%d"
+
+#~ msgid "Tetravex Scores"
+#~ msgstr "Scoruri Tetravex"
+
+#~ msgid "Puzzle solved! Well done!"
+#~ msgstr "Joc rezolvat! Felicitări!"
+
+#~ msgid "Puzzle solved!"
+#~ msgstr "Joc rezolvat!"
+
+#~ msgid ""
+#~ "GNOME Tetravex is a simple puzzle where pieces must be positioned so that "
+#~ "the same numbers are touching each other.\n"
+#~ "\n"
+#~ "Tetravex is a part of GNOME Games."
+#~ msgstr ""
+#~ "GNOME Tetravex este un joc simplu de logică în care piesele trebuie puse "
+#~ "în așa fel încât numerele egale să se atingă.\n"
+#~ "\n"
+#~ "Tetravex face parte din suita de Jocuri GNOME."
+
+#~ msgid "_Size"
+#~ msgstr "_Mărime"
+
+#~ msgid "Sol_ve"
+#~ msgstr "Rezol_vă"
+
+#~ msgid "Solve the game"
+#~ msgstr "Rezolvă jocul"
+
+#~ msgid "_Up"
+#~ msgstr "S_us"
+
+#~ msgid "Move the pieces up"
+#~ msgstr "Mută piesele în sus"
+
+#~ msgid "_Left"
+#~ msgstr "_Stânga"
+
+#~ msgid "Move the pieces left"
+#~ msgstr "Mută piesele în stânga"
+
+#~ msgid "_Right"
+#~ msgstr "D_reapta"
+
+#~ msgid "Move the pieces right"
+#~ msgstr "Mută piesele în dreapta"
+
+#~ msgid "_Down"
+#~ msgstr "_Jos"
+
+#~ msgid "Move the pieces down"
+#~ msgstr "Mută piesele în jos"
+
+#~ msgid "Complete the puzzle by matching numbered tiles"
+#~ msgstr "Completați jocul potrivind piesele numerotate."
+
+#~ msgid ""
+#~ "Select whether to drag the tiles or to click on the source then the "
+#~ "destination."
+#~ msgstr ""
+#~ "Alegeți dacă trageți piesele sau efectuați clic pe sursă și pe destinație."
+
+#~ msgid "The size of the playing grid"
+#~ msgstr "Mărimea tablei de joc"
+
+#~ msgid ""
+#~ "The value of this key is used to decide the size of the playing grid. The "
+#~ "valid values are 2 to 8, anything else gets set to 3."
+#~ msgstr ""
+#~ "Valoarea acestei chei este folosită pentru a decide mărimea tablei de "
+#~ "joc. Valori valide sunt între 2 și 8, orice altceva este setată la 3."
+
+#~ msgid "Klotski"
+#~ msgstr "Klotski"
+
+#~ msgid "Only 18 steps"
+#~ msgstr "Doar 18 pași"
+
+#~ msgid "Daisy"
+#~ msgstr "Margaretă"
+
+#~ msgid "Violet"
+#~ msgstr "Violetă"
+
+#~ msgid "Poppy"
+#~ msgstr "Mac"
+
+#~ msgid "Pansy"
+#~ msgstr "Panseluță"
+
+#~ msgid "Snowdrop"
+#~ msgstr "Fulg de nea"
+
+#~ msgid "Red Donkey"
+#~ msgstr "Măgar roșu"
+
+#~ msgid "Trail"
+#~ msgstr "Potecă"
+
+#~ msgid "Ambush"
+#~ msgstr "Ambuscadă"
+
+#~ msgid "Agatka"
+#~ msgstr "Agatka"
+
+#~ msgid "Success"
+#~ msgstr "Succes"
+
+#~ msgid "Bone"
+#~ msgstr "Os"
+
+#~ msgid "Fortune"
+#~ msgstr "Soartă"
+
+#~ msgid "Fool"
+#~ msgstr "Nebun"
+
+#~ msgid "Solomon"
+#~ msgstr "Solomon"
+
+#~ msgid "Cleopatra"
+#~ msgstr "Cleopatra"
+
+#~ msgid "Shark"
+#~ msgstr "Rechin"
+
+#~ msgid "Rome"
+#~ msgstr "Roma"
+
+#~ msgid "Pennant Puzzle"
+#~ msgstr "Puzzle steag"
+
+#~ msgid "Ithaca"
+#~ msgstr "Itaca"
+
+#~ msgid "Pelopones"
+#~ msgstr "Pelopones"
+
+#~ msgid "Transeuropa"
+#~ msgstr "Transeuropa"
+
+#~ msgid "Lodzianka"
+#~ msgstr "Lodzianka"
+
+#~ msgid "Polonaise"
+#~ msgstr "Poloneză"
+
+#~ msgid "Baltic Sea"
+#~ msgstr "Marea Baltică"
+
+#~ msgid "American Pie"
+#~ msgstr "Plăcintă americană"
+
+#~ msgid "Traffic Jam"
+#~ msgstr "Trafic blocat"
+
+#~ msgid "Sunshine"
+#~ msgstr "Răsărit de soare"
+
+#~ msgid "Only 18 Steps"
+#~ msgstr "Doar 18 pași"
+
+#~ msgid "HuaRong Trail"
+#~ msgstr "Poteca HuaRong"
+
+#~ msgid "Challenge Pack"
+#~ msgstr "Pachetul provocator"
+
+#~ msgid "Skill Pack"
+#~ msgstr "Pachetul pentru îndemnare"
+
+#~ msgid "_Restart Puzzle"
+#~ msgstr "_Repornește joc"
+
+#~ msgid "Next Puzzle"
+#~ msgstr "Jocul următor"
+
+#~ msgid "Previous Puzzle"
+#~ msgstr "Jocul precedent"
+
+#~ msgid "Level completed."
+#~ msgstr "Nivel complet."
+
+#~ msgid "The Puzzle Has Been Solved!"
+#~ msgstr "Jocul a fost rezolvat!"
+
+#~ msgid "Klotski Scores"
+#~ msgstr "Scoruri Klotski"
+
+#~ msgid "Puzzle:"
+#~ msgstr "Joc:"
+
+#~ msgid ""
+#~ "The theme for this game failed to render.\n"
+#~ "\n"
+#~ "Please check that Klotski is installed correctly."
+#~ msgstr ""
+#~ "Tema pentru acest joc nu a putut fi randată.\n"
+#~ "\n"
+#~ "Verificați dacă jocul Klotski este instalat corect."
+
+#~ msgid ""
+#~ "Could not find the image:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Please check that Klotski is installed correctly."
+#~ msgstr ""
+#~ "Nu s-a putut găsi imaginea:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Verificați dacă jocul Klotski este instalat corect."
+
+#~ msgid "Moves: %d"
+#~ msgstr "Mutări: %d"
+
+#~ msgid ""
+#~ "Sliding Block Puzzles\n"
+#~ "\n"
+#~ "Klotski is a part of GNOME Games."
+#~ msgstr ""
+#~ "Jocuri de blocuri glisante\n"
+#~ "\n"
+#~ "Klotski este o componentă a proiectului Jocuri GNOME."
+
+#~ msgid "Slide blocks to solve the puzzle"
+#~ msgstr "Glisați blocurile pentru a rezolva jocul"
+
+#~ msgid "The number of the puzzle being played."
+#~ msgstr "Numărul jocului ce este jucat."
+
+#~ msgid "The puzzle in play"
+#~ msgstr "Jocul jucat acum"
+
+#~ msgid "Already used! Where do you want to put that?"
+#~ msgstr "Folosit deja! Unde doriți să puneți punctele?"
+
+#~ msgid "Score: %d"
+#~ msgstr "Scor: %d"
+
+#~ msgid "Field used"
+#~ msgstr "Câmp folosit"
+
+#~ msgid "Beat the odds in a poker-style dice game"
+#~ msgstr "Încearcă-ți șansele într-un joc de zaruri de tip poker"
+
+#~ msgid "Tali"
+#~ msgstr "Tali"
+
+#~ msgid ""
+#~ "Choose whether or not to insert a delay between the computer's dice rolls "
+#~ "so the player can follow what it is doing."
+#~ msgstr ""
+#~ "Alegeți dacă să se insereze sau nu o întârziere între aruncările de "
+#~ "zaruri ale computerului, astfel încât jucătorul să poată urmări mai bine "
+#~ "ceea ce face."
+
+#~ msgid "Delay between rolls"
+#~ msgstr "Arată mâna pentru fiecare"
+
+#~ msgid "Display the computer's thoughts"
+#~ msgstr "Arată gândurile calculatorului"
+
+#~ msgid ""
+#~ "If set to true, a dump of the AI's working will be done to standard "
+#~ "output."
+#~ msgstr ""
+#~ "Dacă este setată la true, procesările părții de AI va fi afișată la "
+#~ "ieșirea standard."
+
+#~ msgid "Regular"
+#~ msgstr "Normal"
+
+#~ msgid "[Human,Wilber,Bill,Monica,Kenneth,Janet]"
+#~ msgstr "[Om,Wilber,Bill,Monica,Kenneth,Janet]"
+
+#~ msgid "Delay computer moves"
+#~ msgstr "Întârzie mutările calculatorului"
+
+#~ msgid "Display computer thoughts"
+#~ msgstr "Arată gândurile calculatorului"
+
+#~ msgid "Number of computer opponents"
+#~ msgstr "Numărul jucătorilor comandați de calculator"
+
+#~ msgid "Number of human opponents"
+#~ msgstr "Numărul jucătorilor umani"
+
+#~ msgid "Game choice: Regular or Colors"
+#~ msgstr "Alegere joc: obișnuit sau culori"
+
+#~ msgid "STRING"
+#~ msgstr "STRING"
+
+#~ msgid "Number of computer-only games to play"
+#~ msgstr "Numărul de jocuri doar-calculator de jucat"
+
+#~ msgid "Number of trials for each roll for the computer"
+#~ msgstr ""
+#~ "Numărul de încercări pentru fiecare aruncare de zaruri pentru calculator"
+
+#~ msgctxt "game type"
+#~ msgid "Regular"
+#~ msgstr "Obișnuit"
+
+#~ msgctxt "game type"
+#~ msgid "Colors"
+#~ msgstr "Culori"
+
+#~ msgid "Roll all!"
+#~ msgstr "Dă cu toate zarurile!"
+
+#~ msgid "Roll!"
+#~ msgstr "Dă cu zarurile!"
+
+#~ msgid "The game is a draw!"
+#~ msgstr "Jocul s-a terminat remiză!"
+
+#~ msgid "Tali Scores"
+#~ msgstr "Scoruri Tali"
+
+#~ msgid "%s wins the game with %d point"
+#~ msgid_plural "%s wins the game with %d points"
+#~ msgstr[0] "%s câștigă jocul cu %d punct"
+#~ msgstr[1] "%s câștigă jocul cu %d puncte"
+#~ msgstr[2] "%s câștigă jocul cu %d de puncte"
+
+#~ msgid "Computer playing for %s"
+#~ msgstr "Calculatorul joacă pentru %s"
+
+#~ msgid "%s! -- You're up."
+#~ msgstr "%s ! -- E rândul tău."
+
+#~ msgid "Select dice to roll or choose a score slot."
+#~ msgstr "Alegeți zarurile cu care dați sau alegeți o căsuță de scor."
+
+#~ msgid "Roll"
+#~ msgstr "Dă cu zarurile"
+
+#~ msgid "You are only allowed three rolls. Choose a score slot."
+#~ msgstr "Nu aveți voie decât la trei aruncări! Alegeți o căsuță de scor."
+
+#~ msgid "GNOME version (1998):"
+#~ msgstr "Versiunea GNOME (1998):"
+
+#~ msgid "Console version (1992):"
+#~ msgstr "Versiunea consolă (1992):"
+
+#~ msgid "Colors game and multi-level AI (2006):"
+#~ msgstr "Joc culori și inteligență artificială multi-nivel (2006):"
+
+#~ msgid ""
+#~ "A variation on poker with dice and less money.\n"
+#~ "\n"
+#~ "Tali is a part of GNOME Games."
+#~ msgstr ""
+#~ "O versiune de poker cu zaruri și bani puțini.\n"
+#~ "\n"
+#~ "Tali este parte a secțiunii Jocuri din GNOME."
+
+#~ msgid "Current game will complete with original number of players."
+#~ msgstr "Jocul curent se va continua cu numărul inițial de jucători."
+
+#~ msgid "Tali Preferences"
+#~ msgstr "Preferințe Tali"
+
+#~ msgid "Human Players"
+#~ msgstr "Jucători umani"
+
+#~ msgid "_Number of players:"
+#~ msgstr "_Numărul jucătorilor:"
+
+#~ msgid "_Delay between rolls"
+#~ msgstr "În_târzierea între aruncările de zaruri"
+
+#~ msgid "N_umber of opponents:"
+#~ msgstr "N_umărul adversarilor:"
+
+#~ msgid "_Difficulty:"
+#~ msgstr "_Dificultate:"
+
+#~ msgctxt "difficulty"
+#~ msgid "Medium"
+#~ msgstr "Mediu"
+
+#~ msgid "Player Names"
+#~ msgstr "Numele jucătorilor"
+
+#~ msgid "1s [total of 1s]"
+#~ msgstr "1 [nr. total de 1]"
+
+#~ msgid "2s [total of 2s]"
+#~ msgstr "2 [nr. total de 2]"
+
+#~ msgid "3s [total of 3s]"
+#~ msgstr "3 [nr. total de 3]"
+
+#~ msgid "4s [total of 4s]"
+#~ msgstr "4 [nr. total de 4]"
+
+#~ msgid "5s [total of 5s]"
+#~ msgstr "5 [nr. total de 5]"
+
+#~ msgid "6s [total of 6s]"
+#~ msgstr "6 [nr. total de 6]"
+
+#~ msgid "3 of a Kind [total]"
+#~ msgstr "Trei bucăți [total]"
+
+#~ msgid "4 of a Kind [total]"
+#~ msgstr "Careu [total]"
+
+#~ msgid "Full House [25]"
+#~ msgstr "Full [25]"
+
+#~ msgid "Small Straight [30]"
+#~ msgstr "Quintă mică [30]"
+
+#~ msgid "Large Straight [40]"
+#~ msgstr "Quintă mare [40]"
+
+#~ msgid "5 of a Kind [50]"
+#~ msgstr "5 de același fel [50]"
+
+#~ msgid "Chance [total]"
+#~ msgstr "Șansă [total]"
+
+#~ msgid "Lower Total"
+#~ msgstr "Total mic"
+
+#~ msgid "Grand Total"
+#~ msgstr "Total mare"
+
+#~ msgid "Upper total"
+#~ msgstr "Total sus"
+
+#~ msgid "Bonus if >62"
+#~ msgstr "Bonus daca >62"
+
+#~ msgid "2 pair Same Color [total]"
+#~ msgstr "2 perechi de aceeași culoare [total]"
+
+#~ msgid "Full House [15 + total]"
+#~ msgstr "Full [15 + total]"
+
+#~ msgid "Full House Same Color [20 + total]"
+#~ msgstr "Full acceași culoare [20 + total]"
+
+#~ msgid "Flush (all same color) [35]"
+#~ msgstr "Chintă (toate de aceeași culoare) [35]"
+
+#~ msgid "4 of a Kind [25 + total]"
+#~ msgstr "4 de același fel [25 + total]"
+
+#~ msgid "5 of a Kind [50 + total]"
+#~ msgstr "5 de același fel [50 + total]"
+
+#~ msgid "Choose a score slot."
+#~ msgstr "Alegeți un slot pentru scor."
+
+#~ msgid "5 of a Kind [total]"
+#~ msgstr "5 de același fel [total]"
+
+#~ msgid "Iagno"
+#~ msgstr "Iagno"
+
+#~ msgid ""
+#~ "A disk flipping game derived from Reversi.\n"
+#~ "\n"
+#~ "Iagno is a part of GNOME Games."
+#~ msgstr ""
+#~ "Un joc de întoarcere a discurilor derivat din Reversi.\n"
+#~ "\n"
+#~ "Iango este o componentă a proiectului Jocuri GNOME."
+
+#~ msgid "Invalid move."
+#~ msgstr "Mutare incorectă."
+
+#~ msgid "%.2d"
+#~ msgstr "%.2d"
+
+#~ msgid "It is your turn to place a dark piece"
+#~ msgstr "Este rândul dumneavoastră să plasați o piesă întunecată"
+
+#~ msgid "It is your turn to place a light piece"
+#~ msgstr "Este rândul vostru să puneți o piesă descisă"
+
+#~ msgid "Waiting for %s to move"
+#~ msgstr "%s este așteptat să mute"
+
+#~ msgid "Dark's move"
+#~ msgstr "Negrul la mutare"
+
+#~ msgid "Light's move"
+#~ msgstr "Albele la mutare"
+
+#~ msgid "Dark:"
+#~ msgstr "Negru:"
+
+#~ msgid "Light:"
+#~ msgstr "Alb:"
+
+#~ msgid "Welcome to Iagno!"
+#~ msgstr "Bine ați venit la Iagno!"
+
+#~ msgid "Dominate the board in a classic version of Reversi"
+#~ msgstr "Dominați tabla de joc într-o versiune clasică de Reversi"
+
+#~ msgid "Light player wins!"
+#~ msgstr "Albele au câștigat!"
+
+#~ msgid "Dark player wins!"
+#~ msgstr "Negrele au câștigat!"
+
+#~ msgid "The game was a draw."
+#~ msgstr "Jocul a fost remiză."
+
+#~ msgid "Light must pass, Dark's move"
+#~ msgstr "Albul obligat pass, Negrul la mutare"
+
+#~ msgid "Dark must pass, Light's move"
+#~ msgstr "Negrul obligat pass, Albul la mutare"
+
+#~ msgid "Iagno Preferences"
+#~ msgstr "Preferințe Iagno"
+
+#~ msgid "_Use quick moves"
+#~ msgstr "_Folosește mutări rapide"
+
+#~ msgid "Animation"
+#~ msgstr "Animație"
+
+#~ msgid "None"
+#~ msgstr "Fără"
+
+#~ msgid "Partial"
+#~ msgstr "Parțială"
+
+#~ msgid "Complete"
+#~ msgstr "Completă"
+
+#~ msgid "_Stagger flips"
+#~ msgstr "Întoarceri animate _consecutive"
+
+#~ msgid "S_how grid"
+#~ msgstr "A_rată caroiajul"
+
+#~ msgid "_Flip final results"
+#~ msgstr "_Răstoarnă rezultatul final"
+
+#~ msgid "_Tile set:"
+#~ msgstr "Înfățișarea _tablei:"
+
+#~ msgid "File is not a valid .desktop file"
+#~ msgstr "Fișierul nu este un fișier .desktop valid"
+
+#~ msgid "Unrecognized desktop file Version '%s'"
+#~ msgstr "Versiune fișier desktop nerecunoscută „%s”"
+
+#~ msgid "Application does not accept documents on command line"
+#~ msgstr "Aplicația nu acceptă documente în linia de comandă"
+
+#~ msgid "Unrecognized launch option: %d"
+#~ msgstr "Opțiune de lansare nerecunoscută: %d"
+
+#~ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+#~ msgstr ""
+#~ "Nu se pot trimite URI-uri de documente unei intrări desktop de tip "
+#~ "„Type=Link”"
+
+#~ msgid "Not a launchable item"
+#~ msgstr "Nu este un element care să poată fi pornit"
+
+#~ msgid "Disable connection to session manager"
+#~ msgstr "Dezactivează conexiunea la administratorul de sesiuni"
+
+#~ msgid "Specify file containing saved configuration"
+#~ msgstr "Specificați fișierul care conține configurația salvată"
+
+#~ msgid "FILE"
+#~ msgstr "FIȘIER"
+
+#~ msgid "Specify session management ID"
+#~ msgstr "Specifică ID-ul administrării de sesiune"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Session management options:"
+#~ msgstr "Opțiuni de administrare a sesiunii:"
+
+#~ msgid "Show session management options"
+#~ msgstr "Afișează opțiunile de administrare a sesiunii"
+
+#~ msgid "X Padding"
+#~ msgstr "Completare pe X"
+
+#~ msgid "Extra space to add to the width allocation."
+#~ msgstr "Spațiu suplimentar alocat la lățime."
+
+#~ msgid "Extra space to add to the height allocation."
+#~ msgstr "Spațiu suplimentar alocat la înălțime."
+
+#~ msgid "Width Multiple"
+#~ msgstr "Multiplu lățime"
+
+#~ msgid "What multiple to constrain the width to."
+#~ msgstr "La ce multiplu să fie constrânsă lățimea."
+
+#~ msgid "Height Multiple"
+#~ msgstr "Multiplu înălțime"
+
+#~ msgid "What multiple to constrain the height to."
+#~ msgstr "La ce multiplu să fie constrânsă înălțimea."
+
+#~ msgid "X align"
+#~ msgstr "Aliniere pe X"
+
+#~ msgid "The horizontal alignment, from 0 (left) to 1 (right)"
+#~ msgstr "Aliniamentul pe orizontală, de la 0 (stânga) la 1 (dreapta)"
+
+#~ msgid "Y align"
+#~ msgstr "Aliniere pe Y"
+
+#~ msgid "The vertical alignment, from 0 (top) to 1 (bottom)"
+#~ msgstr "Aliniamentul pe verticală, de la 0 (sus) la 1 (jos)"
+
+#~ msgid "Help file “%s.%s” not found"
+#~ msgstr "Fișierul de ajutor „%s.%s” nu a fost găsit"
+
+#~ msgid "Could not show link"
+#~ msgstr "Legătura nu poate fi afișată"
+
+#~ msgid "Score"
+#~ msgstr "Scor"
+
+#~ msgid "%dm %ds"
+#~ msgstr "%dm %ds"
+
+#~ msgid "Name"
+#~ msgstr "Nume"
+
+#~ msgid "End the current game"
+#~ msgstr "Termină jocul curent"
+
+#~ msgid "Toggle fullscreen mode"
+#~ msgstr "Comută modul pe tot ecranul"
+
+#~ msgid "Leave fullscreen mode"
+#~ msgstr "Ieși din modul pe tot ecranul"
+
+#~ msgid "Start a new multiplayer network game"
+#~ msgstr "Pornire joc nou în rețea cu mai mulți adversari"
+
+#~ msgid "End the current network game and return to network server"
+#~ msgstr "Termină jocul curent de rețea și întoarce-te la serverul de rețea"
+
+#~ msgid "Pause the game"
+#~ msgstr "Întrerupe temporar jocul"
+
+#~ msgid "Show a list of players in the network game"
+#~ msgstr "Arată o listă a jucătorilor din jocul de rețea"
+
+#~ msgid "Resume the paused game"
+#~ msgstr "Continuă jocul întrerupt"
+
+#~ msgid "View the scores"
+#~ msgstr "Arată scorurile"
+
+#~ msgid "Configure the game"
+#~ msgstr "Configurează jocul"
+
+#~ msgid "Quit this game"
+#~ msgstr "Termină acest joc"
+
+#~ msgid "_Fullscreen"
+#~ msgstr "_Pe tot ecranul"
+
+#~ msgid "_New"
+#~ msgstr "_Nou"
+
+#~ msgid "_Redo Move"
+#~ msgstr "_Refă mutarea"
+
+#~ msgid "_Restart"
+#~ msgstr "_Reîncepe"
+
+#~ msgid "_Deal"
+#~ msgstr "Îm_parte"
+
+#~ msgid "_Leave Fullscreen"
+#~ msgstr "Ieșire din mod pe tot ecranu_l"
+
+#~ msgid "Network _Game"
+#~ msgstr "_Joc în rețea"
+
+#~ msgid "L_eave Game"
+#~ msgstr "I_eșire joc"
+
+#~ msgid "Player _List"
+#~ msgstr "_Listă jucători"
+
+#~ msgid "_Pause"
+#~ msgstr "_Pauză"
+
+#~ msgid "Res_ume"
+#~ msgstr "Rel_uare"
+
+#~ msgid "_End Game"
+#~ msgstr "_Termină jocul"
+
+#~ msgid "_Cancel"
+#~ msgstr "A_nulare"
+
+#~ msgid "_Close"
+#~ msgstr "În_chide"
+
+#~ msgid "_OK"
+#~ msgstr "_OK"
+
+#~ msgid ""
+#~ "%s is free software; you can redistribute it and/or modify it under the "
+#~ "terms of the GNU General Public License as published by the Free Software "
+#~ "Foundation; either version %d of the License, or (at your option) any "
+#~ "later version."
+#~ msgstr ""
+#~ "%s este o aplicație gratuită; o puteți redistribui și/sau modifica "
+#~ "respectând termenii licenței GNU General Public License publicată de "
+#~ "către Free Software Foundation fie versiunea %d a licenței fie (la "
+#~ "alegere) orice versiune ulterioară."
+
+#~ msgid ""
+#~ "You should have received a copy of the GNU General Public License along "
+#~ "with this program.  If not, see <http://www.gnu.org/licenses/>."
+#~ msgstr ""
+#~ "În mod normal trebuie să primiți o copie a licenței GNU General Public "
+#~ "License odată cu aplicația. Dacă acest lucru nu s-a întâmplat vizitați "
+#~ "<http://www.gnu.org/licenses/>."
+
+#~ msgid "Lights Off"
+#~ msgstr "Închide luminile"
+
+#~ msgid "Turn off all the lights"
+#~ msgstr "Închide toate luminile"
+
+#~ msgid ""
+#~ "If enabled, the default background color from the user's default GNOME "
+#~ "theme is used to draw the tiles."
+#~ msgstr ""
+#~ "Dacă e activat, culoarea implicită de fundal a temei implicite GNOME este "
+#~ "utilizată pentru a desena mozaicul."
+
+#~ msgid "The current score"
+#~ msgstr "Scorul curent"
+
+#~ msgid "The theme to use"
+#~ msgstr "Tema ce va fi folosită"
+
+#~ msgid "The title of the tile theme to use."
+#~ msgstr "Titlul temei de mozaic de folosit."
+
+#~ msgid "Whether or not to use the GNOME theme colors"
+#~ msgstr "Dacă să se folosească culorile din tema GNOME"
+
+#~ msgid "Theme:"
+#~ msgstr "Teme:"
+
+#~ msgid "Use colors from GNOME theme"
+#~ msgstr "Folosește culori din tema GNOME"
+
+#~ msgid ""
+#~ "Turn off all the lights\n"
+#~ "\n"
+#~ "Lights Off is a part of GNOME Games."
+#~ msgstr ""
+#~ "Închide toate luminile\n"
+#~ "\n"
+#~ "Închide luminile este o componentă a proiectului Jocuri GNOME."
+
+#~ msgid "Copyright  2009 Tim Horton"
+#~ msgstr "Drepturi de autor 2009 Tim Horton"
+
+#~ msgid ""
+#~ "The selected theme failed to render.\n"
+#~ "\n"
+#~ "Please check that Mahjongg is installed correctly."
+#~ msgstr ""
+#~ "Tema aleasă nu a putut fi randată.\n"
+#~ "\n"
+#~ "Verificați dacă jocul Mahjongg este instalat corect."
+
+#~ msgid ""
+#~ "Unable to render file:\n"
+#~ "'%s'\n"
+#~ "\n"
+#~ "Please check that Mahjongg is installed correctly."
+#~ msgstr ""
+#~ "Nu am putut randa fișierul:\n"
+#~ "„%s”\n"
+#~ "\n"
+#~ "Verificați instalarea Mahjongg."
+
+#~ msgid "Mahjongg"
+#~ msgstr "Mahjongg"
+
+#~ msgid "Could not load tile set"
+#~ msgstr "Nu am putut încărca setul de piese"
+
+#~ msgid "Do you want to start a new game with this map?"
+#~ msgstr "Doriți să începeți un joc nou cu această hartă?"
+
+#~ msgid "If you continue playing the next game will use the new map."
+#~ msgstr "Dacă veți continua să jucați următorul joc va folosi noua hartă."
+
+#~ msgid "_Continue playing"
+#~ msgstr "_Continuă jocul"
+
+#~ msgid "Use _new map"
+#~ msgstr "Folosește hartă _nouă"
+
+#~ msgid "There are no more moves."
+#~ msgstr "Nu mai sunt mutări valide."
+
+#~ msgid "_New game"
+#~ msgstr "Joc _nou"
+
+#~ msgid "_Shuffle"
+#~ msgstr "_Amestecă"
+
+#~ msgid "Mahjongg Scores"
+#~ msgstr "Scoruri Mahjongg"
+
+#~ msgid "Mahjongg Preferences"
+#~ msgstr "Preferințe Mahjongg"
+
+#~ msgid "Tiles"
+#~ msgstr "Piese"
+
+#~ msgid "Maps"
+#~ msgstr "Hărți"
+
+#~ msgid "_Select map:"
+#~ msgstr "_Alegeți harta:"
+
+#~ msgid "Colors"
+#~ msgstr "Culori"
+
+#~ msgid "Maps:"
+#~ msgstr "Hărți:"
+
+#~ msgid "Tiles:"
+#~ msgstr "Piese:"
+
+#~ msgid ""
+#~ "A matching game played with Mahjongg tiles.\n"
+#~ "\n"
+#~ "Mahjongg is a part of GNOME Games."
+#~ msgstr ""
+#~ "Un joc de făcut perechi cu piese de Mahjongg.\n"
+#~ "\n"
+#~ "Mahjongg este parte a suitei de Jocuri GNOME."
+
+#~ msgid "Mahjongg - %s"
+#~ msgstr "Mahjongg - %s"
+
+#~ msgid "Restart the current game"
+#~ msgstr "Repornește jocul curent"
+
+#~ msgid "Redo the last move"
+#~ msgstr "Refă ultima mutare"
+
+#~ msgid "Show a hint"
+#~ msgstr "Afișează un indiciu"
+
+#~ msgid "Tiles Left:"
+#~ msgstr "Piese rămase:"
+
+#~ msgid "Moves Left:"
+#~ msgstr "Mutări rămase:"
+
+#~ msgid "Remove matching pairs of tiles."
+#~ msgstr "Elimină perechile de piese care se potrivesc."
+
+#~ msgid "Disassemble a pile of tiles by removing matching pairs"
+#~ msgstr "Demolează o construcție de piese îndepărtând piesele pereche"
+
+#~ msgctxt "mahjongg map name"
+#~ msgid "Easy"
+#~ msgstr "Ușor"
+
+#~ msgctxt "mahjongg map name"
+#~ msgid "The Ziggurat"
+#~ msgstr "Zigurat"
+
+#~ msgctxt "mahjongg map name"
+#~ msgid "Four Bridges"
+#~ msgstr "Patru poduri"
+
+#~ msgctxt "mahjongg map name"
+#~ msgid "Cloud"
+#~ msgstr "Nor"
+
+#~ msgctxt "mahjongg map name"
+#~ msgid "Tic-Tac-Toe"
+#~ msgstr "Tic-Tac-Toe"
+
+#~ msgctxt "mahjongg map name"
+#~ msgid "Red Dragon"
+#~ msgstr "Dragonul roșu"
+
+#~ msgctxt "mahjongg map name"
+#~ msgid "Pyramid's Walls"
+#~ msgstr "Zidurile piramidei"
+
+#~ msgctxt "mahjongg map name"
+#~ msgid "Confounding Cross"
+#~ msgstr "Cruci întrepătrunse"
+
+#~ msgctxt "mahjongg map name"
+#~ msgid "Difficult"
+#~ msgstr "Dificil"
+
+#~ msgid "Swell Foop"
+#~ msgstr "Swell Foop"
+
+#~ msgid "Board size:"
+#~ msgstr "Dimensiune tablă:"
+
+#~ msgid "Number of colors:"
+#~ msgstr "Număr culori:"
+
+#~ msgid "Zealous Animation"
+#~ msgstr "Animație îndrăzneață"
+
+#~ msgid "Clear the screen by removing groups of colored and shaped tiles"
+#~ msgstr ""
+#~ "Curățați ecranul eliminând grupuri de bile colorate și mozaicuri cu forme"
+
+#~ msgid "Board color count"
+#~ msgstr "Numărul culorilor tablei"
+
+#~ msgid "The number of colors of tiles to use in the game."
+#~ msgstr "Numărul culorilor pieselor folosite în joc."
+
+#~ msgid "The size of the game board."
+#~ msgstr "Mărimea tablei de joc."
+
+#~ msgid "Use more flashy, but slower, animations."
+#~ msgstr "Folosește animație mai aspectuoasă, dar mai înceată."
+
+#~ msgid "Zealous animation"
+#~ msgstr "Animație îndrăzneață"
+
+#~ msgid ""
+#~ "I want to play that game! You know, they all go whirly-round and you "
+#~ "click on them and they vanish!\n"
+#~ "\n"
+#~ "Swell Foop is a part of GNOME Games."
+#~ msgstr ""
+#~ "Vreau să joc jocul acela! Știți voi care, acela în care toate se învârt "
+#~ "și faci clic pe ele și dispar!\n"
+#~ "\n"
+#~ "Swell Foop este o componentă a proiectului Jocuri GNOME."
+
+#~ msgid "No points"
+#~ msgstr "Niciun punct"
+
+#~ msgid "%d point"
+#~ msgid_plural "%d points"
+#~ msgstr[0] "%d punct"
+#~ msgstr[1] "%d puncte"
+#~ msgstr[2] "%d de puncte"
+
+#~ msgid "Swell Foop Scores"
+#~ msgstr "Scoruri Swell Foop"
+
+#~ msgid "Small"
+#~ msgstr "Mic"
+
+#~ msgid "Normal"
+#~ msgstr "Normal"
+
+#~ msgid "Large"
+#~ msgstr "Mare"
+
+#~ msgid "%s: option `%s' is ambiguous\n"
+#~ msgstr "%s: opțiunea „%s” este ambiguă\n"
+
+#~ msgid "%s: option `--%s' doesn't allow an argument\n"
+#~ msgstr "%s: opțiunea „--%s” nu permite parametri\n"
+
+#~ msgid "%s: option `%c%s' doesn't allow an argument\n"
+#~ msgstr "%s: opțiunea „%c%s” nu permite parametri\n"
+
+#~ msgid "%s: option `%s' requires an argument\n"
+#~ msgstr "%s: opțiunea „%s” necesită un parametru\n"
+
+#~ msgid "%s: unrecognized option `--%s'\n"
+#~ msgstr "%s: opțiune necunoscută „--%s”\n"
+
+#~ msgid "%s: unrecognized option `%c%s'\n"
+#~ msgstr "%s: opțiune necunoscută „%c%s”\n"
+
+#~ msgid "%s: illegal option -- %c\n"
+#~ msgstr "%s: opțiune nepermisă -- %c\n"
+
+#~ msgid "%s: invalid option -- %c\n"
+#~ msgstr "%s: opțiune nevalidă -- %c\n"
+
+#~ msgid "%s: option requires an argument -- %c\n"
+#~ msgstr "%s: opțiunea necesită un parametru -- %c\n"
+
+#~ msgid "%s: option `-W %s' is ambiguous\n"
+#~ msgstr "%s: opțiunea „-W %s” este ambiguă\n"
+
+#~ msgid "%s: option `-W %s' doesn't allow an argument\n"
+#~ msgstr "%s: opțiunea „-W %s” nu permite niciun parametru\n"
+
+#~ msgid "A flag to allow remote players to watch new games"
+#~ msgstr ""
+#~ "Un indicator pentru a permite jucătorilor aflați la distanță să privească "
+#~ "jocuri noi"
+
+#~ msgid "A flag to enable network game support"
+#~ msgstr "Un indicator pentru activarea suportului de joc în rețea"
+
+#~ msgid "A flag to show move comments"
+#~ msgstr "Un marcaj pentru a afișa comentariile mutărilor"
+
+#~ msgid "The amount of time each player has to move in new games"
+#~ msgstr "Durata de timp în care fiecare jucător trebuie să mute în noul joc"
+
+#~ msgid "The board side to display"
+#~ msgstr "Dimensiunea tablei afișate"
+
+#~ msgid "The default player difficulty for black in new games"
+#~ msgstr "Dificultatea implicită a jucătorului negru din jocurile noi"
+
+#~ msgid "The default player difficulty for white in new games"
+#~ msgstr "Dificultatea implicită a jucătorului alb din jocurile noi"
+
+#~ msgid "The default player type for black in new games"
+#~ msgstr "Tipul implicit al jucătorului negru în jocurile noi"
+
+#~ msgid "The default player type for white in new games"
+#~ msgstr "Tipul implicit al jucătorului alb în jocurile noi"
+
+#~ msgid ""
+#~ "The format to display moves in, can be either 'human' (human readable), "
+#~ "'lan' (long algebraic notation) or 'san' (standard algebraic notation)"
+#~ msgstr ""
+#~ "Formatul de afișare al mesajelor poate fi „uman” (în limbaj obișnuit), "
+#~ "„lan” (notație algerbică lungă) sau „san” (notație algebrică standard)"
+
+#~ msgid ""
+#~ "The side of the board that is in the foreground, either 'white', 'black', "
+#~ "'current' (the current player), 'human' (the side of the current human "
+#~ "player) or 'facetoface' (suitable for players on each side of screen, e."
+#~ "g. handhelds)"
+#~ msgstr ""
+#~ "Partea tablei care este în prim-plan, una dintre „alb”, „negru”, "
+#~ "„curent” (jucătorul curent), „om” (partea jucătorului uman curent) sau "
+#~ "„față-în-față” (convenabilă jucătorilor de fiecare parte a ecranului, de "
+#~ "ex. portabile)"
+
+#~ msgid "Load a saved game"
+#~ msgstr "Încarcă un joc salvat"
+
+#~ msgid "Logs"
+#~ msgstr "Jurnale"
+
+#~ msgid "Save the current game"
+#~ msgstr "Salvare partidă curentă"
+
+#~ msgid "Show _Logs"
+#~ msgstr "Arată jurna_lele"
+
+#~ msgid "There are no active logs."
+#~ msgstr "Nu există jurnale active."
+
+#~ msgid "Load Chess Game"
+#~ msgstr "Încărcare joc de șah"
+
+#~ msgid "Communication:"
+#~ msgstr "Comunicație:"
+
+#~ msgid "Executable:"
+#~ msgstr "Executabil:"
+
+#~ msgid "<b>Game</b>"
+#~ msgstr "<b>Joc</b>"
+
+#~ msgid "<b>Rooms</b>"
+#~ msgstr "<b>Camere</b>"
+
+#~ msgid "<b>Server</b>"
+#~ msgstr "<b>Server</b>"
+
+#~ msgid "<b>Status/_Chat</b>"
+#~ msgstr "<b>Stare/Dis_cuție</b>"
+
+#~ msgid "_Join"
+#~ msgstr "_Intră"
+
+#~ msgid "_Leave"
+#~ msgstr "P_leacă"
+
+#~ msgid "_Profile:"
+#~ msgstr "_Profil:"
+
+#~ msgid "Add Account"
+#~ msgstr "Adaugă cont"
+
+#~ msgid "User _Name:"
+#~ msgstr "_Nume utilizator:"
+
+#~ msgid "_Add Account"
+#~ msgstr "_Adaugă acont"
+
+#~ msgid "_Host:"
+#~ msgstr "_Gazdă:"
+
+#~ msgid "_Port:"
+#~ msgstr "_Port:"
+
+#~ msgid "_Server:"
+#~ msgstr "_Server:"
+
+#~ msgid "<b>Difficulty</b>"
+#~ msgstr "<b>Dificultate</b>"
+
+#~ msgid "<b>Game Properties</b>"
+#~ msgstr "<b>Proprietăți ale jocului</b>"
+
+#~ msgid "<b>Players</b>"
+#~ msgstr "<b>Jucători</b>"
+
+#~ msgid "B_lack:"
+#~ msgstr "Ne_gru:"
+
+#~ msgid "Enter the title for this game"
+#~ msgstr "Itroduceți numele acestei partide"
+
+#~ msgid "Move _Time:"
+#~ msgstr "Dura_ta mutării:"
+
+#~ msgid "Start the game. The game can be started once all fields are complete"
+#~ msgstr ""
+#~ "Pornește jocul. Jocul poate fi pornit odată ce toate câmpurile sunt "
+#~ "complete."
+
+#~ msgid "W_hite:"
+#~ msgstr "Al_b:"
+
+#~ msgid "_Black:"
+#~ msgstr "_Negru:"
+
+#~ msgid "_Game name:"
+#~ msgstr "Nume _Partidă:"
+
+#~ msgid "_White:"
+#~ msgstr "_Alb:"
+
+#~ msgid "Show or hide numbering on the chess board"
+#~ msgstr "Arată sau ascunde numerotarea pe tabla de șah"
+
+#~ msgid "Show or hide the game history panel"
+#~ msgstr "Arată sau ascunde panoul istoriei jocului"
+
+#~ msgid "Shows hints during chess games"
+#~ msgstr "Arată indicii în timpul jocului de șah"
+
+#~ msgid "Smooth edges of the 3D elements (anti-alias)"
+#~ msgstr "Muchii netede pentru elemente 3D (anti-alias)"
+
+#~ msgid ""
+#~ "View the chess board by default in 2D mode, or optionally in 3D mode "
+#~ "using OpenGL."
+#~ msgstr ""
+#~ "Vizualizează tabla de șah în modul implicit (2D) sau, opțional, în modul "
+#~ "3D utilizând OpenGL."
+
+#~ msgid "Save Chess Game"
+#~ msgstr "Salvare partidă"
+
+#~ msgid "Chess incorrectly installed"
+#~ msgstr "Șah instalat incorect"
+
+#~ msgid ""
+#~ "Chess is not able to start because required application files are not "
+#~ "installed. If you are currently upgrading your system please wait until "
+#~ "the upgrade has completed."
+#~ msgstr ""
+#~ "Șahul nu poate porni deoarece fișierele necesare aplicației nu sunt "
+#~ "instalate. Dacă momentan vă actualizați sistemul vă rog să așteptați până "
+#~ "la terminarea actualizării."
+
+#~ msgid "Unlimited"
+#~ msgstr "Nelimitat"
+
+#~ msgid "Unable to find %s engine"
+#~ msgstr "Nu s-a putut găsi motorul %s"
+
+#~ msgid "Configure loaded game (%i moves)"
+#~ msgstr "Configurați jocul încărcat (%i mutări)"
+
+#~ msgid "Game settings changed"
+#~ msgstr "Setările jocului au fost schimbate"
+
+#~ msgid "%(white)s versus %(black)s"
+#~ msgstr "%(white)s împotriva %(black)s"
+
+#~ msgid "PGN files"
+#~ msgstr "Fișiere PNG"
+
+#~ msgid "All files"
+#~ msgstr "Toate fișierele"
+
+#~ msgid "Please select a file to load"
+#~ msgstr "Selectați un fișier de încărcat"
+
+#~ msgid "Unabled to load game"
+#~ msgstr "Nu s-a putut încărca jocul"
+
+#~ msgid "Please enter a file name"
+#~ msgstr "Vă rog introduceți un nume de fișier"
+
+#~ msgid "Chess - *%(game_name)s"
+#~ msgstr "Șah - *%(game_name)s"
+
+#~ msgid "Chess - %(game_name)s"
+#~ msgstr "Șah - %(game_name)s"
+
+#~ msgid "∞"
+#~ msgstr "∞"
+
+#~ msgid "If you don't save the changes to this game will be permanently lost"
+#~ msgstr ""
+#~ "Dacă nu salvați, atunci modificările făcute jocului vor fi pierdute "
+#~ "permanent"
+
+#~ msgid "Close _without saving"
+#~ msgstr "Înc_hide fără a salva"
+
+#~ msgid "Unable to enable 3D mode"
+#~ msgstr "Modulul 3D a fost imposibil de activat"
+
+#~ msgid ""
+#~ "You are unable to play in 3D mode due to the following problems:\n"
+#~ "%(errors)s\n"
+#~ "\n"
+#~ "Please contact your system administrator to resolve these problems, until "
+#~ "then you will be able to play chess in 2D mode."
+#~ msgstr ""
+#~ "Nu puteți juca în modul 3D datorită următoarelor probleme:\n"
+#~ "%(errors)s\n"
+#~ "\n"
+#~ "Contactați administratorul de sistem pentru a rezolva aceste probleme. "
+#~ "Până atunci vă puteți juca în modul 2D."
+
+#~ msgid "Unable to claim draw"
+#~ msgstr "Nu se poate solicita remiză"
+
+#~ msgid ""
+#~ "You may claim a draw when:\n"
+#~ "a) The board has been in the same state three times (Three fold "
+#~ "repetition)\n"
+#~ "b) Fifty moves have occurred where no pawn has moved and no piece has "
+#~ "been captured (50 move rule)"
+#~ msgstr ""
+#~ "Puteți cere o regină când:\n"
+#~ "a) Tabla a fost în aceeași stare de trei ori (trei repetiții)\n"
+#~ "b) Cincizeci de mutări au avut loc în care niciun pion nu a fost mutat și "
+#~ "nicio piesă nu a fost capturată (regula celor 50 de mutări)"
+
+#~ msgid "No Python OpenGL support"
+#~ msgstr "Nu există suport Python pentru OpenGL"
+
+#~ msgid "No Python GTKGLExt support"
+#~ msgstr "Nu există suport Python pentru GTKGLExt"
+
+#~ msgid "OpenGL libraries do not support required display mode"
+#~ msgstr "Bibliotecile OpenGL nu suportă modul de afișare necesar"
+
+#~ msgid "No comment"
+#~ msgstr "Fără comentariu"
+
+#~ msgid "White castles long"
+#~ msgstr "Albul face o rocadă mare"
+
+#~ msgid "Black castles long"
+#~ msgstr "Negrul face o rocadă mare"
+
+#~ msgid "White castles short"
+#~ msgstr "Albul face o rocadă mică"
+
+#~ msgid "Black castles short"
+#~ msgstr "Negrul face o rocadă mică"
+
+#~ msgid "%(movenum)2iw. %(description)s (Check)"
+#~ msgstr "%(movenum)2iw. %(description)s (Șah)"
+
+#~ msgid "%(movenum)2iw. %(description)s (Checkmate)"
+#~ msgstr "%(movenum)2iw. %(description)s (Șah-mat)"
+
+#~ msgid "%(movenum)2iw. %(description)s (Stalemate)"
+#~ msgstr "%(movenum)2iw. %(description)s (Remiză)"
+
+#~ msgid "%(movenum)2iw. %(description)s"
+#~ msgstr "%(movenum)2iw. %(description)s"
+
+#~ msgid "%(movenum)2ib. %(description)s (Check)"
+#~ msgstr "%(movenum)2ib. %(description)s (Șah)"
+
+#~ msgid "%(movenum)2ib. %(description)s (Checkmate)"
+#~ msgstr "%(movenum)2ib. %(description)s (Șah-mat)"
+
+#~ msgid "%(movenum)2ib. %(description)s (Stalemate)"
+#~ msgstr "%(movenum)2ib. %(description)s (Remiză)"
+
+#~ msgid "%(movenum)2ib. %(description)s"
+#~ msgstr "%(movenum)2ib. %(description)s"
+
+#~ msgid "%s wins"
+#~ msgstr "%s învinge"
+
+#~ msgid "Opponent is in check and cannot move (checkmate)"
+#~ msgstr "Adversarul este în șah și nu mai poate muta (șah mat)"
+
+#~ msgid "Opponent cannot move (stalemate)"
+#~ msgstr "Adversarul nu poate muta (pat)"
+
+#~ msgid "No piece has been taken or pawn moved in the last fifty moves"
+#~ msgstr ""
+#~ "Nicio piesă nu a fost luată sau pion mutat în ultimele 50 de mutări."
+
+#~ msgid "Opponent has run out of time"
+#~ msgstr "Timpul adversarului a expirat"
+
+#~ msgid ""
+#~ "The same board state has occurred three times (three fold repetition)"
+#~ msgstr "Această situație de joc s-a repetat de trei ori"
+
+#~ msgid "Neither player can cause checkmate (insufficient material)"
+#~ msgstr "Niciunul dintre jucători nu poate face șah mat (piese insuficiente)"
+
+#~ msgid "The black player has resigned"
+#~ msgstr "Jucătorul negru a renunțat"
+
+#~ msgid "The white player has resigned"
+#~ msgstr "Jucătorul alb a renunțat"
+
+#~ msgid "The game has been abandoned"
+#~ msgstr "Jocul a fost abandonat"
+
+#~ msgid "One of the players has died"
+#~ msgstr "Unul dintre jucători a murit"
+
+#~ msgid "GGZ Gaming Zone"
+#~ msgstr "Zona de joc GGZ"
+
+#~ msgid "Disconnected"
+#~ msgstr "Deconectat"
+
+#~ msgid "New profile..."
+#~ msgstr "Profil nou..."
+
+#~ msgid "Table"
+#~ msgstr "Masă"
+
+#~ msgid "Seats"
+#~ msgstr "Locuri"
+
+#~ msgid "Description"
+#~ msgstr "Descriere"
+
+#~ msgid "Seat"
+#~ msgstr "Loc"
+
+#~ msgid "Player"
+#~ msgstr "Jucător"
+
+#~ msgid "Spectator"
+#~ msgstr "Spectator"
+
+#~ msgid "Reserved for %s"
+#~ msgstr "Rezervat pentru %s"
+
+#~ msgid "Seat empty"
+#~ msgstr "Loc gol"
+
+#~ msgid "AI (%s)"
+#~ msgstr "IA (%s)"
+
+#~ msgctxt "chess-file"
+#~ msgid "a"
+#~ msgstr "a"
+
+#~ msgctxt "chess-file"
+#~ msgid "b"
+#~ msgstr "b"
+
+#~ msgctxt "chess-file"
+#~ msgid "c"
+#~ msgstr "c"
+
+#~ msgctxt "chess-file"
+#~ msgid "d"
+#~ msgstr "d"
+
+#~ msgctxt "chess-file"
+#~ msgid "e"
+#~ msgstr "e"
+
+#~ msgctxt "chess-file"
+#~ msgid "f"
+#~ msgstr "f"
+
+#~ msgctxt "chess-file"
+#~ msgid "g"
+#~ msgstr "g"
+
+#~ msgctxt "chess-file"
+#~ msgid "h"
+#~ msgstr "h"
+
+#~ msgctxt "chess-rank"
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgctxt "chess-rank"
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgctxt "chess-rank"
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgctxt "chess-rank"
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgctxt "chess-rank"
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgctxt "chess-rank"
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgctxt "chess-rank"
+#~ msgid "7"
+#~ msgstr "7"
+
+#~ msgctxt "chess-rank"
+#~ msgid "8"
+#~ msgstr "8"
+
+#~ msgctxt "chess-notation"
+#~ msgid "P"
+#~ msgstr "P"
+
+#~ msgctxt "chess-notation"
+#~ msgid "N"
+#~ msgstr "N"
+
+#~ msgctxt "chess-notation"
+#~ msgid "B"
+#~ msgstr "B"
+
+#~ msgctxt "chess-notation"
+#~ msgid "R"
+#~ msgstr "R"
+
+#~ msgctxt "chess-notation"
+#~ msgid "Q"
+#~ msgstr "Q"
+
+#~ msgctxt "chess-notation"
+#~ msgid "K"
+#~ msgstr "K"
+
+#~ msgid "'%(name)s' in '%(game)s'"
+#~ msgstr "„%(name)s” în „%(game)s”"
+
+#~ msgid "Application Log"
+#~ msgstr "Jurnal aplicație"
+
+#~ msgid "Usage: %s [game]"
+#~ msgstr "Mod de utilizare: %s [joc]"
+
+#~ msgid "Human versus %s"
+#~ msgstr "Om versus %s"
+
+#~ msgid ""
+#~ "glChess has crashed. Please report this bug to http://bugzilla.gnome.org\n"
+#~ "Debug output:"
+#~ msgstr ""
+#~ "glChess s-a oprit neșteptat. Raportați această problemă la http://"
+#~ "bugzilla.gnome.org\n"
+#~ "Informații de depanare:"
+
+#~ msgid "glChess"
+#~ msgstr "glChess"
+
+#~ msgid "Copyright 2005-2008 Robert Ancell (and contributors)"
+#~ msgstr "Copyright 2005-2008 Robert Ancell (și cocolaboratorii)"
+
+#~ msgid ""
+#~ "The 2D/3D chess game for GNOME. \n"
+#~ "\n"
+#~ "glChess is a part of GNOME Games."
+#~ msgstr ""
+#~ "Un joc de șah 2D/3D pentru GNOME. \n"
+#~ "\n"
+#~ "glChess ese parte a Jocurilor GNOME."
+
+#~ msgid "Incorrect password"
+#~ msgstr "Parolă greșită"
+
+#~ msgid "Account in use"
+#~ msgstr "Contul este folosit"
+
+#~ msgid "Connection closed: %s"
+#~ msgstr "Conexiune închisă: %s"
+
+#~ msgid "A password is required"
+#~ msgstr "Este necesară o parolă"
+
+#~ msgid "Disconnected from server"
+#~ msgstr "Deconectat de la server"
+
+#~ msgid "No description"
+#~ msgstr "Fără descriere"
+
+#~ msgid "Themes"
+#~ msgstr "Teme"
+
+#~ msgid "_Bastard mode"
+#~ msgstr "Modul _bastard"
+
+#~ msgid "Qua"
+#~ msgstr "Qua"
+
+#~ msgid "Generate new puzzles in the background"
+#~ msgstr "Generează jocuri noi în fundal"
+
+#~ msgid "<b><i>Details</i></b>"
+#~ msgstr "<b><i>Detalii</i></b>"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Print Games</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Tipăriți Jocuri</span>"
+
+#~ msgid "<i><u>Number of Puzzles</u></i>"
+#~ msgstr "<i><u>Număr de jocuri</u></i>"
+
+#~ msgid "<i>Easy:</i>"
+#~ msgstr "<i>Simplu:</i>"
+
+#~ msgid "<i>Hard:</i>"
+#~ msgstr "<i>Dificil:</i>"
+
+#~ msgid "<i>Medium:</i>"
+#~ msgstr "<i>Mediu:</i>"
+
+#~ msgid "<i>Very Hard:</i>"
+#~ msgstr "<i>Foarte dificil:</i>"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Puzzle Generator</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Generator de jocuri</span>"
+
+#~ msgid "Criteria:"
+#~ msgstr "Criterii:"
+
+#~ msgid "Generate Policy"
+#~ msgstr "Generează Regulile"
+
+#~ msgid "Generate new puzzles _until stopped"
+#~ msgstr "Generează joc_uri noi până când este oprit"
+
+#~ msgid "Generate until _reaching target"
+#~ msgstr "Generează până la _atingerea țintei"
+
+#~ msgid "Puzzle Generator"
+#~ msgstr "Generator de jocuri"
+
+#~ msgid "Target _number of sudokus:"
+#~ msgstr "_Numărul țintă de sudokuri:"
+
+#~ msgid "_Generate"
+#~ msgstr "_Generează"
+
+#~ msgid "<b><span size=\"large\">_New Game</span></b>"
+#~ msgstr "<b><span size=\"large\">Joc _nou</span></b>"
+
+#~ msgid "<b><span size=\"large\">_Saved Games</span></b>"
+#~ msgstr "<b><span size=\"large\">Jocuri _salvate</span></b>"
+
+#~ msgid "Clear _Others"
+#~ msgstr "Curăță _Alții"
+
+#~ msgid "_Clear Tracker"
+#~ msgstr "_Curăță Tracker"
+
+#~ msgid "_Trackers"
+#~ msgstr "_Tackere"
+
+#~ msgid "Sudoku unable to save game."
+#~ msgstr "Sudoku nu a putut salva jocul."
+
+#~ msgid "Print current game"
+#~ msgstr "Tipărire joc curent"
+
+#~ msgid "Print more than one sudoku at a time."
+#~ msgstr "Tipărește mai mult de un sudoku o dată."
+
+#~ msgid "Close Sudoku"
+#~ msgstr "Închide Sudoku"
+
+#~ msgid "Show which numbers could go in the current square."
+#~ msgstr "Afișează ce numere s-ar potrivi în căsuța curentă."
+
+#~ msgid "_Fill"
+#~ msgstr "_Completează"
+
+#~ msgid "Automatically fill in the current square if possible."
+#~ msgstr "Completează automat căsuța curentă dacă este posibil."
+
+#~ msgid "Fill _all squares"
+#~ msgstr "Completează to_ate căsuțele"
+
+#~ msgid ""
+#~ "Automatically fill in all squares for which there is only one valid value."
+#~ msgstr ""
+#~ "Completează automat toate căsuțele pentru care există o singură valoare "
+#~ "validă."
+
+#~ msgid "_Generate new puzzles"
+#~ msgstr "_Generează jocuri noi"
+
+#~ msgid "Generate new puzzles."
+#~ msgstr "Generează jocuri noi"
+
+#~ msgid "Show statistics about current puzzle"
+#~ msgstr "Afișarea statisticilor jocului curent"
+
+#~ msgid "_Always show hint"
+#~ msgstr "_Afișează indiciu întotdeauna"
+
+#~ msgid "Generate new puzzles _while you play"
+#~ msgstr "Generează jocuri noi în timpul _jocului"
+
+#~ msgid ""
+#~ "Generate new puzzles in the background while you play. This will "
+#~ "automatically pause when the game goes into the background."
+#~ msgstr ""
+#~ "Generează noi jocuri în fundal în tipul jocului. Generarea va fi "
+#~ "suspendată când jocul este trecut în fundal."
+
+#~ msgid "_Edit"
+#~ msgstr "_Editare"
+
+#~ msgid "Clear entries you've filled in"
+#~ msgstr "Șterge căsuțele pe care le-ați completat"
+
+#~ msgid "Clear notes and hints"
+#~ msgstr "Golește notele și indiciile"
+
+#~ msgid "You used the auto-fill %(n)s time"
+#~ msgid_plural "You used the auto-fill %(n)s times"
+#~ msgstr[0] "Ați folosit completarea automată %(n)s dată"
+#~ msgstr[1] "Ați folosit completarea automată de %(n)s ori"
+#~ msgstr[2] "Ați folosit completarea automată de %(n)s de ori"
+
+#~ msgid "Playing %(difficulty)s puzzle."
+#~ msgstr "Se jocă un joc %(difficulty)s."
+
+#~ msgid "No Tracker"
+#~ msgstr "Niciun urmăritor"
+
+#~ msgid "_Clear Others"
+#~ msgstr "_Curăță celelalte"
+
+#~ msgid "Clear all moves not tracked by selected tracker."
+#~ msgstr "Curăță toate mișcările neurmărite de urmăritorul selectat."
+
+#~ msgid "Last Played %(timeAgo)s"
+#~ msgstr "Ultima dată jucat %(timeAgo)s"
+
+#~ msgid "%(level)s puzzle"
+#~ msgstr "jocul %(level)s"
+
+#~ msgid "Stopped"
+#~ msgstr "Oprit"
+
+#~ msgid "Generated %(n)s out of %(total)s puzzle"
+#~ msgid_plural "Generated %(n)s out of %(total)s puzzles"
+#~ msgstr[0] "S-a generat %(n)s din jocul  %(total)s"
+#~ msgstr[1] "S-au generat %(n)s din %(total)s jocuri"
+#~ msgstr[2] "S-au generat %(n)s din %(total)s de jocuri"
+
+#~ msgid "Generated %(n)s puzzle"
+#~ msgid_plural "Generated %(n)s puzzles"
+#~ msgstr[0] "S-a generat %(n)s joc"
+#~ msgstr[1] "S-au generat %(n)s jocuri"
+#~ msgstr[2] "S-au generat %(n)s de jocuri"
+
+#~ msgid "%(n)s year"
+#~ msgid_plural "%(n)s years"
+#~ msgstr[0] "%(n)s an"
+#~ msgstr[1] "%(n)s ani"
+#~ msgstr[2] "%(n)s de ani"
+
+#~ msgid "%(n)s month"
+#~ msgid_plural "%(n)s months"
+#~ msgstr[0] "%(n)s lună"
+#~ msgstr[1] "%(n)s luni"
+#~ msgstr[2] "%(n)s de luni"
+
+#~ msgid "%(n)s week"
+#~ msgid_plural "%(n)s weeks"
+#~ msgstr[0] "%(n)s săptămână"
+#~ msgstr[1] "%(n)s săptămâni"
+#~ msgstr[2] "%(n)s de săptămâni"
+
+#~ msgid "%(n)s day"
+#~ msgid_plural "%(n)s days"
+#~ msgstr[0] "%(n)s zi"
+#~ msgstr[1] "%(n)s zile"
+#~ msgstr[2] "%(n)s de zile"
+
+#~ msgid " and "
+#~ msgstr " și "
+
+#~ msgid ", "
+#~ msgstr ", "
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "at %I:%M %p"
+#~ msgstr "la %I:%M %p"
+
+#~ msgid "%A %I:%M %p"
+#~ msgstr "%A %I:%M %p"
+
+#~ msgid "%B %e"
+#~ msgstr "%B %e"
+
+#~ msgid "Tile _Colours"
+#~ msgstr "_Culori piesă"
+
+#~ msgid "A flag to enable coloured tiles."
+#~ msgstr "Opțiune pentru activarea culorilor pieselor."
+
+#~ msgid "Control coloured tiles"
+#~ msgstr "Controlează culorile pieselor"
+
+#~ msgid "Look & Feel"
+#~ msgstr "Aspect și comportament"
+
+#~ msgid "Blackjack"
+#~ msgstr "Blackjack"
+
+#~ msgid "Play the casino card game Blackjack"
+#~ msgstr "Joacă celebrul joc de cazino Blackjack"
+
+#~ msgid "Display probabilities"
+#~ msgstr "Afișează probabilitățile"
+
+#~ msgid ""
+#~ "Display the probabilities of each dealer hand outcome and the expected "
+#~ "value of your hand."
+#~ msgstr ""
+#~ "Afișează probabilitățile rezultatelor pentru fiecare mână a dealer-ului "
+#~ "și valoarea așteptată a mâinii proprii."
+
+#~ msgid "Never take insurance"
+#~ msgstr "Nu lua niciodată asigurare"
+
+#~ msgid "Never take insurance with a dealer showing an ace."
+#~ msgstr "Nu lua niciodată asigurare cu un dealer având un as la vedere."
+
+#~ msgid "The amount of money in your bank"
+#~ msgstr "Cantitatea de bani din banca dumneavoastră"
+
+#~ msgid "The amount of money in your bank."
+#~ msgstr "Cantitatea de bani din banca dumneavoastră."
+
+#~ msgid ""
+#~ "The name of the rules file containing the variation of the rules to play."
+#~ msgstr ""
+#~ "Numele fișierului de reguli ce conține variațiile regulilor pentru joc."
+
+#~ msgid "The variation of the rules file to use"
+#~ msgstr "Variația fișierului de reguli ce va fi folosit"
+
+#~ msgid "Use a quick deal"
+#~ msgstr "Folosește o împărțire rapidă"
+
+#~ msgid "Use a quick deal with no delay between each card."
+#~ msgstr "Folosește o împărțire rapidă fără nici o întârziere între cărți."
+
+#~ msgid "Whether or not to show the toolbar."
+#~ msgstr "Dacă să se afișeze sau nu bara de unelte"
+
+#~ msgid "Blackjack - %s"
+#~ msgstr "Blackjack - %s"
+
+#~ msgid "D_eal"
+#~ msgstr "Îm_parte"
+
+#~ msgid "Deal a new hand"
+#~ msgstr "Împarte o nouă mână"
+
+#~ msgid "_Hit"
+#~ msgstr "Încă o _carte"
+
+#~ msgid "Add a card to the hand"
+#~ msgstr "Adaugă o carte la mână"
+
+#~ msgid "_Stand"
+#~ msgstr "_Stai"
+
+#~ msgid "Stop adding cards to the hand"
+#~ msgstr "Oprește adăugarea de cărți la mână"
+
+#~ msgid "S_urrender"
+#~ msgstr "A_bandon"
+
+#~ msgid "Forfeit this hand for half of your wager"
+#~ msgstr "Renunță la această mână pentru jumătate din miză"
+
+#~ msgid "_Double down"
+#~ msgstr "_Dublează"
+
+#~ msgid "Double your wager for a single hit"
+#~ msgstr "Dublează miza pentru o singură carte"
+
+#~ msgid "S_plit the hand"
+#~ msgstr "Î_mparte mâna"
+
+#~ msgid "Split cards in two new hands"
+#~ msgstr "Împarte cărțile în două noi mâini"
+
+#~ msgid "Cards left:"
+#~ msgstr "Cărți rămase:"
+
+#~ msgid "Wager:"
+#~ msgstr "Miză:"
+
+#~ msgid "Balance:"
+#~ msgstr "Balans:"
+
+#~ msgid "Place your wager or deal a hand"
+#~ msgstr "Așezați miza sau cereți o mână"
+
+#~ msgid "Blackjack rule set to use"
+#~ msgstr "Setul de reguli blackjack folosit"
+
+#~ msgid "Card Style"
+#~ msgstr "Stilul de cărți"
+
+#~ msgid "Would you like insurance?"
+#~ msgstr "Doriți asigurare?"
+
+#~ msgid ""
+#~ "Insurance is a side wager of 50% of the original wager that the dealer "
+#~ "has a natural 21 (aka blackjack) that is offered when the dealer's face "
+#~ "up card is an ace. If the dealer has a natural 21 then the player is paid "
+#~ "double."
+#~ msgstr ""
+#~ "Asigurarea este o miză suplimentară de 50% din miza originală pentru ca "
+#~ "dealer-ul să aibă un 21 natural (blackjack) care îi este oferit atunci "
+#~ "când cartea sa cu fața în sus este un as. Dacă dealer-ul are un 21 "
+#~ "natural atunci jucătorul este plătit dublu."
+
+#~ msgid "Set your wager and click in the white outline to deal a new hand."
+#~ msgstr "Setați miza și dați un clic pe zona albă pentru a cere o nouă mână."
+
+#~ msgid "Set your wager or click on the cards to deal a new hand."
+#~ msgstr ""
+#~ "Setați miza sau executați un clic pe cărți pentru a cere o nouă mână."
+
+#~ msgid "Blackjack Preferences"
+#~ msgstr "Preferințe Blackjack"
+
+#~ msgid "_Display hand probabilities"
+#~ msgstr "Afișează _probabilitățile mâinilor"
+
+#~ msgid "_Quick deals (no delay between each card)"
+#~ msgstr "Împărțiri _rapide (fără întârzieri între fiecare carte)"
+
+#~ msgid "_Never take insurance"
+#~ msgstr "_Nu lua niciodată asigurare"
+
+#~ msgid "_Reset Balance"
+#~ msgstr "_Resetează balanța"
+
+#~ msgid "Rules"
+#~ msgstr "Reguli"
+
+#~ msgid "Decks"
+#~ msgstr "Pachete de cărți"
+
+#~ msgid "Hit Soft 17"
+#~ msgstr "Hit Soft 17"
+
+#~ msgid "Double Any Total"
+#~ msgstr "Dublează orice total"
+
+#~ msgid "Double 9"
+#~ msgstr "Dublu 9"
+
+#~ msgid "Double Soft"
+#~ msgstr "Dublu Soft"
+
+#~ msgid "Double After Hit"
+#~ msgstr "Dublu după încă o carte"
+
+#~ msgid "Double After Split"
+#~ msgstr "Dublează după despărțire"
+
+#~ msgid "Resplit"
+#~ msgstr "Reîmparte"
+
+#~ msgid "Resplit Aces"
+#~ msgstr "Desparte așii"
+
+#~ msgid "Surrender"
+#~ msgstr "Abandon"
+
+#~ msgid "Dealer Speed"
+#~ msgstr "Viteză dealer"
+
+#~ msgid "Click to double your wager"
+#~ msgstr "Clic pentru a dubla miza"
+
+#~ msgid "Double click to increase your wager by %.2f"
+#~ msgstr "Clic dublu pentru a mări miza cu %.2f"
+
+#~ msgid "Double click to decrease your wager by %.2f"
+#~ msgstr "Clic dublu pentru a micșora miza cu %.2f"
+
+#~ msgid "Click to deal another card; drag card to split pair"
+#~ msgstr ""
+#~ "Clic pentru a mai cere o carte, trage cartea pentru a despărți perechea"
+
+#~ msgid "Click to deal another card"
+#~ msgstr "Clic pentru a cere altă carte"
+
+#~ msgid "Click to finish adding cards to your hand"
+#~ msgstr "Clic pentru a termina adăugarea de cărți la mână"
+
+#~ msgid "Click to deal a new hand"
+#~ msgstr "Clic pentru a cere o mână nouă"
+
+#~ msgid "Blackjack can't load the requested file"
+#~ msgstr "Blackjack nu poate încărca fișierul cerut"
+
+#~ msgid "Please check your Blackjack installation"
+#~ msgstr "Verificați instalarea Blackjack"
+
+#~ msgid "The best option is to stand"
+#~ msgstr "Cea mai bună opțiune este să stați"
+
+#~ msgid ""
+#~ "To stand means to stop adding cards to your hand.  Do this by clicking on "
+#~ "the dealer's cards or by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "Să stați înseamnă să nu mai adăugați cărți la mâna dumneavoastră. Faceți "
+#~ "acest lucru printr-un clic pe cărțile dealer-ului sau selectând această "
+#~ "opțiune din meniul Control."
+
+#~ msgid "The best option is to hit"
+#~ msgstr "Cea mai bună opțiune este să mai cereți o carte"
+
+#~ msgid ""
+#~ "To hit means to add another card to your hand.  Do this by clicking once "
+#~ "on your cards or by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "Să mai cereți o carte înseamnă să mai adăugați o carte la mâna "
+#~ "dumneavoastră. Faceți acest lucru printr-un clic pe cărțile dumneavoastră "
+#~ "sau selectând această opțiune din meniul Control."
+
+#~ msgid "The best option is to double down"
+#~ msgstr "Cea mai bună opțiune este dublarea"
+
+#~ msgid ""
+#~ "To double down means to double the initial wager and receive exactly one "
+#~ "more card.  Do this by clicking once on the chips at the bottom of the "
+#~ "window or by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "A dubla înseamnă dublarea mizei inițiale și primirea doar a unei cărți "
+#~ "adiționale. Faceți acest lucru printr-un clic pe jetoanele din partea de "
+#~ "jos a ferestrei sau selectând această opțiune din meniul Control."
+
+#~ msgid "The best option is to split"
+#~ msgstr "Cea mai bună opțiune este despărțirea"
+
+#~ msgid ""
+#~ "To split means to divide your current hand into two separate hands.  Do "
+#~ "this by dragging one of your cards and dropping it off to the side or by "
+#~ "selecting the option from the Control menu."
+#~ msgstr ""
+#~ "A despărți înseamnă dividerea mâinii curente în două mâini separate. "
+#~ "Faceți acest lucru trăgând una dintre cărți și plasând-o alături sau "
+#~ "selectând această opțiune din meniul Control."
+
+#~ msgid "The best option is to surrender"
+#~ msgstr "Cea mai bună opțiune este abandonul"
+
+#~ msgid ""
+#~ "To surrender means to give up half your wager and not complete the hand.  "
+#~ "Do this by selecting the option from the Control menu."
+#~ msgstr ""
+#~ "Să abandonați presupune să cedați jumate din miza dumneavoastră și să nu "
+#~ "completați mâna. Faceți acest lucru selectând opțiunea din meniul Control."
+
+#~ msgid ""
+#~ "Blackjack is a casino-style card game.\n"
+#~ "\n"
+#~ "Blackjack is a part of GNOME Games."
+#~ msgstr ""
+#~ "Blackjack este un joc de cărți în stil cazino.\n"
+#~ "\n"
+#~ "Blackjack face parte din Jocuri GNOME."
+
+#~ msgid "Computing basic strategy..."
+#~ msgstr "Se calculează strategia de bază..."
+
+#~ msgid "Bust"
+#~ msgstr "Falit"
+
+#~ msgid "Blackjack!"
+#~ msgstr "Blackjack!"
+
+#~ msgid "Soft"
+#~ msgstr "Moale"
+
+#~ msgid "Win"
+#~ msgstr "Victorie"
+
+#~ msgid "Push"
+#~ msgstr "Împinge"
+
+#~ msgid "Lose"
+#~ msgstr "Înfrângere"
+
+#~ msgid "Player expected values"
+#~ msgstr "Valori așteptate de jucător"
+
+#~ msgid "Stand"
+#~ msgstr "Așteaptă"
+
+#~ msgid "Hit"
+#~ msgstr "Încă o carte"
+
+#~ msgid "Double"
+#~ msgstr "Dublează"
+
+#~ msgid "Split"
+#~ msgstr "Desparte"
+
+#~ msgid "Dealer hand probabilities"
+#~ msgstr "Probabilitățile pentru mâna dealer-ului"
+
+#~ msgid "Error connecting to server: %s"
+#~ msgstr "Eroare la conectarea cu serverul: %s"
+
+#~ msgid "Your new password is %s"
+#~ msgstr "Noua parolă este %s"
+
+#~ msgid "New password"
+#~ msgstr "Parolă nouă"
+
+#~ msgid "Players on server: %d"
+#~ msgstr "Jucători pe server: %d"
+
+#~ msgid "Current Room: %s"
+#~ msgstr "Camera curentă: %s"
+
+#~ msgid "You've joined room \"%s\"."
+#~ msgstr "Ați intrat în camera „%s”."
+
+#~ msgid "Error joining room: %s"
+#~ msgstr "Eroare la intrarea în camera: %s"
+
+#~ msgid "You can't chat while not in a room."
+#~ msgstr "Atât timp cât nu sunteți intr-o cameră nu puteți discuta."
+
+#~ msgid "You don't have permission to chat here."
+#~ msgstr "Nu aveți permisiunea de a discuta aici."
+
+#~ msgid "No private chatting at a table!"
+#~ msgstr "Fără discuții private la masă"
+
+#~ msgid "That player isn't in the room!"
+#~ msgstr "Acel jucător nu se află în cameră!"
+
+#~ msgid "There was an error sending the chat."
+#~ msgstr "A intervenit o eroare la trimiterea mesajului."
+
+#~ msgid "You're not at a table."
+#~ msgstr "Nu vă aflați la o masă de joc."
+
+#~ msgid "Chat failed: %s."
+#~ msgstr "Discuția a eșuat: %s."
+
+#~ msgid "Error launching table: %s"
+#~ msgstr "Eroare la lansarea mesei: %s"
+
+#~ msgid "You have joined table %d."
+#~ msgstr "V-ați alăturat mesei de joc %d."
+
+#~ msgid "Error joining table: %s"
+#~ msgstr "Eroare la alăturarea la masa de joc: %s"
+
+#~ msgid "You have been booted from the table by %s."
+#~ msgstr "Ai fost scos de pe tabla de %s"
+
+#~ msgid "You have left the table."
+#~ msgstr "Ați părăsit masa."
+
+#~ msgid "There was an error with the game server."
+#~ msgstr "S-a produs o eroare la serverul jocului."
+
+#~ msgid "Error leaving table: %s"
+#~ msgstr "Eroare la părăsirea mesei: %s"
+
+#~ msgid "Current Room:"
+#~ msgstr "Camera curentă:"
+
+#~ msgid "**none**"
+#~ msgstr "**nici unul**"
+
+#~ msgid "Offline"
+#~ msgstr "Neconectat"
+
+#~ msgid "Connecting"
+#~ msgstr "În curs de conectare"
+
+#~ msgid "Reconnecting"
+#~ msgstr "În curs de reconectare"
+
+#~ msgid "Online"
+#~ msgstr "Conectat"
+
+#~ msgid "Logging In"
+#~ msgstr "În curs de autentificare"
+
+#~ msgid "Logged In"
+#~ msgstr "Autentificat"
+
+#~ msgid "--> Room"
+#~ msgstr "--> Cameră"
+
+#~ msgid "Chatting"
+#~ msgstr "Discuții"
+
+#~ msgid "--> Table"
+#~ msgstr "--> Masă"
+
+#~ msgid "Playing"
+#~ msgstr "Desfășurarea jocului"
+
+#~ msgid "<-- Table"
+#~ msgstr "<-- Masă"
+
+#~ msgid "Logging Out"
+#~ msgstr "Se deautentifică"
+
+#~ msgid "Server error: %s"
+#~ msgstr "Eroare la server: %s"
+
+#~ msgid "Disconnected from server."
+#~ msgstr "Deconectat de la server."
+
+#~ msgid "Login"
+#~ msgstr "Autentificare"
+
+#~ msgid ""
+#~ "Authentication has failed.\n"
+#~ "Please supply the correct password."
+#~ msgstr ""
+#~ "Autentificarea a eșuat.\n"
+#~ "Vă rog introduceți parola corectă."
+
+#~ msgid "The username is too long!"
+#~ msgstr "Numele de utilizator este prea lung!"
+
+#~ msgid "Invalid username, do not use special characters!"
+#~ msgstr "Nume de utilizator nevalid, nu folosiți caractere speciale!"
+
+#~ msgid "Login failed for unknown reason: %s"
+#~ msgstr "Autentificarea a eșuat dintr-un motiv necunoscut: %s"
+
+#~ msgid "Unable to open help file"
+#~ msgstr "Nu s-a putut deschide fișierul de ajutor"
+
+#~ msgid "Network Game"
+#~ msgstr "Joc de rețea"
+
+#~ msgid "Server Profile"
+#~ msgstr "Profilul serverului"
+
+#~ msgid "Profile:"
+#~ msgstr "Profil:"
+
+#~ msgid "Edit Profiles"
+#~ msgstr "Editează profile"
+
+#~ msgid "Server:"
+#~ msgstr "Server:"
+
+#~ msgid "Port:"
+#~ msgstr "Port:"
+
+#~ msgid "User Information"
+#~ msgstr "Informații utilizator"
+
+#~ msgid "Username:"
+#~ msgstr "Nume utilizator:"
+
+#~ msgid "Password:"
+#~ msgstr "Parolă:"
+
+#~ msgid "Email:"
+#~ msgstr "Email:"
+
+#~ msgid "Authentication type"
+#~ msgstr "Tipul de autentificare"
+
+#~ msgid "Normal Login"
+#~ msgstr "Autentificare normală"
+
+#~ msgid "Guest Login"
+#~ msgstr "Autentificare ca oaspete"
+
+#~ msgid "First-time Login"
+#~ msgstr "Prima autentificare"
+
+#~ msgid "Connect"
+#~ msgstr "Conectare"
+
+#~ msgid "Wizard"
+#~ msgstr "Vrăjitor"
+
+#~ msgid "Deity"
+#~ msgstr "Divinitate"
+
+#~ msgid "Sentinel"
+#~ msgstr "Santinelă"
+
+#~ msgid "Captain"
+#~ msgstr "Căpitan"
+
+#~ msgid "Knight"
+#~ msgstr "Cal"
+
+#~ msgid "Angel"
+#~ msgstr "Înger"
+
+#~ msgid "Silverlord"
+#~ msgstr "Lord de argint"
+
+#~ msgid "Eagle"
+#~ msgstr "Aripă de vultur"
+
+#~ msgid "Vampire"
+#~ msgstr "Vampir"
+
+#~ msgid "Chief"
+#~ msgstr "Șef"
+
+#~ msgid "Colonel"
+#~ msgstr "Colonel"
+
+#~ msgid "General"
+#~ msgstr "General"
+
+#~ msgid "Major"
+#~ msgstr "Maior"
+
+#~ msgid "Scout"
+#~ msgstr "Iscoadă"
+
+#~ msgid "Lieutenant"
+#~ msgstr "Locotenent"
+
+#~ msgid "Stalker"
+#~ msgstr "Urmăritor"
+
+#~ msgid "Scientist"
+#~ msgstr "Om de știință"
+
+#~ msgid "Scholar"
+#~ msgstr "Savant"
+
+#~ msgid "Entity"
+#~ msgstr "Entitate"
+
+#~ msgid "Creator"
+#~ msgstr "Creator"
+
+#~ msgid "GGZ Community (fast)"
+#~ msgstr "Comunitatea GGZ (rapid)"
+
+#~ msgid "Local developer server"
+#~ msgstr "Serverul de dezvoltare local"
+
+#~ msgid ""
+#~ "This is the first time you are running the GTK+ GGZ Gaming Zone client. "
+#~ "Would you like to create some default server profiles?"
+#~ msgstr ""
+#~ "Aceasta este prima oară când rulați un client GTK+ pentru zona de joc "
+#~ "GGZ. Doriți să creați niște profile de server implicite?"
+
+#~ msgid "/msg <username> <message> . Private message a player"
+#~ msgstr ""
+#~ "/msg <nume utilizator> <mesaj>. Trimite un mesaj privat unui jucător"
+
+#~ msgid "/table <message> .......... Message to your table"
+#~ msgstr ""
+#~ "/table <mesaj> ..............Trimiteți mesaj către toată masa "
+#~ "dumneavoastră"
+
+#~ msgid "/wall <message> ........... Admin command"
+#~ msgstr "/wall <mesaj>........ Comandă de administrator"
+
+#~ msgid "/beep <username> .......... Beep a player"
+#~ msgstr "/beep <nume de utilizator> ...... Dați bip unui jucător"
+
+#~ msgid "/help ..................... Get help"
+#~ msgstr "/help ....................... Primiți ajutor"
+
+#~ msgid "/friends .................. List your friends"
+#~ msgstr "/friends ................ listați prietenii dumneavoastră"
+
+#~ msgid "/ignore ................... List people you're ignoring"
+#~ msgstr "/ignore .................Listați oamenii pe care îi ignorați"
+
+#~ msgid "/kick <username> .......... Kick a player from the room"
+#~ msgstr ""
+#~ "/kick <nume de utilizator>........... Dați afară din cameră un jucător"
+
+#~ msgid ""
+#~ "/gag <username> ........... Gag a player to prevent them from talking"
+#~ msgstr ""
+#~ "/gag <nume de utilizator>............... Puneți un căluș unui jucător "
+#~ "pentru a-l împiedica să vorbească"
+
+#~ msgid ""
+#~ "/ungag <username> ......... Reverse the gag operation to allow a player "
+#~ "to talk"
+#~ msgstr ""
+#~ "/ungag <nume de utilizator>..........Scoateți călușul unui utilizator "
+#~ "pentru a-i permite să vorbească"
+
+#~ msgid "/ban <username> ........... Ban a player from the server"
+#~ msgstr ""
+#~ "/ban <nume de utilizator> ................ Interziceți un jucător de pe "
+#~ "server"
+
+#~ msgid "You have received an unknown message from %s."
+#~ msgstr "Ați primit un mesaj necunoscut de la %s."
+
+#~ msgid "You've been beeped by %s."
+#~ msgstr "Ați fost sunat de %s."
+
+#~ msgid "Usage: /msg <username> <message>"
+#~ msgstr "Mod de folosire: /msg <nume de utilizator> <mesaj>"
+
+#~ msgid "    Sends a private message to a user on the network."
+#~ msgstr "    Trimite un mesaj privat unui utilizator din rețea"
+
+#~ msgid "Beep sent to %s."
+#~ msgstr "Bip trimis către %s."
+
+#~ msgid "%s (logged on)"
+#~ msgstr "%s (autentificat)"
+
+#~ msgid "%s (logged off)"
+#~ msgstr "%s (deautentificat)"
+
+#~ msgid "Chat Commands"
+#~ msgstr "Comenzi de chat"
+
+#~ msgid "-------------"
+#~ msgstr "------------"
+
+#~ msgid "/me <action> .............. Send an action"
+#~ msgstr "/me <acțiune> ...........trimite o acțiune"
+
+#~ msgid "Added %s to your friends list."
+#~ msgstr "%s a fost adăugat listei dumneavoastră de prieteni"
+
+#~ msgid "Removed %s from your friends list."
+#~ msgstr "%s a fost șters din lista voastră de prieteni."
+
+#~ msgid "Added %s to your ignore list."
+#~ msgstr "%s a fost adăugat listei celor pe care îi ignorați"
+
+#~ msgid "Removed %s from your ignore list."
+#~ msgstr "%s a fost scos de pe lista celor pe care îi ignorați"
+
+#~ msgid "People currently your friends"
+#~ msgstr "Oameni care vă sunt prieteni curenți"
+
+#~ msgid "People you're currently ignoring"
+#~ msgstr "Oameni pe care îi ignorați"
+
+#~ msgid "Multiple matches:"
+#~ msgstr "Potriviri multiple:"
+
+#~ msgid ""
+#~ "You don't have this game installed. You can download\n"
+#~ "it from %s."
+#~ msgstr ""
+#~ "Nu aveți acest joc instalat. Îl puteți descărca\n"
+#~ "de la %s"
+
+#~ msgid "Launch Error"
+#~ msgstr "Eroare la lansare"
+
+#~ msgid ""
+#~ "Failed to execute game module.\n"
+#~ " Launch aborted."
+#~ msgstr ""
+#~ "Eșuare în executarea unui modul al jocului.\n"
+#~ " Lansare anulată."
+
+#~ msgid "Launched game"
+#~ msgstr "Joc pornit"
+
+#~ msgid "Launch failed"
+#~ msgstr "Lansarea a eșuat"
+
+#~ msgid "You can only play one game at a time."
+#~ msgstr "Nu puteți juca mai multe jocuri în același timp."
+
+#~ msgid "Game Error"
+#~ msgstr "Eroare de joc"
+
+#~ msgid "You're still at a table."
+#~ msgstr "Încă sunteți la o masă."
+
+#~ msgid ""
+#~ "You must be in a room to launch a game.\n"
+#~ "Launch aborted"
+#~ msgstr ""
+#~ "Trebuie să vă aflați într-o cameră pentru a putea începe un joc.\n"
+#~ "Lansare abandonată."
+
+#~ msgid ""
+#~ "No game types defined for this server.\n"
+#~ "Launch aborted."
+#~ msgstr ""
+#~ "Nu este definit niciun tip de joc pentru acest server.\n"
+#~ "Lansarea a fost abandonată."
+
+#~ msgid "This game doesn't support spectators."
+#~ msgstr "Acest joc nu are suport pentru spectatori."
+
+#~ msgid ""
+#~ "You need to launch the GGZ client directly\n"
+#~ "to be able to play this game."
+#~ msgstr ""
+#~ "Trebuie să lansați clientul GCZ direct\n"
+#~ "pentru a putea juca acest joc."
+
+#~ msgid "About"
+#~ msgstr "Despre aplicație"
+
+#~ msgid "Message of the Day"
+#~ msgstr "Mesajul zilei"
+
+#~ msgid ""
+#~ "Room filtering is not implemented yet. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "Filtrarea pe camere nu este implementată încă. \n"
+#~ "Dacă doriți să ajutați îndreptați-vă spre\n"
+#~ "http://www.ggzgamingzone.org/"
+
+#~ msgid "Not Implemented"
+#~ msgstr "Nu a fost implementat"
+
+#~ msgid "Web Address"
+#~ msgstr "Adresa web"
+
+#~ msgid "Author"
+#~ msgstr "Autor"
+
+#~ msgid "Game Types"
+#~ msgstr "Tipul jocului"
+
+#~ msgid "Room List Filter:"
+#~ msgstr "Filtru listă camere de discuții:"
+
+#~ msgid "Set"
+#~ msgstr "Configurare"
+
+#~ msgid "Player Information"
+#~ msgstr "Informații jucător"
+
+#~ msgid "Player Handle:"
+#~ msgstr "Identificator jucător:"
+
+#~ msgid "Table:"
+#~ msgstr "Masă:"
+
+#~ msgid "Account:"
+#~ msgstr "Cont:"
+
+#~ msgid "Record:"
+#~ msgstr "Înregistrare:"
+
+#~ msgid "Rating:"
+#~ msgstr "Clasament:"
+
+#~ msgid "Rank:"
+#~ msgstr "Rang:"
+
+#~ msgid "Message:"
+#~ msgstr "Mesaj:"
+
+#~ msgid "Unknown"
+#~ msgstr "Necunoscut"
+
+#~ msgid "Registered"
+#~ msgstr "Înregistrat"
+
+#~ msgid "Guest"
+#~ msgstr "Oaspete"
+
+#~ msgid "Host"
+#~ msgstr "Gazdă"
+
+#~ msgid "Administrator"
+#~ msgstr "Administrator"
+
+#~ msgid "Bot"
+#~ msgstr "Robot"
+
+#~ msgid "Info"
+#~ msgstr "Informații"
+
+#~ msgid "Friends"
+#~ msgstr "Prieteni"
+
+#~ msgid "Ignore"
+#~ msgstr "Ignoră"
+
+#~ msgid "#%d"
+#~ msgstr "#%d"
+
+#~ msgid "L"
+#~ msgstr "L"
+
+#~ msgid "T#"
+#~ msgstr "T#"
+
+#~ msgid "Stats"
+#~ msgstr "Statistici"
+
+#~ msgid "Which client would you like to use to play this game?"
+#~ msgstr "Care client doriți să îl folosiți pentru a juca acest joc?"
+
+#~ msgid "Don't ask me again."
+#~ msgstr "Nu mă mai întreba altădată."
+
+#~ msgid "Join"
+#~ msgstr "Intrare"
+
+#~ msgid "Leave"
+#~ msgstr "Ieșire"
+
+#~ msgid "No description available."
+#~ msgstr "Nici o descriere disponibilă."
+
+#~ msgid "Room Information"
+#~ msgstr "Informații despre cameră"
+
+#~ msgid "Game Name:"
+#~ msgstr "Nume joc:"
+
+#~ msgid "Author:"
+#~ msgstr "Autor:"
+
+#~ msgid "Homepage:"
+#~ msgstr "Pagina web:"
+
+#~ msgid "Room Description:"
+#~ msgstr "Descrierea camerei:"
+
+#~ msgid "This room has no game"
+#~ msgstr "Această cameră nu are niciun joc"
+
+#~ msgid "Unknown room"
+#~ msgstr "Cameră de chat necunoscută"
+
+#~ msgid "You can't join a room; you're not logged in"
+#~ msgstr ""
+#~ "Nu puteți să intrați într-o cameră de chat, nu sunteți autentificat."
+
+#~ msgid "You're already in between rooms"
+#~ msgstr "Sunteți deja între camere"
+
+#~ msgid "You can't switch rooms while playing a game"
+#~ msgstr "Nu puteți să schimbați camerele în timp ce jucați un joc"
+
+#~ msgid "Unknown error"
+#~ msgstr "Eroare necunoscută"
+
+#~ msgid "Error joining room"
+#~ msgstr "Eroare la intrarea în cameră"
+
+#~ msgid "Other Rooms"
+#~ msgstr "Alte camere"
+
+#~ msgid "Room"
+#~ msgstr "Cameră"
+
+#~ msgid "Game Type:  %s"
+#~ msgstr "Tipul jocului: %s"
+
+#~ msgid "Author:  %s"
+#~ msgstr "Autor: %s"
+
+#~ msgid "Description:  %s"
+#~ msgstr "Descriere: %s"
+
+#~ msgid "Home Page:  %s"
+#~ msgstr "Pagina de start: %s"
+
+#~ msgid ""
+#~ "Failed to launch table.\n"
+#~ " Launch aborted."
+#~ msgstr ""
+#~ "Eroare la lansarea mesei.\n"
+#~ " Lansare anulată."
+
+#~ msgid "Invalid number of bots specified"
+#~ msgstr "Număr de roboți specificat nevalid"
+
+#~ msgid "Error launching game module."
+#~ msgstr "Eroare la lansarea modulului de joc."
+
+#~ msgid "Seat Assignments"
+#~ msgstr "Desemnare loc"
+
+#~ msgid "Game Type:"
+#~ msgstr "Tipul jocului"
+
+#~ msgid "Number of seats"
+#~ msgstr "Număr de locuri la masă"
+
+#~ msgid "Description:"
+#~ msgstr "Descriere:"
+
+#~ msgid "Seat %d:"
+#~ msgstr "Loc %d"
+
+#~ msgid "Computer"
+#~ msgstr "Calculator"
+
+#~ msgid "Open"
+#~ msgstr "Deschide"
+
+#~ msgid "Reserved for"
+#~ msgstr "Rezervat pentru"
+
+#~ msgid "Launch"
+#~ msgstr "Lansare"
+
+#~ msgid "Are you sure you want to quit?"
+#~ msgstr "Doriți să ieșiți?"
+
+#~ msgid "Quit?"
+#~ msgstr "Renunțați?"
+
+#~ msgid ""
+#~ "Server stats are not implemented yet. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "Statisticile pentru server nu au fost implementate încă.\n"
+#~ "Dacă doriți să ajutați mergeți la\n"
+#~ "http://www.ggzgamingzone.org/"
+
+#~ msgid ""
+#~ "Player stats are not implemented yet. If\n"
+#~ "you would like to help head over to\n"
+#~ "http://www.ggzgamingzone.org/"
+#~ msgstr ""
+#~ "Statisticile pentru jucător nu au fost implementate încă. Dacă doriți "
+#~ "să \n"
+#~ "ajutați mergeți la\n"
+#~ "http://www.ggzgamingzone.org/"
+
+#~ msgid "You must highlight a table before you can join it."
+#~ msgstr "Trebuie să selectați o masă înainte de a vă așeza."
+
+#~ msgid "Error Joining"
+#~ msgstr "Eroare de conectare"
+
+#~ msgid "That table is full."
+#~ msgstr "Acea masă este plină."
+
+#~ msgid "You must highlight a table before you can watch it."
+#~ msgstr "Trebuie să selectați masa înainte de a o putea vedea."
+
+#~ msgid "Error Spectating"
+#~ msgstr "Eroare de vizualizare"
+
+#~ msgid ""
+#~ "Failed to join table.\n"
+#~ "Join aborted."
+#~ msgstr ""
+#~ "Intrare eșuată la masa de joc.\n"
+#~ "Conectare anulată"
+
+#~ msgid "Join Error"
+#~ msgstr "Eroare de alăturare"
+
+#~ msgid "Disconnect from the GGZ Gaming Zone server"
+#~ msgstr "Deconectare de la serverul zonei de joc GGZ"
+
+#~ msgid "Start playing a game at a new table"
+#~ msgstr "Începeți un joc la o masă nouă"
+
+#~ msgid "Join an existing game"
+#~ msgstr "Intră într-un joc existent"
+
+#~ msgid "Watch an existing game - become a spectator of the table"
+#~ msgstr "Priviți un joc existent - deveniți spectator la masa de joc"
+
+#~ msgid "Leave the game you're currently playing"
+#~ msgstr "Părăsiți jocul curent"
+
+#~ msgid "Show the properties dialog to change the client settings"
+#~ msgstr ""
+#~ "Afișează dialogul de proprietăți pentru a schimba setările clientului"
+
+#~ msgid "Show the game stats for the current room's game type"
+#~ msgstr "Arată statisticile de joc ale tipului de joc curent al camerei"
+
+#~ msgid "Exit the GGZ client application."
+#~ msgstr "Părăsire aplicație client GGZ."
+
+#~ msgid "Compiled with debugging."
+#~ msgstr "Compilare cu depanare."
+
+#~ msgid "GGZ"
+#~ msgstr "GGZ"
+
+#~ msgid "Disconnect"
+#~ msgstr "Deconectare"
+
+#~ msgid "Watch"
+#~ msgstr "Privește"
+
+#~ msgid "Edit"
+#~ msgstr "Editare"
+
+#~ msgid "Properties"
+#~ msgstr "Proprietăți"
+
+#~ msgid "View"
+#~ msgstr "Afișare"
+
+#~ msgid "Room List"
+#~ msgstr "Lista camerelor"
+
+#~ msgid "Player List"
+#~ msgstr "Listă jucători"
+
+#~ msgid "Server Stats"
+#~ msgstr "Statistici server"
+
+#~ msgid "Player Stats"
+#~ msgstr "Statistici jucător"
+
+#~ msgid "MOTD"
+#~ msgstr "MOTD"
+
+#~ msgid "Help"
+#~ msgstr "Ajutor"
+
+#~ msgid "Contents"
+#~ msgstr "Conținut"
+
+#~ msgid "Send"
+#~ msgstr "Trimite"
+
+#~ msgid "Properties Updated"
+#~ msgstr "Proprietăți actualizate"
+
+#~ msgid "Confirm:"
+#~ msgstr "Confirmă:"
+
+#~ msgid "Modify"
+#~ msgstr "Modifică"
+
+#~ msgid "Servers"
+#~ msgstr "Servere"
+
+#~ msgid "Chat Font:"
+#~ msgstr "Fontul pentru chat:"
+
+#~ msgid "Change"
+#~ msgstr "Schimbă"
+
+#~ msgid "Ignore Join/Part Messages"
+#~ msgstr "Ignoră mesajele de alăturare/părăsire"
+
+#~ msgid "Play Sounds"
+#~ msgstr "Redare sunete"
+
+#~ msgid "Auto Indent"
+#~ msgstr "Indentare automată"
+
+#~ msgid "Timestamp Chats"
+#~ msgstr "Marcaj timp discuție"
+
+#~ msgid "Word Wrap"
+#~ msgstr "Aliniere rânduri"
+
+#~ msgid "Chat Color"
+#~ msgstr "Culoare chat"
+
+#~ msgid "Default chat color assigned to your friends"
+#~ msgstr "Culoare de chat implicit atribuită prietenilor"
+
+#~ msgid "Chat color used when your name is typed"
+#~ msgstr ""
+#~ "Coloarea de chat folosită atunci când numele dumneavoastră este tastat"
+
+#~ msgid "Chat color used for all other chats"
+#~ msgstr "Culoarea de chat folosită pentru toate celelalte discuții"
+
+#~ msgid "Normal Color"
+#~ msgstr "Culoare normală"
+
+#~ msgid "Highlight Color"
+#~ msgstr "Culoare evidențiere"
+
+#~ msgid "Friend Color"
+#~ msgstr "Culoare prieten"
+
+#~ msgid "Black Background"
+#~ msgstr "Fond negru"
+
+#~ msgid "White Background"
+#~ msgstr "Fond alb"
+
+#~ msgid "Chat"
+#~ msgstr "Chat"
+
+#~ msgid "All of the following information is optional."
+#~ msgstr "Toate informațiile următoare sunt opționale."
+
+#~ msgid "Name:"
+#~ msgstr "Nume:"
+
+#~ msgid "City:"
+#~ msgstr "Oraș:"
+
+#~ msgid "State:"
+#~ msgstr "Stat:"
+
+#~ msgid "Country:"
+#~ msgstr "Țară:"
+
+#~ msgid "Comments, Hobbies, Etc."
+#~ msgstr "Comentarii, hobbiuri, etc."
+
+#~ msgid "Single Click Room Entry"
+#~ msgstr "Intrare în cameră printr-un singur click"
+
+#~ msgid "Display All"
+#~ msgstr "Afișează tot"
+
+#~ msgid "Display New"
+#~ msgstr "Afișează ce e nou"
+
+#~ msgid "Display Important"
+#~ msgstr "Afișează ce e important"
+
+#~ msgid "Display None"
+#~ msgstr "Nu afișa nimic"
+
+#~ msgid "Select Font"
+#~ msgstr "Selectare caractere"
+
+#~ msgid "A network error has occurred."
+#~ msgstr "S-a produs o eroare de rețea."
+
+#~ msgid "Waiting for an opponent to join the game."
+#~ msgstr "Se așteaptă ca un adversar să se alăture jocului."
+
+#~ msgid "Welcome to a network game of %s."
+#~ msgstr "Bun venit la un joc de %s în rețea."
+
+#~ msgid "%s joined the game.\n"
+#~ msgstr "Jucătorul %s s-a alăturat jocului.\n"
+
+#~ msgid "The game ended because the host %s left the game.\n"
+#~ msgstr "Partida s-a terminat deoarece gazda %s a părăsit jocul.\n"
+
+#~ msgid "%s left the game.\n"
+#~ msgstr "%s a părăsit jocul.\n"
+
+#~ msgid "Gnibbles"
+#~ msgstr "Gnibbles"
+
+#~ msgid "Gnibbles is a worms game for GNOME."
+#~ msgstr "Gnibbles este un joc cu viermișori flămânzi pentru GNOME"
+
+#~ msgid "Gnometris"
+#~ msgstr "Gnometris"
+
+#~ msgid "Gnometris Preferences"
+#~ msgstr "Preferințe Gnometris"
+
+#~ msgid "Gnometris Scores"
+#~ msgstr "Scoruri Gnometris"
+
+#~ msgid ""
+#~ "The GNOME version of Reversi. The goal is to control the most disks on "
+#~ "the board."
+#~ msgstr ""
+#~ "Versiunea GNOME a Reversi. Scopul este să dominați majoritatea discurilor "
+#~ "de pe tabla de joc."
+
+#~ msgid "Player Chat"
+#~ msgstr "Conversație jucători"
+
+#~ msgid "Occupied"
+#~ msgstr "Ocupat"
+
+#~ msgid "Empty"
+#~ msgstr "Goală"
+
+#~ msgid "Abandoned"
+#~ msgstr "Abandonat"
+
+#~ msgid "-"
+#~ msgstr "-"
+
+#~ msgid "#"
+#~ msgstr "#"
+
+#~ msgid "Status"
+#~ msgstr "Stare"
+
+#~ msgid "Sit here"
+#~ msgstr "Stai aici"
+
+#~ msgid "Move here"
+#~ msgstr "Mută aici"
+
+#~ msgid "Play with bot"
+#~ msgstr "Joacă cu robot"
+
+#~ msgid "Drop reservation"
+#~ msgstr "Anulează rezervare"
+
+#~ msgid "Remove bot"
+#~ msgstr "Elimină robotul"
+
+#~ msgid "1000 point bonus for clearing the board!"
+#~ msgstr "Bonus 1000 de puncte pentru curățarea tablei!"
+
+#~ msgid "Set the theme"
+#~ msgstr "Setează tema"
+
+#~ msgid "For backwards compatibility"
+#~ msgstr "Pentru compatibilitate înapoi"
+
+#~ msgid "Game size (1=small, 3=large)"
+#~ msgstr "Mărime joc (1=mic, 3=mare)"
+
+#~ msgid "Same GNOME"
+#~ msgstr "Same GNOME"
+
+#~ msgid "Height of the custom board"
+#~ msgstr "Înălțimea tablei personalizate"
+
+#~ msgid ""
+#~ "Setting this to FALSE means the pieces fall slowly, but gracefully. A "
+#~ "setting of TRUE causes the pieces to fall quickly and jerkily."
+#~ msgstr ""
+#~ "Setând aceasta la FALSE va determina piesele să cadă încet, dar grațios. "
+#~ "O setare de TRUE va determina piesele să cadă rapid și lipsit de grație."
+
+#~ msgid "The board size"
+#~ msgstr "Mărimea tablei de joc"
+
+#~ msgid "The filename of the theme to use."
+#~ msgstr "Numele fișierului pentru tema ce trebuie folosită."
+
+#~ msgid "The height of the custom board, 101 &gt; height &gt; 3."
+#~ msgstr "Înălțimea tablei personalizate, 101 &gt; înălțime &gt; 3."
+
+#~ msgid ""
+#~ "The size of the board to use. 1 = Custom, 2 = Small, 3 = Medium, 4 = "
+#~ "Large."
+#~ msgstr ""
+#~ "Mărimea tablei pentru folosire. 1 = Personalizată, 2 = Mică, 3 = Medie, 4 "
+#~ "= Mare."
+
+#~ msgid "The width of the custom board, 101 &gt; width &gt; 3."
+#~ msgstr "Lățimea tablei personalizate, 101 &gt; lățime &gt; 3."
+
+#~ msgid "Use fast animation"
+#~ msgstr "Folosește animație rapidă"
+
+#~ msgid "Width of the custom board"
+#~ msgstr "Lătimea ferestrei personalizate"
+
+#~ msgid "Unfortunately your score did not make the top ten."
+#~ msgstr ""
+#~ "Din păcate scorul dumneavoastră nu a intrat în cele mai bune 10 rezultate."
+
+#~ msgid "Same GNOME Theme"
+#~ msgstr "Temă Same GNOME"
+
+#~ msgid "_Theme..."
+#~ msgstr "_Temă..."
+
+#~ msgid "_Small"
+#~ msgstr "_Mic"
+
+#~ msgid "_Large"
+#~ msgstr "Ma_re"
+
+#~ msgid "_Fast Animation"
+#~ msgstr "Animație _rapidă"
+
+#~ msgid "No theme data was found."
+#~ msgstr "Datele pentru temă nu au fost găsite."
+
+#~ msgid ""
+#~ "It is impossible to play the game. Please check that the game has been "
+#~ "installed correctly and try again."
+#~ msgstr ""
+#~ "Nu este posibil să jucați acest joc. Verificați dacă jocul a fost "
+#~ "instalat corect și încercați din nou."
+
+#~ msgid "Same GNOME (Clutter)"
+#~ msgstr "Same GNOME (Clutter)"

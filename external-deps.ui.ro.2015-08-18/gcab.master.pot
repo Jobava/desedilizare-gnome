@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=gcab&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2015-08-18 04:59+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../gcab.c:62
+#, c-format
+msgid "Removing leading '%s' from member names"
+msgstr ""
+
+#: ../gcab.c:74
+#, c-format
+msgid "Dumping %s data to: %s ...\n"
+msgstr ""
+
+#: ../gcab.c:82
+#, c-format
+msgid "can't write file %s: %s"
+msgstr ""
+
+#: ../gcab.c:109
+msgid "Print program version"
+msgstr ""
+
+#: ../gcab.c:110
+msgid "Be verbose"
+msgstr ""
+
+#: ../gcab.c:111
+msgid "Create archive"
+msgstr ""
+
+#: ../gcab.c:112
+msgid "Extract all files"
+msgstr ""
+
+#: ../gcab.c:113
+msgid "Dump reserved and extra data"
+msgstr ""
+
+#: ../gcab.c:114
+msgid "List content"
+msgstr ""
+
+#: ../gcab.c:115
+msgid "List content with file details"
+msgstr ""
+
+#: ../gcab.c:116
+msgid "Change to directory DIR"
+msgstr ""
+
+#: ../gcab.c:116
+msgid "DIR"
+msgstr ""
+
+#: ../gcab.c:117
+msgid "Use zip compression"
+msgstr ""
+
+#: ../gcab.c:118
+msgid "Do not include path"
+msgstr ""
+
+#: ../gcab.c:119
+msgid "Reserve space in cabinet for signing (e.g. -s 6144 reserves 6K bytes)"
+msgstr ""
+
+#: ../gcab.c:120
+msgid "FILE INPUT_FILES..."
+msgstr ""
+
+#: ../gcab.c:134
+msgid "- create a Cabinet file"
+msgstr ""
+
+#: ../gcab.c:135
+#, c-format
+msgid "Report bugs to <%s>"
+msgstr ""
+
+#: ../gcab.c:138
+msgid ""
+"gcab saves many files together into a cabinet archive, and can restore\n"
+"individual files from the archive."
+msgstr ""
+
+#: ../gcab.c:145
+#, c-format
+msgid "option parsing failed: %s\n"
+msgstr ""
+
+#: ../gcab.c:154
+msgid "Please specify a single operation."
+msgstr ""
+
+#: ../gcab.c:157
+msgid "cabinet file must be specified."
+msgstr ""
+
+#: ../gcab.c:171
+#, c-format
+msgid "can't open %s for reading: %s\n"
+msgstr ""
+
+#: ../gcab.c:173
+#, c-format
+msgid "error reading %s: %s\n"
+msgstr ""
+
+#: ../gcab.c:208
+#, c-format
+msgid "error during extraction: %s"
+msgstr ""
+
+#: ../gcab.c:220
+#, c-format
+msgid "error while reading signature: %s"
+msgstr ""
+
+#: ../gcab.c:231
+msgid "please specify input files."
+msgstr ""
+
+#: ../gcab.c:249
+#, c-format
+msgid "Can't add file %s: %s"
+msgstr ""
+
+#: ../gcab.c:259
+msgid "no files to be archived."
+msgstr ""
+
+#: ../gcab.c:265
+#, c-format
+msgid "can't create cab file %s: %s"
+msgstr ""
+
+#: ../gcab.c:269
+#, c-format
+msgid "can't add folder to cab file %s: %s"
+msgstr ""
+
+#: ../gcab.c:277
+#, c-format
+msgid "can't write cab file %s: %s"
+msgstr ""
+
+#: ../libgcab/cabinet.c:20 ../libgcab/cabinet.c:468
+#, c-format
+msgid "unsupported compression method %d"
+msgstr ""

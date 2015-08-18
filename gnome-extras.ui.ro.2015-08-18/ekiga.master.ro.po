@@ -1,0 +1,4838 @@
+# Romanian translation of Ekiga.
+# Copyright (C) 2001-2003, 2005, 2008-2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the Ekiga package.
+# Eugen Dedu <Eugen.Dedu@pu-pm.univ-fcomte.fr>, 2008-2009.
+# George Roman <georgeroman@gmail.com>, 2005.
+# Grigore Moldovan <GrigoreMoldovan@netscape.net>, 2004.
+# Marius Dumitru <marius2677@yahoo.com>, 2003.
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2009, 2010, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ekiga HEAD\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=ekiga&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2015-08-18 03:22+0000\n"
+"PO-Revision-Date: 2011-03-16 17:53+0200\n"
+"Last-Translator: Lucian Adrian Grijincu <lucian.grijincu@gmail.com>\n"
+"Language-Team: Romanian Gnome Team <gnomero-list@lists.sourceforge.net>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);;\n"
+"X-Generator: Virtaal 0.6.1\n"
+
+#: ../ekiga.appdata.xml.in.h:1
+msgid ""
+"Ekiga is a VoIP, IP Telephony, and Video Conferencing application that "
+"allows you to make audio and video calls to remote users with SIP or H.323 "
+"compatible hardware and software. It supports many audio and video codecs "
+"and all modern VoIP features for both SIP and H.323. Ekiga is the first Open "
+"Source application to support both H.323 and SIP, as well as audio and video."
+msgstr ""
+
+#. Application name
+#. FIXME ??? ekiga-settings.h
+#: ../ekiga.desktop.in.in.h:1 ../lib/engine/gui/gtk-frontend/ekiga-app.cpp:480
+#: ../lib/engine/gui/gtk-frontend/ekiga-app.cpp:482
+#: ../lib/engine/gui/gtk-frontend/ekiga-window.cpp:739
+msgid "Ekiga Softphone"
+msgstr "Telefon VoIP Ekiga"
+
+#: ../ekiga.desktop.in.in.h:2
+msgid "IP Telephony, VoIP and Video Conferencing"
+msgstr "Telefonie IP, VoIP și Video-Conferințe"
+
+#: ../ekiga.desktop.in.in.h:3
+msgid "Talk to and see people over the Internet"
+msgstr "Comunicați cu alte persoane prin Internet"
+
+#: ../lib/engine/audioinput/audioinput-core.cpp:267
+#: ../lib/engine/audiooutput/audiooutput-core.cpp:443
+#: ../lib/engine/videoinput/videoinput-core.cpp:373
+#, fuzzy
+#| msgid "No usable audio codecs detected"
+msgid "New device detected"
+msgstr "Nu a fost detectat nici un codec audio utilizabil"
+
+#: ../lib/engine/audioinput/audioinput-core.cpp:268
+#: ../lib/engine/audiooutput/audiooutput-core.cpp:445
+#: ../lib/engine/videoinput/videoinput-core.cpp:373
+#, fuzzy
+#| msgid "Use TLS"
+msgid "Use it"
+msgstr "Utilizează TLS"
+
+#: ../lib/engine/audioinput/audioinput-core.cpp:301
+#: ../lib/engine/audiooutput/audiooutput-core.cpp:478
+#: ../lib/engine/videoinput/videoinput-core.cpp:400
+msgid "Device removed"
+msgstr ""
+
+#: ../lib/engine/components/call-history/history-book.cpp:88
+#, fuzzy
+#| msgid "Clear List"
+msgid "Clear History"
+msgstr "Șterge lista"
+
+#: ../lib/engine/components/call-history/history-contact.cpp:178
+msgid "Received"
+msgstr "Primite"
+
+#: ../lib/engine/components/call-history/history-contact.cpp:181
+msgid "Placed"
+msgstr "Efectuate"
+
+#: ../lib/engine/components/call-history/history-contact.cpp:184
+msgid "Missed"
+msgstr "Pierdute"
+
+#: ../lib/engine/components/foe-list/foe-list.cpp:66
+#, fuzzy
+#| msgid "Add to local roster"
+msgid "Add to blacklist"
+msgstr "Adaugă la agenda locală"
+
+#: ../lib/engine/components/opal/h323-call-manager.cpp:78
+#: ../lib/engine/components/opal/sip-call-manager.cpp:92
+#: ../lib/engine/protocol/call-core.cpp:205
+msgid "Call"
+msgstr "Apelează"
+
+#. Translators: this is a state, not an action, i.e. it should be read as
+#. "(you are) unregistered", and not as "(you have been) unregistered"
+#: ../lib/engine/components/opal/opal-account.cpp:176
+#: ../lib/engine/components/opal/opal-account.cpp:597
+#: ../lib/engine/components/opal/opal-account.cpp:1043
+msgid "Unregistered"
+msgstr "Neînregistrat"
+
+#. Actor stuff
+#. Translators: Example: Add ekiga.net Contact
+#: ../lib/engine/components/opal/opal-account.cpp:208
+#, fuzzy, c-format
+#| msgid "A_dd Contact"
+msgid "A_dd %s Contact"
+msgstr "A_daugă contact"
+
+#. Actor stuff
+#: ../lib/engine/components/opal/opal-account.cpp:212
+#: ../lib/engine/components/opal/opal-presentity.cpp:114
+#: ../plugins/evolution/evolution-contact.cpp:68
+#: ../plugins/ldap/ldap-book.cpp:343
+#: ../plugins/loudmouth/loudmouth-presentity.cpp:173
+#: ../plugins/resource-list/rl-presentity.cpp:211
+msgid "_Edit"
+msgstr "_Editare"
+
+#: ../lib/engine/components/opal/opal-account.cpp:214
+#: ../lib/engine/components/opal/opal-presentity.cpp:116
+#: ../plugins/evolution/evolution-contact.cpp:70
+#: ../plugins/ldap/ldap-book.cpp:345
+#: ../plugins/loudmouth/loudmouth-account.cpp:444
+#: ../plugins/loudmouth/loudmouth-presentity.cpp:198
+#: ../plugins/resource-list/rl-presentity.cpp:213
+msgid "_Remove"
+msgstr "Ște_rge"
+
+#: ../lib/engine/components/opal/opal-account.cpp:216
+#: ../plugins/loudmouth/loudmouth-account.cpp:436
+msgid "_Enable"
+msgstr "Activ_ează"
+
+#: ../lib/engine/components/opal/opal-account.cpp:218
+#: ../plugins/loudmouth/loudmouth-account.cpp:432
+msgid "_Disable"
+msgstr "_Dezactivează"
+
+#: ../lib/engine/components/opal/opal-account.cpp:229
+#: ../lib/engine/components/opal/opal-account.cpp:231
+#, fuzzy
+#| msgid "Get an Ekiga Call Out account"
+msgid "Recharge the Ekiga Call Out account"
+msgstr "Obține un cont Ekiga Call Out"
+
+#: ../lib/engine/components/opal/opal-account.cpp:235
+#: ../lib/engine/components/opal/opal-account.cpp:237
+#, fuzzy
+#| msgid "Consult the balance history"
+msgid "Consult the Ekiga Call Out balance history"
+msgstr "Consultă istoricul bilanțului"
+
+#: ../lib/engine/components/opal/opal-account.cpp:241
+#: ../lib/engine/components/opal/opal-account.cpp:243
+#, fuzzy
+#| msgid "Consult the call history"
+msgid "Consult the Ekiga Call Out call history"
+msgstr "Consultă istoricul apelurilor"
+
+#: ../lib/engine/components/opal/opal-account.cpp:293
+#: ../lib/engine/components/opal/opal-presentity.cpp:152
+#: ../plugins/resource-list/rl-entry.cpp:140
+#: ../plugins/resource-list/rl-heap.cpp:101
+#: ../plugins/resource-list/rl-heap.cpp:143
+#: ../plugins/resource-list/rl-heap.cpp:175
+#: ../plugins/resource-list/rl-presentity.cpp:142
+msgid "Unnamed"
+msgstr "Fără nume"
+
+#. translators : the result will look like :
+#. * "registered (with 2 voice mail messages)"
+#.
+#: ../lib/engine/components/opal/opal-account.cpp:311
+#, c-format
+msgid "%s (with %d voice mail message)"
+msgid_plural "%s (with %d voice mail messages)"
+msgstr[0] "%s (cu %d mesaj vocal)"
+msgstr[1] "%s (cu %d mesaje vocale)"
+msgstr[2] "%s (cu %d de mesaje vocale)"
+
+#: ../lib/engine/components/opal/opal-account.cpp:530
+#: ../lib/engine/components/opal/opal-account.cpp:1083
+msgid "Processing..."
+msgstr "Se prelucrează..."
+
+#. Translators: This is Edit name of the Account
+#. * e.g. Editing Ekiga.net Account.
+#.
+#: ../lib/engine/components/opal/opal-account.cpp:679
+#: ../plugins/ldap/ldap-book.cpp:954
+#, fuzzy, c-format
+#| msgid "Edit account"
+msgid "Editing %s Account"
+msgstr "Modifică contul"
+
+#: ../lib/engine/components/opal/opal-account.cpp:687
+#: ../lib/engine/components/opal/opal-account.cpp:713
+#: ../lib/engine/components/opal/opal-account.cpp:726
+#: ../lib/engine/components/opal/opal-bank.cpp:180
+#: ../lib/engine/components/opal/opal-bank.cpp:195
+#, fuzzy
+#| msgid "_User:"
+msgid "_User"
+msgstr "_Utilizator:"
+
+#: ../lib/engine/components/opal/opal-account.cpp:687
+#: ../lib/engine/components/opal/opal-account.cpp:713
+#: ../lib/engine/components/opal/opal-account.cpp:726
+#: ../lib/engine/components/opal/opal-bank.cpp:180
+#: ../lib/engine/components/opal/opal-bank.cpp:195
+msgid "jon"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-account.cpp:690
+#: ../lib/engine/components/opal/opal-account.cpp:715
+#: ../lib/engine/components/opal/opal-account.cpp:735
+#: ../lib/engine/components/opal/opal-bank.cpp:153
+#: ../lib/engine/components/opal/opal-bank.cpp:183
+#: ../lib/engine/components/opal/opal-bank.cpp:199
+#: ../plugins/ldap/ldap-book.cpp:1009
+msgid "_Password"
+msgstr "_Parolă"
+
+#: ../lib/engine/components/opal/opal-account.cpp:690
+#: ../lib/engine/components/opal/opal-account.cpp:702
+#: ../lib/engine/components/opal/opal-account.cpp:715
+#: ../lib/engine/components/opal/opal-account.cpp:735
+#: ../lib/engine/components/opal/opal-bank.cpp:153
+#: ../lib/engine/components/opal/opal-bank.cpp:168
+#: ../lib/engine/components/opal/opal-bank.cpp:183
+#: ../lib/engine/components/opal/opal-bank.cpp:199
+msgid "1234"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-account.cpp:692
+#: ../lib/engine/components/opal/opal-account.cpp:704
+#: ../lib/engine/components/opal/opal-account.cpp:737
+#: ../lib/engine/components/opal/opal-bank.cpp:155
+#: ../lib/engine/components/opal/opal-bank.cpp:170
+#: ../lib/engine/components/opal/opal-bank.cpp:201
+#, fuzzy
+#| msgid "Outbound Proxy"
+msgid "Outbound _Proxy"
+msgstr "Proxy de ieșire"
+
+#: ../lib/engine/components/opal/opal-account.cpp:692
+#: ../lib/engine/components/opal/opal-account.cpp:704
+#: ../lib/engine/components/opal/opal-account.cpp:737
+#: ../lib/engine/components/opal/opal-bank.cpp:155
+#: ../lib/engine/components/opal/opal-bank.cpp:170
+#: ../lib/engine/components/opal/opal-bank.cpp:201
+msgid "proxy.company.com"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-account.cpp:699
+#: ../lib/engine/components/opal/opal-bank.cpp:165
+#, fuzzy
+#| msgid "_Account ID:"
+msgid "_Account ID"
+msgstr "ID c_ont:"
+
+#: ../lib/engine/components/opal/opal-account.cpp:699
+#: ../lib/engine/components/opal/opal-bank.cpp:165
+msgid "1234567890"
+msgstr ""
+
+#. will be copied from user
+#: ../lib/engine/components/opal/opal-account.cpp:702
+#: ../lib/engine/components/opal/opal-bank.cpp:168
+#, fuzzy
+#| msgid "_PIN Code:"
+msgid "_PIN Code"
+msgstr "Cod _PIN :"
+
+#: ../lib/engine/components/opal/opal-account.cpp:709
+#: ../lib/engine/components/opal/opal-account.cpp:722
+#: ../lib/engine/components/opal/opal-account.cpp:872
+#: ../lib/engine/components/opal/opal-bank.cpp:176
+#: ../lib/engine/components/opal/opal-bank.cpp:191
+#: ../plugins/evolution/evolution-book.cpp:347
+#: ../plugins/evolution/evolution-contact.cpp:303
+#: ../plugins/ldap/ldap-book.cpp:961
+#, fuzzy
+#| msgid "_Name:"
+msgid "_Name"
+msgstr "_Nume:"
+
+#: ../lib/engine/components/opal/opal-account.cpp:709
+#: ../lib/engine/components/opal/opal-account.cpp:722
+#, fuzzy
+#| msgid "Ekiga.net Account"
+msgid "Ekiga.Net Account"
+msgstr "Cont Ekiga.net"
+
+#: ../lib/engine/components/opal/opal-account.cpp:711
+#: ../lib/engine/components/opal/opal-bank.cpp:178
+#, fuzzy
+#| msgid "_Gatekeeper:"
+msgid "_Gatekeeper"
+msgstr "_Gatekeeper:"
+
+#: ../lib/engine/components/opal/opal-account.cpp:711
+#: ../lib/engine/components/opal/opal-account.cpp:724
+#: ../lib/engine/components/opal/opal-bank.cpp:193
+#, fuzzy
+#| msgid "Ekiga.net Account"
+msgid "ekiga.net"
+msgstr "Cont Ekiga.net"
+
+#: ../lib/engine/components/opal/opal-account.cpp:717
+#: ../lib/engine/components/opal/opal-account.cpp:739
+#: ../lib/engine/components/opal/opal-bank.cpp:185
+#: ../lib/engine/components/opal/opal-bank.cpp:203
+#, fuzzy
+#| msgid "_Timeout:"
+msgid "_Timeout"
+msgstr "_Timp de expirare:"
+
+#: ../lib/engine/components/opal/opal-account.cpp:724
+#: ../lib/engine/components/opal/opal-bank.cpp:193
+#, fuzzy
+#| msgid "_Registrar:"
+msgid "_Registrar"
+msgstr "În_registrator:"
+
+#. Translators:
+#. * SIP knows two usernames: The name for the client ("User") and the name
+#. * for the authentication procedure ("Authentication user"), aka Login
+#. * to make it understandable
+#.
+#: ../lib/engine/components/opal/opal-account.cpp:733
+#: ../lib/engine/components/opal/opal-bank.cpp:197
+msgid "_Login"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-account.cpp:733
+#: ../lib/engine/components/opal/opal-bank.cpp:197
+msgid "jon.doe"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-account.cpp:742
+#, fuzzy
+#| msgid "Enable Account"
+msgid "_Enable Account"
+msgstr "Activează contul"
+
+#: ../lib/engine/components/opal/opal-account.cpp:784
+msgid "You did not supply a name for that account."
+msgstr "Nu ați introdus un nume pentru acest cont."
+
+#: ../lib/engine/components/opal/opal-account.cpp:786
+msgid "You did not supply a host to register to."
+msgstr "Nu ați specificat un calculator la care să se facă înregistrarea."
+
+#: ../lib/engine/components/opal/opal-account.cpp:788
+msgid "You did not supply a user name for that account."
+msgstr "Nu ați introdus un nume de utilizator pentru acest cont."
+
+#: ../lib/engine/components/opal/opal-account.cpp:790
+msgid "The timeout should be at least 10 seconds."
+msgstr "Timpul de expirare trebuie să fie de cel puțin 10 secunde."
+
+#: ../lib/engine/components/opal/opal-account.cpp:871
+#: ../plugins/evolution/evolution-book.cpp:345
+#, fuzzy
+#| msgid "A_dd Contact"
+msgid "Add Contact"
+msgstr "A_daugă contact"
+
+#: ../lib/engine/components/opal/opal-account.cpp:872
+#: ../lib/engine/components/opal/opal-presentity.cpp:260
+#: ../plugins/evolution/evolution-book.cpp:348
+#: ../plugins/evolution/evolution-contact.cpp:303
+msgid "John Doe"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-account.cpp:875
+#: ../plugins/evolution/evolution-book.cpp:350
+#: ../plugins/evolution/evolution-contact.cpp:312
+#: ../plugins/ldap/ldap-book.cpp:963
+msgid "_URI"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-account.cpp:879
+#: ../lib/engine/components/opal/opal-presentity.cpp:269
+msgid "Groups"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-account.cpp:901
+#: ../lib/engine/components/opal/opal-call.cpp:189
+msgid "You supplied an unsupported address"
+msgstr "Ați furnizat o adresă greșită"
+
+#. Translators: this is a state, not an action, i.e. it should be read as
+#. "(you are) registered", and not as "(you have been) registered"
+#: ../lib/engine/components/opal/opal-account.cpp:1007
+msgid "Registered"
+msgstr "Înregistrat"
+
+#: ../lib/engine/components/opal/opal-account.cpp:1056
+msgid "Could not unregister"
+msgstr "Nu s-a putut dezînregistra"
+
+#: ../lib/engine/components/opal/opal-account.cpp:1066
+msgid "Could not register"
+msgstr "Nu s-a putut înregistra"
+
+#: ../lib/engine/components/opal/opal-account.cpp:1071
+#, fuzzy
+#| msgid "Could not register"
+msgid "Could not register to "
+msgstr "Nu s-a putut înregistra"
+
+#: ../lib/engine/components/opal/opal-account.cpp:1072
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:598
+#: ../plugins/loudmouth/loudmouth-account.cpp:442
+msgid "Edit"
+msgstr "Modifică"
+
+#: ../lib/engine/components/opal/opal-account.cpp:1172
+msgid "Appointment"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-account.cpp:1176
+msgid "Breakfast"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-account.cpp:1180
+msgid "Dinner"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-account.cpp:1185
+msgid "Holiday"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-account.cpp:1189
+msgid "In transit"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-account.cpp:1193
+msgid "Looking for work"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-account.cpp:1197
+msgid "Lunch"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-account.cpp:1201
+msgid "Meal"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-account.cpp:1205
+#, fuzzy
+#| msgid "Settings"
+msgid "Meeting"
+msgstr "Configurări"
+
+#: ../lib/engine/components/opal/opal-account.cpp:1209
+#, fuzzy
+#| msgid "_Office phone:"
+msgid "On the phone"
+msgstr "Telefon _birou:"
+
+#: ../lib/engine/components/opal/opal-account.cpp:1213
+#, fuzzy
+#| msgid "Play"
+msgid "Playing"
+msgstr "Redă sunet"
+
+#: ../lib/engine/components/opal/opal-account.cpp:1217
+msgid "Shopping"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-account.cpp:1221
+msgid "Sleeping"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-account.cpp:1225
+msgid "Working"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-account.cpp:1233
+msgid "Performance"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-account.cpp:1237
+#, fuzzy
+#| msgid "Presence"
+msgid "Permanent Absence"
+msgstr "Prezență"
+
+#: ../lib/engine/components/opal/opal-account.cpp:1241
+#, fuzzy
+#| msgid "Presence"
+msgid "Presentation"
+msgstr "Prezență"
+
+#: ../lib/engine/components/opal/opal-account.cpp:1245
+msgid "Spectator"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-account.cpp:1249
+#, fuzzy
+#| msgid "String"
+msgid "Steering"
+msgstr "Șir de caractere"
+
+#: ../lib/engine/components/opal/opal-account.cpp:1253
+msgid "Business or personal trip"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-account.cpp:1257
+msgid "Watching TV"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-account.cpp:1261
+msgid "Worship"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-account.cpp:1335
+#, fuzzy
+#| msgid "Rename group"
+msgid "Renaming Groups"
+msgstr "Redenumește grup"
+
+#: ../lib/engine/components/opal/opal-bank.cpp:142
+#: ../plugins/ldap/ldap-book.cpp:956
+#, fuzzy
+#| msgid "_Add a SIP Account"
+msgid "Add Account"
+msgstr "_Adaugă un cont SIP"
+
+#: ../lib/engine/components/opal/opal-bank.cpp:147
+msgid "Get an Ekiga.net SIP account"
+msgstr "Obține un cont SIP Ekiga.net"
+
+#: ../lib/engine/components/opal/opal-bank.cpp:150
+msgid "Ekiga.im _SIP address"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-bank.cpp:150
+msgid "sip:jon@ekiga.im"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-bank.cpp:161
+#: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:459
+msgid "Get an Ekiga Call Out account"
+msgstr "Obține un cont Ekiga Call Out"
+
+#: ../lib/engine/components/opal/opal-bank.cpp:176
+#, fuzzy
+#| msgid "_Add an H.323 Account"
+msgid "My H.323 Account"
+msgstr "_Adaugă un cont H.323"
+
+#: ../lib/engine/components/opal/opal-bank.cpp:178
+msgid "h323.ekiga.net"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-bank.cpp:191
+#, fuzzy
+#| msgid "_Add a SIP Account"
+msgid "My SIP Account"
+msgstr "_Adaugă un cont SIP"
+
+#: ../lib/engine/components/opal/opal-bank.cpp:207
+#: ../plugins/loudmouth/loudmouth-account.cpp:375
+#: ../plugins/loudmouth/loudmouth-bank.cpp:124
+#, fuzzy
+#| msgid "Enable account"
+msgid "_Enable account"
+msgstr "Activează contul"
+
+#: ../lib/engine/components/opal/opal-bank.cpp:409
+#: ../plugins/loudmouth/loudmouth-heap-roster.cpp:487
+msgid "Family"
+msgstr "Familie"
+
+#: ../lib/engine/components/opal/opal-bank.cpp:410
+#: ../plugins/loudmouth/loudmouth-heap-roster.cpp:488
+msgid "Friend"
+msgstr "Prieten"
+
+#. Translator: http://www.ietf.org/rfc/rfc4480.txt proposes several
+#. relationships between you and your contact; associate means
+#. someone who is at the same "level" than you.
+#.
+#: ../lib/engine/components/opal/opal-bank.cpp:415
+#: ../plugins/loudmouth/loudmouth-heap-roster.cpp:493
+msgid "Associate"
+msgstr "Asociat"
+
+#. Translator: http://www.ietf.org/rfc/rfc4480.txt proposes several
+#. relationships between you and your contact; assistant means
+#. someone who is at a lower "level" than you.
+#.
+#: ../lib/engine/components/opal/opal-bank.cpp:420
+#: ../plugins/loudmouth/loudmouth-heap-roster.cpp:498
+msgid "Assistant"
+msgstr "Asistent"
+
+#. Translator: http://www.ietf.org/rfc/rfc4480.txt proposes several
+#. relationships between you and your contact; supervisor means
+#. someone who is at a higher "level" than you.
+#.
+#: ../lib/engine/components/opal/opal-bank.cpp:425
+#: ../plugins/loudmouth/loudmouth-heap-roster.cpp:503
+msgid "Supervisor"
+msgstr "Supraveghetor"
+
+#. Translator: http://www.ietf.org/rfc/rfc4480.txt proposes several
+#. relationships between you and your contact; self means yourself.
+#.
+#: ../lib/engine/components/opal/opal-bank.cpp:429
+#: ../plugins/loudmouth/loudmouth-heap-roster.cpp:507
+msgid "Self"
+msgstr "Însumi"
+
+#: ../lib/engine/components/opal/opal-bank.cpp:574
+msgid "_Add an Ekiga.net Account"
+msgstr "_Adaugă un cont Ekiga.net"
+
+#: ../lib/engine/components/opal/opal-bank.cpp:581
+msgid "_Add an Ekiga Call Out Account"
+msgstr "_Adaugă un cont Ekiga Call Out"
+
+#: ../lib/engine/components/opal/opal-bank.cpp:584
+msgid "_Add a SIP Account"
+msgstr "_Adaugă un cont SIP"
+
+#: ../lib/engine/components/opal/opal-bank.cpp:588
+msgid "_Add an H.323 Account"
+msgstr "_Adaugă un cont H.323"
+
+#: ../lib/engine/components/opal/opal-call.cpp:92
+#, fuzzy
+#| msgid "_Hang up"
+msgid "Hangup"
+msgstr "Înc_hide"
+
+#: ../lib/engine/components/opal/opal-call.cpp:95
+msgid "Answer"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-call.cpp:97
+#: ../plugins/libnotify/libnotify-main.cpp:288
+msgid "Reject"
+msgstr "Respinge"
+
+#: ../lib/engine/components/opal/opal-call.cpp:145
+#, fuzzy
+#| msgid "_Transfer Call"
+msgid "Transfer Call"
+msgstr "_Transferă apelul"
+
+#: ../lib/engine/components/opal/opal-call.cpp:146
+#: ../lib/engine/components/opal/opal-call.cpp:464
+msgid "Transfer"
+msgstr "Redirecționează"
+
+#: ../lib/engine/components/opal/opal-call.cpp:147
+#, fuzzy
+#| msgid "Remote URI:"
+msgid "Remote URI"
+msgstr "Adresa URI la distantă:"
+
+#: ../lib/engine/components/opal/opal-call.cpp:149
+#: ../lib/engine/components/opal/opal-presentity.cpp:265
+msgid "sip:username@ekiga.net"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-call.cpp:462
+msgid "Hold"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-call.cpp:502
+#, fuzzy
+#| msgid "Call retrieved"
+msgid "Call rejected"
+msgstr "Apel primit"
+
+#: ../lib/engine/components/opal/opal-call.cpp:506
+#, fuzzy
+#| msgid "Call completed"
+msgid "Call canceled"
+msgstr "Convorbire încheiată"
+
+#: ../lib/engine/components/opal/opal-call.cpp:519
+msgid "Abnormal call termination"
+msgstr "Apel terminat în mod anormal"
+
+#: ../lib/engine/components/opal/opal-call.cpp:524
+#, fuzzy
+#| msgid "Call forwarded"
+msgid "Call forbidden"
+msgstr "Apel redirecționat"
+
+#: ../lib/engine/components/opal/opal-call.cpp:527
+msgid "Remote certificate not authenticated"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-call.cpp:530
+msgid "Wrong number or address"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-call.cpp:533
+msgid "Invalid number or address"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-call.cpp:536
+msgid "Insufficient bandwidth"
+msgstr "Lățime de bandă insuficientă"
+
+#: ../lib/engine/components/opal/opal-call.cpp:540
+msgid "No common codec"
+msgstr "Nu exista un codec comun"
+
+#: ../lib/engine/components/opal/opal-call.cpp:543
+msgid "Call forwarded"
+msgstr "Apel redirecționat"
+
+#: ../lib/engine/components/opal/opal-call.cpp:546
+#, fuzzy
+#| msgid "No answer timeout"
+msgid "No answer"
+msgstr "Limită de timp pentru apel nepreluat"
+
+#: ../lib/engine/components/opal/opal-call.cpp:558
+msgid "Call completed"
+msgstr "Convorbire încheiată"
+
+#: ../lib/engine/components/opal/opal-call.cpp:638
+#, fuzzy
+#| msgid "Transport error"
+msgid "Transmit Video"
+msgstr "Eroare de transport"
+
+#: ../lib/engine/components/opal/opal-presentity.cpp:118
+#, fuzzy
+#| msgid "Rename group"
+msgid "Rename _Groups"
+msgstr "Redenumește grup"
+
+#. Translators: This is Edit name of the contact
+#. * e.g. Editing Contact Claire Fleury.
+#.
+#: ../lib/engine/components/opal/opal-presentity.cpp:253
+#, fuzzy, c-format
+#| msgid "Edit contact"
+msgid "Editing Contact %s"
+msgstr "Modifică contactul"
+
+#: ../lib/engine/components/opal/opal-presentity.cpp:257
+#: ../lib/engine/gui/gtk-core/form-dialog-gtk.cpp:822
+msgid "Done"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-presentity.cpp:258
+#, fuzzy
+#| msgid "Name:"
+msgid "Name"
+msgstr "Nume:"
+
+#: ../lib/engine/components/opal/opal-presentity.cpp:263
+#, fuzzy
+#| msgid "SIP URI"
+msgid "URI"
+msgstr "URI SIP"
+
+#: ../lib/engine/components/opal/opal-presentity.cpp:292
+msgid "You did not provide a valid name"
+msgstr ""
+
+#: ../lib/engine/components/opal/opal-presentity.cpp:296
+#, fuzzy
+#| msgid "You supplied an unsupported address"
+msgid "You did not provide a valid address"
+msgstr "Ați furnizat o adresă greșită"
+
+#. Translators : The alias we are registering already exists : failure
+#: ../lib/engine/components/opal/process/h323-endpoint.cpp:95
+msgid "Duplicate alias"
+msgstr "Alias duplicat"
+
+#: ../lib/engine/components/opal/process/h323-endpoint.cpp:98
+msgid "Bad username/password"
+msgstr "Nume utilizator/parolă greșită"
+
+#: ../lib/engine/components/opal/process/h323-endpoint.cpp:101
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:323
+msgid "Transport error"
+msgstr "Eroare de transport"
+
+#: ../lib/engine/components/opal/process/h323-endpoint.cpp:115
+#: ../lib/engine/components/opal/process/h323-endpoint.cpp:120
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:545
+msgid "Failed"
+msgstr "Eșuat"
+
+#: ../lib/engine/components/opal/process/opal-endpoint.cpp:544
+msgid ""
+"Ekiga did not manage to configure your network settings automatically. We "
+"suggest you disable STUN support and relay on a SIP provider that supports "
+"NAT environments.\n"
+"\n"
+msgstr ""
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:319
+msgid "Illegal status code"
+msgstr "Cod de stare ilegal"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:327
+msgid "Invalid address"
+msgstr ""
+
+#. Translators: Host of the remote party is offline, this should
+#. * appear when the remote host does not reply in an acceptable time
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:333
+msgid "Remote party host is offline"
+msgstr "Calculatorul de la distanță e deconectat"
+
+#. Translators: the following strings are answers from the SIP server
+#. * when the packet it receives has an error, see
+#. * http://www.ietf.org/rfc/rfc3261.txt, chapter 21 for more information
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:349
+msgid "Multiple choices"
+msgstr "Alegeri multiple"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:353
+msgid "Moved permanently"
+msgstr "Mutat permanent"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:357
+msgid "Moved temporarily"
+msgstr "Mutat temporar"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:361
+msgid "Use proxy"
+msgstr "Folosește proxy"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:365
+msgid "Alternative service"
+msgstr "Serviciu alternativ"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:369
+msgid "Bad request"
+msgstr "Cerere eronată"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:373
+msgid "Unauthorized"
+msgstr "Neautorizat"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:377
+msgid "Payment required"
+msgstr "Plată necesară"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:381
+msgid "Forbidden, please check that username and password are correct"
+msgstr ""
+"Acces interzis, verificați dacă numele de utilizator și parola sunt corecte"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:385
+msgid "Not found"
+msgstr "Negăsit"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:389
+msgid "Method not allowed"
+msgstr "Metodă nepermisă"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:393
+msgid "Not acceptable"
+msgstr "Inacceptabil"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:397
+msgid "Proxy authentication required"
+msgstr "Autentificare proxy necesară"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:401
+msgid "Timeout"
+msgstr "Timp de expirare"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:405
+msgid "Conflict"
+msgstr "Conflict"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:409
+msgid "Length required"
+msgstr "Lungime necesară"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:413
+msgid "Request entity too big"
+msgstr "Cerere prea mare"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:417
+msgid "Request URI too long"
+msgstr "Adresa URI cerută este prea lungă"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:421
+msgid "Unsupported media type"
+msgstr "Tip media nesuportat"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:425
+msgid "Unsupported URI scheme"
+msgstr "Schemă URI nesuportată"
+
+#. Translators:  The extension we are trying to register does not exist.
+#. * Here extension is a specific "phone number", see
+#. * http://en.wikipedia.org/wiki/Extension_(telephone)
+#. * for more information
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:433
+msgid "Bad extension"
+msgstr "Extensie greșită"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:437
+msgid "Extension required"
+msgstr "Extensie necesară"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:441
+msgid "Interval too brief"
+msgstr "Interval prea scurt"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:445
+msgid "Temporarily unavailable"
+msgstr "Temporar indisponibil"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:449
+msgid "Loop detected"
+msgstr "Buclă detectată"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:453
+msgid "Too many hops"
+msgstr "Prea multe hop-uri"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:457
+msgid "Address incomplete"
+msgstr "Adresă incompletă"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:461
+msgid "Ambiguous"
+msgstr "Ambiguu"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:465
+msgid "Busy Here"
+msgstr "Ocupat aici"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:469
+msgid "Request terminated"
+msgstr "Cerere terminată"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:473
+msgid "Not acceptable here"
+msgstr "Neacceptat aici"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:477
+msgid "Bad event"
+msgstr "Eveniment greșit"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:481
+msgid "Request pending"
+msgstr "Cerere în prelucrare"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:485
+msgid "Undecipherable"
+msgstr "Indescifrabil"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:489
+msgid "Internal server error"
+msgstr "Eroare server internă"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:493
+msgid "Not implemented"
+msgstr "Neimplementat"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:497
+msgid "Bad gateway"
+msgstr "Gateway greșit"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:501
+msgid "Service unavailable"
+msgstr "Serviciu indisponibil"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:505
+msgid "Server timeout"
+msgstr "Timp expirat la server"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:509
+msgid "SIP version not supported"
+msgstr "Versiune SIP nesuportată"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:513
+msgid "Message too large"
+msgstr "Mesaj prea mare"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:517
+msgid "Busy everywhere"
+msgstr "Ocupat peste tot"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:521
+msgid "Decline"
+msgstr "Refuză"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:525
+msgid "Does not exist anymore"
+msgstr "Nu mai există"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:529
+msgid "Globally not acceptable"
+msgstr "Neacceptat global"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:533
+#, fuzzy
+#| msgid "Invalid server data"
+msgid "Invalid certificates"
+msgstr "Date de server nevalide"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:663
+#, fuzzy
+#| msgid "Could not send message"
+msgid "Could not send message: "
+msgstr "Nu s-a putut trimite mesajul"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:665
+msgid "user offline"
+msgstr ""
+
+#. Ignore
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:695
+#: ../plugins/libnotify/libnotify-main.cpp:274
+#, c-format
+msgid "Incoming call from %s"
+msgstr "Apel primit de la %s"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:697
+#, c-format
+msgid "Incoming call"
+msgstr "Apel primit"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:703
+#, c-format
+msgid "In a call with %s"
+msgstr "În apel cu %s"
+
+#: ../lib/engine/components/opal/process/sip-endpoint.cpp:705
+#, c-format
+msgid "In a call"
+msgstr "În apel"
+
+#: ../lib/engine/gui/gtk-core/codecsbox.cpp:358
+msgid "Move selected codec priority upwards"
+msgstr "Mută codecul selectat în sus"
+
+#: ../lib/engine/gui/gtk-core/codecsbox.cpp:369
+msgid "Move selected codec priority downwards"
+msgstr "Mută codecul selectat în jos"
+
+#: ../lib/engine/gui/gtk-core/form-dialog-gtk.cpp:735
+msgid "Cancel"
+msgstr ""
+
+#: ../lib/engine/gui/gtk-core/form-dialog-gtk.cpp:755
+msgid "Advanced"
+msgstr "Avansat"
+
+#: ../lib/engine/gui/gtk-core/form-dialog-gtk.cpp:1393
+msgid "Add"
+msgstr ""
+
+#: ../lib/engine/gui/gtk-frontend/addressbook-window.cpp:444
+#, fuzzy
+#| msgid "Contacts"
+msgid "Contact Sources"
+msgstr "Contacte"
+
+#: ../lib/engine/gui/gtk-frontend/addressbook-window.cpp:461
+msgid "Address Book"
+msgstr "Agendă"
+
+#: ../lib/engine/gui/gtk-frontend/addressbook-window.cpp:469
+#: ../lib/engine/gui/gtk-frontend/ekiga-window.cpp:593
+#, fuzzy
+#| msgid "Act on selected contact"
+msgid "Call the selected contact"
+msgstr "Operează pe contactul ales"
+
+#: ../lib/engine/gui/gtk-frontend/addressbook-window.cpp:485
+#, fuzzy
+#| msgid "Show offline contacts"
+msgid "Search for contacts"
+msgstr "Arată contactele deconectate"
+
+#: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:128
+msgid ""
+"This is the Ekiga general configuration assistant. The following steps will "
+"set up Ekiga by asking a few simple questions.\n"
+"\n"
+"Once you have completed these steps, you can always change them later by "
+"selecting Preferences in the Edit menu."
+msgstr ""
+"Acesta este asistentul de configurare generală al Ekiga. Următorii pași vor "
+"configura Ekiga doar punând câteva întrebari simple.\n"
+"\n"
+"După ce ați efectuat acești pași, puteți oricând schimba, mai târziu, "
+"parametrii, selectând Preferințe din meniul Editare."
+
+#: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:136
+msgid "Welcome to Ekiga"
+msgstr "Bun venit în Ekiga"
+
+#. Personal Information
+#: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:160
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:582
+msgid "Personal Information"
+msgstr "Informații personale"
+
+#. The user fields
+#: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:163
+msgid "Please enter your first name and your surname:"
+msgstr "Introduceți prenumele și numele dumneavoastră:"
+
+#: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:172
+msgid ""
+"Your first name and surname will be used when connecting to other VoIP and "
+"videoconferencing software."
+msgstr ""
+"Prenumele și numele vor fi folosite la conectarea cu alte aplicații pentru "
+"VoIP și videoconferință."
+
+#: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:217
+msgid ""
+"You usually need a SIP or H323 account in order to use Ekiga.\n"
+"Many services allow you creating such accounts.\n"
+"\n"
+"We suggest that you use a free ekiga.im account, which allows you to be "
+"called by any person with a SIP account.\n"
+"\n"
+"If you want to call regular phone lines too, we suggest that you purchase an "
+"inexpensive call out account.\n"
+"\n"
+"The following two pages allow you creating such accounts."
+msgstr ""
+
+#: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:228
+msgid "Introduction to Accounts"
+msgstr ""
+
+#: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:306
+#, fuzzy
+#| msgid "Ekiga.net Account"
+msgid "Ekiga.im Account"
+msgstr "Cont Ekiga.net"
+
+#: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:308
+#, fuzzy
+#| msgid "Please enter your username:"
+msgid "Please enter your ekiga.im SIP address:"
+msgstr "Introduceți numele de utilizator:"
+
+#: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:317
+msgid "Please enter your password:"
+msgstr "Introduceți parola:"
+
+#: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:328
+#, fuzzy
+#| msgid ""
+#| "The username and password are used to login to your existing account at "
+#| "the ekiga.net free SIP service. If you do not have an ekiga.net SIP "
+#| "address yet, you may first create an account below. This will provide a "
+#| "SIP address that allows people to call you.\n"
+#| "\n"
+#| "You may skip this step if you use an alternative SIP service, or if you "
+#| "would prefer to specify the login details later."
+msgid ""
+"The ekiga.im SIP address and password are used to login to your existing "
+"account at the ekiga.im free SIP service. If you do not have an ekiga.im SIP "
+"address yet, you may first create an account below. This will provide a SIP "
+"address that allows people to call you.\n"
+"\n"
+"You may skip this step if you use an alternative SIP service, or if you "
+"would prefer to specify the login details later."
+msgstr ""
+"Numele utilizator și parola sunt utilizate pentru a vă autentifica la contul "
+"dumneavoastră existent la serviciul gratuit ekiga.net.  Dacă nu aveți încă o "
+"adresă SIP ekiga.net, trebuie mai întâi să creați un cont mai jos.  Veți "
+"obține astfel o adresă SIP care permite altor persoane să vă apeleze.\n"
+"\n"
+"Puteți trece peste această etapă dacă utilizați un serviciu SIP alternativ, "
+"ori dacă preferați să specificați detaliile de conexiune mai târziu."
+
+#: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:344
+#, fuzzy
+#| msgid "Get an Ekiga.net SIP account"
+msgid "Get an Ekiga.im SIP account"
+msgstr "Obține un cont SIP Ekiga.net"
+
+#: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:353
+#, fuzzy
+#| msgid "I do not want to sign up for the ekiga.net free service"
+msgid "I do not want to sign up for the ekiga.im free service"
+msgstr "Nu doresc să mă înregistrez pentru serviciul gratuit ekiga.net"
+
+#: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:423
+msgid "Ekiga Call Out Account"
+msgstr "Cont Ekiga Call Out"
+
+#: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:425
+msgid "Please enter your account ID:"
+msgstr "Introduceți ID-ul contului:"
+
+#: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:434
+msgid "Please enter your PIN code:"
+msgstr "Introduceți codul PIN:"
+
+#: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:446
+msgid ""
+"You can make calls to regular phones and cell numbers worldwide using Ekiga. "
+"To enable this, you need to do two things:\n"
+"- First buy an account at the URL below.\n"
+"- Then enter your account ID and PIN code.\n"
+"The service will work only if your account is created using the URL in this "
+"dialog.\n"
+msgstr ""
+"Folosind Ekiga, puteți apela telefoane obișnuite sau mobile din întreaga "
+"lume. Pentru a activa aceasta, aveți nevoie de două lucruri :\n"
+"- Întâi cumpărați un cont la adresa de mai jos.\n"
+"- Apoi introduceți ID-ul contului dumneavoastră și codul PIN.\n"
+"Acest serviciu funcționează numai dacă creați contul utilizând adresa de mai "
+"jos.\n"
+
+#: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:468
+msgid "I do not want to sign up for the Ekiga Call Out service"
+msgstr "Nu doresc să mă înregistrez pentru serviciul Ekiga Call Out"
+
+#: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:533
+msgid "Configuration Complete"
+msgstr "Configurație completă"
+
+#: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:535
+msgid ""
+"You have now finished the Ekiga configuration. All the settings can be "
+"changed in the Ekiga preferences. Enjoy!"
+msgstr ""
+"Ați terminat configurarea Ekiga.  Toți parametrii au fost actualizați în "
+"preferințele Ekiga.  Acum bucurați-vă de Ekiga!"
+
+#: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:541
+msgid "Configuration summary:"
+msgstr "Sumarul configurației:"
+
+#: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:585
+#: ../lib/engine/gui/gtk-frontend/book-view-gtk.cpp:681
+msgid "Full Name"
+msgstr "Nume complet"
+
+#: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:599
+msgid "SIP URI"
+msgstr "URI SIP"
+
+#: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:614
+msgid "Ekiga Call Out"
+msgstr "Ekiga Call Out"
+
+#: ../lib/engine/gui/gtk-frontend/assistant-window.cpp:652
+#, c-format
+msgid "Ekiga Configuration Assistant (%d of %d)"
+msgstr "Asistentul de configurare Ekiga (%d din %d)"
+
+#: ../lib/engine/gui/gtk-frontend/book-view-gtk.cpp:503
+msgid "_Search Filter:"
+msgstr "_Filtru căutare:"
+
+#: ../lib/engine/gui/gtk-frontend/call-window.cpp:530
+msgid ""
+"There was an error opening or initializing the video output. Please verify "
+"that no other application is using the accelerated video output."
+msgstr ""
+"A apărut o eroare la deschiderea sau inițializarea ieșirii video.  "
+"Verificați că nicio altă aplicație nu utilizează ieșirea video accelerată."
+
+#: ../lib/engine/gui/gtk-frontend/call-window.cpp:599
+#, fuzzy, c-format
+#| msgid ""
+#| "There was an error while opening the device. In case it is a pluggable "
+#| "device it may be sufficient to reconnect it. If not, or if it still is "
+#| "not accessible, please check your permissions and make sure that the "
+#| "appropriate driver is loaded."
+msgid ""
+"There was an error while opening %s.\n"
+"\n"
+"In case it is a pluggable device, it may be sufficient to reconnect it. If "
+"not, or if it still does not work, please check your permissions and make "
+"sure that the appropriate driver is loaded."
+msgstr ""
+"S-a înregistrat o eroare la deschiderea dispozitivului. În cazul în care "
+"este un dispozitiv pluggable, este suficient să îl reconectați.  Altfel, sau "
+"dacă tot nu este accesibil, vă rog să verificați permisiunile dumneavoastră "
+"și să vă asigurați că dispozitivul este instalat corect. "
+
+#: ../lib/engine/gui/gtk-frontend/call-window.cpp:603
+#, fuzzy, c-format
+#| msgid "Your video driver doesn't support the requested video format."
+msgid ""
+"There was an error while opening %s.\n"
+"\n"
+"Your video driver doesn't support the requested video format."
+msgstr "Driverul dumneavoastră video nu suportă formatul video cerut."
+
+#: ../lib/engine/gui/gtk-frontend/call-window.cpp:607
+#, fuzzy, c-format
+#| msgid "Could not open the chosen channel."
+msgid ""
+"There was an error while opening %s.\n"
+"\n"
+"Could not open the chosen channel."
+msgstr "Nu s-a putut deschide canalul ales."
+
+#: ../lib/engine/gui/gtk-frontend/call-window.cpp:611
+#, fuzzy, c-format
+#| msgid ""
+#| "Your driver doesn't seem to support any of the color formats supported by "
+#| "Ekiga.\n"
+#| " Please check your kernel driver documentation in order to determine "
+#| "which Palette is supported."
+msgid ""
+"There was an error while opening %s.\n"
+"\n"
+"Your driver doesn't seem to support any of the color formats supported by "
+"Ekiga.\n"
+" Please check your kernel driver documentation in order to determine which "
+"Palette is supported."
+msgstr ""
+"Driverul dumneavoastră nu suportă nici unul din formatele de culoare "
+"implementate de Ekiga.\n"
+"Vă rog să verificați documentația driverului din kernel pentru a determina "
+"ce paletă este suportată."
+
+#: ../lib/engine/gui/gtk-frontend/call-window.cpp:615
+#, fuzzy, c-format
+#| msgid "Error while setting the frame rate."
+msgid ""
+"There was an error while opening %s.\n"
+"\n"
+"Error while setting the frame rate."
+msgstr "Eroare la configurarea ratei cadrelor."
+
+#: ../lib/engine/gui/gtk-frontend/call-window.cpp:619
+#, fuzzy, c-format
+#| msgid "Error while setting the frame size."
+msgid ""
+"There was an error while opening %s.\n"
+"\n"
+"Error while setting the frame size."
+msgstr "Eroare la configurarea mărimii cadrului."
+
+#: ../lib/engine/gui/gtk-frontend/call-window.cpp:624
+#, c-format
+msgid "There was an error while opening %s."
+msgstr ""
+
+#: ../lib/engine/gui/gtk-frontend/call-window.cpp:671
+#, fuzzy, c-format
+#| msgid ""
+#| "Unable to open the selected audio device for recording. In case it is a "
+#| "pluggable device it may be sufficient to reconnect it. If not, or if it "
+#| "still is not accessible, please check your audio setup, the permissions "
+#| "and that the device is not busy."
+msgid ""
+"Unable to open %s for recording.\n"
+"\n"
+"In case it is a pluggable device, it may be sufficient to reconnect it. If "
+"not, or if it still does not work, please check your audio setup, the "
+"permissions and that the device is not busy."
+msgstr ""
+"Este imposibil să deschid dispozitivul audio selectat pentru înregistrare.  "
+"În cazul în care este un dispozitiv pluggable, probabil este suficient să îl "
+"reconectați.  Altfel, sau dacă tot nu funcționează, vă rog verificați "
+"parametrii audio, permisiunile dvs. și faptul că dispozitivul nu este ocupat."
+
+#: ../lib/engine/gui/gtk-frontend/call-window.cpp:675
+#, fuzzy, c-format
+#| msgid ""
+#| "The selected audio device was successfully opened but it is impossible to "
+#| "read data from this device. In case it is a pluggable device it may be "
+#| "sufficient to reconnect it. If not, or if it still is not accessible, "
+#| "please check your audio setup."
+msgid ""
+"%s was successfully opened but it is impossible to read data from this "
+"device.\n"
+"\n"
+"In case it is a pluggable device it may be sufficient to reconnect it. If "
+"not, or if it still does not work, please check your audio setup."
+msgstr ""
+"Dispozitivul audio selectat a fost deschis cu succes, dar este imposibil de "
+"citit date de la el.  În cazul în care este un dispozitiv detașabil, "
+"probabil este suficient să îl reconectați.  Altfel, sau dacă este tot "
+"inaccesibil, verificați parametrii audio."
+
+#: ../lib/engine/gui/gtk-frontend/call-window.cpp:680
+#, c-format
+msgid "Error while opening audio input device %s"
+msgstr "Eroare la deschiderea dispozitivului de intrare audio %s"
+
+#: ../lib/engine/gui/gtk-frontend/call-window.cpp:738
+#, fuzzy, c-format
+#| msgid ""
+#| "Unable to open the selected audio device for playing. In case it is a "
+#| "pluggable device it may be sufficient to reconnect it. If not, or if it "
+#| "still is not accessible, please check your audio setup, the permissions "
+#| "and that the device is not busy."
+msgid ""
+"Unable to open %s for playing.\n"
+"\n"
+"In case it is a pluggable device it may be sufficient to reconnect it. If "
+"not, or if it still does not work, please check your audio setup, the "
+"permissions and that the device is not busy."
+msgstr ""
+"Imposibil de deschis dispozitivul audio selectat pentru redare. În cazul în "
+"care este un dispozitiv detașabil, probabil este suficient să îl "
+"reconectați. Altfel, verificați parametrii audio, permisiunile și faptul că "
+"dispozitivul nu este ocupat."
+
+#: ../lib/engine/gui/gtk-frontend/call-window.cpp:742
+#, fuzzy, c-format
+#| msgid ""
+#| "The selected audio device was successfully opened but it is impossible to "
+#| "write data to this device. In case it is a pluggable device it may be "
+#| "sufficient to reconnect it. If not, or if it still is not accessible, "
+#| "please check your audio setup."
+msgid ""
+"%s was successfully opened but it is impossible to write data to this "
+"device.\n"
+"\n"
+"In case it is a pluggable device it may be sufficient to reconnect it. If "
+"not, or if it still does not work, please check your audio setup."
+msgstr ""
+"Dispozitivul audio selectat a fost deschis cu succes, dar este imposibil de "
+"transmis date.  În cazul în care este un dispozitiv detașabil, probabil este "
+"suficient să îl reconectați.  Altfel, verificați parametrii audio."
+
+#: ../lib/engine/gui/gtk-frontend/call-window.cpp:747
+#, c-format
+msgid "Error while opening audio output device %s"
+msgstr "Eroare la deschiderea dispozitivului audio de ieșire %s"
+
+#: ../lib/engine/gui/gtk-frontend/call-window.cpp:841
+msgid "Call on hold"
+msgstr "Apel în așteptare"
+
+#: ../lib/engine/gui/gtk-frontend/call-window.cpp:852
+msgid "Call retrieved"
+msgstr "Apel primit"
+
+#: ../lib/engine/gui/gtk-frontend/call-window.cpp:1117
+#, fuzzy, c-format
+#| msgid "Call Duration: %s\n"
+msgid "Calling %s"
+msgstr "Durata apelului: %s\n"
+
+#: ../lib/engine/gui/gtk-frontend/call-window.cpp:1122
+#, c-format
+msgid "Connected with %s"
+msgstr "Conectat cu %s"
+
+#: ../lib/engine/gui/gtk-frontend/call-window.cpp:1129
+#, c-format
+msgid "Call from %s"
+msgstr "Apel de la %s"
+
+#: ../lib/engine/gui/gtk-frontend/call-window.cpp:1134
+#: ../lib/engine/gui/gtk-frontend/call-window.cpp:1139
+#, fuzzy
+#| msgid "Chat Window"
+msgid "Call Window"
+msgstr "Arată fereastra de discuții"
+
+#: ../lib/engine/gui/gtk-frontend/call-window.cpp:1173
+#, c-format
+msgid ""
+"<b><u>Reception:</u></b> %s %s\n"
+"Lost Packets: %d %%\n"
+"Jitter: %d ms\n"
+"Framerate: %d fps\n"
+"Bandwidth: %d kbits/s\n"
+"\n"
+"<b><u>Transmission:</u></b> %s %s\n"
+"Remote Lost Packets: %d %%\n"
+"Remote Jitter: %d ms\n"
+"Framerate: %d fps\n"
+"Bandwidth: %d kbits/s\n"
+"\n"
+msgstr ""
+
+#: ../lib/engine/gui/gtk-frontend/call-window.cpp:1184
+msgid ""
+"The call quality is rather bad. Please check your Internet connection or "
+"your audio driver."
+msgstr ""
+
+#. FIXME:
+#. * All those actions should be call specific.
+#. * We should generate the header bar actions like we generate a menu.
+#. * Probably introducing a GActorHeaderBar would be nice.
+#. * However, it is unneeded right now as we only support one call at a time.
+#.
+#. Reject
+#: ../lib/engine/gui/gtk-frontend/call-window.cpp:1375
+#, fuzzy
+#| msgid "Reject"
+msgid "_Reject"
+msgstr "Respinge"
+
+#: ../lib/engine/gui/gtk-frontend/call-window.cpp:1384
+#, fuzzy
+#| msgid "The incoming call sound"
+msgid "Reject the incoming call"
+msgstr "Sunet utilizat la primerea unui apel"
+
+#: ../lib/engine/gui/gtk-frontend/call-window.cpp:1396
+#, fuzzy
+#| msgid "Hold the current call"
+msgid "Hang up the current call"
+msgstr "Reține convorbirea curentă"
+
+#: ../lib/engine/gui/gtk-frontend/call-window.cpp:1408
+#, fuzzy
+#| msgid "Hold the current call"
+msgid "Hold or retrieve the current call"
+msgstr "Reține convorbirea curentă"
+
+#: ../lib/engine/gui/gtk-frontend/call-window.cpp:1420
+msgid "Transfer the current call"
+msgstr "Transfera apelul curent "
+
+#: ../lib/engine/gui/gtk-frontend/call-window.cpp:1434
+msgid "Change audio and video settings"
+msgstr ""
+
+#. Call Accept
+#: ../lib/engine/gui/gtk-frontend/call-window.cpp:1438
+msgid "_Answer"
+msgstr ""
+
+#: ../lib/engine/gui/gtk-frontend/call-window.cpp:1447
+#, fuzzy
+#| msgid "The incoming call sound"
+msgid "Answer the incoming call"
+msgstr "Sunet utilizat la primerea unui apel"
+
+#: ../lib/engine/gui/gtk-frontend/call-window.cpp:1476
+msgid "Switch to fullscreen"
+msgstr "Comută afișarea pe tot ecranul"
+
+#: ../lib/engine/gui/gtk-frontend/chat-area.cpp:216
+msgid "says:"
+msgstr "spune:"
+
+#: ../lib/engine/gui/gtk-frontend/chat-area.cpp:341
+msgid "Open link in browser"
+msgstr "Deschide legătura în navigator"
+
+#: ../lib/engine/gui/gtk-frontend/chat-area.cpp:347
+msgid "Copy link"
+msgstr "Copiază legătura"
+
+#: ../lib/engine/gui/gtk-frontend/chat-area.cpp:824
+msgid "_Smile..."
+msgstr "_Zămbet..."
+
+#: ../lib/engine/gui/gtk-frontend/chat-window.cpp:124
+#, fuzzy, c-format
+#| msgid "You have %d message"
+#| msgid_plural "You have %d messages"
+msgid "You have %d unread text message"
+msgid_plural "You have %d unread text messages"
+msgstr[0] "Aveți %d mesaj"
+msgstr[1] "Aveți %d mesaje"
+msgstr[2] "Aveți %d de mesaje"
+
+#: ../lib/engine/gui/gtk-frontend/chat-window.cpp:127
+msgid "Read"
+msgstr ""
+
+#. we can't do much here since we get the Chat as reference...
+#: ../lib/engine/gui/gtk-frontend/chat-window.cpp:266
+msgid "Chat Window"
+msgstr "Arată fereastra de discuții"
+
+#: ../lib/engine/gui/gtk-frontend/ekiga-app.cpp:608
+#, fuzzy
+#| msgid "Show the call panel"
+msgid "Show the application's help"
+msgstr "Arată panoul de apel"
+
+#: ../lib/engine/gui/gtk-frontend/ekiga-app.cpp:614
+msgid "Show the application's version"
+msgstr ""
+
+#: ../lib/engine/gui/gtk-frontend/ekiga-app.cpp:618
+#, fuzzy
+#| msgid "Prints debug messages in the console (level between 1 and 5)"
+msgid "Prints debug messages in the console (level between 1 and 8)"
+msgstr "Tipărește mesaje de depanare în consolă (nivel între 1 și 5)"
+
+#: ../lib/engine/gui/gtk-frontend/ekiga-app.cpp:623
+msgid "Makes Ekiga call the given URI"
+msgstr "Face ca Ekiga să apeleze URI-ul dat"
+
+#: ../lib/engine/gui/gtk-frontend/ekiga-app.cpp:628
+#, fuzzy
+#| msgid "Hold the current call"
+msgid "Hangup the current call (if any)"
+msgstr "Reține convorbirea curentă"
+
+#: ../lib/engine/gui/gtk-frontend/ekiga-app.cpp:651
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+
+#: ../lib/engine/gui/gtk-frontend/ekiga-app.cpp:817
+msgid "Unable to open help file."
+msgstr "Nu s-a putut deschide fișierul de ajutor."
+
+#: ../lib/engine/gui/gtk-frontend/ekiga-app.cpp:843
+msgid "Contributors:"
+msgstr "Colaboratori:"
+
+#: ../lib/engine/gui/gtk-frontend/ekiga-app.cpp:848
+msgid "Artwork:"
+msgstr "Grafică:"
+
+#: ../lib/engine/gui/gtk-frontend/ekiga-app.cpp:855
+msgid "See AUTHORS file for full credits"
+msgstr "Consultați fișierul AUTHORS pentru toate contribuțiile"
+
+#: ../lib/engine/gui/gtk-frontend/ekiga-app.cpp:871
+msgid ""
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version. "
+msgstr ""
+"Acest program este software liber ; îl puteți redistribuiți și/sau modifica "
+"în termenii licenței GNU General Public License după cum este publicată de "
+"Free Software Foundation ; fie în versiunea 2 a licenței, fie (la "
+"latitudinea dumneavoastră) orice altă versiune ulterioară."
+
+#: ../lib/engine/gui/gtk-frontend/ekiga-app.cpp:875
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for "
+"more details. You should have received a copy of the GNU General Public "
+"License along with this program; if not, write to the Free Software "
+"Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA."
+msgstr ""
+"Acest program este distribuit în speranța că va fi folositor, dar FĂRĂ NICIO "
+"GARANȚIE ; chiar fără garanția implicită de RĂUTATE sau CORESPUNZĂTOARE UNUI "
+"ANUMIT SCOP.  Vedeți licența GNU General Public License pentru detalii.  "
+"Trebuie să fi primit o copie a acestei licențe împreună cu programul ; dacă "
+"nu, scrieți la Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, "
+"Boston, MA 02110-1301, USA."
+
+#: ../lib/engine/gui/gtk-frontend/ekiga-app.cpp:882
+msgid ""
+"Ekiga is licensed under the GPL license and as a special exception, you have "
+"permission to link or otherwise combine this program with the programs OPAL, "
+"OpenH323 and PWLIB, and distribute the combination, without applying the "
+"requirements of the GNU GPL to the OPAL, OpenH323 and PWLIB programs, as "
+"long as you do follow the requirements of the GNU GPL for all the rest of "
+"the software thus combined."
+msgstr ""
+"Ekiga este sub licența GPL și, ca o excepție specială, puteți link-a sau "
+"combina acest program cu programele OPAL, OpenH323 și PWLIB, sau distribui "
+"combinația, fără să aplicați cerințele GNU GPL la programle OPAL, OpenH323 "
+"și PWLIB, atâta timp cât urmați cerințele GNU GPL pentru restul programului "
+"astfel combinat."
+
+#. Translators: Please write translator credits here, and
+#. * separate names with \n
+#: ../lib/engine/gui/gtk-frontend/ekiga-app.cpp:894
+msgid "translator-credits"
+msgstr ""
+"Eugen Dedu <Eugen.Dedu@pu-pm.univ-fcomte.fr>\n"
+"George Roman <georgeroman@gmail.com>\n"
+"Grigore Moldovan <GrigoreMoldovan@netscape.net>\n"
+"Marius Dumitru <marius2677@yahoo.com>\n"
+"Mișu Moldovan <dumol@gnome.org>\n"
+"Adi Roiban <adi@roiban.ro>"
+
+#: ../lib/engine/gui/gtk-frontend/ekiga-app.cpp:899
+msgid ""
+"Ekiga is full-featured SIP and H.323 compatible VoIP, IP-Telephony and "
+"Videoconferencing application that allows you to make audio and video calls "
+"to remote users with SIP and H.323 hardware or software."
+msgstr ""
+"Ekiga e un program pentru conferințe video compatibile SIP și H.323, pentru "
+"VoIP și pentru Telefonie IP. Ekiga permite convorbiri audio și video cu "
+"utilizatori ce au aparatură sau programe compatibile SIP sau H.323."
+
+#: ../lib/engine/gui/gtk-frontend/ekiga-window.cpp:260
+msgid "Could not connect to remote host"
+msgstr "Nu se poate stabili o conexiune pâna la calculatorul de la distanță"
+
+#: ../lib/engine/gui/gtk-frontend/ekiga-window.cpp:401
+#, c-format
+msgid "Missed call from %s"
+msgstr "Apel pierdut de la %s"
+
+#: ../lib/engine/gui/gtk-frontend/ekiga-window.cpp:437
+msgid "Error"
+msgstr "Eroare"
+
+#: ../lib/engine/gui/gtk-frontend/ekiga-window.cpp:601
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:14
+msgid "Display images from your camera device"
+msgstr "Afișează imagini de la cameră"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:487
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:25
+msgid "Play sound on incoming calls"
+msgstr "Redă un sunet la primire apeluri"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:497
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:35
+msgid "Play ring tone"
+msgstr "Redă ton de sonerie"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:507
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:39
+msgid "Play busy tone"
+msgstr "Redă ton de ocupat"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:517
+msgid "Play sound for new voice mails"
+msgstr "Redă un sunet la primire apeluri vocale"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:527
+msgid "Play sound for new instant messages"
+msgstr "Redă un sunet la primirea de mesaje instant"
+
+#. Display
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:569
+#, fuzzy
+#| msgid "Show offline contacts"
+msgid "Show o_ffline contacts"
+msgstr "Arată contactele deconectate"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:571
+#, fuzzy
+#| msgid "Show offline contacts"
+msgid "Show offline contacts in the roster"
+msgstr "Arată contactele deconectate"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:573
+msgid "Place windows displaying video _above other windows"
+msgstr ""
+"Plasează ferestrele care conțin imaginea video in f_ața celorlalte ferestre "
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:575
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:66
+msgid "Place windows displaying video above other windows during calls"
+msgstr ""
+"În timpul convorbirilor, plasează ferestrele ce conțin semnal video deasupra "
+"celorlalte ferestre."
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:577
+#, fuzzy
+#| msgid "_Picture-in-Picture"
+msgid "Enable _Picture-In-Picture mode"
+msgstr "_Imagine-în-Imagine"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:579
+msgid ""
+"This allows the local video stream to be displayed incrusted in the remote "
+"video stream. This is only effective when sending and receiving video"
+msgstr ""
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:583
+#, fuzzy
+#| msgid "Full Name"
+msgid "_Full Name"
+msgstr "Nume complet"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:585
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:16
+msgid "Enter your full name"
+msgstr "Introduceți-vă numele complet"
+
+#. Network Settings
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:590
+msgid "Network Settings"
+msgstr "Configurări rețea"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:591
+msgid "Type of Service (TOS)"
+msgstr ""
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:593
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:91
+#, fuzzy
+#| msgid ""
+#| "The Type of Service (TOS) byte on outgoing RTP IP packets. This byte is "
+#| "used by the network to provide some level of Quality of Service (QoS). "
+#| "Default value 184 (0xB8) correspond to Expedited Forwarding (EF) PHB as "
+#| "defined in RFC 3246."
+msgid ""
+"The Type of Service (TOS) byte on outgoing RTP IP packets. This byte is used "
+"by the network to provide some level of Quality of Service (QoS). Default "
+"value 184 (0xB8) corresponds to Expedited Forwarding (EF) PHB as defined in "
+"RFC 3246."
+msgstr ""
+"Octetul tip de serviciu (TOS) al pachetelor de ieșire RTP IP. Acest octet "
+"este utilizat de rețea pentru a oferi un anumit nivel al Calității "
+"serviciului (QoS). Valoarea implicită 184 (0xB8) înseamnă Expedited "
+"Forwarding (EF) PHB după cum e definit în RFC 3246."
+
+#. Blacklist Settings
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:597
+msgid "Blacklist"
+msgstr ""
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:612
+msgid "_Always forward calls to the given host"
+msgstr "În_aintează întotdeauna toate apelurile la un calculator prestabilit"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:614
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the protocol settings"
+msgstr ""
+"La activare, toate apelurile primite vor fi înaintate la calculatorul "
+"specificat în configurările protocolului"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:616
+msgid "Forward calls to the given host if _no answer"
+msgstr ""
+"Înaintează apelurile la calculatorul prestabilit, dacă _nu se primește "
+"răspuns la apel"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:618
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the protocol settings if you do not answer the call"
+msgstr ""
+"La activare, dacă nu răspundeți la apeluri, toate apelurile primite vor fi "
+"înaintate la gazda specificată în configurările de la protocol"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:620
+msgid "Forward calls to the given host if _busy"
+msgstr ""
+"Înaintează apelurile la calculatorul prestabilit, dacă se primesc ton de "
+"_ocupat"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:622
+#, fuzzy
+#| msgid ""
+#| "If enabled, all incoming calls will be forwarded to the host that is "
+#| "specified in the protocol settings if you already are in a call or if you "
+#| "are in Do Not Disturb mode"
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the protocol settings if you already are in a call or if you "
+"are in busy mode"
+msgstr ""
+"La activare, dacă o convorbire e în curs de desfășurare sau modul „nu "
+"deranjați” este activ, toate apelurile primite vor fi înaintate la gazda "
+"specificată în configurările de la protocol"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:625
+msgid "Call Options"
+msgstr "Opțiuni de apel"
+
+#. Translators: the full sentence is Forward calls after x seconds.
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:628
+#, fuzzy
+#| msgid "Forward calls to host"
+msgid "Forward calls after"
+msgstr "Redirecționează apelurile către calculatorul"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:628
+msgid "seconds"
+msgstr ""
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:630
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:70
+msgid ""
+"Automatically reject or forward incoming calls if no answer is given after "
+"the specified amount of time (in seconds)"
+msgstr ""
+"Respinge sau redirecționează automat apelul, dacă nu se răspunde după un "
+"interval specificat de timp (în secunde)"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:631
+msgid "_Automatically answer incoming calls"
+msgstr "Răspunde _automat apelurilor"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:633
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:72
+msgid "If enabled, automatically answer incoming calls"
+msgstr "La activare, apelurile vor fi răspunse automat"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:695
+msgid "A"
+msgstr "A"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:705
+msgid "Event"
+msgstr "Eveniment"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:716
+msgid "Choose a sound"
+msgstr "Alegeți un sunet"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:721
+msgid "Wavefiles"
+msgstr "Fișiere wave"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:730
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:745
+msgid "Play"
+msgstr "Redă sunet"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:767
+msgid "String"
+msgstr "Șir de caractere"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:768
+msgid "Tone"
+msgstr "Tonuri"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:769
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:841
+msgid "RFC2833"
+msgstr "RFC2833"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:770
+msgid "Q.931"
+msgstr "Q.931"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:775
+msgid "Disable H.239 Extended Video"
+msgstr ""
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:776
+msgid "Allow H.239 per Content Role Mask"
+msgstr ""
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:777
+msgid "Force H.239 Presentation Role"
+msgstr ""
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:778
+msgid "Force H.239 Live Role"
+msgstr ""
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:790
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:850
+#, fuzzy
+#| msgid "Forward _URI:"
+msgid "Forward _URI"
+msgstr "Înaintează către _URI:"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:792
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:852
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:95
+msgid "The host where calls should be forwarded if call forwarding is enabled"
+msgstr ""
+"Calculatorul la care trebuie redirectate apelurile dacă s-a ales "
+"redirecționarea apelurilor"
+
+#. Packing widget
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:799
+msgid "Advanced Settings"
+msgstr "Configurări avansate"
+
+#. The toggles
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:802
+msgid "Enable H.245 _tunneling"
+msgstr "Activează _tunelarea H.245"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:804
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:104
+#, fuzzy
+#| msgid ""
+#| "This enables H.245 Tunneling mode. In H.245 Tunneling mode H.245 messages "
+#| "are encapsulated into the H.225 channel (port 1720). This saves one TCP "
+#| "connection during calls. H.245 Tunneling was introduced in H.323v2 and "
+#| "Netmeeting does not support it. Using both Fast Start and H.245 Tunneling "
+#| "can crash some versions of Netmeeting."
+msgid ""
+"This enables H.245 Tunneling mode. In H.245 Tunneling mode H.245 messages "
+"are encapsulated into the H.225 channel (port 1720). This saves one TCP "
+"connection during calls. H.245 Tunneling was introduced in H.323v2."
+msgstr ""
+"Aceasta activează modul de tunelare H.245. În modul de tunelare H.245, "
+"mesajele H.245 sunt încapsulate în canalul H.225 (portul 1720). Aceasta "
+"salvează o conexiune TCP în timpul convorbirii. Tunelarea H.245 a fost "
+"introdusă în H.323v2 și Netmeeting nu îl recunoaște. Folosind Start-Rapid și "
+"tunelarea H.245 poate bloca anumite versiuni de Netmeeting."
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:806
+msgid "Enable _early H.245"
+msgstr "Activează „_early H.245”"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:808
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:106
+msgid "This enables H.245 early in the setup"
+msgstr "Aceasta activează opțiunile „early H.245”"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:810
+#, fuzzy
+#| msgid "Enable fast _start procedure"
+msgid "Enable fast _connect procedure"
+msgstr "Activează procedura „_Start rapid”"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:811
+#, fuzzy
+#| msgid ""
+#| "Connection will be established in Fast Start mode. Fast Start is a new "
+#| "way to start calls faster that was introduced in H.323v2. It is not "
+#| "supported by Netmeeting and using both Fast Start and H.245 Tunneling can "
+#| "crash some versions of Netmeeting"
+msgid ""
+"Connection will be established in Fast Connect (Fast Start) mode. Fast "
+"Connect is a way to start calls faster that was introduced in H.323v2."
+msgstr ""
+"Conexiunea va fi stabilită în modul de pornire rapidă (Fast Start). Metoda "
+"de pornire rapidă este o metodă nouă de a începe convorbirile mai repede, "
+"definită în H.323v2. Nu e compatibilă cu Netmeeting și folosirea simultană a "
+"tunelării H.245 poate bloca anumite versiuni Netmeeting"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:813
+#, fuzzy
+#| msgid "Enable Account"
+msgid "Enable H.239 control"
+msgstr "Activează contul"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:814
+msgid "This enables H.239 capability for additional video roles."
+msgstr ""
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:819
+#, fuzzy
+#| msgid "Select the transmitted video size"
+msgid "Select the H.239 Video Role"
+msgstr "Alegeți mărimea imaginii video transmisă"
+
+#. Packing widget
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:822
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:859
+msgid "DTMF Mode"
+msgstr "Mode UTMF"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:824
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:861
+#, fuzzy
+#| msgid "_Send DTMF as:"
+msgid "_Send DTMF as"
+msgstr "_Trimit DTMF ca:"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:827
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:864
+msgid "Select the mode for DTMFs sending"
+msgstr "Selectați modul pentru trimiterea DTMFs"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:842
+msgid "INFO"
+msgstr "INFO"
+
+#. Here we add the audio codecs options
+#. Here we add the video codecs options
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:883
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:986
+msgid "Settings"
+msgstr "Configurări"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:885
+msgid "Enable silence _detection"
+msgstr ""
+"Activează _detectarea momentelor de liniște de pe canalul de comunicație"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:887
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:76
+msgid "If enabled, use silence detection with the codecs supporting it"
+msgstr ""
+"La activare, pentru codecurile ce suportă aceasta, se detectează intervalele "
+"de liniște"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:889
+msgid "Enable echo can_celation"
+msgstr "Activare anulare e_cou"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:891
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:78
+#, fuzzy
+#| msgid "If enabled, use echo cancelation"
+msgid "If enabled, use echo cancellation"
+msgstr "La activare, anulează automat ecoul"
+
+#. Audio Devices
+#. The video devices related options
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:894
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:1002
+msgid "Devices"
+msgstr "Dispozitive"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:900
+msgid "Ringing Device"
+msgstr "Dispozitiv de ieșire pentru apel"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:904
+msgid "Select the ringing audio device to use"
+msgstr "Alegeți dispozitivul de apel audio"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:907
+#, fuzzy
+#| msgid "Output device:"
+msgid "Output Device"
+msgstr "Dispozitiv de ieșire:"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:911
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:2
+msgid "Select the audio output device to use"
+msgstr "Alegeți dispozitivul de ieșire audio"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:917
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:1007
+#, fuzzy
+#| msgid "Input device:"
+msgid "Input Device"
+msgstr "Dispozitiv de intrare:"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:921
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:4
+msgid "Select the audio input device to use"
+msgstr "Alegeți dispozitivul de intrare audio"
+
+#. That button will refresh the device list
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:924
+msgid "_Detect devices"
+msgstr "_Detectează dispozitive"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:926
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:1030
+msgid "Click here to refresh the device list"
+msgstr "Apăsați aici pentru a reactualiza lista de dispozitive"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:948
+msgid "Small"
+msgstr ""
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:949
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:950
+msgid "Medium"
+msgstr ""
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:951
+msgid "480p 4:3 HD"
+msgstr ""
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:952
+msgid "DVD"
+msgstr ""
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:953
+msgid "720p HD"
+msgstr ""
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:954
+msgid "1080p Full HD"
+msgstr ""
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:959
+msgid "PAL (Europe)"
+msgstr "PAL (Europa)"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:960
+msgid "NTSC (America)"
+msgstr "NTSC (America)"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:961
+msgid "SECAM (France)"
+msgstr "SECAM (Franța)"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:962
+msgid "Auto"
+msgstr "Auto"
+
+#. Translators: the full sentence is Keep a minimum video quality of X %
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:989
+msgid "Picture Quality"
+msgstr "Calitate Imaginie"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:989
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:86
+msgid "Frame Rate"
+msgstr "Frecvență de cadre"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:991
+msgid ""
+"Choose if you want to guarantee a minimum image quality (possibly leading to "
+"dropped frames in order not to surpass the bitrate limit) or if you prefer "
+"to keep the frame rate"
+msgstr ""
+"Alegeți dacă doriți să garantați o calitate minimă a imaginii (ce poate duce "
+"la cadre pierdute pentru a nu depăși limita ratei de biți) sau menținerea "
+"frecvenței cadrelor."
+
+#. Translators: the full sentence is Maximum video bitrate of x kbits/s.
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:995
+#, fuzzy
+#| msgid "Maximum RX video bitrate"
+msgid "Use a maximum video _bitrate of"
+msgstr "Rata de biți maximă a semnalului video primit (RX)"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:995
+msgid "kbits/s"
+msgstr ""
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:997
+msgid ""
+"The maximum video bitrate in kbits/s. The video quality and the effective "
+"frame rate will be dynamically adjusted to keep the bitrate at the given "
+"value."
+msgstr ""
+"Rata de biți maximă în kb/s. Calitatea video și numărul real de cadre "
+"trimise pe secundă vor fi ajustate dinamic, în timpul convorbirilor, pentru "
+"a menține rata de biți la valoarea specificată."
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:1009
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:6
+msgid ""
+"Select the video input device to use. If an error occurs when using this "
+"device a test picture will be transmitted."
+msgstr ""
+"Alegeți dispozitivul video de intrare. O imagine de test va fi transmisă "
+"dacă apare o eroare în timp ce folosiți acest dispozitiv"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:1011
+#, fuzzy
+#| msgid "Size:"
+msgid "Size"
+msgstr "Dimensiune:"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:1015
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:8
+msgid "Select the transmitted video size"
+msgstr "Alegeți mărimea imaginii video transmisă"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:1017
+#, fuzzy
+#| msgid "Format:"
+msgid "Format"
+msgstr "Format:"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:1021
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:12
+msgid ""
+"Select the format for video cameras (does not apply to most USB cameras)"
+msgstr ""
+"Alegeți formatul utilizat la camerele video (nu se aplică la majoritatea "
+"camerelor USB)"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:1023
+#, fuzzy
+#| msgid "Channel:"
+msgid "Channel"
+msgstr "Canal:"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:1025
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:10
+msgid "The video channel number to use (to select camera, tv or other sources)"
+msgstr ""
+"Numărul canalului video ce va fi folosit (pentru a selecta o videocameră, "
+"televizor, sau alte surse)."
+
+#. That button will refresh the device list
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:1028
+#, fuzzy
+#| msgid "_Detect devices"
+msgid "_Detect Devices"
+msgstr "_Detectează dispozitive"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:1404
+msgid "No device found"
+msgstr "Nici un dispozitiv nu a fost găsit"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:1647
+#, fuzzy
+#| msgid "View the contacts list"
+msgid "Edit the Blacklist"
+msgstr "Afișează lista contactelor"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:1652
+msgid "Current list of undesirables"
+msgstr ""
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:1803
+#, fuzzy
+#| msgid "Ekiga Preferences"
+msgid "Preferences"
+msgstr "Preferințe Ekiga"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:1804
+#, fuzzy
+#| msgid "Audio Settings"
+msgid "Edit your settings"
+msgstr "Configuări audio"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:1831
+msgid "General"
+msgstr "Generale"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:1835
+#, fuzzy
+#| msgid "Call Forwarding"
+msgid "Call Handling"
+msgstr "Înaintare apeluri"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:1840
+msgid "Sound Events"
+msgstr "Evenimente sonore"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:1845
+#, fuzzy
+#| msgid "SIP URI"
+msgid "SIP"
+msgstr "URI SIP"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:1850
+msgid "H.323"
+msgstr ""
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:1854
+msgid "Audio"
+msgstr "Audio"
+
+#: ../lib/engine/gui/gtk-frontend/preferences-window.cpp:1858
+msgid "Video"
+msgstr "Video"
+
+#: ../lib/engine/gui/gtk-frontend/roster-view-gtk.cpp:1151
+#: ../lib/engine/gui/gtk-frontend/roster-view-gtk.cpp:1276
+msgid "Unsorted"
+msgstr "Netriat"
+
+#: ../lib/engine/gui/gtk-frontend/statusicon.cpp:327
+#, c-format
+msgid "You have %d message"
+msgid_plural "You have %d messages"
+msgstr[0] "Aveți %d mesaj"
+msgstr[1] "Aveți %d mesaje"
+msgstr[2] "Aveți %d de mesaje"
+
+#: ../lib/engine/gui/gtk-frontend/statusmenu.cpp:89
+#, fuzzy
+#| msgid "Disable"
+msgid "Available"
+msgstr "Dezactivează"
+
+#: ../lib/engine/gui/gtk-frontend/statusmenu.cpp:90
+msgid "Away"
+msgstr "Absent"
+
+#: ../lib/engine/gui/gtk-frontend/statusmenu.cpp:91
+#, fuzzy
+#| msgid "Busy Here"
+msgid "Busy"
+msgstr "Ocupat aici"
+
+#: ../lib/engine/gui/gtk-frontend/statusmenu.cpp:388
+msgid "Custom message..."
+msgstr "Mesaj personalizat..."
+
+#: ../lib/engine/gui/gtk-frontend/statusmenu.cpp:433
+msgid "Clear"
+msgstr "Șterge"
+
+#. Build the dialog
+#: ../lib/engine/gui/gtk-frontend/statusmenu.cpp:521
+#: ../lib/engine/gui/gtk-frontend/statusmenu.cpp:669
+msgid "Custom Message"
+msgstr "Mesaj personalizat"
+
+#: ../lib/engine/gui/gtk-frontend/statusmenu.cpp:537
+msgid "Delete custom messages:"
+msgstr "Șterge meraje personalizate:"
+
+#: ../lib/engine/gui/gtk-frontend/statusmenu.cpp:686
+msgid "Define a custom message:"
+msgstr "Creați un mesaj personalizat:"
+
+#: ../lib/engine/protocol/call-core.cpp:202
+#, fuzzy
+#| msgid "Missed call from %s"
+msgid "Missed call from"
+msgstr "Apel pierdut de la %s"
+
+#: ../lib/engine/protocol/call-core.cpp:204
+#, fuzzy
+#| msgid "Missed call from %s"
+msgid "Missed call"
+msgstr "Apel pierdut de la %s"
+
+#: ../lib/engine/protocol/known-codecs.h:39
+#: ../lib/engine/protocol/known-codecs.h:40
+#: ../lib/engine/protocol/known-codecs.h:41
+msgid "G.722.1C"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:39
+msgid "Annex C, 14 kHz mode at 24 kbit/s"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:40
+msgid "Annex C, 14 kHz mode at 32 kbit/s"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:41
+msgid "Annex C, 14 kHz mode at 48 kbit/s"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:42
+msgid "Opus"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:42
+msgid "Opus codec, 48 kHz mode"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:43
+#: ../lib/engine/protocol/known-codecs.h:44
+msgid "iSAC"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:43
+msgid "internet Speech Audio Codec, 16 kHz mode"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:44
+msgid "internet Speech Audio Codec, 32 kHz mode"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:45
+msgid "G.722"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:45
+msgid "Basic G.722"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:46
+#: ../lib/engine/protocol/known-codecs.h:47
+msgid "G.722.1"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:46
+msgid "7 kHz mode at 24 kbits/s"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:47
+msgid "7 kHz mode at 32 kbits/s"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:48
+msgid "G.722.2"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:48
+msgid "AMR Wideband"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:49
+msgid "AMR-NB"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:49
+msgid "AMR Narrowband"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:50
+#: ../lib/engine/protocol/known-codecs.h:51
+msgid "SILK"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:50
+msgid "Skype SILK 8 kbits/s"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:51
+msgid "Skype SILK 16 kbits/s"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:52
+msgid "G.711 A-Law"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:52
+#: ../lib/engine/protocol/known-codecs.h:53
+msgid "Standard G.711"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:53
+msgid "G.711 µ-Law"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:54
+#: ../lib/engine/protocol/known-codecs.h:55
+#: ../lib/engine/protocol/known-codecs.h:56
+#: ../lib/engine/protocol/known-codecs.h:57
+msgid "G.726"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:54
+msgid "G.726 at 16 kbits/s"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:55
+msgid "G.726 at 24 kbits/s"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:56
+msgid "G.726 at 32 kbits/s"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:57
+msgid "G.726 at 40 kbits/s"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:58
+msgid "IMA ADPCM"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:58
+msgid "Microsoft IMA ADPCM"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:59
+msgid "H.261"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:59
+msgid "Basic H.261"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:60
+msgid "H.263"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:61
+msgid "H.263+"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:61
+msgid "H.263 Version 1998"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:62
+#: ../lib/engine/protocol/known-codecs.h:63
+#: ../lib/engine/protocol/known-codecs.h:64
+msgid "H.264"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:62
+msgid "H.264 Single NAL mode"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:63
+msgid "H.264 Interleaved mode"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:64
+msgid "H.264 Interleaved mode, High-Profile"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:65
+msgid "MPEG-4"
+msgstr ""
+
+#: ../lib/engine/protocol/known-codecs.h:66
+msgid "VP8"
+msgstr ""
+
+#. whitespaces for a better alignment
+#: ../lib/gui/dialpad.c:53
+msgid "abc"
+msgstr "abc"
+
+#: ../lib/gui/dialpad.c:54
+msgid "def"
+msgstr "def"
+
+#: ../lib/gui/dialpad.c:55
+msgid "ghi"
+msgstr "ghi"
+
+#: ../lib/gui/dialpad.c:56
+msgid "jkl"
+msgstr "jkl"
+
+#: ../lib/gui/dialpad.c:57
+msgid "mno"
+msgstr "mno"
+
+#: ../lib/gui/dialpad.c:58
+msgid "pqrs"
+msgstr "pqrs"
+
+#: ../lib/gui/dialpad.c:59
+msgid "tuv"
+msgstr "tux"
+
+#: ../lib/gui/dialpad.c:60
+msgid "wxyz"
+msgstr "wxyz"
+
+#: ../lib/gui/gmdialog.c:322
+msgid "Do not show this dialog again"
+msgstr "Nu mai afișa acest dialog"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:1
+msgid "Audio output device"
+msgstr "Dispozitiv audio de ieșire"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:3
+msgid "Audio input device"
+msgstr "Dispozitiv audio de intrare"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:5
+msgid "Video input device"
+msgstr "Dispozitiv video de intrare"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:7
+msgid "Video size"
+msgstr "Mărime video"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:9
+msgid "Video channel"
+msgstr "Canal video"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:11
+msgid "Video format"
+msgstr "Format video"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:13
+msgid "Video preview"
+msgstr "Previzualizare video"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:15
+msgid "Full name"
+msgstr "Nume complet"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:17
+msgid "Contact short status"
+msgstr "Stare scurtă contact"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:18
+msgid "The short status information"
+msgstr "Informație despre starea (pe scurt)"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:19
+msgid "Contact long status"
+msgstr "Stare lungă contact"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:20
+msgid "The long status information"
+msgstr "Informație despre starea (in extenso)"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:21
+msgid "Alternative audio output device"
+msgstr "Dispozitiv alternativ de ieșire audio"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:22
+msgid "Select an alternative audio output device to use for sound events."
+msgstr ""
+"Alegeți dispozitivul de ieșire audio alternativ folosit pentru notificările "
+"sonore."
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:23
+msgid "The incoming call sound"
+msgstr "Sunet utilizat la primerea unui apel"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:24
+msgid "The sound that will be played on incoming calls, if enabled"
+msgstr "La activare, sunetul de redat la apelurile primite"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:26
+msgid "The chosen sound will be played on incoming calls, if enabled"
+msgstr "La activare, sunetul ales va fi utilizat la primirea apelurilor"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:27
+msgid "The new instant message sound"
+msgstr "Sunet la primirea unui mesaj nou"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:28
+msgid ""
+"The sound that will be played when there is a new instant message, if enabled"
+msgstr "La activare, sunetul de redat la primirea unui mesaj"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:29
+msgid "Play sound on new message"
+msgstr "Redă un sunet la mesaje noi"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:30
+msgid ""
+"The chosen sound will be played when a new instant message is received, if "
+"enabled"
+msgstr "La activare, sunetul ales va fi utilizat când un mesaj nou este primit"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:31
+msgid "The new voice mail sound"
+msgstr "Sunet la primerea unui apel"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:32
+msgid ""
+"The sound that will be played when there is a new voice mail, if enabled"
+msgstr "La activare, sunetul de redat la apelurile primite"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:33
+msgid "Play sound on new voice mail"
+msgstr "Redă un sunet la apeluri vocale noi"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:34
+msgid ""
+"The chosen sound will be played when a new voice mail is received, if enabled"
+msgstr ""
+"La activare, sunetul ales va fi utilizat când un nou mesaj vocal este primit"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:36
+msgid "The chosen sound will be played when calling somebody, if enabled"
+msgstr "La activare, sunetul ales va fi utilizat la inițierea apelurilor"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:37
+msgid "The dial tone sound"
+msgstr "Sunet ton la apel"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:38
+msgid "The sound that will be played when calling somebody, if enabled"
+msgstr "La activare, sunetul de redat la inițierea unui apel"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:40
+msgid ""
+"The chosen sound will be played at the end of calls or calling somebody who "
+"is busy, if enabled"
+msgstr ""
+"La activare, sunetul ales va fi utilizat la sfârșitul convorbirilor sau la "
+"apelul unei persoane ocupate"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:41
+msgid "The busy tone sound"
+msgstr "Sunetul pentru ton ocupat"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:42
+msgid ""
+"The sound that will be played at the end of calls or when calling somebody "
+"who is busy, if enabled"
+msgstr ""
+"La activare, sunetul care de redat la sfârșitul convorbirilor sau la "
+"apelarea unei persoane ocupate"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:43
+msgid "The STUN Server"
+msgstr "Serverul STUN "
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:44
+msgid ""
+"The STUN server to use for STUN Support. STUN is a technology that permits "
+"passage through some types of NAT gateway"
+msgstr ""
+"Serverul STUN ofera suport pentru STUN (Simple Traversal of UDP over NATs). "
+"STUN este o metodă care permite trecerea prin anumite tipuri de gateway-uri "
+"care folosesc translatarea adresei IP (NAT)"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:45
+msgid "Enable STUN network detection"
+msgstr "Activează detectărea de rețea STUN"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:46
+msgid "Enable the automatic network setup resulting from the STUN test"
+msgstr "Activează configurarea automată a rețelei prin test STUN"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:47
+#, fuzzy
+#| msgid "Position on the screen of the chat window"
+msgid "Position on the screen of the call window"
+msgstr "Poziție pe ecran a ferestrei de chat"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:48
+#, fuzzy
+#| msgid "Size of the chat window"
+msgid "Size of the call window"
+msgstr "Mărime fereastră de conversație"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:49
+#, fuzzy
+#| msgid "Position on the screen of the druid window"
+msgid "Position on the screen of the extended video window"
+msgstr "Poziție pe ecran a ferestrei cu asistentul de configurare"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:50
+#, fuzzy
+#| msgid "The size of the remote video window"
+msgid "Size of the extended video window"
+msgstr "Mărime fereastră la distanță cu semnal video"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:51
+#, fuzzy
+#| msgid "Size of the chat window"
+msgid "Size of the main window"
+msgstr "Mărime fereastră de conversație"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:52
+msgid "Position on the screen of the main window"
+msgstr "Poziție pe ecran a ferestrei principale"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:53
+msgid "Change the panel section of the main window"
+msgstr "Modifică panoul ferestrei principale"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:54
+msgid "Size of the chat window"
+msgstr "Mărime fereastră de conversație"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:55
+msgid "Position on the screen of the chat window"
+msgstr "Poziție pe ecran a ferestrei de chat"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:56
+msgid "Position on the screen of the address book window"
+msgstr "Poziție pe ecran a ferestrei cu cartea de adrese"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:57
+msgid "Size of the address book window"
+msgstr "Mărime fereastră cu agendă"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:58
+msgid "Position on the screen of the audio settings window"
+msgstr "Poziție pe ecran a ferestrei cu opțiuni audio"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:59
+msgid "Size of the audio settings window"
+msgstr "Mărime fereastră de opțiuni audio"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:60
+msgid "Position on the screen of the video settings window"
+msgstr "Poziție pe ecran a ferestrei de opțiuni video"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:61
+msgid "Size of the video settings window"
+msgstr "Mărime fereastră de opțiuni video"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:62
+#, fuzzy
+#| msgid "Position on the screen of the chat window"
+msgid "Position on the screen of the accounts window"
+msgstr "Poziție pe ecran a ferestrei de chat"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:63
+#, fuzzy
+#| msgid "Size of the chat window"
+msgid "Size of the accounts window"
+msgstr "Mărime fereastră de conversație"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:64
+msgid "Position on the screen of the preferences window"
+msgstr "Poziție pe ecran a ferestrei cu opțiuni"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:65
+msgid "Size of the preferences window"
+msgstr "Mărime fereastră cu opțiuni"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:67
+#, fuzzy
+#| msgid "_Picture-in-Picture"
+msgid "Enable Picture-In-Picture mode"
+msgstr "_Imagine-în-Imagine"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:68
+msgid ""
+"This allows the local video stream to be displayed incrusted in the remote "
+"video stream. This is only effective when sending and receiving video."
+msgstr ""
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:69
+msgid "No answer timeout"
+msgstr "Limită de timp pentru apel nepreluat"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:71
+msgid "Automatic answer"
+msgstr "Răspuns automat"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:73
+msgid "The Audio Codecs List"
+msgstr "Lista codecuri audio"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:74
+msgid "The audio codecs list"
+msgstr "Lista codecuri audio"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:75
+msgid "Enable silence detection"
+msgstr "Activare a detectării intervalelor de liniște"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:77
+#, fuzzy
+#| msgid "Enable echo cancelation"
+msgid "Enable echo cancellation"
+msgstr "Activare a anulării ecoului"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:79
+msgid "The video codecs list"
+msgstr "Listă codecuri video"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:80
+msgid "Maximum TX video bitrate"
+msgstr "Rata de biți maximă a semnalului video transmis (TX)"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:81
+msgid ""
+"The maximum TX video bitrate in kbit/s. The video quality and the number of "
+"transmitted frames per second (depends on selected codec) will be "
+"dynamically adjusted above their minimum during calls to try to minimize the "
+"bandwidth to the given value"
+msgstr ""
+"Rata de biți maximă in kb/s. În timpul convorbirilor, calitatea video și "
+"numărul maxim de cadre trimise pe secundă (depinde de codec) vor fi ajustate "
+"dinamic peste valoarea minimă pentru a reduce rate de biți la valoarea "
+"specificată"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:82
+#, fuzzy
+#| msgid "Maximum RX video bitrate"
+msgid "Maximum video bitrate"
+msgstr "Rata de biți maximă a semnalului video primit (RX)"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:83
+#, fuzzy
+#| msgid ""
+#| "The maximum RX video bitrate in kbit/s. This value will be signaled to "
+#| "the peer endpoint that can adjust (if it supports it) its TX bitrate if "
+#| "it is above the signaled value"
+msgid ""
+"The maximum video bitrate in kbit/s. This value will be signaled to the peer "
+"endpoint that can adjust (if it supports it) its TX bitrate if it is above "
+"the signaled value"
+msgstr ""
+"Rata de biți TX maximă în kb/s.  Valoarea va fi semnalată calculatorului de "
+"la distanță care poate ajusta (dacă suportă acest lucru) rata de biți a sa "
+"în cazul în care este mai mare decât această valoare"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:84
+msgid "Temporal Spatial Trade Off"
+msgstr "Compromis temporal/spațial"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:85
+msgid ""
+"Whether to prefer to sustain the max. frame rate or lower it possibly in "
+"order to keep a minimum level of (spatial) quality for all frames. 0: "
+"Highest minimal quality, 31: lowest minimal quality"
+msgstr ""
+"Specifică dacă se preferă menținerea numărului maxim de cadre pe secundă sau "
+"micșorarea acestui număr pentru a menține un nivel minim de calitate "
+"(spațială) pentru toate cadrele. 0: cea mai înaltă calitate minimă, 31: cea "
+"mai joasă calitate minimă"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:87
+msgid ""
+"The maximum transmitted frame rate in frames/s. This rate may not be reached "
+"in case a minimum quality was configure via a TSTO value smaller than 31 and "
+"the bitrate selected is not sufficient to support this minimum quality"
+msgstr ""
+"Rata maximă de cadre transmise în cadre/s.  Aceasta rată poate să nu fie "
+"atinsă în cazul în care calitatea minimă a fost configurată cu o valoare "
+"TSTP mai mică de 31, iar rata de biți selectată nu este suficientă pentru a "
+"suporta aceasta calitate minimă"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:88
+msgid "The accounts list"
+msgstr "Lista conturilor"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:89
+msgid "The list of accounts to which Ekiga should register"
+msgstr "Lista conturilor la care Ekiga trebuie să se conecteze"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:90
+msgid "Type of Service (TOS) byte on outgoing RTP IP packets"
+msgstr "Octetul tip de serviciu (TOS) al pachetelor de ieșire RTP IP"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:92
+msgid "Listen port"
+msgstr "Port utilizat"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:93
+msgid ""
+"The port to listen to for incoming connections. Ekiga needs to be restarted "
+"for the new value to take effect"
+msgstr ""
+"Port deschis pentru primirea de apeluri. Ekiga trebuie repornit pentru ca "
+"noua valoare să aibă efect"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:94
+msgid "Forward calls to host"
+msgstr "Redirecționează apelurile către calculatorul"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:96
+msgid "DTMF transmission"
+msgstr ""
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:97
+#, fuzzy
+#| msgid ""
+#| "Select the mode for sending DTMFs. The values can be 0 (for \"RFC2833\") "
+#| "and 1 (for \"INFO\")"
+msgid ""
+"Select the mode for DTMFs transmission. The values can be 'rfc2833' (for "
+"\"RFC2833\") and 'info' (for \"SIP INFO\")"
+msgstr ""
+"Selectați modul pentru trimiterea DTMFs. Valorile pot fi 0 (pentru "
+"„RFC2833”) și 1 (pentru „INFO”)"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:98
+msgid "Connection keepalive interval"
+msgstr ""
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:99
+msgid ""
+"Enter the number of seconds between keepalive messages sent by Ekiga to "
+"maintain the connection"
+msgstr ""
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:100
+msgid "Instance ID"
+msgstr ""
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:101
+msgid ""
+"This is a Uniform Resource Name (URN) that uniquely identifies this specific "
+"UA instance. It will be generated on the first run."
+msgstr ""
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:102
+msgid ""
+"The port to listen to for incoming connections. Ekiga needs to be restarted "
+"for the new value to take effect."
+msgstr ""
+"Port deschis pentru primirea de apeluri. Ekiga trebuie repornit pentru ca "
+"noua valoare să aibă efect"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:103
+msgid "Enable H.245 tunneling"
+msgstr "Activare a tunelării H.245"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:105
+msgid "Enable early H.245"
+msgstr "Activare „early H.245”"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:107
+#, fuzzy
+#| msgid "Enable 'Fast Start'"
+msgid "Enable 'Fast Connect'"
+msgstr "Activare „Fast Start”"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:108
+#, fuzzy
+#| msgid ""
+#| "Connection will be established in Fast Start mode. Fast Start is a new "
+#| "way to start calls faster that was introduced in H.323v2. It is not "
+#| "supported by Netmeeting and using both Fast Start and H.245 Tunneling can "
+#| "crash some versions of Netmeeting"
+msgid ""
+"Connection will be established in Fast Connect mode. Fast Connect (Fast "
+"Start) is a new way to start calls faster that was introduced in H.323v2."
+msgstr ""
+"Conexiunea va fi stabilită în modul de pornire rapidă (Fast Start). Metoda "
+"de pornire rapidă este o metodă nouă de a începe convorbirile mai repede, "
+"definită în H.323v2. Nu e compatibilă cu Netmeeting și folosirea simultană a "
+"tunelării H.245 poate bloca anumite versiuni Netmeeting"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:109
+#, fuzzy
+#| msgid "Enable early H.245"
+msgid "Enable H.239"
+msgstr "Activare „early H.245”"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:110
+msgid "This enables H.239 capability for additional video roles"
+msgstr ""
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:111
+msgid "Extended Video Roles"
+msgstr ""
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:112
+msgid ""
+"Select the H.239 Video Role. The values can be \"None\" (for \"disable "
+"extended video\"), \"Content\" (for \"allow per content role mask\"), "
+"\"Presentation\" (for \"force presentation\"), or \"Live\" (for \"force live "
+"role\")"
+msgstr ""
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:113
+#, fuzzy
+#| msgid "Select the mode for DTMFs sending"
+msgid "Select the mode for DTMFs transmission"
+msgstr "Selectați modul pentru trimiterea DTMFs"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:114
+msgid "TCP port range"
+msgstr "Interval de porturi TCP"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:115
+msgid ""
+"The range of TCP ports that Ekiga will use for the H.323 H.245 channel. This "
+"port range has no effect if both participants to the conference are using "
+"H.245 Tunneling."
+msgstr ""
+"Plaja de valori a portului TCP pe care Ekiga îl va utiliza pentru canalul "
+"H.323 H.245.  Această plajă nu are niciun efect dacă ambii participanți la "
+"conferință utilizează tunelarea H.245."
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:116
+msgid "UDP port range"
+msgstr "Plajă porturi UDP"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:117
+msgid ""
+"The range of UDP ports that Ekiga will use for SIP signalling or when "
+"registering to H.323 gatekeepers. It is also used for RTP (audio and video "
+"communication channels)."
+msgstr ""
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:118
+msgid "Always forward calls to the given host"
+msgstr "Redirecționează toate apelurile către un alt calculator"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:119
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the field below"
+msgstr ""
+"La activare, toate apelurile primite vor fi redirecționate la calculatorul "
+"specificat în câmpul de mai jos."
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:120
+msgid "Forward calls to the given host if busy"
+msgstr ""
+"Redirecționează apelurile către acest calculator dacă linia este ocupată"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:121
+#, fuzzy
+#| msgid ""
+#| "If enabled, all incoming calls will be forwarded to the host that is "
+#| "specified in the field below if you already are in a call or if you are "
+#| "in Do Not Disturb mode"
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the field below if you already are in a call or if you are in "
+"busy mode"
+msgstr ""
+"La activare, dacă o convorbire e în curs de desfășurare sau modul „nu "
+"deranjați” este activ, toate apelurile primite vor fi redirecționate la "
+"calculatorul specificat în câmpul de mai jos"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:122
+msgid "Forward calls to the given host if no answer"
+msgstr "Redirecționează apelurile la acest calculator dacă nu se răspunde"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:123
+msgid ""
+"If enabled, all incoming calls will be forwarded to the host that is "
+"specified in the field below if you do not answer the call"
+msgstr ""
+"La activare, dacă nu răspundeți la apeluri, toate apelurile primite vor fi "
+"redirecționate la calculatorul specificat în câmpul de mai jos"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:124
+msgid "List of folded groups in the roster"
+msgstr "Lista grupurilor pliate din agendă"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:125
+msgid "Show offline contacts"
+msgstr "Arată contactele deconectate"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:126
+msgid "If enabled, offline contacts will be shown in the roster"
+msgstr "La activare, apelurile primite vor fi afișate în agendă"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:127
+msgid "LDAP servers"
+msgstr "Servere LDAP"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:128
+msgid "List of configured LDAP servers"
+msgstr "Lista serverelor LDAP configurate"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:129
+#, fuzzy
+#| msgid "New resource list"
+msgid "Resource lists"
+msgstr "Listă de resurse nouă"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:130
+#, fuzzy
+#| msgid "List of configured LDAP servers"
+msgid "List of configured resource lists"
+msgstr "Lista serverelor LDAP configurate"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:131
+msgid "Calls history"
+msgstr "Istoric apeluri"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:132
+msgid "The history of the 100 last calls"
+msgstr "Istoricul ultimelor 100 apeluri făcute"
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:133
+msgid "List of foes"
+msgstr ""
+
+#: ../org.gnome.ekiga.gschema.xml.in.in.h:134
+msgid "List of persons the user does not want to hear about"
+msgstr ""
+
+#: ../plugins/avahi/avahi-heap.cpp:130 ../plugins/avahi/avahi-heap.cpp:377
+msgid "Neighbours"
+msgstr "Vecini"
+
+#. Actor stuff
+#: ../plugins/evolution/evolution-book.cpp:264
+#: ../plugins/evolution/evolution-book.cpp:303
+#: ../plugins/loudmouth/loudmouth-heap-roster.cpp:71
+msgid "A_dd Contact"
+msgstr "A_daugă contact"
+
+#: ../plugins/evolution/evolution-book.cpp:351
+#: ../plugins/evolution/evolution-contact.cpp:313
+msgid "sip:john.doe@ekiga.net"
+msgstr ""
+
+#: ../plugins/evolution/evolution-book.cpp:352
+#: ../plugins/evolution/evolution-contact.cpp:314
+#, fuzzy
+#| msgid "_Home phone:"
+msgid "_Home Phone"
+msgstr "_Telefon acasă :"
+
+#: ../plugins/evolution/evolution-book.cpp:353
+#: ../plugins/evolution/evolution-book.cpp:355
+#: ../plugins/evolution/evolution-book.cpp:357
+#: ../plugins/evolution/evolution-book.cpp:359
+#: ../plugins/evolution/evolution-contact.cpp:315
+#: ../plugins/evolution/evolution-contact.cpp:317
+#: ../plugins/evolution/evolution-contact.cpp:319
+#: ../plugins/evolution/evolution-contact.cpp:321
+msgid "+3268123456"
+msgstr ""
+
+#: ../plugins/evolution/evolution-book.cpp:354
+#: ../plugins/evolution/evolution-contact.cpp:316
+#, fuzzy
+#| msgid "_Office phone:"
+msgid "_Office Phone"
+msgstr "Telefon _birou:"
+
+#: ../plugins/evolution/evolution-book.cpp:356
+#: ../plugins/evolution/evolution-contact.cpp:318
+#, fuzzy
+#| msgid "_Cell phone:"
+msgid "_Cell Phone"
+msgstr "Telefon _mobil:"
+
+#: ../plugins/evolution/evolution-book.cpp:358
+#: ../plugins/evolution/evolution-contact.cpp:320
+#, fuzzy
+#| msgid "_Pager:"
+msgid "_Pager"
+msgstr "_Pager:"
+
+#. Translators: This is Edit name of the contact
+#. * e.g. Editing Damien SANDRAS details
+#.
+#: ../plugins/evolution/evolution-contact.cpp:300
+#, c-format
+msgid "Editing %s details"
+msgstr ""
+
+#: ../plugins/evolution/evolution-contact.cpp:361
+msgid "Remove contact"
+msgstr "Șterge contactul"
+
+#: ../plugins/evolution/evolution-contact.cpp:363
+#, c-format
+msgid "Are you sure you want to remove %s from the addressbook?"
+msgstr "Sunteți sigur că doriți să ștergeți %s din agendă?"
+
+#: ../plugins/gstreamer/gst-audioinput.cpp:195
+msgid "Audio test"
+msgstr "Test audio"
+
+#: ../plugins/gstreamer/gst-audiooutput.cpp:225
+msgid "Silent"
+msgstr "Liniște"
+
+#: ../plugins/gstreamer/gst-videoinput.cpp:189
+msgid "Video test"
+msgstr "Test video"
+
+#. Translators: "Screencast" means the video input device will be your screen -- the other end will see your desktop
+#: ../plugins/gstreamer/gst-videoinput.cpp:341
+#: ../plugins/gstreamer/gst-videoinput.cpp:346
+msgid "Crazy"
+msgstr "Nebun"
+
+#: ../plugins/gstreamer/gst-videoinput.cpp:346
+msgid "Screencast"
+msgstr "Transmite desktopul"
+
+#: ../plugins/ldap/ldap-book.cpp:347 ../plugins/ldap/ldap-book.cpp:434
+#: ../plugins/resource-list/rl-entry.cpp:159
+#: ../plugins/resource-list/rl-entry-ref.cpp:137
+msgid "_Refresh"
+msgstr "_Actualizează"
+
+#: ../plugins/ldap/ldap-book.cpp:437
+msgid "_Remove addressbook"
+msgstr "Ște_rge agenda"
+
+#: ../plugins/ldap/ldap-book.cpp:439
+msgid "Addressbook _properties"
+msgstr "_Proprietăți agendă"
+
+#: ../plugins/ldap/ldap-book.cpp:573
+msgid "LDAP SASL Interaction"
+msgstr "Interacțiune LDAP SASL"
+
+#. Translators, Howard explained : "Challenge" is a generic term
+#. * in authentication. It's a prompt from the authentication mechanism
+#. * for some type of credential. Exactly what kind of challenge and
+#. * what kind of credential depends on the specific authentication
+#. * mechanism. Since SASL is a generic interface, and can dynamically
+#. * load arbitrary mechanisms, there's not much more specific you can
+#. * say about it. You might google for "challenge response
+#. * authentication" if you'd like more background context.
+#.
+#: ../plugins/ldap/ldap-book.cpp:615
+msgid "Challenge: "
+msgstr "Interogare: "
+
+#: ../plugins/ldap/ldap-book.cpp:623
+msgid "Interact"
+msgstr "Interacționează"
+
+#: ../plugins/ldap/ldap-book.cpp:690
+msgid "Refreshing"
+msgstr "Se actualizează"
+
+#: ../plugins/ldap/ldap-book.cpp:696
+msgid "Could not initialize server"
+msgstr "Serverul nu poate fi inițializat"
+
+#: ../plugins/ldap/ldap-book.cpp:710 ../plugins/ldap/ldap-book.cpp:755
+msgid "LDAP Error: "
+msgstr "Eroare LDAP:"
+
+#: ../plugins/ldap/ldap-book.cpp:764
+msgid "Contacted server"
+msgstr "Server contactat"
+
+#. patience == 0
+#: ../plugins/ldap/ldap-book.cpp:803
+msgid "Could not connect to server"
+msgstr "Nu se poate stabili o conexiune la server"
+
+#. patience == 0
+#: ../plugins/ldap/ldap-book.cpp:851 ../plugins/ldap/ldap-book.cpp:900
+msgid "Could not search"
+msgstr "Nu s-a putut căuta"
+
+#: ../plugins/ldap/ldap-book.cpp:859
+msgid "Waiting for search results"
+msgstr "Se așteaptă rezultatele căutării"
+
+#: ../plugins/ldap/ldap-book.cpp:930
+#, c-format
+msgid "%d user found"
+msgid_plural "%d users found"
+msgstr[0] "%d utilizator găsit"
+msgstr[1] "%d utilizatori găsiți"
+msgstr[2] "%d de utilizatori găsiți"
+
+#: ../plugins/ldap/ldap-book.cpp:961
+#, fuzzy
+#| msgid "Ekiga.net Directory"
+msgid "Ekiga.net LDAP Server"
+msgstr "Director Ekiga.net"
+
+#: ../plugins/ldap/ldap-book.cpp:964
+msgid "_Base DN:"
+msgstr "DN de _bază:"
+
+#: ../plugins/ldap/ldap-book.cpp:970
+msgid "Subtree"
+msgstr "Subarbore"
+
+#: ../plugins/ldap/ldap-book.cpp:971
+msgid "Single Level"
+msgstr "Un singur nivel"
+
+#: ../plugins/ldap/ldap-book.cpp:972
+msgid "_Search Scope"
+msgstr "_Spațiul căutării"
+
+#. Translators: DisplayName Attribute is the name of the LDAP
+#. * attribute whose value will be used to name an addressbook entry.
+#. * On Microsoft systems the actual attribute is literally named
+#. * "DisplayName" (i.e., "the name that will be displayed") but on
+#. * most LDAP servers it's "CommonName".
+#.
+#: ../plugins/ldap/ldap-book.cpp:987
+#, fuzzy
+#| msgid "_DisplayName Attribute:"
+msgid "_DisplayName Attribute"
+msgstr "Atributul _DisplayName:"
+
+#: ../plugins/ldap/ldap-book.cpp:989
+#, fuzzy
+#| msgid "Call _Attributes:"
+msgid "Call _Attributes"
+msgstr "_Atribute apel:"
+
+#: ../plugins/ldap/ldap-book.cpp:992 ../plugins/ldap/ldap-book.cpp:995
+#, fuzzy
+#| msgid "_Search Filter:"
+msgid "_Filter"
+msgstr "_Filtru căutare:"
+
+#. Translators: Bind ID - In LDAP, the operation that begins an LDAP
+#. * session and authenticates the user to the directory is called a
+#. * Bind operation.  There are two types of Binds supported in the
+#. * standard protocol - Simple Bind and SASL Bind.  Since both of
+#. * them are used for authentication, both of them require some type
+#. * of user ID as a parameter, and that is supplied here.  (Of
+#. * course, the Bind ID can be left blank, in which case the session
+#. * is anonymous / unauthenticated.)
+#.
+#: ../plugins/ldap/ldap-book.cpp:1007
+#, fuzzy
+#| msgid "Bind _ID:"
+msgid "Bind _ID"
+msgstr "_Identificator (ID) de asociere:"
+
+#: ../plugins/ldap/ldap-book.cpp:1011
+#, fuzzy
+#| msgid "Use TLS"
+msgid "Use _TLS"
+msgstr "Utilizează TLS"
+
+#: ../plugins/ldap/ldap-book.cpp:1013
+#, fuzzy
+#| msgid "Use SASL"
+msgid "Use SAS_L"
+msgstr "Utilizează SASL"
+
+#: ../plugins/ldap/ldap-book.cpp:1028
+msgid "SASL _Mechanism"
+msgstr "_Mecanism SASL"
+
+#: ../plugins/ldap/ldap-book.cpp:1060
+msgid "Please provide a Book Name for this directory\n"
+msgstr "Specificați un nume de agendă pentru acest director\n"
+
+#: ../plugins/ldap/ldap-book.cpp:1063
+msgid "Please provide a Server URI\n"
+msgstr "Specificați un URI pentru server\n"
+
+#: ../plugins/ldap/ldap-book.cpp:1066
+#, fuzzy
+#| msgid "Please provide a DisplayName Attribute\n"
+msgid "Please provide a DisplayName attribute\n"
+msgstr "Specificați un atribut DisplayName\n"
+
+#: ../plugins/ldap/ldap-book.cpp:1069
+#, fuzzy
+#| msgid "Please provide a Call Attribute\n"
+msgid "Please provide a Call attribute\n"
+msgstr "Specificați un atribut de apel\n"
+
+#: ../plugins/ldap/ldap-book.cpp:1072 ../plugins/ldap/ldap-book.cpp:1108
+msgid "Invalid Server URI\n"
+msgstr "URI server nevalid\n"
+
+#: ../plugins/ldap/ldap-source.cpp:91 ../plugins/ldap/ldap-source.cpp:133
+msgid "Add an LDAP Address Book"
+msgstr "Adaugă o agendă LDAP"
+
+#: ../plugins/ldap/ldap-source.cpp:94 ../plugins/ldap/ldap-source.cpp:137
+msgid "Add the Ekiga.net Directory"
+msgstr "Adaugă directorul Ekiga.net"
+
+#: ../plugins/ldap/ldap-source.cpp:169
+msgid "Ekiga.net Directory"
+msgstr "Director Ekiga.net"
+
+#: ../plugins/libnotify/libnotify-main.cpp:275
+msgid "Remote URI:"
+msgstr "Adresa URI la distantă:"
+
+#: ../plugins/libnotify/libnotify-main.cpp:289
+msgid "Accept"
+msgstr "Acceptă"
+
+#: ../plugins/loudmouth/loudmouth-account.cpp:111
+#: ../plugins/loudmouth/loudmouth-account.cpp:158
+#, fuzzy
+#| msgid "inactive"
+msgid "Inactive"
+msgstr "inactiv"
+
+#: ../plugins/loudmouth/loudmouth-account.cpp:237
+#, fuzzy, c-format
+#| msgid "Could not connect to server"
+msgid "Could not connect (%s)"
+msgstr "Nu se poate stabili o conexiune la server"
+
+#: ../plugins/loudmouth/loudmouth-account.cpp:243
+#, fuzzy
+#| msgid "connecting"
+msgid "Connecting..."
+msgstr "se conectare"
+
+#: ../plugins/loudmouth/loudmouth-account.cpp:283
+#, fuzzy
+#| msgid "authenticating"
+msgid "Authenticating..."
+msgstr "se autentifică"
+
+#. FIXME: can't we report better?
+#: ../plugins/loudmouth/loudmouth-account.cpp:293
+#, fuzzy
+#| msgid "Could not connect to server"
+msgid "Could not connect"
+msgstr "Nu se poate stabili o conexiune la server"
+
+#: ../plugins/loudmouth/loudmouth-account.cpp:303
+#, fuzzy
+#| msgid "disconnected"
+msgid "Disconnected"
+msgstr "deconectat"
+
+#: ../plugins/loudmouth/loudmouth-account.cpp:313
+#, fuzzy
+#| msgid "connected"
+msgid "Connected"
+msgstr "conectat"
+
+#. FIXME: can't we report something better?
+#: ../plugins/loudmouth/loudmouth-account.cpp:319
+#, fuzzy
+#| msgid "Could not unregister"
+msgid "Could not authenticate"
+msgstr "Nu s-a putut dezînregistra"
+
+#: ../plugins/loudmouth/loudmouth-account.cpp:336
+#: ../plugins/loudmouth/loudmouth-bank.cpp:115
+msgid "Edit account"
+msgstr "Modifică contul"
+
+#: ../plugins/loudmouth/loudmouth-account.cpp:338
+msgid "Please update the following fields:"
+msgstr "Actualizați următoarele câmpuri:"
+
+#: ../plugins/loudmouth/loudmouth-account.cpp:341
+#: ../plugins/loudmouth/loudmouth-heap-roster.cpp:340
+#: ../plugins/loudmouth/loudmouth-presentity.cpp:287
+#: ../plugins/resource-list/rl-cluster.cpp:163
+#: ../plugins/resource-list/rl-heap.cpp:528
+#: ../plugins/resource-list/rl-presentity.cpp:232
+msgid "Name:"
+msgstr "Nume:"
+
+#: ../plugins/loudmouth/loudmouth-account.cpp:341
+#: ../plugins/loudmouth/loudmouth-bank.cpp:119
+msgid "Account name, e.g. MyAccount"
+msgstr "Numele contului, de ex. ContulMeu"
+
+#: ../plugins/loudmouth/loudmouth-account.cpp:345
+#: ../plugins/resource-list/rl-cluster.cpp:168
+msgid "User:"
+msgstr "Utilizator:"
+
+#: ../plugins/loudmouth/loudmouth-account.cpp:345
+#: ../plugins/loudmouth/loudmouth-bank.cpp:120
+msgid "The user name, e.g. jim"
+msgstr "Numele de utilizator, de ex. mihai"
+
+#: ../plugins/loudmouth/loudmouth-account.cpp:349
+#: ../plugins/loudmouth/loudmouth-bank.cpp:121
+msgid "Server:"
+msgstr "Server:"
+
+#: ../plugins/loudmouth/loudmouth-account.cpp:349
+#: ../plugins/loudmouth/loudmouth-bank.cpp:121
+#, fuzzy
+#| msgid "The user name, e.g. jim"
+msgid "The server, e.g. jabber.org"
+msgstr "Numele de utilizator, de ex. mihai"
+
+#: ../plugins/loudmouth/loudmouth-account.cpp:353
+msgid "Port:"
+msgstr ""
+
+#: ../plugins/loudmouth/loudmouth-account.cpp:353
+msgid "The transport protocol port, if different than the default"
+msgstr ""
+
+#: ../plugins/loudmouth/loudmouth-account.cpp:357
+#: ../plugins/loudmouth/loudmouth-bank.cpp:122
+msgid "Resource:"
+msgstr "Resursă:"
+
+#: ../plugins/loudmouth/loudmouth-account.cpp:357
+#: ../plugins/loudmouth/loudmouth-bank.cpp:122
+msgid ""
+"The resource, such as home or work, allowing to distinguish among several "
+"terminals registered to the same account; leave empty if you do not know "
+"what it is"
+msgstr ""
+
+#: ../plugins/loudmouth/loudmouth-account.cpp:361
+#: ../plugins/resource-list/rl-cluster.cpp:167
+msgid "Password:"
+msgstr "Parolă:"
+
+#: ../plugins/loudmouth/loudmouth-account.cpp:361
+#: ../plugins/loudmouth/loudmouth-bank.cpp:123
+msgid "Password associated to the user"
+msgstr "Parola asociată utilizatorului"
+
+#: ../plugins/loudmouth/loudmouth-bank.cpp:105
+#, fuzzy
+#| msgid "_Add a jabber/XMPP account"
+msgid "_Add a Jabber/XMPP Account"
+msgstr "_Adaugă un cont jabber/XMPP"
+
+#: ../plugins/loudmouth/loudmouth-bank.cpp:117
+msgid "Please fill in the following fields:"
+msgstr "Completați următoarele câmpuri:"
+
+#: ../plugins/loudmouth/loudmouth-bank.cpp:119
+msgid "_Name:"
+msgstr "_Nume:"
+
+#: ../plugins/loudmouth/loudmouth-bank.cpp:120
+msgid "_User:"
+msgstr "_Utilizator:"
+
+#: ../plugins/loudmouth/loudmouth-bank.cpp:123
+msgid "_Password:"
+msgstr "_Parolă:"
+
+#. FIXME: this is here until the feature is ready
+#: ../plugins/loudmouth/loudmouth-dialect.cpp:115
+msgid "Join a discussion group"
+msgstr "Alăturați-vă unui grup de discuții"
+
+#: ../plugins/loudmouth/loudmouth-dialect.cpp:126
+msgid "Open a group chat room"
+msgstr ""
+
+#: ../plugins/loudmouth/loudmouth-dialect.cpp:128
+#, fuzzy
+#| msgid "Please provide a Server URI\n"
+msgid "Please provide a room name"
+msgstr "Specificați un URI pentru server\n"
+
+#: ../plugins/loudmouth/loudmouth-dialect.cpp:130
+#, fuzzy
+#| msgid "Rename"
+msgid "Room name"
+msgstr "Redenumește"
+
+#: ../plugins/loudmouth/loudmouth-dialect.cpp:130
+msgid "The name of the room you want to enter"
+msgstr ""
+
+#: ../plugins/loudmouth/loudmouth-dialect.cpp:132
+msgid "Pseudonym"
+msgstr ""
+
+#: ../plugins/loudmouth/loudmouth-dialect.cpp:132
+msgid "The pseudonym you'll have in the room"
+msgstr ""
+
+#: ../plugins/loudmouth/loudmouth-heap-roster.cpp:172
+msgid "Authorization to see your presence"
+msgstr "Autorizare pentru a vă vedea prezența"
+
+#: ../plugins/loudmouth/loudmouth-heap-roster.cpp:176
+#, c-format
+msgid "%s asks the permission to see your presence, saying: \"%s\"."
+msgstr "%s vă cere permisiunea să vă vadă prezența, spunând: „%s”."
+
+#: ../plugins/loudmouth/loudmouth-heap-roster.cpp:180
+#, c-format
+msgid "%s asks the permission to see your presence."
+msgstr "%s vă cere permisiunea să vă vadă prezența."
+
+#: ../plugins/loudmouth/loudmouth-heap-roster.cpp:187
+msgid "grant him/her the permission to see your presence"
+msgstr "permite vizualizarea prezenței"
+
+#: ../plugins/loudmouth/loudmouth-heap-roster.cpp:188
+msgid "refuse him/her the permission to see your presence"
+msgstr "refuză vizualizarea prezenței"
+
+#: ../plugins/loudmouth/loudmouth-heap-roster.cpp:189
+msgid "decide later (also close or cancel this dialog)"
+msgstr "decide mai târziu (și închide acest dialog)"
+
+#: ../plugins/loudmouth/loudmouth-heap-roster.cpp:190
+msgid "Your answer is: "
+msgstr "Răspunsul dumneavoastră este:"
+
+#: ../plugins/loudmouth/loudmouth-heap-roster.cpp:336
+msgid "Add a roster element"
+msgstr "Adaugă un element în registru"
+
+#: ../plugins/loudmouth/loudmouth-heap-roster.cpp:337
+msgid "Please fill in this form to add a new element to the remote roster"
+msgstr ""
+"Completați formularul pentru a adăuga un nou contact în registrul aflat la "
+"distanță"
+
+#: ../plugins/loudmouth/loudmouth-heap-roster.cpp:339
+#: ../plugins/resource-list/rl-heap.cpp:469
+msgid "Identifier:"
+msgstr "Identificator:"
+
+#: ../plugins/loudmouth/loudmouth-heap-roster.cpp:339
+msgid "identifier@server"
+msgstr "identificator@server"
+
+#: ../plugins/loudmouth/loudmouth-heap-roster.cpp:340
+msgid "Name of the contact, as shown in your roster"
+msgstr "Numele contactului, așa cum apare în lista dumneavoastră"
+
+#: ../plugins/loudmouth/loudmouth-heap-roster.cpp:342
+msgid "Put contact in groups:"
+msgstr "Adaugă contact în grupuri :"
+
+#: ../plugins/loudmouth/loudmouth-presentity.cpp:166
+msgid "Start chat"
+msgstr "Pornește o discuție"
+
+#: ../plugins/loudmouth/loudmouth-presentity.cpp:169
+msgid "Continue chat"
+msgstr "Continuă o discuție"
+
+#: ../plugins/loudmouth/loudmouth-presentity.cpp:178
+#: ../plugins/loudmouth/loudmouth-presentity.cpp:184
+msgid "Ask him/her to see his/her status"
+msgstr "Cere-i permisiunea pentru a-i vizualiza statusul"
+
+#: ../plugins/loudmouth/loudmouth-presentity.cpp:182
+#: ../plugins/loudmouth/loudmouth-presentity.cpp:194
+msgid "Forbid him/her to see my status"
+msgstr "Interzice-i să-mi vadă statusul"
+
+#: ../plugins/loudmouth/loudmouth-presentity.cpp:186
+msgid "Ask him/her to see his/her status (pending)"
+msgstr ""
+"Cere-i permisiunea pentru a-i vizualiza statusul (se așteaptă răspunsul)"
+
+#: ../plugins/loudmouth/loudmouth-presentity.cpp:190
+#: ../plugins/loudmouth/loudmouth-presentity.cpp:195
+msgid "Stop getting his/her status"
+msgstr "Oprește primirea statusului acestui contact"
+
+#: ../plugins/loudmouth/loudmouth-presentity.cpp:284
+msgid "Edit roster element"
+msgstr "Modifică element din agendă"
+
+#: ../plugins/loudmouth/loudmouth-presentity.cpp:285
+msgid ""
+"Please fill in this form to change an existing element of the remote roster"
+msgstr ""
+"Completați formularul pentru a modifica intrarea din registrul aflat la "
+"distanță"
+
+#: ../plugins/loudmouth/loudmouth-presentity.cpp:289
+#: ../plugins/resource-list/rl-heap.cpp:530
+#: ../plugins/resource-list/rl-presentity.cpp:235
+msgid "Choose groups:"
+msgstr "Alegeți grupul:"
+
+#: ../plugins/resource-list/rl-cluster.cpp:96
+#, fuzzy
+#| msgid "Add new resource-list"
+msgid "Add resource list"
+msgstr "Adaugă o nouă listă de resurse"
+
+#: ../plugins/resource-list/rl-cluster.cpp:160
+msgid "Add new resource-list"
+msgstr "Adaugă o nouă listă de resurse"
+
+#: ../plugins/resource-list/rl-cluster.cpp:161
+msgid ""
+"Please fill in this form to add a new contact list to ekiga's remote roster"
+msgstr ""
+"Completați formularul pentru a adăuga un nou contact la agenda de la "
+"distanță Ekiga"
+
+#: ../plugins/resource-list/rl-cluster.cpp:164
+#: ../plugins/resource-list/rl-heap.cpp:529
+#: ../plugins/resource-list/rl-presentity.cpp:233
+msgid "Address:"
+msgstr "Adresă:"
+
+#: ../plugins/resource-list/rl-cluster.cpp:165
+#: ../plugins/resource-list/rl-heap.cpp:470
+msgid "Writable:"
+msgstr "Poate fi scris:"
+
+#: ../plugins/resource-list/rl-cluster.cpp:166
+msgid "Username:"
+msgstr "Nume utilizator:"
+
+#: ../plugins/resource-list/rl-entry.cpp:201
+msgid "Invalid server data"
+msgstr "Date de server nevalide"
+
+#: ../plugins/resource-list/rl-entry-ref.cpp:52
+msgid "Click to fetch"
+msgstr "Apasați pentru obținere"
+
+#: ../plugins/resource-list/rl-entry-ref.cpp:119
+msgid "Distant contact"
+msgstr "Contact la distanță"
+
+#: ../plugins/resource-list/rl-heap.cpp:197
+msgid "_Add a new contact"
+msgstr "_Adaugă contact nou"
+
+#: ../plugins/resource-list/rl-heap.cpp:199
+msgid "_Refresh contact list"
+msgstr "_Actualizează lista contactelor"
+
+#: ../plugins/resource-list/rl-heap.cpp:201
+msgid "Contact list _properties"
+msgstr "_Proprietăți lista contactelor"
+
+#: ../plugins/resource-list/rl-heap.cpp:461
+msgid "Edit contact list properties"
+msgstr "Editează proprietățile listei de contact"
+
+#: ../plugins/resource-list/rl-heap.cpp:463
+msgid "Please edit the following fields (no identifier means global)"
+msgstr "Editați următoarele câmpuri (niciun identificator înseamnă global)"
+
+#: ../plugins/resource-list/rl-heap.cpp:466
+msgid "Contact list's name:"
+msgstr "Nume listă de contacte:"
+
+#. "Document" used as a name -- uri point to the root of a document tree
+#: ../plugins/resource-list/rl-heap.cpp:468
+msgid "Document root:"
+msgstr "Rădăcina documentului:"
+
+#: ../plugins/resource-list/rl-heap.cpp:471
+msgid "Server username:"
+msgstr "Nume utilizator server:"
+
+#: ../plugins/resource-list/rl-heap.cpp:472
+msgid "Server password:"
+msgstr "Parolă server:"
+
+#: ../plugins/resource-list/rl-heap.cpp:514
+msgid "Add a remote contact"
+msgstr "Adaugă un contact la distanță"
+
+#: ../plugins/resource-list/rl-heap.cpp:515
+msgid "Please fill in this form to create a new contact on a remote server"
+msgstr ""
+"Completați formularul pentru a crea un nou contact pe serverul de la distanță"
+
+#. Translators: #%d - ordinal number
+#: ../plugins/resource-list/rl-list.cpp:182
+#, c-format
+msgid "%s / List #%d"
+msgstr "%s / Lista #%d"
+
+#. Translators: #%d - ordinal number
+#: ../plugins/resource-list/rl-list.cpp:187
+#, c-format
+msgid "List #%d"
+msgstr "Lista #%d"
+
+#: ../plugins/resource-list/rl-presentity.cpp:229
+msgid "Edit remote contact"
+msgstr "Modifică contact la distanță"
+
+#: ../plugins/resource-list/rl-presentity.cpp:230
+msgid ""
+"Please fill in this form to change an existing contact on a remote server"
+msgstr ""
+"Completați formularul pentru a schimba un contact existent pe serverul de la "
+"distanță"
+
+#~ msgid "0: 56kbps, 1: ISDN, 2: DSL128, 3: DSL512, 4: LAN, 5: Custom"
+#~ msgstr "0: 56kbps, 1: ISDN, 2: DSL128, 3: DSL512, 4: LAN, 5: Personalizat"
+
+#~ msgid ""
+#~ "Allow Ekiga to fall back to software scaling the picture-in-picture if "
+#~ "hardware support is not available. If this is set to false, Ekiga will "
+#~ "not try to open the PIP if hardware support is not available."
+#~ msgstr ""
+#~ "Permite Ekiga să utilizeze scalare imagine-în-imagine în software dacă "
+#~ "suportul hardware nu este disponibil. Dacă nu se permite, Ekiga nu va "
+#~ "încerca să deschidă o imagine în altă imagine dacă suportul hardware nu "
+#~ "este disponibil."
+
+#~ msgid "Allow picture-in-picture software scaling"
+#~ msgstr "Permite scalare software imagine-în-imagine"
+
+#~ msgid ""
+#~ "Change the panel section of the main window (0=Contacts, 1=Dialpad, "
+#~ "2=Call history)"
+#~ msgstr ""
+#~ "Modifică panoul ferestrei principale (0=Contacte, 1=Tastatură, 2=Istoric "
+#~ "apeluri)"
+
+#~ msgid "DTMF sending"
+#~ msgstr "Trimitere DTMF"
+
+#~ msgid "Disable video hardware acceleration"
+#~ msgstr "Dezactivare a accelerării video hardware"
+
+#~ msgid ""
+#~ "Enter the number of seconds after which Ekiga should try refreshing the "
+#~ "NAT binding when STUN is being used"
+#~ msgstr ""
+#~ "Introduceți numărul de secunde după care Ekiga va împrospăta conexiunea "
+#~ "NAT când se utilizează STUN"
+
+#~ msgid ""
+#~ "If enabled, Ekiga will start hidden provided that the notification area "
+#~ "is present in the GNOME panel"
+#~ msgstr ""
+#~ "La activare, dacă zona de notificare e prezentă în panoul GNOME, Ekiga va "
+#~ "porni ascuns."
+
+#~ msgid "Kind of network selected in the assistant"
+#~ msgstr "Tip de rețea selectat în asistentul de configurare"
+
+#~ msgid "Maximum jitter buffer"
+#~ msgstr "Dimensiune maximă pentru „jitter buffer”"
+
+#~ msgid "NAT Binding Timeout"
+#~ msgstr "Limită de timp pentru „NAT binding”"
+
+#~ msgid "Remote video window position"
+#~ msgstr "Poziție a ferestrei cu video recepționat"
+
+#~ msgid "Remote video window size"
+#~ msgstr "Dimensiuni ale ferestrei cu video recepționat"
+
+#~| msgid ""
+#~| "This allows you to set the mode for sending DTMFs. The values can be "
+#~| "\"String\" (0), \"Tone\" (1), \"RFC2833\" (2), \"Q.931\" (3) (default is "
+#~| "\"String\"). Choosing other values than \"String\" disables the Text Chat"
+#~ msgid ""
+#~ "Select the mode for sending DTMFs. The values can be 0 (for \"String\"), "
+#~ "1 (for \"Tone\"), 2 (for \"RFC2833\"), or 3 (for \"Q.931\") (default is "
+#~ "\"String\"). Choosing other values than \"String\" disables the Text Chat."
+#~ msgstr ""
+#~ "Selectați modul pentru trimiterea DTMFs. Valorile pot fi 0 (pentru "
+#~ "„String”), 1 (pentru „Tone”), 2 (pentru „RFC2833”), sau 3 (pentru "
+#~ "„Q.931”) (implicit este „String”). Alegerea altor valori decât „String” "
+#~ "dezactivează Chat Text."
+
+#~ msgid ""
+#~ "Select the transmitted video size: Small (QCIF 176x144) or Large (CIF "
+#~ "352x288)"
+#~ msgstr ""
+#~ "Alegeți rezoluția semnalului video transmis: mică (QCIF 176x144) sau mare "
+#~ "(CIF 352x288)"
+
+#~ msgid "Size of the druid window"
+#~ msgstr "Mărime fereastră cu asistentul de configurare"
+
+#~ msgid "Specify the software scaling algorithm"
+#~ msgstr "Specifică algoritmul de scalare software"
+
+#~ msgid ""
+#~ "Specify the software scaling algorithm: 0: nearest neighbor, 1: nearest "
+#~ "neighbor with box filter, 2: bilinear filtering, 3: hyperbolic filtering. "
+#~ "Does not apply on windows systems."
+#~ msgstr ""
+#~ "Specifică algoritmul de scalare software: 0 : vecinul cel mai apropiat, "
+#~ "1 : vecinul cel mai apropiat cu filtru box, 2 : filtru biliniar, 3 : "
+#~ "filtru hiperbolic.  Nu funcționează în Windows."
+
+#~ msgid "Start hidden"
+#~ msgstr "Pornește ascuns"
+
+#~ msgid "The SIP Outbound Proxy to use for outgoing calls"
+#~ msgstr "Proxy-ul de ieșire SIP de utilizat pentru apelurile trimise"
+
+#~ msgid "The default video view"
+#~ msgstr "Imagine video implicită"
+
+#~| msgid ""
+#~| "The default video view (0: Local, 1: Remote, 2: Both layered, 3: Both "
+#~| "with local video in a separate window, 4: Both)"
+#~ msgid ""
+#~ "The default video view (0: Local, 1: Remote, 2: Both, 3: Both in a "
+#~ "separate window)"
+#~ msgstr ""
+#~ "Imagine video implicită (0: locală, 1: la distanță, 2: amândouă, 3: "
+#~ "amândouă în ferestre diferite)"
+
+#~ msgid "The maximum jitter buffer size for audio reception (in ms)"
+#~ msgstr "Mărime maximă a tamponului jitter pentru recepția audio (în ms)."
+
+#~ msgid "The position of the remote video window"
+#~ msgstr "Poziție fereastră cu semnal video primit"
+
+#~ msgid "The range of UDP ports that Ekiga will use."
+#~ msgstr "Intervalul de porturi UDP utilizate de Ekiga."
+
+#~ msgid "The video view before having switched to fullscreen"
+#~ msgstr "Vederea video înainte de a schimba imaginea pe tot ecranul"
+
+#~ msgid ""
+#~ "The video view before having switched to fullscreen (same values as "
+#~ "video_view)"
+#~ msgstr ""
+#~ "Vederea video înainte de a fi schimbat la afișare pe tot ecranul "
+#~ "(aceleași valori ca la video_view)"
+
+#~ msgid "The zoom value"
+#~ msgstr "Valoare magnificare"
+
+#~ msgid ""
+#~ "The zoom value in percent to apply to images displayed in the main GUI "
+#~ "(can be 50, 100, or 200)"
+#~ msgstr ""
+#~ "Valoarea magnificării în procente ce va fi aplicată imaginilor afișate în "
+#~ "fereastra principală (poate fi 50, 100 sau 200)"
+
+#~ msgid ""
+#~ "This key disables DirectX (on win32) and XVideo (on Linux) video hardware "
+#~ "acceleration"
+#~ msgstr ""
+#~ "Dezactivează accelerația hardware video DirectX (în win32) și XVideo (în "
+#~ "Linux)"
+
+#~ msgid "_Find"
+#~ msgstr "_Caută"
+
+#~ msgid "New contact"
+#~ msgstr "Contact nou"
+
+#~ msgid ""
+#~ "Please fill in this form to change an existing element of ekiga's "
+#~ "internal roster"
+#~ msgstr ""
+#~ "Completați formularul pentru a modifica intrarea din agenda internă Ekiga"
+
+#~ msgid "Is a preferred contact"
+#~ msgstr "Este un contact preferat"
+
+#~ msgid "Services"
+#~ msgstr "Servicii"
+
+#~ msgid "Echo test"
+#~ msgstr "Test de ecou"
+
+#~ msgid "Conference room"
+#~ msgstr "Camera de conferință"
+
+#~ msgid "Call back test"
+#~ msgstr "Test apel invers"
+
+#~ msgid "Local roster"
+#~ msgstr "Agenda locală"
+
+#~ msgid ""
+#~ "Please fill in this form to add a new contact to ekiga's internal roster"
+#~ msgstr ""
+#~ "Completați formularul pentru a adăuga un nou contact la agenda internă a "
+#~ "Ekiga"
+
+#~ msgid "Address, e.g. sip:xyz@ekiga.net"
+#~ msgstr "Adresa, de ex. sip:xyz@ekiga.net"
+
+#~ msgid "You already have a contact with this address!"
+#~ msgstr "Aveți deja un contact cu această adresă !"
+
+#~ msgid "Please edit this group name"
+#~ msgstr "Modificați numele grupului"
+
+#~ msgid "Recharge the account"
+#~ msgstr "Reîncarcă contul"
+
+#~ msgid "Registrar:"
+#~ msgstr "Registrar:"
+
+#~ msgid "The registrar, e.g. ekiga.net"
+#~ msgstr "Înregistratorul, de ex. ekiga.net"
+
+#~ msgid "Gatekeeper:"
+#~ msgstr "Gatekeeper:"
+
+#, fuzzy
+#~ msgid "The gatekeeper, e.g. ekiga.net"
+#~ msgstr "Portarul, de ex. ekiga.net"
+
+#~ msgid "Authentication User:"
+#~ msgstr "Utilizator pentru autentificare:"
+
+#~ msgid ""
+#~ "The user name used during authentication, if different than the user "
+#~ "name; leave empty if you do not have one"
+#~ msgstr ""
+#~ "Numele de utilizator folosit în timpul autentificării, dacă este diferit "
+#~ "de numele de utilizator; lăsați gol dacă nu aveți unul"
+
+#~ msgid "Timeout:"
+#~ msgstr "Timp de expirare:"
+
+#~ msgid ""
+#~ "Time in seconds after which the account registration is automatically "
+#~ "retried"
+#~ msgstr ""
+#~ "Timpul în secunde după care înregistrarea contului este automat "
+#~ "reîncercată"
+
+#~ msgid "_Authentication User:"
+#~ msgstr "Utilizator pentru _autentificare:"
+
+#~ msgid "Local user cleared the call"
+#~ msgstr "Utilizatorul local a terminat apelul"
+
+#~ msgid "Local user rejected the call"
+#~ msgstr "Utilizatorul local a refuzat apelul"
+
+#~ msgid "Remote user cleared the call"
+#~ msgstr "Partenerul a terminat convorbirea"
+
+#~ msgid "Remote user rejected the call"
+#~ msgstr "Partenerul a refuzat apelul"
+
+#~ msgid "Remote user has stopped calling"
+#~ msgstr "Partenerul a oprit apelul"
+
+#~ msgid "The Gatekeeper cleared the call"
+#~ msgstr "Echipamentul Gatekeeper a eliminat convorbirea"
+
+#~ msgid "User not found"
+#~ msgstr "Utilizatorul nu a fost găsit"
+
+#~ msgid "Security check failed"
+#~ msgstr "Verificarea de securitate a eșuat"
+
+#~ msgid "Local user is busy"
+#~ msgstr "Utilizatorul local este ocupat"
+
+#~ msgid "Congested link to remote party"
+#~ msgstr "Conexiune congestionată la partener"
+
+#~ msgid "Remote user is busy"
+#~ msgstr "Utilizatorul de la distanță (partenerul) e ocupat"
+
+#~ msgid "Remote host is offline"
+#~ msgstr "Calculatorul de la distanță e deconectat"
+
+#~ msgid "User is not available"
+#~ msgstr "Utilizatorul nu este conectat"
+
+#~ msgid ""
+#~ "Ekiga did not manage to configure your network settings automatically. "
+#~ "You can still use it, but you need to configure your network settings "
+#~ "manually.\n"
+#~ "\n"
+#~ "Please see http://wiki.ekiga.org/index.php/"
+#~ "Enable_port_forwarding_manually for instructions"
+#~ msgstr ""
+#~ "Ekiga nu a reușit să configureze automat opțiunile de rețea.  Puteți "
+#~ "totuși utiliza Ekiga, însă trebuie să configurați opțiunile de rețea "
+#~ "manual.\n"
+#~ "\n"
+#~ "Mergeți la http://wiki.ekiga.org/index.php/"
+#~ "Enable_port_forwarding_manually pentru informații"
+
+#~ msgid "Message"
+#~ msgstr "Mesaj"
+
+#~ msgid "Address _Book"
+#~ msgstr "_Agendă"
+
+#~ msgid "_Action"
+#~ msgstr "_Acțiune"
+
+#~ msgid "Category"
+#~ msgstr "Categorie"
+
+#~ msgid "New _Contact"
+#~ msgstr "_Contact nou"
+
+#~ msgid "VoIP _URI:"
+#~ msgstr "_URI VoIP:"
+
+#~ msgid "Please edit the following fields"
+#~ msgstr "Modificați următoarele câmpuri"
+
+#~| msgid "Book _Name"
+#~ msgid "Book _Name:"
+#~ msgstr "_Nume agendă:"
+
+#~ msgid "Book name, as shown in your dialog box"
+#~ msgstr "Nume agendă, așa cum se arată în caseta de dialog"
+
+#~| msgid "Server _URI"
+#~ msgid "Server _URI:"
+#~ msgstr "_URI server:"
+
+#~ msgid "Name of LDAP server, prefixed by ldap://"
+#~ msgstr "Numele serverului LDAP, prefixat cu ldap://"
+
+#~ msgid "The field you are searching for"
+#~ msgstr "Câmpul pe care îl căutați"
+
+#~| msgid "_Filter Template"
+#~ msgid "_Filter Template:"
+#~ msgstr "Șablon _filtru:"
+
+#~ msgid "Here, a \"$\" is replaced by the search string"
+#~ msgstr "Aici, „$” este înlocuit cu șirul de căutare"
+
+#~ msgid "User ID; leave blank for anonymous / nonauthenticated"
+#~ msgstr "ID de utilizator; lăsați gol pentru anonimitate / neautentificare"
+
+#~ msgid "The password for the user ID above, if any"
+#~ msgstr "Parola pentru ID-ul de utilizator de mai sus, dacă este vreunul"
+
+#~ msgid "Edit LDAP directory"
+#~ msgstr "Editează directorul LDAP"
+
+#~ msgid "Create LDAP directory"
+#~ msgstr "Creează director LDAP"
+
+#~ msgid "error connecting (%s)"
+#~ msgstr "eroare la conectare (%s)"
+
+#~ msgid "error connecting"
+#~ msgstr "eroare la conectare"
+
+#~ msgid "error authenticating loudmouth account"
+#~ msgstr "eroare la autentifcarea contului loudmouth"
+
+#~ msgid "Account Name"
+#~ msgstr "Nume cont"
+
+#~ msgid "Status"
+#~ msgstr "Bară de stare"
+
+#~ msgid "Accounts"
+#~ msgstr "Conturi"
+
+#~ msgid "_Accounts"
+#~ msgstr "_Conturi"
+
+#~ msgid "_Help"
+#~ msgstr "A_jutor"
+
+#~ msgid "Active"
+#~ msgstr "Activ"
+
+#~ msgid "Enable"
+#~ msgstr "Activează"
+
+#~ msgid "Remove"
+#~ msgstr "Șterge"
+
+#~ msgid "Connection Type"
+#~ msgstr "Tip conexiune"
+
+#~ msgid "Please choose your connection type:"
+#~ msgstr "Alegeți tipul conexiunii:"
+
+#~ msgid "56k Modem"
+#~ msgstr "Modem 56k"
+
+#~ msgid "ISDN"
+#~ msgstr "ISDN"
+
+#~ msgid "DSL/Cable (128 kbit/s uplink)"
+#~ msgstr "DSL/Cablu (128 kbit/s uplink)"
+
+#~ msgid "DSL/Cable (512 kbit/s uplink)"
+#~ msgstr "DSL/Cablu (512 kbit/s uplink)"
+
+#~ msgid "LAN"
+#~ msgstr "LAN"
+
+#~ msgid "Keep current settings"
+#~ msgstr "Pastrează parametrii curenți"
+
+#~ msgid ""
+#~ "The connection type will permit determining the best quality settings "
+#~ "that Ekiga will use during calls. You can later change the settings "
+#~ "individually in the preferences window."
+#~ msgstr ""
+#~ "Tipul conexiunii va permite determinarea celor mai buni parametri pe care "
+#~ "Ekiga îi va folosi în timpul apelurilor. Parametrii pot fi individual "
+#~ "modificați ulterior din fereastra asociată meniului preferințe."
+
+#~ msgid "Audio Devices"
+#~ msgstr "Dispozitive audio"
+
+#~ msgid "Please choose the audio ringing device:"
+#~ msgstr "Alegeți dispozitivul audio pentru apel:"
+
+#~ msgid ""
+#~ "The audio ringing device is the device that will be used to play the "
+#~ "ringing sound on incoming calls."
+#~ msgstr ""
+#~ "Dispozitivul audio pentru apel este dispozitivul care va fi folosit la "
+#~ "sonerie, când sunteți apelat."
+
+#~ msgid "Please choose the audio output device:"
+#~ msgstr "Alegeți dispozitivul audio de ieșire:"
+
+#~ msgid ""
+#~ "The audio output device is the device that will be used to play audio "
+#~ "during calls."
+#~ msgstr ""
+#~ "Dispozitivul audio de ieșire este dispozitivul care va fi folosit la "
+#~ "redarea sunetului în timpul convorbirilor."
+
+#~ msgid "Please choose the audio input device:"
+#~ msgstr "Alegeți dispozitivul audio de intrare:"
+
+#~ msgid ""
+#~ "The audio input device is the device that will be used to record your "
+#~ "voice during calls."
+#~ msgstr ""
+#~ "Dispozitivul audio de intrare este dispozitivul care va fi folosit la "
+#~ "inregistrarea vocii dumneavoastră  în timpul convorbirilor."
+
+#~ msgid "Video Input Device"
+#~ msgstr "Dispozitiv video de intrare"
+
+#~ msgid "Please choose your video input device:"
+#~ msgstr "Alegeți dispozitivul video de intrare:"
+
+#~ msgid ""
+#~ "The video input device is the device that will be used to capture video "
+#~ "during calls."
+#~ msgstr ""
+#~ "Dispozitivul video de intrare este folosit la captura video în timpul "
+#~ "convorbirilor."
+
+#~ msgid "Audio Ringing Device"
+#~ msgstr "Dispozitiv audio de apel"
+
+#~ msgid "Audio Output Device"
+#~ msgstr "Dispozitiv audio de ieșire"
+
+#~ msgid "Audio Input Device"
+#~ msgstr "Dispozitiv audio de intrare"
+
+#~| msgid "Address Book"
+#~ msgid "Addressbook"
+#~ msgstr "Agendă"
+
+#~| msgid "Unknown error."
+#~ msgid "Unknown"
+#~ msgstr "Necunoscut"
+
+#~ msgid "A:%.1f/%.1f   V:%.1f/%.1f   FPS:%d/%d"
+#~ msgstr "A:%.1f/%.1f   V:%.1f/%.1f   FPS:%d/%d"
+
+#~ msgid "Standby"
+#~ msgstr "Standby"
+
+#~ msgid "Error while initializing video output"
+#~ msgstr "Eroare la inițializarea dispozitivului video de ieșire"
+
+#~ msgid "No video will be displayed on your machine during this call"
+#~ msgstr "Nicio imagine video nu va fi afișată în timpul acestui apel"
+
+#~ msgid ""
+#~ "There was an error opening or initializing the video output. Please "
+#~ "verify that you are using a color depth of 24 or 32 bits per pixel."
+#~ msgstr ""
+#~ "A apărut o eroare la deschiderea sau inițializarea ieșirii video.  "
+#~ "Verificați că utilizați o profunzime a culorii de 24 sau 32 biți pe pixel."
+
+#~ msgid "Added video input device %s"
+#~ msgstr "A fost adăugat dispozitivul audio de intrare %s"
+
+#~ msgid "Removed video input device %s"
+#~ msgstr "A fost șters dispozitivul video de intrare %s"
+
+#~ msgid "Error while accessing video device %s"
+#~ msgstr "Eroare la deschiderea dispozitivului video %s"
+
+#~ msgid "A moving logo will be transmitted during calls."
+#~ msgstr "Nicio imagine video nu va fi afișată în timpul apelurilor."
+
+#~ msgid "Unknown error."
+#~ msgstr "Eroare necunoscută."
+
+#~ msgid "Added audio input device %s"
+#~ msgstr "A fost adăugat dispozitivul audio de intrare %s"
+
+#~ msgid "Removed audio input device %s"
+#~ msgstr "A fost șters dispozitivul audio de intrare %s"
+
+#~ msgid "Only silence will be transmitted."
+#~ msgstr "Nici un sunet nu va fi transmis."
+
+#~ msgid "Added audio output device %s"
+#~ msgstr "A fost adăugat dispozitivul audio de ieșire %s"
+
+#~ msgid "Removed audio output device %s"
+#~ msgstr "A fost șters dispozitivul audio de ieșire %s"
+
+#~ msgid "No incoming sound will be played."
+#~ msgstr "Nici un sunet de primire nu va fi redat."
+
+#~ msgid "Video Settings"
+#~ msgstr "Configurări video"
+
+#~ msgid "Adjust brightness"
+#~ msgstr "Modifică luminozitatea"
+
+#~ msgid "Adjust whiteness"
+#~ msgstr "Modifică albirea"
+
+#~ msgid "Adjust color"
+#~ msgstr "Modifică culoarea"
+
+#~ msgid "Adjust contrast"
+#~ msgstr "Modifică contrastul"
+
+#~ msgid "_Retrieve Call"
+#~ msgstr "Apel p_rimit"
+
+#~ msgid "H_old Call"
+#~ msgstr "_Apel în așteptare"
+
+#~ msgid "Suspend _Audio"
+#~ msgstr "Suspendă _audio"
+
+#~ msgid "Suspend _Video"
+#~ msgstr "Suspendă _video"
+
+#~ msgid "Resume _Audio"
+#~ msgstr "Repornire _audio"
+
+#~ msgid "Resume _Video"
+#~ msgstr "Repornire _video"
+
+#~ msgid "Incoming call from"
+#~ msgstr "Apel primit de la"
+
+#~ msgid "Remote Application:"
+#~ msgstr "Aplicația de la distanță:"
+
+#~ msgid "Account ID:"
+#~ msgstr "ID cont :"
+
+#~ msgid "Transfer call to:"
+#~ msgstr "Redirecțiare apel către:"
+
+#~ msgid "No"
+#~ msgstr "Nu"
+
+#~ msgid "Yes"
+#~ msgstr "Da"
+
+#~ msgid "Detected new audio input device:"
+#~ msgstr "A fost detectat un nou dispozitiv audio de intrare:"
+
+#~ msgid "Detected new audio output device:"
+#~ msgstr "A fost detectat un nou dispozitiv audio de ieșire:"
+
+#~ msgid "Detected new video input device:"
+#~ msgstr "A fost detectat un nou dispozitiv video de intrare:"
+
+#~ msgid "Video Devices"
+#~ msgstr "Dispozitive video"
+
+#~ msgid "Do you want to use it as default device?"
+#~ msgstr "Doriți să îl utilizați ca dispozitiv implicit?"
+
+#~ msgid "_Chat"
+#~ msgstr "_Conversație"
+
+#~ msgid "Ca_ll"
+#~ msgstr "Ape_lează"
+
+#~ msgid "Place a new call"
+#~ msgstr "Efectuează un nou apel"
+
+#~ msgid "Terminate the current call"
+#~ msgstr "Închide convorbirea curentă"
+
+#~ msgid "Co_ntact"
+#~ msgstr "Co_ntacte"
+
+#~ msgid "Add a contact to the roster"
+#~ msgstr "Adaugă contact în agendă"
+
+#~ msgid "Find contacts"
+#~ msgstr "Caută contacte"
+
+#~ msgid "Suspend or resume the audio transmission"
+#~ msgstr "Suspendă sau restabilește transmisia audio"
+
+#~ msgid "Suspend or resume the video transmission"
+#~ msgstr "Suspendă sau restabilește transmisia video"
+
+#~ msgid "Other"
+#~ msgstr "Alt"
+
+#~ msgid "Other possible actions"
+#~ msgstr "Alte acțiuni posibile"
+
+#~ msgid "Close the Ekiga window"
+#~ msgstr "Închide fereastra Ekiga"
+
+#~ msgid "Quit"
+#~ msgstr "Ieșire"
+
+#~ msgid "_Configuration Assistant"
+#~ msgstr "Asistent de _configurare"
+
+#~ msgid "Run the configuration assistant"
+#~ msgstr "Pornește asistentul de configurare"
+
+#~ msgid "Edit your accounts"
+#~ msgstr "Modifică contul"
+
+#~ msgid "Change your preferences"
+#~ msgstr "Schimbă preferințele"
+
+#~ msgid "_View"
+#~ msgstr "_Vizualizare"
+
+#~ msgid "Con_tacts"
+#~ msgstr "Con_tacte"
+
+#~ msgid "_Dialpad"
+#~ msgstr "_Tastatură"
+
+#~ msgid "View the dialpad"
+#~ msgstr "Afișează tastatura"
+
+#~ msgid "_Call History"
+#~ msgstr "Istori_c apeluri"
+
+#~ msgid "View the call history"
+#~ msgstr "Afișează istoricul apelurilor"
+
+#~ msgid "_Show Call Panel"
+#~ msgstr "_Afișează panoul apelurilor"
+
+#~ msgid "_Local Video"
+#~ msgstr "Video _local"
+
+#~ msgid "Local video image"
+#~ msgstr "Imaginea video locală"
+
+#~ msgid "_Remote Video"
+#~ msgstr "Video la _distanță"
+
+#~ msgid "Remote video image"
+#~ msgstr "Imaginea video de la distanță"
+
+#~ msgid "Both video images"
+#~ msgstr "Amândouă imagini video"
+
+#~ msgid "Picture-in-Picture in Separate _Window"
+#~ msgstr "Imagine-în-Imagine în _fereastră separată"
+
+#~ msgid "Zoom in"
+#~ msgstr "Mărește"
+
+#~ msgid "Zoom out"
+#~ msgstr "Micșorează"
+
+#~ msgid "Normal size"
+#~ msgstr "Mărime normală"
+
+#~ msgid "_Fullscreen"
+#~ msgstr "_Afișare pe tot ecranul"
+
+#~ msgid "Get help by reading the Ekiga manual"
+#~ msgstr "Primește ajutor prin citirea manualului Ekiga"
+
+#~ msgid "View information about Ekiga"
+#~ msgstr "Afișează informațiile despre Ekiga"
+
+#~ msgid ""
+#~ "Enter a URI on the left, and click this button to place a call or to "
+#~ "hangup"
+#~ msgstr ""
+#~ "Introduceți un URL la stânga și efectuați clic pe acest buton pentru a "
+#~ "apela sau a închide"
+
+#~ msgid "Dialpad"
+#~ msgstr "Tastatură"
+
+#~ msgid "Call history"
+#~ msgstr "Istoric apeluri"
+
+#~ msgid "Change the volume of your soundcard"
+#~ msgstr "Schimbă volumul plăcii de sunet"
+
+#~ msgid "Change the color settings of your video device"
+#~ msgstr "Schimbă configurația culorilor dispozitivului video"
+
+#~ msgid "Ekiga"
+#~ msgstr "Ekiga"
+
+#~ msgid "TX: %dx%d "
+#~ msgstr "TX : %dx%d "
+
+#~ msgid "RX: %dx%d "
+#~ msgstr "RX : %dx%d "
+
+#~ msgid ""
+#~ "Lost packets: %.1f %%\n"
+#~ "Late packets: %.1f %%\n"
+#~ "Out of order packets: %.1f %%\n"
+#~ "Jitter buffer: %d ms%s%s%s"
+#~ msgstr ""
+#~ "Pachete pierdute : %.1f %%\n"
+#~ "Pachete întârziate : %.1f %%\n"
+#~ "Pachete primite în dezordine : %.1f %%\n"
+#~ "Memoria tampon a jitter-ului : %d ms%s%s%s"
+
+#~ msgid ""
+#~ "Prints user plane debug messages in the console (level between 1 and 4)"
+#~ msgstr "Tipărește mesaje de depanare în consolă (nivelul între 1 și 4)"
+
+#~ msgid "_Full name:"
+#~ msgstr "Nume _complet:"
+
+#~ msgid "User Interface"
+#~ msgstr "Interfața utilizator"
+
+#~ msgid "Start _hidden"
+#~ msgstr "Pornește _ascuns"
+
+#~ msgid "Show offline _contacts"
+#~ msgstr "Arată contactele _deconectate"
+
+#~ msgid "Video Display"
+#~ msgstr "Afișaj video"
+
+#~ msgid "Enable network _detection"
+#~ msgstr "Activează _detectarea rețelei"
+
+#~ msgid "Timeout to reject or forward unanswered incoming calls (in seconds):"
+#~ msgstr ""
+#~ "Limita de timp pentru a respinge sau redirecționa apelurile primite la "
+#~ "care nu răspund (în secunde):"
+
+#~ msgid "Ekiga Sound Events"
+#~ msgstr "Evenimente sonore Ekiga"
+
+#~ msgid "Misc Settings"
+#~ msgstr "Configurări diverse"
+
+#~ msgid ""
+#~ "Connection will be established in Fast Start mode. Fast Start is a new "
+#~ "way to start calls faster that was introduced in H.323v2. It is not "
+#~ "supported by Netmeeting and using both Fast Start and H.245 Tunneling can "
+#~ "crash some versions of Netmeeting."
+#~ msgstr ""
+#~ "Conexiunea va fi stabilită în mod „Start rapid”. Acest mod reprezintă o "
+#~ "noua metodă de a începe mai repede apelurile, ce a fost definit în "
+#~ "H.323v2. Nu este suportat de Netmeeting și folosirea simultană a Start "
+#~ "rapid și tunelarea H.245 poate să blocheze unele versiuni de Netmeeting."
+
+#~ msgid "_Outbound Proxy:"
+#~ msgstr "Pr_oxy de ieșire:"
+
+#~ msgid "Codecs"
+#~ msgstr "Codecuri"
+
+#~ msgid "Maximum _jitter buffer (in ms):"
+#~ msgstr "Maximul bufferului de _jitter (în ms):"
+
+#~ msgid "Maximum video _bitrate (in kbits/s):"
+#~ msgstr "Rata de _biți video maximă (în kb/s) :"
+
+#~ msgid "Personal Data"
+#~ msgstr "Date personale"
+
+#~ msgid "General Settings"
+#~ msgstr "Configurări generale"
+
+#~ msgid "Protocols"
+#~ msgstr "Protocoale"
+
+#~ msgid "SIP Settings"
+#~ msgstr "Configurări SIP"
+
+#~ msgid "H.323 Settings"
+#~ msgstr "Configurări H.323"
+
+#~ msgid "The following accounts are inactive:"
+#~ msgstr "Următoarele conturi sunt inactive:"
+
+#~ msgid "Online"
+#~ msgstr "Conectat"
+
+#~ msgid "Do Not Disturb"
+#~ msgstr "Nu deranjați"
+
+#~ msgid "Change the main window panel section"
+#~ msgstr "Schimbă secțiunea panoului principal de control"
+
+#~ msgid "Local video window size"
+#~ msgstr "Dimensiuni imagine video locală"
+
+#~ msgid "Position of the local video window"
+#~ msgstr "Poziție fereastră locală cu semnal video"
+
+#~ msgid "The position of the local video window"
+#~ msgstr "Poziție fereastră cu semnalul video local"
+
+#~ msgid "The size of the local video window"
+#~ msgstr "Mărime fereastră locală cu semnal video"
+
+#~ msgid "Call in progress"
+#~ msgstr "Apel în curs"
+
+#~ msgid "Identifier"
+#~ msgstr "Identificator"
+
+#~ msgid "Writable"
+#~ msgstr "Poate fi scris"
+
+#~ msgid "If enabled, use silence detection with the codecs supporting it."
+#~ msgstr ""
+#~ "Dacă este activat, detectează, la codecurile ce suportă aceasta, "
+#~ "momentele de liniște pe canalul de comunicație."
+
+#~ msgid "If enabled, use echo cancelation."
+#~ msgstr "Dacă este activat, anulează automat ecoul."
+
+#~ msgid "The maximum jitter buffer size for audio reception (in ms)."
+#~ msgstr ""
+#~ "Marimea maximă a memoriei tampon de jitter pentru recepția audio (în ms)."
+
+#~ msgid "Position on the screen of the log window"
+#~ msgstr "Poziție pe ecran a ferestrei cu înregistrări"
+
+#~ msgid "The Video Codecs List"
+#~ msgstr "Lista codecuri video"
+
+#~ msgid "Please update the following fields."
+#~ msgstr "Actualizați următoarele câmpuri."
+
+#~ msgid "Consult the calls history"
+#~ msgstr "Consultă istoricul apelurilor"
+
+#~ msgid "_Hold Call"
+#~ msgstr "_Apel în așteptare"
+
+#~ msgid "Help display is not supported by your GTK+ version"
+#~ msgstr "Afișarea ajutorului nu este suportată de versiunea GTK+"
+
+#~ msgid "No usable audio plugin detected"
+#~ msgstr "Nu a fost detectat nici un modul audio disponibil"
+
+#~ msgid ""
+#~ "Ekiga didn't find any usable audio plugin. Make sure that your "
+#~ "installation is correct."
+#~ msgstr ""
+#~ "Ekiga nu a detectat nici un modul audio disponibil. Verificați faptul că "
+#~ "instalarea a fost făcută corect."
+
+#~ msgid ""
+#~ "Ekiga didn't find any usable audio codec. Make sure that your "
+#~ "installation is correct."
+#~ msgstr ""
+#~ "Ekiga nu a detectat nici un modul audio utilizabil.  Verificați că "
+#~ "instalarea a fost făcută corect."
+
+#~ msgid "Forbidden"
+#~ msgstr "Interzis"
+
+#~ msgid "Voice Mails"
+#~ msgstr "Mesaje vocale"
+
+#~ msgid "Registered %s"
+#~ msgstr "Înregistrat ca %s"
+
+#~ msgid "Unregistered %s"
+#~ msgstr "Dezînregistrat de la %s."
+
+#~ msgid "Could not unregister %s"
+#~ msgstr "Nu s-a putut dezînregistra %s"
+
+#~ msgid "Could not register %s"
+#~ msgstr "Nu s-a putut înregistra %s"
+
+#~ msgid ""
+#~ "A moving logo will be transmitted during calls. Notice that you can "
+#~ "always transmit a given image or the moving logo by choosing \"Picture\" "
+#~ "as video plugin and \"Moving logo\" or \"Static picture\" as device."
+#~ msgstr ""
+#~ "O siglă mișcătoare va fi transmisă în timpul convorbirii. Puteți "
+#~ "întotdeauna să transmiteți o anumită imagine sau sigla Ekiga alegând  ca "
+#~ "dispozitiv „Image” ca modul video și „Siglă în mișcare” sau „Imagine "
+#~ "statică”."
+
+#~ msgid "Roster view saving group status"
+#~ msgstr "Vedere agendă salvând starea grupului"

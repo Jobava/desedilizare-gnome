@@ -1,0 +1,1751 @@
+# Romanian translation for nemiver.
+# Copyright (C) 2010 nemiver's COPYRIGHT HOLDER
+# This file is distributed under the same license as the nemiver package.
+# Andu Morie <andu.qq@gmail.com>, 2010.
+# Morie Daniel Alexandru <andu.qq@gmail.com>, 2010.
+# Daniel Șerbănescu <cyber19rider@gmail.com>, 2010.
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: nemiver master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=nemiver&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-02-14 13:41+0000\n"
+"PO-Revision-Date: 2011-03-18 23:50+0200\n"
+"Last-Translator: Lucian Adrian Grijincu <lucian.grijincu@gmail.com>\n"
+"Language-Team: Romanian Gnome Team <gnomero-list@lists.sourceforge.net>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);;\n"
+"X-Generator: Virtaal 0.6.1\n"
+
+#: ../data/nemiver.appdata.xml.in.h:1
+msgid ""
+"Nemiver is an on-going effort to write a standalone graphical debugger that "
+"integrates well in the GNOME desktop environment. It currently features a "
+"backend which uses the well known GNU Debugger gdb to debug C / C++ programs."
+msgstr ""
+
+#: ../data/nemiver.appdata.xml.in.h:2
+msgid ""
+"We believe that Nemiver is mature and robust enough to just let you debug "
+"your favorite C or C++ application in a pleasant way."
+msgstr ""
+
+#: ../data/nemiver.desktop.in.h:1 ../ui/workbench.ui.h:1
+msgid "Nemiver"
+msgstr "Nemiver"
+
+#: ../data/nemiver.desktop.in.h:2
+msgid "C/C++ Debugger"
+msgstr "Depanator C/C++"
+
+#: ../data/nemiver.desktop.in.h:3
+msgid "Nemiver C/C++ Debugger"
+msgstr "Depanatorul C/C++ Nemiver"
+
+#: ../data/nemiver.desktop.in.h:4
+msgid "Debug Applications"
+msgstr "Depanează aplicații"
+
+#: ../data/nemiver.desktop.in.h:5
+msgid "gdb;disassembler;debugger;c;c++;"
+msgstr ""
+
+#: ../src/main.cc:78
+msgid "Set the environment of the program to debug"
+msgstr "Stabilește mediul programului de depanat"
+
+#: ../src/main.cc:87
+msgid "Attach to a process"
+msgstr "Atașează la un proces"
+
+#: ../src/main.cc:96
+#, fuzzy
+#| msgid "Load a core file from disk"
+msgid "Load a core file"
+msgstr "Încarcă un fișier de bază de pe disc"
+
+#: ../src/main.cc:104
+msgid "List the saved debugging sessions"
+msgstr "Listează sesiunile de depanare salvate"
+
+#: ../src/main.cc:112
+msgid "Erase the saved debugging sessions"
+msgstr "Șterge sesiunile de depanare salvate"
+
+#: ../src/main.cc:120
+msgid "Debug the program that was of session number N"
+msgstr "Depanează programul care a avut numărul de sesiune N"
+
+#: ../src/main.cc:128
+msgid "Execute the last session"
+msgstr "Execută ultima sesiune"
+
+#: ../src/main.cc:136
+msgid "Enable logging domains DOMAINS"
+msgstr "Activează domeniile de înregistrare DOMAINS"
+
+#: ../src/main.cc:144
+msgid "Log the debugger output"
+msgstr "Înregistrează datele de ieșire ale depanatorului"
+
+#: ../src/main.cc:152
+msgid "Use this terminal as the debugee's terminal"
+msgstr "Folosește acest terminal ca terminalul celui care depanează"
+
+#: ../src/main.cc:161
+msgid "Connect to remote target specified by HOST:PORT"
+msgstr "Conectează la ținta la distanță specificată de către HOST:PORT"
+
+#: ../src/main.cc:170
+msgid ""
+"Where to look for shared libraries loaded by the inferior. Use in "
+"conjunction with --remote"
+msgstr ""
+"Locul unde să fie căutate bibliotecile comune încărcate de inferior. "
+"Utilizați în conjuncție cu --remote"
+
+#: ../src/main.cc:180
+msgid "Set the path of the GDB binary to use to debug the inferior"
+msgstr ""
+
+#: ../src/main.cc:189
+msgid "Do not set a breakpoint in 'main' and do not run the inferior either"
+msgstr ""
+
+#: ../src/main.cc:198
+#, fuzzy
+#| msgid "Show the version number of nemiver"
+msgid "Show the version number of Nemiver"
+msgstr "Arată numărul versiunii al nemiver"
+
+#: ../src/main.cc:264
+msgid " [<prog-to-debug> [prog-args]]"
+msgstr " [<program-de-depanat> [argumentele-programului]]"
+
+#: ../src/main.cc:267 ../src/workbench/nmv-workbench.cc:251
+msgid "A C/C++ debugger for GNOME"
+msgstr "Un depanator C/C++ pentru GNOME"
+
+#: ../src/main.cc:361
+msgid ""
+"Please provide a local copy of the binary you intend to debug remotely.\n"
+"Like this:\n"
+msgstr ""
+"Furnizați o copie locală a binarului pe care intenționați să îl depanați de "
+"la distanță.\n"
+"Astfel:\n"
+
+#: ../src/main.cc:366 ../src/main.cc:385
+#, fuzzy
+#| msgid "Otherwise, find below the full set of nemiver options.\n"
+msgid "Otherwise, find below the full set of Nemiver options.\n"
+msgstr "În caz contrar, căutați mai jos setul complet de opțiuni nemiver.\n"
+
+#: ../src/main.cc:380
+#, fuzzy
+#| msgid ""
+#| "Please provide a local copy of the binary you intend to debug remotely.\n"
+#| "Like this:\n"
+msgid ""
+"Please provide the path to the binary that generated the core file too.\n"
+"Like this:\n"
+msgstr ""
+"Furnizați o copie locală a binarului pe care intenționați să îl depanați de "
+"la distanță.\n"
+"Astfel:\n"
+
+#. create the columns of the tree view
+#: ../src/persp/dbgperspective/nmv-breakpoints-view.cc:148
+#: ../src/persp/dbgperspective/nmv-registers-view.cc:100
+#: ../src/persp/dbgperspective/nmv-saved-sessions-dialog.cc:101
+msgid "ID"
+msgstr "ID"
+
+#. create the columns of the tree view
+#: ../src/persp/dbgperspective/nmv-breakpoints-view.cc:149
+#: ../src/persp/dbgperspective/nmv-file-list.cc:108
+#, fuzzy
+#| msgid "Filename"
+msgid "File Name"
+msgstr "Nume fișier"
+
+#: ../src/persp/dbgperspective/nmv-breakpoints-view.cc:150
+msgid "Line"
+msgstr "Linie"
+
+#: ../src/persp/dbgperspective/nmv-breakpoints-view.cc:151
+#: ../src/persp/dbgperspective/nmv-call-stack.cc:607
+msgid "Function"
+msgstr "Funcție"
+
+#: ../src/persp/dbgperspective/nmv-breakpoints-view.cc:152
+#: ../src/persp/dbgperspective/nmv-call-stack.cc:610
+msgid "Address"
+msgstr "Adresă"
+
+#: ../src/persp/dbgperspective/nmv-breakpoints-view.cc:153
+msgid "Condition"
+msgstr "Condiție"
+
+#: ../src/persp/dbgperspective/nmv-breakpoints-view.cc:155
+msgid "Toggle countpoint"
+msgstr "Comută punct de numărare"
+
+#: ../src/persp/dbgperspective/nmv-breakpoints-view.cc:157
+#: ../src/persp/dbgperspective/nmv-vars-treeview.cc:70
+msgid "Type"
+msgstr "Tip"
+
+#: ../src/persp/dbgperspective/nmv-breakpoints-view.cc:158
+#, fuzzy
+msgid "Hits"
+msgstr "Hituri"
+
+#: ../src/persp/dbgperspective/nmv-breakpoints-view.cc:159
+msgid "Expression"
+msgstr "Expresie"
+
+#: ../src/persp/dbgperspective/nmv-breakpoints-view.cc:162
+msgid "Ignore count"
+msgstr "Ignoră numărătoarea"
+
+#: ../src/persp/dbgperspective/nmv-breakpoints-view.cc:364
+msgid "breakpoint"
+msgstr "punct de oprire"
+
+#: ../src/persp/dbgperspective/nmv-breakpoints-view.cc:368
+msgid "watchpoint"
+msgstr "punct de observare"
+
+#: ../src/persp/dbgperspective/nmv-breakpoints-view.cc:371
+msgid "countpoint"
+msgstr "punct de numărare"
+
+#: ../src/persp/dbgperspective/nmv-breakpoints-view.cc:374
+msgid "unknown"
+msgstr "necunoscut"
+
+#: ../src/persp/dbgperspective/nmv-breakpoints-view.cc:441
+msgid "_Delete"
+msgstr "Ș_terge"
+
+#: ../src/persp/dbgperspective/nmv-breakpoints-view.cc:442
+msgid "Remove this breakpoint"
+msgstr "Elimină acest punct de oprire"
+
+#: ../src/persp/dbgperspective/nmv-breakpoints-view.cc:451
+msgid "_Go to Source"
+msgstr "Navi_ghează la sursă"
+
+#: ../src/persp/dbgperspective/nmv-breakpoints-view.cc:452
+msgid "Find this breakpoint in the source editor"
+msgstr "Caută acest punct de oprire în editorul de sursă"
+
+#: ../src/persp/dbgperspective/nmv-call-stack.cc:177
+#: ../src/uicommon/nmv-terminal.cc:174
+msgid "_Copy"
+msgstr "_Copiază"
+
+#: ../src/persp/dbgperspective/nmv-call-stack.cc:178
+msgid "Copy the call stack to the clipboard"
+msgstr "Copiază stiva de apel în clipboard"
+
+#: ../src/persp/dbgperspective/nmv-call-stack.cc:606
+msgid "Frame"
+msgstr "Cadru"
+
+#: ../src/persp/dbgperspective/nmv-call-stack.cc:608
+msgid "Arguments"
+msgstr "Argumente"
+
+#: ../src/persp/dbgperspective/nmv-call-stack.cc:609
+#: ../src/persp/dbgperspective/nmv-choose-overloads-dialog.cc:112
+msgid "Location"
+msgstr "Locație"
+
+#: ../src/persp/dbgperspective/nmv-call-stack.cc:611
+msgid "Binary"
+msgstr "Binar"
+
+#: ../src/persp/dbgperspective/nmv-call-stack.cc:767
+#, fuzzy, c-format
+#| msgid "(Click here to see the next %d rows of the call stack)"
+msgid "(Click here to see the next %d row of the call stack"
+msgid_plural "(Click here to see the next %d rows of the call stack)"
+msgstr[0] ""
+"(Clic aici pentru a vedea următoarele %d rânduri ale stivei de apel)"
+msgstr[1] ""
+"(Clic aici pentru a vedea următoarele %d rânduri ale stivei de apel)"
+msgstr[2] ""
+"(Clic aici pentru a vedea următoarele %d rânduri ale stivei de apel)"
+
+#: ../src/persp/dbgperspective/nmv-choose-overloads-dialog.cc:110
+msgid "Function Name"
+msgstr "Numele funcției"
+
+#. labels for widget tabs in the status notebook
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:118
+msgid "Context"
+msgstr "Context"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:119
+msgid "Target Terminal"
+msgstr "Terminal țintă"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:120
+msgid "Breakpoints"
+msgstr "Puncte de oprire"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:121
+msgid "Registers"
+msgstr "Registre"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:122
+msgid "Memory"
+msgstr "Memorie"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:123
+#, fuzzy
+#| msgid "Expression"
+msgid "Expression Monitor"
+msgstr "Expresie"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:1730
+msgid "Reached end of file"
+msgstr "S-a ajuns la sfârșitul fișierului"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:1733
+#, c-format
+msgid "Could not find string %s"
+msgstr "Nu s-a putut găsi șirul %s"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2117
+#, fuzzy
+#| msgid "Change to standard Breakpoint"
+msgid "Change to Standard Breakpoint"
+msgstr "Schimbă la punct de oprire standard"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2120
+msgid "Change to Countpoint"
+msgstr "Schimbă la punctul de numărare"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2122
+msgid "Remove _Breakpoint"
+msgstr "Elimină punctul de _oprire"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2125
+msgid "Disable Breakpoint"
+msgstr "Dezactivează punctul de oprire"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2127
+msgid "Enable Breakpoint"
+msgstr "Activează punctul de oprire"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2130
+msgid "Set _Breakpoint"
+msgstr "Definește punctul de _oprire"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2132
+msgid "Set Countpoint"
+msgstr "Definește punctul de numărare"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2295
+#, c-format
+msgid "%s (path=\"%s\", pid=%i)"
+msgstr "%s (cale=„%s”, pid=%i)"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2309
+#, fuzzy
+#| msgid "Connected to remote target !"
+msgid "Connected to remote target!"
+msgstr "Conectat la ținta de la distanță!"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2510
+msgid "Program exited"
+msgstr "Programul s-a terminat"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2539
+msgid "The underlying debugger engine process died."
+msgstr "Procesul de motor al depanatorului de bază s-a oprit."
+
+#. translators: first %s is the signal name, second one is the reason
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2643
+#, c-format
+msgid "Target received a signal: %s, %s"
+msgstr "Ținta a primit un semnal: %s, %s"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2658
+#, fuzzy, c-format
+#| msgid "An error occured: %s"
+msgid "An error occurred: %s"
+msgstr "A apărut o eroare: %s"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2821
+#, fuzzy, c-format
+#| msgid "File %s has been modified. Do want to reload it ?"
+msgid "File %s has been modified. Do you want to reload it?"
+msgstr "Fișierul %s a fost modificat. Doriți sa îl reîncărcați ?"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3183
+msgid "_Detach From the Running Program"
+msgstr "_Detașează de la programul în curs de rulare"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3184
+msgid "Disconnect the debugger from the running target without killing it"
+msgstr "Deconectează depanatorul de la ținta în curs de rulare fără a-l opri"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3199
+msgid "_Save Session to Disk"
+msgstr "_Salvează sesiunea pe disc"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3200
+msgid "Save the current debugging session to disk"
+msgstr "Salvează sesiunea de depanare curentă pe disc"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3209
+#, fuzzy
+#| msgid "_Restart"
+msgid "_Run or Restart"
+msgstr "_Repornește"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3210
+msgid "Run or Restart the target"
+msgstr ""
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3219
+#, fuzzy
+#| msgid "Set Breakpoint with dialog..."
+msgid "Set Breakpoint with Dialog..."
+msgstr "Definire punct de oprire cu dialog..."
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3220
+msgid "Set a breakpoint at the current line using a dialog"
+msgstr "Definește un punct de oprire la linia curentă utilizând un dialog"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3231
+msgid "Set Breakpoint..."
+msgstr "Definire punct de oprire..."
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3232
+msgid "Set a breakpoint at a function or line number"
+msgstr "Definește un punct de oprire la o funcție sau numărul unei linii"
+
+#. Depending on the context we will want this string to be
+#. either "Set Breakpoint", or "Remove Breakpoint". Hence
+#. this string is updated by
+#. DBGPerspective::update_toggle_menu_text when needed. So
+#. this initial value is going to be displayed only when
+#. Nemiver is launched with no executable on the command
+#. line.
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3248
+msgid "Toggle _Breakpoint"
+msgstr "Comută _punctul de oprire"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3249
+msgid "Set/Unset a breakpoint at the current cursor location"
+msgstr "Definește/Șterge un punct de oprire la locația curentă a cursorului"
+
+#. Depending on the context we will want this string to be
+#. either "Enable Breakpoint", or "Disable
+#. Breakpoint". Hence this string is updated by
+#. DBGPerspective::update_toggle_menu_text when needed. So
+#. this initial value is going to be displayed only when
+#. Nemiver is launched with no executable on the command
+#. line.
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3266
+msgid "Enable/Disable Breakpoint"
+msgstr "Activează/Dezactivează punctul de oprire"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3267
+msgid ""
+"Enable or disable the breakpoint that is set at the current cursor location"
+msgstr ""
+"Activează sau dezactivează punctul de oprire definit la locația curentă a "
+"cursorului"
+
+#. Depending on the context we will want this string to be
+#. either "Set Countpoint", or "Change to Countpoint", or
+#. "Change to Standard Breakpoint". Hence
+#. this string is updated by
+#. DBGPerspective::update_toggle_menu_text when needed. So
+#. this initial value is going to be displayed only when
+#. Nemiver is launched with no executable on the command
+#. line.
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3287
+msgid "Toggle _Countpoint"
+msgstr "_Comută punctul de numărare"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3288
+msgid "Set/Unset a countpoint at the current cursor location"
+msgstr "Definește/Șterge un punct de numărare la locația curentă a cursorului"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3298
+#, fuzzy
+#| msgid "Set Watchpoint with dialog..."
+msgid "Set Watchpoint with Dialog..."
+msgstr "Definire punct de monitorizare cu dialog..."
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3299
+msgid "Set a watchpoint using a dialog"
+msgstr "Definește un punct de monitorizare folosind un dialog"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3314
+msgid "_Next"
+msgstr "_Următoarea"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3315
+msgid "Execute next line stepping over the next function, if any"
+msgstr "Execută următoarea linie sărind peste funcția următoare, dacă există"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3324
+msgid "_Step"
+msgstr "_Pas"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3325
+msgid "Execute next line, stepping into the next function, if any"
+msgstr "Execută linia următoare, intrând în funcția următoare, dacă există"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3334
+msgid "Step _Out"
+msgstr "_Pas afară"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3335
+msgid "Finish the execution of the current function"
+msgstr "Finalizează execuția funcției curente"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3344
+msgid "Step Into asm"
+msgstr "Intră în asm"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3345
+msgid "Step into the next assembly instruction"
+msgstr "Intră în următoarea funcție de asamblare"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3354
+msgid "Step Over asm"
+msgstr "Sari peste asm"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3355
+msgid "Step over the next assembly instruction"
+msgstr "Sari peste următoarea funcție de asamblare"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3364
+msgid "_Continue"
+msgstr "_Continuă"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3365
+msgid "Continue program execution until the next breakpoint"
+msgstr "Continuă execuția programului până la următorul punct de oprire"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3374
+msgid "Run to Cursor"
+msgstr "Rulează începând de la cursor"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3375
+msgid "Continue program execution until the currently selected line is reached"
+msgstr ""
+"Continuă execuția programului până când linia curent selectată este atinsă"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3385
+#, fuzzy
+#| msgid "Run to Cursor"
+msgid "Jump to Cursor"
+msgstr "Rulează începând de la cursor"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3386
+#, fuzzy
+#| msgid ""
+#| "Continue program execution until the currently selected line is reached"
+msgid "Jump to the currently selected line"
+msgstr ""
+"Continuă execuția programului până când linia curent selectată este atinsă"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3396
+#, fuzzy
+#| msgid "Run to Cursor"
+msgid "Jump and Stop to Cursor"
+msgstr "Rulează începând de la cursor"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3397
+#, fuzzy
+#| msgid "Set a breakpoint at the current line using a dialog"
+msgid "Sets a breakpoint to the currently selected line and jump there"
+msgstr "Definește un punct de oprire la linia curentă utilizând un dialog"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3409
+msgid "Jump to a Given Location"
+msgstr ""
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3410
+msgid "Select a given code location and jump there"
+msgstr ""
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3421
+#: ../src/persp/dbgperspective/ui/exprinspectordialog.ui.h:1
+#, fuzzy
+#| msgid "Expression"
+msgid "Inspect an Expression"
+msgstr "Expresie"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3422
+#, fuzzy
+#| msgid "Inspect a global or local variable"
+msgid "Inspect a global or local expression"
+msgstr "Inspectează o variabilă globală sau locală"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3432
+#: ../src/persp/dbgperspective/ui/callfunctiondialog.ui.h:1
+#, fuzzy
+#| msgid "Call a function"
+msgid "Call a Function"
+msgstr "Apelează o funcție"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3433
+msgid "Call a function in the program being debugged"
+msgstr "Apelează o funcție în programul în curs de depanare"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3442
+msgid "Show Global Variables"
+msgstr "Arată variabilele globale"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3443
+msgid "Display all global variables"
+msgstr "Afișează toate variabilele globale"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3453
+#, fuzzy
+#| msgid "Refresh locals"
+msgid "Refresh Locals"
+msgstr "Reîmprospătează localele"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3454
+msgid "Refresh the list of variables local to the current function"
+msgstr "Reîmprospătează lista variabilelor locale pentru funcția curentă"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3463
+#, fuzzy
+#| msgid "Show assembly"
+msgid "Show Assembly"
+msgstr "Arată codul de asamblare"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3464
+msgid ""
+"Show the assembly code of the source code being currently debugged, in "
+"another tab"
+msgstr "Arată codul de asamblare al codului sursă depanat, în altă filă"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3476
+#, fuzzy
+#| msgid "Switch to assembly"
+msgid "Switch to Assembly"
+msgstr "Comută la cod de asamblare"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3477
+msgid "Show the assembly code of the source code being currently debugged"
+msgstr "Arată codul de asamblare al codului sursă depanat"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3489
+#, fuzzy
+#| msgid "Switch to source"
+msgid "Switch to Source"
+msgstr "Comută la sursă"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3490
+msgid "Show the source code being currently debugged"
+msgstr "Arată codul sursă în curs de depanare"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3502
+msgid "Stop"
+msgstr "Oprește"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3503
+#, fuzzy
+#| msgid "Stop the Debugger"
+msgid "Stop the debugger"
+msgstr "Oprește depanatorul"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3515
+msgid "_View"
+msgstr "_Vizualizare"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3526
+msgid "Switch to Target Terminal View"
+msgstr "Comută la vizualizarea terminalului țintă"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3537
+msgid "Switch to Context View"
+msgstr "Comută la vizualizarea contextului"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3548
+msgid "Switch to Breakpoints View"
+msgstr "Comută la vizualizarea punctelor de oprire"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3559
+msgid "Switch to Registers View"
+msgstr "Comută la vizualizarea registrelor"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3571
+msgid "Switch to Memory View"
+msgstr "Comută la vizualizarea memoriei"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3582
+#, fuzzy
+#| msgid "Switch to Breakpoints View"
+msgid "Switch to Variables Monitor View"
+msgstr "Comută la vizualizarea punctelor de oprire"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3591
+msgid "_Debug"
+msgstr "_Depanează"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3601
+#, fuzzy
+#| msgid "_Open Source File ..."
+msgid "_Open Source File..."
+msgstr "_Deschide fișierul sursă ..."
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3602
+msgid "Open a source file for viewing"
+msgstr "Deschide un fișier sursă pentru vizualizare"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3611
+msgid "Load _Executable..."
+msgstr "Încarcă _executabilul..."
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3612
+msgid "Execute a program"
+msgstr "Execută un program"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3622
+msgid "_Load Core File..."
+msgstr "Încarcă fișierul de bază..."
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3623
+msgid "Load a core file from disk"
+msgstr "Încarcă un fișier de bază de pe disc"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3633
+msgid "_Attach to Running Program..."
+msgstr "_Atașează la un program în curs de funcționare..."
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3634
+msgid "Debug a program that's already running"
+msgstr "Depanează un program care e deja în curs de funcționare"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3644
+msgid "_Connect to Remote Target..."
+msgstr "_Conectează la o țintă la distanță..."
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3645
+msgid "Connect to a debugging server to debug a remote target"
+msgstr "Conectează la un server depanator pentru a depana o țintă la distanță"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3656
+msgid "Resume Sa_ved Session..."
+msgstr "Continuă o sesiune salvată..."
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3657
+msgid "Open a previously saved debugging session"
+msgstr "Deschide o sesiune de depanare salvată anterior"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3667
+msgid "_Preferences"
+msgstr "_Preferințe"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3668
+msgid "Edit the properties of the current session"
+msgstr "Editează proprietățile sesiunii curente"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3682
+msgid "_Copy selected text"
+msgstr ""
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3683
+#, fuzzy
+#| msgid "Finish the execution of the current function"
+msgid "Copy the text selected in the current source file"
+msgstr "Finalizează execuția funcției curente"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3692
+msgid "_Reload Source File"
+msgstr "_Reîncarcă fișierul sursă"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3693
+msgid "Reloads the source file"
+msgstr "Reîncarcă fișierul sursă"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3702
+msgid "_Close Source File"
+msgstr "În_chide fișierul sursă"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3703
+msgid "Close the opened file"
+msgstr "Închide fișierul deschis"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3712
+msgid "_Find"
+msgstr "_Caută"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3713
+msgid "Find a text string in file"
+msgstr "Caută un șir de text în fișier"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:4037
+#, c-format
+msgid "Close %s"
+msgstr "Închide %s"
+
+#. We cannot restart an inferior running on a remote target at
+#. the moment.
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:6027
+msgid "Sorry, it's impossible to restart a remote inferior"
+msgstr "Ne pare rău, nu se poate restarta un inferior al țintei la distanță"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:6172
+#, c-format
+msgid "Could not find file %s"
+msgstr "Nu s-a putut găsi fișierul %s"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:6235
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:6422
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:6457
+#, c-format
+msgid "Could not load program: %s"
+msgstr "Nu s-a putut încărca programul: %s"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:6351
+msgid "You cannot attach to Nemiver itself"
+msgstr "Nu puteți atașa la Nemiver însuși"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:6364
+msgid "You cannot attach to the underlying debugger engine"
+msgstr "Nu puteți atașa la motorul depanatorului de bază"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:6656
+msgid "Failed to stop the debugger"
+msgstr "Oprirea depanatorului a eșuat"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:6900
+#, c-format
+msgid "Invalid line number: %i"
+msgstr "Număr de linie nevalid: %i"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:8532
+#, c-format
+msgid ""
+"There is a program being currently debugged. Do you really want to exit from "
+"the debugger?"
+msgstr ""
+"Există un program în curs de depanare. Sigur doriți să ieșiți din depanator?"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective-default-layout.cc:138
+msgid "Default Layout"
+msgstr ""
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective-default-layout.cc:145
+msgid "Nemiver's default layout"
+msgstr ""
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective-dynamic-layout.cc:132
+#, fuzzy
+#| msgid "Source Directories"
+msgid "Source Code"
+msgstr "Directoarele sursei"
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective-dynamic-layout.cc:195
+msgid "Dynamic Layout"
+msgstr ""
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective-dynamic-layout.cc:202
+msgid "A layout which can be modified"
+msgstr ""
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective-two-pane-layout.cc:179
+msgid "Two Status Pane"
+msgstr ""
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective-two-pane-layout.cc:186
+msgid "A layout with two status pane"
+msgstr ""
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective-wide-layout.cc:135
+msgid "Wide Layout"
+msgstr ""
+
+#: ../src/persp/dbgperspective/nmv-dbg-perspective-wide-layout.cc:142
+msgid "A layout for very large monitors"
+msgstr ""
+
+#: ../src/persp/dbgperspective/nmv-file-list.cc:128
+msgid "Expand _Selected"
+msgstr "Extinde _selecția"
+
+#: ../src/persp/dbgperspective/nmv-file-list.cc:134
+msgid "Expand _All"
+msgstr "Extinde _tot"
+
+#: ../src/persp/dbgperspective/nmv-file-list.cc:144
+msgid "_Collapse"
+msgstr "_Restrânge"
+
+#: ../src/persp/dbgperspective/nmv-file-list.cc:427
+#, fuzzy
+#| msgid "Loading Files from target executable..."
+msgid "Loading files from target executable..."
+msgstr "Se încarcă fișierele din executabilul țintă..."
+
+#: ../src/persp/dbgperspective/nmv-global-vars-inspector-dialog.cc:300
+#: ../src/persp/dbgperspective/nmv-local-vars-inspector.cc:592
+#: ../src/persp/dbgperspective/nmv-expr-inspector.cc:233
+#, c-format
+msgid ""
+"Variable type is: \n"
+" %s"
+msgstr ""
+"Tipul variabilei este: \n"
+" %s"
+
+#: ../src/persp/dbgperspective/nmv-local-vars-inspector.cc:125
+msgid "Local Variables"
+msgstr "Variabile locale"
+
+#: ../src/persp/dbgperspective/nmv-local-vars-inspector.cc:133
+msgid "Function Arguments"
+msgstr "Argumentele funcției"
+
+#: ../src/persp/dbgperspective/nmv-local-vars-inspector.cc:257
+#: ../src/persp/dbgperspective/nmv-expr-inspector.cc:136
+#, fuzzy
+#| msgid "_Copy variable name"
+msgid "_Copy Variable Name"
+msgstr "_Copiază numele variabilei"
+
+#: ../src/persp/dbgperspective/nmv-local-vars-inspector.cc:258
+#: ../src/persp/dbgperspective/nmv-expr-inspector.cc:137
+msgid "Copy the variable path expression to the clipboard"
+msgstr "Copiază expresia căii variabilei în clipboard"
+
+#: ../src/persp/dbgperspective/nmv-local-vars-inspector.cc:269
+#: ../src/persp/dbgperspective/nmv-expr-inspector.cc:148
+#, fuzzy
+#| msgid "_Copy variable value"
+msgid "_Copy Variable Value"
+msgstr "_Copiază valoarea variabilei"
+
+#: ../src/persp/dbgperspective/nmv-local-vars-inspector.cc:270
+#: ../src/persp/dbgperspective/nmv-expr-inspector.cc:149
+msgid "Copy the variable value to the clipboard"
+msgstr "Copiază valoarea variabilei în clipboard"
+
+#: ../src/persp/dbgperspective/nmv-local-vars-inspector.cc:281
+#, fuzzy
+#| msgid "Create watchpoint"
+msgid "Create Watchpoint"
+msgstr "Creează punct de monitorizare"
+
+#: ../src/persp/dbgperspective/nmv-local-vars-inspector.cc:282
+msgid ""
+"Create a watchpoint that triggers when the value of the expression changes"
+msgstr ""
+"Creează un punct de monitorizare care este declanșat când valoare expresiei "
+"se schimbă"
+
+#: ../src/persp/dbgperspective/nmv-memory-view.cc:49
+msgid "Byte"
+msgstr "Octet"
+
+#: ../src/persp/dbgperspective/nmv-memory-view.cc:52
+msgid "Word"
+msgstr "Cuvânt"
+
+#: ../src/persp/dbgperspective/nmv-memory-view.cc:55
+msgid "Long Word"
+msgstr "Cuvânt lung"
+
+#: ../src/persp/dbgperspective/nmv-memory-view.cc:98
+#: ../src/persp/dbgperspective/ui/remotetargetdialog.ui.h:9
+#: ../src/persp/dbgperspective/ui/setbreakpointdialog.ui.h:8
+#: ../src/persp/dbgperspective/ui/setjumptodialog.ui.h:9
+msgid "Address:"
+msgstr "Adresă:"
+
+#: ../src/persp/dbgperspective/nmv-memory-view.cc:100
+msgid "Show"
+msgstr "Arată"
+
+#: ../src/persp/dbgperspective/nmv-memory-view.cc:103
+msgid "Group By:"
+msgstr "Grupează după:"
+
+#: ../src/persp/dbgperspective/nmv-preferences-dialog.cc:153
+#: ../src/persp/dbgperspective/ui/remotetargetdialog.ui.h:5
+msgid "Choose a Directory"
+msgstr "Alegeți un dosar"
+
+#: ../src/persp/dbgperspective/nmv-preferences-dialog.cc:284
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:18
+msgid "Source Directories"
+msgstr "Directoarele sursei"
+
+#: ../src/persp/dbgperspective/nmv-proc-list-dialog.cc:132
+msgid "User Name"
+msgstr "Nume utilizator"
+
+#: ../src/persp/dbgperspective/nmv-proc-list-dialog.cc:139
+msgid "Proc Args"
+msgstr "Argumente proc"
+
+#: ../src/persp/dbgperspective/nmv-registers-view.cc:101
+#: ../src/persp/dbgperspective/nmv-run-program-dialog.cc:99
+msgid "Name"
+msgstr "Nume"
+
+#: ../src/persp/dbgperspective/nmv-registers-view.cc:102
+#: ../src/persp/dbgperspective/nmv-run-program-dialog.cc:102
+#: ../src/persp/dbgperspective/nmv-vars-treeview.cc:59
+msgid "Value"
+msgstr "Valoare"
+
+#: ../src/persp/dbgperspective/nmv-saved-sessions-dialog.cc:71
+msgid "Session"
+msgstr "Sesiune"
+
+#: ../src/persp/dbgperspective/nmv-set-breakpoint-dialog.cc:117
+msgid "Throw Exception"
+msgstr "Aruncă excepție"
+
+#: ../src/persp/dbgperspective/nmv-set-breakpoint-dialog.cc:121
+msgid "Catch Exception"
+msgstr "Prinde excepție"
+
+#: ../src/persp/dbgperspective/nmv-set-breakpoint-dialog.cc:125
+#, fuzzy
+#| msgid "fork system call"
+msgid "Fork System Call"
+msgstr "apel sistem fork"
+
+#: ../src/persp/dbgperspective/nmv-set-breakpoint-dialog.cc:129
+#, fuzzy
+#| msgid "fork system call"
+msgid "Vfork System Call"
+msgstr "apel sistem fork"
+
+#: ../src/persp/dbgperspective/nmv-set-breakpoint-dialog.cc:133
+#, fuzzy
+#| msgid "exec system call"
+msgid "Exec System Call"
+msgstr "apel sistem exec"
+
+#: ../src/persp/dbgperspective/nmv-thread-list.cc:184
+msgid "Thread ID"
+msgstr "ID fir de execuție"
+
+#. create the columns of the tree view
+#: ../src/persp/dbgperspective/nmv-vars-treeview.cc:50
+msgid "Variable"
+msgstr "Variabilă"
+
+#: ../src/persp/dbgperspective/nmv-expr-monitor.cc:128
+#, fuzzy
+#| msgid "expression:"
+msgid "In scope expressions"
+msgstr "expresie:"
+
+#: ../src/persp/dbgperspective/nmv-expr-monitor.cc:133
+msgid "Out of scope expressions"
+msgstr ""
+
+#: ../src/persp/dbgperspective/nmv-expr-monitor.cc:237
+#, fuzzy
+#| msgid "_Remove"
+msgid "Remove"
+msgstr "_Elimină"
+
+#: ../src/persp/dbgperspective/nmv-expr-monitor.cc:238
+msgid "Remove selected expressions from the monitor"
+msgstr ""
+
+#: ../src/persp/dbgperspective/nmv-expr-monitor.cc:247
+msgid "New..."
+msgstr ""
+
+#: ../src/persp/dbgperspective/nmv-expr-monitor.cc:248
+msgid "Add a new expression to the monitor"
+msgstr ""
+
+#: ../src/persp/dbgperspective/ui/callfunctiondialog.ui.h:2
+#, fuzzy
+#| msgid "Call a function"
+msgid "Call a function:"
+msgstr "Apelează o funcție"
+
+#: ../src/persp/dbgperspective/ui/chooseoverloadsdialog.ui.h:1
+#: ../src/persp/dbgperspective/ui/setbreakpointdialog.ui.h:1
+msgid "Set Breakpoint"
+msgstr "Definește punctul de oprire"
+
+#: ../src/persp/dbgperspective/ui/chooseoverloadsdialog.ui.h:2
+#, fuzzy
+#| msgid "<b>Choose Overloaded Function</b>"
+msgid "Choose Overloaded Function"
+msgstr "<b>Alegeți funcția supraîncărcată</b>"
+
+#: ../src/persp/dbgperspective/ui/chooseoverloadsdialog.ui.h:3
+msgid ""
+"Multiple functions match the specified name. Please choose one from the list "
+"below."
+msgstr ""
+"Mai multe funcții se potrivesc numelui specificat. Alegeți una din lista de "
+"mai jos."
+
+#: ../src/persp/dbgperspective/ui/findtextdialog.ui.h:1
+#, fuzzy
+#| msgid "Find text"
+msgid "Find Text"
+msgstr "Caută text"
+
+#: ../src/persp/dbgperspective/ui/findtextdialog.ui.h:2
+msgid "_Search:"
+msgstr "_Caută:"
+
+#: ../src/persp/dbgperspective/ui/findtextdialog.ui.h:3
+#, fuzzy
+#| msgid "<b>Match Options:</b>"
+msgid "Match Options:"
+msgstr "<b>Opțiuni de potrivire:</b>"
+
+#: ../src/persp/dbgperspective/ui/findtextdialog.ui.h:4
+msgid "Match c_ase"
+msgstr "Sensibil la m_ajuscule"
+
+#: ../src/persp/dbgperspective/ui/findtextdialog.ui.h:5
+msgid "Match _entire word only"
+msgstr "Potriv_ește cuvântul complet"
+
+#: ../src/persp/dbgperspective/ui/findtextdialog.ui.h:6
+#, fuzzy
+#| msgid "<b>Cycling Options:</b>"
+msgid "Cycling Options:"
+msgstr "<b>Opțiuni de ciclare:</b>"
+
+#: ../src/persp/dbgperspective/ui/findtextdialog.ui.h:7
+msgid "_Wrap around"
+msgstr "_Reia de la început"
+
+#: ../src/persp/dbgperspective/ui/findtextdialog.ui.h:8
+msgid "Search _backwards"
+msgstr "Caută în sens in_vers"
+
+#: ../src/persp/dbgperspective/ui/globalvarsinspector.ui.h:1
+msgid "Global Variables"
+msgstr "Variabile globale"
+
+#: ../src/persp/dbgperspective/ui/loadcoredialog.ui.h:1
+msgid "Choose a Core File to Debug"
+msgstr "Alegeți un fișier de bază pentru depanare"
+
+#: ../src/persp/dbgperspective/ui/loadcoredialog.ui.h:2
+#, fuzzy
+#| msgid "Select A Core File"
+msgid "Select a Core File"
+msgstr "Alegeți un fișier de bază"
+
+#: ../src/persp/dbgperspective/ui/loadcoredialog.ui.h:3
+#, fuzzy
+#| msgid "<b>Core File:</b>"
+msgid "Core File:"
+msgstr "<b>Fișierul de bază:</b>"
+
+#: ../src/persp/dbgperspective/ui/loadcoredialog.ui.h:4
+msgid "Select the executable that created the core file"
+msgstr "Selectează executabilul care a creat fișierul de bază"
+
+#: ../src/persp/dbgperspective/ui/loadcoredialog.ui.h:5
+#, fuzzy
+#| msgid "<b>Executable:</b>"
+msgid "Executable:"
+msgstr "<b>Executabil:</b>"
+
+#: ../src/persp/dbgperspective/ui/openfiledialog.ui.h:1
+msgid "Open Source Files"
+msgstr "Deschide fișierele sursă"
+
+#: ../src/persp/dbgperspective/ui/openfiledialog.ui.h:2
+msgid "Select from _Target Executable"
+msgstr "Selectează din executabilul țin_tă"
+
+#: ../src/persp/dbgperspective/ui/openfiledialog.ui.h:3
+#, fuzzy
+#| msgid "Select from _Filesystem"
+msgid "Select from _File System"
+msgstr "Selectează din sistemul de _fișiere"
+
+#: ../src/persp/dbgperspective/ui/openfiledialog.ui.h:4
+#, fuzzy
+#| msgid "<b>Choose Source Files to Open</b>"
+msgid "Choose Source Files to Open"
+msgstr "<b>Alegeți fișierele sursă pentru a le deschise</b>"
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:1
+msgid "Preferences"
+msgstr "Preferințe"
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:2
+msgid "Use system monospace font"
+msgstr "Folosește fontul monospațiat al sistemului"
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:3
+msgid "Custom Font:"
+msgstr "Font personalizat:"
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:4
+#, fuzzy
+#| msgid "<b>Editor Font</b>"
+msgid "Editor Font"
+msgstr "<b>Fontul editorului</b>"
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:5
+#, fuzzy
+#| msgid "<b>Visual Style</b>"
+msgid "Visual Style"
+msgstr "<b>Stilul vizual</b>"
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:6
+msgid "Display line numbers"
+msgstr "Afișează numerele liniilor"
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:7
+#, fuzzy
+#| msgid "<b>Line Numbers</b>"
+msgid "Line Numbers"
+msgstr "<b>Numerele liniilor</b>"
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:8
+msgid "Use launch terminal"
+msgstr "Folosește terminalul de lansare"
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:9
+#, fuzzy
+#| msgid "<b>Terminal</b>"
+msgid "Terminal"
+msgstr "<b>Terminal</b>"
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:10
+msgid "When a source file is changed:"
+msgstr "Când un fișier sursă este schimbat:"
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:11
+msgid "Reload the file"
+msgstr "Reîncarcă fișierul"
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:12
+msgid "Do not reload the file"
+msgstr "Nu reîncărca fișierul"
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:13
+msgid "Ask each time"
+msgstr "Întreabă de fiecare dată"
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:14
+#, fuzzy
+#| msgid "<b>File Monitoring</b>"
+msgid "File Monitoring"
+msgstr "<b>Monitorizarea fișierelor</b>"
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:15
+msgid "Enable syntax highlighting"
+msgstr "Activează evidențierea sintaxei"
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:16
+#, fuzzy
+#| msgid "<b>Syntax Highlighting</b>"
+msgid "Syntax Highlighting"
+msgstr "<b>Evidențierea sintaxei</b>"
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:17
+msgid "Editor"
+msgstr "Editor"
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:19
+msgid "Update at each stop"
+msgstr ""
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:20
+#, fuzzy
+#| msgid "Local Variables"
+msgid "Local variables"
+msgstr "Variabile locale"
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:21
+msgid "Pure assembly"
+msgstr "Cod pur de asamblare"
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:22
+msgid "Mixed source and assembly"
+msgstr "Amestec de cod sursă și cod de asamblare"
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:23
+#, fuzzy
+#| msgid "<b>Assembly style</b>"
+msgid "Assembly style"
+msgstr "<b>Stilul de asamblare</b>"
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:24
+msgid "Assembly flavor"
+msgstr ""
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:25
+#: ../src/persp/dbgperspective/ui/remotetargetdialog.ui.h:3
+msgid "Choose a File"
+msgstr "Alegeți un fișier"
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:26
+msgid "Path to the GDB binary used"
+msgstr "Calea către binarul GDB folosit"
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:27
+#, fuzzy
+#| msgid "Binary"
+msgid "GDB Binary"
+msgstr "Binar"
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:28
+msgid "Number of instructions to disassemble by default"
+msgstr "Numărul implicit al instrucțiunilor pentru dezasamblare"
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:29
+#, fuzzy
+#| msgid "<b>Instructions</b>"
+msgid "Instructions"
+msgstr "<b>Instrucțiuni</b>"
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:30
+msgid "Enable pretty printing (requires debugger restart)"
+msgstr ""
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:31
+msgid "GDB Pretty Printing"
+msgstr ""
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:32
+msgid "Follow parent"
+msgstr "Urmărește părintele"
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:33
+msgid "Follow child"
+msgstr "Urmărește copilul"
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:34
+#, fuzzy
+#| msgid "<b>GDB follow fork mode</b>"
+msgid "GDB Follow Fork Mode"
+msgstr "<b>Modul de urmărire a ramificațiilor GDB</b>"
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:35
+msgid "Debugger"
+msgstr "Depanator"
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:36
+msgid "Layout"
+msgstr ""
+
+#: ../src/persp/dbgperspective/ui/proclistdialog.ui.h:1
+msgid "Attach to a Running Program"
+msgstr "Atașează unui program ce rulează"
+
+#: ../src/persp/dbgperspective/ui/proclistdialog.ui.h:2
+#, fuzzy
+#| msgid "<b>Choose a Process to Debug</b>"
+msgid "Choose a Process to Debug"
+msgstr "<b>Alegeți un proces pentru depanare</b>"
+
+#: ../src/persp/dbgperspective/ui/proclistdialog.ui.h:3
+msgid "_Filter list:"
+msgstr "_Lista de filtrare:"
+
+#: ../src/persp/dbgperspective/ui/remotetargetdialog.ui.h:1
+msgid "Connect to Remote Target"
+msgstr "Conectare la o țintă la distanță"
+
+#: ../src/persp/dbgperspective/ui/remotetargetdialog.ui.h:2
+#, fuzzy
+#| msgid "<b>Executable to Load</b>"
+msgid "Executable to Load"
+msgstr "<b>Executabil de încărcat</b>"
+
+#: ../src/persp/dbgperspective/ui/remotetargetdialog.ui.h:4
+#, fuzzy
+#| msgid "<b>Shared Libraries Location</b>"
+msgid "Shared Libraries Location"
+msgstr "<b>Locația bibliotecilor comune</b>"
+
+#: ../src/persp/dbgperspective/ui/remotetargetdialog.ui.h:6
+#, fuzzy
+#| msgid "<b>Remote Debugging Server</b>"
+msgid "Remote Debugging Server"
+msgstr "<b>Server de depanare la distanță</b>"
+
+#: ../src/persp/dbgperspective/ui/remotetargetdialog.ui.h:7
+msgid "TCP/IP Connection"
+msgstr "Conexiune TCP/IP"
+
+#: ../src/persp/dbgperspective/ui/remotetargetdialog.ui.h:8
+#, fuzzy
+#| msgid "Port :"
+msgid "Port:"
+msgstr "Port :"
+
+#: ../src/persp/dbgperspective/ui/remotetargetdialog.ui.h:10
+msgid "Serial Line Connection"
+msgstr "Conexiune prin serială"
+
+#: ../src/persp/dbgperspective/ui/runprogramdialog.ui.h:1
+msgid "Choose a Program to Execute"
+msgstr "Alegeți un program pentru a fi executat"
+
+#: ../src/persp/dbgperspective/ui/runprogramdialog.ui.h:2
+#, fuzzy
+#| msgid "Choose an executable"
+msgid "Choose an Executable"
+msgstr "Alegeți un executabil"
+
+#: ../src/persp/dbgperspective/ui/runprogramdialog.ui.h:3
+#, fuzzy
+#| msgid "<b>Program:</b>"
+msgid "Program:"
+msgstr "<b>Program:</b>"
+
+#: ../src/persp/dbgperspective/ui/runprogramdialog.ui.h:4
+#, fuzzy
+#| msgid "Arguments"
+msgid "Arguments:"
+msgstr "Argumente"
+
+#: ../src/persp/dbgperspective/ui/runprogramdialog.ui.h:5
+#, fuzzy
+#| msgid "Choose a working directory"
+msgid "Choose a Working Directory"
+msgstr "Alegeți un dosar de lucru"
+
+#: ../src/persp/dbgperspective/ui/runprogramdialog.ui.h:6
+#, fuzzy
+#| msgid "<b>Working Directory:</b>"
+msgid "Working Directory:"
+msgstr "<b>Dosarul de lucru:</b>"
+
+#: ../src/persp/dbgperspective/ui/runprogramdialog.ui.h:7
+msgid "_Add"
+msgstr "_Adaugă"
+
+#: ../src/persp/dbgperspective/ui/runprogramdialog.ui.h:8
+msgid "_Remove"
+msgstr "_Elimină"
+
+#: ../src/persp/dbgperspective/ui/runprogramdialog.ui.h:9
+#, fuzzy
+#| msgid "<b>Environment Variables:</b>"
+msgid "Environment Variables:"
+msgstr "<b>Variabile de mediu:</b>"
+
+#: ../src/persp/dbgperspective/ui/savedsessionsdialog.ui.h:1
+msgid "Saved Sessions"
+msgstr "Sesiuni salvate"
+
+#: ../src/persp/dbgperspective/ui/savedsessionsdialog.ui.h:2
+#, fuzzy
+#| msgid "<b>Choose a Session to Debug</b>"
+msgid "Choose a Session to Debug"
+msgstr "<b>Alegeți o sesiune pentru depanare</b>"
+
+#: ../src/persp/dbgperspective/ui/setbreakpointdialog.ui.h:2
+#, fuzzy
+#| msgid "Set Breakpoint"
+msgid "Set a Breakpoint:"
+msgstr "Definește punctul de oprire"
+
+#: ../src/persp/dbgperspective/ui/setbreakpointdialog.ui.h:3
+msgid "Condition:"
+msgstr "Condiție:"
+
+#: ../src/persp/dbgperspective/ui/setbreakpointdialog.ui.h:4
+msgid "_Event:"
+msgstr "_Eveniment:"
+
+#: ../src/persp/dbgperspective/ui/setbreakpointdialog.ui.h:5
+#: ../src/persp/dbgperspective/ui/setjumptodialog.ui.h:5
+msgid "_Binary Location:"
+msgstr "Locația _binarului:"
+
+#: ../src/persp/dbgperspective/ui/setbreakpointdialog.ui.h:6
+#: ../src/persp/dbgperspective/ui/setjumptodialog.ui.h:4
+msgid "_Source Location:"
+msgstr "Locația _sursei:"
+
+#: ../src/persp/dbgperspective/ui/setbreakpointdialog.ui.h:7
+#: ../src/persp/dbgperspective/ui/setjumptodialog.ui.h:3
+msgid "F_unction Name:"
+msgstr "Numele f_uncției:"
+
+#: ../src/persp/dbgperspective/ui/setbreakpointdialog.ui.h:9
+#: ../src/persp/dbgperspective/ui/setjumptodialog.ui.h:7
+#, fuzzy
+#| msgid "Filename:"
+msgid "File name:"
+msgstr "Numele fișierului:"
+
+#: ../src/persp/dbgperspective/ui/setbreakpointdialog.ui.h:10
+#: ../src/persp/dbgperspective/ui/setjumptodialog.ui.h:6
+msgid "Function:"
+msgstr "Funcția:"
+
+#: ../src/persp/dbgperspective/ui/setbreakpointdialog.ui.h:11
+#: ../src/persp/dbgperspective/ui/setjumptodialog.ui.h:8
+msgid "Line:"
+msgstr "Linia:"
+
+#: ../src/persp/dbgperspective/ui/setbreakpointdialog.ui.h:12
+msgid "Set as Countpoint"
+msgstr "Definește ca punct de numărare"
+
+#: ../src/persp/dbgperspective/ui/setjumptodialog.ui.h:1
+#, fuzzy
+#| msgid "Select Location For %s"
+msgid "Set Location to Jump To"
+msgstr "Selectează locația pentru %s"
+
+#: ../src/persp/dbgperspective/ui/setjumptodialog.ui.h:2
+msgid "Jump to location:"
+msgstr ""
+
+#: ../src/persp/dbgperspective/ui/setjumptodialog.ui.h:10
+msgid "Break at Destination"
+msgstr ""
+
+#: ../src/persp/dbgperspective/ui/exprinspectordialog.ui.h:2
+msgid "Add to monitor"
+msgstr ""
+
+#: ../src/persp/dbgperspective/ui/exprinspectordialog.ui.h:3
+msgid "_Variable Name:"
+msgstr "Nume _variabilă:"
+
+#: ../src/persp/dbgperspective/ui/exprinspectordialog.ui.h:4
+msgid "_Inspect"
+msgstr "_Inspectează"
+
+#: ../src/persp/dbgperspective/ui/watchpointdialog.ui.h:1
+#, fuzzy
+#| msgid "<b>Set a watchpoint:</b>"
+msgid "Set a watchpoint:"
+msgstr "<b>Definește un punct de monitorizare:</b>"
+
+#: ../src/persp/dbgperspective/ui/watchpointdialog.ui.h:2
+#, fuzzy
+#| msgid "Expression"
+msgid "Expression:"
+msgstr "Expresie"
+
+#: ../src/persp/dbgperspective/ui/watchpointdialog.ui.h:3
+msgid "Inspect"
+msgstr "Inspectează"
+
+#: ../src/persp/dbgperspective/ui/watchpointdialog.ui.h:4
+#, fuzzy
+#| msgid "triggers on:"
+msgid "Triggers on:"
+msgstr "declanșat la:"
+
+#: ../src/persp/dbgperspective/ui/watchpointdialog.ui.h:5
+msgid "Read"
+msgstr ""
+
+#: ../src/persp/dbgperspective/ui/watchpointdialog.ui.h:6
+#, fuzzy
+#| msgid "write"
+msgid "Write"
+msgstr "scrie"
+
+#: ../src/uicommon/nmv-locate-file-dialog.cc:65
+#, fuzzy, c-format
+#| msgid "Select Location For %s"
+msgid "Select Location for %s"
+msgstr "Selectează locația pentru %s"
+
+#: ../src/uicommon/nmv-locate-file-dialog.cc:75
+#, c-format
+msgid ""
+"Cannot find file '%s'.\n"
+"Please specify the location of this file:"
+msgstr ""
+"Nu s-a putut găsi fișierul „%s”.\n"
+"Specificați locația acestui fișier:"
+
+#: ../src/uicommon/nmv-source-editor.cc:645
+#, c-format
+msgid "Line: %i, Column: %i"
+msgstr "Linia: %i, Coloana: %i"
+
+#: ../src/uicommon/nmv-source-editor.cc:1473
+#, c-format
+msgid "Could not load file %s because its encoding is different from %s"
+msgstr "Nu s-a putut încărca fișierul %s datorită codării sale diferite de %s"
+
+#: ../src/uicommon/nmv-terminal.cc:175
+msgid "Copy the selection"
+msgstr ""
+
+#: ../src/uicommon/nmv-terminal.cc:181
+msgid "_Paste"
+msgstr ""
+
+#: ../src/uicommon/nmv-terminal.cc:182
+#, fuzzy
+#| msgid "Copy the call stack to the clipboard"
+msgid "Paste the clipboard"
+msgstr "Copiază stiva de apel în clipboard"
+
+#: ../src/uicommon/nmv-terminal.cc:188
+#, fuzzy
+#| msgid "_Restart"
+msgid "_Reset"
+msgstr "_Repornește"
+
+#: ../src/uicommon/nmv-terminal.cc:189
+#, fuzzy
+#| msgid "Use launch terminal"
+msgid "Reset the terminal"
+msgstr "Folosește terminalul de lansare"
+
+#: ../src/uicommon/nmv-ui-utils.cc:91
+msgid "Do not ask me again"
+msgstr "Nu mă mai întreba"
+
+#: ../src/workbench/nmv-workbench.cc:263
+msgid "Project Website"
+msgstr "Pagina web a proiectului"
+
+#. Translators: change this to your name, separate multiple names with \n
+#: ../src/workbench/nmv-workbench.cc:283
+msgid "translator-credits"
+msgstr "Daniel Alexandru Morie, <andu.qq@gmail.com>"
+
+#: ../src/workbench/nmv-workbench.cc:661
+msgid "_File"
+msgstr "_Fișier"
+
+#: ../src/workbench/nmv-workbench.cc:672
+msgid "_Quit"
+msgstr "_Închide"
+
+#: ../src/workbench/nmv-workbench.cc:673
+msgid "Quit the application"
+msgstr "Închide aplicația"
+
+#: ../src/workbench/nmv-workbench.cc:683
+msgid "_Edit"
+msgstr "_Editare"
+
+#: ../src/workbench/nmv-workbench.cc:694
+msgid "_Help"
+msgstr "_Ajutor"
+
+#: ../src/workbench/nmv-workbench.cc:705
+msgid "_About"
+msgstr "_Despre"
+
+#: ../src/workbench/nmv-workbench.cc:706
+msgid "Display information about this application"
+msgstr "Afișează informația despre această aplicație"
+
+#: ../src/workbench/nmv-workbench.cc:716
+msgid "_Contents"
+msgstr "_Conținut"
+
+#: ../src/workbench/nmv-workbench.cc:717
+msgid "Display the user manual for this application"
+msgstr "Afișează manualul utilizatorului pentru această aplicație"
+
+#. end extern C
+#: ../ui/locatefiledialog.ui.h:1
+msgid "Select File Location"
+msgstr "Selectează locația fișierului"
+
+#: ../ui/locatefiledialog.ui.h:2
+#, fuzzy
+#| msgid "<b>Locate File</b>"
+msgid "Locate File"
+msgstr "<b>Localizează fișierul</b>"
+
+#~ msgid "bodycontainer"
+#~ msgstr "bodycontainer"
+
+#~ msgid "<b>Call a function:</b>"
+#~ msgstr "<b>Apelează o funcție:</b>"
+
+#~ msgid "Call Function"
+#~ msgstr "Apelează funcția"
+
+#~ msgid "<b>GDB binary</b>"
+#~ msgstr "<b>Binarul GDB</b>"
+
+#~ msgid "Choose a file"
+#~ msgstr "Alegeți un fișier"
+
+#~ msgid "<b>Arguments:</b>"
+#~ msgstr "<b>Argumente:</b>"
+
+#~ msgid "Inspect a Variable"
+#~ msgstr "Inspectează o variabilă"
+
+#~ msgid "Address :"
+#~ msgstr "Adresă :"
+
+#~ msgid "<b>Set a Breakpoint:</b>"
+#~ msgstr "<b>Definiți un punct de oprire:</b>"
+
+#~ msgid "read"
+#~ msgstr "citește"
+
+#~ msgid "Restart the target, killing this process and starting a new one"
+#~ msgstr "Repornește ținta, oprind acest proces și pornind unul nou"
+
+#~ msgid "Show Commands"
+#~ msgstr "Arată comenzile"
+
+#~ msgid "Show the debugger commands tab"
+#~ msgstr "Arată fila comenzilor depanatorului"
+
+#~ msgid "Show Errors"
+#~ msgstr "Arată erorile"
+
+#~ msgid "Show the errors tab"
+#~ msgstr "Arată fila erorilor"
+
+#~ msgid "Show Output"
+#~ msgstr "Arată datele de ieșire"
+
+#~ msgid "Show the debugged target output tab"
+#~ msgstr "Arată fila datelor de ieșire a țintei depanate"
+
+#~ msgid "Commands"
+#~ msgstr "Comenzi"
+
+#~ msgid "Output"
+#~ msgstr "Date de ieșire"
+
+#~ msgid "Logs"
+#~ msgstr "Înregistrări"
+
+#~ msgid "Choose directory"
+#~ msgstr "Alegeți directorul"
+
+#~ msgid "Source directories"
+#~ msgstr "Directoarele sursei"
+
+#~ msgid "vfork system call"
+#~ msgstr "apel sistem vfork"

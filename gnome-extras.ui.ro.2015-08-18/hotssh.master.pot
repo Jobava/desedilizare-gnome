@@ -1,0 +1,226 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=hotssh&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2015-08-18 10:13+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ../src/hotssh-app.c:76
+msgid "SSH client"
+msgstr ""
+
+#: ../src/hotssh-app.c:80 ../src/window.ui.h:1
+msgid "HotSSH"
+msgstr ""
+
+#: ../src/hotssh-app.c:81
+msgid "translator-credits"
+msgstr ""
+
+#: ../src/hotssh-app.c:84
+msgid "HotSSH Website"
+msgstr ""
+
+#: ../src/hotssh-win.c:166
+msgid "Close tab"
+msgstr ""
+
+#: ../src/hotssh-win.c:189
+msgid "Disconnected"
+msgstr ""
+
+#: ../src/hotssh-tab.c:325 ../src/hotssh-tab.c:1237
+msgid "Authenticated, requesting channel…"
+msgstr ""
+
+#: ../src/hotssh-tab.c:390
+#, c-format
+msgid "No more authentication mechanisms available"
+msgstr ""
+
+#: ../src/hotssh-tab.c:399
+#, c-format
+msgid "Requesting authentication via '%s'"
+msgstr ""
+
+#: ../src/hotssh-tab.c:455
+#, c-format
+msgid ""
+"The remote host key type has changed; it was previously \"%s\", now \"%s\""
+msgstr ""
+
+#: ../src/hotssh-tab.c:460
+msgid "The remote host key has changed"
+msgstr ""
+
+#: ../src/hotssh-tab.c:469
+#, c-format
+msgid ""
+"Error: The host credentials for \"%s\" (%s) do not match the previously "
+"saved credentials.  This may represent an attempt by a malicious party to "
+"intercept communication; however, it is also possible that the host key was "
+"changed by a system administrator.\n"
+"\n"
+"Details: %s"
+msgstr ""
+
+#: ../src/hotssh-tab.c:482 ../src/hotssh-tab.c:813
+msgid "Negotiating authentication…"
+msgstr ""
+
+#: ../src/hotssh-tab.c:562
+#, c-format
+msgid "Resolving '%s'…"
+msgstr ""
+
+#: ../src/hotssh-tab.c:577
+#, c-format
+msgid "Connecting to '%s'…"
+msgstr ""
+
+#: ../src/hotssh-tab.c:794
+msgid "Authenticating…"
+msgstr ""
+
+#: ../src/hotssh-tab.c:1066
+msgid "Less than 1 minute ago"
+msgstr ""
+
+#: ../src/hotssh-tab.c:1069
+#, c-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/hotssh-tab.c:1073
+#, c-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/hotssh-tab.c:1076
+#, c-format
+msgid "%d day ago"
+msgid_plural "%d days ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/hotssh-tab.c:1098
+msgid "Never"
+msgstr ""
+
+#: ../src/hotssh-tab.c:1104
+msgid "In the future"
+msgstr ""
+
+#: ../src/hotssh-tab.c:1136
+msgid "Unknown"
+msgstr ""
+
+#: ../src/app-menu.ui.h:1
+msgid "_Preferences"
+msgstr ""
+
+#: ../src/app-menu.ui.h:2
+msgid "_About"
+msgstr ""
+
+#: ../src/app-menu.ui.h:3
+msgid "_Quit"
+msgstr ""
+
+#: ../src/gears-menu.ui.h:1
+msgid "_Disconnect"
+msgstr ""
+
+#: ../src/gears-menu.ui.h:2
+msgid "_Copy"
+msgstr ""
+
+#: ../src/gears-menu.ui.h:3
+msgid "_Paste"
+msgstr ""
+
+#: ../src/prefs.ui.h:1
+msgid "Preferences"
+msgstr ""
+
+#: ../src/prefs.ui.h:2
+msgid "_Close"
+msgstr ""
+
+#: ../src/prefs.ui.h:3
+msgid "_Match System Terminal style:"
+msgstr ""
+
+#: ../src/tab.ui.h:1
+msgid "Host: "
+msgstr ""
+
+#: ../src/tab.ui.h:2
+msgid "Username: "
+msgstr ""
+
+#: ../src/tab.ui.h:3
+msgid "_Create and Connect"
+msgstr ""
+
+#: ../src/tab.ui.h:4
+msgid "Hostname"
+msgstr ""
+
+#: ../src/tab.ui.h:5
+msgid "Last Used"
+msgstr ""
+
+#: ../src/tab.ui.h:6
+msgid "Known"
+msgstr ""
+
+#: ../src/tab.ui.h:7
+msgid "Add New Connection"
+msgstr ""
+
+#: ../src/tab.ui.h:8
+msgid "Connecting…"
+msgstr ""
+
+#: ../src/tab.ui.h:9
+msgid "Error:"
+msgstr ""
+
+#: ../src/tab.ui.h:10
+msgid "Disconnect"
+msgstr ""
+
+#: ../src/tab.ui.h:11
+msgid "Approval of newly seen host key required; RSA key fingerprint is:"
+msgstr ""
+
+#: ../src/tab.ui.h:12
+msgid "00:--:--:--:--:--:--:--:--:--:--:--:--:--:--:00"
+msgstr ""
+
+#: ../src/tab.ui.h:13
+msgid "Approve and Connect"
+msgstr ""
+
+#: ../src/tab.ui.h:14
+msgid "Password: "
+msgstr ""

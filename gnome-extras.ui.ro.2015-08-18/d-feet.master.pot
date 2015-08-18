@@ -1,0 +1,166 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=d-"
+"feet&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2015-08-18 03:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/d-feet.appdata.xml.in.h:1
+msgid ""
+"A simple application for debugging the message bus system D-Bus. D-Feet can "
+"be used to inspect D-Bus interfaces of running programs and invoke methods "
+"on those interfaces."
+msgstr ""
+
+#: ../data/d-feet.desktop.in.in.h:1
+msgid "D-Feet"
+msgstr ""
+
+#: ../data/d-feet.desktop.in.in.h:2
+msgid "D-Bus Debugger"
+msgstr ""
+
+#: ../data/d-feet.desktop.in.in.h:3
+msgid "Debug D-Bus applications"
+msgstr ""
+
+#: ../data/d-feet.desktop.in.in.h:4
+msgid "debug;d-bus;dbus;dfeet;"
+msgstr ""
+
+#: ../data/ui/addconnectiondialog.ui.h:1
+msgid "Add a Connection"
+msgstr ""
+
+#: ../data/ui/addconnectiondialog.ui.h:2
+msgid "See http://dbus.freedesktop.org/doc/dbus-specification.html#addresses"
+msgstr ""
+
+#: ../data/ui/addconnectiondialog.ui.h:3 ../data/ui/introspection.ui.h:3
+msgid "Address:"
+msgstr ""
+
+#: ../data/ui/app-menu.ui.h:1
+msgid "About"
+msgstr ""
+
+#: ../data/ui/app-menu.ui.h:2
+msgid "Help"
+msgstr ""
+
+#: ../data/ui/app-menu.ui.h:3
+msgid "Quit"
+msgstr ""
+
+#: ../data/ui/executedialog.ui.h:1
+msgid "Execute D-Bus Method"
+msgstr ""
+
+#: ../data/ui/executedialog.ui.h:2
+msgid "_Execute"
+msgstr ""
+
+#: ../data/ui/executedialog.ui.h:3
+msgid "Method name:"
+msgstr ""
+
+#: ../data/ui/executedialog.ui.h:4
+msgid "Object Path:"
+msgstr ""
+
+#: ../data/ui/executedialog.ui.h:5
+msgid "Interface:"
+msgstr ""
+
+#: ../data/ui/executedialog.ui.h:6
+msgid "Method input"
+msgstr ""
+
+#: ../data/ui/executedialog.ui.h:7
+msgid "Method output"
+msgstr ""
+
+#: ../data/ui/executedialog.ui.h:8
+msgid "Pretty print"
+msgstr ""
+
+#: ../data/ui/executedialog.ui.h:9
+msgid "Source"
+msgstr ""
+
+#: ../data/ui/executedialog.ui.h:10
+msgid "Method execution"
+msgstr ""
+
+#: ../data/ui/executedialog.ui.h:11
+msgid "Number of method executions"
+msgstr ""
+
+#: ../data/ui/executedialog.ui.h:12
+msgid "Ø:"
+msgstr ""
+
+#: ../data/ui/executedialog.ui.h:13
+msgid "Average method execution time in seconds"
+msgstr ""
+
+#: ../data/ui/executedialog.ui.h:14
+msgid "Min:"
+msgstr ""
+
+#: ../data/ui/executedialog.ui.h:15
+msgid "Minimal method execution time in seconds"
+msgstr ""
+
+#: ../data/ui/executedialog.ui.h:16
+msgid "Max:"
+msgstr ""
+
+#: ../data/ui/executedialog.ui.h:17
+msgid "Maximal method execution time in seconds"
+msgstr ""
+
+#: ../data/ui/introspection.ui.h:1
+msgid "Unique name:"
+msgstr ""
+
+#: ../data/ui/introspection.ui.h:2
+msgid "Name:"
+msgstr ""
+
+#: ../data/ui/introspection.ui.h:4
+msgid "Introspecting..."
+msgstr ""
+
+#: ../data/ui/introspection.ui.h:5
+msgid "Object path"
+msgstr ""
+
+#: ../data/ui/mainwindow.ui.h:1
+msgid "Connect to System Bus"
+msgstr ""
+
+#: ../data/ui/mainwindow.ui.h:2
+msgid "Connect to Session Bus"
+msgstr ""
+
+#: ../data/ui/mainwindow.ui.h:3
+msgid "Connect to other Bus"
+msgstr ""
+
+#: ../data/ui/mainwindow.ui.h:4
+msgid "Close Bus"
+msgstr ""

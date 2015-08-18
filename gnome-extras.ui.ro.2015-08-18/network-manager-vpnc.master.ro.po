@@ -1,0 +1,488 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Alexandru Palcuie <palcuiealex@yahoo.com>, 2010.
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2010, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=NetworkManager&keywords=I18N+L10N&component=VPN: vpnc\n"
+"POT-Creation-Date: 2015-07-09 10:59+0000\n"
+"PO-Revision-Date: 2011-03-14 14:41+0200\n"
+"Last-Translator: Lucian Adrian Grijincu <lucian.grijincu@gmail.com>\n"
+"Language-Team: Romanian Gnome Team <gnomero-list@lists.sourceforge.net>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);;\n"
+"X-Generator: Virtaal 0.6.1\n"
+
+#: ../auth-dialog/main.c:175
+#, fuzzy, c-format
+#| msgid "Authenticate VPN"
+msgid "Authenticate VPN %s"
+msgstr "Autentifică VPN"
+
+#: ../auth-dialog/main.c:191
+#, fuzzy
+#| msgid "_Password:"
+msgid "Password:"
+msgstr "_Parolă:"
+
+#: ../auth-dialog/main.c:199
+#, fuzzy
+#| msgid "_Group Password:"
+msgid "Group Password:"
+msgstr "_Grup de parole:"
+
+#: ../auth-dialog/main.c:234
+msgid "Authenticate VPN"
+msgstr "Autentifică VPN"
+
+#: ../auth-dialog/main.c:243
+msgid "_Group Password:"
+msgstr "_Grup de parole:"
+
+#: ../auth-dialog/main.c:501
+#, c-format
+msgid "You need to authenticate to access the Virtual Private Network '%s'."
+msgstr ""
+"Trebuie să vă autentificați pentru a accesa Rețeaua privată virtuală „%s”."
+
+#: ../auth-dialog/nm-vpnc-auth-dialog.desktop.in.in.h:1
+msgid "Network"
+msgstr ""
+
+#: ../auth-dialog/nm-vpnc-auth-dialog.desktop.in.in.h:2
+msgid "Request VPN authentication"
+msgstr ""
+
+#: ../properties/nm-vpnc.c:52
+msgid "Cisco Compatible VPN (vpnc)"
+msgstr "VPN compatibil Cisco (vpnc)"
+
+#: ../properties/nm-vpnc.c:53
+msgid ""
+"Compatible with various Cisco, Juniper, Netscreen, and Sonicwall IPsec-based "
+"VPN gateways."
+msgstr ""
+"Compatibil cu diferite gateway-uri VPN Cisco, Juniper, Netscreen și "
+"Sonicwall bazate pe IPsec."
+
+#: ../properties/nm-vpnc.c:429
+msgid "Secure (default)"
+msgstr "Securizat (implicit)"
+
+#: ../properties/nm-vpnc.c:432
+msgid "Weak (use with caution)"
+msgstr "Slabă (folosiți cu precauție)"
+
+#: ../properties/nm-vpnc.c:440
+msgid "None (completely insecure)"
+msgstr "Niciuna (complet nesecurizat)"
+
+#: ../properties/nm-vpnc.c:504
+#, fuzzy
+#| msgid "Secure (default)"
+msgid "Cisco (default)"
+msgstr "Securizat (implicit)"
+
+#: ../properties/nm-vpnc.c:511
+msgid "Netscreen"
+msgstr ""
+
+#: ../properties/nm-vpnc.c:552
+msgid "NAT-T when available (default)"
+msgstr "NAT-T când este disponibilă (implicit)"
+
+#: ../properties/nm-vpnc.c:559
+msgid "NAT-T always"
+msgstr "Întotdeauna NAT-T"
+
+#: ../properties/nm-vpnc.c:566
+msgid "Cisco UDP"
+msgstr "UDP Cisco"
+
+#: ../properties/nm-vpnc.c:573
+msgid "Disabled"
+msgstr "Dezactivată"
+
+#: ../properties/nm-vpnc.c:593 ../properties/nm-vpnc.c:679
+msgid "DH Group 1"
+msgstr "Grup DH 1"
+
+#: ../properties/nm-vpnc.c:600
+msgid "DH Group 2 (default)"
+msgstr "Grup DH 2 (implicit)"
+
+#: ../properties/nm-vpnc.c:607 ../properties/nm-vpnc.c:693
+msgid "DH Group 5"
+msgstr "Grup DH 5"
+
+#: ../properties/nm-vpnc.c:665
+#, fuzzy
+#| msgid "Secure (default)"
+msgid "Server (default)"
+msgstr "Securizat (implicit)"
+
+#: ../properties/nm-vpnc.c:672
+msgid "None"
+msgstr ""
+
+#: ../properties/nm-vpnc.c:686
+#, fuzzy
+#| msgid "DH Group 1"
+msgid "DH Group 2"
+msgstr "Grup DH 1"
+
+#: ../properties/nm-vpnc.c:733
+msgid "Choose a Certificate Authority (CA) certificate..."
+msgstr ""
+
+#: ../properties/nm-vpnc.c:737
+msgid "PEM certificates (*.pem, *.crt, *.cer)"
+msgstr ""
+
+#: ../properties/nm-vpnc.c:1498
+msgid "TCP tunneling not supported"
+msgstr "Tunelarea TCP nu este suportată"
+
+#: ../properties/nm-vpnc.c:1500
+#, c-format
+msgid ""
+"The VPN settings file '%s' specifies that VPN traffic should be tunneled "
+"through TCP which is currently not supported in the vpnc software.\n"
+"\n"
+"The connection can still be created, with TCP tunneling disabled, however it "
+"may not work as expected."
+msgstr ""
+"În fișierul de configurări VPN „%s” se precizează că traficul VPN ar trebui "
+"tunelat prin TCP, funcție care momentan nu este suportată de către aplicația "
+"vpnc.\n"
+"\n"
+"Conexiunea poate fi creată, cu tunelarea TCP dezactivată, însă este posibil "
+"ca ea să nu funcționeze cum vă așteptați."
+
+#: ../properties/nm-vpnc-dialog.ui.h:1
+#, fuzzy
+#| msgid "<b>General</b>"
+msgid "General"
+msgstr "<b>Generale</b>"
+
+#: ../properties/nm-vpnc-dialog.ui.h:2
+msgid "Sho_w passwords"
+msgstr "Arată parolele"
+
+#: ../properties/nm-vpnc-dialog.ui.h:3
+msgid ""
+"Group password\n"
+"config: IPSec secret <group_password>"
+msgstr ""
+
+#: ../properties/nm-vpnc-dialog.ui.h:5
+msgid "Gro_up password:"
+msgstr "Parolă gr_up:"
+
+#: ../properties/nm-vpnc-dialog.ui.h:6
+msgid "_Gateway:"
+msgstr "_Gateway:"
+
+#: ../properties/nm-vpnc-dialog.ui.h:7
+msgid "G_roup name:"
+msgstr "Nume g_rup:"
+
+#: ../properties/nm-vpnc-dialog.ui.h:8
+msgid ""
+"IP/hostname of IPsec gateway\n"
+"config: IPSec gateway <gateway>"
+msgstr ""
+
+#: ../properties/nm-vpnc-dialog.ui.h:10
+msgid ""
+"Group name\n"
+"config: IPSec ID <group_name>"
+msgstr ""
+
+#: ../properties/nm-vpnc-dialog.ui.h:12
+msgid "User _password:"
+msgstr "Parolă _utilizator:"
+
+#: ../properties/nm-vpnc-dialog.ui.h:13
+msgid ""
+"User password for the connection\n"
+"config: Xauth password <password>"
+msgstr ""
+
+#: ../properties/nm-vpnc-dialog.ui.h:15
+msgid ""
+"User name for the connection\n"
+"config: Xauth username <user_name>"
+msgstr ""
+
+#: ../properties/nm-vpnc-dialog.ui.h:17
+msgid "User na_me:"
+msgstr "Nume utilizator:"
+
+#: ../properties/nm-vpnc-dialog.ui.h:18
+msgid "Use _hybrid authentication"
+msgstr ""
+
+#: ../properties/nm-vpnc-dialog.ui.h:19
+msgid ""
+"Enable hybrid authentication, i.e. use certificate in addition to password.\n"
+"config: IKE Authmode hybrid"
+msgstr ""
+
+#: ../properties/nm-vpnc-dialog.ui.h:21
+msgid "CA _File:"
+msgstr ""
+
+#: ../properties/nm-vpnc-dialog.ui.h:22
+msgid ""
+"CA certificate in PEM format\n"
+"config: CA-File"
+msgstr ""
+
+#: ../properties/nm-vpnc-dialog.ui.h:24
+msgid "Advance_d..."
+msgstr ""
+
+#: ../properties/nm-vpnc-dialog.ui.h:25
+msgid "Advanced Options"
+msgstr ""
+
+#: ../properties/nm-vpnc-dialog.ui.h:26
+msgid "Identification"
+msgstr ""
+
+#: ../properties/nm-vpnc-dialog.ui.h:27
+msgid "_Domain:"
+msgstr "Domeniu:"
+
+#: ../properties/nm-vpnc-dialog.ui.h:28
+msgid ""
+"(NT-)Domain name for authentication\n"
+"config: Domain <domain>"
+msgstr ""
+
+#: ../properties/nm-vpnc-dialog.ui.h:30
+msgid ""
+"Vendor of your IPsec gateway\n"
+"config: Vendor <cisco/netscreen>"
+msgstr ""
+
+#: ../properties/nm-vpnc-dialog.ui.h:32
+msgid "_Vendor:"
+msgstr ""
+
+#: ../properties/nm-vpnc-dialog.ui.h:33
+msgid "Ve_rsion:"
+msgstr ""
+
+#: ../properties/nm-vpnc-dialog.ui.h:34
+msgid ""
+"Application version to report. \n"
+"config: Application version <ASCII string>"
+msgstr ""
+
+#: ../properties/nm-vpnc-dialog.ui.h:36
+msgid "Transport and Security"
+msgstr ""
+
+#: ../properties/nm-vpnc-dialog.ui.h:37
+msgid "Disable Dead _Peer Detection"
+msgstr "Dezactivați detecția de parteneri deconectați"
+
+#: ../properties/nm-vpnc-dialog.ui.h:38
+msgid ""
+"Disable sending DPD packets (sets timeout to 0)\n"
+"config: DPD idle timeout (our side) 0"
+msgstr ""
+
+#: ../properties/nm-vpnc-dialog.ui.h:40
+msgid "_Local port:"
+msgstr ""
+
+#: ../properties/nm-vpnc-dialog.ui.h:41
+msgid "Perfect _Forward Secrecy:"
+msgstr ""
+
+#: ../properties/nm-vpnc-dialog.ui.h:42
+msgid "_IKE DH Group:"
+msgstr "Grup DH IKE:"
+
+#: ../properties/nm-vpnc-dialog.ui.h:43
+msgid "_NAT traversal:"
+msgstr "Traversare NAT:"
+
+#: ../properties/nm-vpnc-dialog.ui.h:44
+msgid ""
+"Local ISAKMP port to use (0 means random port; 500 is vpnc's default)\n"
+"config: Local Port <0-65535>"
+msgstr ""
+
+#: ../properties/nm-vpnc-dialog.ui.h:46
+msgid "0"
+msgstr ""
+
+#: ../properties/nm-vpnc-dialog.ui.h:47
+msgid ""
+"Diffie-Hellman group to use for PFS\n"
+"config: Perfect Forward Secrecy <nopfs/dh1/dh2/dh5/server>"
+msgstr ""
+
+#: ../properties/nm-vpnc-dialog.ui.h:49
+msgid ""
+"Name of the IKE DH group\n"
+"config: IKE DH Group <dh1/dh2/dh5>"
+msgstr ""
+
+#: ../properties/nm-vpnc-dialog.ui.h:51
+msgid ""
+"NAT traversal method to use\n"
+"config: NAT Traversal Mode <natt/none/force-natt/cisco-udp>"
+msgstr ""
+
+#: ../properties/nm-vpnc-dialog.ui.h:53
+msgid ""
+"Encryption method\n"
+"config: nothing for Secure, 'Enable Single DES' for Weak, 'Enable no "
+"encryption' for None"
+msgstr ""
+
+#: ../properties/nm-vpnc-dialog.ui.h:55
+msgid ""
+"Tunnel interface name to use\n"
+"config: Interface name <name>"
+msgstr ""
+
+#: ../properties/nm-vpnc-dialog.ui.h:57
+msgid "_Encryption method:"
+msgstr "Metodă de criptare:"
+
+#: ../properties/nm-vpnc-dialog.ui.h:58
+msgid "Tunnel _interface name:"
+msgstr ""
+
+#: ../src/nm-vpnc-service.c:173
+#, c-format
+msgid "property '%s' invalid or not supported"
+msgstr ""
+
+#: ../src/nm-vpnc-service.c:192
+#, c-format
+msgid "property '%s' file path '%s' is not absolute or does not exist"
+msgstr ""
+
+#: ../src/nm-vpnc-service.c:205
+#, c-format
+msgid "invalid integer property '%s' or out of range [%d -> %d]"
+msgstr ""
+
+#: ../src/nm-vpnc-service.c:215
+#, c-format
+msgid "invalid boolean property '%s' (not yes or no)"
+msgstr ""
+
+#: ../src/nm-vpnc-service.c:222
+#, c-format
+msgid "unhandled property '%s' type %d"
+msgstr ""
+
+#: ../src/nm-vpnc-service.c:239
+msgid "No VPN configuration options."
+msgstr ""
+
+#: ../src/nm-vpnc-service.c:265
+msgid "No VPN secrets!"
+msgstr ""
+
+#: ../src/nm-vpnc-service.c:613
+msgid "Could not find vpnc binary."
+msgstr ""
+
+#: ../src/nm-vpnc-service.c:714
+#, c-format
+msgid "Config option '%s' invalid or unknown."
+msgstr ""
+
+#: ../src/nm-vpnc-service.c:747
+#, c-format
+msgid "Config option '%s' not an integer."
+msgstr ""
+
+#: ../src/nm-vpnc-service.c:921
+msgid "vpnc does not support interactive requests"
+msgstr ""
+
+#: ../src/nm-vpnc-service.c:945
+msgid "Could not use new secrets as interactive mode is disabled."
+msgstr ""
+
+#: ../src/nm-vpnc-service.c:954 ../src/nm-vpnc-service.c:1029
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr ""
+
+#: ../src/nm-vpnc-service.c:962
+msgid ""
+"Could not process the request because no pending authentication is required."
+msgstr ""
+
+#: ../src/nm-vpnc-service.c:974
+#, c-format
+msgid ""
+"Could not process the request because the requested info '%s' was not "
+"provided."
+msgstr ""
+
+#: ../src/nm-vpnc-service.c:1160
+msgid "Don't quit when VPN connection terminates"
+msgstr ""
+
+#: ../src/nm-vpnc-service.c:1161
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr ""
+
+#: ../src/nm-vpnc-service.c:1184
+msgid ""
+"nm-vpnc-service provides integrated Cisco Legacy IPsec VPN capability to "
+"NetworkManager."
+msgstr ""
+
+#~ msgid "_Secondary Password:"
+#~ msgstr "Parolă _secundară:"
+
+#~ msgid "Sh_ow passwords"
+#~ msgstr "_Arată parolele"
+
+#~ msgid "_Remember passwords for this session"
+#~ msgstr "_Reține parolele pentru această sesiune"
+
+#~ msgid "_Save passwords in keyring"
+#~ msgstr "_Salvează parolele în inelul de chei"
+
+#~ msgid "Add, Remove, and Edit VPN Connections"
+#~ msgstr "Adaugă, șterge sau modifică conexiuni VPN"
+
+#~ msgid "VPN Connection Manager (vpnc)"
+#~ msgstr "Manager conexiuni VPN (vpnc)"
+
+#~ msgid "Saved"
+#~ msgstr "Salvat"
+
+#~ msgid "Always Ask"
+#~ msgstr "Întreabă mereu"
+
+#~ msgid "Not Required"
+#~ msgstr "Nu este necesar"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "<b>Optional</b>"
+#~ msgstr "<b>Opționale</b>"

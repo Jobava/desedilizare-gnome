@@ -1,0 +1,481 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Ionut <shadow_hunter_xtreme@yahoo.com>, 2010.
+# Daniel Șerbănescu <cyber19rider@gmail.com>, 2010.
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=blam&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-12-18 14:24+0000\n"
+"PO-Revision-Date: 2011-03-19 00:30+0200\n"
+"Last-Translator: Lucian Adrian Grijincu <lucian.grijincu@gmail.com>\n"
+"Language-Team: Romanian Gnome Team <gnomero-list@lists.sourceforge.net>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);;\n"
+"X-Generator: Virtaal 0.6.1\n"
+
+#: ../blam.desktop.in.in.h:1
+msgid "Blam Feed Reader"
+msgstr "Cititor de fluxuri Blam"
+
+#: ../blam.desktop.in.in.h:2
+msgid "Feed reader"
+msgstr "Cititor de fluxuri"
+
+#: ../blam.schemas.in.h:1
+msgid "State of the main window"
+msgstr "Starea ferestrei principale"
+
+#: ../blam.schemas.in.h:2
+msgid ""
+"The state of the main window, valid values are 'normal' and 'maximized'."
+msgstr ""
+"Starea ferestrei principale, valorile valide fiind „normal” și „maximized”."
+
+#: ../blam.schemas.in.h:3
+msgid "Width of the main window"
+msgstr "Lățimea ferestrei principale"
+
+#: ../blam.schemas.in.h:4
+msgid "The width of the main window."
+msgstr "Lățimea ferestrei principale."
+
+#: ../blam.schemas.in.h:5
+msgid "Height of main window"
+msgstr "Înălțimea ferestrei principale"
+
+#: ../blam.schemas.in.h:6
+msgid "The height of the main window."
+msgstr "Înălțimea ferestrei principale."
+
+#: ../blam.schemas.in.h:7
+msgid "X position of main window"
+msgstr "Poziția X a ferestrei principale"
+
+#: ../blam.schemas.in.h:8
+msgid "The stored position of the main window, the X coordinate."
+msgstr "Poziția stocată a ferestrei principale, coordonata X."
+
+#: ../blam.schemas.in.h:9
+msgid "Y position of main window"
+msgstr "Poziția Y a ferestrei principale"
+
+#: ../blam.schemas.in.h:10
+msgid "The stored position of the main window, the Y coordinate."
+msgstr "Poziția stocată a ferestrei principale, coordonata Y."
+
+#: ../blam.schemas.in.h:11
+msgid "Width of channel list"
+msgstr "Lățimea listei de canale"
+
+#: ../blam.schemas.in.h:12
+msgid "The width of the channel list."
+msgstr "Lățimea listei de canale."
+
+#: ../blam.schemas.in.h:13
+msgid "Height of entry list"
+msgstr "Înălțimea listei de intrare"
+
+#: ../blam.schemas.in.h:14
+msgid "The height of the entry list."
+msgstr "Înălțimea listei de intrări."
+
+#: ../blam.schemas.in.h:15
+msgid "Current theme"
+msgstr "Tema curentă"
+
+#: ../blam.schemas.in.h:16
+msgid "The theme used to render the entries."
+msgstr "Tema folosită pentru a reda intrările."
+
+#: ../blam.schemas.in.h:17
+msgid "Reverse the entries in the entry list"
+msgstr "Inversează intrările din lista de intrări"
+
+#: ../blam.schemas.in.h:18
+msgid "Show the newest entries at the top of the entry list."
+msgstr "Afișează noile intrări de la începutul listei de intrări."
+
+#: ../blam.schemas.in.h:19
+msgid "Automatically refresh channels"
+msgstr "Reîmprospătează canalele automat"
+
+#: ../blam.schemas.in.h:20
+msgid "Automatically refresh all channels at a regular interval."
+msgstr "Reîmprospătează automat toate canalele la un interval regulat."
+
+#: ../blam.schemas.in.h:21
+msgid "Automatically refresh channels interval"
+msgstr "Interval de reîmprospătare automată a canalelor"
+
+#: ../blam.schemas.in.h:22
+msgid "The refresh rate for when to refresh all channels."
+msgstr "Rata de reîmprospătare în cazul reîmprospătării tuturor canalelor."
+
+#: ../gtk-gui/Imendio.Blam.AddChannelDialog.cs:46 ../src/blam.glade.h:29
+msgid "Enter the URL of the new channel"
+msgstr "Introduceți URL-ul canalului nou"
+
+#: ../gtk-gui/Imendio.Blam.AddChannelDialog.cs:65
+#, fuzzy
+#| msgid "URL:"
+msgid "URL"
+msgstr "URL:"
+
+#: ../gtk-gui/Imendio.Blam.AddChannelDialog.cs:73 ../src/blam.glade.h:24
+msgid "Username"
+msgstr "Nume utilizator"
+
+#: ../gtk-gui/Imendio.Blam.AddChannelDialog.cs:83 ../src/blam.glade.h:25
+msgid "Password"
+msgstr "Parolă"
+
+#: ../src/Application.cs:211
+msgid "Blam News Reader"
+msgstr "Cititorul de știri Blam"
+
+#: ../src/Application.cs:398 ../src/blam.glade.h:13
+msgid "_Mark as unread"
+msgstr "_Marchează ca necitit"
+
+#: ../src/Application.cs:400 ../src/ChannelList.cs:509
+msgid "_Mark as read"
+msgstr "_Marchează ca citit"
+
+#: ../src/Application.cs:451
+#, csharp-format
+msgid "File {0} already exists"
+msgstr "Fișierul {0} există deja"
+
+#: ../src/Application.cs:453
+msgid "Do you want to overwrite the file?"
+msgstr "Doriți să suprascrieți fișierul?"
+
+#: ../src/Application.cs:456
+msgid "_Overwrite"
+msgstr "_Suprascrie"
+
+#: ../src/Application.cs:473
+msgid "Export to..."
+msgstr "Exportă către..."
+
+#: ../src/Application.cs:475 ../src/Opml.cs:97
+msgid "Cancel"
+msgstr "Anulează"
+
+#: ../src/Application.cs:476
+msgid "Save"
+msgstr "Salvează"
+
+#: ../src/Application.cs:698
+#, csharp-format
+msgid "Refreshing: {0}"
+msgstr "Se reîmprospătează: {0}"
+
+#. This is the time (hour:minute) when the next update will be run
+#: ../src/Application.cs:725
+#, csharp-format
+msgid "Next update at {0}"
+msgstr "Următoarea actualizare va avea loc la {0}"
+
+#: ../src/blam.glade.h:1
+msgid "Blam"
+msgstr "Blam"
+
+#: ../src/blam.glade.h:2
+msgid "_File"
+msgstr "_Fișier"
+
+#: ../src/blam.glade.h:3
+msgid "_Import OPML"
+msgstr "_Importă OPML"
+
+#: ../src/blam.glade.h:4
+msgid "_Export OPML"
+msgstr "_Exportă OPML"
+
+#: ../src/blam.glade.h:5 ../src/ChannelList.cs:518
+msgid "_Edit"
+msgstr "_Editează"
+
+#: ../src/blam.glade.h:6
+msgid "_Channel"
+msgstr "_Canal"
+
+#: ../src/blam.glade.h:7
+msgid "Create a new group"
+msgstr "Creează un grup nou"
+
+#: ../src/blam.glade.h:8
+msgid "Add _Group"
+msgstr "Adaugă _grup"
+
+#: ../src/blam.glade.h:9
+msgid "_Mark as Read"
+msgstr "_Marchează ca citit"
+
+#: ../src/blam.glade.h:10
+msgid "Refresh _All"
+msgstr "Reîmprospătează _toate"
+
+#: ../src/blam.glade.h:11
+msgid "Mark All as _Read"
+msgstr "Marchează toate ca _citite"
+
+#: ../src/blam.glade.h:12
+msgid "E_ntry"
+msgstr "I_ntrare"
+
+#: ../src/blam.glade.h:14
+msgid "_Edit keywords"
+msgstr "_Editează cuvintele cheie"
+
+#: ../src/blam.glade.h:15
+msgid "_Next unread"
+msgstr "Următorul _necitit"
+
+#: ../src/blam.glade.h:16
+msgid "_Help"
+msgstr "_Ajutor"
+
+#: ../src/blam.glade.h:17
+msgid "Channels ({0} unread)"
+msgstr "Canale ({0} necitite)"
+
+#: ../src/blam.glade.h:18
+msgid "_Refresh All"
+msgstr "_Reîmprospătează toate"
+
+#: ../src/blam.glade.h:19
+msgid "Edit channel"
+msgstr "Editează canalul"
+
+#: ../src/blam.glade.h:20
+msgid "Change the fields to update channel information"
+msgstr "Modifică câmpurile pentru a actualiza informațiile canalului"
+
+#: ../src/blam.glade.h:21
+msgid "Name:"
+msgstr "Nume:"
+
+#: ../src/blam.glade.h:22
+msgid "URL:"
+msgstr "URL:"
+
+#: ../src/blam.glade.h:23
+msgid "Keywords:"
+msgstr "Cuvinte cheie:"
+
+#: ../src/blam.glade.h:26
+msgid "Remove Channel?"
+msgstr "Eliminați canalul?"
+
+#: ../src/blam.glade.h:27
+msgid "_Remove"
+msgstr "_Elimină"
+
+#: ../src/blam.glade.h:28
+msgid "Add a new channel"
+msgstr "Adaugă un canal nou"
+
+#: ../src/blam.glade.h:30 ../src/TrayIcon.cs:91
+msgid "Preferences"
+msgstr "Preferințe"
+
+#: ../src/blam.glade.h:31
+#, fuzzy
+#| msgid "Behaviour"
+msgid "Behavior"
+msgstr "Comportament"
+
+#: ../src/blam.glade.h:32
+msgid "    "
+msgstr "    "
+
+#: ../src/blam.glade.h:33
+msgid "_Newest entries at the top"
+msgstr "_Cele mai noi intrări la început"
+
+#: ../src/blam.glade.h:34
+msgid "_Automatically refresh all channels every"
+msgstr "Reîmprospătează _automat toate canalele la un interval de"
+
+#: ../src/blam.glade.h:35
+msgid "minutes"
+msgstr "minute"
+
+#: ../src/blam.glade.h:36
+msgid "_Ignore SSL certificate check errors"
+msgstr "_Ignoră erorile de verificare ale certificatului SSL"
+
+#: ../src/blam.glade.h:37
+msgid "Refresh feeds on startup"
+msgstr "Reîmprospătează fluxurile la pornire"
+
+#: ../src/blam.glade.h:38
+msgid "Theme"
+msgstr "Temă"
+
+#: ../src/blam.glade.h:39
+msgid "_Mark items read after"
+msgstr "_Marchează elementele pentru a fi citite"
+
+#: ../src/blam.glade.h:40
+msgid "seconds"
+msgstr "secunde"
+
+#: ../src/blam.glade.h:41
+msgid "Import OPML Feed"
+msgstr "Importă fluxul OPML"
+
+#: ../src/blam.glade.h:42
+msgid "Enter the URL or filename for the OPML file"
+msgstr "Introduceți URL-ul sau numele fișierului OPML"
+
+#: ../src/blam.glade.h:43
+msgid "_URL:"
+msgstr "_URL:"
+
+#: ../src/blam.glade.h:44
+msgid "_Select file"
+msgstr "_Selectează fișierul"
+
+#: ../src/blam.glade.h:45
+msgid "_Import"
+msgstr "_Importă"
+
+#: ../src/blam.glade.h:46
+msgid "Importing OPML file"
+msgstr "Se importă fișierul OPML"
+
+#: ../src/blam.glade.h:47
+msgid "Importing channels"
+msgstr "Se importă canalele"
+
+#: ../src/blam.glade.h:48
+msgid "Themes"
+msgstr "Teme"
+
+#: ../src/blam.glade.h:49
+msgid "Set Theme"
+msgstr "Setează tema"
+
+#: ../src/blam.glade.h:50
+msgid "Error"
+msgstr "Eroare"
+
+#: ../src/blam.glade.h:51 ../src/TrayIcon.cs:95
+msgid "About Blam"
+msgstr "Despre Blam"
+
+#: ../src/blam.glade.h:52
+msgid "Create new group"
+msgstr "Creează grup nou"
+
+#: ../src/blam.glade.h:53
+msgid "Name: "
+msgstr "Nume: "
+
+#: ../src/ChannelList.cs:512 ../src/TrayIcon.cs:87
+msgid "_Refresh"
+msgstr "_Reîmprospătează"
+
+#: ../src/ChannelList.cs:523
+msgid "Remo_ve"
+msgstr "_Elimină"
+
+#: ../src/Dialogs.cs:85
+#, csharp-format
+msgid "Do you want to remove the channel or group {0} from the channel list?"
+msgstr "Doriți să ștergeți canalul sau grupul {0} din lista canalelor?"
+
+#: ../src/ItemView.cs:119
+#, csharp-format
+msgid "by {0}"
+msgstr "de {0}"
+
+#: ../src/ItemView.cs:123
+msgid "Show in browser"
+msgstr "Afișează în navigator"
+
+#: ../src/ItemView.cs:128
+msgid "[No date available]"
+msgstr ""
+
+#: ../src/Opml.cs:95
+msgid "Select OPML file"
+msgstr "Alegeți fișierul OPML"
+
+#: ../src/Opml.cs:98
+msgid "Open"
+msgstr "Deschide"
+
+#: ../src/Opml.cs:145
+#, csharp-format
+msgid "Imported {0} channels from OPML file"
+msgstr "S-au importat {0} canale din fișierul OPML"
+
+#: ../src/Opml.cs:158
+#, csharp-format
+msgid "Failed to import {0}"
+msgstr "Importarea a eșuat {0}"
+
+#: ../src/Opml.cs:167
+msgid "Not a valid OPML file"
+msgstr "Fișierul OPML nu este valid"
+
+#: ../src/Opml.cs:172
+msgid "File not found"
+msgstr "Nu s-a găsit fișierul"
+
+#: ../src/Opml.cs:177
+msgid "Invalid file name"
+msgstr "Numele fișierului nu este valid"
+
+#: ../src/Opml.cs:182
+msgid "Could not find OPML file"
+msgstr "Nu s-a găsit fișierul OPML"
+
+#: ../src/Opml.cs:187
+msgid "Unknown error"
+msgstr "Eroare necunoscută"
+
+#: ../src/Opml.cs:203
+msgid "Opening OPML file"
+msgstr "Se deschide fișierul OPML"
+
+#. Same as for the tray icon tooltip
+#. Total number of unread items
+#: ../src/TrayIcon.cs:58 ../src/UnreadNotification.cs:26
+#, csharp-format
+msgid "{0} unread item"
+msgid_plural "{0} unread items"
+msgstr[0] "{0} element necitit"
+msgstr[1] "{0} elemente necitite"
+msgstr[2] "{0} de elemente necitite"
+
+#. Number of new (not-skipped-over) entries. Gets appended to previous string
+#: ../src/TrayIcon.cs:59 ../src/UnreadNotification.cs:30
+#, csharp-format
+msgid "({0} new)"
+msgid_plural "({0} new)"
+msgstr[0] "({0} nou)"
+msgstr[1] "({0} noi)"
+msgstr[2] "({0} noi)"
+
+#: ../src/TrayIcon.cs:99
+msgid "Quit"
+msgstr ""
+
+#: ../src/UnreadNotification.cs:18
+#, fuzzy
+#| msgid "Feed reader"
+msgid "Feeds refreshed"
+msgstr "Cititor de fluxuri"

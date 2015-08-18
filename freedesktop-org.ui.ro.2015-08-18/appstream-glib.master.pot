@@ -1,0 +1,396 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://github.com/hughsie/appstream-glib/issues\n"
+"POT-Creation-Date: 2015-08-18 14:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. TRANSLATORS: command line option
+#: ../client/as-builder.c:161 ../client/as-util.c:3752
+msgid "Show extra debugging information"
+msgstr ""
+
+#. TRANSLATORS: command line option
+#: ../client/as-builder.c:164
+msgid "Add a cache ID to each component"
+msgstr ""
+
+#. TRANSLATORS: command line option
+#: ../client/as-builder.c:167
+msgid "Include failed results in the output"
+msgstr ""
+
+#. TRANSLATORS: command line option
+#: ../client/as-builder.c:170
+msgid "Add HiDPI icons to the tarball"
+msgstr ""
+
+#. TRANSLATORS: command line option
+#: ../client/as-builder.c:173
+msgid "Add encoded icons to the XML"
+msgstr ""
+
+#. TRANSLATORS: command line option
+#: ../client/as-builder.c:176
+msgid "Do not compress the icons into a tarball"
+msgstr ""
+
+#. TRANSLATORS: command line option
+#: ../client/as-builder.c:179
+msgid "Set the logging directory"
+msgstr ""
+
+#. TRANSLATORS: command line option
+#: ../client/as-builder.c:182
+msgid "Set the packages directory"
+msgstr ""
+
+#. TRANSLATORS: command line option
+#: ../client/as-builder.c:185
+msgid "Set the temporary directory"
+msgstr ""
+
+#. TRANSLATORS: command line option
+#: ../client/as-builder.c:188
+msgid "Set the output directory"
+msgstr ""
+
+#. TRANSLATORS: command line option
+#: ../client/as-builder.c:191
+msgid "Set the icons directory"
+msgstr ""
+
+#. TRANSLATORS: command line option
+#: ../client/as-builder.c:194
+msgid "Set the cache directory"
+msgstr ""
+
+#. TRANSLATORS: command line option
+#: ../client/as-builder.c:197
+msgid "Set the basenames of the output files"
+msgstr ""
+
+#. TRANSLATORS: command line option
+#: ../client/as-builder.c:200
+msgid "Set the origin name"
+msgstr ""
+
+#. TRANSLATORS: command line option
+#: ../client/as-builder.c:203
+msgid "Set the number of threads"
+msgstr ""
+
+#. TRANSLATORS: command line option
+#: ../client/as-builder.c:206
+msgid "Set the minimum icon size in pixels"
+msgstr ""
+
+#. TRANSLATORS: command line option
+#: ../client/as-builder.c:209
+msgid "Set the AppStream version"
+msgstr ""
+
+#. TRANSLATORS: command line option
+#: ../client/as-builder.c:212
+msgid "Set the ostree repo name"
+msgstr ""
+
+#. TRANSLATORS: command line option
+#: ../client/as-builder.c:215
+msgid "Set the old metadata location"
+msgstr ""
+
+#. TRANSLATORS: command line option
+#: ../client/as-builder.c:218
+msgid "Ignore certain types of veto"
+msgstr ""
+
+#. TRANSLATORS: error message
+#: ../client/as-builder.c:232 ../client/as-util.c:3930
+msgid "Failed to parse arguments"
+msgstr ""
+
+#. TRANSLATORS: error message
+#: ../client/as-builder.c:265
+msgid "API version no longer supported"
+msgstr ""
+
+#. TRANSLATORS: error message
+#: ../client/as-builder.c:346
+msgid "Failed to set up builder"
+msgstr ""
+
+#. TRANSLATORS: error message
+#: ../client/as-builder.c:365
+msgid "Failed to open packages"
+msgstr ""
+
+#. TRANSLATORS: information message
+#: ../client/as-builder.c:375
+msgid "Scanning packages..."
+msgstr ""
+
+#. TRANSLATORS: error message
+#: ../client/as-builder.c:385
+msgid "Failed to add package"
+msgstr ""
+
+#. TRANSLATORS: information message
+#: ../client/as-builder.c:391
+#, c-format
+msgid "Parsed %i/%i files..."
+msgstr ""
+
+#. TRANSLATORS: error message
+#: ../client/as-builder.c:410
+msgid "Failed to generate metadata"
+msgstr ""
+
+#. success
+#. TRANSLATORS: information message
+#: ../client/as-builder.c:417
+msgid "Done!"
+msgstr ""
+
+#. TRANSLATORS: this is a command alias
+#: ../client/as-util.c:109
+#, c-format
+msgid "Alias to %s"
+msgstr ""
+
+#: ../client/as-util.c:197
+msgid "Command not found, valid commands are:"
+msgstr ""
+
+#. TRANSLATORS: any manual changes required?
+#. * also note: FIXME is a hardcoded string
+#: ../client/as-util.c:470
+msgid "Please review the file and fix any 'FIXME' items"
+msgstr ""
+
+#. TRANSLATORS: information message
+#: ../client/as-util.c:502
+msgid "New API version"
+msgstr ""
+
+#: ../client/as-util.c:524
+msgid "Not enough arguments, expected old.xml new.xml version"
+msgstr ""
+
+#: ../client/as-util.c:578
+msgid "Not enough arguments, expected file.xml"
+msgstr ""
+
+#. TRANSLATORS: the file is valid
+#: ../client/as-util.c:2589
+msgid "OK"
+msgstr ""
+
+#. list failures
+#: ../client/as-util.c:2594
+msgid "FAILED"
+msgstr ""
+
+#: ../client/as-util.c:2696
+msgid "Validation failed"
+msgstr ""
+
+#: ../client/as-util.c:2743
+msgid "Validation of files failed"
+msgstr ""
+
+#. TRANSLATORS: this is the --nonet argument
+#: ../client/as-util.c:3749 ../client/as-validate.c:234
+msgid "Do not use network access"
+msgstr ""
+
+#. TRANSLATORS: command line option
+#: ../client/as-util.c:3755
+msgid "Show version"
+msgstr ""
+
+#. TRANSLATORS: command description
+#: ../client/as-util.c:3773
+msgid "Converts AppStream metadata from one version to another"
+msgstr ""
+
+#. TRANSLATORS: command description
+#: ../client/as-util.c:3779
+msgid "Upgrade AppData metadata to the latest version"
+msgstr ""
+
+#. TRANSLATORS: command description
+#: ../client/as-util.c:3785
+msgid "Creates an example Appdata file from a .desktop file"
+msgstr ""
+
+#. TRANSLATORS: command description
+#: ../client/as-util.c:3791
+msgid "Dumps the applications in the AppStream metadata"
+msgstr ""
+
+#. TRANSLATORS: command description
+#: ../client/as-util.c:3797
+msgid "Search for AppStream applications"
+msgstr ""
+
+#. TRANSLATORS: command description
+#: ../client/as-util.c:3803
+msgid "Display application search tokens"
+msgstr ""
+
+#. TRANSLATORS: command description
+#: ../client/as-util.c:3809
+msgid "Installs AppStream metadata"
+msgstr ""
+
+#. TRANSLATORS: command description
+#: ../client/as-util.c:3815
+msgid "Installs AppStream metadata with new origin"
+msgstr ""
+
+#. TRANSLATORS: command description
+#: ../client/as-util.c:3821
+msgid "Uninstalls AppStream metadata"
+msgstr ""
+
+#. TRANSLATORS: command description
+#: ../client/as-util.c:3827
+msgid "Create an HTML status page"
+msgstr ""
+
+#. TRANSLATORS: command description
+#: ../client/as-util.c:3833
+msgid "Create an CSV status document"
+msgstr ""
+
+#. TRANSLATORS: command description
+#: ../client/as-util.c:3839
+msgid "Create an HTML matrix page"
+msgstr ""
+
+#. TRANSLATORS: command description
+#: ../client/as-util.c:3845
+msgid "List applications not backed by packages"
+msgstr ""
+
+#. TRANSLATORS: command description
+#: ../client/as-util.c:3851
+msgid "Validate an AppData or AppStream file"
+msgstr ""
+
+#. TRANSLATORS: command description
+#: ../client/as-util.c:3857
+msgid "Validate an AppData or AppStream file (relaxed)"
+msgstr ""
+
+#. TRANSLATORS: command description
+#: ../client/as-util.c:3863
+msgid "Validate an AppData or AppStream file (strict)"
+msgstr ""
+
+#. TRANSLATORS: command description
+#: ../client/as-util.c:3869
+msgid "Convert an AppData file to NEWS format"
+msgstr ""
+
+#. TRANSLATORS: command description
+#: ../client/as-util.c:3875
+msgid "Convert an NEWS file to AppData format"
+msgstr ""
+
+#. TRANSLATORS: command description
+#: ../client/as-util.c:3881
+msgid "Check installed application data"
+msgstr ""
+
+#. TRANSLATORS: command description
+#: ../client/as-util.c:3887
+msgid "Replace screenshots in source file"
+msgstr ""
+
+#. TRANSLATORS: command description
+#: ../client/as-util.c:3893
+msgid "Mirror upstream screenshots"
+msgstr ""
+
+#. TRANSLATORS: command description
+#: ../client/as-util.c:3899
+msgid "Mirror local firmware files"
+msgstr ""
+
+#. TRANSLATORS: command description
+#: ../client/as-util.c:3905
+msgid "Incorporate extra metadata from an external file"
+msgstr ""
+
+#. TRANSLATORS: command description
+#: ../client/as-util.c:3911
+msgid "Compare the contents of two AppStream files"
+msgstr ""
+
+#. TRANSLATORS: program name
+#: ../client/as-util.c:3924
+msgid "AppStream Utility"
+msgstr ""
+
+#: ../client/as-util.c:3947
+msgid "Version:"
+msgstr ""
+
+#. TRANSLATORS: the file is valid
+#: ../client/as-validate.c:130
+#, c-format
+msgid "%s validated OK."
+msgstr ""
+
+#: ../client/as-validate.c:135
+msgid "problems detected:"
+msgstr ""
+
+#. TRANSLATORS: this is the --relax argument
+#: ../client/as-validate.c:228
+msgid "Be less strict when checking files"
+msgstr ""
+
+#. TRANSLATORS: this is the --relax argument
+#: ../client/as-validate.c:231
+msgid "Be more strict when checking files"
+msgstr ""
+
+#. TRANSLATORS: this is the --filename argument
+#: ../client/as-validate.c:237
+msgid "The source filename when using a temporary file"
+msgstr ""
+
+#. TRANSLATORS: this is the --output-format argument
+#: ../client/as-validate.c:240
+msgid "The output format [text|html|xml]"
+msgstr ""
+
+#. TRANSLATORS: this is where the user used unknown command
+#. * line switches -- the exact error follows
+#: ../client/as-validate.c:254
+msgid "Failed to parse command line:"
+msgstr ""
+
+#. TRANSLATORS: this is explaining how to use the tool
+#: ../client/as-validate.c:268
+msgid "Usage:"
+msgstr ""
+
+#: ../client/as-validate.c:268
+msgid "<file>"
+msgstr ""

@@ -1,0 +1,1559 @@
+# Copyright (C) 2010 library-web's COPYRIGHT HOLDER
+# This file is distributed under the same license as the library-web package.
+# Alexandru Baicoianu <baicoianu.alexandru@gmail.com>, 2010.
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: library-web master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=website&keywords=I18N+L10N&component=library.gnome.org\n"
+"POT-Creation-Date: 2015-08-13 14:34+0000\n"
+"PO-Revision-Date: 2010-11-27 02:52+0300\n"
+"Last-Translator: Lucian Adrian Grijincu <lucian.grijincu@gmail.com>\n"
+"Language-Team: Romanian Gnome Team <gnomero-list@lists.sourceforge.net>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);;\n"
+"X-Generator: Virtaal 0.6.1\n"
+
+#: ../data/catalog.xml.in.h:1
+msgid "GNOME Documentation Library"
+msgstr "Biblioteca GNOME pentru documentație"
+
+#: ../data/catalog.xml.in.h:2
+msgid "Home"
+msgstr "Acasă"
+
+#: ../data/catalog.xml.in.h:3
+msgid "Users"
+msgstr "Utilizatori"
+
+#: ../data/catalog.xml.in.h:4
+msgid "About"
+msgstr "Despre"
+
+#: ../data/catalog.xml.in.h:5
+msgid ""
+"Even though it's extremely user-friendly, GNOME is a large and complex "
+"system, and thus, requires some learning to use to the fullest. To make that "
+"easier, we've provided some very useful documentation."
+msgstr ""
+"Chiar dacă este ușor de utilizat, GNOME este un sistem vast și complex, și, "
+"prin urmare, este necesară o oarecare documentație pentru a-l putea utiliza "
+"la maximum. Pentru a face acest lucru mai ușor, vă furnizăm o documentație "
+"foarte utilă. "
+
+#: ../data/catalog.xml.in.h:6
+msgid "Developers"
+msgstr "Dezvoltatori"
+
+#: ../data/catalog.xml.in.h:7
+#, fuzzy
+#| msgid ""
+#| "For those who develop, or are interested in developing GNOME and "
+#| "applications for GNOME. You will find developer documentation and "
+#| "information on how to get involved, and much more."
+msgid ""
+"For those who develop, or are interested in developing GNOME and "
+"applications for GNOME. You will find developer documentation and "
+"information on how to get involved, and much more, in the GNOME Developer "
+"Center."
+msgstr ""
+"Pentru dezvoltatori sau cei care sunt interesați în dezvoltarea, atât a "
+"GNOME cât și a aplicațiilor. Veți putea găsi documentația dezvoltatorului și "
+"informații despre cum să vă implicați, multe altele"
+
+#: ../data/catalog.xml.in.h:8
+msgid "Administrators"
+msgstr "Administratori"
+
+#: ../data/catalog.xml.in.h:9
+msgid ""
+"Across the world, there are many large to small deployments of GNOME, with "
+"their specific needs, and system administrators to manage them. Here you "
+"will find information on tools and methods to work with many GNOME desktops."
+msgstr ""
+"În întreaga lume există instalări mari și mici de GNOME, cu nevoi specifice "
+"și administratori de sistem pentru a le gestiona. Aici veți găsi informații "
+"despre uneltele și metodele de lucru pentru multe desktopuri GNOME."
+
+#: ../data/catalog.xml.in.h:10
+msgid "Available Languages:"
+msgstr "Limbi disponibile:"
+
+#: ../data/catalog.xml.in.h:11
+msgid "Available Versions:"
+msgstr "Versiuni disponibile:"
+
+#: ../data/catalog.xml.in.h:12
+msgid "Core Libraries"
+msgstr ""
+
+#: ../data/catalog.xml.in.h:13
+#, fuzzy
+#| msgid "Other related libraries"
+msgid "Other Libraries"
+msgstr "Alte biblioteci asemănătoare"
+
+#: ../data/catalog.xml.in.h:14
+msgid "White Papers"
+msgstr "Foi albe"
+
+#: ../data/catalog.xml.in.h:15 ../data/overlay.xml.in.h:1
+msgid "Guides"
+msgstr "Ghid"
+
+#: ../data/catalog.xml.in.h:16
+msgid "Development Guides"
+msgstr "Ghiduri de dezvoltare"
+
+#: ../data/catalog.xml.in.h:17
+msgid "How Do I...?"
+msgstr ""
+
+#: ../data/catalog.xml.in.h:18
+#, fuzzy
+#| msgid "Development"
+msgid "C++ Development"
+msgstr "Dezvoltare"
+
+#: ../data/catalog.xml.in.h:19
+msgid "Manuals"
+msgstr "Manuale"
+
+#: ../data/catalog.xml.in.h:20
+msgid "Tutorials"
+msgstr "Ghid practic"
+
+#: ../data/catalog.xml.in.h:21
+msgid "Frequently Asked Questions"
+msgstr "Întrebări frecvente"
+
+#: ../data/catalog.xml.in.h:22 ../data/overlay.xml.in.h:17
+msgid "Others"
+msgstr "Altele"
+
+#: ../data/catalog.xml.in.h:23
+msgid "Overview"
+msgstr "Prezentarea generală a platformei"
+
+#: ../data/catalog.xml.in.h:24
+msgid "Tools"
+msgstr "Unelte"
+
+#: ../data/catalog.xml.in.h:25
+msgid "GNOME Documentation Project"
+msgstr "Proiectul de documentație GNOME"
+
+#: ../data/catalog.xml.in.h:26
+msgid ""
+"There is no translation of this documentation for your language; the "
+"documentation in its original language is displayed instead."
+msgstr ""
+"Acestă documentație nu este disponibilă în limba dumneavoastră; se va afișa "
+"documentația în limba originală."
+
+#: ../data/catalog.xml.in.h:27
+msgid "see other translations for this documentation"
+msgstr "vezi alte traduceri pentru această documentație"
+
+#: ../data/catalog.xml.in.h:28
+msgid "development version"
+msgstr "versiunea de dezvoltare"
+
+#: ../data/catalog.xml.in.h:29
+msgid "Search"
+msgstr "Căutare"
+
+#: ../data/catalog.xml.in.h:30
+msgid "Lookup Symbol"
+msgstr "Căutare simbol"
+
+#: ../data/catalog.xml.in.h:31
+msgid "documentation on development version"
+msgstr "documentație pentru versiunea de dezvoltare"
+
+#: ../data/catalog.xml.in.h:32
+msgid "See also:"
+msgstr "Vezi de asemenea:"
+
+#: ../data/catalog.xml.in.h:33
+msgid ""
+"This module is heading towards planned deprecation. It will continue to be "
+"supported and API/ABI stable throughout the GNOME 2.x series, but we do not "
+"recommend using it in new applications unless you require functionality that "
+"has not already been moved elsewhere."
+msgstr ""
+"Acest modul va fi în curând învechit. Deși va fi suportat în continuare și "
+"va fi stabil API/ABI în versiunile următoare ale seriei GNOME 2.X, nu se "
+"recomandă folosirea lui în aplicații noi, decât dacă aveți nevoie de o "
+"funcție care nu a fost mutată deja în altă parte."
+
+#: ../data/catalog.xml.in.h:34
+msgid "Standards"
+msgstr "Standarde"
+
+#: ../data/catalog.xml.in.h:35
+msgid "Language Bindings"
+msgstr "Asocieri de limbaj"
+
+#: ../data/catalog.xml.in.h:36
+#, fuzzy
+#| msgid "Plugins for GNOME Applications"
+msgid "Plugins for GNOME Application"
+msgstr "Module de extensie pentru aplicațiile GNOME"
+
+#: ../data/catalog.xml.in.h:37
+msgid "Preferred language is loaded from a cookie."
+msgstr "Limba selectată este încărcată dintr-un cookie"
+
+#: ../data/catalog.xml.in.h:38
+msgid ""
+"Unable to display document in preferred language loaded from cookie, as "
+"translation probably does not exist."
+msgstr ""
+"Nu se poate afișa acest document din limba încarcată din cookie, fiind "
+"probabil ca aceasta nici nu există."
+
+#: ../data/catalog.xml.in.h:39
+msgid "Remove cookie"
+msgstr "Șterge cookie"
+
+#: ../data/catalog.xml.in.h:40
+msgid "Downloads"
+msgstr "Descărcari"
+
+#: ../data/catalog.xml.in.h:41
+msgid ""
+"Note the API references are usually available as packages in the "
+"distributions and visible via the Devhelp tool."
+msgstr ""
+"Notă! Referințele API sunt de obicei disponibile sub formă de pachete în "
+"distribuții și sunt vizibile prin utilitarul DevHelp."
+
+#: ../data/catalog.xml.in.h:42
+#, fuzzy
+#| msgid "Available Versions:"
+msgid "Previous Versions"
+msgstr "Versiuni disponibile:"
+
+#: ../data/catalog.xml.in.h:43
+msgid "external resource"
+msgstr "resurse externe"
+
+#: ../data/catalog.xml.in.h:44
+msgid "News"
+msgstr "Știri"
+
+#: ../data/catalog.xml.in.h:45
+msgid "Projects"
+msgstr "Proiecte"
+
+#: ../data/catalog.xml.in.h:46
+msgid "Art"
+msgstr "Artă"
+
+#: ../data/catalog.xml.in.h:47
+msgid "Support"
+msgstr "Suport"
+
+#: ../data/catalog.xml.in.h:48
+msgid "Development"
+msgstr "Dezvoltare"
+
+#: ../data/catalog.xml.in.h:49
+msgid "Community"
+msgstr "Comunitate"
+
+#: ../data/catalog.xml.in.h:50
+msgid "Same documents, formatted as a single HTML file"
+msgstr "Aceleași documente, formatate într-un singur fișier HTML."
+
+#: ../data/catalog.xml.in.h:51
+msgid "Nightly"
+msgstr "Noapte de noapte"
+
+#: ../data/catalog.xml.in.h:52
+msgid "External Tools and Resources"
+msgstr "Unelte și resurse externe"
+
+#: ../data/catalog.xml.in.h:53
+msgid "Switching Language"
+msgstr ""
+
+#: ../data/catalog.xml.in.h:54
+#, fuzzy
+#| msgid "Available Languages:"
+msgid "Active Language:"
+msgstr "Limbi disponibile:"
+
+#: ../data/catalog.xml.in.h:55
+#, fuzzy
+#| msgid "GNOME Development"
+msgid "GNOME Developer Center"
+msgstr "Dezvoltare GNOME"
+
+#: ../data/catalog.xml.in.h:56
+msgid "Code examples and demos"
+msgstr ""
+
+#: ../data/catalog.xml.in.h:57
+#, fuzzy
+#| msgid "Getting Involved"
+msgid "Getting Started"
+msgstr "Implicare"
+
+#: ../data/catalog.xml.in.h:58
+#, fuzzy
+#| msgid "documentation on development version"
+msgid "Application development overview"
+msgstr "documentație pentru versiunea de dezvoltare"
+
+#: ../data/catalog.xml.in.h:59
+msgid "Quick Lookup"
+msgstr ""
+
+#: ../data/catalog.xml.in.h:60 ../data/overlay.xml.in.h:6
+msgid "User Interface"
+msgstr ""
+
+#: ../data/catalog.xml.in.h:61 ../data/overlay.xml.in.h:7
+msgid "Multimedia"
+msgstr ""
+
+#: ../data/catalog.xml.in.h:62 ../data/overlay.xml.in.h:8
+#, fuzzy
+#| msgid "Community"
+msgid "Communication"
+msgstr "Comunitate"
+
+#: ../data/catalog.xml.in.h:63 ../data/overlay.xml.in.h:9
+msgid "Data Storage"
+msgstr ""
+
+#: ../data/catalog.xml.in.h:64 ../data/overlay.xml.in.h:11
+msgid "Utilities"
+msgstr ""
+
+#: ../data/catalog.xml.in.h:65 ../data/overlay.xml.in.h:5
+msgid "Core"
+msgstr ""
+
+#: ../data/catalog.xml.in.h:66
+msgid "System Integration"
+msgstr ""
+
+#: ../data/catalog.xml.in.h:67
+#, fuzzy
+#| msgid "Desktop Entry Specification"
+msgid "Desktop Integration"
+msgstr "Specificații pentru intrările desktop"
+
+#: ../data/catalog.xml.in.h:68
+msgid "Nightly Generated Documents"
+msgstr ""
+
+#: ../data/catalog.xml.in.h:69
+#, fuzzy
+#| msgid "Vala API References"
+msgid "Deprecated API References"
+msgstr "Referințe API Vala"
+
+#: ../data/catalog.xml.in.h:70
+msgid ""
+"Welcome to GNOME. Getting started is easy - install our dev tools and take a "
+"look at a tutorial."
+msgstr ""
+
+#: ../data/catalog.xml.in.h:71
+msgid "This documentation is generated from the following tarball:"
+msgstr ""
+
+#: ../data/catalog.xml.in.h:72
+msgid "Got a comment? Spotted an error? Found the instructions unclear?"
+msgstr ""
+
+#: ../data/catalog.xml.in.h:73
+msgid "Send feedback about this page."
+msgstr ""
+
+#: ../data/catalog.xml.in.h:74
+#, fuzzy
+#| msgid "GNOME Developer Platform Libraries"
+msgid "GNOME Platform Demos"
+msgstr "Biblioteci pentru platforma de dezvoltare GNOME"
+
+#: ../data/catalog.xml.in.h:75
+msgid "Introductory tutorials to help you get started."
+msgstr ""
+
+#: ../data/catalog.xml.in.h:76
+msgid "Human Interface Guidelines"
+msgstr ""
+
+#: ../data/catalog.xml.in.h:77
+msgid "Advice and guidelines on designing effective interfaces with GTK+."
+msgstr ""
+
+#: ../data/catalog.xml.in.h:78
+msgid ""
+"Welcome to the GNOME developer center! Here you will find all the "
+"information that you need to create fantastic software using GNOME "
+"technologies."
+msgstr ""
+
+#: ../data/overlay.xml.in.h:2
+msgid "A growing selection of development guides on common topics."
+msgstr ""
+
+#: ../data/overlay.xml.in.h:3
+#, fuzzy
+#| msgid "API References"
+msgid "API Reference"
+msgstr "Referințe API"
+
+#: ../data/overlay.xml.in.h:4
+msgid ""
+"Comprehensive API reference documentation for GNOME libraries, including GTK"
+"+."
+msgstr ""
+
+#: ../data/overlay.xml.in.h:10
+msgid "Accessibility"
+msgstr ""
+
+#: ../data/overlay.xml.in.h:12
+msgid "Introspection"
+msgstr ""
+
+#: ../data/overlay.xml.in.h:13
+msgid "Python"
+msgstr "Python"
+
+#: ../data/overlay.xml.in.h:14
+msgid "C++"
+msgstr "C++"
+
+#: ../data/overlay.xml.in.h:15
+msgid "Java"
+msgstr "Java"
+
+#: ../data/overlay.xml.in.h:16
+msgid "Vala"
+msgstr "Vala"
+
+#: ../data/overlay.xml.in.h:18
+msgid ""
+"GLib provides the core application building blocks for libraries and "
+"applications written in C. It provides the core object system used in GNOME, "
+"the main loop implementation, and a large set of utility functions for "
+"strings and common data structures."
+msgstr ""
+"GLib furnizează funcționalitatea de bază pentru construirea bibliotecilor și "
+"a aplicațiilor în C. GLib oferă un sistem de obiecte de bază folosit în "
+"GNOME, implementarea ciclului principal și o gamă largă de funcții utile "
+"pentru șiruri și structuri date obișnuite."
+
+#: ../data/overlay.xml.in.h:19
+msgid "GObject provides the object system used for Pango and GTK+."
+msgstr "GObject furnizează sistemul obiecte folosit pentru Pango și GTK+."
+
+#: ../data/overlay.xml.in.h:20
+msgid ""
+"GIO provides a modern and easy-to-use VFS API. It provides a file system "
+"abstraction which allows applications to access local and remote files with "
+"a single consistent API."
+msgstr ""
+"GIO furnizează un API VFS modern și ușor de folosit. Furnizează o "
+"abstractizare a sistemului de fișiere ce oferă aplicațiilor acces la fișiere "
+"locale sau din rețea printr-un un singur API consecvent."
+
+#: ../data/overlay.xml.in.h:21
+#, fuzzy
+msgid ""
+"ATK provides the set of accessibility interfaces that are implemented by "
+"other toolkits and applications. Using the ATK interfaces, accessibility "
+"tools have full access to view and control running applications."
+msgstr ""
+"ATK oferă o serie de interfețe accesibile care sunt implementate de alte "
+"unelte și aplicații. Folosind interfețele ATK, uneltele de accesibilitate au "
+"acces total la vizionarea și controlarea aplicațiilor deschise."
+
+#: ../data/overlay.xml.in.h:22
+msgid ""
+"The AT-SPI library provides interfaces which are used by accessibility "
+"technologies."
+msgstr ""
+"Biblioteca AT-SPI furnizează interfețe care sunt utilizate de tehnologiile "
+"de accesibilitate."
+
+#: ../data/overlay.xml.in.h:23
+msgid ""
+"GAIL provides an implementation of the ATK interfaces for GTK+ and GNOME "
+"libraries, allowing accessibility tools to interact with applications "
+"written using these libraries."
+msgstr ""
+"GAIL furnizează o implementare a interfețelor ATK pentru bibliotecile GTK+ "
+"și GNOME, astfel reușindu-se o interacțiune între uneltele de accesibilitate "
+"și alte aplicații scrise folosind aceste biblioteci."
+
+#: ../data/overlay.xml.in.h:24
+msgid ""
+"Pango is the core text and font handling library used in GNOME applications. "
+"It has extensive support for the different writing systems used throughout "
+"the world."
+msgstr ""
+"Pango este biblioteca de bază pentru fonturi și text folosită în aplicațiile "
+"GNOME. Beneficiază de un suport extensiv pentru varietatea de sisteme de "
+"scriere din întreaga lume."
+
+#: ../data/overlay.xml.in.h:25
+msgid ""
+"GdkPixbuf is a library for image loading and manipulation. The GdkPixbuf "
+"documentation contains both the programmer's guide and the API reference."
+msgstr ""
+"GdkPixbuf este o bibliotecă pentru manipularea și încărcarea imaginilor. "
+"Documentația GdkPixbuf conține atât ghidul programatorului cât și referința "
+"pentru API."
+
+#: ../data/overlay.xml.in.h:26
+msgid ""
+"An intermediate layer which isolates GTK+ from the details of the windowing "
+"system."
+msgstr ""
+"Un strat intermediar ce izolează GTK+ de detaliile sistemului de ferestre."
+
+#: ../data/overlay.xml.in.h:27
+msgid ""
+"GTK+ is the primary library used to construct user interfaces in GNOME "
+"applications. It provides user interface controls and signal callbacks to "
+"control user interfaces."
+msgstr ""
+"GTK+ este biblioteca principală folosită pentru construcția interfețelor "
+"utilizator în aplicațiile GNOME. Furnizează controale și semnale callback "
+"pentru controlul interfeței de utilizator."
+
+#: ../data/overlay.xml.in.h:28
+msgid "libxml2 Reference Manual"
+msgstr "Manual libxml2"
+
+#: ../data/overlay.xml.in.h:29
+msgid "Powerful and feature complete XML handling library."
+msgstr "Bibliotecă puternică și completă pentru XML."
+
+#. URL to *translated* libxml2 API reference,
+#. set to dash ("-") if it has not been translated
+#: ../data/overlay.xml.in.h:32
+msgid "http://xmlsoft.org/html/libxml-lib.html"
+msgstr "http://xmlsoft.org/html/libxml-lib.html"
+
+#: ../data/overlay.xml.in.h:33
+msgid "libxslt Reference Manual"
+msgstr "Manual de referință libxslt"
+
+#: ../data/overlay.xml.in.h:34
+msgid ""
+"The XSLT C library developed for the Gnome project. XSLT itself is a an XML "
+"language to define transformation for XML. Libxslt is based on libxml2."
+msgstr ""
+"Biblioteca C, XSLT, dezvoltată pentru proiectul Gnome. XSLT în sine este un "
+"limbaj de definire a transformărilor XML. Libxslt este bazată pe libxml2."
+
+#. URL to *translated* libxslt API reference,
+#. set to dash ("-") if it has not been translated
+#: ../data/overlay.xml.in.h:37
+msgid "http://xmlsoft.org/XSLT/html/libxslt-lib.html"
+msgstr "http://xmlsoft.org/XSLT/html/libxslt-lib.html"
+
+#: ../data/overlay.xml.in.h:38
+msgid ""
+"Libglade is a library for constructing user interfaces dynamically from XML "
+"descriptions. Libglade allow programmers to construct their user interfaces "
+"using a graphical interface builder application, and then import those "
+"interface definitions."
+msgstr ""
+"Libglade este o bibliotecă pentru construcția interfețelor dinamice din "
+"descrierile XML. Libglade permite programatorilor să construiască propriile "
+"interfețe utilizator folosind o aplicație pentru construcția interfețelor, "
+"iar după să importe aceste definiții de interfețe."
+
+#: ../data/overlay.xml.in.h:39
+msgid ""
+"The libgnome library provides a number of useful routines for building "
+"modern applications, including session management, activation of files and "
+"URIs, and displaying help."
+msgstr ""
+"Biblioteca libgnome furnizează un număr de rutine folositoare în construcția "
+"aplicațiilor moderne, incluzând aici management de sesiune, activare a "
+"fișierelor și URI-urilor și afișare de ajutor."
+
+#: ../data/overlay.xml.in.h:40
+msgid ""
+"The libgnomeui library provides additional widgets for applications. Many of "
+"the widgets from libgnomeui have already been ported to GTK+."
+msgstr ""
+"Biblioteca libgnomeui furnizează suplimentar widgeturi pentru aplicații. "
+"Multe dintre aceste widgeturi au fost deja portate în GTK+."
+
+#: ../data/overlay.xml.in.h:41
+msgid ""
+"GnomeVFS is the core library used to access files and folders in GNOME "
+"applications. It provides a file system abstraction which allows "
+"applications to access local and remote files with a single consistent API."
+msgstr ""
+"GnomeVFS este biblioteca de bază folosită pentru accesarea fișierelor și "
+"dosarelor în aplicațiile GNOME. Furnizează o abstractizare a sistemului de "
+"fișiere ce permite aplicațiilor să acceseze fișierelor locale și din rețea "
+"cu un singur API."
+
+#: ../data/overlay.xml.in.h:42
+msgid ""
+"GConf provides the daemon and libraries for storing and retrieving "
+"configuration data."
+msgstr ""
+"GConf furnizează biblioteci și serviciul de stocare și obținere a datelor de "
+"configurare."
+
+#: ../data/overlay.xml.in.h:43
+msgid ""
+"The GnomeCanvas widget provides a flexible widget for creating interactive "
+"structured graphics."
+msgstr ""
+"Widgetul GnomeCanvas furnizează o unealtă flexibilă pentru crearea graficii "
+"interactive și structurate."
+
+#: ../data/overlay.xml.in.h:44
+msgid "libart Reference Manual"
+msgstr "Manual de referință libart"
+
+#: ../data/overlay.xml.in.h:45
+msgid ""
+"Libart functions - Libart handles the drawing capabilities in GNOME. All "
+"complex rendering is handled here."
+msgstr ""
+"Funcțiile limbart - Libart se ocupă de capabilitățile de desen în GNOME. "
+"Toate randările complexe sunt prelucrate aici."
+
+#. URL to *translated* libart API reference,
+#. set to dash ("-") if it has not been translated
+#: ../data/overlay.xml.in.h:48
+msgid "http://www.gnome.org/~mathieu/libart/libart.html"
+msgstr "http://www.gnome.org/~mathieu/libart/libart.html"
+
+#: ../data/overlay.xml.in.h:49
+msgid ""
+"ORBit is a fast and lightweight CORBA server. GNOME's component "
+"architecture, Bonobo, is built on top of CORBA."
+msgstr ""
+"ORBit este un server CORBA rapid și ușor. Componenta de arhitectură a GNOME, "
+"Bonobo, este construită peste CORBA."
+
+#: ../data/overlay.xml.in.h:50
+msgid ""
+"Bonobo-activation allows you to browse the available CORBA servers on your "
+"system (running or not). It keeps track of the running servers so that if "
+"you ask for a server which is already running, you will not start it again "
+"but will reuse the already running one."
+msgstr ""
+"Bonobo-activation permite navigarea prin sistem după servere CORBA (pornite "
+"sau nu). Ține evidența serverelor și dacă se încercă rularea unui server de "
+"2 ori, el nu se va deschide din nou, ci îl va refolosi pe cel care rulează "
+"deja."
+
+#: ../data/overlay.xml.in.h:51
+msgid ""
+"Bonobo is a framework for creating reusable components for use in GNOME "
+"applications, built on top of CORBA."
+msgstr ""
+"Bonobo este o platformă folosită pentru crearea componentelor reutilizabile "
+"în aplicațiile GNOME, construită peste CORBA."
+
+#: ../data/overlay.xml.in.h:52
+msgid ""
+"The Bonobo UI library provides a number of user interface controls using the "
+"Bonobo component framework."
+msgstr ""
+"Biblioteca de interfață Bonobo furnizează un număr de controale pentru "
+"interfață folosind platforma de componente Bonobo."
+
+#: ../data/overlay.xml.in.h:53
+msgid "Library for rendering of SVG vector graphics."
+msgstr "Bibliotecă pentru randarea graficii vectoriale SVG."
+
+#: ../data/overlay.xml.in.h:54
+msgid "Terminal emulator widget used by GNOME terminal."
+msgstr "Widget pentru emulatorul de terminal folosit de terminalul GNOME."
+
+#: ../data/overlay.xml.in.h:55
+msgid ""
+"libsoup is an HTTP client/server library for GNOME. It uses GObjects and the "
+"glib main loop, to integrate well with GNOME applications."
+msgstr ""
+"Biblioteca libsoup este un server/client pentru GNOME. Se folosește de "
+"GObject și de principalul ciclu al glib pentru a se integra bine cu "
+"aplicațiile în GNOME."
+
+#: ../data/overlay.xml.in.h:56
+msgid "A library used for programming panel applets for the GNOME panel."
+msgstr ""
+"O bibliotecă utilizată pentru programarea mini-aplicațiilor pentru panoul "
+"GNOME."
+
+#: ../data/overlay.xml.in.h:57
+msgid ""
+"Structured File Library (GSF) is an I/O abstraction for reading/writing "
+"compound files."
+msgstr ""
+"Biblioteca de fișiere structurată (GFS) este o abstracție de intrare/ieșire "
+"pentru citirea scrierea fișierelor compuse."
+
+#: ../data/overlay.xml.in.h:58
+msgid ""
+"GObject-based API for handling resource discovery and announcement over SSDP."
+msgstr ""
+
+#: ../data/overlay.xml.in.h:59
+msgid "Core UPnP API built on top of gssdp"
+msgstr ""
+
+#: ../data/overlay.xml.in.h:60
+msgid ""
+"Small utility library that aims to ease the handling and implementation of "
+"UPnP audio/video profiles"
+msgstr ""
+
+#: ../data/overlay.xml.in.h:61
+msgid "Library to ease DLNA-related bits for applications using gupnp."
+msgstr ""
+
+#: ../data/overlay.xml.in.h:62
+msgid "Library to handle UPnP Internet Gateway Device port mappings."
+msgstr ""
+
+#: ../data/overlay.xml.in.h:63
+msgid ""
+"Cairo is a 2D graphics library with support for multiple output devices. It "
+"is designed to produce consistent output on all output media while taking "
+"advantage of display hardware acceleration when available."
+msgstr ""
+"Cairo este o bibliotecă pentru grafică 2D care suportă multiple dispozitive "
+"de ieșire. Este proiectat să producă rezultate consecvente pe toate "
+"porturile de ieșire media, folosindu-se de accelerare hardware atunci când "
+"este disponibilă."
+
+#: ../data/overlay.xml.in.h:64
+msgid ""
+"Clutter is a GObject based library for creating fast, visually rich, "
+"graphical user interfaces."
+msgstr ""
+"Clutter este o bibliotecă GObject pentru crearea rapidă a interfețelor "
+"grafice bogate vizual."
+
+#: ../data/overlay.xml.in.h:65
+msgid ""
+"JSON-GLib is a library for reading and parsing JSON using GLib and GObject "
+"data types and API."
+msgstr ""
+
+#: ../data/overlay.xml.in.h:66
+msgid ""
+"COGL is a low level OpenGL abstraction library developed for (and part of) "
+"Clutter. It is used primarily by Clutter to provide a common rendering API "
+"that works transparently across OpenGL >=1.4, OpenGL ES 1.1 and OpenGL ES "
+"2.0."
+msgstr ""
+"COGL este o bibliotecă OpenGL de abstractizare de nivel scăzut dezvoltată "
+"pentru (și componentă a) bibliotecii Clutter. Este folosită în principal de "
+"Clutter pentru a furniza un API de randare comun care funcționează "
+"transparent peste OpenGL >=1.4, OpenGL ES 1.1 și OpenGL ES 2.0."
+
+#: ../data/overlay.xml.in.h:67
+msgid "Libchamplain is a C library providing a ClutterActor to display maps."
+msgstr ""
+"Libchamplain este o bibliotecă C care furnizează un ClutterActor pentru "
+"afișarea hărților."
+
+#: ../data/overlay.xml.in.h:68
+msgid ""
+"Libchamplain-gtk is a C library on top of libchamplain providing a Gtk+ "
+"widget to display maps in GTK+ applications."
+msgstr ""
+"Libchamplain-gtk este o bibliotecă C construită peste libchamplain care "
+"furnizează un widget Gtk+ pentru afișarea hărților în aplicațiile GTK+."
+
+#: ../data/overlay.xml.in.h:69
+msgid ""
+"libcanberra is an implementation of the XDG Sound Theme and Name "
+"Specifications, for generating event sounds on free desktops,"
+msgstr ""
+"libcanberra este o implementare a Specificației XDG pentru teme de sunet și "
+"nume, pentru generarea efectelor sonore pe desktopuri libere,"
+
+#: ../data/overlay.xml.in.h:70
+msgid ""
+"libnotify is a library that sends desktop notifications to a notification "
+"daemon, as defined in the Desktop Notifications spec. These notifications "
+"can be used to inform the user about an event or display some form of "
+"information without getting in the user's way."
+msgstr ""
+"libnotify este o bibliotecă care trimite notificări desktop unui serviciu de "
+"notificare, așa cum este definit în Specificația pentru notificări desktop. "
+"Aceste notificări pot fi folosite pentru a informa utilizatorul despre "
+"anumite evenimente sau pentru afișarea diferitelor informații fără a deranja "
+"utilizatorul din folosirea calculatorului."
+
+#: ../data/overlay.xml.in.h:71
+msgid ""
+"D-Bus is a message bus system, a simple way for applications to talk to one "
+"another."
+msgstr ""
+"D-Bus este un sistem de mesagerie, un mecanism simplu prin care aplicațiile "
+"comunică între ele."
+
+#: ../data/overlay.xml.in.h:72
+msgid ""
+"Unique is a library for writing single-instance applications. If you launch "
+"a single-instance application twice, the second instance will either just "
+"quit or will send a message to the running instance. Unique makes it easy to "
+"write this kind of application by providing a base class, taking care of all "
+"the IPC machinery needed to send messages to a running instance, and also "
+"handling startup notification."
+msgstr ""
+"Unique este o bibliotecă folosită pentru scrierea aplicațiilor cu o singură "
+"instanță. Dacă executați o astfel de aplicație de două ori, a doua instanță "
+"fie va afișa un mesaj sau pur și simplu nu va rula. Unique facilitează "
+"scrierea acestor tipuri de aplicații furnizând o clasă de bază care are "
+"grijă de toate mecanismele IPC necesare trimiteri de mesaje către instanța "
+"care se află în execuție și, de asemenea, are grijă și de notificările de "
+"pornire."
+
+#: ../data/overlay.xml.in.h:73
+msgid ""
+"The GNOME Devtools Library package provides a docking system and several "
+"utilities useful to GNOME development tools and GNOME applications in "
+"general."
+msgstr ""
+"Pachetul bibliotecii DevTools GNOME furnizează un sistem de andocare și alte "
+"câteva utilități folositoare uneltelor de dezvoltare GNOME și aplicațiilor "
+"în general."
+
+#: ../data/overlay.xml.in.h:74
+msgid "GStreamer Core Reference Manual"
+msgstr "Manualul de referință pentru componenta de bază GStreamer"
+
+#: ../data/overlay.xml.in.h:75
+msgid ""
+"Powerful framework for creating multimedia applications. Supports both Audio "
+"and Video."
+msgstr ""
+"Platformă puternică pentru crearea aplicațiilor multimedia. Suportă atât "
+"audio cât și video."
+
+#: ../data/overlay.xml.in.h:76
+msgid "GStreamer Library Reference Manual"
+msgstr "Manualul de referință pentru biblioteca GStreamer"
+
+#: ../data/overlay.xml.in.h:77
+msgid "GStreamer Core Plugins Reference Manual"
+msgstr "Manualul de referință GStreamer pentru modulele de extensie de bază"
+
+#: ../data/overlay.xml.in.h:78
+msgid ""
+"GtkGLExt is an OpenGL extension to GTK+. It provides additional GDK objects "
+"which support OpenGL rendering in GTK+ and GtkWidget API add-ons to make GTK"
+"+ widgets OpenGL-capable."
+msgstr ""
+"GtkGLExt este o extensie GTK+ a OpenGL. Furnizează obiecte GDK adiționale "
+"care suportă randare OpenGL în GTK+ și module GTKWidget API pentru a crea "
+"widgeturi GTK+ capabile OpenGL."
+
+#: ../data/overlay.xml.in.h:79
+msgid ""
+"libgit2-glib is a glib library which wraps libgit2 providing making it "
+"easier to develop manage git repositories in a GObject oriented application."
+msgstr ""
+
+#: ../data/overlay.xml.in.h:80
+#, fuzzy
+#| msgid "PyGTK Reference Manual"
+msgid "WebKit2GTK+ Reference Manual"
+msgstr "Manual de referință PyGTK"
+
+#: ../data/overlay.xml.in.h:81
+msgid "Web content rendering for the GNOME Platform"
+msgstr ""
+
+#. URL to *translated* libxml2 API reference,
+#. set to dash ("-") if it has not been translated
+#: ../data/overlay.xml.in.h:84
+msgid "http://webkitgtk.org/reference/webkit2gtk/stable/index.html"
+msgstr ""
+
+#: ../data/overlay.xml.in.h:85
+msgid ""
+"libpeas is a gobject-based plugins engine, and is targetted at giving every "
+"application the chance to assume its own extensibility."
+msgstr ""
+"libpeas este un motor pentru module de extensie bazate pe GObject și este "
+"menit să dea oricărei aplicații șansa de a își asuma extensibilitatea."
+
+#: ../data/overlay.xml.in.h:86
+msgid ""
+"libzapojit is a GLib/GObject wrapper for the SkyDrive and Hotmail REST APIs"
+msgstr ""
+
+#: ../data/overlay.xml.in.h:87
+msgid ""
+"libsecret is a library for storing and retrieving passwords and other "
+"secrets. It communicates with the \"Secret Service\" using DBus."
+msgstr ""
+
+#: ../data/overlay.xml.in.h:88
+msgid ""
+"dconf is a low-level configuration system. Its main purpose is to provide a "
+"backend to GSettings on platforms that don't already have configuration "
+"storage systems."
+msgstr ""
+"dconf este un sistem de configurare de nivel jos. Principalul scop al "
+"acestuia este să furnizeze suport pentru Gsettings pe platformele care nu au "
+"încă sisteme de stocare a configurărilor."
+
+#: ../data/overlay.xml.in.h:89
+msgid "telepathy-glib Reference Manual"
+msgstr "Manual de referință telepathy-glib."
+
+#. URL to *translated* telepathy-glib API reference,
+#. set to dash ("-") if it has not been translated
+#: ../data/overlay.xml.in.h:92
+msgid "http://telepathy.freedesktop.org/doc/telepathy-glib/"
+msgstr "http://telepathy.freedesktop.org/doc/telepathy-glib/"
+
+#: ../data/overlay.xml.in.h:93
+msgid "libgudev is a library providing GObject bindings for libudev."
+msgstr ""
+
+#: ../data/overlay.xml.in.h:94
+msgid "GNOME Human Interface Guidelines (GNOME 2)"
+msgstr ""
+
+#: ../data/overlay.xml.in.h:95
+msgid "GTK+ 2.0 Tutorial"
+msgstr "Ghid practic GTK+ 2.0"
+
+#: ../data/overlay.xml.in.h:96
+msgid "GTK+ FAQ"
+msgstr "Întrebări frecvente legate de GTK+"
+
+#: ../data/overlay.xml.in.h:97
+msgid "PyGTK Reference Manual"
+msgstr "Manual de referință PyGTK"
+
+#: ../data/overlay.xml.in.h:98
+msgid "PyGObject Reference Manual"
+msgstr "Manual de referință PyGObject"
+
+#: ../data/overlay.xml.in.h:99
+msgid "libsigc++ Documentation"
+msgstr "Documentație libsigc++"
+
+#: ../data/overlay.xml.in.h:100
+msgid "libxml++ Documentation"
+msgstr "Documentație libxml++"
+
+#: ../data/overlay.xml.in.h:101
+msgid "glibmm Documentation"
+msgstr "Documentație glibmm"
+
+#: ../data/overlay.xml.in.h:102
+#, fuzzy
+#| msgid "gtkmm Documentation"
+msgid "gtksourceviewmm Documentation"
+msgstr "Documentație gtkmm"
+
+#: ../data/overlay.xml.in.h:103
+msgid "gtkmm Documentation"
+msgstr "Documentație gtkmm"
+
+#: ../data/overlay.xml.in.h:104
+msgid "pangomm Documentation"
+msgstr "Documentație pangomm"
+
+#: ../data/overlay.xml.in.h:105
+msgid "atkmm Documentation"
+msgstr "Documentație atkmm"
+
+#: ../data/overlay.xml.in.h:106
+msgid "gconfmm Documentation"
+msgstr "Documentație gconfmm"
+
+#: ../data/overlay.xml.in.h:107
+msgid "libvtemm Documentation"
+msgstr "Documentație libvtemm"
+
+#: ../data/overlay.xml.in.h:108
+msgid "librsvgmm Documentation"
+msgstr "Documentație librsvgmm"
+
+#: ../data/overlay.xml.in.h:109
+msgid "libgdamm Documentation"
+msgstr "Documentație libgdamm"
+
+#: ../data/overlay.xml.in.h:110
+msgid "libgda-uimm Documentation"
+msgstr "Documentație libgda-uimm"
+
+#: ../data/overlay.xml.in.h:111
+msgid "gstreamermm Documentation"
+msgstr "Documentație gstreamermm"
+
+#: ../data/overlay.xml.in.h:112
+msgid "goocanvasmm Documentation"
+msgstr "Documentație goocanvasmm"
+
+#: ../data/overlay.xml.in.h:113
+msgid "gtkglextmm Documentation"
+msgstr "Documentație gtkglextmm"
+
+#: ../data/overlay.xml.in.h:114
+msgid "cluttermm Documentation"
+msgstr "Documentație cluttermm"
+
+#: ../data/overlay.xml.in.h:115
+msgid "clutter-gtkmm Documentation"
+msgstr "Documentație clutter-gtkmm"
+
+#: ../data/overlay.xml.in.h:116
+msgid "clutter-box2dmm Documentation"
+msgstr "Documentație clutter-box2dmm"
+
+#: ../data/overlay.xml.in.h:117
+msgid "libsigc++ Tutorial"
+msgstr "Ghid practic libsigc++"
+
+#: ../data/overlay.xml.in.h:118
+msgid "The Clutter Cookbook"
+msgstr ""
+
+#: ../data/overlay.xml.in.h:119
+#, fuzzy
+#| msgid "libart Reference Manual"
+msgid "librygel-core Reference Manual"
+msgstr "Manual de referință libart"
+
+#: ../data/overlay.xml.in.h:120
+#, fuzzy
+#| msgid "libart Reference Manual"
+msgid "librygel-renderer Reference Manual"
+msgstr "Manual de referință libart"
+
+#: ../data/overlay.xml.in.h:121
+#, fuzzy
+#| msgid "libart Reference Manual"
+msgid "librygel-renderer-gst Reference Manual"
+msgstr "Manual de referință libart"
+
+#: ../data/overlay.xml.in.h:122
+#, fuzzy
+#| msgid "libart Reference Manual"
+msgid "librygel-server Reference Manual"
+msgstr "Manual de referință libart"
+
+#: ../data/overlay.xml.in.h:123
+#, fuzzy
+#| msgid "libxml2 Reference Manual"
+msgid "libglom Reference Manual"
+msgstr "Manual libxml2"
+
+#: ../data/overlay.xml.in.h:124
+#, fuzzy
+#| msgid "glibmm Documentation"
+msgid "Glom Python Documentation"
+msgstr "Documentație glibmm"
+
+#: ../data/overlay.xml.in.h:125
+msgid "libxml++ Tutorial"
+msgstr "Ghid practic libxml++"
+
+#: ../data/overlay.xml.in.h:126
+msgid "java-gnome API Documentation"
+msgstr "Documentație API java-gnome"
+
+#: ../data/overlay.xml.in.h:127
+msgid "Java Interfaces for GTK+, GNOME and related libraries"
+msgstr "Interfețe Java pentru GTK+ și alte biblioteci GNOME"
+
+#: ../data/overlay.xml.in.h:128
+msgid "Vala API References"
+msgstr "Referințe API Vala"
+
+#: ../data/overlay.xml.in.h:129
+msgid "Vala API References for GTK+, GNOME and related libraries"
+msgstr "Referințe API Vala pentru GTK+, GNOME și alte biblioteci asemănătoare"
+
+#: ../data/overlay.xml.in.h:130
+msgid "GTK+ Programming Tutorial"
+msgstr "Ghid practic de programare cu GTK+"
+
+#: ../data/overlay.xml.in.h:131
+msgid ""
+"This GTK+ tutorial is written for the C programming language. It is suitable "
+"for beginners and intermediate programmers."
+msgstr ""
+"Ghidul practic GTK+ este scris în limbajul de programare C. Este folositor "
+"începătorilor și programatorilor intermediari."
+
+#. URL to *translated* version of the GTK+ Programming Tutorial
+#. document,
+#. set to dash ("-") if it has not been translated
+#: ../data/overlay.xml.in.h:135
+msgid "http://zetcode.com/tutorials/gtktutorial/"
+msgstr "http://zetcode.com/tutorials/gtktutorial/"
+
+#: ../data/overlay.xml.in.h:136
+msgid "Desktop Entry Specification"
+msgstr "Specificații pentru intrările desktop"
+
+#: ../data/overlay.xml.in.h:137
+msgid ""
+"The Desktop Entries provide information about an application such as the "
+"name, icon, and description. These files are used for application launchers "
+"and for creating menus of applications that can be launched."
+msgstr ""
+"Intrările Desktop furnizează informații despre o aplicație, cum ar fi "
+"numele, iconița și descrierea. Aceste fișiere sunt folosite pentru "
+"lansatoarele de aplicații și pentru crearea meniurilor de aplicații care pot "
+"fi lansate."
+
+#. URL to *translated* version of the Desktop Entry Specification
+#. set to dash ("-") if it has not been translated
+#: ../data/overlay.xml.in.h:140
+msgid ""
+"http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-"
+"latest.html"
+msgstr ""
+"http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-"
+"latest.html"
+
+#: ../data/overlay.xml.in.h:141
+msgid "Menu Specification"
+msgstr "Specificație meniu"
+
+#: ../data/overlay.xml.in.h:142
+msgid ""
+"This freedesktop.org specification describes how menus are built up from "
+"desktop entries."
+msgstr ""
+"Această specificație freedesktop.org descrie cum pot meniurile sa fie "
+"construite pe baza intrărilor desktop."
+
+#. URL to *translated* version of the Menu Specification
+#. set to dash ("-") if it has not been translated
+#: ../data/overlay.xml.in.h:145
+msgid "http://standards.freedesktop.org/menu-spec/menu-spec-latest.html"
+msgstr "http://standards.freedesktop.org/menu-spec/menu-spec-latest.html"
+
+#: ../data/overlay.xml.in.h:146
+msgid "XDG Base Directory Specification"
+msgstr "Specificația pentru dosare de bază XDG"
+
+#: ../data/overlay.xml.in.h:147
+msgid ""
+"Various specifications specify files and file formats. This freedesktop.org "
+"specification defines where these files should be looked for by defining one "
+"or more base directories relative to which files should be located."
+msgstr ""
+"Diverse specificații despre fișiere și formate de fișiere. Această "
+"specificație freedesktop.org definește unde se pot găsi de obicei aceste "
+"fișiere, definind unul sau mai multe dosare de bază, fișierele fiind "
+"localizate relativ față de acestea."
+
+#. URL to *translated* version of the XDG Base Directory Specification
+#. set to dash ("-") if it has not been translated
+#: ../data/overlay.xml.in.h:150
+msgid "http://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html"
+msgstr "http://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html"
+
+#: ../data/overlay.xml.in.h:151
+msgid "Icon Theme Specification"
+msgstr "Specificație teme iconițe"
+
+#: ../data/overlay.xml.in.h:152
+msgid ""
+"This freedesktop.org specification describes a common way to store icon "
+"themes."
+msgstr ""
+"Această specificație freedesktop.org descrie un mod comun de a stoca temele "
+"de iconițe."
+
+#. URL to *translated* version of the Icon Theme Specification
+#. set to dash ("-") if it has not been translated
+#: ../data/overlay.xml.in.h:155
+msgid ""
+"http://standards.freedesktop.org/icon-theme-spec/icon-theme-spec-latest.html"
+msgstr ""
+"http://standards.freedesktop.org/icon-theme-spec/icon-theme-spec-latest.html"
+
+#: ../data/overlay.xml.in.h:156
+msgid "Icon Naming Specification"
+msgstr "Specificație denumire iconițe"
+
+#: ../data/overlay.xml.in.h:157
+msgid ""
+"This freedesktop.org specification describes a common way to name icons and "
+"their contexts in an icon theme."
+msgstr ""
+"Această specificație freedesktop.org descrie un mod comun de denumire a "
+"iconițelor și a contextelor lor într-o temă de iconițe."
+
+#. URL to *translated* version of the Icon Naming Specification
+#. set to dash ("-") if it has not been translated
+#: ../data/overlay.xml.in.h:160
+msgid ""
+"http://standards.freedesktop.org/icon-naming-spec/icon-naming-spec-latest."
+"html"
+msgstr ""
+"http://standards.freedesktop.org/icon-naming-spec/icon-naming-spec-latest."
+"html"
+
+#: ../data/overlay.xml.in.h:161
+msgid "Desktop Application Autostart Specification"
+msgstr "Specificație autostart a aplicațiilor de tip desktop"
+
+#: ../data/overlay.xml.in.h:162
+msgid ""
+"This freedesktop.org specification describes how applications can be started "
+"automatically after the user has logged in and how media can request a "
+"specific application to be executed or a specific file on the media to be "
+"opened after the media has been mounted."
+msgstr ""
+"Această specificație freedesktop.org descrie cum pot aplicațiile să fie "
+"rulate automat în momentul în care utilizatorul intră în sesiune și felul în "
+"care mediile de stocare pot cere unei aplicații să se execute sau unui "
+"anumit tip de fișier de pe mediul de stocare să fie deschis după ce mediul a "
+"fost montat."
+
+#. URL to *translated* version of the Desktop Application Autostart
+#. Specification; set to dash ("-") if it has not been translated
+#: ../data/overlay.xml.in.h:165
+msgid ""
+"http://standards.freedesktop.org/autostart-spec/autostart-spec-latest.html"
+msgstr ""
+"http://standards.freedesktop.org/autostart-spec/autostart-spec-latest.html"
+
+#: ../data/overlay.xml.in.h:166
+msgid "Desktop Notifications Specification"
+msgstr "Specificații pentru notificările de pe desktop"
+
+#: ../data/overlay.xml.in.h:167
+msgid ""
+"This specification standardizes the interface to desktop notification "
+"services."
+msgstr ""
+"Această specificație freedesktop.org standardizează interfața către "
+"serviciile de notificare desktop."
+
+#. URL to *translated* version of the Desktop Notifications
+#. Specification; set to dash ("-") if it has not been translated
+#: ../data/overlay.xml.in.h:170
+msgid ""
+"http://people.gnome.org/~mccann/docs/notification-spec/notification-spec-"
+"latest.html"
+msgstr ""
+"http://people.gnome.org/~mccann/docs/notification-spec/notification-spec-"
+"latest.html"
+
+#: ../data/overlay.xml.in.h:171
+msgid "Extended Window Manager Hints"
+msgstr "Sugestii extinse pentru administratorul de ferestre"
+
+#: ../data/overlay.xml.in.h:172
+msgid ""
+"This freedesktop.org specification standardizes extensions to the ICCCM "
+"between X desktops."
+msgstr ""
+"Această specificație freedesktop.org standardizează extensiile la ICCCM "
+"între desktopurile X."
+
+#. URL to *translated* version of the Extended Window Manager Hints
+#. Specification; set to dash ("-") if it has not been translated
+#: ../data/overlay.xml.in.h:175
+msgid "http://standards.freedesktop.org/wm-spec/wm-spec-latest.html"
+msgstr "http://standards.freedesktop.org/wm-spec/wm-spec-latest.html"
+
+#: ../data/overlay.xml.in.h:176
+msgid "Shared MIME-info Database Specification"
+msgstr "Baza de date partajată de informații MIME"
+
+#: ../data/overlay.xml.in.h:177
+msgid ""
+"This freedesktop.org specification attempts to unify the MIME database "
+"systems currently in use by X desktop environments."
+msgstr ""
+"Această specificație freedesktop.org încearcă să unească sistemele de baze "
+"de date MIME folosite în prezent de mediile de desktop X."
+
+#. URL to *translated* version of the Shared MIME-info Specification;
+#. set to dash ("-") if it has not been translated
+#: ../data/overlay.xml.in.h:180
+msgid ""
+"http://standards.freedesktop.org/shared-mime-info-spec/shared-mime-info-spec-"
+"latest.html"
+msgstr ""
+"http://standards.freedesktop.org/shared-mime-info-spec/shared-mime-info-spec-"
+"latest.html"
+
+#: ../data/overlay.xml.in.h:181
+msgid ""
+"The Easy Publish and Consume library (libepc) provides an easy method to "
+"publish data using HTTPS, announce that information via DNS-SD, find that "
+"information and finally consume it."
+msgstr ""
+"Biblioteca „Easy Publish and Consume” (libepc) furnizează o metodă simplă "
+"pentru publicarea datelor folosind HTTPS, anunțarea acesteia prin DNS-SD, "
+"găsirea și folosirea acesteia în final."
+
+#: ../data/overlay.xml.in.h:182
+msgid ""
+"GNet is a network library, written in C, object-oriented, and built upon "
+"GLib."
+msgstr ""
+"GNet este o bibliotecă de rețea, scrisă în C, orientată pe obiecte, "
+"construită pe baza GLib."
+
+#: ../data/overlay.xml.in.h:183
+msgid ""
+"GMime is a powerful MIME (Multipurpose Internet Mail Extension) utility "
+"library. It is meant for creating, editing, and parsing MIME messages and "
+"structures."
+msgstr ""
+"GMime este o bibliotecă puternică pe nume MIME (Multipurpose Internet Mail "
+"Extension). Este folosită pentru crearea, editarea și analizarea mesajelor "
+"și structurilor MIME."
+
+#: ../data/overlay.xml.in.h:184
+msgid ""
+"Tracker is a tool designed to extract information and metadata about user's "
+"personal data so that it can be searched easily and quickly. The libtracker-"
+"common library is the foundation for common procedures used in the daemon "
+"and the indexer."
+msgstr ""
+"Tracker este o unealtă făcută să extragă informația și metadatele despre "
+"datele personale ale utilizatorului, astfel încât acestea să poată fi găsite "
+"cu ușurință. Biblioteca libtracker stă la baza tuturor procedurilor comune "
+"folosite în serviciu și în indicii."
+
+#: ../data/overlay.xml.in.h:185
+msgid ""
+"Tracker is a tool designed to extract information and metadata about user's "
+"personal data so that it can be searched easily and quickly. The libtracker-"
+"module library helps developers write third party modules to extract content "
+"not commonly supported by Tracker."
+msgstr ""
+"Tracker este o unealtă făcută să extragă informația și metadatele despre "
+"datele personale ale utilizatorului, astfel încât acestea să poată fi găsite "
+"cu ușurință. Biblioteca libtracker-module ajută dezvoltatorii să scrie "
+"module externe de extragere a conținutului care nu este în mod normal "
+"suportat de Tracker."
+
+#: ../data/overlay.xml.in.h:186
+msgid ""
+"Grilo is a framework that provides access to different sources of multimedia "
+"content, using a pluggable system."
+msgstr ""
+
+#: ../data/overlay.xml.in.h:187
+msgid "grilo-plugins is a collection of plugins for the Grilo framework."
+msgstr ""
+
+#: ../data/overlay.xml.in.h:188
+msgid "GObject-based API for the Discident and EAN lookup services."
+msgstr ""
+
+#: ../data/overlay.xml.in.h:189
+msgid ""
+"libgxps is a GObject based library for handling and rendering XPS documents."
+msgstr ""
+
+#: ../data/overlay.xml.in.h:190
+msgid ""
+"iio-sensor-proxy is a D-Bus proxy for accelerometers and ambient light "
+"sensors."
+msgstr ""
+
+#: ../data/overlay.xml.in.h:191
+msgid "Release Notes"
+msgstr "Note de lansare"
+
+#: ../data/overlay.xml.in.h:192
+msgid ""
+"GNOME has a time-based release schedule. This means that there is a new "
+"GNOME release with accompanying notes every six months, to the minute."
+msgstr ""
+"GNOME are un orar de lansări bazat pe timp. Asta înseamnă că la fiecare 6 "
+"luni apare câte o nouă versiune acompaniată de note de lansare."
+
+#: ../data/overlay.xml.in.h:193
+#, fuzzy
+#| msgid "GTK+ 2.0 Tutorial"
+msgid "The Python GTK+ 3 Tutorial"
+msgstr "Ghid practic GTK+ 2.0"
+
+#: ../data/overlay.xml.in.h:194
+msgid "An introduction to writing GTK+ 3 applications in Python."
+msgstr ""
+
+#~ msgid "more versions, languages, or options..."
+#~ msgstr "mai multe versiuni, limbi sau opțiuni.."
+
+#~ msgid ""
+#~ "A collection of useful scripts to help developers accomplish simple "
+#~ "(often repetitive) tasks."
+#~ msgstr ""
+#~ "O colecție de scripturi folositoare menite să ajute dezvoltatorii să "
+#~ "efectueze o serie de sarcini (adesea repetitive)"
+
+#~ msgid "A feast of essential GNOME future planning information."
+#~ msgstr "O mulțime de informații legate de planificările GNOME viitoare."
+
+#~ msgid "An introduction to the new module interface of GNOME Deskbar-Applet."
+#~ msgstr "O introducere în nouă interfață de modul GNOME Deskbar-Applet."
+
+#~ msgid "Desktop Administrators' Guide to GNOME Lockdown and Preconfiguration"
+#~ msgstr ""
+#~ "Ghidul administratorilor de desktop și preconfigurații pentru GNOME "
+#~ "Lockdown"
+
+#~ msgid "Developer Scripts"
+#~ msgstr "Scripturi pentru dezvoltatori"
+
+#~ msgid "Development Tools"
+#~ msgstr "Unelte pentru dezvoltare"
+
+#~ msgid "GNOME Bug Tracker"
+#~ msgstr "Sistem de urmărire a defecțiunilor GNOME"
+
+#~ msgid "GNOME Desktop Libraries"
+#~ msgstr "Biblioteci Desktop GNOME"
+
+#~ msgid "GNOME Git Repository"
+#~ msgstr "Depozit GIT Gnome"
+
+#~ msgid ""
+#~ "Lockdown is the mechanism which is used to bar users using a computing "
+#~ "environnment from performing certain actions (like, for instance, "
+#~ "printing files, or saving files to disk). The GNOME Desktop already has "
+#~ "lockdown support in a few areas (especially the panel and the epiphany "
+#~ "web browser). This document aims to cover all the lockdown features found "
+#~ "in GNOME, as well as act as a guide on how to preconfigure the desktop "
+#~ "settings."
+#~ msgstr ""
+#~ "Lockdown este un mecanism care este folosit pentru a împiedica "
+#~ "utilizatorii să utilizeze anumite funcții ale sistemului (de exemplu: "
+#~ "tipărirea fișierelor sau salvarea acestora pe hard disc). Desktopul GNOME "
+#~ "are deja suport de limitare a accesului în câteva zone (în special în "
+#~ "panou sau în browserul web Epiphany). Prin acest document se dorește "
+#~ "acoperirea tuturor caracteristicilor de limitare a accesului din GNOME, "
+#~ "precum și un ghid despre cum se pot preconfigura configurațiile "
+#~ "desktopului."
+
+#~ msgid "Possible parts of the GNOME 3.0 stack"
+#~ msgstr "Posibile parți ale stivei GNOME 3.0"
+
+#~ msgid "References"
+#~ msgstr "Referințe"
+
+#~ msgid "Release Planning"
+#~ msgstr "Planificarea lansării"
+
+#~ msgid ""
+#~ "So you want to get involved with GNOME. This will show you how to become "
+#~ "a member of the GNOME community. There are several sub-projects to choose "
+#~ "from."
+#~ msgstr ""
+#~ "Deci doriți să vă implicați în comunitatea GNOME. Aici veți afla cum să "
+#~ "deveniți un membru al comunității GNOME. Există mai multe subproiecte "
+#~ "dintre care puteți alege."
+
+#~ msgid "Telepathy Stack"
+#~ msgstr "Stiva Telepathy"
+
+#~ msgid ""
+#~ "Telepathy is a D-Bus framework for unifying real time communication, "
+#~ "including instant messaging, voice calls and video calls. It abstracts "
+#~ "differences between protocols to provide a unified interface for "
+#~ "applications."
+#~ msgstr ""
+#~ "Telepathy este o platformă D-Bus folosită pentru a uni toate mecanismele "
+#~ "de comunicație în timp real, ca mesageria instantă, apelurile de voce și "
+#~ "video. Abstractizează diferențele dintre protocoale și furnizează o "
+#~ "interfață pentru toate aplicațiile."
+
+#~ msgid ""
+#~ "The GNOME Bug Tracker allows you to send information about bugs you "
+#~ "encounter to the GNOME developers in an organized manner."
+#~ msgstr ""
+#~ "Sistemul de urmărire a defecțiunilor GNOME permite utilizatorului să "
+#~ "trimită dezvoltatorilor GNOME informații despre erorile întâlnite într-o "
+#~ "manieră organizată."
+
+#~ msgid ""
+#~ "The GNOME Git Tree holds the latest development versions of the main "
+#~ "GNOME packages, and allows coordination of GNOME development."
+#~ msgstr ""
+#~ "Arborele GNOME Git conține ultimele versiuni de dezvoltare a "
+#~ "principalelor pachete GNOME și permite coordonarea dezvoltării GNOME."
+
+#~ msgid ""
+#~ "The GNOME developer suite is a set of tools to ease the life of "
+#~ "developers; it features a graphical interface builder, an integrated help "
+#~ "system for API reference and more."
+#~ msgstr ""
+#~ "Suita de unelte pentru dezvoltarea GNOME este menită să ușureze viața "
+#~ "dezvoltatorilor; ea se bucură de un constructor de interfețe grafice, un "
+#~ "sistem de ajutor integrat pentru referințele API și altele."
+
+#~ msgid ""
+#~ "The guides provide the common practices used in code and interface design "
+#~ "within the GNOME platform as well as detailed knowledge about some "
+#~ "applications and components."
+#~ msgstr ""
+#~ "Ghidul furnizează ajutor pentru acțiunile zilnice folosite în programare "
+#~ "și design pe platforma GNOME cât și cunoștințe despre unele aplicații și "
+#~ "componente."
+
+#~ msgid ""
+#~ "The references contain the Application Programming Interface, list of "
+#~ "functions, classes and methods of the GNOME platform libraries and the "
+#~ "standards used within the GNOME platform."
+#~ msgstr ""
+#~ "Referințele conțin Interfața de programare a aplicațiilor, liste de "
+#~ "funcții, clase și metode pentru bibliotecile platformei GNOME și "
+#~ "standardele utilizate de platforma GNOME."
+
+#~ msgid ""
+#~ "This subsection has several of the libraries that are expected to be in "
+#~ "GNOME 3.0. The content is subject to change."
+#~ msgstr ""
+#~ "Această subsecțiune conține câteva din bibliotecile care vor apărea în "
+#~ "GNOME 3.0. Această secțiune se poate schimba oricând."
+
+#~ msgid ""
+#~ "Various links to learn more about GNOME development and how to get "
+#~ "involved."
+#~ msgstr ""
+#~ "Diferite legături pentru a învăța mai multe despre dezvoltarea GNOME și "
+#~ "cum vă puteți implica."
+
+#~ msgid "Writing new-style modules for Deskbar-Applet"
+#~ msgstr "Scrierea noilor module pentru mini-aplicația Deskbar."
+
+#~ msgid "http://projects.gnome.org/deskbar-applet/new-style_modules.html"
+#~ msgstr "http://projects.gnome.org/deskbar-applet/new-style_modules.html"
+
+#~ msgid ""
+#~ "http://sayamindu.randomink.org/soc/deployment_guide/deployment_guide.html"
+#~ msgstr ""
+#~ "http://sayamindu.randomink.org/soc/deployment_guide/deployment_guide.html"

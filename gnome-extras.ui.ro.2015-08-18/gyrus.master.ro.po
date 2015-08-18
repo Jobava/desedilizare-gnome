@@ -1,0 +1,600 @@
+# Romanian translation for gyrus.
+# Copyright (C) 2010 gyrus's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gyrus package.
+# Alexandru Baicoianu <baicoianu.alexandru@gmail.com>, 2010.
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: gyrus master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=gyrus&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-12-19 14:26+0000\n"
+"PO-Revision-Date: 2011-03-19 00:20+0200\n"
+"Last-Translator: Lucian Adrian Grijincu <lucian.grijincu@gmail.com>\n"
+"Language-Team: Romanian Gnome Team <gnomero-list@lists.sourceforge.net>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);;\n"
+"X-Generator: Virtaal 0.6.1\n"
+
+#: ../gyrus.desktop.in.in.h:1
+msgid "Gyrus IMAP Cyrus Administrator"
+msgstr "Gyrus - administrator Cyrus IMAP"
+
+#: ../gyrus.desktop.in.in.h:2
+msgid "Administer the mailboxes of your IMAP Cyrus servers"
+msgstr "Administrează conturile de mail ale serverelor IMAP Cyrus"
+
+#: ../src/ui/create_mailbox.xml.h:1
+msgid "Name:"
+msgstr ""
+
+#: ../src/ui/create_mailbox.xml.h:2
+#, fuzzy
+#| msgid "Quota (%)"
+msgid "Quota (MB):"
+msgstr "Cotă (%)"
+
+#: ../src/ui/create_mailbox.xml.h:3
+msgid "Assign quota"
+msgstr "Atribuie cotă"
+
+#: ../src/ui/find.xml.h:1
+msgid "Search for:"
+msgstr "Caută după:"
+
+#: ../src/ui/find.xml.h:2
+msgid "Match _entire word only"
+msgstr "Potrivire _doar pentru cuvinte întregi"
+
+#: ../src/ui/find.xml.h:3
+msgid "_Wrap around"
+msgstr "_Reia de la început"
+
+#: ../src/ui/page.xml.h:1
+#, fuzzy
+#| msgid "<b>Free space:</b>"
+msgid "Free space:"
+msgstr "<b>Spațiu liber:</b>"
+
+#: ../src/ui/page.xml.h:2
+#, fuzzy
+#| msgid "<b>Assigned space:</b>"
+msgid "Assigned space:"
+msgstr "<b>Spațiu atribuit:</b>"
+
+#: ../src/ui/page.xml.h:3
+#, fuzzy
+#| msgid "<b>Owner:</b>"
+msgid "Owner:"
+msgstr "<b>Proprietar:</b>"
+
+#: ../src/ui/page.xml.h:4
+msgid "New quota (MB)"
+msgstr "Cotă nouă (MB)"
+
+#: ../src/ui/page.xml.h:5
+msgid "Modify quota"
+msgstr "Modifică cota"
+
+#: ../src/ui/page.xml.h:6
+msgid "Access control list"
+msgstr "Listă control acces"
+
+#: ../src/ui/page.xml.h:7 ../src/ui/sessions_edit.xml.h:5
+#: ../tests/gyrus-talk.xml.h:2
+msgid "Host:"
+msgstr "Gazdă:"
+
+#: ../src/ui/page.xml.h:8
+#, fuzzy
+#| msgid "User"
+msgid "User:"
+msgstr "Utilizator"
+
+#: ../src/ui/page.xml.h:9 ../src/ui/sessions_edit.xml.h:4
+#: ../tests/gyrus-talk.xml.h:4
+msgid "Port:"
+msgstr "Port:"
+
+#: ../src/ui/password.xml.h:1
+msgid "Password"
+msgstr "Parolă"
+
+#: ../src/ui/password.xml.h:2
+#, fuzzy
+#| msgid "<b>Enter your password</b>"
+msgid "Enter your password"
+msgstr "<b>Introduceți parola</b>"
+
+#: ../src/ui/report.xml.h:1
+msgid "Report"
+msgstr "Raport"
+
+#: ../src/ui/report.xml.h:3
+#, no-c-format
+msgid "Over (%)"
+msgstr "Peste (%)"
+
+#: ../src/ui/sessions.xml.h:1
+msgid "Open session"
+msgstr "Deschide sesiune"
+
+#: ../src/ui/sessions_edit.xml.h:1
+msgid "Session name:"
+msgstr "Nume sesiune:"
+
+#: ../src/ui/sessions_edit.xml.h:2
+msgid "Password:"
+msgstr "Parolă:"
+
+#: ../src/ui/sessions_edit.xml.h:3
+msgid "Username:"
+msgstr "Nume utilizator:"
+
+#: ../src/ui/sessions_edit.xml.h:6
+#, fuzzy
+#| msgid "<b>Session details</b>"
+msgid "Session details"
+msgstr "<b>Detalii sesiune</b>"
+
+#: ../src/ui/sessions_edit.xml.h:7 ../tests/gyrus-talk.xml.h:3
+msgid "Use a secure connection"
+msgstr "Utilizează o conexiune sigură"
+
+#: ../src/ui/sessions_edit.xml.h:8
+msgid "Mailbox hierarchy separator:"
+msgstr "Separator în ierarhia căsuțelor poștale:"
+
+#: ../src/ui/sessions_edit.xml.h:9
+msgid "<b>Options</b>"
+msgstr "<b>Opțiuni</b>"
+
+#: ../src/gyrus-admin-acl.c:54 ../src/gyrus-admin-acl.c:103
+#, c-format
+msgid "Mailbox '%s' does not exist."
+msgstr "Căsuța poștală „%s” nu există."
+
+#: ../src/gyrus-admin-acl.c:76
+msgid "Invalid identifier."
+msgstr "Identificator nevalid."
+
+#: ../src/gyrus-admin-acl.c:82
+msgid "Empty entry name."
+msgstr "Câmpul nume este gol."
+
+#: ../src/gyrus-admin-acl.c:87
+msgid "Empty mailbox name."
+msgstr "Lipsă nume căsuță poștală."
+
+#: ../src/gyrus-admin-acl.c:107
+msgid "Missing required argument to Setacl"
+msgstr "Un argument necesar pentru Setacl lipsește lipsește"
+
+#: ../src/gyrus-admin-acl.c:143 ../src/gyrus-admin-mailbox.c:80
+msgid "Permission denied"
+msgstr "Acces refuzat"
+
+#: ../src/gyrus-admin-acl.c:175
+msgid "Empty access control list."
+msgstr "Lista de control acces este goală."
+
+#: ../src/gyrus-admin-mailbox.c:78
+msgid "Quota does not exist"
+msgstr "Cota nu există"
+
+#: ../src/gyrus-admin-mailbox.c:172
+#, c-format
+msgid "Quota overloaded"
+msgstr "Cota este supra-încărcată"
+
+#: ../src/gyrus-admin-mailbox.c:230
+msgid "Quota not valid. Please try again."
+msgstr "Cota este nevalidă. Încercați din nou."
+
+#: ../src/gyrus-admin-mailbox.c:244
+msgid ""
+"Unable to change quota. Are you sure do you have the appropriate permissions?"
+msgstr "Nu se poate schimba cota. Sigur aveți permisiunile necesare?"
+
+#: ../src/gyrus-admin-mailbox.c:324
+#, c-format
+msgid "'%s' is not a valid mailbox name. Please try a different one."
+msgstr ""
+"„%s” nu este un nume valid pentru o căsuță poștală. Încercați alt nume."
+
+#: ../src/gyrus-admin-mailbox.c:332
+#, c-format
+msgid ""
+"Parent mailbox '%s' does not exist. Please refresh the mailboxes list and "
+"try again."
+msgstr ""
+"Căsuța poștală părinte „%s” nu există. Reîmprospătați lista căsuțelor "
+"poștale și încercați din nou."
+
+#: ../src/gyrus-admin-mailbox.c:342
+#, c-format
+msgid "Mailbox '%s' already exists. Please try a different name."
+msgstr "Căsuța poștală „%s” deja există. Încercați un nume diferit."
+
+#: ../src/gyrus-admin-mailbox.c:355
+msgid ""
+"Unable to create the mailbox. Are you sure do you have the appropriate "
+"permissions?"
+msgstr "Nu se poate crea căsuța poștală. Sigur aveți permisiunile necesare?"
+
+#: ../src/gyrus-admin-mailbox.c:366
+msgid "Mailbox created, but could not set quota."
+msgstr "Căsuța poștală a fost creată, dar nu s-a putut configura cota."
+
+#: ../src/gyrus-admin-mailbox.c:433
+#, c-format
+msgid "Unable to delete '%s'. Permission denied."
+msgstr "Nu se poate șterge „%s”. Acces refuzat."
+
+#: ../src/gyrus-admin-mailbox.c:634
+msgid "new entry"
+msgstr "intrare nouă"
+
+#: ../src/gyrus-admin.c:447 ../src/gyrus-report.c:287
+#, c-format
+msgid "Users (%d)"
+msgstr "Utilizatori (%d)"
+
+#: ../src/gyrus-admin.c:453
+#, c-format
+msgid "Orphaned mailboxes (%d)"
+msgstr "Căsuțe poștale părăsite (%d)"
+
+#: ../src/gyrus-admin.c:497 ../src/gyrus-admin.c:852
+msgid "Orphaned mailboxes"
+msgstr "Căsuțe poștale părăsite"
+
+#: ../src/gyrus-admin.c:497 ../src/gyrus-admin.c:850 ../src/gyrus-report.c:168
+msgid "Users"
+msgstr "Utilizatori"
+
+#: ../src/gyrus-admin.c:565
+msgid "lookup"
+msgstr "căutare"
+
+#: ../src/gyrus-admin.c:566
+msgid "read"
+msgstr "citire"
+
+#: ../src/gyrus-admin.c:567
+msgid "seen"
+msgstr "văzut"
+
+#: ../src/gyrus-admin.c:568
+msgid "write"
+msgstr "scriere"
+
+#: ../src/gyrus-admin.c:569
+msgid "insert"
+msgstr "introducere"
+
+#: ../src/gyrus-admin.c:570
+msgid "post"
+msgstr "publicare"
+
+#: ../src/gyrus-admin.c:571
+msgid "create"
+msgstr "creare"
+
+#: ../src/gyrus-admin.c:572
+msgid "delete"
+msgstr "ștergere"
+
+#: ../src/gyrus-admin.c:573
+msgid "admin"
+msgstr "admin"
+
+#: ../src/gyrus-admin.c:581
+msgid "Identifier"
+msgstr "Identificator"
+
+#: ../src/gyrus-admin.c:651
+msgid "Couldn't create the client socket."
+msgstr "Nu s-a putut crea socket-ul client."
+
+#: ../src/gyrus-admin.c:659
+msgid "Couldn't parse the server address."
+msgstr "Nu s-a putut parsa adresa serverului."
+
+#: ../src/gyrus-admin.c:668
+#, c-format
+msgid "Could not connect to %s, port %d."
+msgstr "Nu s-a putut realiza conexiunea la %s, port %d."
+
+#: ../src/gyrus-admin.c:998
+msgid "Unable to connect with empty passwords. Please introduce your password."
+msgstr "Nu se poate conecta fără parolă. Introduceți parola."
+
+#: ../src/gyrus-admin.c:1005
+msgid "Incorrect login/password"
+msgstr "Autentificare incorectă"
+
+#: ../src/gyrus-admin.c:1361
+msgid "Could not change permission. Server error: "
+msgstr "Nu se pot schimba permisiunile. Eroare de server: "
+
+#: ../src/gyrus-admin.c:1404
+#, c-format
+msgid "An entry called '%s' already exists. Overwrite it?"
+msgstr "O intrare numită „%s” deja există. Suprascrieți?"
+
+#: ../src/gyrus-dialog-find-mailbox.c:171
+#, c-format
+msgid "The text '%s' was not found in the mailbox list."
+msgstr "Textul „%s” nu a fost găsit în lista căsuțelor poștale."
+
+#: ../src/gyrus-dialog-find-mailbox.c:275
+msgid "Find mailbox"
+msgstr "Caută căsuță poștală"
+
+#: ../src/gyrus-dialog-mailbox-new.c:93
+msgid "Quota not valid"
+msgstr "Cota este nevalidă"
+
+#: ../src/gyrus-dialog-mailbox-new.c:220
+msgid "New mailbox"
+msgstr "Căsuță poștală nouă"
+
+#: ../src/gyrus-main-app.c:146
+#, c-format
+msgid "Really delete mailbox '%s' and all of its submailboxes?"
+msgstr "Sigur ștergeți căsuța poștală „%s” și toate sub-căsuțele acesteia?"
+
+#: ../src/gyrus-main-app.c:261 ../src/gyrus-main-app.c:407
+#: ../src/gyrus-main-app.c:703
+msgid "Cyrus IMAP Administrator"
+msgstr "Administrator IMAP Cyrus"
+
+#: ../src/gyrus-main-app.c:275
+#, c-format
+msgid "%s - Cyrus IMAP Administrator"
+msgstr "%s - Administrator IMAP Cyrus"
+
+#: ../src/gyrus-main-app.c:354
+msgid "_File"
+msgstr "_Fișier"
+
+#: ../src/gyrus-main-app.c:355
+msgid "_Edit"
+msgstr "_Editare"
+
+#: ../src/gyrus-main-app.c:356
+msgid "_ACL"
+msgstr "_ACL"
+
+#: ../src/gyrus-main-app.c:357
+msgid "_View"
+msgstr "_Vizualizează"
+
+#: ../src/gyrus-main-app.c:358
+msgid "_Help"
+msgstr "_Ajutor"
+
+#: ../src/gyrus-main-app.c:359
+msgid "Go to server..."
+msgstr "Navighează la server..."
+
+#: ../src/gyrus-main-app.c:360
+msgid "Show the list of servers"
+msgstr "Arată lista serverelor"
+
+#: ../src/gyrus-main-app.c:368
+msgid "Add mailbox"
+msgstr "Adaugă căsuță poștală"
+
+#: ../src/gyrus-main-app.c:369
+msgid "Add a mailbox under the one selected"
+msgstr "Adaugă o căsuță poștală sub cea selectată"
+
+#: ../src/gyrus-main-app.c:371
+msgid "Search for a mailbox in current server"
+msgstr "Caută o căsuță poștală în serverul curent"
+
+#: ../src/gyrus-main-app.c:373
+msgid "Refresh the mailbox list"
+msgstr "Reîmprospătați lista conturilor de mail"
+
+#: ../src/gyrus-main-app.c:374
+msgid "Create report..."
+msgstr "Creează raport..."
+
+#: ../src/gyrus-main-app.c:375
+msgid "Create report of users with quota problems"
+msgstr "Creează un raport cu utilizatorii care au probleme legate de cote."
+
+#: ../src/gyrus-main-app.c:379
+msgid "New entry"
+msgstr "Intrare nouă"
+
+#: ../src/gyrus-main-app.c:380
+msgid "Create a new ACL entry in current mailbox"
+msgstr "Creează o nouă intrare ACL în căsuța poștală curentă"
+
+#: ../src/gyrus-main-app.c:381
+msgid "Remove mailbox"
+msgstr "Șterge căsuță poștală"
+
+#: ../src/gyrus-main-app.c:382
+msgid "Remove current mailbox from the server"
+msgstr "Șterge căsuța poștală curentă din server"
+
+#: ../src/gyrus-main-app.c:387
+msgid "Rename entry"
+msgstr "Redenumește intrarea"
+
+#: ../src/gyrus-main-app.c:388
+msgid "Rename selected ACL entry"
+msgstr "Redenumește intrarea ACL selectată"
+
+#: ../src/gyrus-main-app.c:389
+msgid "Delete entry"
+msgstr "Șterge intrarea"
+
+#: ../src/gyrus-main-app.c:390
+msgid "Delete selected ACL entry"
+msgstr "Redenumește intrările ACL selectate"
+
+#: ../src/gyrus-main-app.c:523
+msgid "translators-credits"
+msgstr "Alexandru Baicoianu <baicoianu_alexandru@gmail.com>"
+
+#: ../src/gyrus-main-app.c:533
+msgid "GNOME Cyrus Administrator"
+msgstr "GNOME, administrator Cyrus IMAP"
+
+#: ../src/gyrus-main-app.c:535
+msgid ""
+"(c) 2003-2005 GNOME Foundation\n"
+"(c) 2004-2005 Claudio Saavedra"
+msgstr ""
+"(c) 2003-2005 GNOME Foundation\n"
+"(c) 2004-2005 Claudio Saavedra"
+
+#: ../src/gyrus-main-app.c:537
+msgid "Administration tool for Cyrus IMAP servers."
+msgstr "Unelte pentru administrarea serverelor IMAP Cyrus."
+
+#. set title
+#: ../src/gyrus-report.c:105
+#, c-format
+msgid "Mailbox space usage report for %s"
+msgstr "Raport utilizare căsuță poștală pentru %s"
+
+#: ../src/gyrus-report.c:189 ../src/gyrus-report.c:490
+msgid "Quota (%)"
+msgstr "Cotă (%)"
+
+#: ../src/gyrus-report.c:202 ../src/gyrus-report.c:494
+msgid "Assigned (KB)"
+msgstr "Atribuiți (KB)"
+
+#: ../src/gyrus-report.c:213 ../src/gyrus-report.c:498
+msgid "Used (KB)"
+msgstr "Utilizați (KB)"
+
+#. Translators: this represents the number of pages being printed.
+#: ../src/gyrus-report.c:463
+#, c-format
+msgid "%d/%d"
+msgstr "%d/%d"
+
+#: ../src/gyrus-report.c:486
+msgid "User"
+msgstr "Utilizator"
+
+#: ../src/gyrus-session.c:164
+msgid "Edit session"
+msgstr "Editare sesiune"
+
+#: ../src/gyrus-session.c:178
+msgid "New session"
+msgstr "Sesiune nouă"
+
+#: ../src/gyrus-session.c:357
+msgid "A session name is required."
+msgstr "Un nume pentru sesiune este necesar."
+
+#: ../src/gyrus-session.c:368
+#, c-format
+msgid "Session named \"%s\" already exists."
+msgstr "Sesiunea numită „%s\" există deja."
+
+#: ../src/gyrus-session.c:464 ../src/gyrus-session.c:598
+msgid "Autodetect"
+msgstr "Detectare automată"
+
+#: ../src/gyrus-session.c:549
+msgid "Session"
+msgstr "Sesiune"
+
+#: ../src/gyrus-session.c:718
+msgid "No host specified."
+msgstr "Nicio gazdă specificată."
+
+#: ../tests/gyrus-talk.xml.h:1
+msgid "Talk - Echo client"
+msgstr "Vorbește - Client Echo"
+
+#: ../tests/gyrus-talk.xml.h:5
+msgid "_Connect"
+msgstr "_Conectare"
+
+#: ../tests/gyrus-talk.xml.h:6
+#, fuzzy
+#| msgid "_Connect"
+msgid "Connection"
+msgstr "_Conectare"
+
+#: ../tests/gyrus-talk.xml.h:7
+msgid "Command:"
+msgstr "Comandă:"
+
+#: ../tests/gyrus-talk.xml.h:8
+msgid "_Send"
+msgstr "_Trimite"
+
+#~ msgid "<b>Name:</b>"
+#~ msgstr "<b>Nume:</b>"
+
+#~ msgid "<b>Quota (MB):</b>"
+#~ msgstr "<b>Cotă (MB):</b>"
+
+#~ msgid "<b>Host:</b>"
+#~ msgstr "<b>Gazdă:</b>"
+
+#~ msgid "<b>Port:</b>"
+#~ msgstr "<b>Port:</b>"
+
+#~ msgid "<b>User:</b>"
+#~ msgstr "<b>Utilizator:</b>"
+
+#~ msgid "<b>Connection</b>"
+#~ msgstr "<b>Conexiune</b>"
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "Create mailbox"
+#~ msgstr "Creează o căsuță poștală"
+
+#~ msgid "Find"
+#~ msgstr "Caută"
+
+#~ msgid "<b>Mailbox quota:</b>"
+#~ msgstr "<b>Cotă căsuță poștală:</b>"
+
+#~ msgid "<b>Mailboxes tree:</b>"
+#~ msgstr "<b>Arborele căsuțelor poștale:</b>"
+
+#~ msgid "Default suffix for changing quota:"
+#~ msgstr "Sufixul implicit pentru schimbarea cotei:"
+
+#~ msgid "Preferences"
+#~ msgstr "Preferințe"
+
+#~ msgid "View complete mailboxes tree"
+#~ msgstr "Vizualizează arborele căsuțelor poștale"
+
+#~ msgid ""
+#~ ".\n"
+#~ "/\n"
+#~ "Autodetect"
+#~ msgstr ""
+#~ ".\n"
+#~ "/\n"
+#~ "Detectare automată"
+
+#~ msgid "%s could not be found. Please check the name and try again."
+#~ msgstr "%s nu a fost găsit. Verificați denumirea și încercați din nou."
+
+#~ msgid "_Disconnect"
+#~ msgstr "_Deconectare"
